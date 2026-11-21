@@ -1,0 +1,2 @@
+import {test} from "node:test";import assert from "node:assert/strict";import {buildApp} from "./app.js";
+test("public endpoints",async()=>{const app=buildApp();try{assert.equal((await app.inject("/health")).statusCode,200);assert.equal((await app.inject("/v1/stages")).json().data.length,12);assert.equal((await app.inject("/v1/articles?limit=3")).json().data.length,3);assert.equal((await app.inject("/v1/articles?limit=100")).statusCode,400);assert.equal((await app.inject("/v1/articles/unknown")).statusCode,404);}finally{await app.close()}});

@@ -1,0 +1,19 @@
+{
+  "name": "hanh-trinh-me-be",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w @mebe/web",
+    "dev:api": "npm run dev -w @mebe/api",
+    "dev:mobile": "npm run start -w @mebe/mobile",
+    "build:web": "npm run build -w @mebe/web",
+    "test": "npm run test -w @mebe/api && npm run check:content",
+    "check:content": "node scripts/check-content.mjs"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

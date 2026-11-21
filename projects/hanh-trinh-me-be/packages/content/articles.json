@@ -1,0 +1,1088 @@
+{
+  "version": "2026-11-21",
+  "disclaimer": "Nội dung đang ở giai đoạn bản nháp biên tập; không thay thế tư vấn, chẩn đoán hoặc điều trị của chuyên gia y tế.",
+  "stages": [
+    {
+      "slug": "chuan-bi-mang-thai",
+      "title": "Chuẩn bị mang thai",
+      "icon": "🌱",
+      "range": "Trước khi có em bé",
+      "description": "Sức khỏe tiền thai, sự chuẩn bị của gia đình và những cuộc trò chuyện quan trọng.",
+      "order": 1
+    },
+    {
+      "slug": "thai-ky-3-thang-dau",
+      "title": "Thai kỳ 3 tháng đầu",
+      "icon": "🤰",
+      "range": "Tuần 1–13",
+      "description": "Làm quen với thai kỳ, theo dõi sức khỏe và chăm sóc cảm xúc.",
+      "order": 2
+    },
+    {
+      "slug": "thai-ky-3-thang-giua",
+      "title": "Thai kỳ 3 tháng giữa",
+      "icon": "🌷",
+      "range": "Tuần 14–27",
+      "description": "Hiểu sự thay đổi cơ thể, vận động phù hợp và gắn kết gia đình.",
+      "order": 3
+    },
+    {
+      "slug": "thai-ky-3-thang-cuoi",
+      "title": "Thai kỳ 3 tháng cuối",
+      "icon": "🧳",
+      "range": "Tuần 28 đến sinh",
+      "description": "Chuẩn bị sinh, kế hoạch hỗ trợ và những ngày đầu làm cha mẹ.",
+      "order": 4
+    },
+    {
+      "slug": "hau-san",
+      "title": "Hậu sản & hồi phục",
+      "icon": "🫶",
+      "range": "Sau sinh",
+      "description": "Chăm sóc người mẹ, nghỉ ngơi, kết nối và tìm kiếm hỗ trợ.",
+      "order": 5
+    },
+    {
+      "slug": "so-sinh",
+      "title": "Trẻ sơ sinh",
+      "icon": "🍼",
+      "range": "0–3 tháng",
+      "description": "Nhịp sinh hoạt, chăm sóc an toàn và lắng nghe tín hiệu của bé.",
+      "order": 6
+    },
+    {
+      "slug": "nhu-nhi",
+      "title": "Bé lớn từng ngày",
+      "icon": "🐣",
+      "range": "4–12 tháng",
+      "description": "Dinh dưỡng, tương tác, chơi và theo dõi phát triển.",
+      "order": 7
+    },
+    {
+      "slug": "tap-di",
+      "title": "Tuổi tập đi",
+      "icon": "👣",
+      "range": "1–3 tuổi",
+      "description": "Ngôn ngữ, cảm xúc, khám phá và xây dựng môi trường an toàn.",
+      "order": 8
+    },
+    {
+      "slug": "mam-non",
+      "title": "Tuổi mầm non",
+      "icon": "🎨",
+      "range": "3–6 tuổi",
+      "description": "Học thông qua chơi, tự lập và kỹ năng xã hội.",
+      "order": 9
+    },
+    {
+      "slug": "tieu-hoc",
+      "title": "Tuổi tiểu học",
+      "icon": "📚",
+      "range": "6–11 tuổi",
+      "description": "Thói quen học tập, tình bạn và đời sống gia đình.",
+      "order": 10
+    },
+    {
+      "slug": "thieu-nien",
+      "title": "Tuổi thiếu niên",
+      "icon": "🌻",
+      "range": "12–17 tuổi",
+      "description": "Dậy thì, cảm xúc, an toàn số và tôn trọng sự khác biệt.",
+      "order": 11
+    },
+    {
+      "slug": "truong-thanh",
+      "title": "Bước vào trưởng thành",
+      "icon": "🕊️",
+      "range": "18 tuổi trở lên",
+      "description": "Độc lập, lựa chọn đường đi và giữ kết nối lành mạnh với gia đình.",
+      "order": 12
+    }
+  ],
+  "articles": [
+    {
+      "slug": "cuoc-tro-chuyen-truoc-khi-co-con",
+      "stage": "chuan-bi-mang-thai",
+      "title": "5 cuộc trò chuyện trước khi có em bé",
+      "summary": "Không chỉ chuẩn bị đồ dùng: thống nhất việc chăm sóc, tài chính và nguồn hỗ trợ.",
+      "readMinutes": 3,
+      "order": 1,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Hai người có thể bàn về kỳ vọng, sự phân chia công việc, ranh giới với họ hàng và cách đưa ra quyết định khi bất đồng."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Viết ra người có thể hỗ trợ sau sinh, tình huống cần nhờ giúp và ngân sách dự phòng. Không cần giải quyết hoàn hảo mọi câu hỏi ngay."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu mối quan hệ có xung đột kéo dài hoặc một người cảm thấy không an toàn, hãy tìm hỗ trợ phù hợp trước khi lên kế hoạch mang thai."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "hen-tu-van-tien-thai",
+      "stage": "chuan-bi-mang-thai",
+      "title": "Một cuộc hẹn tiền thai nên chuẩn bị gì?",
+      "summary": "Gợi ý câu hỏi để trao đổi với chuyên gia y tế trước khi mang thai.",
+      "readMinutes": 3,
+      "order": 2,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Sức khỏe trước mang thai liên quan đến tiền sử bệnh, thuốc đang sử dụng, tiêm chủng và hoàn cảnh cá nhân. Không nên tự ngừng thuốc đang điều trị."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chuẩn bị danh sách thuốc, bệnh sử, tiền sử gia đình, điều lo lắng và những câu hỏi muốn hỏi bác sĩ. Đưa người đồng hành đi cùng nếu thấy hữu ích."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu đang mắc bệnh mạn tính, từng có biến chứng thai kỳ hoặc có thắc mắc về khả năng sinh sản, trao đổi trực tiếp với cơ sở y tế."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy",
+          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "lan-kham-thai-dau-tien",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Lần khám thai đầu tiên: chuẩn bị như thế nào?",
+      "summary": "Những thông tin và câu hỏi hữu ích cho lần tiếp xúc đầu với nhân viên y tế.",
+      "readMinutes": 3,
+      "order": 3,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Theo dõi thai kỳ cần được cá nhân hóa. WHO nhấn mạnh chăm sóc trước sinh thường xuyên để nhận biết sớm các vấn đề và hỗ trợ người mang thai."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Ghi ngày kinh gần nhất nếu nhớ, triệu chứng, tiền sử bệnh và các loại thuốc hoặc thực phẩm bổ sung đang dùng. Đề nghị bác sĩ giải thích kế hoạch theo dõi."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu xuất hiện triệu chứng nghiêm trọng hoặc bất thường, hãy liên hệ cơ sở y tế thay vì chỉ dựa vào nội dung trực tuyến."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy",
+          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "cam-xuc-dau-thai-ky",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Khi cảm xúc thay đổi trong đầu thai kỳ",
+      "summary": "Cách nói về mệt mỏi, lo lắng và nhu cầu được lắng nghe.",
+      "readMinutes": 3,
+      "order": 4,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Những thay đổi trong thai kỳ có thể ảnh hưởng đến cảm xúc; mỗi người trải nghiệm khác nhau và không cần phải luôn vui vẻ."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Thử ghi lại điều khiến mình mệt, trao đổi nhu cầu hỗ trợ cụ thể với người thân và dành khoảng nghỉ phù hợp với sức khỏe."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Khi lo âu hoặc buồn bã kéo dài, ảnh hưởng sinh hoạt hay xuất hiện ý nghĩ làm hại bản thân, cần hỗ trợ y tế khẩn cấp nếu có nguy cơ trực tiếp."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "nhat-ky-thai-ky",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Tạo nhật ký thai kỳ không áp lực",
+      "summary": "Lưu những khoảnh khắc và câu hỏi quan trọng theo cách riêng của gia đình.",
+      "readMinutes": 3,
+      "order": 5,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Nhật ký không phải công cụ chẩn đoán hay cuộc thi ghi đủ mọi cột mốc. Nó có thể là nơi lưu kỷ niệm và chuẩn bị câu hỏi khi đi khám."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Mỗi tuần có thể viết ba dòng: điều đáng nhớ, điều muốn hỏi và ai đã giúp đỡ. Giữ quyền riêng tư cho những thông tin nhạy cảm."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Hỏi nhân viên y tế nếu có lo lắng về sự thay đổi sức khỏe; đừng dùng nhật ký thay việc thăm khám."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy",
+          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "dong-hanh-khi-mang-thai",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Người đồng hành có thể giúp gì?",
+      "summary": "Hỗ trợ thiết thực quan trọng hơn những lời khuyên dồn dập.",
+      "readMinutes": 3,
+      "order": 6,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Sự hỗ trợ có thể là cùng đi khám, giúp việc nhà, lắng nghe không phán xét và tôn trọng lựa chọn của người mang thai."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Hỏi một câu cụ thể mỗi ngày: hôm nay việc gì khiến bạn nhẹ gánh nhất? Sau đó thống nhất việc hỗ trợ trong khả năng."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không áp đặt lời khuyên hoặc công khai thông tin thai kỳ nếu người mang thai chưa đồng ý."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "tui-do-di-sinh",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Danh sách túi đồ đi sinh linh hoạt",
+      "summary": "Một checklist dễ tùy chỉnh thay vì mua sắm theo trào lưu.",
+      "readMinutes": 3,
+      "order": 7,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Nhu cầu mang đồ đến cơ sở sinh khác nhau theo bệnh viện, nơi ở và hoàn cảnh gia đình. Danh sách trên mạng chỉ là gợi ý."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Hỏi trực tiếp nơi dự định sinh về giấy tờ và vật dụng cần thiết; tách túi giấy tờ, đồ cho mẹ và đồ cho bé, đồng thời ghi số liên lạc quan trọng."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có kế hoạch sinh hoặc tình trạng sức khỏe đặc biệt, cần thống nhất riêng với nhân viên y tế."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy",
+          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "ke-hoach-ho-tro-sau-sinh",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Lập kế hoạch hỗ trợ 2 tuần đầu sau sinh",
+      "summary": "Phân vai rõ ràng để gia đình bớt quá tải.",
+      "readMinutes": 3,
+      "order": 8,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Chăm sóc em bé cần đi cùng chăm sóc người mẹ; việc nhà, ăn uống và giấc ngủ cũng là một phần của kế hoạch."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chia thành ba nhóm: ai hỗ trợ sinh hoạt, ai hỗ trợ lúc cần khám và ai là người có thể gọi khi quá mệt."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Khi người mẹ có dấu hiệu sức khỏe đáng lo hoặc khó khăn tinh thần nghiêm trọng, ưu tiên đánh giá chuyên môn."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Maternal health",
+          "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
+        }
+      ]
+    },
+    {
+      "slug": "nguoi-me-cung-can-duoc-cham-soc",
+      "stage": "hau-san",
+      "title": "Sau sinh, người mẹ cũng cần được chăm sóc",
+      "summary": "Gợi ý hỗ trợ thiết thực, tôn trọng khác biệt trải nghiệm sau sinh.",
+      "readMinutes": 3,
+      "order": 9,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Quá trình phục hồi sau sinh không giống nhau ở mỗi người; lịch theo dõi phải theo chỉ dẫn của nhân viên y tế."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chủ động hỏi người mẹ cần hỗ trợ gì, chia sẻ việc chăm bé, tạo điều kiện nghỉ ngơi và trao đổi về lịch tái khám."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu xuất hiện dấu hiệu bất thường về thể chất hoặc tinh thần, tìm chăm sóc y tế, không tự chẩn đoán qua bài viết."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Maternal health",
+          "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
+        }
+      ]
+    },
+    {
+      "slug": "chia-viec-trong-gia-dinh",
+      "stage": "hau-san",
+      "title": "Phân chia công việc để không ai kiệt sức",
+      "summary": "Một mẫu cuộc họp gia đình 15 phút, không đổ lỗi.",
+      "readMinutes": 3,
+      "order": 10,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Việc chăm trẻ thường khiến thời gian nghỉ của các thành viên bị thu hẹp; hỗ trợ nên được phân chia rõ và cập nhật thường xuyên."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chọn ba việc cố định cho mỗi người, một khung giờ được nghỉ và phương án nhờ người thân khi quá tải."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có căng thẳng kéo dài hoặc một người cảm thấy bị kiểm soát, tìm nguồn hỗ trợ an toàn."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "lam-quen-nhip-sinh-hoat-so-sinh",
+      "stage": "so-sinh",
+      "title": "Làm quen nhịp sinh hoạt của trẻ sơ sinh",
+      "summary": "Quan sát tín hiệu của bé thay vì cố ép một lịch hoàn hảo.",
+      "readMinutes": 3,
+      "order": 11,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Trẻ nhỏ có nhu cầu và nhịp sinh hoạt khác nhau. Những ngày đầu cần ưu tiên hướng dẫn chăm sóc từ cơ sở y tế và người chăm sóc trực tiếp."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Có thể ghi chép thời điểm ăn, ngủ và thay tã khi hữu ích, nhưng không nên dùng số liệu để so sánh hoặc gây áp lực cho gia đình."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu lo lắng về việc bú, thở, tỉnh táo hay sức khỏe của trẻ, liên hệ nhân viên y tế sớm."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "nhung-cau-hoi-khi-cham-be",
+      "stage": "so-sinh",
+      "title": "10 câu hỏi nên hỏi bác sĩ khi chăm bé sơ sinh",
+      "summary": "Tập trung vào thông tin cần xác nhận riêng cho từng em bé.",
+      "readMinutes": 3,
+      "order": 12,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Những vấn đề như nuôi dưỡng, giấc ngủ, an toàn và theo dõi sau sinh cần được hướng dẫn theo tình trạng của trẻ."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chuẩn bị câu hỏi về cách nhận biết tình huống khẩn, lịch hẹn, cách liên lạc cơ sở khám và những nguồn thông tin phù hợp."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ có biểu hiện bất thường, không chờ đến lần tái khám định kỳ mới hỏi."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "choi-va-tuong-tac-voi-be",
+      "stage": "nhu-nhi",
+      "title": "Chơi và tương tác cùng bé 4–12 tháng",
+      "summary": "Những khoảnh khắc ngắn cũng có ý nghĩa với gắn kết.",
+      "readMinutes": 3,
+      "order": 13,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Tương tác đáp lại tín hiệu của trẻ và hoạt động học qua chơi là thành phần của môi trường nuôi dưỡng tích cực."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Nói chuyện, hát theo cách của gia đình và để bé quan sát đồ vật phù hợp độ tuổi trong môi trường an toàn, có người giám sát."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Trao đổi với bác sĩ nếu bạn có băn khoăn về khả năng tương tác hoặc phát triển của trẻ."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Nurturing care for early childhood development",
+          "url": "https://www.who.int/publications/i/item/9789241514064"
+        }
+      ]
+    },
+    {
+      "slug": "moc-phat-trien-khong-phai-cuoc-dua",
+      "stage": "nhu-nhi",
+      "title": "Mốc phát triển không phải cuộc đua",
+      "summary": "Cách xem tài liệu mốc phát triển mà không tự chẩn đoán.",
+      "readMinutes": 3,
+      "order": 14,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Danh sách mốc phát triển của CDC hỗ trợ quan sát và trao đổi với chuyên gia, không phải xét nghiệm sàng lọc hay công cụ chẩn đoán."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Ghi điều trẻ đã thể hiện và câu hỏi muốn trao đổi trong lần thăm khám. Không so sánh từng ngày với trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ mất một kỹ năng từng có hoặc bạn có bất kỳ lo lắng đáng kể nào, hãy trao đổi với nhân viên y tế."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Developmental milestones",
+          "url": "https://www.cdc.gov/act-early/milestones/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "khi-con-noi-khong",
+      "stage": "tap-di",
+      "title": "Khi con bắt đầu nói “không”",
+      "summary": "Hiểu nhu cầu tự chủ của trẻ nhỏ mà vẫn giữ ranh giới an toàn.",
+      "readMinutes": 3,
+      "order": 15,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Ở tuổi tập đi, trẻ học cách thể hiện ý muốn khi khả năng diễn đạt và tự điều chỉnh cảm xúc còn đang phát triển."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Đưa lựa chọn nhỏ phù hợp, gọi tên cảm xúc, giữ giới hạn ngắn gọn và nhất quán, tránh quát mắng hoặc làm trẻ xấu hổ."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu gia đình thường xuyên kiệt sức hoặc lo lắng về giao tiếp, hãy hỏi chuyên gia phù hợp."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "goc-choi-kham-pha-an-toan",
+      "stage": "tap-di",
+      "title": "Thiết kế góc chơi khám phá an toàn",
+      "summary": "Một không gian đơn giản có thể hỗ trợ nhiều hoạt động chơi.",
+      "readMinutes": 3,
+      "order": 16,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Trẻ nhỏ học bằng quan sát, thử nghiệm và tương tác với người chăm sóc; đồ chơi đắt tiền không phải điều kiện bắt buộc."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Chọn vật dụng phù hợp lứa tuổi, loại bỏ nguy cơ hóc nghẹn và các nguồn nguy hiểm trong tầm với; luôn giám sát trẻ."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Khi phân vân về an toàn của đồ chơi hoặc môi trường, tham khảo hướng dẫn an toàn sản phẩm đáng tin cậy."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Nurturing care for early childhood development",
+          "url": "https://www.who.int/publications/i/item/9789241514064"
+        }
+      ]
+    },
+    {
+      "slug": "hoc-thong-qua-choi",
+      "stage": "mam-non",
+      "title": "Học thông qua chơi ở tuổi mầm non",
+      "summary": "Phát triển kỹ năng qua trò chuyện, tưởng tượng và vận động.",
+      "readMinutes": 3,
+      "order": 17,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Trò chơi cùng người lớn và bạn bè có thể tạo cơ hội khám phá ngôn ngữ, hợp tác và giải quyết vấn đề."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Dành thời gian chơi tự do, đặt câu hỏi mở và khuyến khích trẻ kể lại ý tưởng thay vì luôn yêu cầu đáp án đúng."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có lo ngại cụ thể về phát triển, nên trao đổi với người có chuyên môn; nội dung này không dùng để đánh giá trẻ."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Nurturing care for early childhood development",
+          "url": "https://www.who.int/publications/i/item/9789241514064"
+        }
+      ]
+    },
+    {
+      "slug": "chuan-bi-ngay-dau-di-hoc",
+      "stage": "mam-non",
+      "title": "Chuẩn bị cho ngày đầu đi học",
+      "summary": "Giúp trẻ cảm thấy được lắng nghe trong giai đoạn chuyển tiếp.",
+      "readMinutes": 3,
+      "order": 18,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Bắt đầu môi trường mới có thể khiến cả người lớn lẫn trẻ thấy háo hức hoặc lo lắng. Phản ứng mỗi trẻ khác nhau."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Kể trước lịch sinh hoạt, đi tham quan nếu có thể, tạo nghi thức chào tạm biệt ngắn và trao đổi với giáo viên."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ có những khó khăn kéo dài làm ảnh hưởng lớn đến sinh hoạt, cùng nhà trường tìm cách hỗ trợ phù hợp."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "dong-hanh-viec-hoc",
+      "stage": "tieu-hoc",
+      "title": "Đồng hành việc học không chỉ nhìn điểm số",
+      "summary": "Tạo thói quen học tập bền vững và tôn trọng nhịp riêng.",
+      "readMinutes": 3,
+      "order": 19,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Học tập liên quan đến sự tò mò, khả năng tự quản lý, nghỉ ngơi và cảm giác an toàn khi mắc lỗi."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Thống nhất góc học, thời gian linh hoạt và cách cùng con nhìn lại điều đã học; khen nỗ lực cụ thể thay vì gắn nhãn thông minh."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu con gặp khó khăn kéo dài, phối hợp với giáo viên và chuyên gia phù hợp thay vì tự gắn chẩn đoán."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "tinh-ban-dau-doi",
+      "stage": "tieu-hoc",
+      "title": "Đồng hành cùng tình bạn đầu đời",
+      "summary": "Dạy trẻ đặt ranh giới và tìm kiếm sự giúp đỡ.",
+      "readMinutes": 3,
+      "order": 20,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Quan hệ bạn bè giúp trẻ thử nghiệm hợp tác và giải quyết xung đột, nhưng không phải mối quan hệ nào cũng tích cực."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Hỏi con về cảm nhận của mình, luyện cách nói lời từ chối và xác định người lớn đáng tin để chia sẻ."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có dấu hiệu bắt nạt hoặc bạo lực, người lớn cần can thiệp bảo vệ thay vì yêu cầu trẻ tự chịu đựng."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "noi-chuyen-ve-day-thi",
+      "stage": "thieu-nien",
+      "title": "Nói chuyện về dậy thì không xấu hổ",
+      "summary": "Mở cuộc trò chuyện dựa trên tôn trọng cơ thể và quyền riêng tư.",
+      "readMinutes": 3,
+      "order": 21,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Dậy thì diễn ra khác nhau về thời điểm và trải nghiệm. Trẻ cần thông tin chính xác, môi trường đặt câu hỏi an toàn và không bị chê bai."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Bắt đầu từ câu hỏi mở, dùng thuật ngữ cơ thể phù hợp và nhắc quyền đồng ý, quyền riêng tư, nơi tìm hỗ trợ đáng tin."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Với băn khoăn sức khỏe hoặc phát triển riêng, khuyến khích trao đổi với nhân viên y tế."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "an-toan-so-cung-con",
+      "stage": "thieu-nien",
+      "title": "Xây dựng thỏa thuận an toàn số với con",
+      "summary": "Đối thoại thường hiệu quả hơn bí mật giám sát toàn bộ.",
+      "readMinutes": 3,
+      "order": 22,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Trải nghiệm trực tuyến có thể mang lại học hỏi và kết nối nhưng cũng tiềm ẩn rủi ro về riêng tư, lừa đảo và bắt nạt."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Cùng thiết lập nguyên tắc về dữ liệu cá nhân, giờ sử dụng, cách báo cáo nội dung gây khó chịu và người lớn có thể nhờ giúp."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có đe dọa, quấy rối hoặc lạm dụng, ưu tiên an toàn và hỗ trợ chuyên môn, không đổ lỗi cho trẻ."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "dong-hanh-khi-con-tu-lap",
+      "stage": "truong-thanh",
+      "title": "Khi con bắt đầu tự lập",
+      "summary": "Chuyển từ kiểm soát sang đồng hành khi con lớn.",
+      "readMinutes": 3,
+      "order": 23,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Bước vào tuổi trưởng thành đòi hỏi quyết định về học tập, công việc, tài chính và quan hệ; mỗi con đường là khác nhau."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Hỏi người trẻ muốn nhận hỗ trợ kiểu gì, thống nhất ranh giới trong nhà và trao đổi thực tế về ngân sách, thời gian."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu có dấu hiệu bạo lực, kiểm soát hay khủng hoảng tinh thần, tìm nguồn hỗ trợ phù hợp và ưu tiên an toàn."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    },
+    {
+      "slug": "giu-ket-noi-gia-dinh",
+      "stage": "truong-thanh",
+      "title": "Giữ kết nối gia đình khi con đã lớn",
+      "summary": "Tôn trọng khác biệt và duy trì những cuộc trò chuyện có chất lượng.",
+      "readMinutes": 3,
+      "order": 24,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "gia đình",
+        "hướng dẫn"
+      ],
+      "sections": [
+        {
+          "heading": "Điều quan trọng cần biết",
+          "paragraphs": [
+            "Mối quan hệ cha mẹ–con cái có thể thay đổi khi người con có quyền tự quyết nhiều hơn; sự tôn trọng hai chiều giúp việc trao đổi dễ hơn."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành",
+          "paragraphs": [
+            "Duy trì lịch gặp phù hợp, hỏi trước khi đưa lời khuyên và tạo không gian cho khác biệt về lựa chọn sống."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Khi bất đồng leo thang thành đe dọa hoặc tổn hại, tìm trợ giúp an toàn thay vì cố giải quyết một mình."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting",
+          "url": "https://www.unicef.org/parenting"
+        }
+      ]
+    }
+  ]
+}
