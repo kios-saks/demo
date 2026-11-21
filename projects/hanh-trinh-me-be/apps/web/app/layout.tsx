@@ -6,7 +6,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: { default: "Hành Trình Mẹ & Bé | Kiến thức cùng gia đình", template: "%s | Hành Trình Mẹ & Bé" },
   description: "Một thư viện kiến thức theo hành trình từ chuẩn bị mang thai đến khi con trưởng thành. Nội dung mẫu đang chờ thẩm định chuyên môn.",
-  openGraph: { type: "website", locale: "vi_VN", siteName: "Hành Trình Mẹ & Bé" }
+  openGraph: { type: "website", locale: "vi_VN", siteName: "Hành Trình Mẹ & Bé" },
+  robots: { index: false, follow: false } // No reviewed content yet; do not index the prototype.
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -20,3 +20,11 @@ P1: production CMS with authenticated RBAC, revisions/medical review workflow, m
 P2: optional user accounts, private timeline, notifications, marketing integrations, affiliate with disclosure, source-grounded AI search.
 
 Monorepo starts in a subfolder; use `cd projects/hanh-trinh-me-be` before npm tasks.
+
+## Data repository and seed (2026-11-21)
+
+New `KnowledgeRepository` interface lives under `packages/data/src/contracts.ts`. Use `MockKnowledgeRepository` for in-memory sample data and inject it into API handlers. Do not access raw JSON from API route logic. Future Postgres adapter implements the exact same contract, selected only from composition roots.
+
+A curated, cross-linked set of reference metadata lives in `packages/content/mock/` (13 verified official source URLs, 13 editorial topics, 12 original cards). All statuses must remain DRAFT, no fake clinical reviewer. Use `npm run check:content` to validate foreign keys. Never copy substantial text from official resource pages, and never claim those agencies endorse content.
+
+Production API hides draft articles and private mock editorial/research endpoints. Public Web remains a **demo only** and is noindex globally. Maintain those safety protections. Mobile stays bundled offline until a verified API client is introduced.

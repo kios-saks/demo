@@ -1,7 +1,10 @@
 import Link from "next/link";
-import data from "../../../packages/content/articles.json";
+import { getWebRepository } from "../lib/repository";
 
-export default function Home() {
+export default async function Home() {
+  const repo=getWebRepository();
+  const stages=await repo.listStages();
+  const articles=(await repo.listArticles({limit:50})).data;
   return (
     <>
       <section className="hero"><div className="wrap hero-inner">
@@ -15,7 +18,7 @@ export default function Home() {
       </div></section>
       <section className="wrap section" id="hanh-trinh">
         <div className="section-heading"><div><span className="eyebrow">KHÁM PHÁ THEO GIAI ĐOẠN</span><h2>Hành trình của gia đình</h2></div><p>Chọn đúng giai đoạn để bắt đầu. Bạn có thể quay lại bất cứ lúc nào.</p></div>
-        <div className="stage-grid">{data.stages.map(s => <Link href={"/"+s.slug} className="stage-card" key={s.slug}>
+        <div className="stage-grid">{stages.map(s => <Link href={"/"+s.slug} className="stage-card" key={s.slug}>
           <div className="stage-icon">{s.icon}</div><span className="stage-range">{s.range}</span><h3>{s.title}</h3><p>{s.description}</p><span className="stage-link">Xem bài viết →</span>
         </Link>)}</div>
       </section>
@@ -23,8 +26,8 @@ export default function Home() {
         <div className="feature-grid"><div><strong>01 / Dễ tìm</strong><p>Nội dung được tổ chức theo thời điểm và nhu cầu.</p></div><div><strong>02 / Có nguồn</strong><p>Mỗi bài ghi rõ tài liệu tham khảo và trạng thái biên tập.</p></div><div><strong>03 / Tôn trọng</strong><p>Không phán xét lựa chọn cá nhân, không tự chẩn đoán sức khỏe.</p></div></div>
       </div></section>
       <section className="wrap section"><div className="section-heading"><div><span className="eyebrow">ĐỌC GẦN ĐÂY</span><h2>Gợi ý cho hôm nay</h2></div><Link className="text-link" href="/tim-kiem">Xem tất cả bài viết →</Link></div>
-        <div className="article-grid">{data.articles.slice(0,6).map(a=><Link className="article-card" href={"/bai-viet/"+a.slug} key={a.slug}>
-          <span className="pill">{data.stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
+        <div className="article-grid">{articles.slice(0,6).map(a=><Link className="article-card" href={"/bai-viet/"+a.slug} key={a.slug}>
+          <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
         </Link>)}</div>
       </section>
     </>

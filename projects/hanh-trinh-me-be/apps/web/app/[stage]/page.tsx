@@ -1,19 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import data from "../../../../packages/content/articles.json";
+import { getWebRepository } from "../../lib/repository";
 
-export function generateStaticParams() { return data.stages.map(s => ({ stage: s.slug })); }
+export async function generateStaticParams() { return (await getWebRepository().listStages()).map(s => ({ stage: s.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ stage: string }> }): Promise<Metadata> {
   const { stage } = await params;
-  const item = data.stages.find(s => s.slug === stage);
+  const item = await getWebRepository().getStage(stage);
   return { title: item?.title || "Giai đoạn", description: item?.description };
 }
 export default async function StagePage({ params }: { params: Promise<{ stage: string }> }) {
   const { stage } = await params;
-  const item = data.stages.find(s => s.slug === stage);
+  const item = await getWebRepository().getStage(stage);
   if (!item) notFound();
-  const list = data.articles.filter(a => a.stage === stage);
+  const list = (await getWebRepository().listArticles({stage,limit:50})).data;
   return <div className="wrap inner-page">
     <div className="breadcrumbs"><Link href="/">Trang chủ</Link> / {item.title}</div>
     <div className="stage-head"><span className="stage-icon big">{item.icon}</span><span className="eyebrow">{item.range}</span><h1>{item.title}</h1><p>{item.description}</p></div>

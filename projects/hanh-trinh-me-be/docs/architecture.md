@@ -23,3 +23,11 @@ Reader chỉ thấy published; writer chỉnh draft; editor duyệt văn phong; 
 
 ## Privacy/safeguarding
 Không thu thập dữ liệu sức khỏe bé trong MVP. Bản production cần đánh giá pháp lý ở Việt Nam; đồng ý hợp lệ, bảo vệ trẻ em, xóa/export, tách dữ liệu công khai và gia đình, mã hóa, signed URLs, giám sát và incident response. Không gửi symptom searches, birth dates hay child ID sang hệ thống quảng cáo.
+
+## Repository boundary / future PostgreSQL integration
+
+All read models use `KnowledgeRepository` (interface, Promise-returning methods) in `packages/data/src/contracts.ts`. Mock adapter uses source-linked JSON only. Composition roots: `apps/api/src/repository.ts` and `apps/web/lib/repository.ts` (server-only). No database connections, credentials or real writes exist.
+
+To connect Postgres later, implement `PostgresKnowledgeRepository` with equivalent pagination, filters, status visibility, source joins and ordering. Initialize it via dependency injection in the API server. Web production should call the API, not connect to Postgres directly. Protect write-side CMS behind authenticated roles, immutable revisions and human expert approvals.
+
+DDL proposal: `docs/database/postgres-schema.sql`. Seeding requires a **future ETL/import**; JSON files are not imported into any database yet. Keep read-path access private until publication checks.

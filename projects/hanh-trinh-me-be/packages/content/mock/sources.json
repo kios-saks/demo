@@ -1,0 +1,262 @@
+[
+  {
+    "id": "who-prenatal",
+    "publisher": "WHO",
+    "title": "WHO recommendations on antenatal care for a positive pregnancy experience",
+    "url": "https://tdr.who.int/publications/i/item/9789241549912",
+    "publicationYear": "2016",
+    "topic": "pregnancy",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-dau",
+      "thai-ky-3-thang-giua",
+      "thai-ky-3-thang-cuoi"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "who-postnatal",
+    "publisher": "WHO",
+    "title": "WHO recommendations on maternal and newborn care for a positive postnatal experience",
+    "url": "https://www.who.int/publications/i/item/9789240045989",
+    "publicationYear": "2022",
+    "topic": "postpartum",
+    "stageSlugs": [
+      "thai-ky-3-thang-cuoi",
+      "hau-san",
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "who-nurturing",
+    "publisher": "WHO / UNICEF / World Bank",
+    "title": "Nurturing care for early childhood development",
+    "url": "https://www.who.int/publications/i/item/9789241514064/",
+    "publicationYear": "2018",
+    "topic": "early-childhood",
+    "stageSlugs": [
+      "so-sinh",
+      "nhu-nhi",
+      "tap-di",
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "who-maternal",
+    "publisher": "WHO",
+    "title": "WHO recommendations on maternal health, second edition",
+    "url": "https://www.who.int/publications/i/item/9789240080591",
+    "publicationYear": "2024",
+    "topic": "maternal-health",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-dau",
+      "hau-san"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "cdc-milestones",
+    "publisher": "CDC",
+    "title": "CDC's Developmental Milestones — Learn the Signs. Act Early.",
+    "url": "https://www.cdc.gov/act-early/milestones/index.html",
+    "publicationYear": "2026",
+    "topic": "child-development",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di",
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "cdc-milestones-not-diagnosis",
+    "publisher": "CDC",
+    "title": "Key Points about CDC's Developmental Milestone Checklists",
+    "url": "https://www.cdc.gov/act-early/milestones/key-points.html",
+    "publicationYear": "2026",
+    "topic": "developmental-monitoring",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di",
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-vn-parenting",
+    "publisher": "UNICEF Việt Nam",
+    "title": "Parenting — UNICEF Viet Nam",
+    "url": "https://www.unicef.org/vietnam/parenting-hub",
+    "publicationYear": "n/a",
+    "topic": "parenting-vietnam",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-giua",
+      "so-sinh",
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-play",
+    "publisher": "UNICEF",
+    "title": "How babies learn through play",
+    "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+    "publicationYear": "n/a",
+    "topic": "play",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di",
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-preschool",
+    "publisher": "UNICEF",
+    "title": "How to prepare your child for preschool",
+    "url": "https://www.unicef.org/parenting/child-care/how-prepare-your-child-preschool",
+    "publicationYear": "n/a",
+    "topic": "school-transition",
+    "stageSlugs": [
+      "mam-non",
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-primary",
+    "publisher": "UNICEF Asia Pacific",
+    "title": "Positive parenting tips for children aged 6-10",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+    "publicationYear": "2026",
+    "topic": "primary-school",
+    "stageSlugs": [
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-adolescent",
+    "publisher": "UNICEF",
+    "title": "Parenting of Adolescents Programming Guidance",
+    "url": "https://www.unicef.org/documents/parenting-adolescents-programming-guidance",
+    "publicationYear": "2021",
+    "topic": "adolescent",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "unicef-teen-communication",
+    "publisher": "UNICEF",
+    "title": "11 tips for communicating with your teen",
+    "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+    "publicationYear": "n/a",
+    "topic": "family-communication",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "moh-mch-vn",
+    "publisher": "Cục Bà mẹ và Trẻ em — Bộ Y tế Việt Nam",
+    "title": "Cục Bà mẹ và Trẻ em — Chức năng, nhiệm vụ, quyền hạn",
+    "url": "https://mch.moh.gov.vn/chuc-nang-nhiem-vu-quyen-han-cua-cuc-ba-me-va-tre-em/chuc-nang-nhiem-vu-quyen-han-cua-cuc-ba-me-va-tre-em.html",
+    "publicationYear": "2025",
+    "topic": "vietnam-local-context",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-dau",
+      "hau-san",
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-21",
+    "referenceType": "official-web-resource",
+    "language": "vi",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  }
+]

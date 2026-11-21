@@ -1,0 +1,230 @@
+[
+  {
+    "id": "card-001",
+    "stageSlug": "chuan-bi-mang-thai",
+    "topicId": "topic-001",
+    "title": "Cùng lên kế hoạch trước khi mang thai",
+    "summary": "Bắt đầu từ câu hỏi về sức khỏe, nguồn hỗ trợ và trách nhiệm trong gia đình; hẹn tư vấn chuyên môn khi cần.",
+    "readerQuestion": "Gia đình cần hỏi những gì trước khi có em bé?",
+    "practicePrompt": "Lập danh sách câu hỏi cho lần tư vấn tiền thai và người có thể hỗ trợ.",
+    "sourceIds": [
+      "who-prenatal",
+      "moh-mch-vn"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-002",
+    "stageSlug": "thai-ky-3-thang-dau",
+    "topicId": "topic-002",
+    "title": "Chuẩn bị câu hỏi cho buổi khám thai",
+    "summary": "Thống nhất những điều muốn hỏi nhân viên y tế về theo dõi thai kỳ và hoàn cảnh sức khỏe cá nhân.",
+    "readerQuestion": "Cần chuẩn bị gì để trao đổi hiệu quả tại lần khám đầu?",
+    "practicePrompt": "Ghi lại triệu chứng và các thuốc đang sử dụng để mang đi hỏi chuyên gia.",
+    "sourceIds": [
+      "who-prenatal",
+      "who-maternal"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-003",
+    "stageSlug": "thai-ky-3-thang-giua",
+    "topicId": "topic-002",
+    "title": "Ghi chú thai kỳ không gây áp lực",
+    "summary": "Tập trung vào việc nhớ câu hỏi và điều được chuyên gia giải thích thay vì tự đánh giá kết quả.",
+    "readerQuestion": "Làm sao lưu lại thắc mắc qua các lần khám?",
+    "practicePrompt": "Mỗi tuần ghi ba dòng: điều đáng nhớ, điều muốn hỏi và sự hỗ trợ cần thiết.",
+    "sourceIds": [
+      "who-prenatal",
+      "unicef-vn-parenting"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-004",
+    "stageSlug": "thai-ky-3-thang-cuoi",
+    "topicId": "topic-001",
+    "title": "Kế hoạch hỗ trợ trước và sau sinh",
+    "summary": "Chuẩn bị liên lạc, đi lại và người hỗ trợ để gia đình chủ động hơn trong thời gian chuyển tiếp.",
+    "readerQuestion": "Gia đình đã phân vai và thống nhất cách liên lạc chưa?",
+    "practicePrompt": "Trao đổi kế hoạch sinh riêng với cơ sở y tế và lịch hỗ trợ tại nhà.",
+    "sourceIds": [
+      "who-postnatal",
+      "who-prenatal"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-005",
+    "stageSlug": "hau-san",
+    "topicId": "topic-004",
+    "title": "Người mẹ cũng cần được chăm sóc",
+    "summary": "Chăm sóc sau sinh là quá trình dành cho cả mẹ và bé; việc tìm hỗ trợ không phải dấu hiệu yếu đuối.",
+    "readerQuestion": "Ai có thể giúp người mẹ có thời gian nghỉ và tiếp cận chăm sóc y tế?",
+    "practicePrompt": "Thử tạo bảng phân chia công việc tuần đầu và ghi các câu hỏi cho lần tái khám.",
+    "sourceIds": [
+      "who-postnatal",
+      "who-maternal"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-006",
+    "stageSlug": "so-sinh",
+    "topicId": "topic-005",
+    "title": "Quan sát và trao đổi về chăm sóc sơ sinh",
+    "summary": "Mỗi em bé có hoàn cảnh khác nhau; các băn khoăn về sức khỏe cần được trao đổi với người có chuyên môn.",
+    "readerQuestion": "Những tín hiệu nào khiến gia đình muốn hỏi bác sĩ?",
+    "practicePrompt": "Chuẩn bị câu hỏi về an toàn, dinh dưỡng và lịch theo dõi khi tái khám.",
+    "sourceIds": [
+      "who-postnatal",
+      "unicef-vn-parenting"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-007",
+    "stageSlug": "nhu-nhi",
+    "topicId": "topic-007",
+    "title": "Mốc phát triển để trò chuyện, không để chấm điểm",
+    "summary": "Tài liệu mốc phát triển có thể giúp đặt câu hỏi cho chuyên gia; không thay thế sàng lọc chuẩn hóa.",
+    "readerQuestion": "Làm sao sử dụng bảng mốc phát triển mà không tự chẩn đoán?",
+    "practicePrompt": "Ghi lại những gì quan sát được và hỏi người có chuyên môn khi lo lắng.",
+    "sourceIds": [
+      "cdc-milestones",
+      "cdc-milestones-not-diagnosis"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-008",
+    "stageSlug": "tap-di",
+    "topicId": "topic-008",
+    "title": "Tạo cơ hội khám phá phù hợp lứa tuổi",
+    "summary": "Chơi với người chăm sóc là dịp trẻ thử nghiệm, giao tiếp và tạo kết nối.",
+    "readerQuestion": "Có thể gợi mở cuộc trò chuyện trong lúc chơi thế nào?",
+    "practicePrompt": "Thử cho trẻ chọn một hoạt động chơi đơn giản, với người lớn luôn giám sát.",
+    "sourceIds": [
+      "who-nurturing",
+      "unicef-play"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-009",
+    "stageSlug": "mam-non",
+    "topicId": "topic-009",
+    "title": "Ngày đầu đến lớp qua góc nhìn của con",
+    "summary": "Sự thay đổi môi trường có thể cần chuẩn bị về cảm xúc; gia đình và giáo viên có thể cùng hỗ trợ.",
+    "readerQuestion": "Trẻ đã được làm quen với lịch sinh hoạt và người chăm sóc mới chưa?",
+    "practicePrompt": "Dùng trò chơi đóng vai để giúp con hình dung ngày đầu đi học.",
+    "sourceIds": [
+      "unicef-preschool",
+      "unicef-play"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-010",
+    "stageSlug": "tieu-hoc",
+    "topicId": "topic-010",
+    "title": "Kết nối qua việc học và tình bạn",
+    "summary": "Đồng hành cùng con bao gồm lắng nghe việc học, cảm nhận và các mối quan hệ, không chỉ điểm số.",
+    "readerQuestion": "Điều gì khiến trẻ thấy vui hoặc khó khăn ở trường?",
+    "practicePrompt": "Thay câu hỏi về điểm số bằng một câu hỏi về điều con khám phá được.",
+    "sourceIds": [
+      "unicef-primary",
+      "unicef-preschool"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-011",
+    "stageSlug": "thieu-nien",
+    "topicId": "topic-011",
+    "title": "Lắng nghe khi con bước vào tuổi thiếu niên",
+    "summary": "Tôn trọng riêng tư và chủ động giao tiếp giúp gia đình duy trì kết nối trong giai đoạn thay đổi.",
+    "readerQuestion": "Có cách nào để con chủ động chia sẻ mà không bị chất vấn?",
+    "practicePrompt": "Hỏi cụ thể nhưng nhẹ nhàng và dành thời gian ở cạnh con mà không ép buộc trò chuyện.",
+    "sourceIds": [
+      "unicef-adolescent",
+      "unicef-teen-communication"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  },
+  {
+    "id": "card-012",
+    "stageSlug": "truong-thanh",
+    "topicId": "topic-013",
+    "title": "Tôn trọng lựa chọn khi con trưởng thành",
+    "summary": "Cha mẹ có thể hỗ trợ mà vẫn công nhận quyền tự quyết của người con đã lớn.",
+    "readerQuestion": "Khi nào nên hỏi trước khi đưa lời khuyên?",
+    "practicePrompt": "Thống nhất cách hỗ trợ được mong muốn và lịch trò chuyện phù hợp.",
+    "sourceIds": [
+      "unicef-adolescent",
+      "unicef-teen-communication"
+    ],
+    "status": "draft",
+    "createdAt": "2026-11-21",
+    "reviewedAt": null,
+    "reviewer": null,
+    "originalSummary": true,
+    "medicalApproval": false
+  }
+]

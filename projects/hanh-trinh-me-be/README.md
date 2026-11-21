@@ -31,3 +31,37 @@ Chạy mỗi tiến trình ở terminal riêng. Web http://localhost:3000, API h
 - Bảo vệ dữ liệu trẻ em, tối thiểu hóa thu thập, quyền xóa và rút đồng ý.
 
 Tên thương hiệu là tên làm việc, chưa kiểm tra quyền sử dụng hay tên miền.
+
+## Repository interface và dữ liệu mock từ nguồn chính thức (21/11/2026)
+
+> Tất cả bài viết và thẻ nghiên cứu đều DRAFT, chưa được bác sĩ/biên tập viên phê duyệt. Dữ liệu có nguồn tham khảo không đồng nghĩa được chứng thực hoặc cấp phép sao chép từ tổ chức nguồn.
+
+- `packages/data/src/contracts.ts`: interface `KnowledgeRepository` và các type domain, async, tách hoàn toàn SQL.
+- `packages/data/src/mock-repository.ts`: `MockKnowledgeRepository` đọc JSON in-memory, không lưu thay đổi; defensive clone.
+- `packages/content/articles.json`: 12 stages, 24 draft articles gốc.
+- `packages/content/mock/sources.json`: 13 nguồn WHO / CDC / UNICEF / Bộ Y tế Việt Nam (URL + metadata, ngày kiểm tra).
+- `packages/content/mock/topics.json`: 13 chủ đề được chuẩn hóa.
+- `packages/content/mock/research-cards.json`: 12 thẻ nghiên cứu viết mới, liên kết qua sourceIds/topicId/stageSlug.
+- `apps/api/src/repository.ts`: dependency composition root. Khi có PostgreSQL, viết adapter mới implement interface này, không cần đổi routes.
+- `docs/database/postgres-schema.sql`: DDL PostgreSQL **đề xuất, chưa chạy và chưa có DB thật**.
+- `docs/repository-pattern.md`: hợp đồng và hướng dẫn đổi adapter.
+
+API mới (môi trường demo):
+- `GET /v1/topics?stage=so-sinh`
+- `GET /v1/sources?stage=so-sinh`
+- `GET /v1/research-cards?stage=so-sinh` (không mở trong production)
+- `GET /v1/editorial/overview` (không mở trong production)
+
+Web có thêm `/nguon-tham-khao` và `/goc-nghien-cuu`, đều noindex. Web dùng `KnowledgeRepository` qua server-side adapter. Mobile vẫn dùng dữ liệu bundled để offline; API sync được dự kiến cho bước tiếp.
+
+```bash
+cd projects/hanh-trinh-me-be
+npm install
+npm run check:content
+npm test
+npm exec -w @mebe/api -- tsc --noEmit
+npm exec -w @mebe/mobile -- tsc --noEmit
+npm run build:web
+```
+
+**Chính sách production:** API tự động ẩn toàn bộ article khác `published` khi `NODE_ENV=production`; chỉ có `published` mới xuất hiện trên public API. Web prototype vẫn hiển thị nội dung mẫu rõ nhãn DRAFT và áp dụng `noindex` toàn site; cần tích hợp CMS/auth/publish workflow trước khi production public.
