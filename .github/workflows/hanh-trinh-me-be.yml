@@ -1,0 +1,44 @@
+name: Mother & Baby - Web API Mobile CI
+on:
+  push:
+    branches: ["feat/hanh-trinh-me-be-ecosystem"]
+    paths:
+      - ".github/workflows/hanh-trinh-me-be.yml"
+      - "projects/hanh-trinh-me-be/**"
+  pull_request:
+    paths:
+      - ".github/workflows/hanh-trinh-me-be.yml"
+      - "projects/hanh-trinh-me-be/**"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mebe-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install all workspaces
+        run: npm install --no-audit --no-fund
+      - name: Content validation
+        run: npm run check:content
+      - name: API tests
+        run: npm test
+      - name: API TypeScript
+        run: npm exec -w @mebe/api -- tsc --noEmit
+      - name: Mobile TypeScript
+        run: npm exec -w @mebe/mobile -- tsc --noEmit
+      - name: Next.js production build
+        run: npm run build:web
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
