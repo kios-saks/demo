@@ -38,7 +38,19 @@ jobs:
         run: npm exec -w @mebe/api -- tsc --noEmit
       - name: Mobile TypeScript
         run: npm exec -w @mebe/mobile -- tsc --noEmit
+      - name: React dependency diagnosis
+        run: npm ls react react-dom next --depth=0 || true
       - name: Next.js production build
         run: npm run build:web
         env:
           NEXT_TELEMETRY_DISABLED: "1"
+      - name: HTTP integration smoke tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
+          api_pid=$!
+          npm run start -w @mebe/web > /tmp/mebe-web.log 2>&1 &
+          web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          node scripts/http-smoke.mjs || { cat /tmp/mebe-api.log; cat /tmp/mebe-web.log; exit 1; }
