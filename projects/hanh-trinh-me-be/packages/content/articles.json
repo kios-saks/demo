@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-22-sourced-content-1",
+  "version": "2026-11-22-sourced-content-2",
   "disclaimer": "Thư viện kiến thức đang được biên tập trong môi trường phát triển. Bài viết diễn giải độc lập bằng tiếng Việt từ các nguồn gốc được dẫn ở cuối bài; không phải tài liệu chính thức do tổ chức nguồn xuất bản hay chứng thực. Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc hướng dẫn của nhân viên y tế. Khi có dấu hiệu cấp cứu, liên hệ cơ sở y tế ngay; lịch tiêm và chăm sóc cần theo hướng dẫn hiện hành tại Việt Nam.",
   "stages": [
     {
@@ -2805,6 +2805,1326 @@
         {
           "name": "UNICEF – Parenting tips for the first two years of life",
           "url": "https://www.unicef.org/parenting/child-development/baby-tips"
+        }
+      ]
+    },
+    {
+      "slug": "an-dam-khi-nao-bat-dau",
+      "stage": "nhu-nhi",
+      "title": "Ăn dặm từ khoảng 6 tháng: bắt đầu thế nào?",
+      "summary": "Nhận biết sự sẵn sàng, chọn thức ăn và tiếp tục sữa mẹ/sữa phù hợp.",
+      "readMinutes": 3,
+      "order": 49,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "WHO khuyến nghị bắt đầu thức ăn bổ sung an toàn và đủ dinh dưỡng khoảng sáu tháng, khi nhu cầu năng lượng và chất dinh dưỡng tăng lên. Ăn dặm bổ sung chứ không thay thế hoàn toàn nguồn sữa ngay lập tức. Trẻ nên được trải nghiệm từng bước theo khả năng ngồi giữ đầu, đưa thức ăn tới miệng và nuốt an toàn, không chỉ dựa vào ngày sinh.",
+            "Trẻ 4–12 tháng có tốc độ phát triển và tín hiệu đói/no khác nhau. Mốc tuổi chỉ mang tính định hướng, trong khi sự tăng trưởng và tiến bộ cần được theo dõi cùng người chăm sóc; trẻ sinh non hoặc mắc bệnh cần hướng dẫn riêng."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Cho bé ngồi thẳng và luôn có người lớn quan sát. Bắt đầu lượng nhỏ và kết cấu phù hợp, đa dạng nhóm thực phẩm, chú ý nguồn sắt và bữa ăn không ép. Tiếp tục nguồn sữa phù hợp tuổi; nếu có tiền sử dị ứng nặng, sinh non hoặc nuốt khó, hãy hỏi bác sĩ trước khi thay đổi.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không bắt đầu chỉ vì bé thức đêm hay vì người khác nói 'bé trông thèm ăn'. Khi ho sặc, khó thở, tím tái trong bữa cần xử trí cấp cứu đúng cách; không cố đút thêm."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        },
+        {
+          "name": "WHO – Guideline for complementary feeding of infants and young children 6–23 months",
+          "url": "https://www.who.int/publications-detail-redirect/9789240081864"
+        },
+        {
+          "name": "NHS – Your baby's first solid foods",
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
+        }
+      ]
+    },
+    {
+      "slug": "an-toan-chong-sac-khi-an-dam",
+      "stage": "nhu-nhi",
+      "title": "Phòng hóc sặc khi bé bắt đầu ăn dặm",
+      "summary": "Tư thế, kết cấu thức ăn và những món cần chuẩn bị an toàn.",
+      "readMinutes": 3,
+      "order": 50,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "NHS hướng dẫn điều chỉnh kích thước, hình dạng và độ mềm của thức ăn để giảm nguy cơ hóc. Trẻ mới ăn dặm cần ngồi thẳng, không vừa chạy chơi hoặc nằm ăn, và phải có người lớn quan sát. Phản xạ ọe khi làm quen kết cấu khác với nghẹn tắc đường thở; người chăm sóc cần biết phân biệt và học sơ cứu chuẩn.",
+            "Trẻ 4–12 tháng có tốc độ phát triển và tín hiệu đói/no khác nhau. Mốc tuổi chỉ mang tính định hướng, trong khi sự tăng trưởng và tiến bộ cần được theo dõi cùng người chăm sóc; trẻ sinh non hoặc mắc bệnh cần hướng dẫn riêng."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Cắt và chế biến thực phẩm theo khả năng nhai, loại hạt cứng nguyên hạt và thức ăn tròn dễ kẹt đường thở; không cho trẻ ăn khi đang nằm trong xe đẩy hoặc ghế ô tô. Tập nhận biết dấu hiệu khó thở, ngưng tiếng ho và học kỹ năng sơ cứu từ đơn vị đào tạo có chuyên môn.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không móc họng mù hoặc tự áp dụng mẹo vỗ sai kỹ thuật khi trẻ nghẹn. Nghẹn nặng có biểu hiện không thở/nói/khóc bình thường là cấp cứu; gọi hỗ trợ khẩn cấp."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "NHS – Preparing food safely for babies",
+          "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/"
+        },
+        {
+          "name": "NHS – Food and drinks to avoid during weaning",
+          "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid/"
+        },
+        {
+          "name": "NHS – Your baby's first solid foods",
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
+        }
+      ]
+    },
+    {
+      "slug": "moc-phat-trien-sau-thang-thu-sau",
+      "stage": "nhu-nhi",
+      "title": "Theo dõi phát triển 6–12 tháng không áp lực",
+      "summary": "Giao tiếp, vận động, khám phá và ghi nhận tiến bộ.",
+      "readMinutes": 3,
+      "order": 51,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "CDC cung cấp mốc phát triển vào 6 tháng và 1 tuổi cho các lĩnh vực vận động, ngôn ngữ, nhận thức, xã hội. Những mốc này mô tả đa số trẻ ở tuổi tương ứng, không phải bài kiểm tra thông minh hay tiêu chuẩn để quy kết một bé phát triển chậm chỉ qua vài biểu hiện đơn lẻ.",
+            "Trẻ 4–12 tháng có tốc độ phát triển và tín hiệu đói/no khác nhau. Mốc tuổi chỉ mang tính định hướng, trong khi sự tăng trưởng và tiến bộ cần được theo dõi cùng người chăm sóc; trẻ sinh non hoặc mắc bệnh cần hướng dẫn riêng."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Quan sát bé đáp lại lời nói, tìm đồ vật, đổi tư thế, tương tác với người thân và chủ động khám phá trong môi trường an toàn. Dành ít phút mỗi ngày để đọc, hát, gọi tên đồ vật, chơi ú òa. Ghi lại điều bé đã biết và những câu hỏi gửi bác sĩ khi khám định kỳ.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu bé mất kỹ năng từng có hoặc gia đình lo về thính giác, vận động, giao tiếp, hãy hỏi bác sĩ sớm. Với trẻ sinh non, mốc có thể cần xem xét theo tuổi hiệu chỉnh."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Milestones by 6 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
+        },
+        {
+          "name": "CDC – Milestones by 1 Year",
+          "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+        },
+        {
+          "name": "UNICEF – Parenting tips for the first two years of life",
+          "url": "https://www.unicef.org/parenting/child-development/baby-tips"
+        }
+      ]
+    },
+    {
+      "slug": "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
+      "stage": "nhu-nhi",
+      "title": "Giấc ngủ 4–12 tháng: thói quen và an toàn",
+      "summary": "Nhịp sinh hoạt có thể thay đổi, nhưng nguyên tắc ngủ an toàn vẫn giữ.",
+      "readMinutes": 3,
+      "order": 52,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bé lớn từng ngày",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Nhu cầu ngủ và thời gian thức giữa các bé không hoàn toàn giống nhau. Trong cả năm đầu, CDC vẫn khuyến nghị nằm ngửa khi bắt đầu ngủ trên bề mặt chắc, phẳng, không có gối/chăn mềm và vật dễ che đường thở. Nếp ngủ có thể điều chỉnh bằng tín hiệu đều đặn, không dựa trên cam kết 'ngủ xuyên đêm' cho mọi trẻ.",
+            "Trẻ 4–12 tháng có tốc độ phát triển và tín hiệu đói/no khác nhau. Mốc tuổi chỉ mang tính định hướng, trong khi sự tăng trưởng và tiến bộ cần được theo dõi cùng người chăm sóc; trẻ sinh non hoặc mắc bệnh cần hướng dẫn riêng."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Tạo tín hiệu giờ ngủ như ánh sáng dịu, giọng nói nhỏ và hoạt động lặp lại. Đặt bé vào cũi/nôi đúng tiêu chuẩn, khuyến khích người chăm sóc thực hiện quy tắc an toàn giống nhau khi đổi ca. Nếu bé thức nhiều, xem xét tình trạng bú, bệnh và lịch sinh hoạt trước khi thử thay đổi mạnh.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không dùng nệm nghiêng, gối định hình, thú bông hay vật chèn để giữ tư thế. Ngủ ngáy nặng, khó thở hoặc ngưng thở quan sát được cần được đánh giá y tế."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Providing Care for Babies to Sleep Safely",
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+        },
+        {
+          "name": "CDC – Milestones by 6 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
+        }
+      ]
+    },
+    {
+      "slug": "giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+      "stage": "tap-di",
+      "title": "Phát triển ngôn ngữ 1–3 tuổi: trò chuyện thế nào?",
+      "summary": "Dùng hoạt động thường ngày để giúp con học từ và giao tiếp.",
+      "readMinutes": 3,
+      "order": 53,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Trong tuổi tập đi, giao tiếp phát triển qua việc nghe, bắt chước, chỉ tay, gọi tên, ghép từ rồi dùng câu ngắn. CDC và UNICEF hướng dẫn cha mẹ quan sát năng lực theo tuổi và dành nhiều lượt tương tác hai chiều; video mở liên tục không thể thay thế người lớn trò chuyện đáp lại trẻ.",
+            "Giai đoạn 1–3 tuổi thường có các bước tiến nhanh về vận động, ngôn ngữ và khả năng tự chủ. Hãy điều chỉnh kỳ vọng theo tuổi, hỗ trợ giao tiếp và đặt giới hạn an toàn thay vì phạt thân thể."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Đọc sách tranh, gọi tên vật lúc nấu ăn/tắm, chờ con đáp lại bằng cử chỉ hoặc âm thanh rồi diễn đạt mẫu câu ngắn. Khen nỗ lực giao tiếp thay vì bắt phát âm đúng ngay. Ghi lại từ mới và tình huống bé hiểu lời để kể bác sĩ trong lần khám.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ mất kỹ năng nói đã có, không phản ứng với âm thanh hoặc người chăm sóc lo ngại chậm giao tiếp, cần tham vấn khám thính lực/phát triển theo chỉ định. Tránh dùng mốc tuổi trên mạng để chẩn đoán."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Milestones by 2 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+        },
+        {
+          "name": "UNICEF – Parenting tips for the first two years of life",
+          "url": "https://www.unicef.org/parenting/child-development/baby-tips"
+        }
+      ]
+    },
+    {
+      "slug": "con-an-va-tu-lap-khi-tap-di",
+      "stage": "tap-di",
+      "title": "Bữa ăn 1–3 tuổi: khuyến khích tự lập không ép",
+      "summary": "Phân chia trách nhiệm chọn thức ăn, giờ ăn và tín hiệu no.",
+      "readMinutes": 3,
+      "order": 54,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Giai đoạn tập đi, trẻ bắt đầu thể hiện sở thích và có ngày ăn ít hơn. WHO khuyến khích thức ăn đa dạng, đủ chất và tương tác đáp ứng tín hiệu của trẻ khi ăn bổ sung. Bữa ăn không nên trở thành phần thưởng/phạt hay nơi ép ăn gây căng thẳng cho cả nhà.",
+            "Giai đoạn 1–3 tuổi thường có các bước tiến nhanh về vận động, ngôn ngữ và khả năng tự chủ. Hãy điều chỉnh kỳ vọng theo tuổi, hỗ trợ giao tiếp và đặt giới hạn an toàn thay vì phạt thân thể."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Người lớn chuẩn bị món phù hợp tuổi, an toàn và giờ ăn tương đối ổn định; trẻ được tự lựa chọn lượng ăn trong phạm vi hợp lý, cầm thìa và khám phá kết cấu. Tránh đồ cứng, tròn nguyên miếng gây hóc; luôn quan sát khi ăn và đưa những lo ngại về tăng trưởng tới bác sĩ.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Trẻ nghẹn, ho sặc lặp lại, chậm tăng cân hoặc khó nuốt kéo dài cần được đánh giá chuyên môn. Không tự uống thuốc 'kích thích ăn ngon' hay bỏ hoàn toàn nhóm chất."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Guideline for complementary feeding of infants and young children 6–23 months",
+          "url": "https://www.who.int/publications-detail-redirect/9789240081864"
+        },
+        {
+          "name": "NHS – Preparing food safely for babies",
+          "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/"
+        },
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        }
+      ]
+    },
+    {
+      "slug": "cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+      "stage": "tap-di",
+      "title": "Trẻ hay ăn vạ: thiết lập giới hạn không bạo lực",
+      "summary": "Phân biệt nhu cầu, cảm xúc và hành vi không an toàn.",
+      "readMinutes": 3,
+      "order": 55,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Ở tuổi 1–3, khả năng điều tiết cảm xúc đang hình thành và trẻ thường phản ứng mạnh khi mệt hoặc bị ngăn hoạt động. WHO chỉ ra trừng phạt thể chất gây hại và không đem lại lợi ích tích cực. Đặt giới hạn nhất quán cùng sự bình tĩnh có ích hơn quát mắng hay dọa bỏ rơi.",
+            "Giai đoạn 1–3 tuổi thường có các bước tiến nhanh về vận động, ngôn ngữ và khả năng tự chủ. Hãy điều chỉnh kỳ vọng theo tuổi, hỗ trợ giao tiếp và đặt giới hạn an toàn thay vì phạt thân thể."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Khi con khóc, trước hết bảo đảm an toàn, dùng câu ngắn xác nhận cảm xúc và nêu giới hạn rõ: 'Con bực vì không được lấy kéo; kéo sắc nên mẹ giữ'. Chuyển sang lựa chọn an toàn, đợi bé bình tĩnh rồi cùng dọn lại. Nên kiểm tra giờ ngủ, đói và mức kích thích trong ngày.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ thường tự làm đau, gây nguy hiểm nghiêm trọng hoặc người lớn khó kiềm chế ý định đánh trẻ, hãy tìm hỗ trợ nuôi dạy/trị liệu gia đình sớm."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Corporal punishment of children and health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+        },
+        {
+          "name": "CDC – Milestones by 2 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+        }
+      ]
+    },
+    {
+      "slug": "an-toan-trong-nha-khi-tre-tap-di",
+      "stage": "tap-di",
+      "title": "An toàn khi con bắt đầu chạy, leo trèo và khám phá",
+      "summary": "Một vòng rà soát nhà từ góc nhìn của trẻ.",
+      "readMinutes": 3,
+      "order": 56,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tập đi",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Trẻ mới biết đi khám phá bằng tay, miệng và chuyển động, nhưng chưa hiểu đầy đủ nguy cơ. Do đó, người lớn cần kết hợp giám sát chủ động, môi trường an toàn và dạy quy tắc ngắn gọn, không chỉ nhắc 'đừng động vào'. Chơi vận động trong không gian phù hợp giúp trẻ luyện kỹ năng.",
+            "Giai đoạn 1–3 tuổi thường có các bước tiến nhanh về vận động, ngôn ngữ và khả năng tự chủ. Hãy điều chỉnh kỳ vọng theo tuổi, hỗ trợ giao tiếp và đặt giới hạn an toàn thay vì phạt thân thể."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Ngồi thấp bằng tầm mắt của trẻ để xem đồ nhỏ, dây điện, ổ cắm, cửa sổ, ban công, nước, bếp nóng, thuốc và hóa chất. Cất vật nguy hiểm ngoài tầm với và khóa nơi cần thiết. Tạo một góc chơi cho phép khám phá thật, có người lớn quan sát.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Bé nuốt pin cúc áo, hóa chất hoặc bị ngã nặng có dấu thần kinh bất thường cần xử lý khẩn cấp. Không chờ trẻ có triệu chứng mới liên hệ y tế khi nghi ngờ nuốt vật nguy hiểm."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting tips for the first two years of life",
+          "url": "https://www.unicef.org/parenting/child-development/baby-tips"
+        },
+        {
+          "name": "WHO – Corporal punishment of children and health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+        }
+      ]
+    },
+    {
+      "slug": "hoc-qua-choi-ba-den-sau-tuoi",
+      "stage": "mam-non",
+      "title": "Học qua chơi 3–6 tuổi: trò chơi nào thực sự hữu ích?",
+      "summary": "Từ tưởng tượng, vận động đến hợp tác và diễn đạt.",
+      "readMinutes": 3,
+      "order": 57,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "UNICEF nhấn mạnh chơi hỗ trợ phát triển nhận thức, xã hội, cảm xúc và vận động của trẻ. Với tuổi mầm non, đồ chơi không cần đắt tiền; các hoạt động đóng vai, xây dựng, kể chuyện, hát và chơi ngoài trời cho cơ hội thử quy tắc, giải quyết vấn đề và giao tiếp tự nhiên.",
+            "Trẻ 3–6 tuổi phát triển kỹ năng qua trò chơi, tương tác và các hoạt động thường ngày. Giao tiếp tôn trọng, cơ hội chơi và quan sát phát triển quan trọng hơn việc ép trẻ hoàn thành kỹ năng học thuật sớm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Dành thời gian cho trẻ tự chọn vai trò trong trò chơi, người lớn đặt câu hỏi mở, không sửa liên tục. Xen kẽ trò vận động, tranh ảnh, đóng vai mua bán, xếp hình và đọc sách. Quan sát điều trẻ quan tâm để gợi thêm thử thách vừa sức, không biến mỗi trò chơi thành một bài thi.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không so sánh tốc độ biết chữ của trẻ với bạn cùng tuổi. Nếu có lo ngại về giao tiếp, kỹ năng xã hội hoặc mất kỹ năng từng có, hãy hỏi chuyên gia phát triển."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – How babies learn through play",
+          "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+        },
+        {
+          "name": "CDC – Milestones by 4 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+        }
+      ]
+    },
+    {
+      "slug": "moc-phat-trien-tuoi-bon-va-nam",
+      "stage": "mam-non",
+      "title": "Mốc 4–5 tuổi: quan sát thay vì tạo áp lực",
+      "summary": "Ngôn ngữ, tự chăm sóc, chơi cùng bạn và vận động.",
+      "readMinutes": 3,
+      "order": 58,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "CDC có checklist cụ thể cho trẻ 4 và 5 tuổi, mô tả những gì đa số trẻ ở tuổi đó làm được về ngôn ngữ, vận động và tương tác. Đây là công cụ giúp cha mẹ đặt câu hỏi, không thay thế bộ công cụ sàng lọc hoặc đánh giá của chuyên gia.",
+            "Trẻ 3–6 tuổi phát triển kỹ năng qua trò chơi, tương tác và các hoạt động thường ngày. Giao tiếp tôn trọng, cơ hội chơi và quan sát phát triển quan trọng hơn việc ép trẻ hoàn thành kỹ năng học thuật sớm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Quan sát khi trẻ kể chuyện, nói về cảm xúc, tham gia trò chơi, phối hợp cử động, làm việc nhỏ và tương tác với bạn. Cho trẻ luyện mặc đồ, cất đồ chơi, rửa tay với giám sát phù hợp. Ghi những kỹ năng trẻ làm dễ dàng và điều còn khó để trao đổi ở lần khám.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Mất kỹ năng đã từng có hoặc khó khăn ảnh hưởng sinh hoạt kéo dài cần được trao đổi sớm với bác sĩ/giáo viên, thay vì chờ tự hết hoặc gắn nhãn 'lười'."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Milestones by 4 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+        },
+        {
+          "name": "CDC – Milestones by 5 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+        }
+      ]
+    },
+    {
+      "slug": "lam-quen-truong-mam-non",
+      "stage": "mam-non",
+      "title": "Làm quen môi trường mẫu giáo: lộ trình mềm mại",
+      "summary": "Chuẩn bị cảm xúc, sinh hoạt và trao đổi với giáo viên.",
+      "readMinutes": 3,
+      "order": 59,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Bắt đầu đi học có thể vừa háo hức vừa khó khăn vì trẻ thay đổi người chăm sóc, giờ ngủ và cách tương tác. Cảm giác lo tách rời không nên mặc định là trẻ 'bướng'. Môi trường tôn trọng và cơ hội học qua chơi giúp trẻ làm quen dần.",
+            "Trẻ 3–6 tuổi phát triển kỹ năng qua trò chơi, tương tác và các hoạt động thường ngày. Giao tiếp tôn trọng, cơ hội chơi và quan sát phát triển quan trọng hơn việc ép trẻ hoàn thành kỹ năng học thuật sớm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Trò chuyện trước về phòng học, người đón và quy trình một ngày; thử đóng vai đi học, cùng chọn vật dùng cần thiết, thống nhất giờ ngủ. Trong tuần đầu, trao đổi ngắn với giáo viên về ăn, ngủ, vui chơi và cảm xúc khi đón; giữ lời hứa về thời điểm quay lại.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ hoảng sợ kéo dài, bị bắt nạt hoặc có dấu hiệu không an toàn, liên hệ nhà trường và cân nhắc hỗ trợ chuyên môn. Không dùng đe dọa 'bỏ ở lớp' để buộc trẻ im lặng."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – How babies learn through play",
+          "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+        },
+        {
+          "name": "CDC – Milestones by 4 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+        }
+      ]
+    },
+    {
+      "slug": "giao-tiep-gioi-han-khong-don-roi",
+      "stage": "mam-non",
+      "title": "Kỷ luật tích cực cho trẻ mầm non",
+      "summary": "Giới hạn rõ, lời nói tôn trọng và cách xử lý xung đột.",
+      "readMinutes": 3,
+      "order": 60,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi mầm non",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "WHO tổng hợp bằng chứng rằng trừng phạt thân thể có hại và không đem lại lợi ích sức khỏe hay hành vi tích cực lâu dài. Ở tuổi mầm non, người lớn có thể dạy kỹ năng qua việc nói rõ kỳ vọng, làm mẫu, giải thích hậu quả hợp lý và củng cố hành vi an toàn.",
+            "Trẻ 3–6 tuổi phát triển kỹ năng qua trò chơi, tương tác và các hoạt động thường ngày. Giao tiếp tôn trọng, cơ hội chơi và quan sát phát triển quan trọng hơn việc ép trẻ hoàn thành kỹ năng học thuật sớm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Thống nhất ba đến năm quy tắc dễ nhớ trong nhà, ví dụ 'không đánh người', 'đồ sắc cần người lớn', 'cất đồ sau khi chơi'. Khi trẻ sai, giải thích ngắn, cho cơ hội sửa và cùng thực hành lại. Người lớn cần nhất quán giữa các ca chăm sóc.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu gia đình thường mất kiểm soát, la hét hay có nguy cơ bạo lực, chủ động tìm lớp kỹ năng cha mẹ hoặc tư vấn tâm lý. Tránh phạt bằng cách nhốt, làm nhục hoặc đe dọa bỏ rơi trẻ."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Corporal punishment of children and health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+        },
+        {
+          "name": "UNICEF – How babies learn through play",
+          "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+        }
+      ]
+    },
+    {
+      "slug": "thoi-quen-hoc-tap-tieu-hoc",
+      "stage": "tieu-hoc",
+      "title": "Thói quen học tập 6–11 tuổi không chạy theo điểm số",
+      "summary": "Lịch học, nghỉ, tự quản lý và nhận phản hồi tích cực.",
+      "readMinutes": 3,
+      "order": 61,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Ở tuổi tiểu học, khả năng tập trung và tự tổ chức cần được rèn dần. UNICEF nhấn mạnh cách nuôi dạy tôn trọng, có kỳ vọng phù hợp; việc chỉ trích kết quả thấp dễ làm trẻ ngại chia sẻ khó khăn. Không chỉ điểm số, phụ huynh nên quan tâm giấc ngủ và cảm giác an toàn tại trường.",
+            "Sức khỏe học đường không chỉ thể hiện ở điểm số. WHO, CDC và UNICEF nhấn mạnh giấc ngủ, vận động, quan hệ bạn bè và môi trường học tập an toàn như những yếu tố cần được gia đình quan tâm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Cho con cùng chọn giờ làm bài và giờ nghỉ, chia nhiệm vụ lớn thành bước nhỏ, hỏi 'phần nào con cần giúp?' thay vì làm hộ. Khen cách con cố gắng, hỏi giáo viên về khó khăn cụ thể. Dành thời gian chơi, đọc, vận động và kết nối với bạn bè.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ đột ngột sợ đi học, mất ngủ, thay đổi cảm xúc hoặc giảm khả năng sinh hoạt kéo dài, hãy tìm nguyên nhân, bao gồm khả năng bắt nạt và nhu cầu hỗ trợ học tập chuyên biệt."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Positive parenting tips for children aged 6–10",
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        },
+        {
+          "name": "CDC – Sleep and Health",
+          "url": "https://www.cdc.gov/healthy-schools/sleep/"
+        }
+      ]
+    },
+    {
+      "slug": "giac-ngu-hoc-sinh-tieu-hoc",
+      "stage": "tieu-hoc",
+      "title": "Trẻ tiểu học ngủ bao nhiêu là đủ?",
+      "summary": "Nhu cầu ngủ theo lứa tuổi và những thói quen có thể điều chỉnh.",
+      "readMinutes": 3,
+      "order": 62,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "CDC dẫn khuyến nghị trẻ 6–12 tuổi nên ngủ khoảng 9–12 giờ trong mỗi 24 giờ. Thiếu ngủ có thể ảnh hưởng việc học, cảm xúc và sức khỏe. Con số là khung tham khảo cho tuổi, không có nghĩa ép mọi trẻ lên giường và ngủ đúng một số giờ trong ngày.",
+            "Sức khỏe học đường không chỉ thể hiện ở điểm số. WHO, CDC và UNICEF nhấn mạnh giấc ngủ, vận động, quan hệ bạn bè và môi trường học tập an toàn như những yếu tố cần được gia đình quan tâm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Xem giờ phải dậy để đi học rồi chọn giờ ngủ phù hợp, giữ nếp gần như đều mỗi ngày. Hạn chế thiết bị gần giờ ngủ, chuẩn bị chỗ ngủ yên tĩnh và không dùng thời gian thức khuya làm hình phạt hay phần thưởng. Ghi khó ngủ kéo dài để trao đổi bác sĩ.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Ngáy to thường xuyên, quan sát thấy ngưng thở, buồn ngủ quá mức ban ngày hoặc sa sút kéo dài cần tư vấn y tế; không tự cho trẻ dùng thuốc ngủ."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Sleep and Health",
+          "url": "https://www.cdc.gov/healthy-schools/sleep/"
+        },
+        {
+          "name": "UNICEF – Positive parenting tips for children aged 6–10",
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        }
+      ]
+    },
+    {
+      "slug": "van-dong-cho-tre-tieu-hoc",
+      "stage": "tieu-hoc",
+      "title": "Vận động mỗi ngày cho trẻ 6–11 tuổi",
+      "summary": "Làm sao đáp ứng nhu cầu vận động mà không ép thành tích.",
+      "readMinutes": 3,
+      "order": 63,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "WHO khuyến nghị trẻ em và thanh thiếu niên 5–17 tuổi đạt trung bình khoảng 60 phút vận động từ vừa đến mạnh mỗi ngày trong tuần, chủ yếu là hoạt động hiếu khí. Trẻ có thể tích lũy vận động qua chơi, đi bộ, thể thao và hoạt động thường ngày; không cần bắt buộc một môn thể thao đắt tiền.",
+            "Sức khỏe học đường không chỉ thể hiện ở điểm số. WHO, CDC và UNICEF nhấn mạnh giấc ngủ, vận động, quan hệ bạn bè và môi trường học tập an toàn như những yếu tố cần được gia đình quan tâm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Hỏi con muốn thử hoạt động gì, bố trí thời gian ngoài trời hoặc vận động trong nhà an toàn, đi bộ cùng gia đình và bớt ngồi liên tục. Tập trung vào niềm vui và sự đều đặn, điều chỉnh với trẻ có khuyết tật hoặc bệnh lý theo hướng dẫn chuyên môn.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Đau ngực khi gắng sức, ngất, khó thở bất thường hoặc chấn thương cần được đánh giá y tế. Không ép vận động khi trẻ đang ốm hay quá sức."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Physical activity",
+          "url": "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity"
+        },
+        {
+          "name": "UNICEF – Positive parenting tips for children aged 6–10",
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        }
+      ]
+    },
+    {
+      "slug": "phong-chong-bat-nat-o-truong",
+      "stage": "tieu-hoc",
+      "title": "Bắt nạt ở trường: cha mẹ và giáo viên cần phối hợp",
+      "summary": "Lắng nghe, lưu bằng chứng và bảo vệ an toàn cho con.",
+      "readMinutes": 3,
+      "order": 64,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi tiểu học",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "UNICEF phân biệt bắt nạt với mâu thuẫn đơn lẻ và nhấn mạnh việc lắng nghe không đổ lỗi cho trẻ. Bắt nạt có thể ảnh hưởng cảm xúc, việc học, giấc ngủ và sự an toàn. Gia đình cần phối hợp với nhà trường để ngăn hành vi lặp lại thay vì yêu cầu con tự chịu đựng hoặc phản ứng bằng bạo lực.",
+            "Sức khỏe học đường không chỉ thể hiện ở điểm số. WHO, CDC và UNICEF nhấn mạnh giấc ngủ, vận động, quan hệ bạn bè và môi trường học tập an toàn như những yếu tố cần được gia đình quan tâm."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Hỏi con những câu mở, xác nhận rằng con xứng đáng được an toàn, ghi lại diễn biến và sự kiện cụ thể. Liên hệ giáo viên/nhà trường về kế hoạch phòng ngừa, giám sát, đầu mối phản hồi và thời gian kiểm tra lại. Tạo kênh để con báo khi sự việc tiếp diễn.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ bị đe dọa nghiêm trọng, có nguy cơ tự hại hoặc bị bạo lực tình dục, ưu tiên bảo vệ khẩn cấp và liên hệ cơ quan/cơ sở chuyên môn phù hợp, không chỉ chờ họp phụ huynh."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Bullying: What is it and how to stop it",
+          "url": "https://www.unicef.org/parenting/child-care/bullying"
+        },
+        {
+          "name": "UNICEF – How to talk to your child's school about bullying",
+          "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying"
+        }
+      ]
+    },
+    {
+      "slug": "suc-khoe-tinh-than-tuoi-thieu-nien",
+      "stage": "thieu-nien",
+      "title": "Sức khỏe tinh thần 12–17 tuổi: dấu hiệu cần hỗ trợ",
+      "summary": "Lắng nghe và tiếp cận trợ giúp khi lo âu hoặc buồn bã kéo dài.",
+      "readMinutes": 3,
+      "order": 65,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "WHO xem trầm cảm, lo âu và rối loạn hành vi là các nguyên nhân gây suy giảm sức khỏe đáng kể ở tuổi vị thành niên; nhiều khó khăn có thể ảnh hưởng đến học tập, giấc ngủ và quan hệ. Căng thẳng thông thường khác với biểu hiện dai dẳng, nhưng cha mẹ không nên tự chẩn đoán hay gắn nhãn 'làm quá'.",
+            "Tuổi thiếu niên là thời kỳ thay đổi cơ thể, cảm xúc và quan hệ xã hội. Người lớn nên giữ kết nối, trao quyền lựa chọn phù hợp và không xem mọi khó khăn tinh thần là 'chống đối'."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Duy trì cuộc trò chuyện riêng tư, hỏi điều đang khó khăn và điều con mong người lớn làm. Tạo cơ hội liên hệ giáo viên, nhân viên tham vấn hoặc chuyên gia y tế nếu triệu chứng kéo dài. Theo dõi các thay đổi đột ngột trong ăn, ngủ, rút lui xã hội và sử dụng chất.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu trẻ nói về tự sát, tự hại, bị bạo lực hoặc không an toàn, cần hỗ trợ khẩn cấp và không để trẻ đơn độc. Không hứa giữ bí mật tuyệt đối khi tính mạng đang bị đe dọa."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "name": "UNICEF – When to help your teen find mental health support",
+          "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
+        }
+      ]
+    },
+    {
+      "slug": "noi-chuyen-day-thi-tinh-duc-an-toan",
+      "stage": "thieu-nien",
+      "title": "Nói chuyện về dậy thì và ranh giới cá nhân",
+      "summary": "Ngôn ngữ không xấu hổ, tôn trọng cơ thể và xin trợ giúp.",
+      "readMinutes": 3,
+      "order": 66,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Những thay đổi thể chất và cảm xúc khi dậy thì không diễn ra đúng cùng lịch ở mọi người. Người trẻ cần thông tin đáng tin cậy về cơ thể, kinh nguyệt, vệ sinh, tôn trọng sự đồng thuận và bảo vệ ranh giới. WHO và UNICEF khuyến khích môi trường hỗ trợ để trẻ có thể đặt câu hỏi và tìm tư vấn khi bối rối.",
+            "Tuổi thiếu niên là thời kỳ thay đổi cơ thể, cảm xúc và quan hệ xã hội. Người lớn nên giữ kết nối, trao quyền lựa chọn phù hợp và không xem mọi khó khăn tinh thần là 'chống đối'."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Bắt đầu từ tình huống thường ngày, hỏi con đã biết gì, giải thích bằng từ ngữ chính xác, không phán xét. Nói rõ quyền từ chối đụng chạm không mong muốn, cách lưu bằng chứng hoặc nhờ người lớn đáng tin khi bị quấy rối, và nguồn y tế thân thiện với vị thành niên khi cần.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không chia sẻ thông tin riêng tư, ảnh nhạy cảm hoặc vấn đề sức khỏe của con với người khác khi chưa có lý do an toàn rõ ràng. Bị xâm hại, cưỡng ép hoặc đe dọa cần hỗ trợ bảo vệ thích hợp."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        }
+      ]
+    },
+    {
+      "slug": "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "stage": "thieu-nien",
+      "title": "An toàn số và bắt nạt trực tuyến ở tuổi teen",
+      "summary": "Một thỏa thuận sử dụng mạng xây trên sự tin cậy.",
+      "readMinutes": 3,
+      "order": 67,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "UNICEF hướng dẫn cha mẹ trao đổi về bắt nạt trực tuyến, nhận biết sự thay đổi tâm trạng sau khi dùng thiết bị và xây dựng hỗ trợ không trách nạn nhân. Việc giám sát kín đáo có thể phá vỡ niềm tin nếu thiếu minh bạch; nên kết hợp quy tắc an toàn và kênh cầu cứu rõ ràng.",
+            "Tuổi thiếu niên là thời kỳ thay đổi cơ thể, cảm xúc và quan hệ xã hội. Người lớn nên giữ kết nối, trao quyền lựa chọn phù hợp và không xem mọi khó khăn tinh thần là 'chống đối'."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Thống nhất cách bảo vệ mật khẩu, cài đặt quyền riêng tư, giới hạn chia sẻ vị trí/ảnh và xử lý tin nhắn gây tổn thương. Khi xảy ra bắt nạt, chụp lại bằng chứng khi an toàn, chặn/báo cáo tài khoản và liên hệ trường học hoặc nền tảng liên quan. Hỏi con muốn được hỗ trợ theo cách nào.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Khi xuất hiện đe dọa tống tiền, phát tán ảnh riêng tư hoặc nguy cơ bạo lực, không tự thương lượng với đối tượng gây hại. Ưu tiên an toàn, giữ bằng chứng và tìm hỗ trợ chuyên môn/pháp lý."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – How to talk to your child about cyberbullying",
+          "url": "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying"
+        },
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        }
+      ]
+    },
+    {
+      "slug": "giao-tiep-voi-con-tuoi-teen",
+      "stage": "thieu-nien",
+      "title": "11 nguyên tắc gợi ý để trò chuyện với con tuổi teen",
+      "summary": "Tôn trọng khác biệt, duy trì lắng nghe và giải quyết bất đồng.",
+      "readMinutes": 3,
+      "order": 68,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Tuổi thiếu niên",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "UNICEF nhấn mạnh giao tiếp tích cực: thể hiện sự quan tâm bằng ánh mắt và hành động, lắng nghe thật sự, phản hồi cảm xúc thay vì lập tức phán xét. Thanh thiếu niên đang phát triển bản sắc riêng và cần vừa có không gian tự chủ vừa có người lớn đáng tin khi gặp khó khăn.",
+            "Tuổi thiếu niên là thời kỳ thay đổi cơ thể, cảm xúc và quan hệ xã hội. Người lớn nên giữ kết nối, trao quyền lựa chọn phù hợp và không xem mọi khó khăn tinh thần là 'chống đối'."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Chọn thời điểm không căng thẳng, hỏi câu mở 'Điều gì khó nhất hôm nay?', nhắc lại điều vừa nghe và thừa nhận khi người lớn phản ứng quá nhanh. Thống nhất ranh giới về giờ giấc, an toàn và trách nhiệm cùng lý do rõ ràng; cho con quyền góp ý vào quy tắc.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không biến sự im lặng của con thành lý do kiểm soát, đe dọa hay bêu xấu. Nếu có nguy cơ tự hại, bạo lực hoặc lạm dụng, ưu tiên hỗ trợ chuyên môn và bảo vệ an toàn."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        },
+        {
+          "name": "UNICEF – When to help your teen find mental health support",
+          "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
+        },
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        }
+      ]
+    },
+    {
+      "slug": "ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+      "stage": "truong-thanh",
+      "title": "Lập kế hoạch tự lập sau 18 tuổi",
+      "summary": "Kỹ năng sống, sinh hoạt, tài chính và mạng lưới hỗ trợ.",
+      "readMinutes": 3,
+      "order": 69,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Tự lập không diễn ra tại một ngày sinh nhật; người trẻ có thể cần thời gian tập quản lý lịch sinh hoạt, chi tiêu, học tập và sức khỏe. Khung nuôi dạy hỗ trợ của UNICEF nhấn mạnh xây dựng năng lực tự quyết trong khi vẫn giữ mối quan hệ tin cậy với gia đình. Gia đình không nên đồng nhất trưởng thành với việc không được phép xin giúp đỡ.",
+            "Con trưởng thành cần có quyền quyết định và trách nhiệm với cuộc sống của mình. Gia đình có thể tiếp tục hỗ trợ về thông tin, kết nối cảm xúc và sức khỏe, nhưng không mặc định phải thay người con quyết định."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Thử lập kế hoạch ba tháng về học/việc, chi phí cơ bản, giấy tờ cá nhân, chăm sóc sức khỏe và liên hệ khẩn cấp. Cha mẹ có thể hỏi mục tiêu con tự chọn và đưa lời khuyên khi được mời; hỗ trợ một khoản cụ thể nếu có điều kiện, kèm thỏa thuận rõ ràng.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Không ép lựa chọn ngành học, nghề nghiệp, người yêu hoặc kế hoạch sinh con chỉ để phù hợp kỳ vọng của cha mẹ. Vấn đề tài chính, pháp lý quan trọng cần tham khảo chuyên gia phù hợp."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
+        },
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        }
+      ]
+    },
+    {
+      "slug": "thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+      "stage": "truong-thanh",
+      "title": "Thói quen sức khỏe khi bước vào tuổi trưởng thành",
+      "summary": "Vận động, giấc ngủ, chăm sóc tinh thần và khám phù hợp.",
+      "readMinutes": 3,
+      "order": 70,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "WHO hướng dẫn người trưởng thành nên đạt khoảng 150–300 phút hoạt động thể lực hiếu khí mức vừa mỗi tuần hoặc lượng tương đương ở mức mạnh, điều chỉnh theo bệnh lý. Bên cạnh vận động, ngủ nghỉ, ăn uống và sức khỏe tinh thần là các thành tố của khả năng học tập, làm việc và phát triển độc lập.",
+            "Con trưởng thành cần có quyền quyết định và trách nhiệm với cuộc sống của mình. Gia đình có thể tiếp tục hỗ trợ về thông tin, kết nối cảm xúc và sức khỏe, nhưng không mặc định phải thay người con quyết định."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Chọn hình thức vận động có thể duy trì, ghi lịch nghỉ hợp lý, hạn chế thói quen ngồi liên tục và trao đổi với nhân viên y tế khi có triệu chứng. Người trẻ nên nắm thông tin cơ bản về thuốc đang dùng, tiền sử bệnh, nơi nhận hỗ trợ tâm lý và người liên hệ khẩn cấp.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Đừng xem chế độ ăn kiêng hay tập quá sức như một cách bắt buộc để 'cải thiện bản thân'. Những triệu chứng nghiêm trọng như ngất, đau ngực, ý nghĩ tự hại cần chăm sóc y tế ngay."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance",
+          "url": "https://www.who.int/europe/publications/i/item/9789240014886"
+        },
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        }
+      ]
+    },
+    {
+      "slug": "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "stage": "truong-thanh",
+      "title": "Thiết lập ranh giới lành mạnh giữa cha mẹ và con trưởng thành",
+      "summary": "Giữ kết nối nhưng tôn trọng quyết định cá nhân.",
+      "readMinutes": 3,
+      "order": 71,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Quan hệ cha mẹ – con cái thay đổi khi người con có quyền tự quyết về đời sống và sức khỏe. Các gợi ý giao tiếp của UNICEF nhấn mạnh lắng nghe, phản hồi tôn trọng và củng cố niềm tin; chúng có thể tiếp tục hữu ích khi con đã bước vào tuổi trưởng thành, dù không phải quy tắc cứng cho mọi gia đình.",
+            "Con trưởng thành cần có quyền quyết định và trách nhiệm với cuộc sống của mình. Gia đình có thể tiếp tục hỗ trợ về thông tin, kết nối cảm xúc và sức khỏe, nhưng không mặc định phải thay người con quyết định."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Thỏa thuận trước về việc gọi điện, thăm nhà, riêng tư thiết bị, hỗ trợ tài chính và cách bàn về quyết định quan trọng. Khi bất đồng, tách việc 'tôi lo' khỏi việc quyết định thay; đặt câu hỏi 'Con muốn được hỗ trợ hay chỉ cần lắng nghe?'.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Ranh giới không đồng nghĩa bỏ mặc người gặp nguy hiểm. Nếu có bạo lực, kiểm soát cưỡng ép hoặc đe dọa tự hại, nên tìm hỗ trợ bảo vệ và chuyên môn phù hợp."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        },
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
+        }
+      ]
+    },
+    {
+      "slug": "quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+      "stage": "truong-thanh",
+      "title": "Duy trì sức khỏe tinh thần và các mối quan hệ khi lớn lên",
+      "summary": "Tự chăm sóc, tìm trợ giúp và tạo cộng đồng hỗ trợ.",
+      "readMinutes": 3,
+      "order": 72,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Bước vào trưởng thành",
+        "Nội dung tham khảo có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Tổng quan theo nguồn đã tra cứu",
+          "paragraphs": [
+            "Sự thay đổi môi trường học tập, việc làm, chỗ ở và mối quan hệ có thể tạo áp lực cho người trẻ. WHO lưu ý nhiều khó khăn sức khỏe tâm thần bắt đầu từ tuổi thanh thiếu niên và có thể kéo dài sang tuổi trưởng thành. Gia đình cần quan tâm đến chức năng sinh hoạt và cảm giác an toàn, không chỉ nhìn sự thành đạt bên ngoài.",
+            "Con trưởng thành cần có quyền quyết định và trách nhiệm với cuộc sống của mình. Gia đình có thể tiếp tục hỗ trợ về thông tin, kết nối cảm xúc và sức khỏe, nhưng không mặc định phải thay người con quyết định."
+          ]
+        },
+        {
+          "heading": "Cách thực hành từng bước",
+          "paragraphs": [
+            "Khuyến khích con tự xây mạng lưới bạn bè, người cố vấn, kênh trợ giúp y tế và lịch sinh hoạt lành mạnh. Khi chia sẻ căng thẳng, hãy hỏi con có muốn lời khuyên, hỗ trợ thực tế hay chỉ một người lắng nghe; tôn trọng quyền quyết định sau khi đã có thông tin.",
+            "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Khi nào nên tìm thêm hỗ trợ?",
+          "paragraphs": [
+            "Nếu mất ngủ kéo dài, tuyệt vọng, có ý nghĩ tự hại hoặc bị bạo lực, ưu tiên tiếp cận dịch vụ hỗ trợ đáng tin và cấp cứu khi cần, thay vì quy kết đó là thiếu ý chí."
+          ]
+        },
+        {
+          "heading": "Về nguồn và trách nhiệm biên tập",
+          "paragraphs": [
+            "Nội dung là bản tổng hợp nguyên gốc bằng tiếng Việt do nhóm dự án soạn thảo dựa trên các tài liệu liên kết cuối trang; không sao chép nội dung gốc, không phải bản dịch chính thức và không được các tổ chức nguồn xác nhận. Đường dẫn giúp người đọc kiểm tra khuyến nghị theo ngữ cảnh.",
+            "Thông tin được biên tập cho giai đoạn phát triển sản phẩm, không phải tư vấn y tế, chẩn đoán hay kế hoạch điều trị cá nhân. Các lịch tiêm chủng, quy định giáo dục, cách xử lý nguy cơ và khuyến cáo theo quốc gia cần đối chiếu hướng dẫn hiện hành tại Việt Nam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "name": "UNICEF – When to help your teen find mental health support",
+          "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
+        },
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
       ]
     }
