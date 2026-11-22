@@ -50,7 +50,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
+          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
           api_pid=$!
           npm run start -w @mebe/web > /tmp/mebe-web.log 2>&1 &
           web_pid=$!
