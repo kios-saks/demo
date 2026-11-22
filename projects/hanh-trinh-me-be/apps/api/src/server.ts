@@ -16,7 +16,11 @@ try{
  }
  await app.listen({port:Number(process.env.PORT||4000),host:"0.0.0.0"});
 }catch(error){
- app.log.error(error);
+ // Fastify's logger is disabled for this demo, so emit ONLY an allowlisted
+ // driver error code. Do not print exception messages: some include DB URI.
+ const candidate=error&&typeof error==="object"&&"code" in error?String(error.code):"UNKNOWN";
+ const code=/^[A-Z0-9_]{2,48}$/.test(candidate)?candidate:"UNKNOWN";
+ console.error("ME_BE_BACKEND_STARTUP_FAILED",code);
  await app.close();
  process.exitCode=1;
 }
