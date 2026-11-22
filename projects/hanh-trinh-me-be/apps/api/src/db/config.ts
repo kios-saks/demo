@@ -34,7 +34,8 @@ export function parseDatabaseConfig(env:Env=process.env):DatabaseRouteConfig {
    throw new Error("DATABASE_PRIMARY must be explicitly set to docker or supabase in both mode");
  const secondary=mode==="both"?(primary==="docker"?"supabase":"docker"):null;
  const urls:Partial<Record<DatabaseTarget,string>>={};
- for(const target of [primary,...(secondary?[secondary]:[])]){
+ const enabledTargets:DatabaseTarget[]=secondary?[primary,secondary]:[primary];
+ for(const target of enabledTargets){
    const label=target==="docker"?"DOCKER_DATABASE_URL":"SUPABASE_DATABASE_URL";
    urls[target]=validateUrl(label,target==="docker"?(env.DOCKER_DATABASE_URL||env.DATABASE_URL):env.SUPABASE_DATABASE_URL);
  }
