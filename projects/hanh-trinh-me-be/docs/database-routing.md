@@ -99,3 +99,18 @@ The current CMS admin API is still only a development demo with role keys, never
 ## Provider extension
 
 Add a new provider ID, implement DatabaseConnectionProvider for physical connectivity and ManagedEditorialRepository / EditorialRepository for the domain operations, then register this in apps/api/src/repository.ts. Run the same contract tests for the new adapter. Do not change route controllers or CMS forms.
+
+
+## LIVE PROJECT — provisioned 2026-11-22
+
+Project: **hanh-trinh-me-be** / **yfmwznvlblbhicxexffe**, region **ap-southeast-1 (Singapore)**, organization **trunhquang9**, Free tier. Dashboard: https://supabase.com/dashboard/project/yfmwznvlblbhicxexffe
+
+The Supabase connector created the cloud project and executed the first application migration. Tables live in **private schema mebe** (not public): 12 stages, 24 draft articles, 13 topics, 13 reference sources, 12 research cards, 24 initial revision snapshots. All 11 content tables and migration tracker have RLS enabled and no access grants for anon or authenticated. No health content has been approved or published.
+
+Backend Supabase connections set session search_path to mebe,public; Docker keeps its original public schema. The migration runner prepares the private schema before DDL and reapplies RLS restrictions afterwards. The initial Supabase-applied 001_init.sql migration hash is recorded in mebe.schema_migrations, so db:migrate will not recreate tables.
+
+**Not yet connected to a deployed API:** The Supabase OAuth connector authorizes ChatGPT database management, but does not inject a PostgreSQL password or connection string into GitHub Actions or Backend hosting. Configure SUPABASE_DATABASE_URL securely in the Backend runtime, never in committed .env, NEXT_PUBLIC_*, GitHub issues or PR comments. Test npm run db:status and a read-only API endpoint after credentials are in place.
+
+Suggested current mode: DATABASE_MODE=supabase; to use both, set DATABASE_MODE=both and choose DATABASE_PRIMARY=supabase or docker. This is not automatic replication. Do not switch a production primary without drift reconciliation.
+
+For production, configure least-privilege roles, TLS, network restrictions, backups, and real authenticated CMS. Demo CMS is intentionally disabled in NODE_ENV=production.

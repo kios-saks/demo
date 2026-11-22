@@ -24,7 +24,9 @@ export class PgConnectionProvider implements DatabaseConnectionProvider {
    const ssl=remote?{rejectUnauthorized:true,...(this.caPath?{ca:readFileSync(this.caPath,"utf8")}:{})}:undefined;
    return new Pool({
      connectionString:remote?secureSupabaseUrl(this.uri):this.uri,
-     ...(ssl?{ssl}:{}),max:remote?5:10,
+     ...(ssl?{ssl}:{}),
+     ...(remote?{options:"-c search_path=mebe,public"}:{}),
+     max:remote?5:10,
      idleTimeoutMillis:10000,connectionTimeoutMillis:5000,
      application_name:"mebe-"+this.target
    });

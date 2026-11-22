@@ -119,3 +119,8 @@ The domain-level KnowledgeRepository and EditorialRepository contracts remain pr
 - both: explicit DATABASE_PRIMARY selects the only writable/readable business store; second database is read-only for connection health and data drift checks (NO automatic sync or failover).
 
 Use npm run db:status to compare readiness and safe content/revision fingerprints. In both mode, migration and seed require DB_TARGET=docker or DB_TARGET=supabase. Read docs/database-routing.md for the complete setup, Supabase certificate instructions, security limitations and CI evidence. No Supabase cloud instance is created automatically.
+
+
+### Connected hosted Supabase project
+
+Project hanh-trinh-me-be (yfmwznvlblbhicxexffe) now exists in Singapore. The private mebe schema contains the seeded draft knowledge base. See docs/database-routing.md for verification and secure runtime setup. This ChatGPT connection does not automatically give GitHub or API deployment the database password.
