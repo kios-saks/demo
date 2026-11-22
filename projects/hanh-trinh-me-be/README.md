@@ -186,3 +186,13 @@ revocation behavior, auth and proper release-channel configuration.
 ## Production safety / container deployment
 
 See `docs/backend-deployment.md` for API-only Docker build, `/health/ready`, private runtime settings and the hosting checklist. The Web production release gates unpublished articles even when configured with the mock provider; Mobile no longer imports the 24 draft JSON articles. The production Docker image excludes `.env` via `.dockerignore` and includes no database password. CI tests the Docker image against a mock provider; it does **not** claim a deployed password-authenticated connection to Supabase.
+
+## Bộ dữ liệu tri thức có nguồn — cập nhật 22/11/2026
+
+Dữ liệu seed phát triển đã được biên tập thành **72 bài viết tiếng Việt (6 bài cho mỗi 12 giai đoạn)**, bao gồm 24 bài cũ được bổ sung nguồn/độ chi tiết và 48 bài mới, liên kết **45 tài liệu nguồn** (WHO, UNICEF, CDC, NHS và nguồn trước đây). Mỗi bài có phần hướng dẫn, khi nào cần chuyên gia, liên kết trực tiếp ở cuối bài và chú thích nguồn gốc biên tập độc lập. `mock/manifest.json` mô tả giới hạn quyền sử dụng.
+
+**Không sao chép toàn văn bên thứ ba**. Trích dẫn URL và mô tả ngắn không hàm ý các tổ chức nguồn chứng thực nội dung do dự án viết. Người đọc cần đối chiếu với hướng dẫn của cơ sở y tế tại Việt Nam khi liên quan xét nghiệm, lịch tiêm, thuốc hoặc tình huống cấp cứu.
+
+**Tình trạng phát hành:** các bài vẫn là `draft`, không có bài `published`; triển khai Render hiện là một URL Internet thực, do đó không công khai các bài nháp chỉ vì dự án được gọi là dev. Kho dữ liệu có thể xem trong Supabase schema `mebe` và qua API ở môi trường phát triển được bảo vệ, chưa hiển thị công khai trên Web production. Cần cơ chế preview giới hạn quyền truy cập trước khi mở các bài nháp lên Web qua URL public. Không mặc nhiên áp dụng review y khoa nhiều tầng trong giai đoạn biên tập.
+
+Cập nhật từ source đến database được thực hiện bằng migration nhập liệu có bảo toàn lịch sử, không được chỉnh sửa snapshot revision cũ và không ghi đè bài có nội dung do biên tập viên sửa.

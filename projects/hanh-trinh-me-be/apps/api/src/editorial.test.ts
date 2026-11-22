@@ -37,7 +37,7 @@ test("CMS must fail closed with missing configuration, bad role tokens and produ
    assert.equal((await enabled.inject({url:"/v1/admin/articles",headers:{authorization:"Bearer wrong-token"}})).statusCode,401);
    const info=(await enabled.inject(action("reviewer","GET","/v1/admin/session"))).json().data;
    assert.equal(info.role,"reviewer");
-   assert.equal((await enabled.inject(action("writer","GET","/v1/admin/articles"))).json().data.length,24);
+   assert.equal((await enabled.inject(action("writer","GET","/v1/admin/articles"))).json().data.length,72);
    assert.equal((await enabled.inject(action("writer","GET","/v1/admin/articles/unknown"))).statusCode,404);
  }finally{await enabled.close()}
  const prev=process.env.NODE_ENV;

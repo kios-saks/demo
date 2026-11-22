@@ -31,12 +31,12 @@ test("real PostgreSQL migrations, idempotent imports, interface parity and edito
    await repo.assertReady();
    const overview=await repo.getOverview();
    assert.deepEqual([overview.stages,overview.articles,overview.topics,overview.sources,overview.researchCards],
-     [12,24,13,13,12]);
+     [12,72,13,45,12]);
    assert.equal(overview.provider,"postgres");
-   assert.equal(overview.drafts,24);
+   assert.equal(overview.drafts,72);
    assert.equal((await repo.listStages()).length,12);
    assert.equal((await repo.listTopics("so-sinh")).length,2);
-   assert.equal((await repo.listSources()).length,13);
+   assert.equal((await repo.listSources()).length,45);
    assert.equal((await repo.listResearchCards({stage:"so-sinh"})).length,1);
    const noAccents=await repo.listArticles({q:"SO SINH",limit:50});
    const accents=await repo.listArticles({q:"sơ sinh",limit:50});
@@ -44,10 +44,10 @@ test("real PostgreSQL migrations, idempotent imports, interface parity and edito
    assert.equal(noAccents.meta.total,accents.meta.total);
    const attempt=await repo.listArticles({q:"%' OR 1=1 --",limit:50});
    assert.equal(attempt.meta.total,0,"Queries must be parameterized and wildcard escaped");
-   assert.equal((await repo.listArticles({stage:"so-sinh"})).meta.total,2);
+   assert.equal((await repo.listArticles({stage:"so-sinh"})).meta.total,6);
    const original=await repo.getEditorialArticle("lam-quen-nhip-sinh-hoat-so-sinh");
    assert(original);assert.equal(original.revision,1);
-   assert.equal((await repo.listEditorialArticles()).length,24);
+   assert.equal((await repo.listEditorialArticles()).length,72);
    const app=buildApp(repo,keys);
    try{
      const health=await app.inject("/health");

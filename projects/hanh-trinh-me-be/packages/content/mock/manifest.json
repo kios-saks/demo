@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "origin": "Original Vietnamese editorial synthesis from individually verified official WHO/UNICEF/CDC/NHS resources accessed 2026-11-22",
   "clinicalClaimsVerified": false,
   "publicationAllowed": false,
-  "version": "sourced-2026-11-22-phase1",
+  "version": "sourced-2026-11-22-complete",
   "files": [
     "articles.json",
     "mock/sources.json",
@@ -12,5 +12,5 @@
     "mock/research-cards.json"
   ],
   "copyright": "Original Vietnamese editorial summaries with direct authoritative source URLs; no bulk scraping or third-party text reproduction.",
-  "editorialPolicy": "Development drafts, clear citations, no endorsement implied and no clinical reviewer sign-off; do not auto-publish internet-facing drafts."
+  "editorialPolicy": "72 development-stage original Vietnamese guides with individual official source URLs. No professional sign-off; do not auto-publish. Authenticated preview required for internet-accessible drafts."
 }

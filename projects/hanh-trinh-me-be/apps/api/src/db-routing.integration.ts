@@ -30,7 +30,7 @@ test("Docker+Supabase-target dual routing: primary only writes; secondary has dr
    const initial=await routed.inspect();
    assert.equal(initial.mode,"both");
    assert.equal(initial.primary,"docker");assert.equal(initial.secondary,"supabase");
-   assert.deepEqual(initial.probes.map(x=>x.articles),[24,24]);
+   assert.deepEqual(initial.probes.map(x=>x.articles),[72,72]);
    assert.equal(initial.inSync,true,"Unmodified initial seeds match");
    assert.equal(initial.writePolicy,"primary-only");
    const a=(await routed.getEditorialArticle("lam-quen-nhip-sinh-hoat-so-sinh"))!;
@@ -54,7 +54,7 @@ test("Docker+Supabase-target dual routing: primary only writes; secondary has dr
    try{
      const health=(await api.inject("/health")).json();
      assert.equal(health.provider,"postgres");
-     assert.equal((await api.inject("/v1/articles?stage=so-sinh")).json().meta.total,2);
+     assert.equal((await api.inject("/v1/articles?stage=so-sinh")).json().meta.total,6);
    }finally{await api.close();}
  }catch(err){await routed.close().catch(()=>{});throw err;}
  const reverse=createDatabaseRepository(parseDatabaseConfig({

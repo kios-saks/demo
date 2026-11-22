@@ -11,7 +11,7 @@ test("production policy excludes draft content and all editorial details for moc
  assert.equal(await repo.getArticle("lam-quen-nhip-sinh-hoat-so-sinh"),null);
  assert.equal((await repo.listResearchCards()).length,0);
  await assert.rejects(()=>repo.getOverview(),/disabled/);
- assert.equal((await repo.listSources()).length,13);
+ assert.equal((await repo.listSources()).length,45);
 });
 test("production policy preserves valid published content",async()=>{
  const sample=loadSeedDataset(),one=sample.articles[0];

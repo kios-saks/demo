@@ -30,7 +30,7 @@ test("mobile preview sync, persistent offline cache, TTL and server edits",async
  try{
    const list=await sync.refreshIndex();
    assert.equal(list.stages.length,12);
-   assert.equal(list.articles.length,24);
+   assert.equal(list.articles.length,72);
    const slug="lam-quen-nhip-sinh-hoat-so-sinh";
    const before=await sync.loadArticle(slug);
    assert(before);
@@ -40,7 +40,7 @@ test("mobile preview sync, persistent offline cache, TTL and server edits",async
    },{id:"demo-writer",role:"writer"});
    assert.equal((await sync.loadArticle(slug))?.title,"Đã đồng bộ CMS sang Mobile preview");
    online=false;
-   assert.equal((await sync.cachedIndex())?.articles.length,24);
+   assert.equal((await sync.cachedIndex())?.articles.length,72);
    assert.equal((await sync.loadArticle(slug))?.title,"Đã đồng bộ CMS sang Mobile preview");
    now+=73*60*60*1000;
    assert.equal(await sync.cachedIndex(),null);

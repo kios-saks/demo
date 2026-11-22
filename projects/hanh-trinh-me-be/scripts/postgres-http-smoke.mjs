@@ -13,12 +13,12 @@ async function get(url){
 const health=await get("/health");
 assert.equal(health.provider,"postgres");
 const stages=await get("/v1/stages");assert.equal(stages.data.length,12);
-const articles=await get("/v1/articles?limit=50");assert.equal(articles.meta.total,24);
-const sources=await get("/v1/sources");assert.equal(sources.data.length,13);
+const articles=await get("/v1/articles?limit=50");assert.equal(articles.meta.total,72);
+const sources=await get("/v1/sources");assert.equal(sources.data.length,45);
 const topics=await get("/v1/topics");assert.equal(topics.data.length,13);
 const cards=await get("/v1/research-cards");assert.equal(cards.data.length,12);
 const single=await get("/v1/articles/lam-quen-nhip-sinh-hoat-so-sinh");
 assert(["draft","in_review"].includes(single.data.status));
 const noAuth=await fetch(base+"/v1/admin/articles");
 assert([401,503,404].includes(noAuth.status));
-console.log("PASS real PostgreSQL API HTTP: stages=12 articles=24 sources=13 topics=13 cards=12; anonymous CMS denied");
+console.log("PASS real PostgreSQL API HTTP: stages=12 articles=72 sources=45 topics=13 cards=12; anonymous CMS denied");

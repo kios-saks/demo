@@ -22,11 +22,11 @@ test("HTTP KnowledgeRepository follows shared contract and sees CMS edits immedi
    assert.equal((await repo.listStages()).length,12);
    assert.equal((await repo.getStage("so-sinh"))?.title,"Trẻ sơ sinh");
    assert.equal(await repo.getStage("missing"),null);
-   assert.equal((await repo.listArticles({stage:"so-sinh",limit:20})).meta.total,2);
+   assert.equal((await repo.listArticles({stage:"so-sinh",limit:20})).meta.total,6);
    assert.equal((await repo.listTopics("so-sinh")).length,2);
-   assert.equal((await repo.listSources()).length,13);
+   assert.equal((await repo.listSources()).length,45);
    assert.equal((await repo.listResearchCards()).length,12);
-   assert.equal((await repo.getOverview()).articles,24);
+   assert.equal((await repo.getOverview()).articles,72);
    assert((await repo.getDisclaimer()).length>10);
    assert.equal(await repo.getArticle("non-existent"),null);
    const slug="lam-quen-nhip-sinh-hoat-so-sinh";

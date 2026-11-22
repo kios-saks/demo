@@ -12,7 +12,7 @@ test("provider is mock and documented public routes remain compatible",async()=>
    assert.equal(health.json().provider,"mock");
    assert.equal((await app.inject("/v1/stages")).json().data.length,12);
    assert.equal((await app.inject("/v1/articles?limit=3")).json().data.length,3);
-   assert.equal((await app.inject("/v1/articles?stage=so-sinh")).json().meta.total,2);
+   assert.equal((await app.inject("/v1/articles?stage=so-sinh")).json().meta.total,6);
    assert.equal((await app.inject("/v1/articles/unknown")).statusCode,404);
    assert.equal((await app.inject("/v1/stages/unknown")).statusCode,404);
    assert.equal((await app.inject("/v1/articles?page=-1")).statusCode,400);
@@ -28,10 +28,10 @@ test("new structured mock topic, source, and research endpoints",async()=>{
    const topics=(await app.inject("/v1/topics")).json().data;
    const sources=(await app.inject("/v1/sources")).json().data;
    const cards=(await app.inject("/v1/research-cards")).json().data;
-   assert.equal(topics.length,13);assert.equal(sources.length,13);assert.equal(cards.length,12);
+   assert.equal(topics.length,13);assert.equal(sources.length,45);assert.equal(cards.length,12);
    assert.equal((await app.inject("/v1/topics?stage=so-sinh")).json().data.length,2);
    assert.equal((await app.inject("/v1/research-cards?stage=so-sinh")).json().data.length,1);
-   assert.equal((await app.inject("/v1/editorial/overview")).json().data.drafts,24);
+   assert.equal((await app.inject("/v1/editorial/overview")).json().data.drafts,72);
    assert(cards.every((x:{status:string;medicalApproval:boolean})=>x.status==="draft"&&!x.medicalApproval));
  }finally{await app.close();}
 });
@@ -46,7 +46,7 @@ test("repository search supports Vietnamese with or without accents, and paginat
  const first=await repo.listArticles({page:1,limit:2});
  const second=await repo.listArticles({page:2,limit:2});
  assert.notEqual(first.data[0].slug,second.data[0].slug);
- assert.equal(first.meta.total,24);
+ assert.equal(first.meta.total,72);
 });
 
 test("mock repository does not persist mutations of returned objects",async()=>{

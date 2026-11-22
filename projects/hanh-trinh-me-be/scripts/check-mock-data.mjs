@@ -5,7 +5,7 @@ const manifest=read("mock/manifest.json"),articles=read("articles.json"),topics=
 assert.equal(manifest.clinicalClaimsVerified,false);
 assert.equal(manifest.publicationAllowed,false);
 assert.equal(manifest.schemaVersion,1);
-assert.equal(sources.length,13);assert.equal(topics.length,13);assert.equal(cards.length,12);
+assert.equal(sources.length,45);assert.equal(topics.length,13);assert.equal(cards.length,12);
 const stageIds=new Set(articles.stages.map(s=>s.slug)),sourceIds=new Set(sources.map(s=>s.id)),topicIds=new Set(topics.map(t=>t.id));
 assert.equal(stageIds.size,articles.stages.length);
 assert.equal(sourceIds.size,sources.length);assert.equal(topicIds.size,topics.length);
@@ -13,10 +13,10 @@ const seen=new Set();
 for(const t of topics){for(const id of t.stageSlugs)assert(stageIds.has(id),"Unknown topic stage "+id)}
 for(const s of sources){
  assert(s.id&&s.publisher&&s.title);
- assert(s.accessedAt===manifest.generatedAt,"Source access date mismatch");
+ assert(/^2026-11-2[12]$/.test(s.accessedAt),"Source access date must be audited");
  assert(/^https:\/\//.test(s.url),"Non-HTTPS source");
  assert(s.clinicalApproval===false,"Source is not professional endorsement");
- assert(s.usage==="url-and-curated-metadata-only");
+ assert(["url-and-curated-metadata-only","original-Vietnamese-editorial-synthesis-with-link"].includes(s.usage),"Unexpected source usage");
  for(const id of s.stageSlugs)assert(stageIds.has(id));
 }
 for(const c of cards){
