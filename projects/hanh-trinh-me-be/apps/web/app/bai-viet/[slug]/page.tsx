@@ -17,7 +17,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const disclaimer=await getWebRepository().getDisclaimer();
   return <div className="wrap article-layout"><article className="article-body">
     <div className="breadcrumbs"><Link href="/">Trang chủ</Link> / <Link href={"/"+stage.slug}>{stage.title}</Link> / Bài viết</div>
-    <span className="pill">BẢN NHÁP • CHƯA THẨM ĐỊNH</span><h1>{a.title}</h1><p className="lead">{a.summary}</p>
+    <span className="pill">{a.status==="published"?"ĐÃ XUẤT BẢN":"BẢN NHÁP • CHƯA THẨM ĐỊNH"}</span><h1>{a.title}</h1><p className="lead">{a.summary}</p>
     <div className="meta">Đọc khoảng {a.readMinutes} phút · Chuyên mục: {stage.title}</div>
     <div className="disclaimer"><b>Lưu ý:</b> {disclaimer}</div>
     {a.sections.map(s=><section className="prose-section" key={s.heading}><h2>{s.heading}</h2>{s.paragraphs.map(p=><p key={p}>{p}</p>)}</section>)}

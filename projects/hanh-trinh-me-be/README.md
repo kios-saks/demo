@@ -124,3 +124,31 @@ Use npm run db:status to compare readiness and safe content/revision fingerprint
 ### Connected hosted Supabase project
 
 Project hanh-trinh-me-be (yfmwznvlblbhicxexffe) now exists in Singapore. The private mebe schema contains the seeded draft knowledge base. See docs/database-routing.md for verification and secure runtime setup. This ChatGPT connection does not automatically give GitHub or API deployment the database password.
+
+## Web-to-Backend API adapter (next deployment milestone)
+
+The Web now implements the existing KnowledgeRepository contract using ApiKnowledgeRepository.
+Set WEB_CONTENT_PROVIDER=api and CONTENT_API_INTERNAL_URL=http://your-private-api-service:4000 on the **Web runtime**.
+Do not use NEXT_PUBLIC_ for this variable, and do not place a database password in Web or Mobile.
+
+The backend still owns DATABASE_MODE=supabase and SUPABASE_DATABASE_URL. Put both values in the Backend
+hosting provider's private environment/secret store. The hosted Supabase project is available, but
+connecting Supabase to ChatGPT does not transfer a PostgreSQL password to an app host or GitHub Actions.
+
+The HTTP adapter does not silently fall back to bundled JSON if the Backend is unavailable.
+In production API mode it restricts all public Web reads to published articles even if the API is misconfigured;
+draft details return 404 and the internal editorial/research pages are unavailable. Since zero
+articles have passed verified medical review, production correctly has no visible article body yet.
+In Next.js development mode, the draft preview is shown with warnings and reflects CMS/API edits
+without rebuilding the Web bundle.
+
+GitHub Actions additionally builds Next.js in API mode and exercises an integrated SSR smoke against
+a production-mode Fastify instance. This is NOT a real hosted PostgreSQL password-authenticated
+connection test; production deployment and secrets still need a hosting app connection.
+
+## Credentials currently requiring hosting access
+
+The database owner credential shared in a chat is not committed anywhere. Rotate it promptly and
+prefer a narrowly scoped app role with only the necessary mebe schema permissions instead of using
+the Supabase postgres owner for the long-lived Backend. Keep NODE_ENV=production and use trusted TLS.
+Run npm run db:status and GET /health plus /v1/stages after deploying to prove the app-to-Supabase connection.

@@ -14,7 +14,7 @@ export interface ResearchQuery{stage?:string;topicId?:string}
 export interface EditorialOverview{provider:"mock"|"postgres";stages:number;articles:number;drafts:number;published:number;topics:number;sources:number;researchCards:number;lastSeededAt:string}
 export interface MockContentDataset {version:string;disclaimer:string;stages:Stage[];articles:Article[];topics:Topic[];sources:SourceReference[];researchCards:ResearchCard[];seededAt:string}
 export interface KnowledgeRepository {
- readonly provider: "mock"|"postgres";
+ readonly provider: "mock"|"postgres"|"api";
  listStages():Promise<Stage[]>;
  getStage(slug:string):Promise<Stage|null>;
  listArticles(query?:ArticleQuery):Promise<Page<ArticleSummary>>;

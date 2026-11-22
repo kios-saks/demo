@@ -149,3 +149,34 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Dual PostgreSQL routing integration test
         run: npm run test:db-routing
+
+  web-api-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build Web in API mode without a database secret
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+          WEB_CONTENT_PROVIDER: api
+          CONTENT_API_INTERNAL_URL: http://127.0.0.1:4000
+        run: npm run build:web
+      - name: Check production public content gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api-prod.log 2>&1 &
+          api_pid=$!
+          WEB_CONTENT_PROVIDER=api CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 npm run start -w @mebe/web > /tmp/mebe-web-api.log 2>&1 &
+          web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }

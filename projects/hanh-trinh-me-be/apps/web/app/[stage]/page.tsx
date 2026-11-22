@@ -18,7 +18,7 @@ export default async function StagePage({ params }: { params: Promise<{ stage: s
     <div className="breadcrumbs"><Link href="/">Trang chủ</Link> / {item.title}</div>
     <div className="stage-head"><span className="stage-icon big">{item.icon}</span><span className="eyebrow">{item.range}</span><h1>{item.title}</h1><p>{item.description}</p></div>
     <h2 className="list-title">Bài viết dành cho giai đoạn này <span>({list.length})</span></h2>
-    <div className="article-grid">{list.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}><span className="pill">Bản nháp cần duyệt</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài →</span></Link>)}</div>
+    <div className="article-grid">{list.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}><span className="pill">{a.status==="published"?"Đã xuất bản":"Bản nháp cần duyệt"}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài →</span></Link>)}</div>
     <p className="disclaimer">Các bài hiện là nội dung mẫu; không dùng để đưa ra quyết định điều trị hoặc tự chẩn đoán.</p>
   </div>;
 }

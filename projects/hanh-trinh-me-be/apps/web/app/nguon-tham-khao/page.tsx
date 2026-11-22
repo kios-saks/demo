@@ -1,12 +1,13 @@
 import Link from "next/link";
 import {getWebRepository} from "../../lib/repository";
+export const dynamic="force-dynamic";
 export const metadata={title:"Danh mục nguồn tham khảo",robots:{index:false,follow:false}};
 export default async function SourcesPage({searchParams}:{searchParams:Promise<{stage?:string}>}){
  const {stage=""}=await searchParams;
  const repo=getWebRepository();
  const stages=await repo.listStages();
  const sources=await repo.listSources(stage);
- return <div className="wrap inner-page"><span className="eyebrow">THƯ VIỆN NGUỒN · MOCK DATA</span>
+ return <div className="wrap inner-page"><span className="eyebrow">THƯ VIỆN NGUỒN · TÀI LIỆU THAM KHẢO</span>
  <h1>Nguồn nghiên cứu và tham khảo</h1>
  <p className="lead">Danh mục metadata và liên kết gốc được tổng hợp từ WHO, CDC, UNICEF và cơ quan Bộ Y tế Việt Nam ngày 21/11/2026. Các đơn vị này không tài trợ hay chứng thực dự án. Không có nội dung sức khỏe nào đã được duyệt y khoa.</p>
  <form action="/nguon-tham-khao" method="get" className="search-form">

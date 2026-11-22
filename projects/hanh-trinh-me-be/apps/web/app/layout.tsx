@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="topbar">
           <div className="wrap nav">
             <Link href="/" className="brand"><span className="brand-mark">♡</span><span>Hành Trình <b>Mẹ & Bé</b></span></Link>
-            <nav aria-label="Điều hướng chính"><Link href="/">Khám phá</Link><Link href="/tim-kiem">Tra cứu</Link><Link href="/bien-tap">Góc biên tập</Link></nav>
+            <nav aria-label="Điều hướng chính"><Link href="/">Khám phá</Link><Link href="/tim-kiem">Tra cứu</Link>{process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production"?null:<Link href="/bien-tap">Góc biên tập</Link>}</nav>
           </div>
         </header>
         <main>{children}</main>
