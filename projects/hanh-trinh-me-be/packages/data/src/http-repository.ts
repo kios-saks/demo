@@ -27,9 +27,8 @@ export class ApiKnowledgeRepository implements KnowledgeRepository {
    this.publicOnly=options.publishedOnly===true;
  }
  private async request<T>(path:string,notFoundIsNull=false):Promise<T|null>{
-   const response=await this.fetcher(this.base+path,{
-     method:"GET",headers:{"accept":"application/json"},cache:"no-store"
-   });
+   const init={method:"GET",headers:{"accept":"application/json"},cache:"no-store" as const};
+   const response=await this.fetcher(this.base+path,init);
    if(response.status===404&&notFoundIsNull)return null;
    if(!response.ok)throw new Error("Knowledge API request failed: HTTP "+response.status);
    return response.json() as Promise<T>;

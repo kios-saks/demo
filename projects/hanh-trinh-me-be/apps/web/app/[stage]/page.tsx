@@ -3,7 +3,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getWebRepository } from "../../lib/repository";
 
-export async function generateStaticParams() { return (await getWebRepository().listStages()).map(s => ({ stage: s.slug })); }
+export const dynamic="force-dynamic";
+export async function generateStaticParams() {
+ if(process.env.WEB_CONTENT_PROVIDER==="api")return [];
+ return (await getWebRepository().listStages()).map(s=>({stage:s.slug}));
+}
 export async function generateMetadata({ params }: { params: Promise<{ stage: string }> }): Promise<Metadata> {
   const { stage } = await params;
   const item = await getWebRepository().getStage(stage);

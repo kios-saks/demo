@@ -3,7 +3,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getWebRepository } from "../../../lib/repository";
 
-export async function generateStaticParams() { return (await getWebRepository().listArticles({limit:50})).data.map(a => ({ slug: a.slug })); }
+export const dynamic="force-dynamic";
+export async function generateStaticParams() {
+ if(process.env.WEB_CONTENT_PROVIDER==="api")return [];
+ return (await getWebRepository().listArticles({limit:50})).data.map(a=>({slug:a.slug}));
+}
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const a = await getWebRepository().getArticle(slug);
