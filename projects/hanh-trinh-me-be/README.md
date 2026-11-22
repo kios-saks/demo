@@ -189,7 +189,7 @@ See `docs/backend-deployment.md` for API-only Docker build, `/health/ready`, pri
 
 ## Bộ dữ liệu tri thức có nguồn — cập nhật 22/11/2026
 
-Dữ liệu seed phát triển đã được biên tập thành **72 bài viết tiếng Việt (6 bài cho mỗi 12 giai đoạn)**, bao gồm 24 bài cũ được bổ sung nguồn/độ chi tiết và 48 bài mới, liên kết **45 tài liệu nguồn** (WHO, UNICEF, CDC, NHS và nguồn trước đây). Mỗi bài có phần hướng dẫn, khi nào cần chuyên gia, liên kết trực tiếp ở cuối bài và chú thích nguồn gốc biên tập độc lập. `mock/manifest.json` mô tả giới hạn quyền sử dụng.
+Dữ liệu seed phát triển đã được biên tập thành **72 bài viết tiếng Việt (6 bài cho mỗi 12 giai đoạn)**, bao gồm 24 bài cũ được bổ sung nguồn/độ chi tiết và 48 bài mới, liên kết **46 hồ sơ nguồn (43 URL duy nhất)** (WHO, UNICEF, CDC, NHS và nguồn trước đây). Mỗi bài có phần hướng dẫn, khi nào cần chuyên gia, liên kết trực tiếp ở cuối bài và chú thích nguồn gốc biên tập độc lập. `mock/manifest.json` mô tả giới hạn quyền sử dụng.
 
 **Không sao chép toàn văn bên thứ ba**. Trích dẫn URL và mô tả ngắn không hàm ý các tổ chức nguồn chứng thực nội dung do dự án viết. Người đọc cần đối chiếu với hướng dẫn của cơ sở y tế tại Việt Nam khi liên quan xét nghiệm, lịch tiêm, thuốc hoặc tình huống cấp cứu.
 

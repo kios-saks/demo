@@ -5,7 +5,7 @@ const manifest=read("mock/manifest.json"),articles=read("articles.json"),topics=
 assert.equal(manifest.clinicalClaimsVerified,false);
 assert.equal(manifest.publicationAllowed,false);
 assert.equal(manifest.schemaVersion,1);
-assert.equal(sources.length,45);assert.equal(topics.length,13);assert.equal(cards.length,12);
+assert.equal(sources.length,46);assert.equal(topics.length,13);assert.equal(cards.length,12);
 const stageIds=new Set(articles.stages.map(s=>s.slug)),sourceIds=new Set(sources.map(s=>s.id)),topicIds=new Set(topics.map(t=>t.id));
 assert.equal(stageIds.size,articles.stages.length);
 assert.equal(sourceIds.size,sources.length);assert.equal(topicIds.size,topics.length);

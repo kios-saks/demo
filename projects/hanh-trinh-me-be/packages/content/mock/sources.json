@@ -872,5 +872,25 @@
     "usage": "original-Vietnamese-editorial-synthesis-with-link",
     "clinicalApproval": false,
     "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-science-play-verified",
+    "publisher": "UNICEF",
+    "title": "The science of play",
+    "url": "https://www.unicef.org/parenting/child-care/science-of-play",
+    "publicationYear": "",
+    "topic": "learning-through-play",
+    "stageSlugs": [
+      "tap-di",
+      "mam-non",
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "URL và chủ đề được kiểm tra khi biên tập. Bản tiếng Việt là tác phẩm tổng hợp độc lập, không được UNICEF thẩm định."
   }
 ]

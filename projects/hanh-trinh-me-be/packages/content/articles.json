@@ -145,10 +145,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "CDC – Folic Acid: Facts for Clinicians",
           "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
         },
@@ -202,10 +198,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "WHO – Promoting healthy pregnancy",
-          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
-        },
         {
           "name": "CDC – Folic Acid: Facts for Clinicians",
           "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
@@ -261,10 +253,6 @@
       ],
       "sources": [
         {
-          "name": "WHO – Promoting healthy pregnancy",
-          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
-        },
-        {
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         },
@@ -318,10 +306,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
@@ -377,10 +361,6 @@
       ],
       "sources": [
         {
-          "name": "WHO – Promoting healthy pregnancy",
-          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
-        },
-        {
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         },
@@ -434,10 +414,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
@@ -493,10 +469,6 @@
       ],
       "sources": [
         {
-          "name": "WHO – Promoting healthy pregnancy",
-          "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
-        },
-        {
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         },
@@ -550,10 +522,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "WHO – Maternal health",
-          "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
-        },
         {
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
@@ -609,10 +577,6 @@
       ],
       "sources": [
         {
-          "name": "WHO – Maternal health",
-          "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
-        },
-        {
           "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
           "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         },
@@ -666,10 +630,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
           "url": "https://www.who.int/publications-detail-redirect/9789240045989"
@@ -725,10 +685,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
         },
@@ -782,10 +738,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
@@ -957,10 +909,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "CDC – Milestones by 2 Years",
           "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
         },
@@ -1131,10 +1079,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "CDC – Milestones by 4 Years",
           "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
         },
@@ -1188,10 +1132,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "UNICEF – Positive parenting tips for children aged 6–10",
           "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
@@ -1247,10 +1187,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "UNICEF – Positive parenting tips for children aged 6–10",
           "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
         },
@@ -1304,10 +1240,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "WHO – Mental health of adolescents",
           "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
@@ -1363,10 +1295,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "WHO – Mental health of adolescents",
           "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
         },
@@ -1421,10 +1349,6 @@
       ],
       "sources": [
         {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
-        {
           "name": "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance",
           "url": "https://www.who.int/europe/publications/i/item/9789240014886"
         },
@@ -1478,10 +1402,6 @@
         }
       ],
       "sources": [
-        {
-          "name": "UNICEF – Parenting",
-          "url": "https://www.unicef.org/parenting"
-        },
         {
           "name": "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance",
           "url": "https://www.who.int/europe/publications/i/item/9789240014886"
