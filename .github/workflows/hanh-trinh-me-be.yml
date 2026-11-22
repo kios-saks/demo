@@ -101,3 +101,51 @@ jobs:
           api_pid=$!
           trap 'kill "$api_pid" 2>/dev/null || true' EXIT
           node scripts/postgres-http-smoke.mjs || { cat /tmp/mebe-postgres-api.log; exit 1; }
+
+  db-routing-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      docker-postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: docker-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+      supabase-target-simulator:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: secondary-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    env:
+      DOCKER_DATABASE_URL: postgresql://mebe:docker-test-only@127.0.0.1:5432/mebe
+      SUPABASE_DATABASE_URL: postgresql://mebe:secondary-test-only@127.0.0.1:5433/mebe
+      NODE_ENV: development
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Dual PostgreSQL routing integration test
+        run: npm run test:db-routing

@@ -107,3 +107,15 @@ Run integration tests with a disposable PostgreSQL 16 instance using \`npm run t
 Security: no publish endpoint. PostgreSQL schema explicitly disallows the \`published\` status until real editorial/medical credentials and production security are implemented. Demo role keys are still **development-only**, and \`/v1/admin\` returns 404 in production. Public API hides draft content under \`NODE_ENV=production\`. No user/child medical data is imported.
 
 See \`docs/postgresql-adapter.md\`.
+
+
+## Choose Docker, Supabase, or both (database routing)
+
+The domain-level KnowledgeRepository and EditorialRepository contracts remain provider-neutral. DatabaseConnectionProvider and RoutedEditorialRepository now allow these modes via DATABASE_MODE:
+
+- mock: bundled JSON repository.
+- docker: local PostgreSQL, default legacy behavior for CONTENT_PROVIDER=postgres.
+- supabase: hosted Supabase PostgreSQL over verified TLS, when real credentials exist.
+- both: explicit DATABASE_PRIMARY selects the only writable/readable business store; second database is read-only for connection health and data drift checks (NO automatic sync or failover).
+
+Use npm run db:status to compare readiness and safe content/revision fingerprints. In both mode, migration and seed require DB_TARGET=docker or DB_TARGET=supabase. Read docs/database-routing.md for the complete setup, Supabase certificate instructions, security limitations and CI evidence. No Supabase cloud instance is created automatically.

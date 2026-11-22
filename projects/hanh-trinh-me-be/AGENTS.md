@@ -33,3 +33,8 @@ Production API hides draft articles and private mock editorial/research endpoint
 ## Sprint P0 editorial mock CMS
 
 Admin UI lives at \`apps/web/app/admin/\`. Backend admin routes live under \`apps/api/src/admin.ts\`. Local single-process edit/review JSON repository implements \`EditorialRepository\` and writes \`.local/editorial-state.json\`; the seed in \`packages/content/\` is never modified by the CMS. Admin endpoints are 404 in production, cannot be used without three distinct dev-only role tokens, and do not publish. Revisions are optimistic-locked and every approval references the submitted revision; edits reset approvals. Tests must cover role permission failures, stale revisions, self-review, source validation, persistence reload and production fail-closed gating. Do not turn simulated medical reviews into public publication.
+
+
+## Interchangeable database providers
+
+The system has a stable KnowledgeRepository and EditorialRepository domain contract. Docker and Supabase are DB connection adapters, selected by DATABASE_MODE=mock|docker|supabase|both. In both mode DATABASE_PRIMARY is mandatory: route all reads/writes to primary, probe secondary read-only, warn on data drift, never silently sync/failover. All migrations/seeds require explicit DB_TARGET in both mode. Supabase remote SSL verification is mandatory; do not commit connection strings or CA secrets. Dual DB CI is two PostgreSQL containers, not a live Supabase account. New backend vendors should implement interfaces and register a provider, not modify business controllers.
