@@ -196,3 +196,29 @@ Dữ liệu seed phát triển đã được biên tập thành **72 bài viết
 **Tình trạng phát hành:** các bài vẫn là `draft`, không có bài `published`; triển khai Render hiện là một URL Internet thực, do đó không công khai các bài nháp chỉ vì dự án được gọi là dev. Kho dữ liệu có thể xem trong Supabase schema `mebe` và qua API ở môi trường phát triển được bảo vệ, chưa hiển thị công khai trên Web production. Cần cơ chế preview giới hạn quyền truy cập trước khi mở các bài nháp lên Web qua URL public. Không mặc nhiên áp dụng review y khoa nhiều tầng trong giai đoạn biên tập.
 
 Cập nhật từ source đến database được thực hiện bằng migration nhập liệu có bảo toàn lịch sử, không được chỉnh sửa snapshot revision cũ và không ghi đè bài có nội dung do biên tập viên sửa.
+
+## Protected development content reading room (2026-11-22)
+
+Preview all **72 unapproved development articles** without making them public or
+requiring a full CMS/medical-review workflow. The special Web routes are:
+`/dev-review` (searchable index), `/dev-review/[slug]` (full original Vietnamese
+content and source links). All requests are Basic-auth protected, with
+username **editor** and secret `DEV_CONTENT_PREVIEW_TOKEN`, shared between Web
+and API secure Render environments. This token must be unique, randomly generated,
+at least 24 characters, and is distinct from `SUPABASE_DATABASE_URL`.
+
+Browser → Basic auth (Web route handler) → Web server adds its
+`x-preview-token` header → read-only Fastify
+`/v1/dev-preview/articles[/:slug]` → Supabase `mebe` schema.
+The public `/v1/articles` endpoint still returns 0 drafts; preview is protected
+with no-store, noindex, no-referrer. The credential should be rotated after dev
+and not stored in source control or URL/query string.
+
+The feature is *read only*, not a publishing or editorial approval UI.
+The preview URL is publicly reachable but its content is behind login.
+Tests cover 401/404 for unauthenticated requests and retrieval of all 72
+draft summaries and cited article body. NEVER reuse the database password
+as the preview token.
+
+Render Free can sleep; the first preview request may fail during cold start,
+in which case reload after the Backend wakes.

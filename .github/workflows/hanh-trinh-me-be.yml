@@ -180,12 +180,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api-prod.log 2>&1 &
+          NODE_ENV=production DATABASE_MODE=mock DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api-prod.log 2>&1 &
           api_pid=$!
-          WEB_CONTENT_PROVIDER=api CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 npm run start -w @mebe/web > /tmp/mebe-web-api.log 2>&1 &
+          WEB_CONTENT_PROVIDER=api CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm run start -w @mebe/web > /tmp/mebe-web-api.log 2>&1 &
           web_pid=$!
           trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
-          node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+          CI_DEV_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest
