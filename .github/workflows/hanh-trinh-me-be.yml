@@ -30,6 +30,8 @@ jobs:
           node-version: "22"
       - name: Install all workspaces
         run: npm install --no-audit --no-fund
+      - name: Verify free hosting blueprint and absence of embedded DB secrets
+        run: node scripts/check-render-blueprint.mjs
       - name: Content validation
         run: npm run check:content
       - name: API tests
