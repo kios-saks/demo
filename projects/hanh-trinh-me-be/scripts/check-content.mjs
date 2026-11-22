@@ -4,7 +4,8 @@ const root=new URL("../packages/content/",import.meta.url);
 const read=file=>JSON.parse(readFileSync(new URL(file,root),"utf8"));
 const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json");
 const stages=new Set(d.stages.map(x=>x.slug));
-const sourced=new Set(sources.map(x=>x.url));
+const canonical=url=>url.replace(/\/+$/,"").toLowerCase();
+const sourced=new Set(sources.map(x=>canonical(x.url)));
 assert.equal(stages.size,12);
 assert.equal(d.articles.length,72);
 assert(sourced.size>=40,"At least 40 distinct source URLs required");
@@ -17,7 +18,7 @@ for(const a of d.articles){
  assert(a.title.length>15 && a.summary.length>35, "Article title/summary too short: "+a.slug);
  assert(a.sections.length>=4, "Article not yet expanded: "+a.slug);
  assert(a.sources.length>=2, "Need article-specific source links: "+a.slug);
- assert(a.sources.every(s=>/^https:\/\//.test(s.url)&&sourced.has(s.url)),"Unknown article source: "+a.slug);
+ assert(a.sources.every(s=>/^https:\/\//.test(s.url)&&sourced.has(canonical(s.url))),"Unknown article source: "+a.slug);
  assert(new Set(a.sources.map(s=>s.url)).size===a.sources.length,"Repeated source: "+a.slug);
  const body=a.sections.flatMap(s=>s.paragraphs).join(" ");
  assert(body.length>=280,"Article body too short: "+a.slug);
