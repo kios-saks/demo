@@ -38,6 +38,8 @@ jobs:
         run: npm exec -w @mebe/api -- tsc --noEmit
       - name: Mobile TypeScript
         run: npm exec -w @mebe/mobile -- tsc --noEmit
+      - name: Confirm Mobile release has no bundled draft knowledge JSON
+        run: node scripts/check-mobile-release.mjs
       - name: React dependency diagnosis
         run: npm ls react react-dom next --depth=0 || true
       - name: Next.js production build
@@ -180,3 +182,21 @@ jobs:
           web_pid=$!
           trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
           node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+
+  backend-container-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build release API container without credentials
+        run: docker build -f Dockerfile.api -t mebe-api:smoke .
+      - name: Verify container readiness, provider and draft access safety
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name mebe-api-ci --rm -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
+          trap 'docker logs mebe-api-ci || true; docker stop mebe-api-ci || true' EXIT
+          node scripts/container-production-smoke.mjs

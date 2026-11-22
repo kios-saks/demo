@@ -5,7 +5,7 @@ import { getWebRepository } from "../../../lib/repository";
 
 export const dynamic="force-dynamic";
 export async function generateStaticParams() {
- if(process.env.WEB_CONTENT_PROVIDER==="api")return [];
+ if(process.env.NODE_ENV==="production"||process.env.WEB_CONTENT_PROVIDER==="api")return [];
  return (await getWebRepository().listArticles({limit:50})).data.map(a=>({slug:a.slug}));
 }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

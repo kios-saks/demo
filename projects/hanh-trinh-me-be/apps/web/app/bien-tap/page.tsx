@@ -4,7 +4,7 @@ export const dynamic="force-dynamic";
 import { getWebRepository } from "../../lib/repository";
 export const metadata = { title: "Góc biên tập (chỉ xem)", robots: { index: false, follow: false } };
 export default async function Editorial() {
-  if(process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production")notFound();
+  if(process.env.NODE_ENV==="production")notFound();
   const repository=getWebRepository();
   const overview=await repository.getOverview();
   const stages=await repository.listStages();

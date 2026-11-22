@@ -181,3 +181,8 @@ performed. Mobile API sync is tested by repository unit tests and TS checks.
 Remaining mobile tasks: device smoke tests on iOS/Android, encrypted user
 storage (when personal data is added), background sync/retries, offline
 revocation behavior, auth and proper release-channel configuration.
+
+
+## Production safety / container deployment
+
+See `docs/backend-deployment.md` for API-only Docker build, `/health/ready`, private runtime settings and the hosting checklist. The Web production release gates unpublished articles even when configured with the mock provider; Mobile no longer imports the 24 draft JSON articles. The production Docker image excludes `.env` via `.dockerignore` and includes no database password. CI tests the Docker image against a mock provider; it does **not** claim a deployed password-authenticated connection to Supabase.

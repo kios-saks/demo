@@ -5,6 +5,7 @@ import researchCards from "../../../packages/content/mock/research-cards.json";
 import manifest from "../../../packages/content/mock/manifest.json";
 import {MockKnowledgeRepository} from "../../../packages/data/src/mock-repository";
 import {ApiKnowledgeRepository} from "../../../packages/data/src/http-repository";
+import {PublicKnowledgeRepository} from "../../../packages/data/src/public-repository";
 import type {KnowledgeRepository,MockContentDataset} from "../../../packages/data/src/contracts";
 
 /**
@@ -29,6 +30,7 @@ export function getWebRepository():KnowledgeRepository{
      publishedOnly:process.env.NODE_ENV==="production"
    });
  }else throw new Error("WEB_CONTENT_PROVIDER must be mock or api");
+ if(process.env.NODE_ENV==="production")repository=new PublicKnowledgeRepository(repository);
  cached={key,repository};
  return repository;
 }

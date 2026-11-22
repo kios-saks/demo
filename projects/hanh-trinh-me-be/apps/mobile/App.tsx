@@ -1,13 +1,10 @@
 import React,{useEffect,useMemo,useState} from "react";
 import {SafeAreaView,ScrollView,View,Text,TextInput,Pressable,StyleSheet,Linking} from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import seed from "../../packages/content/articles.json";
 import type {Stage,Article,ArticleSummary} from "../../packages/data/src/contracts";
 import {MobileContentSync} from "./src/content-sync";
 
-const bundled=seed as unknown as {stages:Stage[];articles:Article[];disclaimer:string};
 const apiUrl=process.env.EXPO_PUBLIC_CONTENT_API_URL?.trim()||"";
-const localDemo=__DEV__&&!apiUrl;
 const publicRelease=!__DEV__;
 
 export default function App(){
@@ -19,11 +16,11 @@ export default function App(){
  const[stage,setStage]=useState<string|null>(null);
  const[article,setArticle]=useState<Article|null>(null);
  const[q,setQ]=useState("");
- const[stages,setStages]=useState<Stage[]>(localDemo?bundled.stages:[]);
- const[articles,setArticles]=useState<ArticleSummary[]>(localDemo?bundled.articles:[]);
+ const[stages,setStages]=useState<Stage[]>([]);
+ const[articles,setArticles]=useState<ArticleSummary[]>([]);
  const[busy,setBusy]=useState(false);
  const[message,setMessage]=useState(apiUrl?"Đang tải dữ liệu từ Backend...":
-   localDemo?"Đang xem dữ liệu demo offline (chưa thẩm định).":"Chưa cấu hình URL HTTPS của Backend.");
+   "Chưa cấu hình URL Backend. Hãy chạy Fastify API và đặt EXPO_PUBLIC_CONTENT_API_URL.");
  const[error,setError]=useState("");
 
  useEffect(()=>{
@@ -64,10 +61,6 @@ export default function App(){
  }
  async function openArticle(slug:string){
    setError("");
-   if(localDemo){
-     setArticle(bundled.articles.find(a=>a.slug===slug)||null);
-     return;
-   }
    if(!sync){
      setError("Cần cấu hình Backend HTTPS trước khi xem nội dung.");
      return;
@@ -91,7 +84,7 @@ export default function App(){
      <Pressable onPress={()=>{setArticle(null);setError("")}}><Text style={s.link}>← Quay lại danh sách</Text></Pressable>
      <Text style={s.warning}>{article.status==="published"?"ĐÃ XUẤT BẢN":"BẢN NHÁP · CHƯA THẨM ĐỊNH"}</Text>
      <Text style={s.title}>{article.title}</Text><Text style={s.p}>{article.summary}</Text>
-     <Text style={s.disclaimer}>{bundled.disclaimer}</Text>
+     <Text style={s.disclaimer}>Nội dung chỉ mang tính tham khảo; không thay thế tư vấn của chuyên gia y tế hoặc cấp cứu.</Text>
      {article.sections.map((x,i)=><View key={i}><Text style={s.heading}>{x.heading}</Text>
        {x.paragraphs.map((p,j)=><Text style={s.p} key={j}>{p}</Text>)}</View>)}
      <Text style={s.heading}>Nguồn tham khảo</Text>

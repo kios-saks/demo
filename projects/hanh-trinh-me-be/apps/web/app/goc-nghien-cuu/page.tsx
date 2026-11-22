@@ -3,7 +3,7 @@ import {getWebRepository} from "../../lib/repository";
 export const dynamic="force-dynamic";
 export const metadata={title:"Thẻ nghiên cứu nội dung nháp",robots:{index:false,follow:false}};
 export default async function ResearchPage(){
- if(process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production")notFound();
+ if(process.env.NODE_ENV==="production")notFound();
  const repo=getWebRepository();
  const [cards,stages,sources,topics]=await Promise.all([repo.listResearchCards(),repo.listStages(),repo.listSources(),repo.listTopics()]);
  return <div className="wrap inner-page"><span className="eyebrow">NỘI DUNG MẪU · CẦN THẨM ĐỊNH</span><h1>12 thẻ nghiên cứu theo hành trình</h1>

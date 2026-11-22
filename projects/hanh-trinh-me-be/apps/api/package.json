@@ -14,10 +14,10 @@
   "dependencies": {
     "fastify": "^5.4.0",
     "@fastify/cors": "^11.0.0",
-    "pg": "^8.23.1"
+    "pg": "^8.23.1",
+    "tsx": "^4.20.0"
   },
   "devDependencies": {
-    "tsx": "^4.20.0",
     "typescript": "^5.8.0",
     "@types/node": "^22.0.0",
     "@types/pg": "^8.15.5"

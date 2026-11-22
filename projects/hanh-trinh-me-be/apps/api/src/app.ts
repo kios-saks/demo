@@ -11,7 +11,18 @@ export function buildApp(repository:KnowledgeRepository=createKnowledgeRepositor
     app.addHook("onClose",async()=>{await (repository as KnowledgeRepository & {close:()=>Promise<void>}).close();});
   void app.register(cors,{origin:process.env.CORS_ORIGIN?.split(",")||["http://localhost:3000"]});
   void registerAdmin(app,repository,tokens);
-  app.get("/health",async()=>({ok:true,version:"0.4.0",provider:repository.provider}));
+  app.get("/health",async()=>({ok:true,version:"0.4.1",provider:repository.provider}));
+  app.get("/health/ready",async(_req,reply)=>{
+    try{
+      // Check the selected data adapter without exposing DB URLs or credentials.
+      if("assertReady" in repository && typeof repository.assertReady==="function")
+        await (repository as KnowledgeRepository & {assertReady:()=>Promise<void>}).assertReady();
+      else await repository.listStages();
+      return {ok:true};
+    }catch{
+      return reply.code(503).send({ok:false,error:"DEPENDENCY_UNAVAILABLE"});
+    }
+  });
   app.get("/v1/disclaimer",async()=>({data:await repository.getDisclaimer()}));
   app.get("/v1/stages",async()=>({data:await repository.listStages()}));
   app.get<{Params:{slug:string}}>("/v1/stages/:slug",async(req,reply)=>{
