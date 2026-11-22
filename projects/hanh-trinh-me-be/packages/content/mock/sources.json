@@ -258,5 +258,619 @@
     "usage": "url-and-curated-metadata-only",
     "clinicalApproval": false,
     "notice": "Chỉ là nguồn tham khảo cho biên tập. Chưa xác minh từng luận điểm; không thể hiện sự chứng thực từ tổ chức nguồn."
+  },
+  {
+    "id": "cdc-folate",
+    "publisher": "CDC",
+    "title": "Folic Acid: Facts for Clinicians",
+    "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+    "publicationYear": "2026",
+    "topic": "tiền thai",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-dau"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-antenatal",
+    "publisher": "WHO",
+    "title": "Promoting healthy pregnancy / antenatal care",
+    "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+    "publicationYear": "",
+    "topic": "khám thai",
+    "stageSlugs": [
+      "chuan-bi-mang-thai",
+      "thai-ky-3-thang-dau",
+      "thai-ky-3-thang-giua",
+      "thai-ky-3-thang-cuoi"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "nhs-antenatal",
+    "publisher": "NHS",
+    "title": "Your antenatal care and appointments",
+    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+    "publicationYear": "",
+    "topic": "khám thai",
+    "stageSlugs": [
+      "thai-ky-3-thang-dau",
+      "thai-ky-3-thang-giua",
+      "thai-ky-3-thang-cuoi"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-maternal-danger",
+    "publisher": "CDC",
+    "title": "Urgent Maternal Warning Signs and Symptoms",
+    "url": "https://www.cdc.gov/hearher/maternal-warning-signs/",
+    "publicationYear": "",
+    "topic": "dấu hiệu cần khám",
+    "stageSlugs": [
+      "thai-ky-3-thang-dau",
+      "thai-ky-3-thang-giua",
+      "thai-ky-3-thang-cuoi",
+      "hau-san"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-postnatal-care",
+    "publisher": "WHO",
+    "title": "WHO recommendations on maternal and newborn care for a positive postnatal experience",
+    "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+    "publicationYear": "2022",
+    "topic": "hậu sản",
+    "stageSlugs": [
+      "thai-ky-3-thang-cuoi",
+      "hau-san",
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-newborn-danger",
+    "publisher": "WHO",
+    "title": "Caring for a newborn",
+    "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+    "publicationYear": "",
+    "topic": "sơ sinh",
+    "stageSlugs": [
+      "hau-san",
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-safe-sleep",
+    "publisher": "CDC",
+    "title": "Providing Care for Babies to Sleep Safely",
+    "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+    "publicationYear": "",
+    "topic": "ngủ an toàn",
+    "stageSlugs": [
+      "so-sinh",
+      "nhu-nhi"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-feeding",
+    "publisher": "WHO",
+    "title": "Infant and young child feeding (2026)",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+    "publicationYear": "2026",
+    "topic": "dinh dưỡng",
+    "stageSlugs": [
+      "hau-san",
+      "so-sinh",
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-complementary",
+    "publisher": "WHO",
+    "title": "Guideline for complementary feeding of infants and young children 6–23 months",
+    "url": "https://www.who.int/publications-detail-redirect/9789240081864",
+    "publicationYear": "2023",
+    "topic": "ăn dặm",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "nhs-first-solids",
+    "publisher": "NHS",
+    "title": "Your baby's first solid foods",
+    "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/",
+    "publicationYear": "",
+    "topic": "ăn dặm",
+    "stageSlugs": [
+      "nhu-nhi"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "nhs-choking",
+    "publisher": "NHS",
+    "title": "Preparing food safely for babies",
+    "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+    "publicationYear": "",
+    "topic": "an toàn ăn uống",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "nhs-food-avoid",
+    "publisher": "NHS",
+    "title": "Food and drinks to avoid during weaning",
+    "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid/",
+    "publicationYear": "",
+    "topic": "an toàn ăn uống",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-2mo",
+    "publisher": "CDC",
+    "title": "Milestones by 2 Months",
+    "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-6mo",
+    "publisher": "CDC",
+    "title": "Milestones by 6 Months",
+    "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "nhu-nhi"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-1yr",
+    "publisher": "CDC",
+    "title": "Milestones by 1 Year",
+    "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-2yr",
+    "publisher": "CDC",
+    "title": "Milestones by 2 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-4yr",
+    "publisher": "CDC",
+    "title": "Milestones by 4 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-milestones-5yr",
+    "publisher": "CDC",
+    "title": "Milestones by 5 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+    "publicationYear": "2025",
+    "topic": "phát triển",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-baby-play",
+    "publisher": "UNICEF",
+    "title": "Parenting tips for the first two years of life",
+    "url": "https://www.unicef.org/parenting/child-development/baby-tips",
+    "publicationYear": "",
+    "topic": "chơi và chăm sóc",
+    "stageSlugs": [
+      "so-sinh",
+      "nhu-nhi",
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-positive",
+    "publisher": "WHO",
+    "title": "Corporal punishment of children and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+    "publicationYear": "2026",
+    "topic": "nuôi dạy tích cực",
+    "stageSlugs": [
+      "tap-di",
+      "mam-non",
+      "tieu-hoc",
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-bullying",
+    "publisher": "UNICEF",
+    "title": "Bullying: What is it and how to stop it",
+    "url": "https://www.unicef.org/parenting/child-care/bullying",
+    "publicationYear": "",
+    "topic": "an toàn trường học",
+    "stageSlugs": [
+      "tieu-hoc",
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-school",
+    "publisher": "UNICEF",
+    "title": "How to talk to your child's school about bullying",
+    "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying",
+    "publicationYear": "",
+    "topic": "an toàn trường học",
+    "stageSlugs": [
+      "tieu-hoc",
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-movement",
+    "publisher": "WHO",
+    "title": "Physical activity",
+    "url": "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity",
+    "publicationYear": "",
+    "topic": "vận động",
+    "stageSlugs": [
+      "mam-non",
+      "tieu-hoc",
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "cdc-sleep-children",
+    "publisher": "CDC",
+    "title": "Sleep and Health",
+    "url": "https://www.cdc.gov/healthy-schools/sleep/",
+    "publicationYear": "2026",
+    "topic": "giấc ngủ",
+    "stageSlugs": [
+      "tieu-hoc",
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-teen-mental",
+    "publisher": "WHO",
+    "title": "Mental health of adolescents",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+    "publicationYear": "2025",
+    "topic": "sức khỏe tinh thần",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-teen-talk",
+    "publisher": "UNICEF",
+    "title": "11 tips for communicating with your teen",
+    "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+    "publicationYear": "",
+    "topic": "giao tiếp",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-cyber",
+    "publisher": "UNICEF",
+    "title": "How to talk to your child about cyberbullying",
+    "url": "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+    "publicationYear": "",
+    "topic": "an toàn số",
+    "stageSlugs": [
+      "tieu-hoc",
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-teen-help",
+    "publisher": "UNICEF",
+    "title": "When to help your teen find mental health support",
+    "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+    "publicationYear": "",
+    "topic": "hỗ trợ tinh thần",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-parenting-positive",
+    "publisher": "UNICEF",
+    "title": "Positive parenting tips for children aged 6–10",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+    "publicationYear": "2026",
+    "topic": "nuôi dạy",
+    "stageSlugs": [
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "who-adult-active",
+    "publisher": "WHO",
+    "title": "WHO guidelines on physical activity and sedentary behaviour: at a glance",
+    "url": "https://www.who.int/europe/publications/i/item/9789240014886",
+    "publicationYear": "2020",
+    "topic": "sức khỏe người lớn",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-teen-parenting",
+    "publisher": "UNICEF",
+    "title": "Parenting of Adolescents",
+    "url": "https://www.unicef.org/reports/parenting-adolescents",
+    "publicationYear": "2021",
+    "topic": "gia đình",
+    "stageSlugs": [
+      "thieu-nien",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
+  },
+  {
+    "id": "unicef-nurturing",
+    "publisher": "UNICEF",
+    "title": "How babies learn through play",
+    "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+    "publicationYear": "",
+    "topic": "nuôi dưỡng",
+    "stageSlugs": [
+      "nhu-nhi",
+      "tap-di",
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-22",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "source-page-verified",
+    "usage": "original-Vietnamese-editorial-synthesis-with-link",
+    "clinicalApproval": false,
+    "notice": "Nguồn tham khảo gốc được kiểm tra đường dẫn. Bài tiếng Việt là bản tổng hợp độc lập, không phải bản dịch chính thức, không hàm ý tổ chức nguồn thẩm định."
   }
 ]

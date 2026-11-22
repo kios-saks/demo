@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-21",
-  "disclaimer": "Nội dung đang ở giai đoạn bản nháp biên tập; không thay thế tư vấn, chẩn đoán hoặc điều trị của chuyên gia y tế.",
+  "version": "2026-11-22-sourced-content-1",
+  "disclaimer": "Thư viện kiến thức đang được biên tập trong môi trường phát triển. Bài viết diễn giải độc lập bằng tiếng Việt từ các nguồn gốc được dẫn ở cuối bài; không phải tài liệu chính thức do tổ chức nguồn xuất bản hay chứng thực. Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc hướng dẫn của nhân viên y tế. Khi có dấu hiệu cấp cứu, liên hệ cơ sở y tế ngay; lịch tiêm và chăm sóc cần theo hướng dẫn hiện hành tại Việt Nam.",
   "stages": [
     {
       "slug": "chuan-bi-mang-thai",
@@ -112,7 +112,9 @@
       "tags": [
         "Chuẩn bị mang thai",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -132,12 +134,27 @@
           "paragraphs": [
             "Nếu mối quan hệ có xung đột kéo dài hoặc một người cảm thấy không an toàn, hãy tìm hỗ trợ phù hợp trước khi lên kế hoạch mang thai."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "CDC – Folic Acid: Facts for Clinicians",
+          "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
       ]
     },
@@ -153,7 +170,9 @@
       "tags": [
         "Chuẩn bị mang thai",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -173,12 +192,27 @@
           "paragraphs": [
             "Nếu đang mắc bệnh mạn tính, từng có biến chứng thai kỳ hoặc có thắc mắc về khả năng sinh sản, trao đổi trực tiếp với cơ sở y tế."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Promoting healthy pregnancy",
           "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Folic Acid: Facts for Clinicians",
+          "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
       ]
     },
@@ -194,7 +228,9 @@
       "tags": [
         "Thai kỳ 3 tháng đầu",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -214,12 +250,27 @@
           "paragraphs": [
             "Nếu xuất hiện triệu chứng nghiêm trọng hoặc bất thường, hãy liên hệ cơ sở y tế thay vì chỉ dựa vào nội dung trực tuyến."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Promoting healthy pregnancy",
           "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -235,7 +286,9 @@
       "tags": [
         "Thai kỳ 3 tháng đầu",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -255,12 +308,27 @@
           "paragraphs": [
             "Khi lo âu hoặc buồn bã kéo dài, ảnh hưởng sinh hoạt hay xuất hiện ý nghĩ làm hại bản thân, cần hỗ trợ y tế khẩn cấp nếu có nguy cơ trực tiếp."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -276,7 +344,9 @@
       "tags": [
         "Thai kỳ 3 tháng giữa",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -296,12 +366,27 @@
           "paragraphs": [
             "Hỏi nhân viên y tế nếu có lo lắng về sự thay đổi sức khỏe; đừng dùng nhật ký thay việc thăm khám."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Promoting healthy pregnancy",
           "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -317,7 +402,9 @@
       "tags": [
         "Thai kỳ 3 tháng giữa",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -337,12 +424,27 @@
           "paragraphs": [
             "Không áp đặt lời khuyên hoặc công khai thông tin thai kỳ nếu người mang thai chưa đồng ý."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -358,7 +460,9 @@
       "tags": [
         "Thai kỳ 3 tháng cuối",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -378,12 +482,27 @@
           "paragraphs": [
             "Nếu có kế hoạch sinh hoặc tình trạng sức khỏe đặc biệt, cần thống nhất riêng với nhân viên y tế."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Promoting healthy pregnancy",
           "url": "https://www.who.int/activities/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         }
       ]
     },
@@ -399,7 +518,9 @@
       "tags": [
         "Thai kỳ 3 tháng cuối",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -419,12 +540,27 @@
           "paragraphs": [
             "Khi người mẹ có dấu hiệu sức khỏe đáng lo hoặc khó khăn tinh thần nghiêm trọng, ưu tiên đánh giá chuyên môn."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Maternal health",
           "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         }
       ]
     },
@@ -440,7 +576,9 @@
       "tags": [
         "Hậu sản & hồi phục",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -460,12 +598,27 @@
           "paragraphs": [
             "Nếu xuất hiện dấu hiệu bất thường về thể chất hoặc tinh thần, tìm chăm sóc y tế, không tự chẩn đoán qua bài viết."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Maternal health",
           "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/handbooks/programme-manager-s-handbook-mncah/recommendations-on-interventions-along-life-course/maternal"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -481,7 +634,9 @@
       "tags": [
         "Hậu sản & hồi phục",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -501,12 +656,27 @@
           "paragraphs": [
             "Nếu có căng thẳng kéo dài hoặc một người cảm thấy bị kiểm soát, tìm nguồn hỗ trợ an toàn."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
       ]
     },
@@ -522,7 +692,9 @@
       "tags": [
         "Trẻ sơ sinh",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -542,12 +714,27 @@
           "paragraphs": [
             "Nếu lo lắng về việc bú, thở, tỉnh táo hay sức khỏe của trẻ, liên hệ nhân viên y tế sớm."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        },
+        {
+          "name": "CDC – Providing Care for Babies to Sleep Safely",
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
         }
       ]
     },
@@ -563,7 +750,9 @@
       "tags": [
         "Trẻ sơ sinh",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -583,12 +772,27 @@
           "paragraphs": [
             "Nếu trẻ có biểu hiện bất thường, không chờ đến lần tái khám định kỳ mới hỏi."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        },
+        {
+          "name": "CDC – Providing Care for Babies to Sleep Safely",
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
         }
       ]
     },
@@ -604,7 +808,9 @@
       "tags": [
         "Bé lớn từng ngày",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -624,12 +830,27 @@
           "paragraphs": [
             "Trao đổi với bác sĩ nếu bạn có băn khoăn về khả năng tương tác hoặc phát triển của trẻ."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Mốc phát triển giúp gia đình quan sát, không dùng để xếp hạng trẻ. Nếu bé mất kỹ năng đã có hoặc người chăm sóc lo ngại, cần trao đổi với bác sĩ; sự khác biệt cá thể không đồng nghĩa bỏ qua dấu hiệu đáng chú ý.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Nurturing care for early childhood development",
           "url": "https://www.who.int/publications/i/item/9789241514064"
+        },
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        },
+        {
+          "name": "CDC – Milestones by 6 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
         }
       ]
     },
@@ -645,7 +866,9 @@
       "tags": [
         "Bé lớn từng ngày",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -665,12 +888,27 @@
           "paragraphs": [
             "Nếu trẻ mất một kỹ năng từng có hoặc bạn có bất kỳ lo lắng đáng kể nào, hãy trao đổi với nhân viên y tế."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Mốc phát triển giúp gia đình quan sát, không dùng để xếp hạng trẻ. Nếu bé mất kỹ năng đã có hoặc người chăm sóc lo ngại, cần trao đổi với bác sĩ; sự khác biệt cá thể không đồng nghĩa bỏ qua dấu hiệu đáng chú ý.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "CDC – Developmental milestones",
           "url": "https://www.cdc.gov/act-early/milestones/index.html"
+        },
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        },
+        {
+          "name": "CDC – Milestones by 6 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
         }
       ]
     },
@@ -686,7 +924,9 @@
       "tags": [
         "Tuổi tập đi",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -706,12 +946,27 @@
           "paragraphs": [
             "Nếu gia đình thường xuyên kiệt sức hoặc lo lắng về giao tiếp, hãy hỏi chuyên gia phù hợp."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trẻ 1–3 tuổi đang phát triển ngôn ngữ và khả năng tự chủ. Người lớn đặt giới hạn nhất quán, nói ngắn gọn, hỗ trợ gọi tên cảm xúc; không dùng đánh mắng hoặc phạt thân thể.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "CDC – Milestones by 2 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+        },
+        {
+          "name": "WHO – Corporal punishment of children and health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
         }
       ]
     },
@@ -727,7 +982,9 @@
       "tags": [
         "Tuổi tập đi",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -747,12 +1004,27 @@
           "paragraphs": [
             "Khi phân vân về an toàn của đồ chơi hoặc môi trường, tham khảo hướng dẫn an toàn sản phẩm đáng tin cậy."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trẻ 1–3 tuổi đang phát triển ngôn ngữ và khả năng tự chủ. Người lớn đặt giới hạn nhất quán, nói ngắn gọn, hỗ trợ gọi tên cảm xúc; không dùng đánh mắng hoặc phạt thân thể.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Nurturing care for early childhood development",
           "url": "https://www.who.int/publications/i/item/9789241514064"
+        },
+        {
+          "name": "CDC – Milestones by 2 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+        },
+        {
+          "name": "WHO – Corporal punishment of children and health",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
         }
       ]
     },
@@ -768,7 +1040,9 @@
       "tags": [
         "Tuổi mầm non",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -788,12 +1062,27 @@
           "paragraphs": [
             "Nếu có lo ngại cụ thể về phát triển, nên trao đổi với người có chuyên môn; nội dung này không dùng để đánh giá trẻ."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Học qua chơi, giao tiếp và vận động có vai trò lớn đối với trẻ 3–6 tuổi. Các mốc được dùng để gợi ý quan sát, không thay cho đánh giá phát triển chuẩn hóa tại cơ sở chuyên môn.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "WHO – Nurturing care for early childhood development",
           "url": "https://www.who.int/publications/i/item/9789241514064"
+        },
+        {
+          "name": "CDC – Milestones by 4 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+        },
+        {
+          "name": "UNICEF – The science of play",
+          "url": "https://www.unicef.org/parenting/child-care/science-of-play"
         }
       ]
     },
@@ -809,7 +1098,9 @@
       "tags": [
         "Tuổi mầm non",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -829,12 +1120,27 @@
           "paragraphs": [
             "Nếu trẻ có những khó khăn kéo dài làm ảnh hưởng lớn đến sinh hoạt, cùng nhà trường tìm cách hỗ trợ phù hợp."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Học qua chơi, giao tiếp và vận động có vai trò lớn đối với trẻ 3–6 tuổi. Các mốc được dùng để gợi ý quan sát, không thay cho đánh giá phát triển chuẩn hóa tại cơ sở chuyên môn.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "CDC – Milestones by 4 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+        },
+        {
+          "name": "UNICEF – The science of play",
+          "url": "https://www.unicef.org/parenting/child-care/science-of-play"
         }
       ]
     },
@@ -850,7 +1156,9 @@
       "tags": [
         "Tuổi tiểu học",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -870,12 +1178,27 @@
           "paragraphs": [
             "Nếu con gặp khó khăn kéo dài, phối hợp với giáo viên và chuyên gia phù hợp thay vì tự gắn chẩn đoán."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trong tuổi đi học, kết quả học tập chỉ là một phần của sức khỏe toàn diện. Giấc ngủ, vận động, bạn bè, an toàn tại trường và cảm giác được lắng nghe đều cần được theo dõi cùng nhau.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "UNICEF – Positive parenting tips for children aged 6–10",
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        },
+        {
+          "name": "CDC – Sleep and Health",
+          "url": "https://www.cdc.gov/healthy-schools/sleep/"
         }
       ]
     },
@@ -891,7 +1214,9 @@
       "tags": [
         "Tuổi tiểu học",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -911,12 +1236,27 @@
           "paragraphs": [
             "Nếu có dấu hiệu bắt nạt hoặc bạo lực, người lớn cần can thiệp bảo vệ thay vì yêu cầu trẻ tự chịu đựng."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Trong tuổi đi học, kết quả học tập chỉ là một phần của sức khỏe toàn diện. Giấc ngủ, vận động, bạn bè, an toàn tại trường và cảm giác được lắng nghe đều cần được theo dõi cùng nhau.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "UNICEF – Positive parenting tips for children aged 6–10",
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        },
+        {
+          "name": "CDC – Sleep and Health",
+          "url": "https://www.cdc.gov/healthy-schools/sleep/"
         }
       ]
     },
@@ -932,7 +1272,9 @@
       "tags": [
         "Tuổi thiếu niên",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -952,12 +1294,27 @@
           "paragraphs": [
             "Với băn khoăn sức khỏe hoặc phát triển riêng, khuyến khích trao đổi với nhân viên y tế."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Tuổi thiếu niên cần sự riêng tư phù hợp, nhưng cũng cần người lớn đáng tin cậy. Trầm cảm, lo âu, bạo lực và bắt nạt trực tuyến không thể giải quyết chỉ bằng kỷ luật; ưu tiên hỗ trợ an toàn và tiếp cận dịch vụ khi cần.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
       ]
     },
@@ -973,7 +1330,9 @@
       "tags": [
         "Tuổi thiếu niên",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -993,12 +1352,27 @@
           "paragraphs": [
             "Nếu có đe dọa, quấy rối hoặc lạm dụng, ưu tiên an toàn và hỗ trợ chuyên môn, không đổ lỗi cho trẻ."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Tuổi thiếu niên cần sự riêng tư phù hợp, nhưng cũng cần người lớn đáng tin cậy. Trầm cảm, lo âu, bạo lực và bắt nạt trực tuyến không thể giải quyết chỉ bằng kỷ luật; ưu tiên hỗ trợ an toàn và tiếp cận dịch vụ khi cần.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – Mental health of adolescents",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "name": "UNICEF – 11 tips for communicating with your teen",
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
       ]
     },
@@ -1014,7 +1388,9 @@
       "tags": [
         "Bước vào trưởng thành",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -1034,12 +1410,27 @@
           "paragraphs": [
             "Nếu có dấu hiệu bạo lực, kiểm soát hay khủng hoảng tinh thần, tìm nguồn hỗ trợ phù hợp và ưu tiên an toàn."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Khi con trưởng thành, cha mẹ chuyển từ quyết định thay sang trao đổi và tôn trọng quyền tự chủ. Nội dung về học tập, tài chính hay sức khỏe là gợi ý kế hoạch, không phải tư vấn y tế, tài chính hoặc pháp lý cá nhân.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance",
+          "url": "https://www.who.int/europe/publications/i/item/9789240014886"
+        },
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
       ]
     },
@@ -1055,7 +1446,9 @@
       "tags": [
         "Bước vào trưởng thành",
         "gia đình",
-        "hướng dẫn"
+        "hướng dẫn",
+        "Tài liệu tham khảo có nguồn",
+        "Biên tập dev"
       ],
       "sections": [
         {
@@ -1075,12 +1468,1343 @@
           "paragraphs": [
             "Khi bất đồng leo thang thành đe dọa hoặc tổn hại, tìm trợ giúp an toàn thay vì cố giải quyết một mình."
           ]
+        },
+        {
+          "heading": "Bối cảnh từ nguồn thực tế",
+          "paragraphs": [
+            "Khi con trưởng thành, cha mẹ chuyển từ quyết định thay sang trao đổi và tôn trọng quyền tự chủ. Nội dung về học tập, tài chính hay sức khỏe là gợi ý kế hoạch, không phải tư vấn y tế, tài chính hoặc pháp lý cá nhân.",
+            "Các đường dẫn ở cuối bài trỏ tới tài liệu gốc của tổ chức chuyên môn. Nội dung tiếng Việt ở đây do dự án biên tập và diễn giải độc lập để người chăm sóc dễ tra cứu; nguồn được dẫn không đồng nghĩa tổ chức đó kiểm duyệt hay bảo trợ bài viết."
+          ]
         }
       ],
       "sources": [
         {
           "name": "UNICEF – Parenting",
           "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "name": "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance",
+          "url": "https://www.who.int/europe/publications/i/item/9789240014886"
+        },
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
+        }
+      ]
+    },
+    {
+      "slug": "axit-folic-truoc-khi-mang-thai",
+      "stage": "chuan-bi-mang-thai",
+      "title": "Axit folic trước mang thai: những điều nên biết",
+      "summary": "Thời điểm bắt đầu, liều dùng thông thường và khi nào cần tư vấn riêng.",
+      "readMinutes": 3,
+      "order": 25,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "CDC nhấn mạnh axit folic trước và đầu thai kỳ giúp giảm nguy cơ dị tật ống thần kinh. Khuyến nghị phổ biến là 400 microgam mỗi ngày cho người có thể mang thai; người có tiền sử thai bị dị tật ống thần kinh hoặc một số nguy cơ đặc biệt cần được bác sĩ tư vấn liều riêng, không tự tăng liều.",
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Kiểm tra nhãn viên bổ sung đang dùng để biết lượng axit folic, đồng thời ghi lại thuốc và thực phẩm chức năng khác trước cuộc hẹn tiền thai. Hỏi nhân viên y tế khi chuẩn bị mang thai, thay vì đợi đến khi khám lần đầu mới bắt đầu chú ý dinh dưỡng.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự uống liều rất cao theo lời truyền miệng. Sản phẩm có thành phần chồng lấp hoặc thuốc đang dùng có thể cần đánh giá tương tác; khuyến nghị 400 microgam không thay thế chỉ định cá thể."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Folic Acid: Facts for Clinicians",
+          "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "kham-suc-khoe-tien-thai",
+      "stage": "chuan-bi-mang-thai",
+      "title": "Khám sức khỏe tiền thai: checklist chuẩn bị",
+      "summary": "Gom hồ sơ sức khỏe, bệnh nền, thuốc và câu hỏi về kế hoạch mang thai.",
+      "readMinutes": 3,
+      "order": 26,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Một lần tư vấn tiền thai hữu ích khi bác sĩ biết bệnh nền, tiền sử thai sản, tiêm chủng, thuốc kê đơn và thuốc không kê đơn. Mục tiêu là chuẩn bị an toàn từ trước, chứ không phải thực hiện tất cả xét nghiệm có thể có. Hướng dẫn WHO coi chăm sóc trước và trong thai kỳ là quá trình phát hiện nguy cơ và hỗ trợ liên tục.",
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Chuẩn bị danh sách thuốc, dị ứng, kết quả xét nghiệm cũ, tình trạng sức khỏe của hai người và câu hỏi về dinh dưỡng, vận động, sức khỏe tinh thần. Hãy hỏi xét nghiệm hoặc tiêm chủng nào phù hợp với bản thân; lưu lịch hẹn và kết quả trên một trang chung để dễ theo dõi.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự ngưng thuốc điều trị bệnh mạn tính chỉ vì có kế hoạch mang thai. Quyết định thay thuốc, xét nghiệm di truyền và xử lý bệnh lý cần bác sĩ đánh giá."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Folic Acid: Facts for Clinicians",
+          "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "stage": "chuan-bi-mang-thai",
+      "title": "Rà soát thuốc và tiêm chủng trước khi có thai",
+      "summary": "Tạo một danh sách dễ đem tới buổi tư vấn tiền thai.",
+      "readMinutes": 3,
+      "order": 27,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Không phải mọi loại thuốc hoặc vắc xin đều dùng theo cùng cách ở giai đoạn chuẩn bị mang thai. Nguy cơ của việc ngưng điều trị đôi khi lớn hơn nguy cơ của thuốc; quyết định cần dựa trên bệnh, liều và thời điểm sử dụng. Lịch tiêm chủng thay đổi theo quốc gia và tiền sử cá nhân.",
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Lập bảng tên thuốc, liều hiện dùng, người kê, bệnh đang điều trị và mũi tiêm nhớ được. Hỏi cơ sở y tế về các mục cần cập nhật trước mang thai, cách xử lý nếu vừa dùng thuốc rồi phát hiện có thai và dấu hiệu nào phải liên hệ ngay.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự tiêm vắc xin hay đổi thuốc theo danh sách trên blog nước ngoài. Luôn dùng lịch tiêm chủng của cơ quan y tế Việt Nam và ý kiến bác sĩ điều trị."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        }
+      ]
+    },
+    {
+      "slug": "ke-hoach-ho-tro-tien-thai",
+      "stage": "chuan-bi-mang-thai",
+      "title": "Kế hoạch hỗ trợ gia đình trước khi có con",
+      "summary": "Chia sẻ kỳ vọng, việc nhà, tài chính và mạng lưới giúp đỡ.",
+      "readMinutes": 3,
+      "order": 28,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Chuẩn bị mang thai",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Cảm giác sẵn sàng sinh con không chỉ phụ thuộc kết quả khám. Thời gian nghỉ chăm sóc, sự thay đổi thu nhập, người hỗ trợ lúc mẹ mệt hay con ốm và quyền quyết định của từng người đều ảnh hưởng trải nghiệm gia đình. Một kế hoạch hữu ích là kế hoạch có thể điều chỉnh chứ không phải danh sách phải đạt.",
+            "Sức khỏe trước thai kỳ gồm các yếu tố thể chất, tinh thần, thuốc đang dùng và nguồn hỗ trợ trong gia đình. Mỗi người có tiền sử và nguy cơ riêng; lịch chăm sóc và tư vấn chuyên môn nên được cá thể hóa."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Chia cuộc trò chuyện thành bốn phần: chăm sóc sức khỏe, ngân sách dự phòng, phân chia việc nhà và người có thể giúp sau sinh. Thống nhất tín hiệu để nói 'tôi cần nghỉ' mà không bị trách móc. Viết phương án thay thế nếu một người bận hoặc vắng nhà.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Nếu trong gia đình có bạo lực, ép buộc hoặc kiểm soát việc mang thai, hãy ưu tiên an toàn và tìm tổ chức, cơ sở y tế hoặc người hỗ trợ đáng tin cậy."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "UNICEF – Parenting of Adolescents",
+          "url": "https://www.unicef.org/reports/parenting-adolescents"
+        }
+      ]
+    },
+    {
+      "slug": "lich-kham-thai-ba-thang-dau",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Khám thai 3 tháng đầu: theo dõi những gì?",
+      "summary": "Chuẩn bị lịch khám, thông tin bệnh sử và câu hỏi phù hợp.",
+      "readMinutes": 3,
+      "order": 29,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO khuyến khích chăm sóc thai sản liên tục, tổng thể với nhiều lần tiếp xúc cùng nhân viên y tế trong thai kỳ; NHS mô tả cuộc hẹn đầu thường thu thập tiền sử và trao đổi kế hoạch theo dõi. Các mốc siêu âm, xét nghiệm và sàng lọc cần được bác sĩ tại Việt Nam quyết định cho từng thai phụ.",
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Mang theo ngày kinh cuối hoặc thông tin tuổi thai đã xác định, tiền sử bệnh, thuốc và các triệu chứng. Ghi câu hỏi về tình trạng thai, dinh dưỡng, thuốc, công việc và lịch tái khám. Nếu chưa hiểu kết quả sàng lọc, yêu cầu giải thích về mục đích, giới hạn và những bước tiếp theo.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Ra máu nhiều, đau bụng dữ dội, ngất, sốt hoặc khó thở không nên được xử lý bằng cách chờ lịch hẹn thông thường. Tìm đánh giá y tế ngay khi có dấu hiệu bất thường."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "om-nghen-va-an-uong-dau-thai-ky",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Ốm nghén và ăn uống 3 tháng đầu",
+      "summary": "Phân biệt khó chịu thường gặp với tình huống cần khám.",
+      "readMinutes": 3,
+      "order": 30,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Buồn nôn có thể xuất hiện ở đầu thai kỳ và mức độ khác nhau giữa mỗi người. Điểm quan trọng không phải cố ăn theo một thực đơn cứng mà là duy trì lượng nước, dinh dưỡng phù hợp và theo dõi khả năng ăn uống. Những trường hợp nôn nhiều, không giữ được nước hoặc có dấu mất nước cần được khám.",
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Thử chia bữa nhỏ, chọn đồ ăn dễ chịu, ghi thời điểm khó chịu và các yếu tố khiến nặng hơn. Nếu cần thuốc chống nôn hay bổ sung vi chất, hỏi bác sĩ đang quản lý thai kỳ. Người nhà có thể giúp chuẩn bị đồ ăn và hạn chế mùi khiến thai phụ khó chịu.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Đừng tự dùng thảo dược, thuốc chống nôn hoặc phương pháp truyền miệng khi mang thai. Chóng mặt nhiều, tiểu ít, nôn kéo dài hoặc đau bụng dữ dội là lý do cần liên hệ cơ sở y tế."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "suc-khoe-tinh-than-ba-thang-dau",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Lo âu đầu thai kỳ: khi nào tìm hỗ trợ?",
+      "summary": "Nhận diện lo lắng, tổ chức sự hỗ trợ và không tự chịu đựng.",
+      "readMinutes": 3,
+      "order": 31,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Thay đổi thể chất, công việc và kỳ vọng gia đình có thể khiến đầu thai kỳ nhiều cảm xúc đan xen. Chăm sóc thai sản tốt không chỉ gồm xét nghiệm mà còn gồm hỏi về tâm trạng, giấc ngủ, sự an toàn và người đồng hành. Những lo âu làm gián đoạn sinh hoạt cần được coi trọng như triệu chứng thể chất.",
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Thử dành thời gian nói rõ điều khiến mình lo, ghi câu hỏi cho bác sĩ và tạo thói quen nghỉ phù hợp. Người nhà nên lắng nghe thay vì kết luận 'mang thai ai chẳng vậy'. Khi các triệu chứng dai dẳng, hãy nhờ bác sĩ sản hoặc chuyên gia tâm lý đánh giá.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Ý nghĩ tự làm hại mình, cảm giác không an toàn hoặc thay đổi hành vi nghiêm trọng cần hỗ trợ khẩn cấp; không chờ đến kỳ khám thai kế tiếp."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "dau-hieu-nguy-hiem-dau-thai-ky",
+      "stage": "thai-ky-3-thang-dau",
+      "title": "Dấu hiệu cảnh báo không nên bỏ qua khi mới mang thai",
+      "summary": "Một trang ghi nhớ để liên hệ y tế kịp thời.",
+      "readMinutes": 3,
+      "order": 32,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng đầu",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "CDC tổng hợp các dấu hiệu cảnh báo trong thai kỳ như đau đầu dữ dội kéo dài, thay đổi thị lực, khó thở, đau ngực, đau bụng dữ dội, chảy máu âm đạo hoặc ngất. Không phải ai có triệu chứng đều mắc biến chứng nghiêm trọng, nhưng các dấu hiệu này cần được đánh giá kịp thời thay vì tự chẩn đoán.",
+            "Khám thai định kỳ giúp phát hiện sớm bất thường và lập kế hoạch theo dõi phù hợp. Những dấu hiệu cảnh báo như ra máu nhiều, đau dữ dội hoặc ngất cần được đánh giá ngay, không nên chỉ dựa vào mô tả trên Internet."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Lưu số cơ sở khám thai, địa điểm cấp cứu gần nhà, giấy tờ cần thiết và người hỗ trợ đưa đi khám. Khi gọi, nói rõ đang mang thai bao nhiêu tuần, triệu chứng bắt đầu lúc nào, mức độ ra máu hoặc đau và thuốc đang dùng.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự phân biệt dấu hiệu lành tính và nguy hiểm chỉ qua màu máu hay mức độ đau đọc trên mạng. Nếu có biểu hiện cấp cứu, liên hệ dịch vụ khẩn cấp ngay."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        }
+      ]
+    },
+    {
+      "slug": "kham-thai-ba-thang-giua",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Theo dõi 3 tháng giữa: lịch hẹn và câu hỏi",
+      "summary": "Hiểu vì sao cần khám định kỳ dù cảm thấy khỏe.",
+      "readMinutes": 3,
+      "order": 33,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Giai đoạn 14–27 tuần vẫn là thời điểm quan trọng để đo huyết áp, đánh giá sự phát triển của thai và thực hiện sàng lọc theo kế hoạch. WHO xem chăm sóc liên tục là cách phát hiện sớm nguy cơ, còn hướng dẫn khám thai mô tả các cuộc hẹn được sắp theo tuần và tình trạng cá nhân.",
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Ghi lại lịch hẹn, kết quả trước đó và những điều muốn hỏi về siêu âm, xét nghiệm, triệu chứng, công việc, dinh dưỡng và giấc ngủ. Nếu bỏ lỡ lịch, liên hệ cơ sở quản lý thai để điều chỉnh chứ không tự kết luận có thể bỏ luôn.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không lấy lịch khám nước ngoài làm lịch bắt buộc tại Việt Nam. Có đau, ra máu, khó thở, đau đầu dữ dội hoặc triệu chứng bất thường thì khám ngay, không đợi kỳ định kỳ."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "sang-loc-tieu-duong-thai-ky",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Sàng lọc đái tháo đường thai kỳ: hỏi gì khi khám?",
+      "summary": "Mục đích xét nghiệm, thời điểm thường gặp và các bước sau kết quả.",
+      "readMinutes": 3,
+      "order": 34,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO nêu việc đánh giá đường huyết thai kỳ trong chăm sóc trước sinh, với thời điểm sàng lọc thường được đề cập quanh tuần 24–28. Từng cơ sở sẽ dùng tiêu chí và quy trình riêng phù hợp hướng dẫn chuyên môn; một kết quả xét nghiệm cần được bác sĩ giải thích theo toàn bộ hoàn cảnh sức khỏe.",
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Hỏi rõ có cần nhịn ăn, thời điểm lấy mẫu, cách nhận kết quả và khi nào tư vấn tiếp. Nếu được chẩn đoán, xin kế hoạch theo dõi đường huyết, dinh dưỡng và vận động cá thể hóa; đừng cố tự 'chữa' bằng cách bỏ bữa hoặc kiêng hoàn toàn tinh bột.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự chẩn đoán bằng triệu chứng hay máy đo đường tại nhà. Nếu có khát nhiều, mệt bất thường, nôn hoặc dấu hiệu cấp cứu, cần báo nhân viên y tế."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        }
+      ]
+    },
+    {
+      "slug": "van-dong-an-toan-khi-mang-thai",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Vận động trong thai kỳ: lắng nghe cơ thể",
+      "summary": "Gợi ý thảo luận với bác sĩ để duy trì sinh hoạt phù hợp.",
+      "readMinutes": 3,
+      "order": 35,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Nhiều thai phụ có thể duy trì vận động mức phù hợp nếu thai kỳ không có chống chỉ định, nhưng mức độ nên dựa vào sức khỏe trước đó, triệu chứng và chỉ dẫn của cơ sở khám thai. Vận động hỗ trợ sức khỏe tổng quát, không phải bài kiểm tra cần đạt một con số cho tất cả mọi người.",
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Hỏi bác sĩ loại vận động nào nên tiếp tục hoặc tránh; chọn đi bộ nhẹ, vận động linh hoạt hoặc các hoạt động dễ chịu khi được đồng ý. Theo dõi cảm giác mệt, đau, chóng mặt và ưu tiên nghỉ, uống nước phù hợp. Người nhà có thể đồng hành mà không ép thành tích.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Ngừng hoạt động và liên hệ y tế nếu xuất hiện đau ngực, ngất, ra máu, đau dữ dội hoặc khó thở bất thường. Người có thai nguy cơ cao cần kế hoạch riêng."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "chat-luong-giac-ngu-ba-thang-giua",
+      "stage": "thai-ky-3-thang-giua",
+      "title": "Giấc ngủ và sự thoải mái ở 3 tháng giữa",
+      "summary": "Điều chỉnh sinh hoạt mà không tự điều trị triệu chứng.",
+      "readMinutes": 3,
+      "order": 36,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng giữa",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Đau lưng, thay đổi bụng, lo âu hoặc lịch làm việc có thể ảnh hưởng giấc ngủ khi mang thai. Việc thăm khám nên bao gồm sức khỏe thể chất lẫn tinh thần; không nên xem mất ngủ kéo dài hoặc mệt mỏi nặng như điều đương nhiên phải chịu đựng.",
+            "Ba tháng giữa thường là lúc thai phụ có thêm năng lượng nhưng vẫn cần các cuộc hẹn thai sản và sàng lọc theo chỉ định. Hướng dẫn quốc tế không thay thế phác đồ và mốc hẹn của cơ sở khám thai tại Việt Nam."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Thử lịch nghỉ đều đặn, sắp xếp gối đỡ và vị trí nằm dễ chịu theo lời khuyên của bác sĩ, giảm tác nhân gây khó ngủ. Ghi lại tần suất khó ngủ, cơn đau và các thuốc đã thử để trao đổi khi tái khám.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự dùng thuốc ngủ, thảo dược an thần hay sản phẩm được quảng cáo 'an toàn tuyệt đối khi mang thai'. Nếu ngáy kèm ngưng thở, khó thở hoặc đau bất thường, cần được khám."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        }
+      ]
+    },
+    {
+      "slug": "ke-hoach-sinh-an-toan",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Lập kế hoạch sinh linh hoạt cho gia đình",
+      "summary": "Địa điểm, người đồng hành, giấy tờ và phương án dự phòng.",
+      "readMinutes": 3,
+      "order": 37,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Kế hoạch sinh là công cụ trao đổi với cơ sở y tế, không phải cam kết mọi sự việc sẽ diễn ra đúng mong muốn. WHO nhấn mạnh chăm sóc lấy người phụ nữ làm trung tâm và chuẩn bị trước các nhu cầu chăm sóc mẹ – trẻ sau sinh.",
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Viết một trang gồm cơ sở dự định sinh, đường đi, số điện thoại, hồ sơ thai, người đưa đi, phương án khi chuyển dạ ban đêm và các mong muốn cần trao đổi trước với bác sĩ. Hỏi rõ những tình huống nào có thể khiến kế hoạch cần thay đổi.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không trì hoãn đi viện để chờ đúng giờ hoặc đủ đồ chuẩn bị. Ra máu, rỉ/ra nước ối, thai máy giảm hoặc triệu chứng nặng phải liên hệ cơ sở y tế ngay."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "dau-hieu-can-di-vien-cuoi-thai-ky",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Cuối thai kỳ: khi nào cần liên hệ bệnh viện?",
+      "summary": "Nhận biết những dấu hiệu cần đánh giá ngay.",
+      "readMinutes": 3,
+      "order": 38,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Đến cuối thai kỳ, gia đình thường quan tâm cơn co và thời điểm đi sinh. Tuy nhiên, một số dấu hiệu như chảy máu, đau bụng dữ dội, dịch âm đạo bất thường, khó thở hoặc thai máy giảm không nên chờ đến khi cơn co 'đều' mới nhờ nhân viên y tế đánh giá.",
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Trao đổi trước với cơ sở dự sinh về số điện thoại tư vấn, cách nhận biết chuyển dạ và khi nào đến viện. Ghi tuổi thai hiện tại, lần khám gần nhất và các biểu hiện khi gọi. Chuẩn bị phương tiện di chuyển an toàn.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không tự khám trong hoặc dựa vào ứng dụng đếm cơn co để loại trừ tình huống nguy hiểm. Khi có triệu chứng cảnh báo của CDC hoặc điều gì không ổn, xin đánh giá chuyên môn."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "NHS – Your antenatal care and appointments",
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        }
+      ]
+    },
+    {
+      "slug": "thai-may-va-theo-doi-thai-cuoi-ky",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Quan sát thai máy và thay đổi đáng chú ý",
+      "summary": "Tập trung vào kiểu vận động quen thuộc của thai và báo ngay nếu khác.",
+      "readMinutes": 3,
+      "order": 39,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Thai máy là một trong những tín hiệu gia đình nhận thấy về sức khỏe thai nhi. Điều quan trọng là trao đổi với nhân viên y tế nếu thai chuyển động ít hơn rõ rệt hoặc khác bình thường đối với thai phụ. Không có một con số hay ứng dụng tự theo dõi nào bảo đảm loại trừ mọi nguy cơ.",
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Ghi nhớ thời gian thường cảm nhận thai vận động, báo sớm khi kiểu vận động thay đổi và thực hiện đúng hướng dẫn cơ sở đang quản lý thai. Chuẩn bị danh sách câu hỏi về các triệu chứng cuối thai kỳ để tư vấn trước khi về nhà.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không chờ đến hôm sau vì cho rằng thai chỉ 'đang ngủ' nếu thấy chuyển động giảm rõ rệt. Hãy liên hệ đơn vị thai sản để được đánh giá."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "WHO – Promoting healthy pregnancy / antenatal care",
+          "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        }
+      ]
+    },
+    {
+      "slug": "chuan-bi-sau-sinh-dinh-duong-cham-soc",
+      "stage": "thai-ky-3-thang-cuoi",
+      "title": "Chuẩn bị 48 giờ và 6 tuần đầu sau sinh",
+      "summary": "Lên kế hoạch hồi phục cho mẹ và chăm sóc bé ngay từ cuối thai kỳ.",
+      "readMinutes": 3,
+      "order": 40,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Thai kỳ 3 tháng cuối",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO nhấn mạnh chăm sóc mẹ và trẻ tiếp tục trong sáu tuần đầu, không kết thúc ngay sau khi rời phòng sinh. Gia đình cần biết ai sẽ chăm sóc khi mẹ mệt, cách nhận trợ giúp về nuôi con bằng sữa mẹ và các dấu hiệu cảnh báo của cả mẹ lẫn bé.",
+            "Ở giai đoạn cuối, kế hoạch đi sinh cần bao gồm đường đến bệnh viện, người hỗ trợ và phương án khi dấu hiệu chuyển dạ hoặc tình trạng bất thường xuất hiện. Không tự trì hoãn khám nếu thai máy thay đổi hay có dấu hiệu cảnh báo."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Lập danh sách người hỗ trợ việc nhà, bữa ăn, đưa đi tái khám, chăm bé khi mẹ nghỉ, số tư vấn dinh dưỡng và người trực khi có dấu hiệu bất thường. Hỏi cơ sở sinh về lịch theo dõi mẹ – trẻ và giấy tờ cần giữ.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không lên lịch thăm hỏi dày đặc khiến mẹ thiếu ngủ. Mẹ có đau đầu dữ dội, khó thở, sốt hoặc ra máu nhiều; bé bú kém, sốt, thở khó thì cần hỗ trợ y tế kịp thời."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        }
+      ]
+    },
+    {
+      "slug": "dau-hieu-canh-bao-sau-sinh",
+      "stage": "hau-san",
+      "title": "Dấu hiệu cảnh báo ở mẹ sau sinh",
+      "summary": "Những triệu chứng không được bỏ qua dù đã xuất viện.",
+      "readMinutes": 3,
+      "order": 41,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "CDC nhấn mạnh dấu hiệu nguy hiểm có thể xuất hiện trong thai kỳ và đến một năm sau sinh. Đau đầu dữ dội, rối loạn thị giác, khó thở, đau ngực, sốt, đau bụng nặng, chảy máu nhiều hoặc ý nghĩ tự làm hại bản thân đều cần được đánh giá nhanh. Một số triệu chứng dễ bị nhầm thành mệt sau sinh.",
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Lưu số điện thoại cấp cứu, cơ sở sinh và lịch khám hậu sản. Khi cần trợ giúp, nói rõ mới sinh bao lâu, sinh thường hay mổ, triệu chứng, lượng máu ra, thuốc đã dùng và bệnh nền. Người nhà cần nghiêm túc lắng nghe lời than phiền của người mẹ.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không đợi đủ nhiều triệu chứng hoặc tự dùng thuốc để che dấu hiệu cảnh báo. Tình trạng khó thở, ngất, đau ngực, co giật hoặc ý nghĩ tự sát cần hỗ trợ cấp cứu ngay."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        }
+      ]
+    },
+    {
+      "slug": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "stage": "hau-san",
+      "title": "Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung",
+      "summary": "Theo dõi sức khỏe, nghỉ ngơi, dinh dưỡng và vết thương theo hướng dẫn.",
+      "readMinutes": 3,
+      "order": 42,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Thời gian hồi phục khác nhau tùy cách sinh, mức mất máu, nhiễm trùng, bệnh nền và điều kiện hỗ trợ. Chăm sóc hậu sản theo WHO bao gồm sức khỏe thể chất, tinh thần, dinh dưỡng, nuôi con và hướng dẫn liên hệ khi có triệu chứng. Những lời khuyên vận động hay chăm sóc vết mổ phải phù hợp chỉ định xuất viện.",
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Giữ giấy ra viện và lịch tái khám, ghi lại thuốc và chỉ dẫn vết thương. Phân chia việc nặng cho người hỗ trợ, dành thời gian ngủ và uống ăn phù hợp. Nếu muốn vận động trở lại hoặc có băn khoăn về cho con bú khi dùng thuốc, hỏi bác sĩ đang theo dõi.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Vết thương đỏ lan, chảy mủ, đau tăng, sốt, chảy máu nhiều, đau ngực hoặc khó thở cần liên hệ y tế; không áp dụng mẹo dân gian lên vết thương."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "tam-trang-sau-sinh-va-tram-cam",
+      "stage": "hau-san",
+      "title": "Tâm trạng sau sinh: khi nào nên nhờ người giúp?",
+      "summary": "Phân biệt mệt mỏi ngắn hạn với khó khăn tinh thần cần hỗ trợ.",
+      "readMinutes": 3,
+      "order": 43,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "Những thay đổi tâm trạng khi chăm em bé có thể liên quan thiếu ngủ, đau, nội tiết và áp lực gia đình. Tuy nhiên, cảm giác buồn, lo, tuyệt vọng hoặc khó gắn kết kéo dài không nên bị xem nhẹ. Chăm sóc sau sinh toàn diện bao gồm đánh giá sức khỏe tinh thần và mức an toàn của người mẹ.",
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Hãy nhờ một người tin cậy chia ca chăm bé, tạo khoảng ngủ thực tế, nói rõ nhu cầu hỗ trợ và trao đổi với nhân viên y tế nếu mất ngủ, căng thẳng hay buồn bã ảnh hưởng việc ăn uống, chăm sóc bản thân. Giữ một số điện thoại có thể gọi khi cần.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Ý nghĩ làm hại bản thân hoặc em bé, hoang mang mất định hướng, ảo giác hay hành vi bất thường là tình trạng cần hỗ trợ y tế khẩn cấp; không để người mẹ một mình."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        }
+      ]
+    },
+    {
+      "slug": "ho-tro-bu-me-va-khi-kho-khan",
+      "stage": "hau-san",
+      "title": "Hỗ trợ nuôi con bằng sữa mẹ sau sinh",
+      "summary": "Nhu cầu thường gặp, cách tìm tư vấn và tôn trọng lựa chọn gia đình.",
+      "readMinutes": 3,
+      "order": 44,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Hậu sản & hồi phục",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO và UNICEF khuyến nghị bú mẹ hoàn toàn trong sáu tháng đầu nếu có thể, sau đó ăn bổ sung phù hợp song song tiếp tục bú mẹ. Để thực hiện cần hỗ trợ kỹ thuật ngậm bắt vú, giải quyết đau, theo dõi tăng trưởng và hỗ trợ tinh thần; không nên dùng chỉ tiêu lượng sữa trên mạng để đánh giá mọi gia đình.",
+            "Sáu tuần đầu sau sinh là giai đoạn hồi phục cả thể chất lẫn tinh thần. Cần chủ động nhận hỗ trợ và theo dõi sức khỏe mẹ, trẻ; một số biến chứng có thể xảy ra trong vòng một năm sau sinh."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Quan sát dấu hiệu bé bú và tình trạng tã, cân nặng theo hướng dẫn y tế; nhờ nhân viên y tế hoặc chuyên gia tư vấn bú mẹ khi đau kéo dài, bé khó bú, mẹ lo ít sữa. Người nhà giúp việc nhà, mang nước và hỗ trợ chăm sóc bé thay vì phán xét.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Bé sơ sinh bú rất kém, lừ đừ, ít tiểu rõ rệt hoặc có dấu mất nước cần được khám. Sử dụng sữa thay thế hoặc thuốc hỗ trợ tạo sữa cần tư vấn phù hợp, không phải thất bại của người mẹ."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        },
+        {
+          "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        }
+      ]
+    },
+    {
+      "slug": "ngu-an-toan-cho-tre-so-sinh",
+      "stage": "so-sinh",
+      "title": "Giấc ngủ an toàn: nằm ngửa và mặt phẳng chắc",
+      "summary": "Những điều quan trọng nhất khi chuẩn bị chỗ ngủ cho trẻ nhỏ.",
+      "readMinutes": 3,
+      "order": 45,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "CDC khuyến nghị đặt trẻ nằm ngửa khi ngủ, sử dụng mặt đệm chắc, phẳng, không nghiêng; không để gối, chăn mềm, thú bông hay vật dễ che mặt trong nơi ngủ. Nên cho bé ngủ trên bề mặt riêng cùng phòng với người chăm sóc, lý tưởng ít nhất sáu tháng đầu. Đây là hướng dẫn giảm nguy cơ tử vong đột ngột liên quan giấc ngủ.",
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Kiểm tra cũi/nôi, ga vừa vặn và bỏ toàn bộ đồ mềm không cần thiết. Khi cho bé ăn đêm, chuẩn bị cách đặt bé trở lại nơi ngủ riêng. Nhắc người lớn trong nhà làm thống nhất cả giấc ngày lẫn đêm.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Không dùng gối chống trào ngược, nệm nghiêng, vật chặn tư thế hoặc cho bé ngủ thường xuyên trên ghế rung/ghế ô tô ngoài mục đích di chuyển. Trẻ có vấn đề hô hấp hoặc bệnh lý cần kế hoạch riêng theo bác sĩ."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Providing Care for Babies to Sleep Safely",
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        }
+      ]
+    },
+    {
+      "slug": "dau-hieu-nguy-hiem-o-tre-so-sinh",
+      "stage": "so-sinh",
+      "title": "Dấu hiệu nguy hiểm ở trẻ sơ sinh cần đưa đi khám",
+      "summary": "Bú kém, thở bất thường, sốt hay lừ đừ không nên chờ.",
+      "readMinutes": 3,
+      "order": 46,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO nêu các dấu hiệu cần tìm chăm sóc y tế kịp thời ở trẻ sơ sinh gồm khó bú hoặc bỏ bú, hoạt động giảm, khó thở, sốt, co giật hoặc lạnh bất thường. Trẻ nhỏ có thể xấu đi nhanh; mô tả triệu chứng qua chat không thay thế được đo nhiệt độ, nhịp thở và thăm khám.",
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Lưu số nơi khám nhi, khoa cấp cứu và thông tin ngày sinh, tiền sử sinh non, bệnh lý, cân nặng. Khi bé có biểu hiện lạ, quan sát màu da, khả năng thức bú, nhịp thở và liên hệ cơ sở y tế ngay. Tránh trì hoãn vì chờ đến 'đúng giờ uống thuốc'.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Khó thở, tím tái, co giật, không đáp ứng hoặc bú rất kém là dấu hiệu cấp cứu. Không tự cho trẻ dùng thuốc hạ sốt, kháng sinh hay mẹo làm ấm khi chưa được hướng dẫn phù hợp."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        },
+        {
+          "name": "CDC – Milestones by 2 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/2-months.html"
+        }
+      ]
+    },
+    {
+      "slug": "bu-me-hoan-toan-sau-sinh",
+      "stage": "so-sinh",
+      "title": "Bú mẹ hoàn toàn 6 tháng đầu: nguyên tắc nền tảng",
+      "summary": "Thế nào là bú mẹ hoàn toàn và cách tìm hỗ trợ.",
+      "readMinutes": 3,
+      "order": 47,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "WHO/UNICEF khuyến nghị bú mẹ hoàn toàn khoảng sáu tháng đầu, không thêm nước hoặc đồ ăn khác trong điều kiện thông thường; sau đó bắt đầu ăn bổ sung an toàn và duy trì bú mẹ. Tình huống y khoa đặc biệt hoặc không thể bú mẹ cần kế hoạch dinh dưỡng được bác sĩ tư vấn.",
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Cho bé bú theo tín hiệu đói, theo dõi tăng trưởng và tã theo hướng dẫn y tế thay vì căn cứng một số phút cho tất cả. Khi mẹ đau núm vú, bé khó ngậm bắt vú hoặc tăng cân không phù hợp, cần trợ giúp kỹ thuật chuyên môn.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Bé bú kém, lừ đừ, sốt, có dấu mất nước hoặc khó thở cần khám ngay. Không pha sữa công thức loãng hơn hoặc đặc hơn chỉ dẫn trên nhãn; việc chọn sữa thay thế cần phù hợp từng trường hợp."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO – Infant and young child feeding (2026)",
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        },
+        {
+          "name": "WHO – Caring for a newborn",
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+        }
+      ]
+    },
+    {
+      "slug": "theo-doi-phat-trien-hai-thang-dau",
+      "stage": "so-sinh",
+      "title": "Quan sát mốc phát triển trong 2 tháng đầu",
+      "summary": "Giao tiếp, vận động, ánh mắt và khi nào nên hỏi bác sĩ.",
+      "readMinutes": 3,
+      "order": 48,
+      "status": "draft",
+      "lastReviewed": null,
+      "tags": [
+        "Trẻ sơ sinh",
+        "Hướng dẫn có nguồn",
+        "Biên tập dev"
+      ],
+      "sections": [
+        {
+          "heading": "Hiểu đúng vấn đề",
+          "paragraphs": [
+            "CDC cung cấp checklist phát triển lúc khoảng hai tháng theo nhóm vận động, giao tiếp, nhận thức và xã hội. Mốc được mô tả là những gì đa số trẻ làm được ở tuổi đó, không phải chuẩn chấm điểm hay chẩn đoán. Điều quan trọng là theo dõi xu hướng, tương tác và sức khỏe chung.",
+            "Trẻ sơ sinh, đặc biệt trẻ sinh non hoặc có bệnh nền, cần hướng dẫn riêng từ nhân viên y tế. Nếu bé bú kém rõ rệt, lừ đừ, co giật, khó thở hoặc sốt, cần đưa đi khám kịp thời thay vì thử mẹo tại nhà."
+          ]
+        },
+        {
+          "heading": "Gợi ý thực hành có thể áp dụng",
+          "paragraphs": [
+            "Dành thời gian nói chuyện, nhìn mặt, hát và phản hồi tín hiệu bé khi bé tỉnh táo. Quan sát bé giao tiếp bằng mắt, phản ứng với tiếng nói và vận động; ghi điều làm gia đình băn khoăn để trao đổi ở lịch khám nhi.",
+            "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Điểm cần thận trọng",
+          "paragraphs": [
+            "Nếu bé mất kỹ năng từng có, không đáp ứng với âm thanh hoặc người chăm sóc lo ngại, trao đổi bác sĩ sớm. Với trẻ sinh non, cần hỏi cách đánh giá theo tuổi hiệu chỉnh."
+          ]
+        },
+        {
+          "heading": "Nguồn gốc nội dung và giới hạn",
+          "paragraphs": [
+            "Bài được biên tập bằng tiếng Việt từ các tài liệu được liên kết phía dưới, không sao chép nguyên văn và không phải bản dịch chính thức của cơ quan nguồn. Một số gợi ý tổ chức sinh hoạt là đề xuất thực hành của nhóm biên tập, không phải khuyến nghị y khoa bắt buộc.",
+            "Nội dung hỗ trợ việc tìm hiểu, không thay thế thăm khám, chẩn đoán hoặc điều trị. Các lịch tiêm, xét nghiệm và thuốc cần đối chiếu hướng dẫn hiện hành tại Việt Nam và chỉ định cụ thể."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC – Milestones by 2 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/2-months.html"
+        },
+        {
+          "name": "UNICEF – Parenting tips for the first two years of life",
+          "url": "https://www.unicef.org/parenting/child-development/baby-tips"
         }
       ]
     }
