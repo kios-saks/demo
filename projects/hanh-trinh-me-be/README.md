@@ -152,3 +152,32 @@ The database owner credential shared in a chat is not committed anywhere. Rotate
 prefer a narrowly scoped app role with only the necessary mebe schema permissions instead of using
 the Supabase postgres owner for the long-lived Backend. Keep NODE_ENV=production and use trusted TLS.
 Run npm run db:status and GET /health plus /v1/stages after deploying to prove the app-to-Supabase connection.
+
+## Mobile live API and offline cache
+
+Expo app can read the same Fastify API through the shared ApiKnowledgeRepository
+and a MobileContentSync adapter using AsyncStorage 2.2.0 (Expo SDK 54).
+The public API URL is not a secret, and must never be a PostgreSQL URI.
+
+Set EXPO_PUBLIC_CONTENT_API_URL=https://your-public-backend-host on the MOBILE
+build/runtime. It must be an HTTPS origin for a production build. In development
+it may be an HTTP LAN address reachable from the emulator/device.
+
+When configured: the app fetches stages and article summaries and caches them
+for offline reading for up to 72 hours; a viewed article is cached separately.
+Release UI and API transport restrict content to published articles and use a
+separate cache namespace from preview mode. If server returns 404 for a revoked
+article, its cached detail is removed. No secrets, accounts or private medical
+data are stored by the feature. Offline previews are never automatically
+promoted to public content.
+
+If EXPO_PUBLIC_CONTENT_API_URL is not configured, the current development
+client still offers bundled mock draft content, but the release UI does NOT
+display bundled drafts. The seed is currently still a source import in the
+prototype, so remove it completely from the release artifact before real
+public distribution; an actual device/mobile binary build has NOT yet been
+performed. Mobile API sync is tested by repository unit tests and TS checks.
+
+Remaining mobile tasks: device smoke tests on iOS/Android, encrypted user
+storage (when personal data is added), background sync/retries, offline
+revocation behavior, auth and proper release-channel configuration.
