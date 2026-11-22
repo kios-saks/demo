@@ -99,7 +99,8 @@ test("rejects invalid data, self-review and attempted approval bypass",async()=>
    assert.equal(current.article.status,"draft");
    assert.equal(current.article.stage,"so-sinh");
    assert.equal(current.article.slug,slug);
-   assert.equal((await app.inject(action("editor","POST","/v1/admin/articles/"+slug+"/review",{expectedRevision:2,decision:"request_changes",note:""}))).statusCode,409);
+   assert.equal((await app.inject(action("editor","POST","/v1/admin/articles/"+slug+"/review",{expectedRevision:2,decision:"request_changes",note:""}))).statusCode,422);
+   assert.equal((await app.inject(action("editor","POST","/v1/admin/articles/"+slug+"/review",{expectedRevision:2,decision:"request_changes",note:"Bản này chưa được gửi duyệt."}))).statusCode,409);
    assert.equal((await app.inject(action("editor","POST","/v1/admin/articles/"+slug+"/submit",{expectedRevision:2}))).statusCode,200);
    const editedByEditor=await app.inject(action("editor","PUT","/v1/admin/articles/"+slug,{expectedRevision:2,content:base}));
    assert.equal(editedByEditor.statusCode,200);
