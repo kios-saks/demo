@@ -32,6 +32,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Verify free hosting blueprint and absence of embedded DB secrets
         run: node scripts/check-render-blueprint.mjs
+      - name: Verify pinned Supabase CA fingerprint
+        run: node scripts/check-supabase-ca.mjs
       - name: Content validation
         run: npm run check:content
       - name: API tests

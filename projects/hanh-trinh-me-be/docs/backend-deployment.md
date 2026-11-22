@@ -57,3 +57,24 @@ API, using Mock/Docker/Supabase adapters behind Fastify.
 Still outstanding: user auth/RBAC & verified clinical review, approved
 content publishing, backups/PITR, monitoring and logging, real iOS/Android
 device tests, deploy permissions and live app-to-Supabase password test.
+
+
+## Verified TLS for the Supabase Shared Pooler
+
+The shared pooler uses **Supabase Root 2021 CA**, which is not part of Node's
+default public CA bundle. The Dockerfile includes the public CA certificate at
+`/srv/database/certs/prod-ca-2021.crt`, sets `SUPABASE_CA_CERT_PATH` and keeps
+`rejectUnauthorized=true`. Never use `NODE_TLS_REJECT_UNAUTHORIZED=0` or
+`rejectUnauthorized=false`.
+
+The pinned certificate's SHA-256 fingerprint is
+`807025ad50d4ed219d2c9c7d299c004f824eb00cf7f65afef607d07b72e6cafa`
+(Supabase Root 2021 CA, valid to April 2031). CI checks its fingerprint so that
+unreviewed changes to the public trust root fail. The root was cross-checked
+against the publicly documented Supabase CA fingerprint; for future root
+rotation, obtain a new certificate directly from **Supabase Dashboard →
+Database Settings → SSL Configuration → Download Certificate** and verify
+independently before updating the repository.
+
+No database credential is stored in this file or image. Render holds the
+`SUPABASE_DATABASE_URL` secret separately.
