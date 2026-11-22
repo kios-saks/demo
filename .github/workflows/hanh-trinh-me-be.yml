@@ -54,3 +54,50 @@ jobs:
           web_pid=$!
           trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
           node scripts/http-smoke.mjs || { cat /tmp/mebe-api.log; cat /tmp/mebe-web.log; exit 1; }
+
+  postgres-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: local-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    env:
+      DATABASE_URL: postgresql://mebe:local-test-only@127.0.0.1:5432/mebe
+      CONTENT_PROVIDER: postgres
+      NODE_ENV: development
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Apply PostgreSQL schema migration
+        run: npm run db:migrate
+      - name: Seed sample data
+        run: npm run db:seed
+      - name: PostgreSQL integration and editorial concurrency tests
+        run: npm run test:postgres
+      - name: PostgreSQL-backed API smoke
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-postgres-api.log 2>&1 &
+          api_pid=$!
+          trap 'kill "$api_pid" 2>/dev/null || true' EXIT
+          node scripts/postgres-http-smoke.mjs || { cat /tmp/mebe-postgres-api.log; exit 1; }

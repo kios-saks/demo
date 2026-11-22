@@ -7,9 +7,11 @@ import type { DemoTokens } from "./admin.js";
 
 export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository(),tokens?:DemoTokens) {
   const app=Fastify({logger:false});
+  if("close" in repository && typeof repository.close==="function")
+    app.addHook("onClose",async()=>{await (repository as KnowledgeRepository & {close:()=>Promise<void>}).close();});
   void app.register(cors,{origin:process.env.CORS_ORIGIN?.split(",")||["http://localhost:3000"]});
   void registerAdmin(app,repository,tokens);
-  app.get("/health",async()=>({ok:true,version:"0.3.0",provider:repository.provider}));
+  app.get("/health",async()=>({ok:true,version:"0.4.0",provider:repository.provider}));
   app.get("/v1/stages",async()=>({data:await repository.listStages()}));
   app.get<{Params:{slug:string}}>("/v1/stages/:slug",async(req,reply)=>{
     const stage=await repository.getStage(req.params.slug);

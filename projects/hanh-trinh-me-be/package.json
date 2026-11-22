@@ -12,7 +12,10 @@
     "build:web": "npm run build -w @mebe/web",
     "test": "npm run test -w @mebe/api && npm run check:content",
     "check:content": "node scripts/check-content.mjs && npm run check:mock",
-    "check:mock": "node scripts/check-mock-data.mjs"
+    "check:mock": "node scripts/check-mock-data.mjs",
+    "db:migrate": "npm run db:migrate -w @mebe/api",
+    "db:seed": "npm run db:seed -w @mebe/api",
+    "test:postgres": "npm run test:postgres -w @mebe/api"
   },
   "engines": {
     "node": ">=20.11.0"

@@ -81,3 +81,29 @@ To use locally:
 **Security:** The API \`/v1/admin/*\` is **404 when NODE_ENV=production**, **503 if tokens missing**, and **401 for invalid bearer keys**. All edits are JSON snapshots in one local process. No real identity/MFA, verified credentials, user registration, Postgres, or production persistence is implemented. Do not deploy /admin as a public CMS. All content remains draft/noindex, and simulate-review does not publish.
 
 \`apps/web\` still reads the shipped JSON separately from editable API local state. CMS edits can be viewed in /admin and API immediately; syncing the reader web/mobile apps to the authoritative API is a separate next sprint.
+
+
+## Real PostgreSQL adapter (added 2026-11-22)
+
+The existing \`KnowledgeRepository\` / \`EditorialRepository\` contracts now have a working \`PostgresEditorialRepository\` powered by \`pg\`, SQL transactions and migrations. This is real PostgreSQL, not a mocked SQL API. The old mock remains the default.
+
+For development (does not provision a paid cloud database):
+
+\`\`\`bash
+docker compose -f compose.postgres.yml up -d
+cp .env.example .env
+# In .env: set CONTENT_PROVIDER=postgres and uncomment DATABASE_URL.
+# Use a *private* password in real environments (compose password is only a local example).
+npm install
+npm run db:migrate
+npm run db:seed
+npm run dev:api
+\`\`\`
+
+Keep the \`dev:web\` terminal running separately. API /health reports \`provider:"postgres"\` when connected; the existing /admin UI works with this adapter and persists changes in PostgreSQL. Re-running the seed will *not* overwrite edited articles or approval history. \`database/migrations/001_init.sql\` creates source/topic/stage/article/card relational tables, audited events and immutable-per-revision snapshots; the migration runner checks file hashes and refuses modified applied migrations.
+
+Run integration tests with a disposable PostgreSQL 16 instance using \`npm run test:postgres\` while \`DATABASE_URL\` points to it. GitHub Actions creates an isolated PostgreSQL service container, runs migrations, seeds, tests and HTTP smoke. Nothing is deployed to a permanent managed cloud database; that requires choosing a provider and supplying credentials through a secure secret store.
+
+Security: no publish endpoint. PostgreSQL schema explicitly disallows the \`published\` status until real editorial/medical credentials and production security are implemented. Demo role keys are still **development-only**, and \`/v1/admin\` returns 404 in production. Public API hides draft content under \`NODE_ENV=production\`. No user/child medical data is imported.
+
+See \`docs/postgresql-adapter.md\`.
