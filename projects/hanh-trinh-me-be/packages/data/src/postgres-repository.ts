@@ -72,8 +72,8 @@ export class PostgresEditorialRepository implements EditorialRepository {
    const where=conditions.length?" WHERE "+conditions.join(" AND "):"";
    const count=await this.pool.query<{total:string}>("SELECT count(*)::text AS total FROM knowledge_articles"+where,parameters);
    const limitIdx=parameters.length+1,offsetIdx=parameters.length+2;
-   const rows=await this.pool.query<{payload:Article}>(\`SELECT payload FROM knowledge_articles\${where}
-     ORDER BY sort_order,slug LIMIT $\${limitIdx} OFFSET $\${offsetIdx}\`,[...parameters,limit,(page-1)*limit]);
+   const rows=await this.pool.query<{payload:Article}>(`SELECT payload FROM knowledge_articles${where}
+     ORDER BY sort_order,slug LIMIT $${limitIdx} OFFSET $${offsetIdx}`,[...parameters,limit,(page-1)*limit]);
    return {data:rows.rows.map(({payload})=>{const {sections,sources,...summary}=payload;return json(summary);}),
      meta:{total:Number(count.rows[0].total),page,limit}};
  }
@@ -99,20 +99,20 @@ export class PostgresEditorialRepository implements EditorialRepository {
    const where:string[]=[];const params:unknown[]=[];
    if(query.stage){params.push(query.stage);where.push("stage_slug=$"+params.length);}
    if(query.topicId){params.push(query.topicId);where.push("topic_id=$"+params.length);}
-   const r=await this.pool.query<{data:ResearchCard}>(\`SELECT data FROM knowledge_research_cards\${where.length?" WHERE "+where.join(" AND "):""} ORDER BY id\`,params);
+   const r=await this.pool.query<{data:ResearchCard}>(`SELECT data FROM knowledge_research_cards${where.length?" WHERE "+where.join(" AND "):""} ORDER BY id`,params);
    return r.rows.map(x=>json(x.data));
  }
  async getOverview():Promise<EditorialOverview>{
    const r=await this.pool.query<{
       stages:string;articles:string;drafts:string;published:string;topics:string;sources:string;cards:string
-   }>(\`SELECT
+   }>(`SELECT
       (SELECT count(*) FROM knowledge_stages)::text AS stages,
       (SELECT count(*) FROM knowledge_articles)::text AS articles,
       (SELECT count(*) FROM knowledge_articles WHERE status='draft')::text AS drafts,
       (SELECT count(*) FROM knowledge_articles WHERE status='published')::text AS published,
       (SELECT count(*) FROM knowledge_topics)::text AS topics,
       (SELECT count(*) FROM knowledge_sources)::text AS sources,
-      (SELECT count(*) FROM knowledge_research_cards)::text AS cards\`);
+      (SELECT count(*) FROM knowledge_research_cards)::text AS cards`);
    const x=r.rows[0];
    const last=await this.readSetting("seededAt");
    return {provider:"postgres",stages:Number(x.stages),articles:Number(x.articles),
@@ -125,11 +125,11 @@ export class PostgresEditorialRepository implements EditorialRepository {
  }
  async getDisclaimer(){return this.readSetting("disclaimer");}
  async listEditorialArticles():Promise<ArticleEditorSummary[]>{
-   const r=await this.pool.query<ArticleRow>(\`SELECT \${ARTICLE_FIELDS} FROM knowledge_articles ORDER BY sort_order,slug\`);
+   const r=await this.pool.query<ArticleRow>(`SELECT ${ARTICLE_FIELDS} FROM knowledge_articles ORDER BY sort_order,slug`);
    return r.rows.map(toSummary);
  }
  private async findRecord(query:PgQuery,slug:string,locked=false):Promise<EditorialRecord|null>{
-   const r=await query.query<ArticleRow>(\`SELECT \${ARTICLE_FIELDS} FROM knowledge_articles WHERE slug=$1\${locked?" FOR UPDATE":""}\`,[slug]);
+   const r=await query.query<ArticleRow>(`SELECT ${ARTICLE_FIELDS} FROM knowledge_articles WHERE slug=$1${locked?" FOR UPDATE":""}`,[slug]);
    if(!r.rows[0])return null;
    const ev=await query.query<EventRow>("SELECT sequence,action,actor_id,role,revision,happened_at,note FROM editorial_events WHERE article_slug=$1 ORDER BY sequence",[slug]);
    return asRecord(r.rows[0],ev.rows.map(x=>({
@@ -154,20 +154,20 @@ export class PostgresEditorialRepository implements EditorialRepository {
      if(!rec)throw new EditorialError("ARTICLE_NOT_FOUND",404);
      const outcome=await action(rec);
      const now=new Date().toISOString();
-     await client.query(\`UPDATE knowledge_articles SET status=$2,payload=$3::jsonb,search_text=$4,revision=$5,
+     await client.query(`UPDATE knowledge_articles SET status=$2,payload=$3::jsonb,search_text=$4,revision=$5,
        last_editor_id=$6,submitted_revision=$7,editorial_approval=$8::jsonb,
-       medical_approval=$9::jsonb,updated_at=$10::timestamptz WHERE slug=$1\`,[
+       medical_approval=$9::jsonb,updated_at=$10::timestamptz WHERE slug=$1`,[
        slug,rec.article.status,JSON.stringify(rec.article),
        normalizeSearch([rec.article.title,rec.article.summary,...rec.article.tags].join(" ")),
        rec.revision,rec.lastEditorId,rec.submittedRevision,
        rec.editorialApproval?JSON.stringify(rec.editorialApproval):null,
        rec.medicalApproval?JSON.stringify(rec.medicalApproval):null,now
      ]);
-     if(outcome.newRevision)await client.query(\`INSERT INTO editorial_revisions(article_slug,revision,snapshot,editor_id)
-       VALUES($1,$2,$3::jsonb,$4)\`,[slug,rec.revision,JSON.stringify(rec.article),rec.lastEditorId]);
+     if(outcome.newRevision)await client.query(`INSERT INTO editorial_revisions(article_slug,revision,snapshot,editor_id)
+       VALUES($1,$2,$3::jsonb,$4)`,[slug,rec.revision,JSON.stringify(rec.article),rec.lastEditorId]);
      const event=outcome.event;
-     await client.query(\`INSERT INTO editorial_events(article_slug,sequence,action,actor_id,role,revision,note)
-       VALUES($1,$2,$3,$4,$5,$6,$7)\`,[
+     await client.query(`INSERT INTO editorial_events(article_slug,sequence,action,actor_id,role,revision,note)
+       VALUES($1,$2,$3,$4,$5,$6,$7)`,[
        slug,rec.events.length+1,event.action,event.actor.id,event.actor.role,rec.revision,event.note||null
      ]);
      const updated=await this.findRecord(client,slug);
