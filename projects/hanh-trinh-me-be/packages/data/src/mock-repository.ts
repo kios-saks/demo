@@ -15,7 +15,7 @@ const clone=<T>(obj:T):T=>structuredClone(obj);
  */
 export class MockKnowledgeRepository implements KnowledgeRepository {
  readonly provider="mock" as const;
- private readonly seed:MockContentDataset;
+ protected readonly seed:MockContentDataset;
  constructor(dataset:MockContentDataset) {
    this.seed=clone(dataset);
    this.validate();

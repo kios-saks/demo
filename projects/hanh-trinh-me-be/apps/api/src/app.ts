@@ -2,11 +2,14 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import type { KnowledgeRepository, EditorialStatus } from "../../../packages/data/src/contracts.js";
 import { createKnowledgeRepository } from "./repository.js";
+import { registerAdmin } from "./admin.js";
+import type { DemoTokens } from "./admin.js";
 
-export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository()) {
+export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository(),tokens?:DemoTokens) {
   const app=Fastify({logger:false});
   void app.register(cors,{origin:process.env.CORS_ORIGIN?.split(",")||["http://localhost:3000"]});
-  app.get("/health",async()=>({ok:true,version:"0.2.0",provider:repository.provider}));
+  void registerAdmin(app,repository,tokens);
+  app.get("/health",async()=>({ok:true,version:"0.3.0",provider:repository.provider}));
   app.get("/v1/stages",async()=>({data:await repository.listStages()}));
   app.get<{Params:{slug:string}}>("/v1/stages/:slug",async(req,reply)=>{
     const stage=await repository.getStage(req.params.slug);

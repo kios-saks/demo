@@ -17,9 +17,12 @@ const sources=await (await get(api+"/v1/sources")).json();assert.equal(sources.d
 const cards=await (await get(api+"/v1/research-cards")).json();assert.equal(cards.data.length,12);
 const overview=await (await get(api+"/v1/editorial/overview")).json();assert.equal(overview.data.drafts,24);
 const articles=await (await get(api+"/v1/articles?stage=so-sinh")).json();assert.equal(articles.meta.total,2);
-for(const [url,needle] of [["/","Hành Trình"],["/so-sinh","Trẻ sơ sinh"],["/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh","BẢN NHÁP"],["/tim-kiem?q=thay","Tìm điều"],["/robots.txt","/bai-viet/"],["/sitemap.xml","/so-sinh"],["/nguon-tham-khao","WHO"],["/goc-nghien-cuu","12 thẻ nghiên cứu"]]){
+for(const [url,needle] of [["/","Hành Trình"],["/so-sinh","Trẻ sơ sinh"],["/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh","BẢN NHÁP"],["/tim-kiem?q=thay","Tìm điều"],["/robots.txt","/bai-viet/"],["/sitemap.xml","/so-sinh"],["/nguon-tham-khao","WHO"],["/goc-nghien-cuu","12 thẻ nghiên cứu"],["/admin","Trung tâm biên tập nội dung"]]){
   const body=await (await get(base+url)).text();
   assert(body.includes(needle),url+" expected text "+needle);
   console.log("PASS HTTP 200 + content:",url);
 }
+// Without local keys, the demo CMS rejects access and never leaks draft admin data.
+const admin=await fetch(api+"/v1/admin/articles");
+assert([401,503,404].includes(admin.status),"Admin must never be available without authorized role token");
 console.log("PASS API + web integration smoke.");

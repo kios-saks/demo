@@ -65,3 +65,19 @@ npm run build:web
 ```
 
 **Chính sách production:** API tự động ẩn toàn bộ article khác `published` khi `NODE_ENV=production`; chỉ có `published` mới xuất hiện trên public API. Web prototype vẫn hiển thị nội dung mẫu rõ nhãn DRAFT và áp dụng `noindex` toàn site; cần tích hợp CMS/auth/publish workflow trước khi production public.
+
+
+## CMS mock (Sprint P0 · development only)
+
+Development CMS UI: http://localhost:3000/admin. The application now has demo Writer / Editor / Reviewer roles, protected mock API, revision numbers, change requests and immutable per-revision simulated review events, plus atomic JSON file persistence under \`.local/editorial-state.json\` (gitignored). This is not a production-grade account system or specialist medical approval.
+
+To use locally:
+1. Copy \`.env.example\` to \`.env\` in this project folder.
+2. Generate three unique random secrets with at least 24 characters and fill \`EDITORIAL_DEMO_WRITER_TOKEN\`, \`EDITORIAL_DEMO_EDITOR_TOKEN\`, \`EDITORIAL_DEMO_REVIEWER_TOKEN\`. Never commit secrets; do not place secrets in a \`NEXT_PUBLIC_\` variable.
+3. Run \`npm install\`, then \`npm run dev:api\` and \`npm run dev:web\` in separate terminals.
+4. Open \`/admin\`, enter one role token in the password field. The token is only kept in page memory, not localStorage or URL.
+5. Writer: edit and submit; Editor: return for changes or approve an independently written revision; Reviewer: simulate separate medical review. Editing invalidates previous approvals. No publish button exists.
+
+**Security:** The API \`/v1/admin/*\` is **404 when NODE_ENV=production**, **503 if tokens missing**, and **401 for invalid bearer keys**. All edits are JSON snapshots in one local process. No real identity/MFA, verified credentials, user registration, Postgres, or production persistence is implemented. Do not deploy /admin as a public CMS. All content remains draft/noindex, and simulate-review does not publish.
+
+\`apps/web\` still reads the shipped JSON separately from editable API local state. CMS edits can be viewed in /admin and API immediately; syncing the reader web/mobile apps to the authoritative API is a separate next sprint.

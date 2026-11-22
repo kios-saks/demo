@@ -28,3 +28,8 @@ New `KnowledgeRepository` interface lives under `packages/data/src/contracts.ts`
 A curated, cross-linked set of reference metadata lives in `packages/content/mock/` (13 verified official source URLs, 13 editorial topics, 12 original cards). All statuses must remain DRAFT, no fake clinical reviewer. Use `npm run check:content` to validate foreign keys. Never copy substantial text from official resource pages, and never claim those agencies endorse content.
 
 Production API hides draft articles and private mock editorial/research endpoints. Public Web remains a **demo only** and is noindex globally. Maintain those safety protections. Mobile stays bundled offline until a verified API client is introduced.
+
+
+## Sprint P0 editorial mock CMS
+
+Admin UI lives at \`apps/web/app/admin/\`. Backend admin routes live under \`apps/api/src/admin.ts\`. Local single-process edit/review JSON repository implements \`EditorialRepository\` and writes \`.local/editorial-state.json\`; the seed in \`packages/content/\` is never modified by the CMS. Admin endpoints are 404 in production, cannot be used without three distinct dev-only role tokens, and do not publish. Revisions are optimistic-locked and every approval references the submitted revision; edits reset approvals. Tests must cover role permission failures, stale revisions, self-review, source validation, persistence reload and production fail-closed gating. Do not turn simulated medical reviews into public publication.
