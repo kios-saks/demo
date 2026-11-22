@@ -47,7 +47,7 @@ assert.equal(overview.status,200,"Authenticated Web preview should load");
 assert.equal(overview.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 const overviewHtml=await overview.text();
 assert(overviewHtml.includes("72 bài viết có nguồn tham khảo"));
-assert(overviewHtml.includes("Trẻ sơ sinh")||overviewHtml.includes("Lam quen")||overviewHtml.includes("cham soc"));
+assert(overviewHtml.includes("/dev-review/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
 const detailDev=await fetch(web+"/dev-review/ngu-an-toan-cho-tre-so-sinh",{headers});
 assert.equal(detailDev.status,200,"Authenticated dev preview article loads");
 const detailBody=await detailDev.text();
