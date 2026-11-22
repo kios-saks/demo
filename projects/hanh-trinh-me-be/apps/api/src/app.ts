@@ -1,4 +1,5 @@
 import Fastify from "fastify";
+import {timingSafeEqual} from "node:crypto";
 import cors from "@fastify/cors";
 import type { KnowledgeRepository, EditorialStatus } from "../../../packages/data/src/contracts.js";
 import { createKnowledgeRepository } from "./repository.js";
@@ -48,6 +49,41 @@ export function buildApp(repository:KnowledgeRepository=createKnowledgeRepositor
       return reply.code(404).send({error:"ARTICLE_NOT_FOUND"});
     return {data:article,disclaimer:await repository.getDisclaimer()};
   });
+
+  /**
+   * Development reading room: source-linked drafts, never reachable through
+   * normal production endpoints. A long random token is required for every read.
+   * This feature is read-only: no CMS roles, writes or publishing permissions.
+   */
+  const previewAuthorized=(value:string|string[]|undefined)=>{
+    const secret=process.env.DEV_CONTENT_PREVIEW_TOKEN;
+    if(!secret||secret.length<24||typeof value!=="string")return false;
+    const expected=Buffer.from(secret,"utf8"),actual=Buffer.from(value,"utf8");
+    return actual.length===expected.length&&timingSafeEqual(actual,expected);
+  };
+  app.get<{Querystring:{q?:string;stage?:string;page?:string;limit?:string}}>(
+    "/v1/dev-preview/articles",async(req,reply)=>{
+      if(!previewAuthorized(req.headers["x-preview-token"]))
+        return reply.code(404).send({error:"NOT_FOUND"});
+      reply.header("Cache-Control","private, no-store");
+      reply.header("X-Robots-Tag","noindex, nofollow");
+      const {q="",stage="",page="1",limit="50"}=req.query;
+      const n=Number(page),size=Number(limit);
+      if(!Number.isInteger(n)||n<1||!Number.isInteger(size)||size<1||size>50)
+        return reply.code(400).send({error:"INVALID_PAGINATION"});
+      return repository.listArticles({q,stage,page:n,limit:size});
+    }
+  );
+  app.get<{Params:{slug:string}}>("/v1/dev-preview/articles/:slug",async(req,reply)=>{
+    if(!previewAuthorized(req.headers["x-preview-token"]))
+      return reply.code(404).send({error:"NOT_FOUND"});
+    reply.header("Cache-Control","private, no-store");
+    reply.header("X-Robots-Tag","noindex, nofollow");
+    const article=await repository.getArticle(req.params.slug);
+    return article?{data:article,disclaimer:await repository.getDisclaimer()}
+      :reply.code(404).send({error:"ARTICLE_NOT_FOUND"});
+  });
+
   app.get<{Querystring:{stage?:string}}>("/v1/topics",async(req)=>({data:await repository.listTopics(req.query.stage)}));
   app.get<{Querystring:{stage?:string}}>("/v1/sources",async(req)=>({data:await repository.listSources(req.query.stage)}));
   // Research drafts are demonstration-only and are not public production API.
