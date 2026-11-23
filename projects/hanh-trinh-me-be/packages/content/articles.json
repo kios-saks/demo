@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-23-editorial-deep-articles-phase-1",
+  "version": "2026-11-23-editorial-deep-articles-phase-1-eight",
   "disclaimer": "Thư viện kiến thức đang được biên tập trong môi trường phát triển. Bài viết diễn giải độc lập bằng tiếng Việt từ các nguồn gốc được dẫn ở cuối bài; không phải tài liệu chính thức do tổ chức nguồn xuất bản hay chứng thực. Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc hướng dẫn của nhân viên y tế. Khi có dấu hiệu cấp cứu, liên hệ cơ sở y tế ngay; lịch tiêm và chăm sóc cần theo hướng dẫn hiện hành tại Việt Nam.",
   "stages": [
     {
@@ -168,7 +168,7 @@
       "stage": "chuan-bi-mang-thai",
       "title": "Một cuộc hẹn tiền thai nên chuẩn bị gì?",
       "summary": "Gợi ý câu hỏi để trao đổi với chuyên gia y tế trước khi mang thai.",
-      "readMinutes": 3,
+      "readMinutes": 6,
       "order": 2,
       "status": "draft",
       "lastReviewed": null,
@@ -190,6 +190,48 @@
           "heading": "Gợi ý thực hành",
           "paragraphs": [
             "Chuẩn bị danh sách thuốc, bệnh sử, tiền sử gia đình, điều lo lắng và những câu hỏi muốn hỏi bác sĩ. Đưa người đồng hành đi cùng nếu thấy hữu ích."
+          ]
+        },
+        {
+          "heading": "Mục tiêu của một buổi tư vấn trước thai kỳ",
+          "paragraphs": [
+            "Cuộc hẹn tiền thai không phải một bài kiểm tra để chứng minh cơ thể đã 'hoàn hảo' trước khi có con. Mục tiêu là giúp người có kế hoạch mang thai và nhân viên y tế nhìn tổng quan về sức khỏe, những yếu tố có thể thay đổi và các hỗ trợ cần thiết. Nên chủ động đặt lịch trước thời điểm mong muốn mang thai, nhất là khi có bệnh mạn tính hoặc đang sử dụng thuốc.",
+            "Mỗi người có hoàn cảnh khác nhau: có người chỉ cần trao đổi thói quen sinh hoạt và bổ sung vi chất; có người cần kế hoạch phối hợp giữa bác sĩ chuyên khoa và sản khoa. Những thông tin trên Internet giúp bạn chuẩn bị câu hỏi, không thể thay thế việc bác sĩ đánh giá tiền sử và đề nghị thăm khám phù hợp."
+          ]
+        },
+        {
+          "heading": "Chuẩn bị hồ sơ và câu hỏi trước buổi khám",
+          "paragraphs": [
+            "Ghi các bệnh từng mắc, tiền sử phẫu thuật, thuốc và thực phẩm bổ sung đang dùng, tình trạng dị ứng thuốc, kết quả khám quan trọng và lịch tiêm chủng nếu có. Nếu từng có thai, có thể cung cấp thông tin về những lần mang thai trước và biến chứng nếu đã xảy ra. Bạn không cần nhớ hết mọi chi tiết; mang giấy khám cũ hoặc chụp ảnh nhãn thuốc là cách giảm bỏ sót.",
+            "Chuẩn bị thêm vài câu hỏi về dinh dưỡng, axit folic, thuốc đang điều trị, tiêm chủng hoặc các vấn đề bạn đang lo lắng. Nếu có người đồng hành và bạn cảm thấy thoải mái, có thể rủ họ đi cùng để chia sẻ trách nhiệm chuẩn bị. Tôn trọng quyền riêng tư: có những điều sức khỏe cá nhân bạn muốn trao đổi trực tiếp với nhân viên y tế."
+          ]
+        },
+        {
+          "heading": "Những chủ đề nên trao đổi với nhân viên y tế",
+          "paragraphs": [
+            "Hãy hỏi liệu bệnh đang điều trị có ảnh hưởng tới kế hoạch thai kỳ hay không và có cần phối hợp bác sĩ chuyên khoa không. Cùng kiểm tra thuốc kê đơn, thuốc không kê đơn và sản phẩm bổ sung để tránh tự bỏ thuốc quan trọng hoặc sử dụng thành phần trùng lặp. Với thuốc cần chuyển đổi trước thai kỳ, thời điểm và cách thực hiện phải do người có chuyên môn hướng dẫn.",
+            "Bạn cũng có thể hỏi về tiêm chủng, xét nghiệm cần thiết theo tiền sử và bối cảnh địa phương, công việc có phơi nhiễm nguy cơ, sử dụng rượu hoặc thuốc lá, giấc ngủ và sức khỏe tinh thần. Không phải ai cũng cần cùng một danh mục xét nghiệm. Nếu được chỉ định xét nghiệm, hãy hỏi mục đích và việc kết quả có thể thay đổi kế hoạch chăm sóc như thế nào."
+          ]
+        },
+        {
+          "heading": "Sau buổi khám: chuyển lời khuyên thành kế hoạch",
+          "paragraphs": [
+            "Trước khi rời phòng khám, có thể nhắc lại ba điều mình đã hiểu: việc nào cần bắt đầu ngay, việc nào cần hỏi thêm và khi nào nên tái khám. Ghi tên thuốc hoặc sản phẩm được khuyến nghị bằng đúng đơn vị, không ghi mơ hồ kiểu 'uống vitamin mỗi ngày'. Nếu chưa rõ cách thực hiện, đề nghị nhân viên y tế viết hoặc giải thích lại.",
+            "Ở nhà, bạn và người đồng hành có thể trao đổi về giờ làm việc, tài chính, việc nhà và nguồn hỗ trợ khi một người cần nghỉ ngơi hoặc đi khám. Những cuộc trò chuyện này không phải hướng dẫn y khoa nhưng giúp kế hoạch thai kỳ bớt áp lực. Khi hoàn cảnh thay đổi, hãy cập nhật kế hoạch thay vì cố tuân thủ một bảng mục tiêu cứng."
+          ]
+        },
+        {
+          "heading": "Hai tình huống để hình dung",
+          "paragraphs": [
+            "Một người đang uống thuốc điều trị bệnh mạn tính muốn có thai trong vài tháng. Người đó nên mang đơn thuốc tới bác sĩ đang điều trị và trao đổi kế hoạch trước khi thay đổi thuốc. Việc tự ngừng thuốc vì sợ ảnh hưởng thai có thể gây hại cho chính người mẹ. Câu hỏi đúng là 'điều trị thế nào để phù hợp với kế hoạch mang thai?', không phải 'bỏ hết thuốc được không?'.",
+            "Một cặp đôi khác chưa có bệnh lý đã biết nhưng mỗi người có rất nhiều lời khuyên khác nhau từ người thân. Họ ghi lại những điều chưa rõ, chọn nguồn y tế đáng tin cậy và mang câu hỏi tới buổi tư vấn. Sau đó họ phân công một người lưu lịch hẹn, người kia lo phương án di chuyển; các quyết định y khoa vẫn thuộc nhân viên y tế và người được chăm sóc."
+          ]
+        },
+        {
+          "heading": "FAQ và dấu hiệu cần hỗ trợ chuyên môn",
+          "paragraphs": [
+            "Phải làm mọi xét nghiệm tiền thai hay không? Không có một danh mục áp dụng cho tất cả; việc chỉ định phụ thuộc tiền sử và hướng dẫn hiện hành. Đang dùng thuốc điều trị thì có thể tự dừng trước khi thụ thai? Không. Cần báo sớm cho người kê đơn để xem xét lựa chọn an toàn và kế hoạch theo dõi. Có nên giấu tiền sử vì ngại? Chia sẻ thông tin chính xác giúp bác sĩ tư vấn phù hợp hơn.",
+            "Nếu từng có thai bị biến chứng, có bệnh lý phức tạp hoặc lo lắng liên tục về khả năng mang thai, hãy xin tư vấn chuyên môn thích hợp. Nội dung ở đây là bộ câu hỏi chuẩn bị, không tự chẩn đoán vô sinh, không hướng dẫn dùng thuốc và không thay thế lịch theo dõi cụ thể tại Việt Nam."
           ]
         },
         {
@@ -941,7 +983,7 @@
       "stage": "nhu-nhi",
       "title": "Chơi và tương tác cùng bé 4–12 tháng",
       "summary": "Những khoảnh khắc ngắn cũng có ý nghĩa với gắn kết.",
-      "readMinutes": 3,
+      "readMinutes": 6,
       "order": 13,
       "status": "draft",
       "lastReviewed": null,
@@ -963,6 +1005,48 @@
           "heading": "Gợi ý thực hành",
           "paragraphs": [
             "Nói chuyện, hát theo cách của gia đình và để bé quan sát đồ vật phù hợp độ tuổi trong môi trường an toàn, có người giám sát."
+          ]
+        },
+        {
+          "heading": "Tại sao những khoảnh khắc ngắn lại hữu ích?",
+          "paragraphs": [
+            "Trong năm đầu đời, trẻ học rất nhiều thông qua việc nhìn khuôn mặt, nghe giọng nói và cảm nhận người chăm sóc đáp lại tín hiệu của mình. Không nhất thiết phải mua nhiều đồ chơi hoặc tổ chức hoạt động phức tạp: việc người lớn mỉm cười, gọi tên đồ vật và chờ bé phản hồi đã là một cơ hội tương tác có ý nghĩa.",
+            "WHO nhấn mạnh chăm sóc đáp ứng và cơ hội học tập sớm là thành phần của môi trường nuôi dưỡng tích cực. Tuy vậy, không nên xem mọi lần chơi là bài huấn luyện bắt buộc. Nếu bé mệt, đói, quá tải hoặc muốn nghỉ, hãy tôn trọng tín hiệu và quay lại khi bé thoải mái hơn."
+          ]
+        },
+        {
+          "heading": "Trò chuyện qua lại với trẻ 4–6 tháng",
+          "paragraphs": [
+            "Người chăm có thể ngồi ở khoảng cách bé dễ quan sát, nói chậm và chờ vài giây để bé nhìn, cười hoặc phát ra âm thanh. Khi bé ê a, người lớn đáp lại như đang trò chuyện. Đây là hình thức tương tác qua lại, không đòi hỏi bé phải phát âm chính xác hoặc liên tục phản ứng theo yêu cầu.",
+            "Trong lúc thay tã, mặc quần áo hoặc bế đi quanh nhà, hãy gọi tên hành động đang diễn ra và những đồ vật an toàn. Những câu nói ngắn, rõ ràng có thể được lặp lại tự nhiên. Nếu bé quay mặt đi, khóc hoặc tỏ vẻ mệt, kết thúc và cho bé nghỉ; không ép luyện tập để đạt mốc phát triển."
+          ]
+        },
+        {
+          "heading": "Khám phá bằng tay và mắt ở giai đoạn 6–9 tháng",
+          "paragraphs": [
+            "Khi trẻ tăng khả năng quan sát và đưa tay với đồ vật, người chăm có thể chọn đồ chơi an toàn, dễ làm sạch, phù hợp độ tuổi và không có chi tiết nhỏ dễ rời. Đặt vài món trong tầm với, để bé tự khám phá rồi nói tên màu sắc hoặc cảm giác. Luôn quan sát trực tiếp vì trẻ thường đưa vật vào miệng.",
+            "Không cần đưa tất cả đồ chơi cùng một lúc. Một không gian đơn giản, an toàn giúp người chăm dễ quan sát hơn; việc thay đổi vị trí một món quen thuộc cũng có thể tạo sự chú ý. Nếu bé chưa làm được kỹ năng như trẻ khác, hãy ghi nhận toàn bộ quá trình phát triển và trao đổi với nhân viên y tế thay vì tự gắn nhãn chậm."
+          ]
+        },
+        {
+          "heading": "Bắt đầu tương tác hai chiều 9–12 tháng",
+          "paragraphs": [
+            "Khi bé thể hiện nhiều ý muốn hơn, người lớn có thể dùng trò chơi tìm đồ vật, cùng lật sách tranh bìa cứng hoặc bắt chước hành động phù hợp. Ví dụ che một món đồ chơi bằng khăn mỏng ngoài tầm mặt bé rồi khuyến khích bé tìm, nhưng không để khăn hoặc vật mềm trong chỗ ngủ. Luôn chọn trò an toàn theo khả năng vận động hiện có.",
+            "Quan sát nét mặt và âm thanh của bé để quyết định lúc nào tiếp tục hay dừng. Việc 'chơi đúng' không được đo bằng số phút, số món đồ chơi hay khả năng bé đạt cột mốc sớm. Trải nghiệm được đáp lại và cảm giác an toàn trong tương tác mới là mục tiêu của người chăm."
+          ]
+        },
+        {
+          "heading": "Mốc phát triển giúp nhận biết khi nào nên hỏi",
+          "paragraphs": [
+            "CDC có các checklist mốc phát triển để gia đình quan sát trẻ ở những độ tuổi cụ thể, ví dụ sáu tháng và một tuổi. Chúng không phải công cụ chẩn đoán và không thay thế sàng lọc phát triển chuẩn hóa. Dùng checklist để ghi câu hỏi và chia sẻ với bác sĩ, không dùng để thi đua hay đánh giá cha mẹ.",
+            "Nếu bé mất kỹ năng từng có, hoặc người chăm lo lắng về giao tiếp, vận động, tương tác hay nghe nhìn, nên trao đổi với nhân viên y tế để được đánh giá. Với trẻ sinh non hoặc có tình trạng sức khỏe đặc biệt, cách diễn giải mốc có thể khác và cần cá thể hóa."
+          ]
+        },
+        {
+          "heading": "Một buổi chơi thực tế và câu hỏi FAQ",
+          "paragraphs": [
+            "Ví dụ, khi bé tỉnh táo sau một lần nghỉ, người chăm trải thảm trên mặt sàn an toàn, lấy hai món đồ phù hợp và trò chuyện trong vài phút. Bé quan tâm món nào thì tập trung vào món đó; nếu bé quay đi hoặc quấy khóc, kết thúc. Trong ngày, những khoảnh khắc trò chuyện ngắn khi thay tã hay ăn uống cũng là tương tác, không cần thêm lịch luyện tập dày đặc.",
+            "Bé không hứng thú với đồ chơi mới có đáng lo không? Một phản ứng đơn lẻ không đủ để kết luận; hãy xem bối cảnh và sự phát triển chung. Có nên cho bé xem video học nói thay vì trò chuyện trực tiếp? Tương tác trực tiếp với người chăm có giá trị riêng; hãy hỏi bác sĩ về khuyến nghị màn hình theo độ tuổi và điều kiện của gia đình."
           ]
         },
         {
@@ -3578,7 +3662,7 @@
       "stage": "nhu-nhi",
       "title": "Ăn dặm từ khoảng 6 tháng: bắt đầu thế nào?",
       "summary": "Nhận biết sự sẵn sàng, chọn thức ăn và tiếp tục sữa mẹ/sữa phù hợp.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 49,
       "status": "draft",
       "lastReviewed": null,
@@ -3600,6 +3684,48 @@
           "paragraphs": [
             "Cho bé ngồi thẳng và luôn có người lớn quan sát. Bắt đầu lượng nhỏ và kết cấu phù hợp, đa dạng nhóm thực phẩm, chú ý nguồn sắt và bữa ăn không ép. Tiếp tục nguồn sữa phù hợp tuổi; nếu có tiền sử dị ứng nặng, sinh non hoặc nuốt khó, hãy hỏi bác sĩ trước khi thay đổi.",
             "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Vì sao mốc khoảng sáu tháng được nhắc đến?",
+          "paragraphs": [
+            "WHO cho biết khoảng sáu tháng, nhu cầu năng lượng và dinh dưỡng của trẻ bắt đầu vượt quá những gì sữa mẹ đơn thuần đáp ứng; thực phẩm bổ sung vì vậy có vai trò ngày càng quan trọng. Mốc này không có nghĩa đúng ngày tròn sáu tháng là trẻ phải ăn được cả bát, cũng không có nghĩa nên ngừng bú khi bắt đầu ăn dặm.",
+            "Ăn dặm là quá trình trẻ học tiếp xúc với mùi vị, kết cấu và bữa ăn gia đình theo khả năng phát triển. Lượng ăn ban đầu có thể rất ít và tăng dần; tốc độ của mỗi bé khác nhau. Trẻ sinh non, chậm phát triển, có khó khăn về nuốt hoặc bệnh lý cần được tư vấn phù hợp hơn là tự áp dụng kế hoạch của một bé khác."
+          ]
+        },
+        {
+          "heading": "Dấu hiệu trẻ sẵn sàng làm quen thực phẩm",
+          "paragraphs": [
+            "NHS nêu ba dấu hiệu nên xuất hiện cùng nhau vào khoảng sáu tháng: bé có thể duy trì tư thế ngồi và giữ đầu ổn định; phối hợp mắt, tay và miệng để nhìn, cầm và đưa thức ăn vào miệng; có thể nuốt thức ăn thay vì liên tục đẩy ra ngoài. Những tín hiệu đơn lẻ như mút tay, thức đêm hay nhìn người lớn ăn không đủ để kết luận trẻ đã sẵn sàng.",
+            "Nếu bé chưa đáp ứng các dấu hiệu hoặc có tiền sử nuốt khó, sinh non, bệnh nền, hãy trao đổi với người theo dõi sức khỏe trẻ. Việc sẵn sàng ăn bổ sung là vấn đề phối hợp giữa tuổi, kỹ năng và sức khỏe; không phải cuộc đua giữa các em bé hay một bài kiểm tra cha mẹ."
+          ]
+        },
+        {
+          "heading": "Bữa đầu tiên nên diễn ra như thế nào?",
+          "paragraphs": [
+            "Chọn thời điểm bé tỉnh táo, có người lớn theo dõi và không quá đói hoặc quá mệt. Đặt bé ngồi thẳng trong ghế phù hợp, tránh cho ăn khi đang nằm hoặc di chuyển. Chế biến món có kết cấu an toàn theo khả năng của bé, bắt đầu bằng lượng nhỏ và cho bé cơ hội nhìn, chạm, nếm mà không ép nuốt.",
+            "Một bữa ăn đầu tiên có thể kết thúc rất nhanh. Điều cần quan sát không chỉ là số thìa mà còn là sự thoải mái của bé, khả năng phối hợp đưa thức ăn vào miệng và cách bé phản ứng với kết cấu. Khi bé quay đầu, khép miệng hoặc thể hiện đã đủ, đừng cố đút thêm để đạt chỉ tiêu do người lớn đặt ra."
+          ]
+        },
+        {
+          "heading": "Chất lượng dinh dưỡng và vai trò của sữa",
+          "paragraphs": [
+            "Trong những tháng đầu ăn bổ sung, sữa mẹ hoặc sữa công thức phù hợp vẫn giữ vai trò quan trọng. Thức ăn dặm bổ sung các nhóm dinh dưỡng, đặc biệt chú ý thực phẩm giàu sắt và đa dạng thực phẩm theo hướng dẫn chuyên môn. Không nên chỉ cho ăn một loại bột kéo dài hoặc dựa vào khẩu phần của trẻ lớn để áp dụng cho bé.",
+            "Có thể thay đổi dần kết cấu, độ đa dạng và cách tự khám phá khi trẻ phát triển kỹ năng nhai, nuốt. Các vấn đề dị ứng, chế độ ăn kiêng của gia đình hoặc nhu cầu vi chất cần được trao đổi riêng khi cần. Tránh dùng đường, muối và sản phẩm không phù hợp lứa tuổi theo khuyến nghị địa phương; đọc kỹ hướng dẫn chuẩn bị và bảo quản thực phẩm."
+          ]
+        },
+        {
+          "heading": "Ví dụ một ngày học ăn mà không gây áp lực",
+          "paragraphs": [
+            "Gia đình chọn một khung thời gian yên tĩnh, chuẩn bị thức ăn mềm phù hợp và dụng cụ sạch. Người chăm cho bé ngồi thẳng, quan sát phản ứng và để bé thử từng ít một. Khi bé tỏ vẻ không muốn tiếp tục, bữa ăn dừng lại; lần sau có thể thử lại, không gắn nhãn 'biếng ăn' chỉ vì một bữa chưa hợp tác.",
+            "Ghi chú ngắn món đã thử, kết cấu và phản ứng có thể hữu ích khi trao đổi với nhân viên y tế, nhưng không cần biến mỗi bữa thành báo cáo chi tiết. Nếu bé có dấu hiệu khó nuốt, nôn nhiều, phản ứng dị ứng hoặc tăng trưởng không như mong đợi, nên đánh giá theo chuyên môn thay vì đổi thực đơn liên tục theo lời mách."
+          ]
+        },
+        {
+          "heading": "FAQ và những điều cần tránh",
+          "paragraphs": [
+            "Có thể cho bé ăn sớm vì đêm hay thức không? Thức đêm không phải dấu hiệu đủ tin cậy để khởi đầu ăn dặm. Có cần ép hết lượng ăn trong bảng mẫu không? Không. Kế hoạch ăn cần phù hợp tín hiệu đói no, phát triển và nhu cầu của bé. Có thể cho trẻ ăn khi đang chơi hoặc ngồi trên xe đang di chuyển không? Không nên vì khó bảo đảm tư thế và giám sát.",
+            "Khi bé khó thở, tím tái hoặc có dấu hiệu nghẹn nặng, cần xử trí cấp cứu ngay theo kỹ năng được đào tạo và gọi hỗ trợ khẩn cấp. Bài viết này giúp chuẩn bị bữa ăn an toàn, không dạy kỹ thuật sơ cứu qua văn bản và không thay thế tư vấn của bác sĩ, chuyên gia dinh dưỡng hoặc hướng dẫn hiện hành tại Việt Nam."
           ]
         },
         {
@@ -3661,7 +3787,7 @@
       "stage": "nhu-nhi",
       "title": "Phòng hóc sặc khi bé bắt đầu ăn dặm",
       "summary": "Tư thế, kết cấu thức ăn và những món cần chuẩn bị an toàn.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 50,
       "status": "draft",
       "lastReviewed": null,
@@ -3683,6 +3809,48 @@
           "paragraphs": [
             "Cắt và chế biến thực phẩm theo khả năng nhai, loại hạt cứng nguyên hạt và thức ăn tròn dễ kẹt đường thở; không cho trẻ ăn khi đang nằm trong xe đẩy hoặc ghế ô tô. Tập nhận biết dấu hiệu khó thở, ngưng tiếng ho và học kỹ năng sơ cứu từ đơn vị đào tạo có chuyên môn.",
             "Thống nhất một thay đổi nhỏ, phù hợp điều kiện nhà mình, sau đó quan sát phản ứng và điều chỉnh. Có thể ghi lại câu hỏi, điều đã thử, điều chưa hiệu quả để trao đổi với giáo viên hoặc nhân viên y tế khi cần. Kết quả của một trẻ không nên dùng làm thước đo cho trẻ khác."
+          ]
+        },
+        {
+          "heading": "Vì sao phòng hóc sặc phải bắt đầu trước bữa ăn?",
+          "paragraphs": [
+            "Trẻ mới ăn dặm đang học phối hợp nhai, đảo thức ăn và nuốt. Một món ăn vốn quen thuộc với người lớn vẫn có thể nguy hiểm nếu quá cứng, trơn, tròn hoặc không phù hợp khả năng của bé. Phòng ngừa gồm chuẩn bị thực phẩm, điều chỉnh tư thế ngồi và giám sát liên tục, không phải chỉ mua một thiết bị 'chống hóc'.",
+            "NHS hướng dẫn chế biến và cắt thực phẩm theo hình dạng, kích thước và độ mềm phù hợp cho từng giai đoạn. Không có quy tắc duy nhất về một kiểu cắt cho mọi món và mọi lứa tuổi. Người chăm cần học cách chuẩn bị từng loại thực phẩm từ tài liệu đáng tin cậy, đặc biệt khi bé bắt đầu tự cầm thức ăn."
+          ]
+        },
+        {
+          "heading": "Tư thế ngồi và môi trường bữa ăn",
+          "paragraphs": [
+            "Luôn cho bé ngồi thẳng trong ghế ăn phù hợp, có người lớn ở gần quan sát. Tránh cho bé vừa ăn vừa bò, chạy, nằm ngửa, cười đùa mạnh hoặc ngồi trên xe đang di chuyển. Không rời mắt để trả lời điện thoại vì tai nạn đường thở có thể diễn ra nhanh, đôi khi rất ít tiếng động.",
+            "Chuẩn bị một khu vực bữa ăn bình tĩnh, hạn chế đồ chơi khiến bé mải chạy hoặc di chuyển trong lúc nhai. Người lớn nên ngồi đối diện, quan sát biểu hiện và để bé có thời gian tự xử lý lượng thức ăn phù hợp. Bữa ăn không cần kéo dài để đạt một con số nếu trẻ đã mệt hoặc không muốn tiếp tục."
+          ]
+        },
+        {
+          "heading": "Những loại thực phẩm cần đặc biệt chú ý",
+          "paragraphs": [
+            "Thực phẩm dạng tròn, cứng hoặc dính có thể kẹt đường thở: ví dụ nho nguyên quả, cà chua bi nguyên quả, hạt cứng nguyên hạt hoặc miếng xúc xích cắt khoanh tròn. Cách xử lý tùy món là nấu cho mềm, nghiền, băm hoặc cắt hình dạng thích hợp theo tài liệu NHS và khả năng của trẻ. Không tự suy ra rằng cứ cắt nhỏ tùy ý là đã an toàn.",
+            "Loại bỏ xương, hạt cứng, phần không ăn được và kiểm tra nhiệt độ trước khi đưa món cho bé. Tránh những món có kết cấu khó nhai hoặc không phù hợp lứa tuổi. Nếu gia đình sử dụng phương pháp ăn dặm tự chỉ huy, nguyên tắc tư thế, lựa chọn thực phẩm an toàn và giám sát vẫn rất quan trọng."
+          ]
+        },
+        {
+          "heading": "Phản xạ ọe khác với tắc nghẽn đường thở",
+          "paragraphs": [
+            "Trong giai đoạn làm quen với kết cấu, trẻ có thể ọe hoặc đẩy thức ăn ra như một phản xạ bảo vệ. Điều này khác với nghẹn gây cản trở đường thở. Theo NHS, người chăm cần học nhận biết dấu hiệu nghẹn, đặc biệt khi trẻ không thể thở, khóc hoặc ho hiệu quả; không được xem im lặng là dấu hiệu trẻ đang xử lý tốt.",
+            "Vì đây là tình huống cấp cứu, gia đình nên học thực hành sơ cứu phù hợp theo độ tuổi từ người hướng dẫn được đào tạo, thay vì ghi nhớ động tác từ ảnh hoặc bài viết trên mạng. Không móc họng mù vì có thể đẩy dị vật sâu hơn. Khi nghi nghẹn nặng, gọi cấp cứu địa phương và thực hiện biện pháp sơ cứu đã được học."
+          ]
+        },
+        {
+          "heading": "Một buổi ăn thử theo nguyên tắc an toàn",
+          "paragraphs": [
+            "Trước bữa, người chăm rửa tay, chuẩn bị dụng cụ sạch và kiểm tra thức ăn theo kết cấu phù hợp với bé. Đặt ghế trên mặt bằng vững, chỉnh tư thế ngồi thẳng và dọn những thứ gây xao nhãng. Khi cho bé ăn, người lớn không tranh thủ làm việc khác, chú ý cách bé nhai nuốt và dừng khi xuất hiện dấu hiệu bất thường.",
+            "Sau bữa, gia đình có thể ghi lại món bé thấy khó xử lý, cách đã chế biến và những câu hỏi để mang đến cuộc khám tiếp theo. Nếu bé thường xuyên ho sặc, nôn khi nuốt, bỏ ăn vì khó chịu hoặc có dấu hiệu khó nuốt, nên được đánh giá chuyên môn; không tự chẩn đoán chỉ là bé 'chưa quen ăn'."
+          ]
+        },
+        {
+          "heading": "Câu hỏi thường gặp",
+          "paragraphs": [
+            "Bé hay ọe có phải là nghẹn không? Không thể kết luận chỉ từ một biểu hiện; cần hiểu khác biệt và theo dõi khả năng hô hấp. Có nên cho ăn trên xe đẩy? Không nên dùng tư thế nằm ngả hay cho ăn khi đang di chuyển như cách thay thế ghế ăn phù hợp. Có cần mua dụng cụ hút dị vật quảng cáo trên mạng? Không nên coi các sản phẩm đó thay thế việc phòng ngừa và học sơ cứu chuẩn.",
+            "Nếu trẻ không thở bình thường, không thể khóc hoặc ho hiệu quả, chuyển màu tím tái hay mất đáp ứng, đây là tình huống khẩn cấp cần gọi hỗ trợ ngay. Thông tin ở đây nhằm giảm nguy cơ trong các bữa ăn, không phải chỉ dẫn sơ cứu đầy đủ hay tư vấn y khoa cá nhân."
           ]
         },
         {
