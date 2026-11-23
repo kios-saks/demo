@@ -25,7 +25,7 @@ await check("/search",404);
 await check("/",200,"Hành Trình");
 await check("/so-sinh",200,"Trẻ sơ sinh");
 await check("/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh",404);
-await check("/tim-kiem?q=thay",200,"Tìm điều");
+await check("/tim-kiem?q=thay",200,"Hôm nay bạn muốn tìm hiểu");
 await check("/robots.txt",200,"/bai-viet/");
 await check("/sitemap.xml",200,"/so-sinh");
 await check("/nguon-tham-khao",200,"WHO");
