@@ -4,7 +4,7 @@ export interface ArticleSource {name:string;url:string}
 export interface ArticleSection {heading:string;paragraphs:string[]}
 export type EditorialStatus="draft"|"in_review"|"published"|"archived";
 export interface ArticleMediaAsset {src:string;alt:string;caption:string;credit:string;license:"original";sourceUrl?:string}
-export interface ArticleMedia {cover?:ArticleMediaAsset;inline?:Array<ArticleMediaAsset&{afterSection:number}>;highlights?:string[]}
+export interface ArticleMedia {cover?:ArticleMediaAsset;inline?:Array<ArticleMediaAsset&{afterSection:number;points?:string[]}>;highlights?:string[]}
 export interface Article {slug:string;stage:string;title:string;summary:string;readMinutes:number;order:number;status:EditorialStatus;lastReviewed:string|null;tags:string[];sections:ArticleSection[];sources:ArticleSource[];media?:ArticleMedia}
 export type ArticleSummary=Omit<Article,"sections"|"sources">;
 export interface Topic {id:string;slug:string;title:string;stageSlugs:string[];order:number;editorialStatus:EditorialStatus}
