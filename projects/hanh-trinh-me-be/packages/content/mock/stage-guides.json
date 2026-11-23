@@ -1,0 +1,607 @@
+{
+  "version": "2026-11-23",
+  "editorialStatus": "draft",
+  "notice": "Nội dung tham khảo biên tập độc lập. Nguồn ngoài là nguồn đọc thêm, không phải bảo chứng nội dung. Không dùng để tự chẩn đoán hay điều trị.",
+  "guides": [
+    {
+      "slug": "chuan-bi-mang-thai",
+      "headline": "Chuẩn bị trước khi có em bé",
+      "overview": "Bắt đầu từ sức khỏe của cả hai người, các thói quen trong gia đình và những điều cần trao đổi trước thai kỳ. Không có một danh sách chuẩn cho tất cả; hãy ưu tiên những việc giúp buổi tư vấn tiền thai thực tế và phù hợp hoàn cảnh của bạn.",
+      "focus": [
+        [
+          "Sức khỏe tiền thai",
+          "Mang danh sách bệnh sử, thuốc, thực phẩm bổ sung và những điều còn băn khoăn tới cuộc hẹn chuyên môn."
+        ],
+        [
+          "Kế hoạch gia đình",
+          "Thống nhất kỳ vọng về chăm sóc, tài chính và sự hỗ trợ của người thân."
+        ],
+        [
+          "Dinh dưỡng và sinh hoạt",
+          "Hỏi bác sĩ về các khuyến nghị trước mang thai, gồm axit folic và tiêm chủng phù hợp."
+        ],
+        [
+          "Sức khỏe tinh thần",
+          "Trao đổi về lo lắng, áp lực hoặc các khó khăn kéo dài trước khi có con."
+        ]
+      ],
+      "steps": [
+        "Ghi danh sách thuốc, sản phẩm bổ sung và lịch sử tiêm chủng để mang đi tư vấn.",
+        "Thống nhất với người đồng hành về cách chia việc và người hỗ trợ khi cần.",
+        "Lưu trước ba câu hỏi quan trọng nhất cho cuộc hẹn tiền thai.",
+        "Xác định nơi có thể tiếp cận chăm sóc sức khỏe khi có kế hoạch mang thai."
+      ],
+      "example": "Ví dụ: Trong một cuộc trò chuyện 20 phút, mỗi người viết ra một điều mong đợi, một điều đang lo và một việc cụ thể mình có thể đảm nhận. Sau đó cùng đặt lịch tư vấn để hỏi những nội dung liên quan sức khỏe.",
+      "faqs": [
+        [
+          "Có cần chờ đến khi có thai mới đi khám?",
+          "Có thể chủ động trao đổi về sức khỏe trước khi mang thai, nhất là khi đang điều trị bệnh hoặc dùng thuốc. Không tự thay đổi điều trị."
+        ],
+        [
+          "Những gì nên mang theo khi tư vấn?",
+          "Thông tin bệnh sử, đơn thuốc và sản phẩm bổ sung, lịch tiêm chủng nếu có, kết quả khám cũ và danh sách câu hỏi."
+        ]
+      ],
+      "sources": [
+        [
+          "CDC – Folic Acid Clinical Overview",
+          "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+        ],
+        [
+          "NHS – Antenatal Care and Appointments",
+          "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        ]
+      ]
+    },
+    {
+      "slug": "thai-ky-3-thang-dau",
+      "headline": "Định hướng trong 13 tuần đầu",
+      "overview": "Đầu thai kỳ có nhiều thay đổi về cơ thể, cảm xúc và các cuộc hẹn y tế. Hệ thống nên giúp gia đình chuẩn bị cuộc khám đầu tiên, theo dõi những câu hỏi đang có và hiểu khi nào cần liên hệ cơ sở y tế, thay vì đưa ra một lịch cứng cho mọi thai kỳ.",
+      "focus": [
+        [
+          "Khám thai ban đầu",
+          "Xác nhận kế hoạch theo dõi với cơ sở y tế và ghi chú những xét nghiệm được đề nghị."
+        ],
+        [
+          "Ốm nghén và ăn uống",
+          "Theo dõi khả năng ăn uống và các triệu chứng ảnh hưởng đến sinh hoạt."
+        ],
+        [
+          "Tâm trạng",
+          "Nhận diện điều gây căng thẳng, chia sẻ và chủ động tìm hỗ trợ phù hợp."
+        ],
+        [
+          "Dấu hiệu cần lưu ý",
+          "Lưu hướng dẫn liên hệ khẩn cấp của nơi khám thai để không phải tìm lúc cần."
+        ]
+      ],
+      "steps": [
+        "Chuẩn bị sổ theo dõi các cuộc hẹn, thuốc đang dùng và câu hỏi cho bác sĩ.",
+        "Lưu số liên hệ cơ sở khám thai và người hỗ trợ đưa đi khám.",
+        "Ghi lại thay đổi đáng chú ý về sức khỏe và mức độ ảnh hưởng đến sinh hoạt.",
+        "Trao đổi với nhân viên y tế khi gặp triệu chứng khiến bạn lo lắng, không tự chẩn đoán."
+      ],
+      "example": "Ví dụ: Trước buổi khám, gia đình ghi lại ba thay đổi gần đây, các loại thuốc đang dùng và câu hỏi về lịch khám tiếp theo. Khi về nhà, ghi chú lại hướng dẫn của bác sĩ bằng ngôn ngữ dễ nhớ.",
+      "faqs": [
+        [
+          "Có cần tự áp dụng mọi mốc khám trên Internet?",
+          "Không. Các hướng dẫn tham khảo có thể khác nhau theo quốc gia và tình trạng thai kỳ; lịch thực tế cần do cơ sở theo dõi thai kỳ xác nhận."
+        ],
+        [
+          "Khi nào nên liên hệ nơi khám?",
+          "Khi có dấu hiệu bất thường, đặc biệt những triệu chứng được cơ sở y tế hướng dẫn là cần đánh giá ngay, đừng đợi đến lịch hẹn định kỳ."
+        ]
+      ],
+      "sources": [
+        [
+          "NHS – Antenatal Care and Appointments",
+          "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        ],
+        [
+          "CDC – Urgent Maternal Warning Signs",
+          "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        ]
+      ]
+    },
+    {
+      "slug": "thai-ky-3-thang-giua",
+      "headline": "Theo dõi và kết nối trong 3 tháng giữa",
+      "overview": "Giai đoạn này thường là lúc gia đình bắt đầu quan tâm nhiều hơn đến các mốc kiểm tra, dinh dưỡng, vận động và trải nghiệm thai kỳ. Thay vì so sánh với người khác, hãy ghi lại các câu hỏi riêng và trao đổi theo kế hoạch chăm sóc đã được tư vấn.",
+      "focus": [
+        [
+          "Lịch khám và xét nghiệm",
+          "Ghi mốc theo dõi đã được cơ sở y tế chỉ định và lý do cần kiểm tra."
+        ],
+        [
+          "Dinh dưỡng",
+          "Trao đổi về ăn uống phù hợp với thể trạng và kết quả theo dõi."
+        ],
+        [
+          "Vận động và nghỉ ngơi",
+          "Điều chỉnh hoạt động theo mức độ dễ chịu và hướng dẫn cá nhân."
+        ],
+        [
+          "Gắn kết trong gia đình",
+          "Dành thời gian chia sẻ cảm xúc và chuẩn bị hỗ trợ cho các tháng tiếp theo."
+        ]
+      ],
+      "steps": [
+        "Kiểm tra lại ngày khám, địa điểm và các yêu cầu chuẩn bị trước xét nghiệm.",
+        "Lưu câu hỏi về những kết quả chưa hiểu để hỏi tại cuộc hẹn.",
+        "Sắp xếp việc nhà để người mang thai có thời gian nghỉ ngơi phù hợp.",
+        "Ghi các thay đổi khiến bạn lo lắng và hỏi cơ sở y tế khi cần."
+      ],
+      "example": "Ví dụ: Tạo một ghi chú chung gồm lịch khám, câu hỏi cần trả lời và tên người hỗ trợ trong mỗi buổi hẹn. Không dùng checklist để đánh giá thai kỳ 'tốt' hay 'xấu' khi thiếu dữ liệu chuyên môn.",
+      "faqs": [
+        [
+          "Có nên áp dụng cùng một chế độ vận động cho tất cả mọi người?",
+          "Không. Mức vận động phù hợp phụ thuộc sức khỏe, thai kỳ và khuyến nghị của nhân viên y tế."
+        ],
+        [
+          "Làm thế nào khi đọc kết quả xét nghiệm thấy khó hiểu?",
+          "Ghi đúng tên xét nghiệm và hỏi cơ sở theo dõi để được giải thích trong bối cảnh cá nhân, tránh tự kết luận từ một con số."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO – Antenatal Care Recommendations",
+          "https://www.who.int/news/item/07-11-2016-new-guidelines-on-antenatal-care-for-a-positive-pregnancy-experience/"
+        ],
+        [
+          "NHS – Antenatal Care and Appointments",
+          "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+        ]
+      ]
+    },
+    {
+      "slug": "thai-ky-3-thang-cuoi",
+      "headline": "Chuẩn bị cho sinh và những tuần đầu",
+      "overview": "Ở giai đoạn cuối thai kỳ, những kế hoạch đơn giản nhưng rõ ràng giúp giảm áp lực: người liên hệ, phương án đến cơ sở sinh, hồ sơ y tế và hỗ trợ sau sinh. Kế hoạch cần linh hoạt vì diễn biến sinh nở có thể thay đổi.",
+      "focus": [
+        [
+          "Kế hoạch sinh",
+          "Trao đổi với nơi dự sinh về cách liên hệ, di chuyển và các lựa chọn chăm sóc."
+        ],
+        [
+          "Theo dõi thai",
+          "Làm theo hướng dẫn theo dõi cử động thai và dấu hiệu cần gọi ngay của cơ sở y tế."
+        ],
+        [
+          "Túi đồ và giấy tờ",
+          "Chuẩn bị những thứ thiết yếu theo yêu cầu của nơi sinh."
+        ],
+        [
+          "Hỗ trợ sau sinh",
+          "Phân công người đưa đón, việc nhà, bữa ăn và chăm sóc người mẹ."
+        ]
+      ],
+      "steps": [
+        "Lưu số bệnh viện, lối vào khoa sản và phương án di chuyển dự phòng.",
+        "Soạn hồ sơ khám thai, giấy tờ và danh sách vật dụng thiết yếu.",
+        "Trao đổi về hướng dẫn liên hệ khi có thay đổi cử động thai hoặc triệu chứng bất thường.",
+        "Sắp xếp người hỗ trợ các công việc gia đình trong hai tuần đầu sau sinh."
+      ],
+      "example": "Ví dụ: Dán một tờ giấy ở nơi dễ thấy với số liên hệ y tế, phương án đi viện và tên người có thể hỗ trợ. Kiểm tra lại cùng người đồng hành thay vì để một người phải nhớ tất cả.",
+      "faqs": [
+        [
+          "Có phải kế hoạch sinh phải thực hiện đúng từng bước?",
+          "Không. Đây là phương tiện trao đổi mong muốn, không thay thế quyết định chuyên môn theo tình huống thực tế."
+        ],
+        [
+          "Cần làm gì khi cử động thai giảm hoặc thay đổi rõ?",
+          "Liên hệ ngay cơ sở sản khoa theo hướng dẫn đang theo dõi bạn, thay vì tự chờ đợi hoặc tự kiểm chứng bằng mẹo trên mạng."
+        ]
+      ],
+      "sources": [
+        [
+          "CDC – Urgent Maternal Warning Signs",
+          "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        ],
+        [
+          "WHO – Maternal and Newborn Postnatal Care",
+          "https://www.who.int/publications-detail-redirect/9789240045989"
+        ]
+      ]
+    },
+    {
+      "slug": "hau-san",
+      "headline": "Chăm sóc cả người mẹ và em bé",
+      "overview": "Sau sinh không chỉ là chăm bé. Người mẹ cần được theo dõi phục hồi, hỗ trợ nghỉ ngơi, ăn uống, tinh thần và các cuộc hẹn y tế. Cả nhà có thể phân việc nhỏ, xem lại mỗi ngày và nhận biết những dấu hiệu cần được đánh giá ngay.",
+      "focus": [
+        [
+          "Hồi phục thể chất",
+          "Giữ thông tin xuất viện, hướng dẫn chăm sóc vết thương và lịch tái khám trong tầm tay."
+        ],
+        [
+          "Hỗ trợ nuôi dưỡng bé",
+          "Tìm hỗ trợ chuyên môn khi gặp khó khăn về bú hoặc chăm bé."
+        ],
+        [
+          "Tâm trạng sau sinh",
+          "Hỏi thăm cảm xúc người mẹ và chủ động hỗ trợ khi khó khăn kéo dài."
+        ],
+        [
+          "Phân việc trong gia đình",
+          "Thống nhất những việc ai có thể thay người mẹ đảm nhận."
+        ]
+      ],
+      "steps": [
+        "Lưu hướng dẫn xuất viện, lịch tái khám và số điện thoại cơ sở y tế.",
+        "Tạo lịch hỗ trợ việc nhà và trông bé để người mẹ có khoảng nghỉ.",
+        "Ghi rõ người liên hệ nếu người mẹ hoặc trẻ có dấu hiệu bất thường.",
+        "Nhờ người hỗ trợ chuyên môn khi có khó khăn đáng kể về chăm sóc và nuôi dưỡng."
+      ],
+      "example": "Ví dụ: Gia đình chia việc theo buổi sáng–chiều–tối, có một người phụ trách chuẩn bị bữa ăn và một người lo giặt giũ. Sau vài ngày, cùng xem lịch này có thực tế hay không và thay đổi nếu cần.",
+      "faqs": [
+        [
+          "Cảm xúc thay đổi sau sinh có cần quan tâm không?",
+          "Có. Người mẹ xứng đáng được lắng nghe và hỗ trợ. Khi có khổ sở kéo dài, suy giảm chức năng hoặc ý nghĩ nguy hiểm, cần được trợ giúp chuyên môn kịp thời."
+        ],
+        [
+          "Ai cần biết dấu hiệu cảnh báo sau sinh?",
+          "Cả người mẹ và người chăm sóc bên cạnh nên biết cách liên hệ cấp cứu, vì một số tình huống cần được đánh giá khẩn cấp."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO – Maternal and Newborn Postnatal Care",
+          "https://www.who.int/publications-detail-redirect/9789240045989"
+        ],
+        [
+          "CDC – Urgent Maternal Warning Signs",
+          "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        ]
+      ]
+    },
+    {
+      "slug": "so-sinh",
+      "headline": "Ba tháng đầu đời: an toàn và kết nối",
+      "overview": "Nhịp bú, ngủ và tín hiệu của bé trong những tháng đầu có thể thay đổi rất nhiều. Nội dung DEV tập trung giúp gia đình quan sát và đặt câu hỏi khi khám, hiểu nguyên tắc ngủ an toàn, đồng thời chăm sóc sức khỏe của người đang nuôi bé.",
+      "focus": [
+        [
+          "Giấc ngủ an toàn",
+          "Đặt bé nằm ngửa khi bắt đầu mọi giấc ngủ, trên mặt phẳng chắc, phẳng và không có vật mềm rời."
+        ],
+        [
+          "Nuôi dưỡng",
+          "Trao đổi với chuyên gia khi gặp khó khăn về bú, tăng trưởng hoặc số lượng tã."
+        ],
+        [
+          "Quan sát phát triển",
+          "Theo dõi tương tác và hỏi khi có lo lắng, không dùng một mốc để kết luận."
+        ],
+        [
+          "Hỗ trợ người chăm sóc",
+          "Phân ca phù hợp và tìm người hỗ trợ khi quá mệt hoặc mất ngủ."
+        ]
+      ],
+      "steps": [
+        "Rà soát chỗ ngủ của bé: mặt phẳng chắc, không gối, thú bông hoặc chăn rời.",
+        "Ghi lại câu hỏi về bú, tã và những tín hiệu chưa rõ để hỏi khi khám.",
+        "Lưu thông tin liên hệ bác sĩ và hướng dẫn khi nào cần đưa bé đi khám.",
+        "Nhắc người thân cùng tuân thủ nguyên tắc ngủ an toàn cho mỗi giấc ngủ."
+      ],
+      "example": "Ví dụ: Trước khi bé ngủ, người chăm sóc kiểm tra nhanh bề mặt ngủ, tư thế đặt bé, các vật dụng trong cũi và điều kiện quan sát. Khi người khác trông bé, chia sẻ lại cùng một nguyên tắc.",
+      "faqs": [
+        [
+          "Có nên dùng gối hoặc đồ mềm để bé ngủ dễ hơn?",
+          "Các hướng dẫn ngủ an toàn của CDC khuyến nghị không để vật mềm, chăn rời, gối hay thú bông trong không gian ngủ của trẻ sơ sinh."
+        ],
+        [
+          "Có nên dùng mốc phát triển để so sánh bé với trẻ khác?",
+          "Không. Mốc phát triển giúp quan sát và biết khi nào nên hỏi chuyên gia, không phải thang xếp hạng trẻ."
+        ]
+      ],
+      "sources": [
+        [
+          "CDC – Safe Sleep",
+          "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+        ],
+        [
+          "CDC – Developmental Milestones",
+          "https://www.cdc.gov/act-early/milestones/index.html"
+        ]
+      ]
+    },
+    {
+      "slug": "nhu-nhi",
+      "headline": "4–12 tháng: tương tác, dinh dưỡng, an toàn",
+      "overview": "Bé bắt đầu tương tác và khám phá nhiều hơn, còn gia đình cần cân bằng giữa việc quan sát các thay đổi và không tạo áp lực thành tích. Giai đoạn này cũng có những câu hỏi thực tế về ăn dặm, nguy cơ hóc sặc và giấc ngủ.",
+      "focus": [
+        [
+          "Ăn bổ sung",
+          "Tìm hiểu việc bắt đầu ăn bổ sung từ khoảng 6 tháng và cách chuẩn bị món phù hợp."
+        ],
+        [
+          "An toàn khi ăn",
+          "Chú ý tư thế ngồi, kết cấu thức ăn và giám sát liên tục."
+        ],
+        [
+          "Chơi và vận động",
+          "Tạo không gian tương tác, nói chuyện và chơi phù hợp với bé."
+        ],
+        [
+          "Mốc phát triển",
+          "Dùng checklist quan sát để trao đổi với chuyên gia khi có lo lắng."
+        ]
+      ],
+      "steps": [
+        "Đọc hướng dẫn dinh dưỡng phù hợp với lứa tuổi và điều kiện của bé.",
+        "Kiểm tra đồ ăn và môi trường bữa ăn để hạn chế nguy cơ hóc sặc.",
+        "Dành những khoảng ngắn chơi trực tiếp, nói chuyện và quan sát phản hồi của bé.",
+        "Ghi câu hỏi về phát triển để trao đổi trong lịch khám của trẻ."
+      ],
+      "example": "Ví dụ: Trong một buổi chơi, người chăm sóc ngồi đối diện bé, gọi tên đồ vật an toàn và chờ bé phản hồi. Không cần luyện bé đạt một kỹ năng cụ thể theo giờ cố định.",
+      "faqs": [
+        [
+          "Khi nào nên trao đổi về ăn dặm?",
+          "WHO nêu mốc khoảng 6 tháng để bắt đầu thực phẩm bổ sung; thời điểm và cách thực hiện cần phù hợp với trẻ và hướng dẫn y tế."
+        ],
+        [
+          "Checklist phát triển có dùng để chẩn đoán không?",
+          "Không. Đây là tài nguyên hỗ trợ quan sát và trao đổi, không thay thế đánh giá phát triển chuyên môn."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO – Infant and Young Child Feeding",
+          "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+        ],
+        [
+          "CDC – Developmental Milestones",
+          "https://www.cdc.gov/act-early/milestones/index.html"
+        ]
+      ]
+    },
+    {
+      "slug": "tap-di",
+      "headline": "1–3 tuổi: khám phá và thể hiện bản thân",
+      "overview": "Trẻ nhỏ học cách nói, di chuyển, thể hiện mong muốn và đối mặt với những cảm xúc mạnh. Gia đình có thể giúp bằng ngôn ngữ rõ ràng, thói quen ổn định và môi trường an toàn, thay vì kỳ vọng trẻ luôn hợp tác.",
+      "focus": [
+        [
+          "Giao tiếp",
+          "Đặt tên cho hành động và đồ vật, lắng nghe và chờ trẻ phản hồi."
+        ],
+        [
+          "Cảm xúc và giới hạn",
+          "Nói ngắn gọn, bình tĩnh, nhất quán; không dùng bạo lực."
+        ],
+        [
+          "An toàn trong nhà",
+          "Đánh giá cầu thang, cửa sổ, vật nhỏ, ổ điện, thuốc và chất tẩy rửa."
+        ],
+        [
+          "Chơi chủ động",
+          "Khuyến khích trẻ trải nghiệm theo điều kiện an toàn và phù hợp lứa tuổi."
+        ]
+      ],
+      "steps": [
+        "Quan sát các nguy cơ trong tầm với của trẻ và điều chỉnh không gian.",
+        "Chuẩn bị hai lựa chọn nhỏ phù hợp khi trẻ muốn tự quyết.",
+        "Đọc sách tranh và nói chuyện về đồ vật trong sinh hoạt hằng ngày.",
+        "Ghi lại điều khiến gia đình lo lắng về giao tiếp hoặc phát triển để hỏi người có chuyên môn."
+      ],
+      "example": "Ví dụ: Thay vì nói 'đừng nghịch nữa', hãy nói rõ 'đồ này của người lớn, con chọn xếp khối hoặc xem sách nhé'. Người lớn cần giữ giới hạn và làm mẫu trong cách nói.",
+      "faqs": [
+        [
+          "Trẻ nói 'không' có luôn là biểu hiện bất thường không?",
+          "Không nên kết luận chỉ từ một hành vi đơn lẻ. Cách trẻ thể hiện mong muốn thay đổi theo giai đoạn và bối cảnh."
+        ],
+        [
+          "Nếu trẻ chậm một kỹ năng so với bạn khác?",
+          "Quan sát nhiều mặt, ghi lại lo lắng và trao đổi với nhân viên y tế thay vì tự gắn nhãn hoặc thúc ép."
+        ]
+      ],
+      "sources": [
+        [
+          "CDC – Developmental Milestones",
+          "https://www.cdc.gov/act-early/milestones/index.html"
+        ],
+        [
+          "UNICEF – Parenting Hub",
+          "https://www.unicef.org/vietnam/parenting-hub"
+        ]
+      ]
+    },
+    {
+      "slug": "mam-non",
+      "headline": "3–6 tuổi: học thông qua chơi và kết nối",
+      "overview": "Trẻ mầm non phát triển ngôn ngữ, tưởng tượng, quan hệ bạn bè và khả năng tự lập từng bước. Thay vì dồn trọng tâm vào chữ số và bài tập, gia đình có thể tạo môi trường chơi, trò chuyện và chuẩn bị nhẹ nhàng cho trường lớp.",
+      "focus": [
+        [
+          "Học qua chơi",
+          "Khuyến khích trò chơi tưởng tượng, kể chuyện, khám phá vật liệu an toàn."
+        ],
+        [
+          "Bắt đầu đi học",
+          "Chuẩn bị thói quen đón trả, lời chào và người trẻ có thể tìm đến khi cần."
+        ],
+        [
+          "Kỹ năng xã hội",
+          "Luyện chia sẻ, chờ lượt và diễn đạt cảm xúc bằng ví dụ hằng ngày."
+        ],
+        [
+          "Kỷ luật tích cực",
+          "Làm rõ giới hạn mà không đánh mắng hoặc làm trẻ xấu hổ."
+        ]
+      ],
+      "steps": [
+        "Chọn một trò chơi đơn giản cho cả nhà cùng tham gia mỗi ngày.",
+        "Cho trẻ tập kể lại một sự việc bằng lời của mình.",
+        "Cùng trẻ chuẩn bị đồ cá nhân và thói quen trước ngày đến trường.",
+        "Trao đổi với giáo viên về khó khăn cụ thể thay vì chỉ hỏi kết quả học tập."
+      ],
+      "example": "Ví dụ: Khi trẻ đóng vai cửa hàng, người lớn có thể hỏi 'món này có giá bao nhiêu?' và 'con sẽ làm gì nếu khách đổi ý?'. Trò chơi tạo cơ hội dùng ngôn ngữ mà không biến thành bài kiểm tra.",
+      "faqs": [
+        [
+          "Có bắt buộc phải có đồ chơi đắt tiền?",
+          "Không. Các trò chơi với đồ dùng an toàn, sách tranh và tưởng tượng cũng tạo nhiều cơ hội tương tác."
+        ],
+        [
+          "Khi trẻ bối rối trong tuần đầu đi học?",
+          "Ghi nhận cảm xúc, duy trì trao đổi với giáo viên và điều chỉnh kế hoạch phù hợp hoàn cảnh gia đình."
+        ]
+      ],
+      "sources": [
+        [
+          "UNICEF – Learning Through Play",
+          "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+        ],
+        [
+          "CDC – Developmental Milestones",
+          "https://www.cdc.gov/act-early/milestones/index.html"
+        ]
+      ]
+    },
+    {
+      "slug": "tieu-hoc",
+      "headline": "6–11 tuổi: học tập, bạn bè và thói quen",
+      "overview": "Đời sống tiểu học mở rộng ra ngoài gia đình. Cha mẹ cần quan tâm đến trải nghiệm ở trường, giấc ngủ, vận động, tình bạn và khả năng tìm kiếm hỗ trợ, không chỉ xem kết quả qua bảng điểm.",
+      "focus": [
+        [
+          "Nếp sinh hoạt",
+          "Lên giờ ngủ, bữa ăn, học, chơi và nghỉ ngơi theo nhu cầu gia đình."
+        ],
+        [
+          "Thói quen học tập",
+          "Chia việc thành bước nhỏ và ghi nhận nỗ lực thay vì so sánh điểm số."
+        ],
+        [
+          "An toàn ở trường",
+          "Tạo kênh trò chuyện để trẻ kể khi bị làm phiền hoặc bắt nạt."
+        ],
+        [
+          "Vận động",
+          "Khuyến khích hoạt động thể chất phù hợp và những khoảng nghỉ khỏi màn hình."
+        ]
+      ],
+      "steps": [
+        "Thiết lập một thời điểm ngắn để hỏi trẻ về ngày ở trường.",
+        "Cùng con chọn một mục tiêu học tập vừa sức trong tuần.",
+        "Lưu tên giáo viên hoặc người lớn tin cậy mà trẻ có thể tìm đến.",
+        "Đánh giá cân bằng giữa học, ngủ, vận động và thời gian kết nối gia đình."
+      ],
+      "example": "Ví dụ: Thay vì hỏi 'hôm nay được mấy điểm?', hãy hỏi 'điều gì làm con thấy vui hoặc khó ở trường?'. Sau đó cùng con thống nhất một việc nhỏ sẽ thử vào ngày mai.",
+      "faqs": [
+        [
+          "Điểm số có phản ánh toàn bộ tiến bộ của trẻ không?",
+          "Không. Quan sát kỹ năng, sự tự tin, mối quan hệ và nỗ lực là những phần quan trọng khác của trải nghiệm học tập."
+        ],
+        [
+          "Khi nghi ngờ con bị bắt nạt nên làm gì?",
+          "Lắng nghe, ghi nhận sự việc, bảo đảm an toàn và phối hợp với nhà trường; không đổ lỗi cho trẻ."
+        ]
+      ],
+      "sources": [
+        [
+          "UNICEF – Positive Parenting Tips",
+          "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+        ],
+        [
+          "WHO – Physical Activity",
+          "https://www.who.int/initiatives/behealthy/physical-activity"
+        ]
+      ]
+    },
+    {
+      "slug": "thieu-nien",
+      "headline": "12–17 tuổi: tôn trọng, đối thoại, an toàn",
+      "overview": "Tuổi thiếu niên cần sự cân bằng giữa quyền riêng tư, khả năng tự quyết và sự hiện diện hỗ trợ của người lớn. Nội dung tập trung vào giao tiếp, thay đổi dậy thì, sức khỏe tinh thần và những rủi ro trên không gian số.",
+      "focus": [
+        [
+          "Giao tiếp hai chiều",
+          "Lắng nghe khi con muốn chia sẻ và tôn trọng khoảng riêng khi con chưa sẵn sàng."
+        ],
+        [
+          "Dậy thì và ranh giới",
+          "Trao đổi bằng từ ngữ đúng, không xấu hổ, coi trọng sự đồng ý và an toàn."
+        ],
+        [
+          "Sức khỏe tinh thần",
+          "Quan sát thay đổi kéo dài và tạo lối tìm kiếm hỗ trợ."
+        ],
+        [
+          "An toàn số",
+          "Cùng con thống nhất quyền riêng tư, cách báo cáo bắt nạt và kênh trợ giúp."
+        ]
+      ],
+      "steps": [
+        "Chọn thời điểm nói chuyện khi cả hai bên đều thoải mái, không ép buộc.",
+        "Hỏi con muốn người lớn hỗ trợ hay chỉ lắng nghe trong một vấn đề cụ thể.",
+        "Rà soát cài đặt quyền riêng tư và các thông tin đang chia sẻ online.",
+        "Lưu các kênh hỗ trợ từ nhà trường hoặc chuyên gia khi có vấn đề về an toàn hoặc tâm lý."
+      ],
+      "example": "Ví dụ: Trước khi góp ý về một mối quan hệ bạn bè, cha mẹ hỏi 'con muốn mình nghe hay cùng nghĩ cách giải quyết?'. Tôn trọng câu trả lời nhưng vẫn can thiệp khi có nguy cơ an toàn thực sự.",
+      "faqs": [
+        [
+          "Có nên đọc tin nhắn của con để bảo vệ con?",
+          "Quyền riêng tư cần được tôn trọng và thảo luận, đồng thời gia đình nên thống nhất cách hỗ trợ khi xuất hiện nguy cơ an toàn."
+        ],
+        [
+          "Nếu con không muốn nói chuyện thì sao?",
+          "Có thể để lại lời mời trò chuyện không gây áp lực, bảo đảm con biết người lớn nào đáng tin cậy để tìm khi cần."
+        ]
+      ],
+      "sources": [
+        [
+          "UNICEF – Communicating With Your Teen",
+          "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        ],
+        [
+          "UNICEF Viet Nam – Digital Parenting",
+          "https://www.unicef.org/vietnam/digital-parenting"
+        ]
+      ]
+    },
+    {
+      "slug": "truong-thanh",
+      "headline": "Từ 18 tuổi: tự lập và giữ kết nối",
+      "overview": "Khi con bắt đầu trưởng thành, vai trò gia đình thay đổi từ quản lý sang đồng hành và tôn trọng. Các cuộc trao đổi về tài chính, chăm sóc sức khỏe, trách nhiệm, quyền riêng tư và liên lạc giúp cả hai bên xây dựng quan hệ rõ ràng.",
+      "focus": [
+        [
+          "Kỹ năng tự lập",
+          "Tự tổ chức giấy tờ, lịch hẹn, sinh hoạt và quản lý các nghĩa vụ cơ bản."
+        ],
+        [
+          "Tài chính cá nhân",
+          "Thảo luận về ngân sách, ưu tiên chi tiêu và các khoản dự phòng."
+        ],
+        [
+          "Ranh giới",
+          "Thống nhất vấn đề nào cần xin phép hoặc trao đổi trước."
+        ],
+        [
+          "Giữ liên lạc",
+          "Xác định cách hỗ trợ lẫn nhau mà không kiểm soát mọi quyết định."
+        ]
+      ],
+      "steps": [
+        "Lập một danh sách những việc người trưởng thành tự chịu trách nhiệm.",
+        "Trao đổi về chi tiêu và hỗ trợ tài chính trên cơ sở rõ ràng, tự nguyện.",
+        "Thống nhất lịch hoặc cách liên lạc phù hợp với cả hai bên.",
+        "Tôn trọng không gian riêng, hỏi trước khi chia sẻ thông tin cá nhân của nhau."
+      ],
+      "example": "Ví dụ: Gia đình thống nhất khi nào sẽ gặp nhau, việc nào người trẻ tự quyết và trong trường hợp khẩn cấp có thể gọi ai. Mục tiêu không phải là có quy tắc giống nhau cho mọi gia đình.",
+      "faqs": [
+        [
+          "Cha mẹ có nên quyết định thay con trưởng thành?",
+          "Thông thường sự hỗ trợ sẽ hữu ích hơn khi được đề nghị hoặc đồng thuận; những giới hạn cụ thể cần xét theo hoàn cảnh và trách nhiệm thực tế."
+        ],
+        [
+          "Làm sao giữ gần gũi khi không sống cùng nhau?",
+          "Xây dựng nhịp liên lạc đôi bên thấy thoải mái và ưu tiên chất lượng trao đổi hơn số lần liên hệ."
+        ]
+      ],
+      "sources": [
+        [
+          "UNICEF – Communicating With Your Teen",
+          "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+        ],
+        [
+          "UNICEF Viet Nam – Digital Parenting",
+          "https://www.unicef.org/vietnam/digital-parenting"
+        ]
+      ]
+    }
+  ]
+}
