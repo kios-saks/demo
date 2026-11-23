@@ -28,11 +28,11 @@ for(const a of d.articles){
 for(const s of stages)assert.equal(coverage[s],6,"Each stage needs exactly six guides: "+s);
 console.log("OK verified editorial coverage:",slugs.size,"draft guides,",sourced.size,"unique sources",totalWords,"Vietnamese words");
 
-// Visual pilot: six distinct licensed-original cover assets + three sourced infographics.
-let covers=0,infographics=0;
+// Full coverage: 72 unique original covers, including six curated covers and three sourced infographics.
+let covers=0,infographics=0,generated=0,curated=0;
 const allPaths=new Set();
 for(const a of d.articles){
- if(!a.media)continue;
+ assert(a.media?.cover,"Every article requires a cover: "+a.slug);
  const validate=(asset)=>{
    assert(asset.src.startsWith("/media/") && /^[a-z0-9-]+[.]svg$/.test(asset.src.slice(7)),"Unsafe media URL: "+a.slug);
    assert(asset.alt.length>=20,"Illustration needs accessible alt text");
@@ -40,15 +40,17 @@ for(const a of d.articles){
    assert(existsSync(new URL("../apps/web/public"+asset.src,import.meta.url)),"Missing media asset: "+asset.src);
    allPaths.add(asset.src);
  };
- if(a.media.cover){covers++;validate(a.media.cover)}
- assert(a.media.highlights.length===3,"Pilot article needs three carefully edited takeaways");
+ if(a.media.cover){covers++;validate(a.media.cover);if(a.media.cover.src.includes("/auto-cover-"))generated++;else curated++;}
+ if(a.media.highlights)assert(a.media.highlights.length===3,"Curated takeaways must contain three items");
  for(const item of a.media.inline||[]){
    validate(item);infographics++;
    assert(item.afterSection>=0 && item.afterSection<a.sections.length,"Invalid inline visual position");
    assert(a.sources.some(s=>s.url===item.sourceUrl),"Infographic must cite article's own authoritative source");
  }
 }
-assert.equal(covers,6,"Expected six independent illustrated covers");
+assert.equal(covers,72,"Expected a cover for every article");
+assert.equal(generated,66,"Expected 66 generated illustrated covers");
+assert.equal(curated,6,"Expected six curated illustrated covers");
 assert.equal(infographics,3,"Expected three source-specific infographics");
-assert.equal(allPaths.size,9,"Duplicate visual asset");
-console.log("OK visual pilot: six SVG covers, three source-linked infographics");
+assert.equal(allPaths.size,75,"Each illustration must be unique");
+console.log("OK illustrated coverage: 72 unique SVG covers, three source-linked infographics");
