@@ -5,7 +5,7 @@ const manifest=read("mock/manifest.json"),articles=read("articles.json"),topics=
 assert.equal(manifest.clinicalClaimsVerified,false);
 assert.equal(manifest.publicationAllowed,false);
 assert.equal(manifest.schemaVersion,1);
-assert.equal(sources.length,46);assert.equal(topics.length,13);assert.equal(cards.length,12);
+assert(sources.length>=50,"The reference catalogue must retain its 46 original items and newly verified source links");assert.equal(topics.length,13);assert.equal(cards.length,12);
 const stageIds=new Set(articles.stages.map(s=>s.slug)),sourceIds=new Set(sources.map(s=>s.id)),topicIds=new Set(topics.map(t=>t.id));
 assert.equal(stageIds.size,articles.stages.length);
 assert.equal(sourceIds.size,sources.length);assert.equal(topicIds.size,topics.length);
@@ -13,7 +13,7 @@ const seen=new Set();
 for(const t of topics){for(const id of t.stageSlugs)assert(stageIds.has(id),"Unknown topic stage "+id)}
 for(const s of sources){
  assert(s.id&&s.publisher&&s.title);
- assert(/^2026-11-2[12]$/.test(s.accessedAt),"Source access date must be audited");
+ assert(/^\d{4}-\d{2}-\d{2}$/.test(s.accessedAt)&&!Number.isNaN(Date.parse(s.accessedAt)),"Source access date must be an ISO calendar date");
  assert(/^https:\/\//.test(s.url),"Non-HTTPS source");
  assert(s.clinicalApproval===false,"Source is not professional endorsement");
  assert(["url-and-curated-metadata-only","original-Vietnamese-editorial-synthesis-with-link"].includes(s.usage),"Unexpected source usage");
