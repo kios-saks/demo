@@ -24,7 +24,7 @@ test("HTTP KnowledgeRepository follows shared contract and sees CMS edits immedi
    assert.equal(await repo.getStage("missing"),null);
    assert.equal((await repo.listArticles({stage:"so-sinh",limit:20})).meta.total,6);
    assert.equal((await repo.listTopics("so-sinh")).length,2);
-   assert.equal((await repo.listSources()).length,46);
+   assert.equal((await repo.listSources()).length,loadSeedDataset().sources.length);
    assert.equal((await repo.listResearchCards()).length,12);
    assert.equal((await repo.getOverview()).articles,72);
    assert((await repo.getDisclaimer()).length>10);
