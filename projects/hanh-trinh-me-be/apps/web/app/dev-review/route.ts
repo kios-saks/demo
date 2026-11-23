@@ -51,7 +51,7 @@ export async function GET(request:Request):Promise<Response>{
   const norm=q.toLocaleLowerCase("vi-VN");
   const list=articles.filter(a=>(!active||a.stage===active) &&
    (!q||[a.title,a.summary,a.stage,...a.tags].join(" ").toLocaleLowerCase("vi-VN").includes(norm)));
-  const byStage=slug=>articles.filter(a=>a.stage===slug);
+  const byStage=(slug:string)=>articles.filter(a=>a.stage===slug);
   const covered=articles.filter(a=>a.media?.cover).length;
   const infographics=articles.reduce((n,a)=>n+(a.media?.inline?.length||0),0);
   const badges='<div class="stats-mini"><b>'+articles.length+' bài đang biên tập</b><b>'+guides.length+' giai đoạn có hướng dẫn</b><b>'+
