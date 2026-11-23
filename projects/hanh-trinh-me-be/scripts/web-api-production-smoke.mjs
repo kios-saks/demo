@@ -58,4 +58,16 @@ assert(detailBody.includes("/media/cover-safe-sleep.svg"),"Article must include 
 assert(detailBody.includes("/media/infographic-safe-sleep.svg"),"Inline cited educational infographic must be rendered");
 assert.equal(detailDev.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 assert(detailBody.includes("Nội dung dev, chưa thẩm định chuyên môn."));
+const newInfographic=await fetch(web+"/dev-review/hen-tu-van-tien-thai",{headers});
+assert.equal(newInfographic.status,200,"Source-linked infographic article must be visible to editor");
+const infographicHtml=await newInfographic.text();
+assert(infographicHtml.includes("/media/auto-infographic-hen-tu-van-tien-thai.svg"),"New inline infographic is rendered");
+assert(infographicHtml.includes("Đọc 3 gợi ý trong hình dưới dạng văn bản"),"Mobile-accessible transcript is rendered");
+assert(infographicHtml.includes("Ghi lại thuốc và sản phẩm bổ sung"),"Transcript preserves the source-authored brief");
+const infographicAsset=await fetch(web+"/media/auto-infographic-hen-tu-van-tien-thai.svg");
+assert.equal(infographicAsset.status,200,"Generated SVG must be served by Next.js public assets");
+const infographicSvg=await infographicAsset.text();
+assert(infographicSvg.startsWith("<svg"),"Infographic must be a valid SVG resource");
+assert(infographicSvg.includes("Nguồn đọc thêm:"),"Infographic should disclose source label");
+
 console.log("PASS: password-gated 72-article dev reading room; guest denied, draft API protected, real sources rendered.");
