@@ -28,3 +28,11 @@
 .infographic-transcript summary{cursor:pointer;font-weight:700;color:var(--rose);outline-offset:4px}
 .infographic-transcript ol{padding-left:23px;margin:10px 0 0}.infographic-transcript li{margin:8px 0;line-height:1.7}
 @media(max-width:680px){.infographic-transcript{font-size:14px;padding:14px}.article-infographic img{max-width:100%}}
+
+
+/* DEV gateway: explain why production-like public pages have no unreviewed articles. */
+.dev-gateway{max-width:610px;margin:22px 0 0;padding:20px 22px;background:#fff;border:1px solid #e6ccd7;border-radius:15px;box-shadow:0 10px 30px #8c536010}
+.dev-gateway strong{display:block;font-size:14px;color:#713854}
+.dev-gateway p{font-size:13px;line-height:1.75;margin:8px 0 15px}
+.dev-gateway .primary-btn{font-size:12px;padding:11px 18px}
+@media(max-width:680px){.dev-gateway{padding:15px}.dev-gateway .primary-btn{width:100%;font-size:11px}}
