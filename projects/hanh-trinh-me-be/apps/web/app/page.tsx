@@ -1,22 +1,9 @@
 import Link from "next/link";
 import { getWebRepository } from "../lib/repository";
+import {stageVisuals} from "../lib/stage-visuals";
 
 export const dynamic="force-dynamic";
 
-const stageImages:Record<string,string>={
- "chuan-bi-mang-thai":"/media/auto-cover-cuoc-tro-chuyen-truoc-khi-co-con.svg",
- "thai-ky-3-thang-dau":"/media/auto-cover-lan-kham-thai-dau-tien.svg",
- "thai-ky-3-thang-giua":"/media/auto-cover-nhat-ky-thai-ky.svg",
- "thai-ky-3-thang-cuoi":"/media/auto-cover-tui-do-di-sinh.svg",
- "hau-san":"/media/auto-cover-nguoi-me-cung-can-duoc-cham-soc.svg",
- "so-sinh":"/media/cover-safe-sleep.svg",
- "nhu-nhi":"/media/cover-first-solids.svg",
- "tap-di":"/media/auto-cover-khi-con-noi-khong.svg",
- "mam-non":"/media/auto-cover-hoc-thong-qua-choi.svg",
- "tieu-hoc":"/media/cover-school-safety.svg",
- "thieu-nien":"/media/cover-teen-mental-health.svg",
- "truong-thanh":"/media/auto-cover-dong-hanh-khi-con-tu-lap.svg"
-};
 const journeys=[
  {stage:"chuan-bi-mang-thai",title:"Khi gia đình chuẩn bị đón bé",detail:"Sức khỏe tiền thai, cảm xúc và kế hoạch chăm sóc.",index:"01 / CHUẨN BỊ"},
  {stage:"so-sinh",title:"Những ngày đầu bên em bé",detail:"Chăm sóc an toàn, nhịp sinh hoạt và kết nối.",index:"02 / BẮT ĐẦU"},
@@ -65,7 +52,7 @@ export default async function Home() {
     <div className="journey-grid">
      {stages.map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
       <div className="journey-card-image">
-       <img src={stageImages[s.slug]||"/media/cover-family-planning.svg"} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
+       <img src={stageVisuals[s.slug]||"/media/cover-family-planning.svg"} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
        <span className="journey-card-index">{String(i+1).padStart(2,"0")}</span>
       </div>
       <div className="journey-card-content">
