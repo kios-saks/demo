@@ -31,12 +31,12 @@ test("real PostgreSQL migrations, idempotent imports, interface parity and edito
    await repo.assertReady();
    const overview=await repo.getOverview();
    assert.deepEqual([overview.stages,overview.articles,overview.topics,overview.sources,overview.researchCards],
-     [12,72,13,46,12]);
+     [12,72,13,seed.sources.length,12]);
    assert.equal(overview.provider,"postgres");
    assert.equal(overview.drafts,72);
    assert.equal((await repo.listStages()).length,12);
    assert.equal((await repo.listTopics("so-sinh")).length,2);
-   assert.equal((await repo.listSources()).length,46);
+   assert.equal((await repo.listSources()).length,seed.sources.length);
    assert.equal((await repo.listResearchCards({stage:"so-sinh"})).length,1);
    const noAccents=await repo.listArticles({q:"SO SINH",limit:50});
    const accents=await repo.listArticles({q:"sơ sinh",limit:50});
