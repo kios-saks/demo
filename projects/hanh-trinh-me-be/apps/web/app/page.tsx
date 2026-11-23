@@ -14,6 +14,7 @@ export default async function Home() {
           <p>Từ khi chuẩn bị mang thai đến lúc con trưởng thành: tìm kiến thức dễ hiểu, những điều đáng hỏi và gợi ý thực hành trong gia đình.</p>
           <div className="hero-actions"><Link className="primary-btn" href="#hanh-trinh">Khám phá hành trình <span aria-hidden="true">→</span></Link><Link className="ghost-btn" href="/tim-kiem">Tìm một chủ đề</Link></div>
           <p className="micro">Nội dung hiện ở trạng thái biên tập nháp và cần chuyên gia duyệt trước khi xuất bản chính thức.</p>
+          {process.env.DEV_CONTENT_PREVIEW_TOKEN&&process.env.DEV_CONTENT_PREVIEW_TOKEN.length>=24?<div className="dev-gateway"><strong>Đang xem bản giới thiệu công khai, chưa phải kho nội dung DEV.</strong><p>Để đọc 72 bản nháp, hướng dẫn theo 12 giai đoạn, checklist và nguồn tham khảo, hãy vào thư viện DEV có mật khẩu.</p><Link className="primary-btn" href="/dev-review">Vào thư viện nội dung DEV (có mật khẩu) →</Link></div>:null}
         </div>
         <div className="hero-art"><img src="/media/cover-family-planning.svg" className="hero-editorial-image" alt="Minh họa gia đình cùng chuẩn bị hành trình làm cha mẹ" width="1200" height="675" /></div>
       </div></section>
