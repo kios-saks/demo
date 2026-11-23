@@ -256,6 +256,14 @@
         {
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+        },
+        {
+          "name": "NHS – Trying to get pregnant",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/"
+        },
+        {
+          "name": "NHS – Medicines in pregnancy",
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/"
         }
       ],
       "media": {
@@ -2299,6 +2307,10 @@
         {
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "NHS – Vomiting and morning sickness",
+          "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/"
         }
       ],
       "media": {
@@ -3189,6 +3201,10 @@
         {
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+        },
+        {
+          "name": "NHS – Recovery after a caesarean section",
+          "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
         }
       ],
       "media": {
