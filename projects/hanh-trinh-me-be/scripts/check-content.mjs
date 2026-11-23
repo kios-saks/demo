@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import {readFileSync,existsSync} from "node:fs";
 const root=new URL("../packages/content/",import.meta.url);
 const read=file=>JSON.parse(readFileSync(new URL(file,root),"utf8"));
-const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json"),infographicBriefs=read("mock/infographic-cards.json");
+const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json"),infographicBriefs=read("mock/infographic-cards.json"),stageGuides=read("mock/stage-guides.json");
 const stages=new Set(d.stages.map(x=>x.slug));
 const canonical=url=>url.replace(/\/+$/,"").toLowerCase();
 const sourced=new Set(sources.map(x=>canonical(x.url)));
@@ -27,6 +27,21 @@ for(const a of d.articles){
 }
 for(const s of stages)assert.equal(coverage[s],6,"Each stage needs exactly six guides: "+s);
 console.log("OK verified editorial coverage:",slugs.size,"draft guides,",sourced.size,"unique sources",totalWords,"Vietnamese words");
+
+
+assert.equal(stageGuides.editorialStatus,"draft","DEV guides must not be marked published");
+assert.equal(stageGuides.guides.length,12,"All 12 stages need a reader guide");
+const knownStages=new Set();
+for(const g of stageGuides.guides){
+ assert(stages.has(g.slug)&&!knownStages.has(g.slug),"Unknown or duplicate stage guide: "+g.slug);
+ knownStages.add(g.slug);
+ assert(g.headline.length>12&&g.overview.length>130,"Stage guide is too shallow: "+g.slug);
+ assert(g.focus.length===4&&g.focus.every(([name,description])=>name.length>3&&description.length>35),"Stage focus incomplete: "+g.slug);
+ assert(g.steps.length===4&&g.steps.every(step=>step.length>35),"Stage checklist incomplete: "+g.slug);
+ assert(g.faqs.length===2&&g.faqs.every(([question,answer])=>question.length>10&&answer.length>45),"Stage FAQ incomplete: "+g.slug);
+ assert(g.sources.length===2&&g.sources.every(([name,url])=>name.length>5&&/^https:\/\/(www\.)?(who\.int|cdc\.gov|nhs\.uk|unicef\.org)\//.test(url)),"Unsupported stage reference: "+g.slug);
+}
+console.log("OK 12 stage guides: four topics, four steps, two FAQ answers and two source links each");
 
 // Full coverage: 72 original covers, 3 custom infographics and 24 generated source-linked diagrams.
 assert.equal(infographicBriefs.editorialStatus,"draft");
