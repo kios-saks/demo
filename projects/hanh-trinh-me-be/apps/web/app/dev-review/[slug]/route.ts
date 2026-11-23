@@ -44,7 +44,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<p class="reading-lead">'+escapeHtml(a.summary)+'</p>'+
      '<div class="reader-meta"><span>Khoảng '+Number(a.readMinutes||0)+' phút đọc</span><span> · '+a.sections.length+' phần nội dung</span><span> · '+a.sources.length+' nguồn tham khảo</span></div></div>';
    const sourceNote=source==="snapshot"?'<div class="warn">Đang hiển thị bản sao DEV đã lưu trên Web; có thể chưa gồm các chỉnh sửa mới nhất từ Supabase.</div>':'';
-   const warning='<div class="warn"><b>Nội dung DEV, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>';
+   const warning='<div class="warn"><b>Nội dung dev, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>';
    const body=readerHeader+sourceNote+warning+
      '<div class="reading-layout"><aside class="reading-sidebar">'+toc+
      '<p>Chọn mục để chuyển tới phần muốn đọc. Các mốc thời gian và hướng dẫn y tế cần đối chiếu với chuyên gia phù hợp.</p></aside>'+
