@@ -34,7 +34,7 @@ const allPaths=new Set();
 for(const a of d.articles){
  if(!a.media)continue;
  const validate=(asset)=>{
-   assert(/^\\/media\\/[a-z0-9-]+\\.svg$/.test(asset.src),"Unsafe media URL: "+a.slug);
+   assert(asset.src.startsWith("/media/") && /^[a-z0-9-]+[.]svg$/.test(asset.src.slice(7)),"Unsafe media URL: "+a.slug);
    assert(asset.alt.length>=20,"Illustration needs accessible alt text");
    assert(asset.license==="original" && asset.credit==="Hành Trình Mẹ & Bé","Unknown media license");
    assert(existsSync(new URL("../apps/web/public"+asset.src,import.meta.url)),"Missing media asset: "+asset.src);
