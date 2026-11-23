@@ -54,7 +54,7 @@ export async function GET(request:Request):Promise<Response>{
   const byStage=(slug:string)=>articles.filter(a=>a.stage===slug);
   const covered=articles.filter(a=>a.media?.cover).length;
   const infographics=articles.reduce((n,a)=>n+(a.media?.inline?.length||0),0);
-  const badges='<div class="stats-mini"><b>'+articles.length+' bài đang biên tập</b><b>'+guides.length+' giai đoạn có hướng dẫn</b><b>'+
+  const badges='<div class="stats-mini"><b>'+articles.length+' bài biên tập</b><b>'+guides.length+' giai đoạn có hướng dẫn</b><b>'+
     covered+' ảnh bìa · '+infographics+' infographic</b></div>';
   const hero='<section class="hero-visual"><div class="hero"><span class="pill">THƯ VIỆN KIẾN THỨC DEV • CÓ MẬT KHẨU</span>'+
     '<h1>Khám phá theo hành trình của gia đình</h1>'+
