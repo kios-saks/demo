@@ -20,6 +20,10 @@ assert.equal(disclaimer.status,200);
 const homepage=await (await fetch(web+"/")).text();
 assert(homepage.includes("Trẻ sơ sinh"),"Web reads stages from API");
 assert(!homepage.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"Web must not render private draft");
+
+assert(homepage.includes("Đang xem bản giới thiệu công khai"),"Home explains why draft articles are hidden");
+assert(homepage.includes("/dev-review"),"Home provides a path to the gated development library");
+
 const stage=await fetch(web+"/so-sinh");
 assert.equal(stage.status,200);
 const detail=await fetch(web+"/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh");
@@ -69,5 +73,20 @@ assert.equal(infographicAsset.status,200,"Generated SVG must be served by Next.j
 const infographicSvg=await infographicAsset.text();
 assert(infographicSvg.startsWith("<svg"),"Infographic must be a valid SVG resource");
 assert(infographicSvg.includes("Nguồn đọc thêm:"),"Infographic should disclose source label");
+
+
+const guidePage=await fetch(web+"/dev-review?stage=so-sinh",{headers});
+assert.equal(guidePage.status,200,"Stage guide requires preview authentication");
+const guideHtml=await guidePage.text();
+assert(guideHtml.includes("Ba tháng đầu đời: an toàn và kết nối"),"Stage overview must be visible");
+assert(guideHtml.includes("Checklist để bắt đầu"),"Stage needs practical steps");
+assert(guideHtml.includes("Câu hỏi thường gặp"),"Stage needs grounded FAQs");
+assert(guideHtml.includes("CDC – Safe Sleep"),"Stage guide links official further reading");
+assert(guideHtml.includes("/dev-review/ngu-an-toan-cho-tre-so-sinh"),"Stage filter lists local articles");
+assert(!guideHtml.includes("Bài khác cùng giai đoạn"),"Stage listing must remain distinct from article detail");
+const guideUnauthorized=await fetch(web+"/dev-review?stage=so-sinh");
+assert.equal(guideUnauthorized.status,401,"Stage guides must never be public");
+assert(detailBody.includes("Xem hướng dẫn giai đoạn, FAQ và nguồn đọc thêm"),"Article detail should link back to contextual stage guide");
+assert(detailBody.includes("Bài khác cùng giai đoạn"),"Article should suggest related reading");
 
 console.log("PASS: password-gated 72-article dev reading room; guest denied, draft API protected, real sources rendered.");
