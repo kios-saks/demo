@@ -892,5 +892,77 @@
     "usage": "original-Vietnamese-editorial-synthesis-with-link",
     "clinicalApproval": false,
     "notice": "URL và chủ đề được kiểm tra khi biên tập. Bản tiếng Việt là tác phẩm tổng hợp độc lập, không được UNICEF thẩm định."
+  },
+  {
+    "id": "nhs-morning-sickness",
+    "publisher": "NHS",
+    "title": "NHS – Vomiting and morning sickness",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+    "publicationYear": "",
+    "topic": "pregnancy",
+    "stageSlugs": [
+      "thai-ky-3-thang-dau"
+    ],
+    "accessedAt": "2026-11-23",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Nguồn đọc thêm do dự án tổng hợp. Không phải tổ chức NHS đã duyệt bản thảo."
+  },
+  {
+    "id": "nhs-cesarean-recovery",
+    "publisher": "NHS",
+    "title": "NHS – Recovery after a caesarean section",
+    "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+    "publicationYear": "",
+    "topic": "postpartum",
+    "stageSlugs": [
+      "hau-san"
+    ],
+    "accessedAt": "2026-11-23",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Nguồn đọc thêm do dự án tổng hợp. Không phải tổ chức NHS đã duyệt bản thảo."
+  },
+  {
+    "id": "nhs-trying-pregnancy",
+    "publisher": "NHS",
+    "title": "NHS – Trying to get pregnant",
+    "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+    "publicationYear": "",
+    "topic": "preconception",
+    "stageSlugs": [
+      "chuan-bi-mang-thai"
+    ],
+    "accessedAt": "2026-11-23",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Nguồn đọc thêm do dự án tổng hợp. Không phải tổ chức NHS đã duyệt bản thảo."
+  },
+  {
+    "id": "nhs-medicines-pregnancy",
+    "publisher": "NHS",
+    "title": "NHS – Medicines in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+    "publicationYear": "",
+    "topic": "medicines",
+    "stageSlugs": [
+      "chuan-bi-mang-thai"
+    ],
+    "accessedAt": "2026-11-23",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Nguồn đọc thêm do dự án tổng hợp. Không phải tổ chức NHS đã duyệt bản thảo."
   }
 ]
