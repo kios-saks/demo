@@ -1,6 +1,7 @@
 import {test} from "node:test";
 import assert from "node:assert/strict";
 import {buildApp} from "./app.js";
+import {loadSeedDataset} from "./seed-data.js";
 import {createKnowledgeRepository} from "./repository.js";
 import {MockKnowledgeRepository} from "../../../packages/data/src/mock-repository.js";
 
@@ -28,7 +29,7 @@ test("new structured mock topic, source, and research endpoints",async()=>{
    const topics=(await app.inject("/v1/topics")).json().data;
    const sources=(await app.inject("/v1/sources")).json().data;
    const cards=(await app.inject("/v1/research-cards")).json().data;
-   assert.equal(topics.length,13);assert.equal(sources.length,46);assert.equal(cards.length,12);
+   assert.equal(topics.length,13);assert.equal(sources.length,loadSeedDataset().sources.length);assert.equal(cards.length,12);
    assert.equal((await app.inject("/v1/topics?stage=so-sinh")).json().data.length,2);
    assert.equal((await app.inject("/v1/research-cards?stage=so-sinh")).json().data.length,1);
    assert.equal((await app.inject("/v1/editorial/overview")).json().data.drafts,72);
