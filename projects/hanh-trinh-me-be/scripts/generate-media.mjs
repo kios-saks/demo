@@ -104,3 +104,6 @@ for(let i=0;i<dataset.articles.length;i++){
 for(const file of readdirSync(output))if(/^auto-cover-[a-z0-9-]+\.svg$/.test(file)&&!expected.has(file))unlinkSync(join(output,file));
 assert.equal(generated,66,"Expected exactly 66 generated covers, preserve six custom originals");
 console.log("Generated "+generated+" original article SVG covers in "+output);
+
+// Build source-linked inline illustrations within the same media pipeline.
+await import("./generate-infographics.mjs");
