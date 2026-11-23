@@ -22,3 +22,9 @@
 .dev-art-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.dev-art-tile{background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden}.dev-art-tile img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}.dev-art-tile strong{display:block;padding:12px 15px;color:#66495c;font-size:13px}.dev-art-note{grid-column:1/-1;font-size:12px;color:var(--muted);margin-top:0}
 @media(max-width:960px){.dev-art-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.hero-art{display:block;height:250px;transform:none;margin-top:32px}.hero-editorial-image{width:100%;max-height:250px;border-radius:21px}.article-card-visual{height:160px}.dev-art-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.quick-takeaway{padding:18px}.article-cover img,.article-infographic img{border-radius:12px}}
+
+/* Accessible text alternative for compact infographic images. */
+.infographic-transcript{margin:16px 0 4px;background:#fff8f5;border:1px solid var(--line);border-radius:12px;padding:13px 17px;font-size:13px;color:var(--ink)}
+.infographic-transcript summary{cursor:pointer;font-weight:700;color:var(--rose);outline-offset:4px}
+.infographic-transcript ol{padding-left:23px;margin:10px 0 0}.infographic-transcript li{margin:8px 0;line-height:1.7}
+@media(max-width:680px){.infographic-transcript{font-size:14px;padding:14px}.article-infographic img{max-width:100%}}
