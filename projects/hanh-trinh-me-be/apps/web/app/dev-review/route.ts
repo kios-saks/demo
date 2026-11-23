@@ -9,9 +9,11 @@ export async function GET(request:Request):Promise<Response>{
    const normalized=q.toLocaleLowerCase("vi-VN");
    const list=articles.filter(a=>!q||[a.title,a.summary,a.stage,...a.tags].join(" ").toLocaleLowerCase("vi-VN").includes(normalized));
    const groups=[...new Set(list.map(a=>a.stage))];
+   const coverCount=articles.filter(a=>a.media?.cover).length;
+   const infographicCount=articles.reduce((n,a)=>n+(a.media?.inline?.length||0),0);
    const body='<div class="hero-visual"><div class="hero"><span class="pill">THƯ VIỆN HÀNH TRÌNH MẸ & BÉ</span><h1>Những điều nhỏ,<br>yêu thương lớn.</h1>'+
-     '<p>72 bài viết tiếng Việt, chia theo 12 giai đoạn. Bộ hình minh họa đầu tiên đã có mặt trong 6 bài mẫu để bạn thử trải nghiệm đọc mới.</p>'+
-     '<div class="stats-mini"><b>72 bài biên tập</b><b>12 chặng phát triển</b><b>6 bài có hình</b></div></div>'+
+     '<p>'+articles.length+' bài viết tiếng Việt, chia theo 12 giai đoạn. Hiện có '+coverCount+' ảnh bìa và '+infographicCount+' infographic trong kho nội dung DEV.</p>'+
+     '<div class="stats-mini"><b>'+articles.length+' bài biên tập</b><b>12 chặng phát triển</b><b>'+coverCount+' ảnh bìa · '+infographicCount+' infographic</b></div></div>'+
      '<img src="/media/cover-family-planning.svg" width="1200" height="675" alt="Minh họa gia đình chuẩn bị hành trình làm cha mẹ"></div>'+
      '<div class="warn"><b>CHƯA CÓ CHỨNG NHẬN DUYỆT Y KHOA</b> · Chỉ dùng để biên tập và thử nghiệm. Không sử dụng như hướng dẫn điều trị hoặc tài liệu chính thức của tổ chức được dẫn nguồn.</div>'+
      '<form class="search" method="get"><input name="q" placeholder="Tìm bài viết, chủ đề..." value="'+escapeHtml(q)+'"><button type="submit">Tìm</button></form>'+
