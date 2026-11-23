@@ -1,0 +1,55 @@
+{
+  "version": "2026-11-23",
+  "status": "draft-clinical-review-required",
+  "notes": "Tám bài dài đã được biên tập dựa trên nguồn công khai; chưa được bác sĩ độc lập thẩm định, không xuất bản công khai.",
+  "articles": [
+    {
+      "slug": "hen-tu-van-tien-thai",
+      "label": "Cuộc hẹn tiền thai",
+      "group": "Chuẩn bị",
+      "minWords": 1000
+    },
+    {
+      "slug": "axit-folic-truoc-khi-mang-thai",
+      "label": "Axit folic trước mang thai",
+      "group": "Chuẩn bị",
+      "minWords": 1000
+    },
+    {
+      "slug": "om-nghen-va-an-uong-dau-thai-ky",
+      "label": "Ốm nghén và ăn uống",
+      "group": "Thai kỳ",
+      "minWords": 1000
+    },
+    {
+      "slug": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "label": "Hồi phục sau sinh",
+      "group": "Hậu sản",
+      "minWords": 1000
+    },
+    {
+      "slug": "ngu-an-toan-cho-tre-so-sinh",
+      "label": "Giấc ngủ an toàn",
+      "group": "Sơ sinh",
+      "minWords": 1000
+    },
+    {
+      "slug": "an-dam-khi-nao-bat-dau",
+      "label": "Bắt đầu ăn dặm",
+      "group": "Nhũ nhi",
+      "minWords": 1000
+    },
+    {
+      "slug": "an-toan-chong-sac-khi-an-dam",
+      "label": "Phòng hóc sặc khi ăn",
+      "group": "Nhũ nhi",
+      "minWords": 1000
+    },
+    {
+      "slug": "choi-va-tuong-tac-voi-be",
+      "label": "Chơi và tương tác với bé",
+      "group": "Nhũ nhi",
+      "minWords": 900
+    }
+  ]
+}
