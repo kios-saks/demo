@@ -11,3 +11,6 @@ coverage/
 
 # Locally generated, deterministic SVG article covers
 apps/web/public/media/auto-cover-*.svg
+
+# Build-time generated infographic SVGs; JSON briefs remain in version control
+apps/web/public/media/auto-infographic-*.svg
