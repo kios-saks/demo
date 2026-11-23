@@ -1,10 +1,12 @@
 import {escapeHtml,htmlResponse,listDevArticles,requirePreviewLogin,safeMediaPath} from "../../lib/dev-preview";
 import guideDataset from "../../../../packages/content/mock/stage-guides.json";
+import deepArticleDataset from "../../../../packages/content/mock/deep-articles.json";
 import type {ArticleSummary} from "../../../../packages/data/src/contracts";
 
 export const dynamic="force-dynamic";
 export const runtime="nodejs";
 const guides=guideDataset.guides;
+const deepArticleSlugs=new Set(deepArticleDataset.articles.map(x=>x.slug));
 const e=escapeHtml;
 function stageLabel(slug:string){return guides.find(g=>g.slug===slug)?.headline||slug.replaceAll("-"," ");}
 function media(a:ArticleSummary | undefined){
@@ -35,7 +37,7 @@ function guideDetails(slug:string){
 }
 function itemCard(a:ArticleSummary){
  return '<a class="item" href="/dev-review/'+encodeURIComponent(a.slug)+'">'+media(a)+
-  '<div class="item-content"><span class="pill">BẢN NHÁP</span>'+
+  '<div class="item-content"><span class="pill">'+(deepArticleSlugs.has(a.slug)?'CHUYÊN SÂU • BẢN NHÁP':'BẢN NHÁP')+'</span>'+
   (a.media?.inline?.length?'<span class="media-count">'+a.media.inline.length+' infographic</span>':'')+
   '<h3>'+e(a.title)+'</h3><p>'+e(a.summary)+'</p>'+
   '<p class="meta">Đọc '+Number(a.readMinutes||0)+' phút · Mở hướng dẫn và nguồn →</p></div></a>';
@@ -55,7 +57,7 @@ export async function GET(request:Request):Promise<Response>{
   const covered=articles.filter(a=>a.media?.cover).length;
   const infographics=articles.reduce((n,a)=>n+(a.media?.inline?.length||0),0);
   const badges='<div class="stats-mini"><b>'+articles.length+' bài biên tập</b><b>'+guides.length+' giai đoạn có hướng dẫn</b><b>'+
-    covered+' ảnh bìa · '+infographics+' infographic</b></div>';
+    covered+' ảnh bìa · '+infographics+' infographic</b><b>'+deepArticleSlugs.size+' bài chuyên sâu</b></div>';
   const hero='<section class="hero-visual"><div class="hero"><span class="pill">THƯ VIỆN KIẾN THỨC DEV • CÓ MẬT KHẨU</span>'+
     '<h1>Khám phá theo hành trình của gia đình</h1>'+
     '<p>Đọc bản nháp theo 12 giai đoạn, xem checklist, câu hỏi thường gặp và bài viết có dẫn nguồn. Kho này dành riêng cho biên tập và kiểm thử, chưa mở xuất bản.</p>'+
@@ -75,6 +77,10 @@ export async function GET(request:Request):Promise<Response>{
    '<select id="stage-select" name="stage"><option value="">Tất cả giai đoạn</option>'+guides.map(g=>
     '<option value="'+e(g.slug)+'"'+(active===g.slug?' selected':'')+'>'+e(g.headline)+'</option>').join("")+'</select>'+
    '<button type="submit">Tìm bài</button></form>';
+  const deepCards=list.filter(a=>deepArticleSlugs.has(a.slug));
+  const featured=deepCards.length?'<section class="article-section"><h2>Hướng dẫn chuyên sâu đang biên tập</h2>'+
+    '<p>Những bài đã được viết chi tiết, có nguồn và ví dụ thực hành; vẫn đang chờ thẩm định y khoa.</p>'+
+    '<div class="list">'+deepCards.map(itemCard).join("")+'</div></section>':"";
   const stageTitle=active?stageLabel(active):"Các bài viết theo giai đoạn";
   const groups=(active?guides.filter(g=>g.slug===active):guides).map(g=>{
    const rows=list.filter(a=>a.stage===g.slug);
@@ -82,7 +88,7 @@ export async function GET(request:Request):Promise<Response>{
    return '<section class="article-section"><h2>'+e(g.headline)+' <small>('+rows.length+' bài)</small></h2><div class="list">'+rows.map(itemCard).join("")+'</div></section>';
   }).join("");
   const output=hero+warning+status+'<div class="library-intro"><h2>Chọn giai đoạn để bắt đầu</h2><p>Mỗi chặng có chủ đề cần biết, các việc gia đình có thể chuẩn bị và bộ câu hỏi để thảo luận.</p></div>'+
-   cards+search+
+   featured+cards+search+
    '<div class="results-heading"><h2>'+e(stageTitle)+'</h2><p>Hiển thị '+list.length+'/'+articles.length+' bài viết</p></div>'+
    (active?guideDetails(active):"")+
    (list.length?groups:'<p class="warn">Không có bài nào khớp bộ lọc. Hãy thử từ khóa hoặc giai đoạn khác.</p>');
