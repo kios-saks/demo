@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import {readFileSync,existsSync} from "node:fs";
 const root=new URL("../packages/content/",import.meta.url);
 const read=file=>JSON.parse(readFileSync(new URL(file,root),"utf8"));
-const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json");
+const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json"),infographicBriefs=read("mock/infographic-cards.json");
 const stages=new Set(d.stages.map(x=>x.slug));
 const canonical=url=>url.replace(/\/+$/,"").toLowerCase();
 const sourced=new Set(sources.map(x=>canonical(x.url)));
@@ -28,8 +28,21 @@ for(const a of d.articles){
 for(const s of stages)assert.equal(coverage[s],6,"Each stage needs exactly six guides: "+s);
 console.log("OK verified editorial coverage:",slugs.size,"draft guides,",sourced.size,"unique sources",totalWords,"Vietnamese words");
 
-// Full coverage: 72 unique original covers, including six curated covers and three sourced infographics.
-let covers=0,infographics=0,generated=0,curated=0;
+// Full coverage: 72 original covers, 3 custom infographics and 24 generated source-linked diagrams.
+assert.equal(infographicBriefs.editorialStatus,"draft");
+assert.equal(infographicBriefs.cards.length,24);
+const infographicMap=new Map(infographicBriefs.cards.map(b=>[b.articleSlug,b]));
+assert.equal(infographicMap.size,24,"Duplicate infographic brief");
+const infographicStageCounts={};
+for(const b of infographicBriefs.cards){
+ const article=d.articles.find(a=>a.slug===b.articleSlug);
+ assert(article,"Infographic brief points to missing article: "+b.articleSlug);
+ assert(article.sources.some(s=>s.url===b.sourceUrl),"Infographic brief source not in article: "+b.articleSlug);
+ assert(Array.isArray(b.points)&&b.points.length===3&&b.points.every(p=>p.length>=18&&p.length<=85),"Invalid infographic points: "+b.articleSlug);
+ infographicStageCounts[article.stage]=(infographicStageCounts[article.stage]||0)+1;
+}
+for(const stage of stages)assert.equal(infographicStageCounts[stage],2,"Need two generated infographics per stage: "+stage);
+let covers=0,infographics=0,generated=0,curated=0,generatedInfographics=0;
 const allPaths=new Set();
 for(const a of d.articles){
  assert(a.media?.cover,"Every article requires a cover: "+a.slug);
@@ -44,6 +57,14 @@ for(const a of d.articles){
  if(a.media.highlights)assert(a.media.highlights.length===3,"Curated takeaways must contain three items");
  for(const item of a.media.inline||[]){
    validate(item);infographics++;
+   if(item.src.startsWith("/media/auto-infographic-")){
+     generatedInfographics++;
+     const brief=infographicMap.get(a.slug);
+     assert(brief,"Unexpected generated infographic: "+a.slug);
+     assert.equal(item.src,"/media/auto-infographic-"+a.slug+".svg");
+     assert.equal(item.sourceUrl,brief.sourceUrl);
+     assert.deepEqual(item.points,brief.points,"Infographic text transcription mismatch: "+a.slug);
+   }
    assert(item.afterSection>=0 && item.afterSection<a.sections.length,"Invalid inline visual position");
    assert(a.sources.some(s=>s.url===item.sourceUrl),"Infographic must cite article's own authoritative source");
  }
@@ -51,6 +72,7 @@ for(const a of d.articles){
 assert.equal(covers,72,"Expected a cover for every article");
 assert.equal(generated,66,"Expected 66 generated illustrated covers");
 assert.equal(curated,6,"Expected six curated illustrated covers");
-assert.equal(infographics,3,"Expected three source-specific infographics");
-assert.equal(allPaths.size,75,"Each illustration must be unique");
-console.log("OK illustrated coverage: 72 unique SVG covers, three source-linked infographics");
+assert.equal(infographics,27,"Expected three curated and 24 generated infographics");
+assert.equal(generatedInfographics,24,"Expected 24 generated infographic SVGs");
+assert.equal(allPaths.size,99,"Each illustration must be unique");
+console.log("OK illustrated coverage: 72 unique SVG covers, 27 source-linked infographics (24 generated)");
