@@ -1,4 +1,6 @@
 import {escapeHtml,htmlResponse,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
+import guideDataset from "../../../../../packages/content/mock/stage-guides.json";
+import contentSnapshot from "../../../../../packages/content/articles.json";
 export const dynamic="force-dynamic";
 export const runtime="nodejs";
 export async function GET(request:Request,{params}:{params:Promise<{slug:string}>}):Promise<Response>{
@@ -7,6 +9,15 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    const {slug}=await params;
    const {data:a,disclaimer,source}=await getDevArticle(slug);
    const inline=a.media?.inline||[];
+   const stageGuide=guideDataset.guides.find(g=>g.slug===a.stage);
+   const recommendations=contentSnapshot.articles.filter(x=>x.stage===a.stage&&x.slug!==a.slug).slice(0,3);
+   const supplemental=stageGuide?
+     '<section class="stage-context"><span class="reading-note">NỀN TẢNG CỦA GIAI ĐOẠN</span><h2>Đọc tiếp: '+escapeHtml(stageGuide.headline)+'</h2>'+
+     '<p>'+escapeHtml(stageGuide.overview)+'</p><h3>Bạn có thể bắt đầu với</h3><ol class="checklist">'+stageGuide.steps.map(step=>'<li>'+escapeHtml(step)+'</li>').join("")+'</ol>'+
+     '<p><a href="/dev-review?stage='+encodeURIComponent(a.stage)+'">Xem hướng dẫn giai đoạn, FAQ và nguồn đọc thêm →</a></p></section>':"";
+   const related=recommendations.length?
+     '<section class="related-articles"><h2>Bài khác cùng giai đoạn</h2><ul>'+recommendations.map(r=>
+       '<li><a href="/dev-review/'+encodeURIComponent(r.slug)+'">'+escapeHtml(r.title)+'</a></li>').join("")+'</ul></section>':"";
    const sections=a.sections.map((s,i)=>{
      const visual=inline.filter(v=>v.afterSection===i).map(v=>{
        const path=safeMediaPath(v.src);if(!path)return '';
@@ -32,6 +43,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
     (source==="snapshot"?'<div class="warn">Bản sao DEV đã lưu trên Web; có thể chưa gồm các chỉnh sửa mới nhất từ Supabase.</div>':'')+
     '<div class="warn"><b>Nội dung dev, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>'+
     '<article class="content article-content">'+heroCover+quick+toc+sections+
+    supplemental+related+
     '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
     '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
     '<p><a href="/dev-review">← Quay lại danh sách toàn bộ bài</a></p></article>';
