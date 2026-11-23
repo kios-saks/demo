@@ -7,6 +7,8 @@ export interface ApiRepositoryOptions {
  readonly fetcher?:typeof fetch;
  /** When rendering a public production site, NEVER show draft content. */
  readonly publishedOnly?:boolean;
+ /** Max milliseconds to wait for the Backend during a cold start. */
+ readonly timeoutMs?:number;
 }
 /**
  * HTTP adapter to the existing KnowledgeRepository contract.
@@ -17,6 +19,7 @@ export class ApiKnowledgeRepository implements KnowledgeRepository {
  private readonly base:string;
  private readonly fetcher:typeof fetch;
  private readonly publicOnly:boolean;
+ private readonly timeoutMs:number;
  constructor(baseUrl:string,options:ApiRepositoryOptions={}){
    const parsed=new URL(baseUrl);
    if(!["http:","https:"].includes(parsed.protocol)||parsed.username||parsed.password||
@@ -25,9 +28,10 @@ export class ApiKnowledgeRepository implements KnowledgeRepository {
    this.base=parsed.origin;
    this.fetcher=options.fetcher||fetch;
    this.publicOnly=options.publishedOnly===true;
+   this.timeoutMs=options.timeoutMs??45000;
  }
  private async request<T>(path:string,notFoundIsNull=false):Promise<T|null>{
-   const init={method:"GET",headers:{"accept":"application/json"},cache:"no-store" as const};
+   const init={method:"GET",headers:{"accept":"application/json"},cache:"no-store" as const,signal:AbortSignal.timeout(this.timeoutMs)};
    const response=await this.fetcher(this.base+path,init);
    if(response.status===404&&notFoundIsNull)return null;
    if(!response.ok)throw new Error("Knowledge API request failed: HTTP "+response.status);
