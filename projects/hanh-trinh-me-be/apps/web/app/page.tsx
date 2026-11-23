@@ -15,7 +15,7 @@ export default async function Home() {
           <div className="hero-actions"><Link className="primary-btn" href="#hanh-trinh">Khám phá hành trình <span aria-hidden="true">→</span></Link><Link className="ghost-btn" href="/tim-kiem">Tìm một chủ đề</Link></div>
           <p className="micro">Nội dung hiện ở trạng thái biên tập nháp và cần chuyên gia duyệt trước khi xuất bản chính thức.</p>
         </div>
-        <div className="hero-art" aria-hidden="true"><div className="halo"></div><div className="heart">♥</div><div className="art-card one">🌱 <span>Khởi đầu</span></div><div className="art-card two">🍼 <span>Chăm sóc</span></div><div className="art-card three">🌻 <span>Trưởng thành</span></div></div>
+        <div className="hero-art"><img src="/media/cover-family-planning.svg" className="hero-editorial-image" alt="Minh họa gia đình cùng chuẩn bị hành trình làm cha mẹ" width="1200" height="675" /></div>
       </div></section>
       <section className="wrap section" id="hanh-trinh">
         <div className="section-heading"><div><span className="eyebrow">KHÁM PHÁ THEO GIAI ĐOẠN</span><h2>Hành trình của gia đình</h2></div><p>Chọn đúng giai đoạn để bắt đầu. Bạn có thể quay lại bất cứ lúc nào.</p></div>
@@ -28,8 +28,13 @@ export default async function Home() {
       </div></section>
       <section className="wrap section"><div className="section-heading"><div><span className="eyebrow">ĐỌC GẦN ĐÂY</span><h2>Gợi ý cho hôm nay</h2></div><Link className="text-link" href="/tim-kiem">Xem tất cả bài viết →</Link></div>
         <div className="article-grid">{articles.slice(0,6).map(a=><Link className="article-card" href={"/bai-viet/"+a.slug} key={a.slug}>
+          {a.media?.cover && <img className="article-card-visual" src={a.media.cover.src} alt={a.media.cover.alt} width="1200" height="675" loading="lazy"/>}
           <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
         </Link>)}</div>
+        {articles.length===0&&<div className="dev-art-gallery">
+          {([["cover-family-planning.svg","Chuẩn bị"],["cover-antenatal-checkup.svg","Thai kỳ"],["cover-safe-sleep.svg","Sơ sinh"],["cover-first-solids.svg","Ăn dặm"],["cover-school-safety.svg","Tuổi đi học"],["cover-teen-mental-health.svg","Tuổi teen"]] as const).map(([src,label])=><div key={src} className="dev-art-tile"><img src={"/media/"+src} width="1200" height="675" loading="lazy" alt={"Minh họa chủ đề "+label}/><strong>{label}</strong></div>)}
+          <p className="dev-art-note">Kho bài viết đang biên tập; các bài nháp chỉ xem được qua trang DEV có mật khẩu.</p>
+        </div>}
       </section>
     </>
   );
