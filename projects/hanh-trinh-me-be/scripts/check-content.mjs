@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import {readFileSync,existsSync} from "node:fs";
 const root=new URL("../packages/content/",import.meta.url);
 const read=file=>JSON.parse(readFileSync(new URL(file,root),"utf8"));
-const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json"),infographicBriefs=read("mock/infographic-cards.json"),stageGuides=read("mock/stage-guides.json");
+const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json"),infographicBriefs=read("mock/infographic-cards.json"),stageGuides=read("mock/stage-guides.json"),deepArticles=read("mock/deep-articles.json");
 const stages=new Set(d.stages.map(x=>x.slug));
 const canonical=url=>url.replace(/\/+$/,"").toLowerCase();
 const sourced=new Set(sources.map(x=>canonical(x.url)));
@@ -42,6 +42,25 @@ for(const g of stageGuides.guides){
  assert(g.sources.length===2&&g.sources.every(([name,url])=>name.length>5&&/^https:\/\/(www\.)?(who\.int|cdc\.gov|nhs\.uk|unicef\.org)\//.test(url)),"Unsupported stage reference: "+g.slug);
 }
 console.log("OK 12 stage guides: four topics, four steps, two FAQ answers and two source links each");
+
+
+assert.equal(deepArticles.status,"draft-clinical-review-required","Deep editorial drafts must never be auto-published");
+assert.equal(deepArticles.articles.length,8,"Editorial pilot must retain eight detailed articles");
+const deepSlugs=new Set();
+for(const item of deepArticles.articles){
+ assert(!deepSlugs.has(item.slug),"Duplicate detailed article: "+item.slug);
+ deepSlugs.add(item.slug);
+ const article=d.articles.find(a=>a.slug===item.slug);
+ assert(article,"Unknown detailed article: "+item.slug);
+ assert.equal(article.status,"draft","Deep guide cannot auto-publish: "+item.slug);
+ assert(article.sections.length>=10,"Detailed guide lacks topic sections: "+item.slug);
+ assert(new Set(article.sections.map(s=>s.heading)).size===article.sections.length,"Duplicated heading: "+item.slug);
+ const words=article.sections.flatMap(s=>s.paragraphs).join(" ").trim().split(/\s+/).length;
+ assert(words>=item.minWords,"Detailed guide below editorial threshold: "+item.slug+" ("+words+")");
+ assert(article.sources.length>=2,"Detailed guide needs sources: "+item.slug);
+ assert(article.readMinutes>=5,"Reading time not updated: "+item.slug);
+}
+console.log("OK eight detailed article drafts, 10+ sections and at least 900–1000 words each");
 
 // Full coverage: 72 original covers, 3 custom infographics and 24 generated source-linked diagrams.
 assert.equal(infographicBriefs.editorialStatus,"draft");
