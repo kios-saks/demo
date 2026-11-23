@@ -205,3 +205,22 @@ button,a[role="button"],.primary-btn,.ghost-btn,.site-nav a,.journey-card,.journ
  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:0.01ms!important;animation-duration:0.01ms!important}
  .journey-card:hover,.journey-topic-card:hover,.article-card:hover{transform:none}
 }
+
+
+/* Editorial chapter navigation for released articles (draft articles remain protected). */
+.article-aside{padding-top:100px}
+.article-aside .aside-card{padding:20px;max-height:calc(100vh - 115px);overflow:auto}
+.article-aside .aside-card h3{font-size:18px;margin:0 0 12px}
+.article-toc{display:flex;flex-direction:column;gap:4px}
+.article-toc a{display:flex;align-items:center;min-height:44px;padding:10px 12px;border-radius:9px;color:#365745;font-size:13px;line-height:1.5;text-decoration:none}
+.article-toc a:hover{background:#ecf4ec;color:#24563f}
+.article-aside .aside-stage{padding-top:20px;border-top:1px solid var(--ui-line);margin-top:19px}
+.mobile-article-toc{display:none}
+.prose-section{scroll-margin-top:110px}
+@media(max-width:800px){
+ .mobile-article-toc{display:block;border:1px solid var(--ui-line);border-radius:15px;background:#fff;padding:13px 18px;margin:24px 0}
+ .mobile-article-toc summary{font-weight:800;color:var(--ui-primary);min-height:44px;display:list-item;cursor:pointer}
+ .mobile-article-toc nav{display:flex;flex-direction:column;gap:4px;padding-top:12px}
+ .mobile-article-toc nav a{min-height:44px;display:flex;align-items:center;font-size:13px;line-height:1.55;text-decoration:underline}
+ .prose-section{scroll-margin-top:35px}
+}
