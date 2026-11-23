@@ -32,21 +32,27 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<figcaption>'+escapeHtml(a.media?.cover?.caption)+' · Hình minh họa gốc dự án</figcaption></figure>':'';
    const quick=a.media?.highlights?.length?'<div class="quick-card"><h2>Ghi nhớ trong 30 giây</h2><ul>'+
       a.media.highlights.map(v=>'<li>'+escapeHtml(v)+'</li>').join("")+'</ul></div>':'';
-   const toc='<nav class="toc" aria-label="Mục lục bài viết">'+a.sections.map((s,i)=>
-     '<a href="#part-'+i+'">'+escapeHtml(s.heading)+'</a>').join("")+'</nav>';
+   const toc='<nav class="toc" aria-label="Mục lục bài viết"><h2>Trong bài viết này</h2>'+a.sections.map((s,i)=>
+     '<a href="#part-'+i+'">'+String(i+1).padStart(2,"0")+' · '+escapeHtml(s.heading)+'</a>').join("")+'</nav>';
    const sources=a.sources.filter(s=>{try{return new URL(s.url).protocol==="https:"}catch{return false}})
        .map((s,i)=>'<li><a href="'+escapeHtml(s.url)+'" target="_blank" rel="noopener noreferrer nofollow">'+
          (i+1)+'. '+escapeHtml(s.name)+' ↗</a></li>').join("");
-   const body='<div class="hero content"><p><a href="/dev-review">← Về thư viện dev</a></p>'+
-    '<span class="pill">'+escapeHtml(a.status)+' · '+escapeHtml(a.stage)+'</span><h1>'+escapeHtml(a.title)+'</h1>'+
-    '<p style="font-size:18px">'+escapeHtml(a.summary)+'</p><p class="meta">Khoảng '+a.readMinutes+' phút đọc</p></div>'+
-    (source==="snapshot"?'<div class="warn">Bản sao DEV đã lưu trên Web; có thể chưa gồm các chỉnh sửa mới nhất từ Supabase.</div>':'')+
-    '<div class="warn"><b>Nội dung dev, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>'+
-    '<article class="content article-content">'+heroCover+quick+toc+sections+
-    supplemental+related+
-    '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
-    '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
-    '<p><a href="/dev-review">← Quay lại danh sách toàn bộ bài</a></p></article>';
+   const readerHeader='<div class="article-hero"><nav class="reading-breadcrumbs" aria-label="Đường dẫn bài viết">'+
+     '<a href="/dev-review">← Trở về thư viện DEV</a></nav>'+
+     '<span class="pill">CHƯA DUYỆT CHUYÊN MÔN · '+escapeHtml(a.stage)+'</span>'+
+     '<h1>'+escapeHtml(a.title)+'</h1>'+
+     '<p class="reading-lead">'+escapeHtml(a.summary)+'</p>'+
+     '<div class="reader-meta"><span>Khoảng '+Number(a.readMinutes||0)+' phút đọc</span><span> · '+a.sections.length+' phần nội dung</span><span> · '+a.sources.length+' nguồn tham khảo</span></div></div>';
+   const sourceNote=source==="snapshot"?'<div class="warn">Đang hiển thị bản sao DEV đã lưu trên Web; có thể chưa gồm các chỉnh sửa mới nhất từ Supabase.</div>':'';
+   const warning='<div class="warn"><b>Nội dung DEV, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>';
+   const body=readerHeader+sourceNote+warning+
+     '<div class="reading-layout"><aside class="reading-sidebar">'+toc+
+     '<p>Chọn mục để chuyển tới phần muốn đọc. Các mốc thời gian và hướng dẫn y tế cần đối chiếu với chuyên gia phù hợp.</p></aside>'+
+     '<article class="content article-content" aria-label="Nội dung bài viết">'+heroCover+quick+sections+
+     supplemental+related+
+     '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
+     '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
+     '<p><a href="/dev-review">← Quay lại danh sách toàn bộ bài</a></p></article></div>';
    return htmlResponse(a.title,body);
  }catch{return htmlResponse("Chưa tải được bài",'<div class="warn">Bài viết hiện chưa tải được hoặc không tồn tại. <a href="/dev-review">Trở về danh sách.</a></div>',503);}
 }
