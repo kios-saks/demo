@@ -1,17 +1,42 @@
 import Link from "next/link";
-import { getWebRepository } from "../../lib/repository";
+import {getWebRepository} from "../../lib/repository";
+
 export const dynamic="force-dynamic";
-export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; stage?: string }> }) {
-  const params = await searchParams; const q = (params.q || "").trim().toLocaleLowerCase("vi-VN"); const stage = params.stage || "";
-  const repository=getWebRepository();
-  const stages=await repository.listStages();
-  const results=(await repository.listArticles({q,stage,limit:50})).data;
-  return <div className="wrap inner-page"><span className="eyebrow">TRA CỨU KIẾN THỨC</span><h1>Tìm điều bạn đang quan tâm</h1>
-    <form action="/tim-kiem" method="get" className="search-form">
-      <label htmlFor="q" className="sr-only">Từ khóa</label><input id="q" name="q" placeholder="Ví dụ: ngủ, đi học, cảm xúc..." defaultValue={params.q || ""}/>
-      <label htmlFor="stage" className="sr-only">Giai đoạn</label><select id="stage" name="stage" defaultValue={stage}><option value="">Mọi giai đoạn</option>{stages.map(s=><option key={s.slug} value={s.slug}>{s.title}</option>)}</select>
-      <button type="submit">Tìm kiếm</button>
-    </form><p className="result-count">{results.length} bài viết phù hợp</p>
-    <div className="article-grid">{results.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}><span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài →</span></Link>)}</div>
-  </div>;
+export default async function SearchPage({searchParams}:{searchParams:Promise<{q?:string;stage?:string}>}){
+ const params=await searchParams;
+ const q=(params.q||"").trim().slice(0,120);
+ const repository=getWebRepository();
+ const stages=await repository.listStages();
+ const stage=stages.some(s=>s.slug===params.stage)?params.stage||"":"";
+ const results=(await repository.listArticles({q,stage,limit:50})).data;
+ const previewEnabled=Boolean(process.env.DEV_CONTENT_PREVIEW_TOKEN&&process.env.DEV_CONTENT_PREVIEW_TOKEN.length>=24);
+ return <div className="wrap inner-page">
+  <nav className="breadcrumbs" aria-label="Đường dẫn trang"><Link href="/">Trang chủ</Link><span aria-hidden="true">/</span><span aria-current="page">Tra cứu</span></nav>
+  <span className="eyebrow">TÌM KIẾN KIẾN THỨC</span>
+  <h1>Hôm nay bạn muốn tìm hiểu điều gì?</h1>
+  <p className="search-intro">Tìm theo chủ đề hoặc chọn giai đoạn. Nội dung chưa qua kiểm duyệt được giữ trong khu đọc DEV thay vì xuất hiện như lời khuyên chính thức.</p>
+  <form action="/tim-kiem" method="get" className="search-form" role="search">
+   <label htmlFor="q" className="sr-only">Từ khóa tìm kiếm</label>
+   <input id="q" name="q" type="search" autoComplete="off" placeholder="Ví dụ: giấc ngủ, thai kỳ, ăn dặm…" defaultValue={q}/>
+   <label htmlFor="stage" className="sr-only">Chọn giai đoạn</label>
+   <select id="stage" name="stage" defaultValue={stage}>
+    <option value="">Tất cả giai đoạn</option>{stages.map(s=><option key={s.slug} value={s.slug}>{s.title}</option>)}
+   </select>
+   <button type="submit">Tìm bài</button>
+  </form>
+  <p className="result-count" role="status">Có {results.length} bài viết đã được công bố{q?" phù hợp với “"+q+"”":""}.</p>
+  {results.length?<div className="article-grid">{results.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}>
+   {a.media?.cover?<img src={a.media.cover.src} alt={a.media.cover.alt} width="1200" height="675" className="article-card-visual" loading="lazy"/>:null}
+   <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p>
+   <span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
+  </Link>)}</div>:<div className="empty-library" role="status">
+   <h2>Chưa có bài viết đã thẩm định cho tìm kiếm này</h2>
+   <p>Bạn có thể thay đổi bộ lọc, duyệt từng giai đoạn hoặc đọc các bài đang biên tập trong thư viện DEV có mật khẩu. Không có kết quả công khai không có nghĩa dự án chưa có dữ liệu.</p>
+   <div className="empty-actions">
+    {previewEnabled?<Link className="primary-btn" href={"/dev-review?"+new URLSearchParams(Object.entries({q,stage}).filter(([,v])=>v)).toString()}>Tìm trong thư viện DEV →</Link>:null}
+    <Link className="ghost-btn" href="/tim-kiem">Xóa bộ lọc</Link>
+    <Link className="ghost-btn" href="/#hanh-trinh">Xem 12 giai đoạn</Link>
+   </div>
+  </div>}
+ </div>;
 }
