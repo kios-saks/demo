@@ -23,6 +23,9 @@ assert(!homepage.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"
 
 assert(homepage.includes("Đang xem bản giới thiệu công khai"),"Home explains why draft articles are hidden");
 assert(homepage.includes("/dev-review"),"Home provides a path to the gated development library");
+assert(homepage.includes('class="hero-search"'),"Home search is discoverable above the fold");
+assert((homepage.match(/class="journey-card"/g)||[]).length===12,"Journey has 12 image-rich selectable stages");
+assert(homepage.includes("Đi thẳng đến nội dung chính"),"Keyboard skip link must exist on public Web");
 
 const stage=await fetch(web+"/so-sinh");
 assert.equal(stage.status,200);
@@ -51,16 +54,28 @@ assert.equal(overview.status,200,"Authenticated Web preview should load");
 assert.equal(overview.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 const overviewHtml=await overview.text();
 assert(overviewHtml.includes("/media/cover-family-planning.svg"),"Dev library hero has editorial illustration");
+assert(overviewHtml.includes('/dev-review-pro.css'),"Private reader loads responsive design stylesheet");
+assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link target");
+assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
+assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
 assert(overviewHtml.includes("8 bài chuyên sâu"),"DEV highlights eight expanded guides");
 assert(overviewHtml.includes("Hướng dẫn chuyên sâu đang biên tập"),"DEV contains featured deep reading shelf");
 assert(overviewHtml.includes("CHUYÊN SÂU • BẢN NHÁP"),"Editorial deep guides retain draft badge");
 assert(overviewHtml.includes("/dev-review/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
+const readerStyles=await fetch(web+"/dev-review-pro.css");
+assert.equal(readerStyles.status,200,"Private reader design stylesheet is served");
+const readerCss=await readerStyles.text();
+assert(readerCss.includes("prefers-reduced-motion"),"Private UI respects reduced-motion preferences");
+assert(readerCss.includes("min-height:44px"),"Reader navigation has touch-sized targets");
 const detailDev=await fetch(web+"/dev-review/ngu-an-toan-cho-tre-so-sinh",{headers});
 assert.equal(detailDev.status,200,"Authenticated dev preview article loads");
 const detailBody=await detailDev.text();
 assert(detailBody.includes("Giấc ngủ an toàn"));
 assert(detailBody.includes("cdc.gov"),"Specific cited source must be rendered");
+assert(detailBody.includes('class="reading-layout"'),"Long-form articles need readable grid layout");
+assert(detailBody.includes('class="reading-sidebar"'),"Long-form articles need section index");
+assert(detailBody.includes('aria-label="Mục lục bài viết"'),"Section navigation needs an accessible name");
 assert(detailBody.includes("/media/cover-safe-sleep.svg"),"Article must include its own cover illustration");
 assert(detailBody.includes("/media/infographic-safe-sleep.svg"),"Inline cited educational infographic must be rendered");
 assert(detailBody.includes("Vì sao môi trường ngủ quan trọng?"),"Source-verified detailed sleep chapter must render");
