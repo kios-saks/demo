@@ -11,7 +11,8 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      const visual=inline.filter(v=>v.afterSection===i).map(v=>{
        const path=safeMediaPath(v.src);if(!path)return '';
        return '<figure class="infographic-figure"><img src="'+escapeHtml(path)+'" width="1200" height="640" loading="lazy" alt="'+escapeHtml(v.alt)+'">'+
-         '<figcaption>'+escapeHtml(v.caption)+' · <a href="'+escapeHtml(v.sourceUrl||"#")+'" target="_blank" rel="noopener noreferrer nofollow">Xem nguồn gốc ↗</a></figcaption></figure>';
+         '<figcaption>'+escapeHtml(v.caption)+' · <a href="'+escapeHtml(v.sourceUrl||"#")+'" target="_blank" rel="noopener noreferrer nofollow">Xem nguồn gốc ↗</a></figcaption>'+
+         (v.points?.length===3?'<details class="infographic-transcript"><summary>Đọc 3 gợi ý trong hình dưới dạng văn bản</summary><ol>'+v.points.map(point=>'<li>'+escapeHtml(point)+'</li>').join("")+'</ol></details>':"")+'</figure>';
      }).join("");
      return '<section id="part-'+i+'"><h2>'+escapeHtml(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>'+visual;
    }).join("");
