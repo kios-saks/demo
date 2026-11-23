@@ -10,7 +10,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    const sections=a.sections.map((s,i)=>{
      const visual=inline.filter(v=>v.afterSection===i).map(v=>{
        const path=safeMediaPath(v.src);if(!path)return '';
-       return '<figure class="infographic-figure"><img src="'+escapeHtml(path)+'" width="1200" height="640" loading="lazy" alt="'+escapeHtml(v.alt)+'">'+
+       return '<figure class="infographic-figure"><img src="'+escapeHtml(path)+'" width="1200" height="'+(v.src.startsWith("/media/auto-infographic-")?720:640)+'" loading="lazy" alt="'+escapeHtml(v.alt)+'">'+
          '<figcaption>'+escapeHtml(v.caption)+' · <a href="'+escapeHtml(v.sourceUrl||"#")+'" target="_blank" rel="noopener noreferrer nofollow">Xem nguồn gốc ↗</a></figcaption>'+
          (v.points?.length===3?'<details class="infographic-transcript"><summary>Đọc 3 gợi ý trong hình dưới dạng văn bản</summary><ol>'+v.points.map(point=>'<li>'+escapeHtml(point)+'</li>').join("")+'</ol></details>':"")+'</figure>';
      }).join("");
