@@ -8,3 +8,6 @@ dist/
 .DS_Store
 coverage/
 .local/
+
+# Locally generated, deterministic SVG article covers
+apps/web/public/media/auto-cover-*.svg
