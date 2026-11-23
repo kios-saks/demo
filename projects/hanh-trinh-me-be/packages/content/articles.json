@@ -1464,7 +1464,21 @@
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-family-planning.svg",
+          "alt": "Hai người đang trao đổi kế hoạch sức khỏe trước mang thai",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Tìm hiểu axit folic trước thai kỳ",
+          "Kiểm tra thực phẩm bổ sung đang dùng",
+          "Xin tư vấn liều riêng khi có yếu tố nguy cơ"
+        ]
+      }
     },
     {
       "slug": "kham-suc-khoe-tien-thai",
@@ -1684,7 +1698,32 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-antenatal-checkup.svg",
+          "alt": "Sổ lịch khám và những câu hỏi dành cho buổi khám thai đầu",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Chuẩn bị hồ sơ và câu hỏi trước cuộc hẹn",
+          "Đối chiếu lịch theo dõi với cơ sở khám thai",
+          "Không chờ lịch hẹn khi có dấu hiệu nguy hiểm"
+        ],
+        "inline": [
+          {
+            "src": "/media/infographic-maternal-warning.svg",
+            "alt": "Dấu hiệu cảnh báo thai kỳ cần được đánh giá khẩn cấp",
+            "caption": "Dấu hiệu cảnh báo thai kỳ cần được đánh giá khẩn cấp",
+            "credit": "Hành Trình Mẹ & Bé",
+            "license": "original",
+            "afterSection": 1,
+            "sourceUrl": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+          }
+        ]
+      }
     },
     {
       "slug": "om-nghen-va-an-uong-dau-thai-ky",
@@ -2564,7 +2603,32 @@
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-safe-sleep.svg",
+          "alt": "Em bé nằm ngửa trên đệm phẳng trong chiếc cũi không có đồ mềm",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Đặt bé nằm ngửa khi bắt đầu ngủ",
+          "Dùng bề mặt ngủ chắc và phẳng",
+          "Giữ không gian ngủ không gối, chăn rời và thú bông"
+        ],
+        "inline": [
+          {
+            "src": "/media/infographic-safe-sleep.svg",
+            "alt": "Ba nguyên tắc ngủ an toàn theo CDC",
+            "caption": "Ba nguyên tắc ngủ an toàn theo CDC",
+            "credit": "Hành Trình Mẹ & Bé",
+            "license": "original",
+            "afterSection": 1,
+            "sourceUrl": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+          }
+        ]
+      }
     },
     {
       "slug": "dau-hieu-nguy-hiem-o-tre-so-sinh",
@@ -2784,7 +2848,32 @@
           "name": "NHS – Your baby's first solid foods",
           "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-first-solids.svg",
+          "alt": "Em bé ngồi thẳng trên ghế ăn với người lớn bên cạnh",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Bắt đầu ăn bổ sung khoảng 6 tháng",
+          "Chọn thực phẩm đa dạng, kết cấu phù hợp",
+          "Luôn ngồi thẳng và có người lớn quan sát"
+        ],
+        "inline": [
+          {
+            "src": "/media/infographic-first-solids.svg",
+            "alt": "Ba điểm nhớ khi bắt đầu ăn bổ sung theo WHO và NHS",
+            "caption": "Ba điểm nhớ khi bắt đầu ăn bổ sung theo WHO và NHS",
+            "credit": "Hành Trình Mẹ & Bé",
+            "license": "original",
+            "afterSection": 1,
+            "sourceUrl": "https://www.who.int/publications-detail-redirect/9789240081864"
+          }
+        ]
+      }
     },
     {
       "slug": "an-toan-chong-sac-khi-an-dam",
@@ -3606,7 +3695,21 @@
           "name": "UNICEF – How to talk to your child's school about bullying",
           "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-school-safety.svg",
+          "alt": "Một học sinh được người lớn đồng hành tại môi trường trường học",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Lắng nghe và không đổ lỗi cho trẻ",
+          "Ghi nhận sự việc để trao đổi với nhà trường",
+          "Theo dõi kế hoạch bảo vệ an toàn"
+        ]
+      }
     },
     {
       "slug": "suc-khoe-tinh-than-tuoi-thieu-nien",
@@ -3660,7 +3763,21 @@
           "name": "UNICEF – When to help your teen find mental health support",
           "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/cover-teen-mental-health.svg",
+          "alt": "Phụ huynh và thiếu niên cùng trò chuyện trong không gian ấm áp",
+          "caption": "Minh họa biên soạn riêng cho chủ đề",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        },
+        "highlights": [
+          "Lắng nghe trước khi đưa lời khuyên",
+          "Quan tâm thay đổi cảm xúc và sinh hoạt",
+          "Tìm hỗ trợ chuyên môn khi cần"
+        ]
+      }
     },
     {
       "slug": "noi-chuyen-day-thi-tinh-duc-an-toan",

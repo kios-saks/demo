@@ -3,7 +3,7 @@ export interface Stage {slug:string;title:string;icon:string;range:string;descri
 export interface ArticleSource {name:string;url:string}
 export interface ArticleSection {heading:string;paragraphs:string[]}
 export type EditorialStatus="draft"|"in_review"|"published"|"archived";
-export interface Article {slug:string;stage:string;title:string;summary:string;readMinutes:number;order:number;status:EditorialStatus;lastReviewed:string|null;tags:string[];sections:ArticleSection[];sources:ArticleSource[]}
+export interface ArticleMediaAsset {src:string;alt:string;caption:string;credit:string;license:"original";sourceUrl?:string}\nexport interface ArticleMedia {cover?:ArticleMediaAsset;inline?:Array<ArticleMediaAsset&{afterSection:number}>;highlights?:string[]}\nexport interface Article {slug:string;stage:string;title:string;summary:string;readMinutes:number;order:number;status:EditorialStatus;lastReviewed:string|null;tags:string[];sections:ArticleSection[];sources:ArticleSource[];media?:ArticleMedia}
 export type ArticleSummary=Omit<Article,"sections"|"sources">;
 export interface Topic {id:string;slug:string;title:string;stageSlugs:string[];order:number;editorialStatus:EditorialStatus}
 export interface SourceReference {id:string;publisher:string;title:string;url:string;publicationYear:string;topic:string;stageSlugs:string[];accessedAt:string;referenceType:string;language:string;status:string;usage:string;clinicalApproval:boolean;notice:string}

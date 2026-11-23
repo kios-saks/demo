@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import {readFileSync} from "node:fs";
+import {readFileSync,existsSync} from "node:fs";
 const root=new URL("../packages/content/",import.meta.url);
 const read=file=>JSON.parse(readFileSync(new URL(file,root),"utf8"));
 const d=read("articles.json"),sources=read("mock/sources.json"),manifest=read("mock/manifest.json");
@@ -27,3 +27,28 @@ for(const a of d.articles){
 }
 for(const s of stages)assert.equal(coverage[s],6,"Each stage needs exactly six guides: "+s);
 console.log("OK verified editorial coverage:",slugs.size,"draft guides,",sourced.size,"unique sources",totalWords,"Vietnamese words");
+
+// Visual pilot: six distinct licensed-original cover assets + three sourced infographics.
+let covers=0,infographics=0;
+const allPaths=new Set();
+for(const a of d.articles){
+ if(!a.media)continue;
+ const validate=(asset)=>{
+   assert(/^\\/media\\/[a-z0-9-]+\\.svg$/.test(asset.src),"Unsafe media URL: "+a.slug);
+   assert(asset.alt.length>=20,"Illustration needs accessible alt text");
+   assert(asset.license==="original" && asset.credit==="Hành Trình Mẹ & Bé","Unknown media license");
+   assert(existsSync(new URL("../apps/web/public"+asset.src,import.meta.url)),"Missing media asset: "+asset.src);
+   allPaths.add(asset.src);
+ };
+ if(a.media.cover){covers++;validate(a.media.cover)}
+ assert(a.media.highlights.length===3,"Pilot article needs three carefully edited takeaways");
+ for(const item of a.media.inline||[]){
+   validate(item);infographics++;
+   assert(item.afterSection>=0 && item.afterSection<a.sections.length,"Invalid inline visual position");
+   assert(a.sources.some(s=>s.url===item.sourceUrl),"Infographic must cite article's own authoritative source");
+ }
+}
+assert.equal(covers,6,"Expected six independent illustrated covers");
+assert.equal(infographics,3,"Expected three source-specific infographics");
+assert.equal(allPaths.size,9,"Duplicate visual asset");
+console.log("OK visual pilot: six SVG covers, three source-linked infographics");
