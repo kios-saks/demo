@@ -44,13 +44,10 @@ services:
         value: "10000"
       - key: WEB_CONTENT_PROVIDER
         value: api
-      # Free web services cannot receive Render private-network requests.
-      # Use the API's public HTTPS URL, assigned dynamically by Render.
+      # On Free compute, use the API's confirmed public HTTPS hostname.
+      # Avoid depending on an automatically inherited variable at runtime.
       - key: CONTENT_API_INTERNAL_URL
-        fromService:
-          type: web
-          name: hanh-trinh-me-be-api
-          envVarKey: RENDER_EXTERNAL_URL
+        value: https://hanh-trinh-me-be-api-jn5v.onrender.com
       - key: NEXT_PUBLIC_SITE_URL
         fromService:
           type: web

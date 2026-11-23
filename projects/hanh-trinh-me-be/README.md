@@ -222,3 +222,9 @@ as the preview token.
 
 Render Free can sleep; the first preview request may fail during cold start,
 in which case reload after the Backend wakes.
+
+## Resilient DEV reading room (2026-11-23)
+
+The authenticated DEV reading room queries the Supabase-backed API first with a 12-second timeout; Render Free cold starts can exceed this window. If the API cannot be reached, it presents a clearly labeled, read-only snapshot of the same 72 development drafts bundled from `packages/content/articles.json`. This preserves access for editors without leaking drafts through ordinary public article endpoints. Any newer edits made directly in Supabase are not available in snapshot mode, and the UI explicitly identifies its data source.
+
+Set the Web service's `CONTENT_API_INTERNAL_URL` to the Backend's actual public HTTPS origin; do not pass database credentials to Web. The version-controlled Render Blueprint now includes this non-secret origin. Never log the preview token, and do not consider the fallback a substitute for successful API health checks.

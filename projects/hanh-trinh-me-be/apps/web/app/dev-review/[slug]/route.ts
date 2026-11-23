@@ -5,7 +5,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
  const denied=requirePreviewLogin(request);if(denied)return denied;
  try{
    const {slug}=await params;
-   const {data:a,disclaimer}=await getDevArticle(slug);
+   const {data:a,disclaimer,source}=await getDevArticle(slug);
    const sections=a.sections.map(s=>'<section><h2>'+escapeHtml(s.heading)+'</h2>'+
       s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>').join("");
    const sources=a.sources.filter(s=>{try{return new URL(s.url).protocol==="https:"}catch{return false}})
@@ -14,6 +14,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    const body='<div class="hero content"><p><a href="/dev-review">← Về thư viện dev</a></p>'+
     '<span class="pill">'+escapeHtml(a.status)+' · '+escapeHtml(a.stage)+'</span><h1>'+escapeHtml(a.title)+'</h1>'+
     '<p style="font-size:18px">'+escapeHtml(a.summary)+'</p><p class="meta">Khoảng '+a.readMinutes+' phút đọc</p></div>'+
+    (source==="snapshot"?'<div class="warn">Bản sao DEV đã lưu trên Web; có thể chưa gồm các chỉnh sửa mới nhất từ Supabase.</div>':'')+
     '<div class="warn"><b>Nội dung dev, chưa thẩm định chuyên môn.</b> '+escapeHtml(disclaimer)+'</div>'+
     '<article class="content">'+sections+
     '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+

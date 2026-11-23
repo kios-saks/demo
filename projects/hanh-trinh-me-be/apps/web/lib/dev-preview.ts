@@ -1,5 +1,10 @@
 import {timingSafeEqual} from "node:crypto";
 import type {Article,ArticleSummary} from "../../../packages/data/src/contracts";
+import contentSnapshot from "../../../packages/content/articles.json";
+
+export type PreviewSource = "supabase"|"snapshot";
+const snapshotArticles=contentSnapshot.articles as unknown as Article[];
+const snapshotDisclaimer=contentSnapshot.disclaimer;
 
 const securityHeaders={
  "Cache-Control":"private, no-store, max-age=0",
@@ -39,24 +44,50 @@ async function fromApi<T>(route:string):Promise<T>{
    throw Error("Invalid backend origin");
  const response=await fetch(url.origin+"/v1/dev-preview/"+route,{
    headers:{"x-preview-token":token,"Accept":"application/json"},
-   cache:"no-store",signal:AbortSignal.timeout(45000)
+   cache:"no-store",signal:AbortSignal.timeout(12000)
  });
  if(response.status===404)throw Error("Preview API unavailable");
  if(!response.ok)throw Error("Preview API returned non-success");
  return response.json() as Promise<T>;
 }
-export async function listDevArticles():Promise<ArticleSummary[]>{
- const first=await fromApi<{data:ArticleSummary[];meta:{total:number}}>("articles?page=1&limit=50");
- if(first.meta.total>500)throw Error("Preview catalog exceeds reader limit");
- const articles=[...first.data];
- for(let page=2;articles.length<first.meta.total;page++){
-   const next=await fromApi<{data:ArticleSummary[]}>("articles?page="+page+"&limit=50");
-   if(!next.data.length)break;
-   articles.push(...next.data);
- }
- return articles;
+// The Render Free backend may sleep for an extended period. Prefer the actual
+// Supabase-backed API, but never make the owner lose access to the 72 local
+// versioned development articles merely because the remote service is cold.
+// These are development-only drafts; all public release paths remain gated.
+function reportFallback(error:unknown):void{
+ const kind=error instanceof DOMException?"TIMEOUT_OR_ABORT":
+   error instanceof TypeError?"NETWORK_OR_URL":
+   error instanceof Error&&error.message==="Preview backend not configured"?"MISSING_CONFIG":
+   error instanceof Error&&error.message==="Invalid backend origin"?"INVALID_ORIGIN":
+   error instanceof Error&&error.message==="Preview API unavailable"?"UPSTREAM_404":
+   error instanceof Error&&error.message==="Preview API returned non-success"?"UPSTREAM_NON_200":"UNKNOWN";
+ console.warn("DEV_CONTENT_SNAPSHOT_FALLBACK",kind);
 }
-export async function getDevArticle(slug:string):Promise<{data:Article;disclaimer:string}>{
+export async function listDevArticles():Promise<{articles:ArticleSummary[];source:PreviewSource}>{
+ try{
+   const first=await fromApi<{data:ArticleSummary[];meta:{total:number}}>("articles?page=1&limit=50");
+   if(first.meta.total>500)throw Error("Preview catalog exceeds reader limit");
+   const articles=[...first.data];
+   for(let page=2;articles.length<first.meta.total;page++){
+     const next=await fromApi<{data:ArticleSummary[]}>("articles?page="+page+"&limit=50");
+     if(!next.data.length)break;
+     articles.push(...next.data);
+   }
+   return {articles,source:"supabase"};
+ }catch(error){
+   reportFallback(error);
+   return {source:"snapshot",articles:snapshotArticles.map(({sections,sources,...summary})=>summary)};
+ }
+}
+export async function getDevArticle(slug:string):Promise<{data:Article;disclaimer:string;source:PreviewSource}>{
  if(!/^[a-z0-9-]{1,160}$/.test(slug))throw Error("Invalid article slug");
- return fromApi<{data:Article;disclaimer:string}>("articles/"+encodeURIComponent(slug));
+ try{
+   const live=await fromApi<{data:Article;disclaimer:string}>("articles/"+encodeURIComponent(slug));
+   return {...live,source:"supabase"};
+ }catch(error){
+   reportFallback(error);
+   const article=snapshotArticles.find(a=>a.slug===slug);
+   if(!article)throw Error("Article not found in snapshot");
+   return {data:article,disclaimer:snapshotDisclaimer,source:"snapshot"};
+ }
 }
