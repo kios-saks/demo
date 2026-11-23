@@ -11,14 +11,15 @@
     "dev:mobile": "npm run start -w @mebe/mobile",
     "build:web": "npm run generate:media && npm run build -w @mebe/web",
     "test": "npm run test -w @mebe/api && npm run check:content",
-    "check:content": "npm run generate:media && node scripts/check-content.mjs && npm run check:mock",
+    "check:content": "npm run generate:media && node scripts/check-content.mjs && npm run check:media && npm run check:mock",
     "check:mock": "node scripts/check-mock-data.mjs",
     "db:migrate": "npm run db:migrate -w @mebe/api",
     "db:seed": "npm run db:seed -w @mebe/api",
     "test:postgres": "npm run test:postgres -w @mebe/api",
     "db:status": "npm run db:status -w @mebe/api",
     "test:db-routing": "npm run test:db-routing -w @mebe/api",
-    "generate:media": "node scripts/generate-media.mjs"
+    "generate:media": "node scripts/generate-media.mjs",
+    "check:media": "node scripts/check-media-ratio.mjs"
   },
   "engines": {
     "node": ">=20.11.0"
