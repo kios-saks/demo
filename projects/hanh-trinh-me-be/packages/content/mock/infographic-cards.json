@@ -1,0 +1,271 @@
+{
+  "version": "2026-11-23",
+  "editorialStatus": "draft",
+  "notice": "Gợi ý thực hành tự biên soạn; nguồn được liệt kê để đọc thêm, không hàm ý tổ chức nguồn thẩm định hoặc xác nhận. Không dùng làm quyết định y khoa.",
+  "cards": [
+    {
+      "articleSlug": "hen-tu-van-tien-thai",
+      "title": "Chuẩn bị cho cuộc hẹn tiền thai",
+      "points": [
+        "Ghi lại thuốc và sản phẩm bổ sung đang dùng",
+        "Mang tiền sử bệnh và lịch tiêm nếu có",
+        "Viết trước câu hỏi muốn trao đổi với bác sĩ"
+      ],
+      "sourceUrl": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+      "sourceLabel": "cdc.gov"
+    },
+    {
+      "articleSlug": "thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "title": "Rà soát trước khi mang thai",
+      "points": [
+        "Lập danh sách thuốc và sản phẩm bổ sung",
+        "Hỏi về tiêm chủng phù hợp với bản thân",
+        "Không tự dừng hoặc đổi thuốc đang dùng"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "om-nghen-va-an-uong-dau-thai-ky",
+      "title": "Khi ăn uống khó khăn đầu thai kỳ",
+      "points": [
+        "Chọn món dễ dung nạp, bổ sung nước phù hợp",
+        "Ghi nhận điều làm triệu chứng nặng hơn",
+        "Liên hệ nơi khám khi không giữ được nước"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "suc-khoe-tinh-than-ba-thang-dau",
+      "title": "Chăm sóc cảm xúc đầu thai kỳ",
+      "points": [
+        "Gọi tên điều đang khiến mình lo lắng",
+        "Chia sẻ với một người mình tin cậy",
+        "Trao đổi chuyên môn khi lo âu kéo dài"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "kham-thai-ba-thang-giua",
+      "title": "Theo dõi 3 tháng giữa",
+      "points": [
+        "Lưu các mốc khám đã được hẹn",
+        "Ghi lại thay đổi muốn trao đổi khi khám",
+        "Hỏi lại khi chưa hiểu một kết quả xét nghiệm"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "van-dong-an-toan-khi-mang-thai",
+      "title": "Vận động: 3 điều cần trao đổi",
+      "points": [
+        "Hỏi mức vận động phù hợp với thai kỳ",
+        "Ưu tiên hoạt động vừa sức, dễ chịu",
+        "Dừng và xin tư vấn khi có dấu hiệu lạ"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "tui-do-di-sinh",
+      "title": "Ba nhóm đồ cần chuẩn bị",
+      "points": [
+        "Giấy tờ và hồ sơ khám thai",
+        "Đồ dùng thiết yếu cho mẹ và bé",
+        "Số liên hệ và phương án đến nơi sinh"
+      ],
+      "sourceUrl": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "thai-may-va-theo-doi-thai-cuoi-ky",
+      "title": "Quan sát cử động của thai",
+      "points": [
+        "Chú ý nhịp cử động thường ngày của bé",
+        "Ghi lại thay đổi khiến bạn lo lắng",
+        "Liên hệ cơ sở sản khoa khi cử động giảm"
+      ],
+      "sourceUrl": "https://www.cdc.gov/hearher/maternal-warning-signs/",
+      "sourceLabel": "cdc.gov"
+    },
+    {
+      "articleSlug": "chia-viec-trong-gia-dinh",
+      "title": "Chia sẻ việc nhà sau sinh",
+      "points": [
+        "Nêu ba việc cần hỗ trợ mỗi ngày",
+        "Sắp xếp người phụ trách theo từng ca",
+        "Điều chỉnh kỳ vọng khi cả nhà thiếu ngủ"
+      ],
+      "sourceUrl": "https://www.who.int/publications-detail-redirect/9789240045989",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "title": "Hỗ trợ hồi phục sau sinh",
+      "points": [
+        "Làm theo hướng dẫn xuất viện phù hợp",
+        "Nhờ người thân hỗ trợ các việc nặng",
+        "Trao đổi y tế khi có dấu hiệu bất thường"
+      ],
+      "sourceUrl": "https://www.who.int/publications-detail-redirect/9789240045989",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "lam-quen-nhip-sinh-hoat-so-sinh",
+      "title": "Làm quen với nhịp của bé",
+      "points": [
+        "Quan sát bữa bú, giấc ngủ và tã",
+        "Ghi ngắn những điều gia đình chưa rõ",
+        "Duy trì môi trường ngủ an toàn"
+      ],
+      "sourceUrl": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "nhung-cau-hoi-khi-cham-be",
+      "title": "Ba nhóm câu hỏi khi khám bé",
+      "points": [
+        "Hỏi về bú, tã và tăng trưởng",
+        "Hỏi dấu hiệu nào cần được khám ngay",
+        "Hỏi lịch tiêm chủng và lịch tái khám"
+      ],
+      "sourceUrl": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "choi-va-tuong-tac-voi-be",
+      "title": "Chơi cùng bé 4–12 tháng",
+      "points": [
+        "Nhìn mặt và trò chuyện thường xuyên",
+        "Tạo không gian chơi trên sàn an toàn",
+        "Quan sát phản hồi, tránh ép theo khuôn"
+      ],
+      "sourceUrl": "https://www.who.int/publications/i/item/9789241514064",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "an-toan-chong-sac-khi-an-dam",
+      "title": "Giữ an toàn trong bữa ăn dặm",
+      "points": [
+        "Cho bé ngồi thẳng khi ăn",
+        "Chuẩn bị kết cấu thức ăn phù hợp",
+        "Luôn quan sát bé trong suốt bữa ăn"
+      ],
+      "sourceUrl": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+      "sourceLabel": "nhs.uk"
+    },
+    {
+      "articleSlug": "giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+      "title": "Khuyến khích ngôn ngữ 1–3 tuổi",
+      "points": [
+        "Nói rõ ràng và chờ bé phản hồi",
+        "Gọi tên đồ vật trong sinh hoạt hằng ngày",
+        "Đọc sách tranh, hỏi và lắng nghe"
+      ],
+      "sourceUrl": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "sourceLabel": "cdc.gov"
+    },
+    {
+      "articleSlug": "an-toan-trong-nha-khi-tre-tap-di",
+      "title": "Rà soát an toàn trong nhà",
+      "points": [
+        "Kiểm tra ổ điện, dây kéo và cửa ra vào",
+        "Cất vật nhỏ, thuốc và chất tẩy rửa",
+        "Quan sát cầu thang, cửa sổ và cạnh bàn"
+      ],
+      "sourceUrl": "https://www.unicef.org/parenting/child-development/baby-tips",
+      "sourceLabel": "unicef.org"
+    },
+    {
+      "articleSlug": "hoc-qua-choi-ba-den-sau-tuoi",
+      "title": "Học qua chơi 3–6 tuổi",
+      "points": [
+        "Cho trẻ chủ động chọn trò chơi",
+        "Đặt câu hỏi mở và cùng kể chuyện",
+        "Khen nỗ lực thay vì đem trẻ so sánh"
+      ],
+      "sourceUrl": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+      "sourceLabel": "unicef.org"
+    },
+    {
+      "articleSlug": "giao-tiep-gioi-han-khong-don-roi",
+      "title": "Giới hạn không dùng bạo lực",
+      "points": [
+        "Nói trước giới hạn thật ngắn gọn",
+        "Lắng nghe và gọi tên cảm xúc của trẻ",
+        "Làm mẫu cách xử lý tình huống bình tĩnh"
+      ],
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "giac-ngu-hoc-sinh-tieu-hoc",
+      "title": "Tạo nếp ngủ cho trẻ đi học",
+      "points": [
+        "Duy trì giờ ngủ tương đối ổn định",
+        "Giảm thời gian màn hình trước giờ ngủ",
+        "Trao đổi nếu trẻ thường xuyên mệt ban ngày"
+      ],
+      "sourceUrl": "https://www.cdc.gov/healthy-schools/sleep/",
+      "sourceLabel": "cdc.gov"
+    },
+    {
+      "articleSlug": "thoi-quen-hoc-tap-tieu-hoc",
+      "title": "Học tập không chỉ là điểm số",
+      "points": [
+        "Chia mục tiêu học thành việc nhỏ",
+        "Giữ thời gian nghỉ ngơi và vận động",
+        "Nhìn nhận quá trình, không chỉ kết quả"
+      ],
+      "sourceUrl": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+      "sourceLabel": "unicef.org"
+    },
+    {
+      "articleSlug": "noi-chuyen-day-thi-tinh-duc-an-toan",
+      "title": "Trò chuyện về tuổi dậy thì",
+      "points": [
+        "Hỏi con đang muốn hiểu điều gì",
+        "Dùng từ ngữ rõ ràng và tôn trọng",
+        "Nói về ranh giới và người có thể giúp"
+      ],
+      "sourceUrl": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+      "sourceLabel": "who.int"
+    },
+    {
+      "articleSlug": "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "title": "Ba việc khi gặp rủi ro online",
+      "points": [
+        "Thống nhất nguyên tắc về quyền riêng tư",
+        "Lưu lại bằng chứng khi bị quấy rối",
+        "Tìm người lớn đáng tin để được hỗ trợ"
+      ],
+      "sourceUrl": "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+      "sourceLabel": "unicef.org"
+    },
+    {
+      "articleSlug": "ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+      "title": "Bắt đầu hành trình tự lập",
+      "points": [
+        "Thử lập kế hoạch chi tiêu cá nhân",
+        "Rèn các kỹ năng tự chăm sóc cơ bản",
+        "Trao đổi kỳ vọng và trách nhiệm chung"
+      ],
+      "sourceUrl": "https://www.unicef.org/reports/parenting-adolescents",
+      "sourceLabel": "unicef.org"
+    },
+    {
+      "articleSlug": "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "title": "Tôn trọng ranh giới khi con lớn",
+      "points": [
+        "Hỏi trước khi góp ý chuyện riêng",
+        "Tôn trọng lựa chọn và quyền riêng tư",
+        "Thỏa thuận cách giữ liên lạc phù hợp"
+      ],
+      "sourceUrl": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+      "sourceLabel": "unicef.org"
+    }
+  ]
+}
