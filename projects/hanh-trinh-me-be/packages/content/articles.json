@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-23-editorial-media-72-plus-24-infographics",
+  "version": "2026-11-23-editorial-deep-articles-phase-1",
   "disclaimer": "Thư viện kiến thức đang được biên tập trong môi trường phát triển. Bài viết diễn giải độc lập bằng tiếng Việt từ các nguồn gốc được dẫn ở cuối bài; không phải tài liệu chính thức do tổ chức nguồn xuất bản hay chứng thực. Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc hướng dẫn của nhân viên y tế. Khi có dấu hiệu cấp cứu, liên hệ cơ sở y tế ngay; lịch tiêm và chăm sóc cần theo hướng dẫn hiện hành tại Việt Nam.",
   "stages": [
     {
@@ -1729,7 +1729,7 @@
       "stage": "chuan-bi-mang-thai",
       "title": "Axit folic trước mang thai: những điều nên biết",
       "summary": "Thời điểm bắt đầu, liều dùng thông thường và khi nào cần tư vấn riêng.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 25,
       "status": "draft",
       "lastReviewed": null,
@@ -1751,6 +1751,48 @@
           "paragraphs": [
             "Kiểm tra nhãn viên bổ sung đang dùng để biết lượng axit folic, đồng thời ghi lại thuốc và thực phẩm chức năng khác trước cuộc hẹn tiền thai. Hỏi nhân viên y tế khi chuẩn bị mang thai, thay vì đợi đến khi khám lần đầu mới bắt đầu chú ý dinh dưỡng.",
             "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Tại sao phải quan tâm từ trước khi có thai?",
+          "paragraphs": [
+            "Ống thần kinh hình thành rất sớm trong thai kỳ, khi nhiều người còn chưa biết mình mang thai. Vì vậy, việc tìm hiểu axit folic nên bắt đầu từ giai đoạn có kế hoạch sinh con, không đợi đến khi siêu âm thấy thai. Đây là một biện pháp dự phòng có bằng chứng, nhưng không thể loại bỏ toàn bộ nguy cơ dị tật bẩm sinh hay thay thế các bước chăm sóc tiền thai khác.",
+            "CDC khuyến nghị người có khả năng mang thai nhận 400 microgam (mcg) axit folic mỗi ngày. Đơn vị microgam rất dễ bị nhầm với miligam: 400 mcg tương đương 0,4 mg. Đó là khuyến nghị chung dành cho nhiều người, không đồng nghĩa mọi thai kỳ hay bệnh sử đều áp dụng cùng một liều."
+          ]
+        },
+        {
+          "heading": "Phân biệt axit folic, folate và các viên vitamin",
+          "paragraphs": [
+            "Folate là tên gọi một nhóm dạng vitamin B9, có trong nhiều thực phẩm như rau xanh và đậu. Axit folic là dạng được dùng trong thực phẩm tăng cường vi chất và nhiều viên bổ sung. Ăn uống đa dạng vẫn quan trọng, nhưng khó tự suy ra đã đủ lượng axit folic khuyến nghị chỉ từ một thực đơn hoặc nhãn ghi 'giàu folate'.",
+            "Khi chọn sản phẩm, đọc danh mục thành phần và hàm lượng theo đơn vị mcg. Nhiều viên tổng hợp cho người chuẩn bị mang thai đã chứa axit folic; nếu dùng thêm sản phẩm khác dễ xảy ra chồng lấp. Mang nhãn sản phẩm hoặc ảnh chụp thành phần tới buổi tư vấn để nhân viên y tế xem toàn bộ những thứ bạn đang sử dụng."
+          ]
+        },
+        {
+          "heading": "Cách chuẩn bị trong một tuần",
+          "paragraphs": [
+            "Ngày đầu, ghi lại mục tiêu chuẩn bị mang thai, thuốc kê đơn, thuốc không kê đơn, thực phẩm bổ sung và bệnh đã được chẩn đoán. Những ngày sau, kiểm tra thành phần viên đang dùng, cách ghi liều và đơn vị. Hẹn nhân viên y tế nếu bạn đang dùng nhiều sản phẩm hoặc có bệnh nền; không tự bỏ thuốc để chuyển sang 'chế độ tự nhiên'.",
+            "Trong cuộc hẹn, có thể hỏi: Tôi cần bắt đầu bổ sung từ khi nào? Sản phẩm hiện tại đã đủ thành phần hay chưa? Có thuốc nào ảnh hưởng đến việc bổ sung hoặc thai kỳ không? Sau cuộc hẹn, ghi lại hướng dẫn riêng và ngày tái khám. Một ghi chú ngắn nhưng chính xác hữu ích hơn việc thu thập nhiều lời khuyên trái ngược trên mạng."
+          ]
+        },
+        {
+          "heading": "Những trường hợp cần tư vấn riêng",
+          "paragraphs": [
+            "Người đã từng có thai bị dị tật ống thần kinh, đang dùng một số thuốc hoặc có yếu tố nguy cơ đặc biệt có thể được chỉ định cách bổ sung khác khuyến nghị thông thường. Liều cao không nên tự quyết định vì cần cân nhắc tiền sử, tương tác thuốc và kế hoạch theo dõi. Việc cùng có chữ 'vitamin' không có nghĩa một sản phẩm luôn an toàn ở bất kỳ mức liều nào.",
+            "Nếu phát hiện mình mang thai khi chưa bổ sung từ trước, không nên tự trách hay cố uống bù nhiều viên. Hãy liên hệ cơ sở chăm sóc thai kỳ, thông báo tuổi thai ước tính và những sản phẩm đã dùng để được hướng dẫn phù hợp. Axit folic chỉ là một phần của chăm sóc tiền thai; tiêm chủng, bệnh nền, thuốc và sức khỏe tinh thần cũng cần được xem xét."
+          ]
+        },
+        {
+          "heading": "Hai tình huống thường gặp",
+          "paragraphs": [
+            "Một người đang uống vitamin tổng hợp và vừa mua thêm viên B9 vì nghe nói 'càng nhiều càng tốt'. Thay vì uống cả hai theo cảm tính, người đó so sánh nhãn để biết lượng axit folic mỗi viên và hỏi nhân viên y tế. Mục tiêu là có một kế hoạch rõ ràng, không phải sở hữu nhiều hộp thực phẩm chức năng.",
+            "Một người khác đang điều trị bệnh mạn tính và muốn mang thai trong năm tới. Điều quan trọng là đặt lịch tư vấn với bác sĩ đang điều trị và người phụ trách chăm sóc tiền thai, mang theo danh sách thuốc, thay vì dừng điều trị đột ngột. Đây là ví dụ về lập kế hoạch an toàn, không phải chỉ dẫn thay thuốc."
+          ]
+        },
+        {
+          "heading": "Hỏi nhanh trước khi kết thúc bài",
+          "paragraphs": [
+            "Có thể chỉ ăn nhiều rau để thay viên bổ sung không? Thực phẩm giàu folate rất hữu ích, nhưng khuyến nghị về axit folic nhằm bảo đảm lượng dự phòng đã được nghiên cứu; nên thảo luận nguồn bổ sung phù hợp với nhân viên y tế. Có cần xét nghiệm gene MTHFR trước khi sử dụng không? CDC không khuyến nghị xét nghiệm thường quy chỉ để quyết định bổ sung axit folic.",
+            "Ba điều nên nhớ: bắt đầu tìm hiểu trước khi có thai; đọc đúng đơn vị mcg và thành phần sản phẩm; hỏi bác sĩ nếu có tiền sử đặc biệt hoặc đang sử dụng thuốc. Bài viết tổng hợp từ tài liệu CDC, không phải lời kê đơn và không bảo đảm kết quả của bất kỳ thai kỳ riêng lẻ nào."
           ]
         },
         {
@@ -2085,7 +2127,7 @@
       "stage": "thai-ky-3-thang-dau",
       "title": "Ốm nghén và ăn uống 3 tháng đầu",
       "summary": "Phân biệt khó chịu thường gặp với tình huống cần khám.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 30,
       "status": "draft",
       "lastReviewed": null,
@@ -2107,6 +2149,48 @@
           "paragraphs": [
             "Thử chia bữa nhỏ, chọn đồ ăn dễ chịu, ghi thời điểm khó chịu và các yếu tố khiến nặng hơn. Nếu cần thuốc chống nôn hay bổ sung vi chất, hỏi bác sĩ đang quản lý thai kỳ. Người nhà có thể giúp chuẩn bị đồ ăn và hạn chế mùi khiến thai phụ khó chịu.",
             "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Ốm nghén không chỉ diễn ra buổi sáng",
+          "paragraphs": [
+            "Buồn nôn và nôn trong thai kỳ có thể xuất hiện vào bất kỳ thời điểm nào. Một số người khó chịu chủ yếu với mùi thức ăn, số khác không thể ăn một bữa bình thường. Không nên so sánh trải nghiệm giữa các thai phụ: có người vẫn sinh hoạt được, nhưng có người bị ảnh hưởng đáng kể tới công việc, giấc ngủ và chất lượng sống.",
+            "Quan trọng nhất là đánh giá mức độ mất nước và khả năng duy trì ăn uống, không phải chỉ đếm số lần buồn nôn. Nếu cơ thể liên tục không giữ được chất lỏng, tiểu ít hoặc cảm thấy rất yếu, cần liên hệ nhân viên y tế. Nôn nghén nặng có thể dẫn đến mất nước, thiếu dinh dưỡng và đôi khi cần điều trị tại cơ sở y tế."
+          ]
+        },
+        {
+          "heading": "Ghi lại điều gì để trao đổi dễ dàng?",
+          "paragraphs": [
+            "Bạn có thể dùng ghi chú trên điện thoại để ghi thời điểm nôn, khả năng uống nước, màu và lượng nước tiểu, đồ ăn dung nạp được và triệu chứng đi kèm. Không cần theo dõi đến từng phút hoặc biến bảng ghi thành áp lực. Những điểm bất thường lặp lại trong ngày giúp người khám hiểu tình trạng hơn câu nói chung chung 'mấy hôm nay em rất mệt'.",
+            "Đối với người thân, việc hỗ trợ có thể rất đơn giản: chuẩn bị thức ăn không nặng mùi, nhường việc nấu nướng khi mùi bếp gây khó chịu, và đưa đi khám khi cần. Tránh ép thai phụ ăn hết khẩu phần hoặc nói rằng nôn nghén là chuyện 'phải chịu' vì người khác cũng từng như vậy."
+          ]
+        },
+        {
+          "heading": "Thử điều chỉnh bữa ăn như thế nào?",
+          "paragraphs": [
+            "Một số người thấy dễ chịu hơn khi chia bữa nhỏ, ăn chậm và lựa chọn món ít mùi, dễ dung nạp. Có thể thử đồ ăn nguội hoặc nhiệt độ phòng nếu mùi thức ăn nóng làm buồn nôn. Uống nước từng ngụm nhỏ, đều đặn trong ngày có thể dễ chịu hơn cố uống thật nhiều cùng một lúc; cách phù hợp tùy từng người.",
+            "Không có thực đơn chung bắt buộc cho mọi trường hợp ốm nghén. Đừng tự cắt bỏ toàn bộ nhóm thực phẩm hoặc dùng sản phẩm giảm nghén quảng cáo trên mạng. Nếu ăn uống giảm kéo dài, đang sụt cân hoặc không uống nổi, cơ sở y tế có thể đánh giá và đề nghị cách điều trị phù hợp, gồm thuốc chống nôn an toàn khi cần."
+          ]
+        },
+        {
+          "heading": "Dấu hiệu cần liên hệ y tế và cấp cứu",
+          "paragraphs": [
+            "NHS khuyến cáo liên hệ nơi chăm sóc thai kỳ khi nôn khiến bạn không giữ được thức ăn hoặc chất lỏng, có biểu hiện mất nước như nước tiểu sẫm và ít, hoặc thấy yếu và chóng mặt. Nếu có đau bụng dữ dội, ngất, khó thở, ra máu bất thường hoặc các dấu hiệu cảnh báo sản khoa khác, cần được đánh giá khẩn cấp; không tự gán tất cả cho ốm nghén.",
+            "Người đang có bệnh nền, thai kỳ cần theo dõi đặc biệt hoặc dùng thuốc phải báo cho bác sĩ biết. Đừng dùng thuốc kê đơn của người khác, tự tăng liều hay tự dùng thảo dược vì nhãn 'thiên nhiên'. Một số triệu chứng giống ốm nghén có thể do nguyên nhân khác, nên cần chuyên môn để phân biệt."
+          ]
+        },
+        {
+          "heading": "Tình huống gia đình dễ gặp",
+          "paragraphs": [
+            "Một thai phụ buồn nôn chủ yếu khi đi làm và không thể ăn bữa trưa lớn. Gia đình có thể thử chuẩn bị vài món nhỏ ít mùi mà người đó thấy phù hợp, cho phép nghỉ ngắn và đặt nước ở vị trí dễ lấy. Nếu vẫn không giữ được nước hoặc có dấu mất nước, ưu tiên liên hệ cơ sở khám thai thay vì tiếp tục thử thực đơn.",
+            "Một người khác nghe rằng uống nước gừng hoặc thuốc chống nôn chắc chắn giải quyết vấn đề. Thực tế mức độ hiệu quả và độ an toàn cần xét theo trường hợp; nếu triệu chứng kéo dài hoặc nặng, lựa chọn điều trị phải trao đổi cùng nhân viên y tế. Điều cần tránh là để những lời khuyên không được kiểm chứng làm chậm việc khám."
+          ]
+        },
+        {
+          "heading": "Những câu hỏi nên mang đến buổi khám",
+          "paragraphs": [
+            "Tôi có dấu hiệu mất nước không? Khi nào nên quay lại hoặc đi cấp cứu? Có lựa chọn điều trị nào phù hợp với tuổi thai và thuốc đang dùng? Tôi cần theo dõi cân nặng và ăn uống ra sao? Người hỗ trợ có thể hỏi cách nhận biết tình huống cần đưa thai phụ đi viện trong đêm, thay vì tự chẩn đoán từ triệu chứng trên mạng.",
+            "Tóm lại, mục tiêu là giúp người mang thai ăn uống và sinh hoạt an toàn, không ép phải hết buồn nôn bằng mọi giá. Khi triệu chứng ảnh hưởng nhiều hoặc gây lo lắng, trao đổi sớm với người có chuyên môn. Các hướng dẫn tại Việt Nam và chỉ định của cơ sở đang theo dõi bạn luôn được ưu tiên."
           ]
         },
         {
@@ -2933,7 +3017,7 @@
       "stage": "hau-san",
       "title": "Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung",
       "summary": "Theo dõi sức khỏe, nghỉ ngơi, dinh dưỡng và vết thương theo hướng dẫn.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 42,
       "status": "draft",
       "lastReviewed": null,
@@ -2955,6 +3039,48 @@
           "paragraphs": [
             "Giữ giấy ra viện và lịch tái khám, ghi lại thuốc và chỉ dẫn vết thương. Phân chia việc nặng cho người hỗ trợ, dành thời gian ngủ và uống ăn phù hợp. Nếu muốn vận động trở lại hoặc có băn khoăn về cho con bú khi dùng thuốc, hỏi bác sĩ đang theo dõi.",
             "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Những ngày đầu: quan sát thay vì cố gắng về lại nhịp cũ",
+          "paragraphs": [
+            "Quá trình hồi phục sau sinh thay đổi theo phương pháp sinh, mức mất máu, bệnh nền, những can thiệp đã thực hiện và điều kiện gia đình. Với sinh mổ, vết mổ và sự hồi phục sau phẫu thuật cần được lưu ý; với sinh thường, người mẹ cũng có thể có đau vùng tầng sinh môn, mệt mỏi hoặc những khó chịu khác. Không nên dùng trải nghiệm của người khác làm thước đo tiến độ.",
+            "Trước khi rời bệnh viện, cả gia đình nên biết những thuốc được kê, hướng dẫn chăm sóc vết thương, lịch tái khám và cách liên hệ khi có triệu chứng bất thường. Nếu chưa hiểu nội dung xuất viện, hãy hỏi lại để được giải thích bằng cách có thể thực hiện tại nhà. Tránh tự thay băng, bôi thuốc hay thực hiện mẹo dân gian lên vết thương khi chưa được hướng dẫn."
+          ]
+        },
+        {
+          "heading": "Chăm vết mổ và vận động sau sinh mổ",
+          "paragraphs": [
+            "Với người sinh mổ, việc giữ vết thương sạch, khô theo hướng dẫn và quan sát đỏ lan, sưng, chảy dịch có mùi hoặc đau tăng là quan trọng. Có thể hỏi bác sĩ cách tắm, thay băng và thời điểm được trở lại với các hoạt động sinh hoạt thường ngày. Không nên dùng một mốc thời gian trên mạng để tự bỏ qua hướng dẫn riêng của bệnh viện.",
+            "Vận động nhẹ và từng bước có thể được khuyến khích khi cơ sở điều trị cho phép, nhưng nâng vật nặng, thể thao gắng sức và các hoạt động gây đau cần được cân nhắc. Nếu chóng mặt, đau tăng hoặc có dấu hiệu bất thường, dừng lại và xin ý kiến nhân viên y tế. Người thân nên hỗ trợ việc bế đồ, dọn dẹp, mua sắm và đưa bé đi khám."
+          ]
+        },
+        {
+          "heading": "Người sinh thường cũng cần theo dõi",
+          "paragraphs": [
+            "Sinh thường không đồng nghĩa người mẹ phải có thể làm việc nhà ngay. Đau, mất ngủ, khó chịu vùng tầng sinh môn và cảm giác quá tải đều cần được lắng nghe. Nếu có khâu tầng sinh môn hoặc được hướng dẫn vệ sinh đặc biệt, làm theo giấy ra viện. Hỏi bác sĩ khi có cơn đau ngày càng tăng, sốt hoặc dịch tiết bất thường.",
+            "Bất kể cách sinh nào, ăn uống đủ chất, uống nước phù hợp, ngủ nghỉ và trợ giúp thực tế đều có giá trị. Người chăm sóc có thể chuẩn bị bữa ăn, giữ môi trường yên tĩnh và giảm những việc không cấp thiết. Đừng để một người phải vừa hồi phục vừa cáng đáng toàn bộ việc nhà chỉ vì 'đã có kinh nghiệm chăm con'."
+          ]
+        },
+        {
+          "heading": "Dấu hiệu cảnh báo cần xử trí nhanh",
+          "paragraphs": [
+            "CDC nhấn mạnh các dấu hiệu nguy hiểm có thể xảy ra trong thai kỳ và đến một năm sau sinh. Đau ngực, khó thở, đau đầu dữ dội dai dẳng, thay đổi thị lực, ngất, chảy máu nhiều hoặc ý nghĩ làm hại bản thân hay em bé đều cần trợ giúp y tế khẩn cấp. Với các triệu chứng nghiêm trọng, nên gọi cấp cứu địa phương thay vì chờ lịch tái khám.",
+            "Đau hoặc sưng một bên chân, sốt cao, vết mổ có biểu hiện nhiễm trùng, sản dịch có mùi bất thường hoặc cảm giác 'có điều gì không ổn' cần được đánh giá phù hợp. Khi tới cơ sở y tế, hãy nói rõ mình vừa sinh cách đây bao lâu và phương pháp sinh; thông tin này giúp nhân viên y tế nhận ra những nguy cơ liên quan hậu sản."
+          ]
+        },
+        {
+          "heading": "Sức khỏe tinh thần không phải việc phụ",
+          "paragraphs": [
+            "Sự thay đổi cảm xúc sau sinh có thể đi cùng thiếu ngủ và áp lực chăm con. Tuy nhiên, buồn bã dai dẳng, lo âu quá mức, cảm giác bất lực hoặc không thể thực hiện sinh hoạt thường ngày xứng đáng được quan tâm chuyên môn. Gia đình có thể hỏi người mẹ muốn được hỗ trợ việc gì, lắng nghe mà không phán xét và hỗ trợ sắp xếp thăm khám.",
+            "Nếu xuất hiện ý nghĩ tự làm hại bản thân hoặc làm hại bé, cần trợ giúp khẩn cấp ngay và không để người đang gặp nguy hiểm ở một mình. Tránh đánh giá thấp những lời kêu cứu, kể cả khi người mẹ thường ngày rất mạnh mẽ. WHO coi chăm sóc hậu sản tích cực là chăm sóc đồng thời sức khỏe thể chất, tinh thần và mối quan hệ của người mẹ với bé."
+          ]
+        },
+        {
+          "heading": "Ví dụ phân chia một ngày và câu hỏi tái khám",
+          "paragraphs": [
+            "Gia đình có thể phân công người chịu trách nhiệm chuẩn bị bữa sáng, người phụ trách giặt giũ và người hỗ trợ chăm bé theo khoảng thời gian thỏa thuận. Việc nhắc thuốc hay lịch khám nên dựa đúng giấy ra viện, không tự lập phác đồ. Sau vài ngày, hỏi người mẹ xem việc phân chia có thực sự giúp giảm mệt mỏi hay cần đổi cách hỗ trợ.",
+            "Khi tái khám, hãy hỏi: vết thương đang hồi phục như thế nào, hoạt động nào có thể làm trở lại, thuốc đang dùng có ảnh hưởng đến việc nuôi con hay không, và khi nào phải liên hệ khẩn cấp. Đừng tự chẩn đoán tình trạng vết thương qua ảnh chụp. Các tài liệu này chỉ giúp chuẩn bị câu hỏi, không thay thế đánh giá lâm sàng."
           ]
         },
         {
@@ -3142,7 +3268,7 @@
       "stage": "so-sinh",
       "title": "Giấc ngủ an toàn: nằm ngửa và mặt phẳng chắc",
       "summary": "Những điều quan trọng nhất khi chuẩn bị chỗ ngủ cho trẻ nhỏ.",
-      "readMinutes": 3,
+      "readMinutes": 7,
       "order": 45,
       "status": "draft",
       "lastReviewed": null,
@@ -3164,6 +3290,48 @@
           "paragraphs": [
             "Kiểm tra cũi/nôi, ga vừa vặn và bỏ toàn bộ đồ mềm không cần thiết. Khi cho bé ăn đêm, chuẩn bị cách đặt bé trở lại nơi ngủ riêng. Nhắc người lớn trong nhà làm thống nhất cả giấc ngày lẫn đêm.",
             "Thử ghi lại điều đã thực hiện và câu hỏi còn vướng trong một ghi chú ngắn. Nếu gia đình có bệnh nền, trẻ sinh non, hoàn cảnh chăm sóc đặc biệt hoặc hướng dẫn riêng của bác sĩ, hãy ưu tiên kế hoạch cá thể hóa của họ."
+          ]
+        },
+        {
+          "heading": "Vì sao môi trường ngủ quan trọng?",
+          "paragraphs": [
+            "Nguyên tắc ngủ an toàn nhằm giảm nguy cơ tử vong liên quan giấc ngủ ở trẻ, gồm ngạt thở do tai nạn và hội chứng đột tử ở trẻ nhỏ. CDC khuyến nghị đặt trẻ nằm ngửa mỗi khi bắt đầu ngủ, kể cả giấc ngày và giấc đêm. Bề mặt ngủ cần chắc, phẳng và không nghiêng, có ga vừa vặn; các vật mềm không nên nằm trong không gian ngủ.",
+            "Những khuyến nghị này áp dụng cho việc chăm sóc trẻ khỏe mạnh tại nhà. Nếu trẻ có vấn đề sức khỏe đặc biệt hoặc từng được nhân viên y tế hướng dẫn khác, cha mẹ cần trao đổi lại với đội ngũ đang chăm sóc để biết cách áp dụng phù hợp. Không nên suy đoán rằng trẻ ọc sữa thì phải tự đặt nghiêng hoặc kê cao đầu."
+          ]
+        },
+        {
+          "heading": "Chuẩn bị chỗ ngủ từng bước",
+          "paragraphs": [
+            "Chọn cũi hoặc nôi đáp ứng tiêu chuẩn an toàn, có nệm chắc và phẳng, ga bọc vừa đúng kích thước. Bỏ gối, thú bông, chăn dày, đệm chắn thành cũi và vật rời khỏi khu vực nằm của bé. Trước khi đặt bé xuống, kiểm tra xem có khe kẹt, dây buộc, vật dụng mềm hay phụ kiện có thể che mũi miệng của bé không.",
+            "Đặt bé nằm ngửa ngay từ đầu mỗi giấc ngủ. Nếu cần giữ ấm, ưu tiên quần áo ngủ phù hợp hoặc túi ngủ không trọng lượng, thay vì chăn rời có thể trùm mặt bé. Tránh mặc quá nóng; theo dõi biểu hiện nóng bức và môi trường ngủ. Những sản phẩm có tên gọi 'chống trào ngược' hoặc 'chống ngạt' không tự động chứng minh được an toàn."
+          ]
+        },
+        {
+          "heading": "Cùng phòng khác bề mặt ngủ",
+          "paragraphs": [
+            "CDC khuyên bố trí chỗ ngủ riêng của bé trong cùng phòng với người chăm sóc, lý tưởng ít nhất sáu tháng đầu. Cùng phòng giúp người lớn dễ quan sát và đáp ứng nhu cầu của bé nhưng không đồng nghĩa bé ngủ chung trên giường người lớn. Ghế sofa, ghế bành và các bề mặt mềm có nguy cơ đặc biệt cao khi người lớn ngủ thiếp đi cùng trẻ.",
+            "Trong những đêm phải cho bé bú hoặc dỗ dành, hãy chuẩn bị trước nơi có thể đặt bé trở lại sau khi chăm sóc. Nếu người chăm sóc quá buồn ngủ, nên nhờ người khác hỗ trợ khi có thể; tránh ngồi ôm bé trên ghế và ngủ quên. Thỏa thuận nguyên tắc này với tất cả người chăm bé, kể cả ông bà và người hỗ trợ ban ngày."
+          ]
+        },
+        {
+          "heading": "Phân biệt chỗ nghỉ tạm và chỗ ngủ thường xuyên",
+          "paragraphs": [
+            "Ghế ô tô, xe đẩy, địu hay ghế rung có thể được sử dụng cho mục đích được nhà sản xuất hướng dẫn, nhưng không phải lựa chọn thay thế cho mặt phẳng ngủ riêng đạt tiêu chuẩn. Nếu bé ngủ trong thiết bị không được thiết kế làm nơi ngủ thường xuyên, cần đưa bé sang bề mặt ngủ an toàn ngay khi có thể và phù hợp tình huống.",
+            "Không dùng gối nêm, nệm nghiêng, cuộn khăn chặn hai bên người hoặc dụng cụ cố định tư thế để tự giải quyết tình trạng trớ. Nếu bé trớ nhiều, khó thở hoặc có bệnh lý, hãy trao đổi với bác sĩ về triệu chứng và cách chăm sóc riêng; không đổi tư thế ngủ dựa trên quảng cáo hoặc kinh nghiệm truyền miệng."
+          ]
+        },
+        {
+          "heading": "Kiểm tra an toàn trong 30 giây",
+          "paragraphs": [
+            "Trước mỗi giấc ngủ, người chăm có thể tự hỏi: Bé được đặt nằm ngửa chưa? Bề mặt có phẳng, chắc và không bị nghiêng không? Trong cũi có gối, thú bông, chăn rời hay đồ chơi không? Ga có vừa không? Bé có đang quá nóng hay mặc quá nhiều lớp không? Đây là thao tác quan sát đơn giản, không phải một thang điểm y khoa.",
+            "Nếu nhiều người thay phiên trông bé, nên viết các nguyên tắc trên thành tờ ghi nhớ ở gần cũi. Khi có tranh luận trong gia đình, hãy cùng xem hướng dẫn của CDC và hỏi bác sĩ nhi khoa, thay vì tranh luận dựa trên việc trước đây một trẻ từng ngủ như thế nào mà không gặp vấn đề."
+          ]
+        },
+        {
+          "heading": "Các câu hỏi phổ biến và lúc cần hỗ trợ",
+          "paragraphs": [
+            "Bé thường trớ thì có nên kê nghiêng nệm không? Không nên tự thực hiện; bề mặt nghiêng không đáp ứng khuyến nghị ngủ an toàn. Bé nằm ngửa có sợ sặc không? Theo khuyến nghị chung, tư thế nằm ngửa vẫn được ưu tiên cho giấc ngủ; nếu có bệnh lý đặc biệt, cần tư vấn riêng. Có cần gối định hình đầu không? Tránh vật mềm hoặc thiết bị đặt thêm trong chỗ ngủ.",
+            "Nếu trẻ khó thở, tím tái, lừ đừ khó đánh thức, co giật hoặc có triệu chứng nguy hiểm khác, cần trợ giúp y tế khẩn cấp. Các gợi ý vệ sinh giấc ngủ không thay thế việc đánh giá bệnh lý. Mục tiêu của gia đình là tạo môi trường ngủ giảm rủi ro một cách nhất quán, không tìm cách ép bé ngủ theo một khung giờ cố định."
           ]
         },
         {
