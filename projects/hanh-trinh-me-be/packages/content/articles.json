@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-22-sourced-content-2",
+  "version": "2026-11-23-editorial-media-72",
   "disclaimer": "Thư viện kiến thức đang được biên tập trong môi trường phát triển. Bài viết diễn giải độc lập bằng tiếng Việt từ các nguồn gốc được dẫn ở cuối bài; không phải tài liệu chính thức do tổ chức nguồn xuất bản hay chứng thực. Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc hướng dẫn của nhân viên y tế. Khi có dấu hiệu cấp cứu, liên hệ cơ sở y tế ngay; lịch tiêm và chăm sóc cần theo hướng dẫn hiện hành tại Việt Nam.",
   "stages": [
     {
@@ -152,7 +152,16 @@
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-cuoc-tro-chuyen-truoc-khi-co-con.svg",
+          "alt": "Minh họa chủ đề 5 cuộc trò chuyện trước khi có em bé, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "hen-tu-van-tien-thai",
@@ -206,7 +215,16 @@
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-hen-tu-van-tien-thai.svg",
+          "alt": "Minh họa chủ đề Một cuộc hẹn tiền thai nên chuẩn bị gì?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "lan-kham-thai-dau-tien",
@@ -260,7 +278,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-lan-kham-thai-dau-tien.svg",
+          "alt": "Minh họa chủ đề Lần khám thai đầu tiên: chuẩn bị như thế nào?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "cam-xuc-dau-thai-ky",
@@ -314,7 +341,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-cam-xuc-dau-thai-ky.svg",
+          "alt": "Minh họa chủ đề Khi cảm xúc thay đổi trong đầu thai kỳ, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "nhat-ky-thai-ky",
@@ -368,7 +404,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-nhat-ky-thai-ky.svg",
+          "alt": "Minh họa chủ đề Tạo nhật ký thai kỳ không áp lực, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dong-hanh-khi-mang-thai",
@@ -422,7 +467,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dong-hanh-khi-mang-thai.svg",
+          "alt": "Minh họa chủ đề Người đồng hành có thể giúp gì?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "tui-do-di-sinh",
@@ -476,7 +530,16 @@
           "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
           "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-tui-do-di-sinh.svg",
+          "alt": "Minh họa chủ đề Danh sách túi đồ đi sinh linh hoạt, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ke-hoach-ho-tro-sau-sinh",
@@ -530,7 +593,16 @@
           "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
           "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-ke-hoach-ho-tro-sau-sinh.svg",
+          "alt": "Minh họa chủ đề Lập kế hoạch hỗ trợ 2 tuần đầu sau sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "nguoi-me-cung-can-duoc-cham-soc",
@@ -584,7 +656,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-nguoi-me-cung-can-duoc-cham-soc.svg",
+          "alt": "Minh họa chủ đề Sau sinh, người mẹ cũng cần được chăm sóc, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "chia-viec-trong-gia-dinh",
@@ -638,7 +719,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-chia-viec-trong-gia-dinh.svg",
+          "alt": "Minh họa chủ đề Phân chia công việc để không ai kiệt sức, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "lam-quen-nhip-sinh-hoat-so-sinh",
@@ -692,7 +782,16 @@
           "name": "CDC – Providing Care for Babies to Sleep Safely",
           "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-lam-quen-nhip-sinh-hoat-so-sinh.svg",
+          "alt": "Minh họa chủ đề Làm quen nhịp sinh hoạt của trẻ sơ sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "nhung-cau-hoi-khi-cham-be",
@@ -746,7 +845,16 @@
           "name": "CDC – Providing Care for Babies to Sleep Safely",
           "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-nhung-cau-hoi-khi-cham-be.svg",
+          "alt": "Minh họa chủ đề 10 câu hỏi nên hỏi bác sĩ khi chăm bé sơ sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "choi-va-tuong-tac-voi-be",
@@ -804,7 +912,16 @@
           "name": "CDC – Milestones by 6 Months",
           "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-choi-va-tuong-tac-voi-be.svg",
+          "alt": "Minh họa chủ đề Chơi và tương tác cùng bé 4–12 tháng, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "moc-phat-trien-khong-phai-cuoc-dua",
@@ -862,7 +979,16 @@
           "name": "CDC – Milestones by 6 Months",
           "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-moc-phat-trien-khong-phai-cuoc-dua.svg",
+          "alt": "Minh họa chủ đề Mốc phát triển không phải cuộc đua, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "khi-con-noi-khong",
@@ -916,7 +1042,16 @@
           "name": "WHO – Corporal punishment of children and health",
           "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-khi-con-noi-khong.svg",
+          "alt": "Minh họa chủ đề Khi con bắt đầu nói “không”, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "goc-choi-kham-pha-an-toan",
@@ -974,7 +1109,16 @@
           "name": "WHO – Corporal punishment of children and health",
           "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-goc-choi-kham-pha-an-toan.svg",
+          "alt": "Minh họa chủ đề Thiết kế góc chơi khám phá an toàn, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "hoc-thong-qua-choi",
@@ -1032,7 +1176,16 @@
           "name": "UNICEF – The science of play",
           "url": "https://www.unicef.org/parenting/child-care/science-of-play"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-hoc-thong-qua-choi.svg",
+          "alt": "Minh họa chủ đề Học thông qua chơi ở tuổi mầm non, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "chuan-bi-ngay-dau-di-hoc",
@@ -1086,7 +1239,16 @@
           "name": "UNICEF – The science of play",
           "url": "https://www.unicef.org/parenting/child-care/science-of-play"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-chuan-bi-ngay-dau-di-hoc.svg",
+          "alt": "Minh họa chủ đề Chuẩn bị cho ngày đầu đi học, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dong-hanh-viec-hoc",
@@ -1140,7 +1302,16 @@
           "name": "CDC – Sleep and Health",
           "url": "https://www.cdc.gov/healthy-schools/sleep/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dong-hanh-viec-hoc.svg",
+          "alt": "Minh họa chủ đề Đồng hành việc học không chỉ nhìn điểm số, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "tinh-ban-dau-doi",
@@ -1194,7 +1365,16 @@
           "name": "CDC – Sleep and Health",
           "url": "https://www.cdc.gov/healthy-schools/sleep/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-tinh-ban-dau-doi.svg",
+          "alt": "Minh họa chủ đề Đồng hành cùng tình bạn đầu đời, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "noi-chuyen-ve-day-thi",
@@ -1248,7 +1428,16 @@
           "name": "UNICEF – 11 tips for communicating with your teen",
           "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-noi-chuyen-ve-day-thi.svg",
+          "alt": "Minh họa chủ đề Nói chuyện về dậy thì không xấu hổ, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "an-toan-so-cung-con",
@@ -1302,7 +1491,16 @@
           "name": "UNICEF – 11 tips for communicating with your teen",
           "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-an-toan-so-cung-con.svg",
+          "alt": "Minh họa chủ đề Xây dựng thỏa thuận an toàn số với con, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dong-hanh-khi-con-tu-lap",
@@ -1356,7 +1554,16 @@
           "name": "UNICEF – Parenting of Adolescents",
           "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dong-hanh-khi-con-tu-lap.svg",
+          "alt": "Minh họa chủ đề Khi con bắt đầu tự lập, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "giu-ket-noi-gia-dinh",
@@ -1410,7 +1617,16 @@
           "name": "UNICEF – Parenting of Adolescents",
           "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-giu-ket-noi-gia-dinh.svg",
+          "alt": "Minh họa chủ đề Giữ kết nối gia đình khi con đã lớn, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "axit-folic-truoc-khi-mang-thai",
@@ -1532,7 +1748,16 @@
           "name": "CDC – Folic Acid: Facts for Clinicians",
           "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-kham-suc-khoe-tien-thai.svg",
+          "alt": "Minh họa chủ đề Khám sức khỏe tiền thai: checklist chuẩn bị, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "thuoc-tiem-chung-va-ke-hoach-thai-ky",
@@ -1586,7 +1811,16 @@
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-thuoc-tiem-chung-va-ke-hoach-thai-ky.svg",
+          "alt": "Minh họa chủ đề Rà soát thuốc và tiêm chủng trước khi có thai, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ke-hoach-ho-tro-tien-thai",
@@ -1640,7 +1874,16 @@
           "name": "UNICEF – Parenting of Adolescents",
           "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-ke-hoach-ho-tro-tien-thai.svg",
+          "alt": "Minh họa chủ đề Kế hoạch hỗ trợ gia đình trước khi có con, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "lich-kham-thai-ba-thang-dau",
@@ -1777,7 +2020,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-om-nghen-va-an-uong-dau-thai-ky.svg",
+          "alt": "Minh họa chủ đề Ốm nghén và ăn uống 3 tháng đầu, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "suc-khoe-tinh-than-ba-thang-dau",
@@ -1831,7 +2083,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-suc-khoe-tinh-than-ba-thang-dau.svg",
+          "alt": "Minh họa chủ đề Lo âu đầu thai kỳ: khi nào tìm hỗ trợ?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dau-hieu-nguy-hiem-dau-thai-ky",
@@ -1885,7 +2146,16 @@
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dau-hieu-nguy-hiem-dau-thai-ky.svg",
+          "alt": "Minh họa chủ đề Dấu hiệu cảnh báo không nên bỏ qua khi mới mang thai, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "kham-thai-ba-thang-giua",
@@ -1943,7 +2213,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-kham-thai-ba-thang-giua.svg",
+          "alt": "Minh họa chủ đề Theo dõi 3 tháng giữa: lịch hẹn và câu hỏi, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "sang-loc-tieu-duong-thai-ky",
@@ -1997,7 +2276,16 @@
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-sang-loc-tieu-duong-thai-ky.svg",
+          "alt": "Minh họa chủ đề Sàng lọc đái tháo đường thai kỳ: hỏi gì khi khám?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "van-dong-an-toan-khi-mang-thai",
@@ -2051,7 +2339,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-van-dong-an-toan-khi-mang-thai.svg",
+          "alt": "Minh họa chủ đề Vận động trong thai kỳ: lắng nghe cơ thể, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "chat-luong-giac-ngu-ba-thang-giua",
@@ -2105,7 +2402,16 @@
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-chat-luong-giac-ngu-ba-thang-giua.svg",
+          "alt": "Minh họa chủ đề Giấc ngủ và sự thoải mái ở 3 tháng giữa, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ke-hoach-sinh-an-toan",
@@ -2163,7 +2469,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-ke-hoach-sinh-an-toan.svg",
+          "alt": "Minh họa chủ đề Lập kế hoạch sinh linh hoạt cho gia đình, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dau-hieu-can-di-vien-cuoi-thai-ky",
@@ -2217,7 +2532,16 @@
           "name": "NHS – Your antenatal care and appointments",
           "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dau-hieu-can-di-vien-cuoi-thai-ky.svg",
+          "alt": "Minh họa chủ đề Cuối thai kỳ: khi nào cần liên hệ bệnh viện?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "thai-may-va-theo-doi-thai-cuoi-ky",
@@ -2271,7 +2595,16 @@
           "name": "WHO – Promoting healthy pregnancy / antenatal care",
           "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-thai-may-va-theo-doi-thai-cuoi-ky.svg",
+          "alt": "Minh họa chủ đề Quan sát thai máy và thay đổi đáng chú ý, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "chuan-bi-sau-sinh-dinh-duong-cham-soc",
@@ -2329,7 +2662,16 @@
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-chuan-bi-sau-sinh-dinh-duong-cham-soc.svg",
+          "alt": "Minh họa chủ đề Chuẩn bị 48 giờ và 6 tuần đầu sau sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "dau-hieu-canh-bao-sau-sinh",
@@ -2383,7 +2725,16 @@
           "name": "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience",
           "url": "https://www.who.int/publications-detail-redirect/9789240045989"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dau-hieu-canh-bao-sau-sinh.svg",
+          "alt": "Minh họa chủ đề Dấu hiệu cảnh báo ở mẹ sau sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
@@ -2437,7 +2788,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-hoi-phuc-sau-sinh-mo-va-sinh-thuong.svg",
+          "alt": "Minh họa chủ đề Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "tam-trang-sau-sinh-va-tram-cam",
@@ -2491,7 +2851,16 @@
           "name": "CDC – Urgent Maternal Warning Signs and Symptoms",
           "url": "https://www.cdc.gov/hearher/maternal-warning-signs/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-tam-trang-sau-sinh-va-tram-cam.svg",
+          "alt": "Minh họa chủ đề Tâm trạng sau sinh: khi nào nên nhờ người giúp?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ho-tro-bu-me-va-khi-kho-khan",
@@ -2549,7 +2918,16 @@
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-ho-tro-bu-me-va-khi-kho-khan.svg",
+          "alt": "Minh họa chủ đề Hỗ trợ nuôi con bằng sữa mẹ sau sinh, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ngu-an-toan-cho-tre-so-sinh",
@@ -2682,7 +3060,16 @@
           "name": "CDC – Milestones by 2 Months",
           "url": "https://www.cdc.gov/act-early/milestones/2-months.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-dau-hieu-nguy-hiem-o-tre-so-sinh.svg",
+          "alt": "Minh họa chủ đề Dấu hiệu nguy hiểm ở trẻ sơ sinh cần đưa đi khám, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "bu-me-hoan-toan-sau-sinh",
@@ -2736,7 +3123,16 @@
           "name": "WHO – Caring for a newborn",
           "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-bu-me-hoan-toan-sau-sinh.svg",
+          "alt": "Minh họa chủ đề Bú mẹ hoàn toàn 6 tháng đầu: nguyên tắc nền tảng, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "theo-doi-phat-trien-hai-thang-dau",
@@ -2790,7 +3186,16 @@
           "name": "UNICEF – Parenting tips for the first two years of life",
           "url": "https://www.unicef.org/parenting/child-development/baby-tips"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-theo-doi-phat-trien-hai-thang-dau.svg",
+          "alt": "Minh họa chủ đề Quan sát mốc phát triển trong 2 tháng đầu, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "an-dam-khi-nao-bat-dau",
@@ -2931,7 +3336,16 @@
           "name": "NHS – Your baby's first solid foods",
           "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-an-toan-chong-sac-khi-an-dam.svg",
+          "alt": "Minh họa chủ đề Phòng hóc sặc khi bé bắt đầu ăn dặm, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "moc-phat-trien-sau-thang-thu-sau",
@@ -2989,7 +3403,16 @@
           "name": "UNICEF – Parenting tips for the first two years of life",
           "url": "https://www.unicef.org/parenting/child-development/baby-tips"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-moc-phat-trien-sau-thang-thu-sau.svg",
+          "alt": "Minh họa chủ đề Theo dõi phát triển 6–12 tháng không áp lực, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
@@ -3043,7 +3466,16 @@
           "name": "CDC – Milestones by 6 Months",
           "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang.svg",
+          "alt": "Minh họa chủ đề Giấc ngủ 4–12 tháng: thói quen và an toàn, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
@@ -3097,7 +3529,16 @@
           "name": "UNICEF – Parenting tips for the first two years of life",
           "url": "https://www.unicef.org/parenting/child-development/baby-tips"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-giao-tiep-voi-tre-tu-mot-den-ba-tuoi.svg",
+          "alt": "Minh họa chủ đề Phát triển ngôn ngữ 1–3 tuổi: trò chuyện thế nào?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "con-an-va-tu-lap-khi-tap-di",
@@ -3155,7 +3596,16 @@
           "name": "WHO – Infant and young child feeding (2026)",
           "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-con-an-va-tu-lap-khi-tap-di.svg",
+          "alt": "Minh họa chủ đề Bữa ăn 1–3 tuổi: khuyến khích tự lập không ép, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "cam-xuc-an-va-khung-hoang-tuoi-len-hai",
@@ -3209,7 +3659,16 @@
           "name": "CDC – Milestones by 2 Years",
           "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-cam-xuc-an-va-khung-hoang-tuoi-len-hai.svg",
+          "alt": "Minh họa chủ đề Trẻ hay ăn vạ: thiết lập giới hạn không bạo lực, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "an-toan-trong-nha-khi-tre-tap-di",
@@ -3263,7 +3722,16 @@
           "name": "WHO – Corporal punishment of children and health",
           "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-an-toan-trong-nha-khi-tre-tap-di.svg",
+          "alt": "Minh họa chủ đề An toàn khi con bắt đầu chạy, leo trèo và khám phá, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "hoc-qua-choi-ba-den-sau-tuoi",
@@ -3317,7 +3785,16 @@
           "name": "CDC – Milestones by 4 Years",
           "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-hoc-qua-choi-ba-den-sau-tuoi.svg",
+          "alt": "Minh họa chủ đề Học qua chơi 3–6 tuổi: trò chơi nào thực sự hữu ích?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "moc-phat-trien-tuoi-bon-va-nam",
@@ -3371,7 +3848,16 @@
           "name": "CDC – Milestones by 5 Years",
           "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-moc-phat-trien-tuoi-bon-va-nam.svg",
+          "alt": "Minh họa chủ đề Mốc 4–5 tuổi: quan sát thay vì tạo áp lực, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "lam-quen-truong-mam-non",
@@ -3425,7 +3911,16 @@
           "name": "CDC – Milestones by 4 Years",
           "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-lam-quen-truong-mam-non.svg",
+          "alt": "Minh họa chủ đề Làm quen môi trường mẫu giáo: lộ trình mềm mại, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "giao-tiep-gioi-han-khong-don-roi",
@@ -3479,7 +3974,16 @@
           "name": "UNICEF – How babies learn through play",
           "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-giao-tiep-gioi-han-khong-don-roi.svg",
+          "alt": "Minh họa chủ đề Kỷ luật tích cực cho trẻ mầm non, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "thoi-quen-hoc-tap-tieu-hoc",
@@ -3533,7 +4037,16 @@
           "name": "CDC – Sleep and Health",
           "url": "https://www.cdc.gov/healthy-schools/sleep/"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-thoi-quen-hoc-tap-tieu-hoc.svg",
+          "alt": "Minh họa chủ đề Thói quen học tập 6–11 tuổi không chạy theo điểm số, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "giac-ngu-hoc-sinh-tieu-hoc",
@@ -3587,7 +4100,16 @@
           "name": "UNICEF – Positive parenting tips for children aged 6–10",
           "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-giac-ngu-hoc-sinh-tieu-hoc.svg",
+          "alt": "Minh họa chủ đề Trẻ tiểu học ngủ bao nhiêu là đủ?, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "van-dong-cho-tre-tieu-hoc",
@@ -3641,7 +4163,16 @@
           "name": "UNICEF – Positive parenting tips for children aged 6–10",
           "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-van-dong-cho-tre-tieu-hoc.svg",
+          "alt": "Minh họa chủ đề Vận động mỗi ngày cho trẻ 6–11 tuổi, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "phong-chong-bat-nat-o-truong",
@@ -3831,7 +4362,16 @@
           "name": "UNICEF – 11 tips for communicating with your teen",
           "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-noi-chuyen-day-thi-tinh-duc-an-toan.svg",
+          "alt": "Minh họa chủ đề Nói chuyện về dậy thì và ranh giới cá nhân, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
@@ -3885,7 +4425,16 @@
           "name": "UNICEF – 11 tips for communicating with your teen",
           "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen.svg",
+          "alt": "Minh họa chủ đề An toàn số và bắt nạt trực tuyến ở tuổi teen, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "giao-tiep-voi-con-tuoi-teen",
@@ -3943,7 +4492,16 @@
           "name": "WHO – Mental health of adolescents",
           "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-giao-tiep-voi-con-tuoi-teen.svg",
+          "alt": "Minh họa chủ đề 11 nguyên tắc gợi ý để trò chuyện với con tuổi teen, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "ke-hoach-tu-lap-sau-muoi-tam-tuoi",
@@ -3997,7 +4555,16 @@
           "name": "UNICEF – 11 tips for communicating with your teen",
           "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-ke-hoach-tu-lap-sau-muoi-tam-tuoi.svg",
+          "alt": "Minh họa chủ đề Lập kế hoạch tự lập sau 18 tuổi, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "thoi-quen-suc-khoe-o-tuoi-truong-thanh",
@@ -4051,7 +4618,16 @@
           "name": "WHO – Mental health of adolescents",
           "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-thoi-quen-suc-khoe-o-tuoi-truong-thanh.svg",
+          "alt": "Minh họa chủ đề Thói quen sức khỏe khi bước vào tuổi trưởng thành, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
@@ -4105,7 +4681,16 @@
           "name": "UNICEF – Parenting of Adolescents",
           "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh.svg",
+          "alt": "Minh họa chủ đề Thiết lập ranh giới lành mạnh giữa cha mẹ và con trưởng thành, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     },
     {
       "slug": "quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
@@ -4163,7 +4748,16 @@
           "name": "UNICEF – Parenting of Adolescents",
           "url": "https://www.unicef.org/reports/parenting-adolescents"
         }
-      ]
+      ],
+      "media": {
+        "cover": {
+          "src": "/media/auto-cover-quan-he-tinh-than-va-ho-tro-khi-truong-thanh.svg",
+          "alt": "Minh họa chủ đề Duy trì sức khỏe tinh thần và các mối quan hệ khi lớn lên, thuộc hành trình chăm sóc và đồng hành cùng gia đình",
+          "caption": "Minh họa riêng theo chủ đề bài viết, không phải hình ảnh hướng dẫn y khoa",
+          "credit": "Hành Trình Mẹ & Bé",
+          "license": "original"
+        }
+      }
     }
   ]
 }
