@@ -15,7 +15,7 @@ test("when upstream is asleep, public Web shows 12 stage cards but never any dra
  assert.equal((await repo.listStages()).length,12);
  assert.equal((await repo.listArticles()).meta.total,0);
  assert.equal(await repo.getArticle("ngu-an-toan-cho-tre-so-sinh"),null);
- assert.equal((await repo.listSources()).length,46);
+ assert.equal((await repo.listSources()).length,loadSeedDataset().sources.length);
  assert.deepEqual(await repo.listResearchCards(),[]);
  await assert.rejects(()=>repo.getOverview(),/disabled|available publicly/);
 });
