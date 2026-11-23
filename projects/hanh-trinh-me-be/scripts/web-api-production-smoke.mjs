@@ -54,5 +54,8 @@ assert.equal(detailDev.status,200,"Authenticated dev preview article loads");
 const detailBody=await detailDev.text();
 assert(detailBody.includes("Giấc ngủ an toàn"));
 assert(detailBody.includes("cdc.gov"),"Specific cited source must be rendered");
+assert(detailBody.includes("/media/cover-safe-sleep.svg"),"Article must include its own cover illustration");
+assert(detailBody.includes("/media/infographic-safe-sleep.svg"),"Inline cited educational infographic must be rendered");
+assert.equal(detailDev.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 assert(detailBody.includes("Nội dung dev, chưa thẩm định chuyên môn."));
 console.log("PASS: password-gated 72-article dev reading room; guest denied, draft API protected, real sources rendered.");
