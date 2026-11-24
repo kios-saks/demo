@@ -5,13 +5,17 @@ import type { KnowledgeRepository, EditorialStatus } from "../../../packages/dat
 import { createKnowledgeRepository } from "./repository.js";
 import { registerAdmin } from "./admin.js";
 import type { DemoTokens } from "./admin.js";
+import {registerMedia} from "./media-routes.js";
+import type {MediaService} from "./media-service.js";
 
-export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository(),tokens?:DemoTokens) {
+export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository(),tokens?:DemoTokens,media?:MediaService) {
   const app=Fastify({logger:false});
   if("close" in repository && typeof repository.close==="function")
     app.addHook("onClose",async()=>{await (repository as KnowledgeRepository & {close:()=>Promise<void>}).close();});
   void app.register(cors,{origin:process.env.CORS_ORIGIN?.split(",")||["http://localhost:3000"]});
   void registerAdmin(app,repository,tokens);
+  registerMedia(app,media);
+  if(media)app.addHook("onClose",async()=>media.close());
   app.get("/health",async()=>({ok:true,version:"0.4.1",provider:repository.provider}));
   app.get("/health/ready",async(_req,reply)=>{
     try{

@@ -1,0 +1,43 @@
+import {createHash,timingSafeEqual} from "node:crypto";
+import type {FastifyInstance,FastifyReply} from "fastify";
+import {MediaError} from "./media-storage.js";
+import type {MediaService} from "./media-service.js";
+const eq=(input:unknown,secret:string|undefined)=>typeof input==="string"&&input.length<=4096&&typeof secret==="string"&&secret.length>=24&&timingSafeEqual(createHash("sha256").update(input).digest(),createHash("sha256").update(secret).digest());
+const no=(reply:FastifyReply)=>reply.code(404).send({error:"NOT_FOUND"});
+const privacy=(reply:FastifyReply)=>reply.header("Cache-Control","private, no-store").header("X-Robots-Tag","noindex, nofollow");
+function adminRole(value:unknown){
+ const {MEDIA_DEV_EDITOR_TOKEN:e,MEDIA_DEV_REVIEWER_TOKEN:r,DEV_CONTENT_PREVIEW_TOKEN:p}=process.env;
+ if(!e||!r||e.length<32||r.length<32||e===r||e===p||r===p||typeof value!=="string"||!value.startsWith("Bearer "))return null;
+ const token=value.slice(7);return eq(token,e)?"editor":eq(token,r)?"reviewer":null;
+}
+const body=(value:unknown):Record<string,unknown>=>{if(!value||typeof value!=="object"||Array.isArray(value))throw new MediaError(400,"INVALID_PAYLOAD");return value as Record<string,unknown>;};
+async function respond(reply:FastifyReply,task:()=>Promise<unknown>){
+ try{return {data:await task()};}catch(e){if(e instanceof MediaError)return reply.code(e.status).send({error:e.code});return reply.code(503).send({error:"MEDIA_UNAVAILABLE"});}
+}
+export function registerMedia(app:FastifyInstance,service?:MediaService){
+ app.get<{Params:{slug:string}}>("/v1/dev-preview/media/:slug",async(req,reply)=>{
+   privacy(reply);if(!eq(req.headers["x-preview-token"],process.env.DEV_CONTENT_PREVIEW_TOKEN))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>service.active(req.params.slug));
+ });
+ app.get<{Params:{slug:string}}>("/v1/dev-media-admin/:slug",async(req,reply)=>{
+   privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>service.history(req.params.slug));
+ });
+ app.post<{Params:{slug:string}}>("/v1/dev-media-admin/:slug/preview",async(req,reply)=>{
+   privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>{const b=body(req.body);return service.preview(req.params.slug,b.slot,b.revision);});
+ });
+ app.post<{Params:{slug:string}}>("/v1/dev-media-admin/:slug/upload",{bodyLimit:3*1024*1024},async(req,reply)=>{
+   privacy(reply);if(adminRole(req.headers.authorization)!=="editor")return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>service.upload(req.params.slug,body(req.body)));
+ });
+ app.post<{Params:{slug:string}}>("/v1/dev-media-admin/:slug/review",async(req,reply)=>{
+   privacy(reply);if(adminRole(req.headers.authorization)!=="reviewer")return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>service.review(req.params.slug,body(req.body)));
+ });
+}

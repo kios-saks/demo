@@ -2,10 +2,11 @@ import {loadLocalEnv} from "./db/connection.js";
 import {RoutedEditorialRepository} from "../../../packages/data/src/routed-repository.js";
 import {createKnowledgeRepository} from "./repository.js";
 import {buildApp} from "./app.js";
+import {createMediaService} from "./media-service.js";
 
 loadLocalEnv();
 const repo=createKnowledgeRepository();
-const app=buildApp(repo);
+const app=buildApp(repo,undefined,createMediaService());
 try{
  // Bind HTTP before probing external PostgreSQL. Render Free cold starts must
  // not crash the process solely because the Shared Pooler is slow to respond.
