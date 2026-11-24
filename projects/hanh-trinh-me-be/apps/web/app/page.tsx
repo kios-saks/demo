@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getWebRepository } from "../lib/repository";
 import {stageVisuals} from "../lib/stage-visuals";
+import {stageGroups,readerTopics} from "../lib/reader-navigation";
 
 export const dynamic="force-dynamic";
 
@@ -45,11 +46,11 @@ export default async function Home() {
    </section>
    <section className="wrap section" id="hanh-trinh" aria-labelledby="journey-title">
     <div className="section-heading">
-     <div><span className="eyebrow">CHỌN ĐIỂM BẮT ĐẦU</span><h2 id="journey-title">12 giai đoạn trong hành trình gia đình</h2></div>
-     <p>Không cần đọc mọi thứ cùng lúc. Chọn chặng phù hợp nhất với bạn hôm nay.</p>
+     <div><span className="eyebrow">CHỌN ĐIỂM BẮT ĐẦU</span><h2 id="journey-title">Khám phá theo hành trình</h2></div>
+     <p>Sáu nhóm lớn và 12 chặng chi tiết. Chọn chặng phù hợp nhất với gia đình.</p>
     </div>
-    <div className="journey-grid">
-     {stages.map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
+    <div className="public-stage-groups">
+     {stageGroups.map(group=><details className="public-stage-group" key={group.image}><summary><img src={stageVisuals[group.image]||"/media/cover-family-planning.svg"} alt="" width={1200} height={675} loading="lazy"/><div><strong>{group.title}</strong><small>{group.description}</small><span aria-hidden="true">⌄</span></div></summary><div className="public-stage-links">{group.stages.map(([slug])=>stages.find(s=>s.slug===slug)).filter((s):s is NonNullable<typeof s>=>Boolean(s)).map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
       <div className="journey-card-image">
        <img src={stageVisuals[s.slug]||"/media/cover-family-planning.svg"} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
        <span className="journey-card-index">{String(i+1).padStart(2,"0")}</span>
@@ -58,8 +59,9 @@ export default async function Home() {
        <span className="journey-card-range">{s.range}</span><h3>{s.title}</h3>
        <p>{s.description}</p><span className="journey-card-action">Khám phá chặng này <span aria-hidden="true">→</span></span>
       </div>
-     </Link>)}
+     </Link>)}</div></details>)}
     </div>
+    <div className="public-topic-panel"><h2>Bạn đang quan tâm điều gì?</h2><div className="public-topic-chips">{readerTopics.map(t=><Link key={t} href={"/tim-kiem?q="+encodeURIComponent(t)}>{t}</Link>)}</div></div>
    </section>
    <section className="content-paths" aria-labelledby="topic-title">
     <div className="wrap">
