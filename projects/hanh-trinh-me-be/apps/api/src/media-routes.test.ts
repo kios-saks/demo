@@ -48,3 +48,26 @@ test("reader binary routes deny unauthenticated access and only expose authorize
   assert.equal(r.statusCode,200);assert.equal(r.payload,"test");assert.equal(r.headers["x-content-type-options"],"nosniff");assert.match(String(r.headers["cache-control"]),/no-store/);
  }assert.equal(calls,2);}finally{await app.close();if(before===undefined)delete process.env.DEV_CONTENT_PREVIEW_TOKEN;else process.env.DEV_CONTENT_PREVIEW_TOKEN=before;}
 });
+
+test("CMS session, catalog and historical bytes require media role",async()=>{
+ const keys=["DEV_CONTENT_PREVIEW_TOKEN","MEDIA_DEV_EDITOR_TOKEN","MEDIA_DEV_REVIEWER_TOKEN"] as const;
+ const old=keys.map(k=>process.env[k]);const [p,e,r]=["p".repeat(40),"e".repeat(40),"r".repeat(40)];
+ keys.forEach((k,i)=>process.env[k]=[p,e,r][i]);
+ const app=Fastify();
+ let catalog=0,images=0;
+ const service={adminCatalog:async()=>{catalog++;return {items:[],progress:{target:65,upgraded:0}};},revisionImage:async()=>{images++;return {bytes:Buffer.from("test"),mime:"image/webp",id:"a".repeat(64)};}} as unknown as MediaService;
+ registerMedia(app,service);
+ try{
+  for(const path of ["session","catalog","article/image/cover/1"]){
+   const url="/v1/dev-media-admin/"+path;
+   for(const token of ["",p])assert.equal((await app.inject({url,headers:{authorization:"Bearer "+token}})).statusCode,404);
+   for(const [token,role] of [[e,"editor"],[r,"reviewer"]]){
+    const res=await app.inject({url,headers:{authorization:"Bearer "+token}});assert.equal(res.statusCode,200);assert.match(String(res.headers["cache-control"]),/no-store/);
+    if(path==="session")assert.equal(res.json().data.role,role);
+    if(path.includes("/image/"))assert.equal(res.headers["x-media-asset"],"a".repeat(64));
+   }
+  }
+  assert.equal(catalog,2);assert.equal(images,2);
+  assert.equal((await app.inject({url:"/v1/dev-media-admin/article/image/cover/0",headers:{authorization:"Bearer "+e}})).statusCode,404);
+ }finally{await app.close();keys.forEach((k,i)=>{if(old[i]===undefined)delete process.env[k];else process.env[k]=old[i];});}
+});

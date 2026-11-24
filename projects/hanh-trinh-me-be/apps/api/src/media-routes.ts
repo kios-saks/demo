@@ -34,6 +34,22 @@ export function registerMedia(app:FastifyInstance,service?:MediaService){
    if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
    return imageReply(reply,()=>service.catalogImage(req.params.file));
  });
+ app.get("/v1/dev-media-admin/session",async(req,reply)=>{
+   privacy(reply);const role=adminRole(req.headers.authorization);if(!role)return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return {data:{role}};
+ });
+ app.get("/v1/dev-media-admin/catalog",async(req,reply)=>{
+   privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return respond(reply,()=>service.adminCatalog());
+ });
+ app.get<{Params:{slug:string;slot:string;revision:string}}>("/v1/dev-media-admin/:slug/image/:slot/:revision",async(req,reply)=>{
+   privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   if(!/^[1-9][0-9]{0,8}$/.test(req.params.revision))return no(reply);
+   return imageReply(reply,()=>service.revisionImage(req.params.slug,req.params.slot,Number(req.params.revision)));
+ });
  app.get<{Params:{slug:string}}>("/v1/dev-media-admin/:slug",async(req,reply)=>{
    privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);
    if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
