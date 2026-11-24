@@ -55,9 +55,11 @@ const overview=await fetch(web+"/dev-review",{headers});
 assert.equal(overview.status,200,"Authenticated Web preview should load");
 assert.equal(overview.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 const overviewHtml=await overview.text();
-assert(overviewHtml.includes("/media/cover-family-planning.svg"),"Dev library hero has editorial illustration");
+assert(overviewHtml.includes("/media/editorial-hero.svg"),"Dev library hero has editorial illustration");
 assert(overviewHtml.includes('/dev-review-pro.css'),"Private reader loads responsive design stylesheet");
 assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link target");
+assert.equal(new Set(overviewHtml.match(/\/media\/editorial-cover-[a-z0-9-]+\.svg/g)||[]).size,72,"All 72 covers must be rendered");
+assert.equal(new Set(overviewHtml.match(/\/media\/editorial-group-[a-z0-9-]+\.svg/g)||[]).size,6,"Six separate group illustrations");
 assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
 assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="home-stage-groups stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
@@ -80,8 +82,8 @@ assert(detailBody.includes("cdc.gov"),"Specific cited source must be rendered");
 assert(detailBody.includes('class="reading-layout"'),"Long-form articles need readable grid layout");
 assert(detailBody.includes('class="reading-sidebar"'),"Long-form articles need section index");
 assert(detailBody.includes('aria-label="Mục lục bài viết"'),"Section navigation needs an accessible name");
-assert(detailBody.includes("/media/cover-safe-sleep.svg"),"Article must include its own cover illustration");
-assert(detailBody.includes("/media/infographic-safe-sleep.svg"),"Inline cited educational infographic must be rendered");
+assert(detailBody.includes("/media/editorial-cover-ngu-an-toan-cho-tre-so-sinh.svg"),"Article must include its own cover illustration");
+assert(detailBody.includes("/media/editorial-infographic-ngu-an-toan-cho-tre-so-sinh.svg"),"Inline cited educational infographic must be rendered");
 assert(detailBody.includes("Vì sao môi trường ngủ quan trọng?"),"Source-verified detailed sleep chapter must render");
 assert(detailBody.includes("Kiểm tra an toàn trong 30 giây"),"Practical sleep checklist chapter must render");
 assert((detailBody.match(/<section id="part-/g)||[]).length>=10,"Expanded article must expose at least 10 reading sections");
@@ -91,14 +93,14 @@ assert(!detailBody.includes("Nội dung dev"));
 const newInfographic=await fetch(web+"/dev-review/hen-tu-van-tien-thai",{headers});
 assert.equal(newInfographic.status,200,"Source-linked infographic article must be visible to editor");
 const infographicHtml=await newInfographic.text();
-assert(infographicHtml.includes("/media/auto-infographic-hen-tu-van-tien-thai.svg"),"New inline infographic is rendered");
+assert(infographicHtml.includes("/media/editorial-infographic-hen-tu-van-tien-thai.svg"),"New inline infographic is rendered");
 assert(infographicHtml.includes("Đọc 3 gợi ý trong hình dưới dạng văn bản"),"Mobile-accessible transcript is rendered");
 assert(infographicHtml.includes("Ghi lại thuốc và sản phẩm bổ sung"),"Transcript preserves the source-authored brief");
-const infographicAsset=await fetch(web+"/media/auto-infographic-hen-tu-van-tien-thai.svg");
+const infographicAsset=await fetch(web+"/media/editorial-infographic-hen-tu-van-tien-thai.svg");
 assert.equal(infographicAsset.status,200,"Generated SVG must be served by Next.js public assets");
 const infographicSvg=await infographicAsset.text();
 assert(infographicSvg.startsWith("<svg"),"Infographic must be a valid SVG resource");
-assert(infographicSvg.includes("Nguồn đọc thêm:"),"Infographic should disclose source label");
+assert(infographicSvg.includes("Nguồn:"),"Infographic should disclose source label");
 
 
 const guidePage=await fetch(web+"/dev-review?stage=so-sinh",{headers});
@@ -162,6 +164,7 @@ for(const s of stages.data){
  assert.equal(stageResponse.status,200,s.slug);
  const body=await stageResponse.text();
  assert.equal((body.match(/data-article-card=/g)||[]).length,6,s.slug);
+ assert(body.includes("/media/editorial-stage-"+s.slug+".svg"),"Dedicated stage artwork "+s.slug);
 }
 
 const readerSearch=await fetch(web+"/tim-kiem?q=giấc%20ngủ",{headers:readerHeaders});
