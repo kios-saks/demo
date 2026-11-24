@@ -62,6 +62,19 @@ for(const item of deepArticles.articles){
 }
 console.log("OK eight detailed article drafts, 10+ sections and at least 900–1000 words each");
 
+// Long-form coverage: require all 72 drafts to be substantive and independently referenceable.
+const articleWordCount=a=>a.sections.flatMap(section=>section.paragraphs).join(" ").trim().split(/\s+/).length;
+const fullDepth=d.articles.filter(a=>a.sections.length>=10&&articleWordCount(a)>=900&&a.sources.length>=2&&a.readMinutes>=5);
+assert.equal(fullDepth.length,72,"Every article must have 10+ sections, >=900 words, named sources, and reading time");
+for(const a of d.articles){
+ assert.equal(new Set(a.sections.map(section=>section.heading)).size,a.sections.length,"Unique chapter headings: "+a.slug);
+ assert(a.sections.every(section=>section.paragraphs.length>0 && section.paragraphs.every(p=>p.trim().length>0)),"Empty section: "+a.slug);
+ assert(!a.lastReviewed,"No article may claim a clinical review");
+}
+const minLongWords=Math.min(...fullDepth.map(articleWordCount));
+const maxLongWords=Math.max(...fullDepth.map(articleWordCount));
+console.log("OK full editorial depth: 72/72 drafts with 10+ sections, "+minLongWords+"–"+maxLongWords+" words each (not clinically approved)");
+
 // Full coverage: 72 original covers, 3 custom infographics and 24 generated source-linked diagrams.
 assert.equal(infographicBriefs.editorialStatus,"draft");
 assert.equal(infographicBriefs.cards.length,24);
