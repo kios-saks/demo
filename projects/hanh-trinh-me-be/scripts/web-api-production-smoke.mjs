@@ -60,7 +60,7 @@ assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must hav
 assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
 assert(overviewHtml.includes("72 bài chuyên sâu"),"DEV highlights the full long-form knowledge base");
-assert(overviewHtml.includes("Hướng dẫn chuyên sâu đang biên tập"),"DEV contains featured deep reading shelf");
+assert(overviewHtml.includes("Bài chuyên sâu tiêu biểu"),"DEV contains a curated highlighted reading shelf");
 assert(overviewHtml.includes("CHUYÊN SÂU • BẢN NHÁP"),"Editorial deep guides retain draft badge");
 assert(overviewHtml.includes("/dev-review/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
 const readerStyles=await fetch(web+"/dev-review-pro.css");
