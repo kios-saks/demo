@@ -41,12 +41,13 @@ export class PrivateMediaStorage{
      const existing=await this.request(this.origin+"/storage/v1/object/authenticated/"+suffix,{headers:this.headers(),signal:AbortSignal.timeout(15000),redirect:"error"});
      if(existing.ok&&digest(Buffer.from(await existing.arrayBuffer()))===digest(bytes))return;
    }
+   console.warn("MEDIA_STORAGE_HTTP_FAILURE",JSON.stringify({operation:"upload",status:res.status}));
    throw new MediaError(503,"STORAGE_UPLOAD_FAILED");
  }
  async signedUrl(path:string){
    const suffix=this.path(path);
    const res=await this.request(this.origin+"/storage/v1/object/sign/"+suffix,{method:"POST",headers:this.headers({"Content-Type":"application/json"}),body:JSON.stringify({expiresIn:120}),signal:AbortSignal.timeout(10000),redirect:"error"});
-   if(!res.ok)throw new MediaError(503,"STORAGE_SIGN_FAILED");
+   if(!res.ok){console.warn("MEDIA_STORAGE_HTTP_FAILURE",JSON.stringify({operation:"sign",status:res.status}));throw new MediaError(503,"STORAGE_SIGN_FAILED");}
    const data=await res.json() as {signedURL?:string};
    const expected="/storage/v1/object/sign/"+suffix;
    if(typeof data.signedURL!=="string")throw new MediaError(503,"STORAGE_SIGN_FAILED");

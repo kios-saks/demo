@@ -4,6 +4,7 @@ import {createKnowledgeRepository} from "./repository.js";
 import {buildApp} from "./app.js";
 import {createMediaService} from "./media-service.js";
 import {bootstrapMedia} from "./media-bootstrap.js";
+import {safeMediaFailure} from "./media-diagnostics.js";
 
 loadLocalEnv();
 const repo=createKnowledgeRepository();
@@ -14,7 +15,7 @@ try{
  // /health is liveness; /health/ready independently checks database readiness.
  await app.listen({port:Number(process.env.PORT||4000),host:"0.0.0.0"});
  console.log("API_HTTP_LISTENING");
- if(process.env.MEDIA_IMPORT_ON_START==="true")void bootstrapMedia(app).catch(()=>console.error("MEDIA_IMPORT_BOOTSTRAP_FAILED"));
+ if(process.env.MEDIA_IMPORT_ON_START==="true")void bootstrapMedia(app).catch(error=>console.error("MEDIA_IMPORT_BOOTSTRAP_FAILED",JSON.stringify({stage:"CLEANUP",code:safeMediaFailure(error)})));
 
  if(repo instanceof RoutedEditorialRepository){
    try{

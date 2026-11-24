@@ -69,12 +69,14 @@ export async function importMedia(apply=false){
  assert(url&&key,"Server-only storage credentials required");
  const storage=new PrivateMediaStorage(url,key),pool=createMaintenancePool();
  try{
+  console.log("MEDIA_IMPORT_STEP","VALIDATE_LIVE_ARTICLE_ANCHORS");
   const db=await pool.query("SELECT slug,status,payload FROM knowledge_articles");
   const rows=new Map(db.rows.map(x=>[x.slug,x]));
   for(const p of pairs){
    const a=rows.get(p.slug);assert(a?.status==="draft","Import only to existing draft");
    if(p.slot==="inline")assert.equal(a.payload.sections[p.entry.afterSection!]?.heading,p.entry.anchorHeading,"Live anchor mismatch");
   }
+  console.log("MEDIA_IMPORT_STEP","UPLOAD_AND_VERIFY_OBJECTS");
   const seen=new Set<string>();
   for(const [logical,asset] of inventory){
    if(!seen.has(asset.id)){
@@ -84,11 +86,13 @@ export async function importMedia(apply=false){
     assert(downloaded.ok,"Signed fetch failed");
     assert.equal(hash(Buffer.from(await downloaded.arrayBuffer())),asset.id,"Remote checksum mismatch");
     seen.add(asset.id);
+    if(seen.size===1||seen.size%25===0)console.log("MEDIA_IMPORT_OBJECT_PROGRESS",seen.size);
    }
    await pool.query("INSERT INTO media_assets(id,object_path,mime_type,byte_size,width,height) VALUES($1,$2,$3,$4,$5,$6) ON CONFLICT(id) DO NOTHING",[asset.id,asset.path,asset.mime,asset.bytes.length,asset.width,asset.height]);
    await pool.query("INSERT INTO media_import_catalog(logical_path,asset_id,usage) VALUES($1,$2,$3) ON CONFLICT(logical_path) DO NOTHING",[logical,asset.id,logical.startsWith(reviewDir)?"review_archive":"legacy_source"]);
    const check=await pool.query("SELECT asset_id FROM media_import_catalog WHERE logical_path=$1",[logical]);assert.equal(check.rows[0]?.asset_id,asset.id,"Catalog conflict");
   }
+  console.log("MEDIA_IMPORT_STEP","ACTIVATE_MISSING_ARTICLE_SLOTS");
   for(const p of pairs){
    const c=await pool.connect();
    try{

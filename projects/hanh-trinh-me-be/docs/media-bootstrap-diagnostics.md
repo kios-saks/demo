@@ -1,0 +1,5 @@
+# Media bootstrap diagnostics
+Startup only runs import when MEDIA_DEV_ENABLED and MEDIA_IMPORT_ON_START are true.
+MEDIA_BOOTSTRAP_STEP records CONFIG_DATABASE, CONFIG_STORAGE, CONFIG_ROLES, DB_CONNECT, DB_LOCK, DB_MIGRATE, DB_SECURITY, IMPORT_MARKER, SOURCE_CHECKSUM, API_ACCESS_GUARD, API_HISTORY, API_UPLOAD, API_SIGNED_URL, STORAGE_DOWNLOAD_CHECKSUM, API_REVIEW, API_ACTIVE, BULK_IMPORT and SAVE_COMPLETION_MARKER.
+Failures emit only stage and allowlisted error code. No credentials, signed URLs, raw exception messages, request/response payloads, or SQL connection strings are logged. Storage HTTP errors log status only.
+A configuration error is not fixed by loosening permissions: use distinct editor/reviewer tokens and the existing shared DEV preview token. If DB_TARGET is defined it must match primary Supabase. Keep originals and draft status. On success verify MEDIA_UPLOAD_API_VERIFIED, MEDIA_IMPORT_VERIFIED and MEDIA_IMPORT_BOOTSTRAP_COMPLETE plus database counts. Disable MEDIA_IMPORT_ON_START after verified completion; keep MEDIA_DEV_ENABLED for ongoing editing. 
