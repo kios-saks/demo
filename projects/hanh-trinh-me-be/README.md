@@ -4,6 +4,12 @@
 
 **Lưu ý:** Đây là mã nguồn MVP mẫu, CHƯA được triển khai production. 24 bài viết ở trạng thái `draft`, chưa được chuyên gia y tế phê duyệt. Không dùng để tự chẩn đoán hay điều trị.
 
+## Trạng thái nội dung hiện tại — 24/11/2026
+
+**Đã hoàn thành biên tập chuyên sâu ở mức bản thảo: 72/72 bài, mỗi giai đoạn 6 bài, bài nào cũng có ít nhất 10 phần và từ 939 đến 1.241 từ.** Trong đó 64 bài được mở rộng từ bản ngắn ngày 24/11, 8 bài trước đó giữ nguyên. Toàn bộ 72 bài và 99 hình minh họa đã đồng bộ vào kho DEV Supabase; nội dung được đọc qua thư viện có mật khẩu `/dev-review`.
+
+**Chưa phát hành công khai:** 72/72 vẫn là `draft`, 0 bài đã `published`; nội dung y khoa chưa được thẩm định và chưa có mapping nguồn cho từng nhận định. Các mục lịch sử bên dưới phản ánh trạng thái vào ngày tạo MVP và có thể đã được thay thế bởi những đợt triển khai mới. Xem [báo cáo long-form và giới hạn chất lượng](docs/longform-72-completion-2026-11-24.md).
+
 ## Thành phần
 - `apps/web`: Next.js responsive; trang chủ, 12 giai đoạn, tra cứu, bài viết có nguồn, góc biên tập chỉ đọc.
 - `apps/mobile`: Expo React Native, đọc và tìm bài theo giai đoạn bằng dữ liệu local.
