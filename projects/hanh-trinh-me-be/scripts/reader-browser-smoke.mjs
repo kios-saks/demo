@@ -8,7 +8,7 @@ async function layout(page,width){
  await page.setViewportSize({width,height:900});
  await page.waitForLoadState("domcontentloaded");
  await page.locator(".reader-brand").waitFor();
- const visualMetrics=await page.evaluate(async()=>Promise.all([...document.querySelectorAll('img[src*="/media/editorial-"]')].map(async img=>{img.loading="eager";await img.decode();const r=img.getBoundingClientRect();return {src:img.getAttribute("src"),w:img.naturalWidth,h:img.naturalHeight,renderedWidth:r.width,renderedHeight:r.height}})));
+ const visualMetrics=await page.evaluate(async()=>Promise.all([...document.querySelectorAll('img[src*="/media/editorial-"],img[src*="/media/lifestyle-"]')].map(async img=>{img.loading="eager";await img.decode();const r=img.getBoundingClientRect();return {src:img.getAttribute("src"),w:img.naturalWidth,h:img.naturalHeight,renderedWidth:r.width,renderedHeight:r.height}})));
  assert(visualMetrics.length>0,"Editorial images must render");
  for(const image of visualMetrics){assert(image.w>0&&image.h>0,"Broken image "+image.src);if(image.renderedWidth>0)assert(Math.abs(image.renderedWidth/image.renderedHeight-image.w/image.h)<.03,"Wrong rendered aspect ratio "+image.src);if(image.src.includes("infographic"))assert(image.h>image.w,"Portrait infographic");}
  const metrics=await page.evaluate(()=>({
