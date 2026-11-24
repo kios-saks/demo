@@ -33,6 +33,13 @@ function LocalPreview({file}:{file:File}){
  useEffect(()=>{const url=URL.createObjectURL(file);setSrc(url);return()=>URL.revokeObjectURL(url);},[file]);
  return src?<img className="media-preview" src={src} alt="Ảnh chọn từ máy"/>:null;
 }
+let previewActive=0;
+const previewWaiters:Array<()=>void>=[];
+async function withPreviewSlot<T>(signal:AbortSignal,task:()=>Promise<T>):Promise<T>{
+ if(previewActive<4)previewActive++;else await new Promise<void>(resolve=>previewWaiters.push(resolve));
+ try{if(signal.aborted)throw Error("Preview canceled");return await task();}
+ finally{const next=previewWaiters.shift();if(next)next();else previewActive--;}
+}
 function RevisionPreview({token,slug,revision,onVerified}:{token:string;slug:string;revision:Revision;onVerified:(n:number)=>void}){
  const [src,setSrc]=useState(""),[error,setError]=useState("");
  const cb=useRef(onVerified);cb.current=onVerified;
@@ -40,15 +47,115 @@ function RevisionPreview({token,slug,revision,onVerified}:{token:string;slug:str
   let canceled=false,url="";const abort=new AbortController();setSrc("");setError("");
   void (async()=>{
    try{
-    const res=await fetch("/api/media-admin"+path(slug)+"/image/"+revision.slot+"/"+revision.revision,{headers:{Authorization:"Bearer "+token},cache:"no-store",redirect:"error",signal:abort.signal});
-    if(!res.ok||res.headers.get("x-media-asset")!==revision.asset_id)throw Error("Không tải được revision hoặc SHA256 không khớp.");
-    const blob=await res.blob();
+    const blob=await withPreviewSlot(abort.signal,async()=>{
+     const res=await fetch("/api/media-admin"+path(slug)+"/image/"+revision.slot+"/"+revision.revision,{headers:{Authorization:"Bearer "+token},cache:"no-store",redirect:"error",signal:abort.signal});
+     if(!res.ok||res.headers.get("x-media-asset")!==revision.asset_id)throw Error("Không tải được revision hoặc SHA256 không khớp.");
+     return await res.blob();
+    });
     if(canceled)return;url=URL.createObjectURL(blob);setSrc(url);
    }catch(e){if(!canceled)setError(message(e));}
   })();
   return()=>{canceled=true;abort.abort();if(url)URL.revokeObjectURL(url);};
  },[token,slug,revision.revision,revision.asset_id,revision.slot]);
  return <div>{error?<p role="alert" className="cms-alert error">{error}</p>:src?<img className="media-preview" src={src} alt={revision.alt} onLoad={()=>cb.current(revision.revision)} onError={()=>setError("Trình duyệt không giải mã được ảnh.")}/>:<p className="cms-muted">Đang tải ảnh…</p>}</div>;
+}
+
+
+type GalleryRow={slug:string;history:History};
+const galleryKey=(slug:string,r:Revision)=>slug+":"+r.slot+":"+r.revision+":"+r.asset_id;
+const highQuality=(r:Revision)=>r.mime_type==="image/webp"&&r.width>=1200&&r.height>=675;
+
+function ReviewGallery({token,catalog,busy,setBusy,onUpdated,onOpen}:{token:string;catalog:Catalog;busy:boolean;setBusy:(value:boolean)=>void;onUpdated:()=>Promise<void>;onOpen:(slug:string)=>void}){
+ const [rows,setRows]=useState<GalleryRow[]>([]),[loading,setLoading]=useState(false),[loaded,setLoaded]=useState(false);
+ const [hqOnly,setHqOnly]=useState(true),[choices,setChoices]=useState<Record<string,number>>({}),[verified,setVerified]=useState<string[]>([]),[selectedKeys,setSelectedKeys]=useState<string[]>([]);
+ const [note,setNote]=useState(""),[error,setError]=useState(""),[result,setResult]=useState(""),[reload,setReload]=useState(0);
+ const signature=catalog.items.filter(i=>i.pending>0).map(i=>i.slug+":"+i.latest_pending+":"+i.pending+":"+i.active_revision).join("|");
+ useEffect(()=>{
+  let canceled=false;
+  setLoading(true);setLoaded(false);setRows([]);setVerified([]);setSelectedKeys([]);setChoices({});
+  const targets=signature.split("|").filter(Boolean).map(s=>s.split(":")[0]);
+  void (async()=>{
+   const next:GalleryRow[]=[],failed:string[]=[];
+   // Limit concurrent history requests on the small DEV instance.
+   for(let i=0;i<targets.length;i+=3){
+    if(canceled)return;
+    await Promise.all(targets.slice(i,i+3).map(async slug=>{
+     try{const history=await api<History>(token,path(slug));next.push({slug,history});}
+     catch(e){failed.push(slug+": "+message(e));}
+    }));
+   }
+   if(canceled)return;
+   setRows(next.sort((a,b)=>targets.indexOf(a.slug)-targets.indexOf(b.slug)));setLoaded(true);setLoading(false);
+   if(failed.length)setError("Không tải được "+failed.length+" bài. "+failed.join(" | "));
+  })();
+  return()=>{canceled=true;};
+ },[token,signature,reload]);
+ const candidates=rows.flatMap(row=>{
+  const expected=coverOf(row.history);
+  const current=row.history.revisions.find(r=>r.slot==="cover"&&r.revision===expected);
+  const pending=row.history.revisions.filter(r=>r.slot==="cover"&&r.review_status==="pending"&&r.revision!==expected&&(!hqOnly||highQuality(r))).sort((a,b)=>b.revision-a.revision);
+  const revision=pending.find(r=>r.revision===choices[row.slug])||pending[0];
+  if(!revision)return [];
+  const key=galleryKey(row.slug,revision);
+  const ready=verified.includes(key)&&(expected===null||!!current&&verified.includes(galleryKey(row.slug,current)));
+  return [{slug:row.slug,revision,pending,current,expected,key,ready}];
+ });
+ const eligible=candidates.filter(x=>x.ready);
+ const picked=eligible.filter(x=>selectedKeys.includes(x.key));
+ const mark=(key:string)=>setVerified(old=>old.includes(key)?old:[...old,key]);
+ function toggle(key:string,checked:boolean){setSelectedKeys(old=>checked?[...old.filter(k=>k!==key),key]:old.filter(k=>k!==key));}
+ async function activate(){
+  if(busy||!picked.length||!note.trim())return;
+  if(!window.confirm("Duyệt và kích hoạt "+picked.length+" ảnh đã xem trong DEV? Mỗi bài dùng một revision; ảnh cũ được giữ để rollback."))return;
+  const batch=picked.slice(),comment=note.trim();setBusy(true);setError("");setResult("");
+  const failed:string[]=[];let done=0;
+  try{
+   for(const x of batch){
+    try{
+     const h=await api<History>(token,path(x.slug));
+     const candidate=h.revisions.find(r=>r.slot==="cover"&&r.revision===x.revision.revision&&r.asset_id===x.revision.asset_id&&r.review_status==="pending");
+     const active=h.revisions.find(r=>r.slot==="cover"&&r.revision===coverOf(h));
+     if(!candidate||coverOf(h)!==x.expected||active?.asset_id!==x.current?.asset_id)throw Error("Revision đã thay đổi; cần xem lại.");
+     try{
+      await api(token,path(x.slug)+"/review",{slot:"cover",revision:candidate.revision,expectedActiveRevision:x.expected,action:"approve",note:comment});
+     }catch(originalError){
+      const recovered=await api<History>(token,path(x.slug)).catch(()=>null);
+      if(!recovered||coverOf(recovered)!==candidate.revision||!recovered.revisions.some(r=>r.slot==="cover"&&r.revision===candidate.revision&&r.asset_id===candidate.asset_id&&r.review_status==="dev_approved"))throw originalError;
+     }
+     done++;setSelectedKeys(old=>old.filter(k=>k!==x.key));
+    }catch(e){failed.push(x.slug+": "+message(e));}
+   }
+   setResult("Đã kích hoạt "+done+"/"+batch.length+" ảnh. Không cần redeploy Web.");
+   if(failed.length)setError(failed.join(" | "));
+   try{await onUpdated();}catch(e){setError(old=>[old,"Không làm mới được danh mục: "+message(e)].filter(Boolean).join(" | "));}
+   setReload(n=>n+1);
+  }finally{setBusy(false);}
+ }
+ return <section className="cms-access" aria-label="Thư viện ảnh chờ duyệt">
+  <div className="cms-row cms-between"><h2>Thư viện ảnh chờ duyệt</h2><button type="button" className="cms-btn secondary" disabled={busy||loading} onClick={()=>{setResult("");setError("");setReload(n=>n+1);}}>Làm mới thư viện</button></div>
+  <p>Mỗi bài chỉ kích hoạt một revision. Mặc định hiển thị bản WebP đạt chuẩn mới nhất; có thể chọn revision khác. Ảnh cũ và ảnh mới phải tải xem trước thành công mới được chọn.</p>
+  <div className="cms-row"><label><input type="checkbox" checked={hqOnly} disabled={busy||loading} onChange={e=>{setHqOnly(e.target.checked);setSelectedKeys([]);setChoices({});}}/> Chỉ WebP từ 1200 × 675 px</label>
+   <button type="button" className="cms-btn secondary" disabled={busy||loading||!eligible.length} onClick={()=>setSelectedKeys(eligible.map(x=>x.key))}>Chọn tất cả ảnh đã xem ({eligible.length})</button>
+   <button type="button" className="cms-btn secondary" disabled={busy||!selectedKeys.length} onClick={()=>setSelectedKeys([])}>Bỏ chọn tất cả</button>
+  </div>
+  <p role="status">{loading?"Đang tải lịch sử revision…":loaded?candidates.length+" bài phù hợp · "+eligible.length+" đã tải đủ ảnh xem trước · "+picked.length+" đã chọn":""}</p>
+  {loaded&&!candidates.length?<p>Không có ảnh bìa chờ duyệt phù hợp bộ lọc.</p>:null}
+  {error?<p role="alert" className="cms-alert error">{error}</p>:null}
+  {result?<p role="status" className="cms-alert ok">{result}</p>:null}
+  <div className="media-upload-grid">{candidates.map(x=><div className="cms-subcard" key={x.slug}>
+   <strong>{catalog.items.find(i=>i.slug===x.slug)?.title||x.slug}</strong>
+   <label className="cms-field">Revision chờ duyệt<select value={x.revision.revision} disabled={busy} onChange={e=>{setChoices(old=>({...old,[x.slug]:Number(e.target.value)}));setSelectedKeys(old=>old.filter(k=>!k.startsWith(x.slug+":")));}}>{x.pending.map(r=><option key={r.revision} value={r.revision}>v{r.revision} · {r.width} × {r.height} · {r.mime_type}</option>)}</select></label>
+   <div className="media-compare">
+    {x.current?<div><h3>Đang dùng · v{x.current.revision}</h3><RevisionPreview key={galleryKey(x.slug,x.current)} token={token} slug={x.slug} revision={x.current} onVerified={()=>mark(galleryKey(x.slug,x.current!))}/></div>:<p>{x.expected===null?"Chưa có ảnh đang dùng":"Không tìm thấy revision đang dùng; không thể duyệt."}</p>}
+    <div><h3>Ảnh mới · v{x.revision.revision}</h3><RevisionPreview key={x.key} token={token} slug={x.slug} revision={x.revision} onVerified={()=>mark(x.key)}/><small>{x.revision.width} × {x.revision.height} · {x.revision.asset_id.slice(0,12)}</small></div>
+   </div>
+   <p>{x.revision.alt}</p><p>{x.revision.caption}</p>
+   <label><input type="checkbox" checked={picked.some(y=>y.key===x.key)} disabled={busy||!x.ready} onChange={e=>toggle(x.key,e.target.checked)}/> {x.ready?"Chọn duyệt ảnh này":"Đợi kiểm tra ảnh cũ và mới"}</label>
+   <button type="button" className="cms-link" disabled={busy} onClick={()=>onOpen(x.slug)}>Xem toàn bộ lịch sử / rollback</button>
+  </div>)}</div>
+  <label className="cms-field">Nhận xét chung cho lô<textarea disabled={busy} maxLength={1000} value={note} onChange={e=>setNote(e.target.value)} placeholder="Đã xem nội dung ảnh và đồng ý sử dụng trong DEV."/></label>
+  <button type="button" className="cms-btn" disabled={busy||loading||!picked.length||!note.trim()} onClick={()=>void activate()}>{busy?"Đang xử lý…":"Duyệt và kích hoạt "+picked.length+" ảnh đã chọn"}</button>
+ </section>;
 }
 
 export default function MediaWorkbench(){
@@ -173,6 +280,7 @@ export default function MediaWorkbench(){
     <button className="cms-link" disabled={busy} onClick={()=>setEntries(old=>old.filter(i=>i.id!==x.id))}>Bỏ khỏi danh sách trên máy</button></div>)}</div>
    <button className="cms-btn" disabled={busy||!entries.some(x=>x.state!=="pending")} onClick={uploadAll}>Tải {entries.filter(x=>x.state!=="pending").length} ảnh lên hàng chờ duyệt</button>
   </section>:null}
+  {role==="reviewer"&&catalog?<ReviewGallery token={token} catalog={catalog} busy={busy} setBusy={setBusy} onUpdated={async()=>{await refresh();if(slug)await load(slug);setApprovals([]);}} onOpen={s=>{void select(s);}}/>:null}
   <div className="cms-grid">
    <aside className="cms-sidebar"><h2>Danh sách bài viết</h2><label className="cms-field">Tìm bài<input disabled={busy} value={filter} onChange={e=>setFilter(e.target.value)}/></label><label className="cms-field">Trạng thái<select value={view} onChange={e=>setView(e.target.value)}><option value="remaining">Ảnh SVG chưa nâng cấp</option><option value="pending">Có ảnh chờ duyệt</option><option value="upgraded">Đã nâng cấp</option><option value="all">Tất cả</option></select></label>
     <p>{list.length} bài</p><div className="cms-list">{list.map(x=><button disabled={busy} key={x.slug} className={"cms-list-item"+(x.slug===slug?" active":"")} onClick={()=>select(x.slug)}><strong>{x.title}</strong><span>{x.active_mime==="image/webp"?"WebP":x.active_mime==="image/svg+xml"?"SVG":"Chưa có"} · v{x.active_revision??"–"} · {x.pending} chờ duyệt</span></button>)}</div>
