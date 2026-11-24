@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getWebRepository } from "../lib/repository";
-import {editorialHero,groupVisual,articleCover,coverAlt} from "../lib/editorial-media";
+import {editorialHero,editorialHeroAlt,groupVisual,articleCover,coverAlt} from "../lib/editorial-media";
 import {stageVisuals} from "../lib/stage-visuals";
 import {stageGroups,readerTopics} from "../lib/reader-navigation";
 
@@ -40,7 +40,7 @@ export default async function Home() {
       
      </div>
      <div className="hero-art">
-      <img src={editorialHero} className="hero-editorial-image" alt="Tranh minh họa gia đình cùng nhau đọc và trò chuyện" width={1200} height={675} fetchPriority="high"/>
+      <img src={editorialHero} className="hero-editorial-image" alt={editorialHeroAlt} width={1200} height={675} fetchPriority="high"/>
       <p className="hero-image-caption">Đồng hành bằng sự thấu hiểu, không bằng những tiêu chuẩn so sánh.</p>
      </div>
     </div>
@@ -93,7 +93,7 @@ export default async function Home() {
     </div>
     {articles.length?<div className="article-grid">
      {articles.slice(0,6).map(a=><Link className="article-card" href={"/bai-viet/"+a.slug} key={a.slug}>
-      {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675" loading="lazy"/>:null}
+      {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title,a.slug)} width="1200" height="675" loading="lazy"/>:null}
       <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
      </Link>)}
     </div>:<div className="empty-library">
