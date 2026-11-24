@@ -484,6 +484,66 @@
       "afterSection": 4,
       "anchorHeading": "Tình huống thực tế để hình dung",
       "caption": "Chuẩn bị bữa ăn dễ mang theo là một ví dụ thay đổi nhỏ trong sinh hoạt của người đi làm."
+    },
+    "inline-lan-kham-thai-dau-tien": {
+      "src": "/media/lifestyle-inline-lan-kham-thai-dau-tien.webp",
+      "alt": "Lịch bàn, hồ sơ giấy và bút chuẩn bị cuộc hẹn (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 5e9d1436-85fc-4571-b7af-52e1189dad8d; independently cropped 2x2 still-life contact sheet; no real patient data.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Accepted contextual still-life artwork for private development preview; no clinical procedure or new medical claim depicted.",
+      "width": 960,
+      "height": 540,
+      "sha256": "7fa63849f02b43d388fb13e929ee37d27f0eab5ae6faefd40a9ee094e7e70fe5",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Ví dụ bố trí hồ sơ và lịch hẹn để ghi câu hỏi trước lần khám thai đầu tiên."
+    },
+    "inline-cam-xuc-dau-thai-ky": {
+      "src": "/media/lifestyle-inline-cam-xuc-dau-thai-ky.webp",
+      "alt": "Sổ mở và tách trà bên cửa sổ (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 5e9d1436-85fc-4571-b7af-52e1189dad8d; independently cropped 2x2 still-life contact sheet; no real patient data.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Accepted contextual still-life artwork for private development preview; no clinical procedure or new medical claim depicted.",
+      "width": 960,
+      "height": 540,
+      "sha256": "9df3cded62146886c109ef4db1ead1321e43a83ec21424eaa4462092f9186d01",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Một góc yên tĩnh để ghi lại cảm xúc và điều mình muốn được hỗ trợ."
+    },
+    "inline-ke-hoach-ho-tro-sau-sinh": {
+      "src": "/media/lifestyle-inline-ke-hoach-ho-tro-sau-sinh.webp",
+      "alt": "Bảng kế hoạch, giỏ đồ giặt và khăn gấp gọn (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 5e9d1436-85fc-4571-b7af-52e1189dad8d; independently cropped 2x2 still-life contact sheet; no real patient data.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Accepted contextual still-life artwork for private development preview; no clinical procedure or new medical claim depicted.",
+      "width": 960,
+      "height": 540,
+      "sha256": "3f06e6ed2a2061608c23d1e27738580a364ea1e6b927786880da104f16240e32",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Ví dụ lập bảng phân công những việc nhà và thời gian hỗ trợ trong hai tuần đầu sau sinh."
+    },
+    "inline-nhung-cau-hoi-khi-cham-be": {
+      "src": "/media/lifestyle-inline-nhung-cau-hoi-khi-cham-be.webp",
+      "alt": "Sổ ghi chép, hồ sơ giấy và bút trên bàn khám (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 5e9d1436-85fc-4571-b7af-52e1189dad8d; independently cropped 2x2 still-life contact sheet; no real patient data.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Accepted contextual still-life artwork for private development preview; no clinical procedure or new medical claim depicted.",
+      "width": 960,
+      "height": 540,
+      "sha256": "38412abe6220e9d0b10d1ed413d9ada647d62319bb76bf29b20bbfd7f70bd1ce",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Chuẩn bị sổ khám và những câu hỏi muốn trao đổi với bác sĩ về bé."
     }
   }
 }
