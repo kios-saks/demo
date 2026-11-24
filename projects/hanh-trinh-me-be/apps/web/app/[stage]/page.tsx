@@ -36,7 +36,7 @@ export default async function StagePage({params}:{params:Promise<{stage:string}>
    <span className="eyebrow">NỘI DUNG THEO CHẶNG</span>
    <h2 className="list-title" id="stage-list-heading">Bài viết của giai đoạn này <span>({list.length})</span></h2>
    {list.length?<div className="article-grid">{list.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}>
-    {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675" loading="lazy"/>:null}
+    {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title,a.slug)} width="1200" height="675" loading="lazy"/>:null}
     <span className="pill">{a.status==="published"?"Đã xuất bản":"Đang biên tập"}</span><h3>{a.title}</h3>
     <p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
    </Link>)}</div>:<div className="empty-library">
