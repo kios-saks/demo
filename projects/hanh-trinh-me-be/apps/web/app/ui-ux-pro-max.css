@@ -249,3 +249,8 @@ button,a[role="button"],.primary-btn,.ghost-btn,.site-nav a,.journey-card,.journ
 .public-topic-chips a{display:inline-flex;align-items:center;min-height:44px;padding:8px 15px;background:white;border:1px solid var(--ui-line);border-radius:24px;color:var(--ui-primary);font-weight:650;font-size:14px}
 @media(max-width:768px){.wrap{width:calc(100% - 32px)}.public-stage-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.hero-inner{padding:32px 0;gap:20px}.public-stage-group summary strong{font-size:17px}.public-stage-group summary div{padding:12px 28px 12px 12px}.public-stage-group summary span{right:10px}.public-topic-panel{padding:18px}}
 @media(max-width:480px){.public-stage-groups{gap:9px}.public-stage-group summary strong{font-size:15px}.public-stage-group summary small{font-size:11px}.public-topic-chips a{font-size:13px;padding:7px 11px}}
+
+/* Original portrait diagrams stay fully visible; text transcript is readable at phone widths. */
+.article-infographic img[src*="editorial-infographic-"]{display:block;width:100%;max-width:520px;height:auto;object-fit:contain;margin-inline:auto;border-radius:16px}
+.infographic-transcript{font-size:1rem;line-height:1.65}
+.infographic-transcript li{margin-block:.4rem}
