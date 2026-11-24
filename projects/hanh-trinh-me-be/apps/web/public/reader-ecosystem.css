@@ -101,3 +101,11 @@
 }
 @media(max-width:480px){.home-hero{padding:18px}.home-hero .search{display:flex;flex-wrap:wrap}.home-hero .search input{flex:1 1 100%;width:100%}.home-hero .search button{width:100%}.home-hero img{max-height:180px}.home-stage-groups.stage-tile-grid{gap:9px}.group-copy strong{font-size:15px}.group-copy small{font-size:11px}.stage-links a{font-size:12px}.list{grid-template-columns:1fr}.journey-banner{padding:18px}.saved-list li{grid-template-columns:minmax(0,1fr)}.saved-list li button{grid-column:1;grid-row:auto;justify-self:start}.compact-head h1,.personal-head h1{font-size:32px}}
 @media(prefers-reduced-motion:reduce){.stage-group[open] .group-arrow{transition:none}}
+
+/* Warm editorial artwork: distinct navigation scenes and portrait diagrams. */
+.editorial-stage-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.75fr);gap:clamp(1rem,3vw,2.5rem);align-items:center}
+.editorial-stage-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:var(--radius-lg,18px)}
+.infographic-figure img[src*="editorial-infographic-"]{display:block;width:100%;max-width:520px;height:auto;object-fit:contain;margin-inline:auto;border-radius:16px}
+.infographic-transcript{font-size:1rem;line-height:1.65}
+.infographic-transcript li{margin-block:.4rem}
+@media(max-width:767px){.editorial-stage-head{grid-template-columns:minmax(0,1fr)}.editorial-stage-image{max-height:none}.infographic-figure{margin-inline:0}.infographic-figure img[src*="editorial-infographic-"]{max-width:100%}}
