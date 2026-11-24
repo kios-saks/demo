@@ -59,7 +59,7 @@ assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link targ
 assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
 assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
-assert(overviewHtml.includes("8 bài chuyên sâu"),"DEV highlights eight expanded guides");
+assert(overviewHtml.includes("72 bài chuyên sâu"),"DEV highlights the full long-form knowledge base");
 assert(overviewHtml.includes("Hướng dẫn chuyên sâu đang biên tập"),"DEV contains featured deep reading shelf");
 assert(overviewHtml.includes("CHUYÊN SÂU • BẢN NHÁP"),"Editorial deep guides retain draft badge");
 assert(overviewHtml.includes("/dev-review/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
