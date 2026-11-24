@@ -37,17 +37,17 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    const sources=a.sources.filter(s=>{try{return new URL(s.url).protocol==="https:"}catch{return false}})
        .map((s,i)=>'<li><a href="'+escapeHtml(s.url)+'" target="_blank" rel="noopener noreferrer nofollow">'+
          (i+1)+'. '+escapeHtml(s.name)+' ↗</a></li>').join("");
-   const readerHeader='<div class="article-hero"><nav class="reading-breadcrumbs" aria-label="Đường dẫn bài viết">'+
+   const readerHeader='<div class="article-hero" data-current-article="'+escapeHtml(a.slug)+'"><nav class="reading-breadcrumbs" aria-label="Đường dẫn bài viết">'+
      '<a href="/thu-vien">← Trở về thư viện</a></nav>'+
      '<span class="pill">KIẾN THỨC CHUYÊN SÂU · '+escapeHtml(stageGuide?.headline||a.stage)+'</span>'+
      '<h1>'+escapeHtml(a.title)+'</h1>'+
      '<p class="reading-lead">'+escapeHtml(a.summary)+'</p>'+
-     '<div class="reader-meta"><span>Khoảng '+Number(a.readMinutes||0)+' phút đọc</span><span> · '+a.sections.length+' phần nội dung</span><span> · '+a.sources.length+' nguồn tham khảo</span></div></div>';
+     '<div class="reader-meta"><span>Khoảng '+Number(a.readMinutes||0)+' phút đọc</span><span> · '+a.sections.length+' phần nội dung</span><span> · '+a.sources.length+' nguồn tham khảo</span></div><div class="reader-actions"><button type="button" class="save-button" data-save-slug="'+escapeHtml(a.slug)+'" aria-pressed="false" hidden>Lưu bài</button><button type="button" class="secondary-action" data-share-article hidden>Chia sẻ</button><span data-share-status role="status"></span></div></div>';
    const warning='<div class="warn"><b>Chưa được thẩm định y khoa.</b> Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc tư vấn từ nhân viên y tế. Khi có dấu hiệu cấp cứu, hãy liên hệ cơ sở y tế ngay.</div>';
    const body=readerHeader+warning+
-     '<div class="reading-layout"><aside class="reading-sidebar">'+toc+
+     '<div class="reading-layout"><aside class="reading-sidebar"><div class="desktop-toc">'+toc+'</div><details class="mobile-toc"><summary>Trong bài viết này · '+a.sections.length+' phần</summary>'+toc+'</details>'+
      '<p>Chọn mục để chuyển tới phần muốn đọc. Các mốc thời gian và hướng dẫn y tế cần đối chiếu với chuyên gia phù hợp.</p></aside>'+
-     '<article class="content article-content" aria-label="Nội dung bài viết">'+heroCover+quick+sections+
+     '<article class="content article-content" aria-label="Nội dung bài viết">'+quick+heroCover+sections+
      supplemental+related+
      '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
      '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
