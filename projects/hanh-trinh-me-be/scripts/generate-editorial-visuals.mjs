@@ -111,11 +111,7 @@ assert.equal(Object.keys(briefs.coverBriefs).length,72);
 assert.equal(Object.keys(briefs.navigation).length,19);
 for(const a of d.articles){assert(briefs.coverBriefs[a.slug],"Missing brief "+a.slug);write("editorial-cover-"+a.slug,artwork(a.slug,briefs.coverBriefs[a.slug],a.title))}
 for(const [key,brief] of Object.entries(briefs.navigation))write("editorial-"+key,artwork("navigation-"+key,brief,key==="hero"?"Gia đình cùng nhau đọc và trò chuyện":stageMap.get(key.replace(/^(group|stage)-/,""))||"Hành trình gia đình"));
-const curated={
- "lich-kham-thai-ba-thang-dau":{title:"Dấu hiệu cần được đánh giá ngay",points:["Ra máu nhiều hoặc đau bụng dữ dội","Đau đầu dữ dội, đặc biệt kèm thay đổi thị lực","Khó thở hoặc đau ngực bất thường","Ngất, co giật: cần hỗ trợ y tế khẩn cấp"],sourceLabel:"CDC – Hear Her"},
- "ngu-an-toan-cho-tre-so-sinh":{title:"3 nguyên tắc ngủ an toàn",points:["Nằm ngửa: đặt bé nằm ngửa khi bắt đầu ngủ","Chắc và phẳng: dùng bề mặt ngủ phù hợp, không nghiêng","Cũi trống: không gối, chăn rời hay thú bông"],sourceLabel:"CDC – Safe Sleep"},
- "an-dam-khi-nao-bat-dau":{title:"3 điểm nhớ khi bắt đầu ăn dặm",points:["Khoảng 6 tháng: bắt đầu khi trẻ đã sẵn sàng","Đa dạng thực phẩm: chú ý dinh dưỡng và kết cấu phù hợp","Luôn giám sát: cho bé ngồi thẳng trong suốt bữa ăn"],sourceLabel:"WHO / NHS"}
-};
+const curated=read("packages/content/mock/editorial-curated-infographics.json");
 const lines=(s,limit)=>{let result=[],line="";for(const word of s.split(/\s+/)){if(line&&(line+" "+word).length>limit){result.push(line);line=word}else line+=(line?" ":"")+word}if(line)result.push(line);return result};
 const text=(s,x,y,size,weight,color)=>'<text x="'+x+'" y="'+y+'" fill="'+color+'" font-family="Arial, sans-serif" font-size="'+size+'" font-weight="'+weight+'">'+xml(s)+'</text>';
 const drawLines=(s,x,y,size,limit,step,weight,color)=>lines(s,limit).map((l,i)=>text(l,x,y+i*step,size,weight,color)).join("");
@@ -140,5 +136,4 @@ for(const a of d.articles){
  transcripts[a.slug]={height,points:c.points,sourceUrl:a.media.inline[0].sourceUrl};
 }
 assert.equal(Object.keys(transcripts).length,27);
-writeFileSync(new URL("editorial-manifest.json",out),JSON.stringify({origin:briefs.origin,coverSlugs:Object.keys(briefs.coverBriefs),navigationKeys:Object.keys(briefs.navigation),infographics:transcripts},null,2)+"\n");
 console.log("PASS editorial artwork: 1 hero, 6 group, 12 stage, 72 individual covers, 27 portrait infographics");
