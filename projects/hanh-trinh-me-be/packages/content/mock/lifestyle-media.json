@@ -13,6 +13,42 @@
       "width": 1440,
       "height": 810,
       "sha256": "047c1814f399dcc799f1cba1a766bdc7ed19a082c255148fc57fb2d80efe8ede"
+    },
+    "cover-hoc-thong-qua-choi": {
+      "src": "/media/lifestyle-cover-hoc-thong-qua-choi.webp",
+      "alt": "Bố và trẻ nhỏ cùng xếp các khối gỗ trong phòng khách (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 6f13490b-6d09-4093-8458-0b1c4e4c01a2; synthetic people; original 4:3 image preserved with soft edge extension to 16:9.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual non-clinical lifestyle illustration accepted for private development preview; no diagnostic or treatment instruction.",
+      "width": 1200,
+      "height": 675,
+      "sha256": "1a30393ac1756e3a30dd8f3aacab08494c43384a927670a804bfce0a772b2d12"
+    },
+    "cover-choi-va-tuong-tac-voi-be": {
+      "src": "/media/lifestyle-cover-choi-va-tuong-tac-voi-be.webp",
+      "alt": "Ba mẹ và em bé cùng chơi với đồ chơi trong phòng khách (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation c4a5e431-4877-4dbe-abc0-3cb87ad8496d; synthetic people; original 4:3 image preserved with soft edge extension to 16:9.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual non-clinical lifestyle illustration accepted for private development preview; no diagnostic or treatment instruction.",
+      "width": 1200,
+      "height": 675,
+      "sha256": "df9780639882fafc8a50f15e7f96aa40ab7d10f6fa6b8146cf397bdb143e2b38"
+    },
+    "group-thai-ky-3-thang-giua": {
+      "src": "/media/lifestyle-group-thai-ky-3-thang-giua.webp",
+      "alt": "Người mẹ mang thai ngồi cạnh cửa sổ trong nhà (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation be42f381-b23e-4e37-8e3f-339120b50e7b; synthetic people; original 4:3 image preserved with soft edge extension to 16:9.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual non-clinical lifestyle illustration accepted for private development preview; no diagnostic or treatment instruction.",
+      "width": 1200,
+      "height": 675,
+      "sha256": "2a75579b4151723b4156addffd3abc81381f4a56af1fa8d9b18957ed3d1efba3"
     }
   }
 }
