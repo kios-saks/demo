@@ -37,7 +37,7 @@ function guideDetails(slug:string){
 }
 function itemCard(a:ArticleSummary){
  return '<a class="item" href="/dev-review/'+encodeURIComponent(a.slug)+'">'+media(a)+
-  '<div class="item-content"><span class="pill">'+(deepArticleSlugs.has(a.slug)?'CHUYÊN SÂU • BẢN NHÁP':'BẢN NHÁP')+'</span>'+
+  '<div class="item-content"><span class="pill">'+'CHUYÊN SÂU • BẢN NHÁP'+'</span>'+
   (a.media?.inline?.length?'<span class="media-count">'+a.media.inline.length+' infographic</span>':'')+
   '<h3>'+e(a.title)+'</h3><p>'+e(a.summary)+'</p>'+
   '<p class="meta">Đọc '+Number(a.readMinutes||0)+' phút · Mở hướng dẫn và nguồn →</p></div></a>';
