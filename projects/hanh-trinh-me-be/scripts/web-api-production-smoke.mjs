@@ -1,3 +1,6 @@
+import {readFileSync} from "node:fs";
+const lifestyle=JSON.parse(readFileSync(new URL("../packages/content/mock/lifestyle-media.json",import.meta.url),"utf8")).assets;
+const selected=(key,fallback)=>lifestyle[key]?.reviewStatus==="approved"?lifestyle[key].src:fallback;
 import assert from "node:assert/strict";
 const web="http://127.0.0.1:3000",api="http://127.0.0.1:4000";
 async function ready(url){
@@ -55,11 +58,11 @@ const overview=await fetch(web+"/dev-review",{headers});
 assert.equal(overview.status,200,"Authenticated Web preview should load");
 assert.equal(overview.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 const overviewHtml=await overview.text();
-assert(overviewHtml.includes("/media/editorial-hero.svg"),"Dev library hero has editorial illustration");
+assert(overviewHtml.includes(selected("hero","/media/editorial-hero.svg")),"Dev library hero has editorial illustration");
 assert(overviewHtml.includes('/dev-review-pro.css'),"Private reader loads responsive design stylesheet");
 assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link target");
-assert.equal(new Set(overviewHtml.match(/\/media\/editorial-cover-[a-z0-9-]+\.svg/g)||[]).size,72,"All 72 covers must be rendered");
-assert.equal(new Set(overviewHtml.match(/\/media\/editorial-group-[a-z0-9-]+\.svg/g)||[]).size,6,"Six separate group illustrations");
+assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-cover-[a-z0-9-]+\.svg|lifestyle-cover-[a-z0-9-]+\.webp)/g)||[]).size,72,"All 72 covers must be rendered");
+assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-group-[a-z0-9-]+\.svg|lifestyle-group-[a-z0-9-]+\.webp)/g)||[]).size,6,"Six separate group illustrations");
 assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
 assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="home-stage-groups stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
@@ -82,7 +85,7 @@ assert(detailBody.includes("cdc.gov"),"Specific cited source must be rendered");
 assert(detailBody.includes('class="reading-layout"'),"Long-form articles need readable grid layout");
 assert(detailBody.includes('class="reading-sidebar"'),"Long-form articles need section index");
 assert(detailBody.includes('aria-label="Mục lục bài viết"'),"Section navigation needs an accessible name");
-assert(detailBody.includes("/media/editorial-cover-ngu-an-toan-cho-tre-so-sinh.svg"),"Article must include its own cover illustration");
+assert(detailBody.includes(selected("cover-ngu-an-toan-cho-tre-so-sinh","/media/editorial-cover-ngu-an-toan-cho-tre-so-sinh.svg")),"Article must include its own cover illustration");
 assert(detailBody.includes("/media/editorial-infographic-ngu-an-toan-cho-tre-so-sinh.svg"),"Inline cited educational infographic must be rendered");
 assert(detailBody.includes("Vì sao môi trường ngủ quan trọng?"),"Source-verified detailed sleep chapter must render");
 assert(detailBody.includes("Kiểm tra an toàn trong 30 giây"),"Practical sleep checklist chapter must render");
@@ -164,7 +167,7 @@ for(const s of stages.data){
  assert.equal(stageResponse.status,200,s.slug);
  const body=await stageResponse.text();
  assert.equal((body.match(/data-article-card=/g)||[]).length,6,s.slug);
- assert(body.includes("/media/editorial-stage-"+s.slug+".svg"),"Dedicated stage artwork "+s.slug);
+ assert(body.includes(selected("stage-"+s.slug,"/media/editorial-stage-"+s.slug+".svg")),"Dedicated stage artwork "+s.slug);
 }
 
 const readerSearch=await fetch(web+"/tim-kiem?q=giấc%20ngủ",{headers:readerHeaders});
