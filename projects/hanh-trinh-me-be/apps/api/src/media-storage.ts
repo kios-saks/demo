@@ -31,9 +31,10 @@ export class PrivateMediaStorage{
  }
  private path(path:string){if(!/^[0-9a-f]{64}\.(webp|svg|png|jpg)$/.test(path))throw new MediaError(500,"INVALID_STORAGE_PATH");return MEDIA_BUCKET+"/"+path;}
  private headers(extra:Record<string,string>={}){return {apikey:this.key,Authorization:"Bearer "+this.key,...extra};}
- async upload(path:string,bytes:Buffer){
+ async upload(path:string,bytes:Buffer,mime:"image/webp"|"image/svg+xml"="image/webp"){
+   if(path!==digest(bytes)+(mime==="image/webp"?".webp":".svg"))throw new MediaError(400,"INVALID_STORAGE_HASH");
    const suffix=this.path(path);
-   const res=await this.request(this.origin+"/storage/v1/object/"+suffix,{method:"POST",headers:this.headers({"Content-Type":"image/webp","x-upsert":"false"}),body:new Uint8Array(bytes),signal:AbortSignal.timeout(15000),redirect:"error"});
+   const res=await this.request(this.origin+"/storage/v1/object/"+suffix,{method:"POST",headers:this.headers({"Content-Type":mime,"x-upsert":"false"}),body:new Uint8Array(bytes),signal:AbortSignal.timeout(15000),redirect:"error"});
    if(res.ok)return;
    // A retry may find the same immutable object. Never overwrite; verify bytes.
    if(res.status===400||res.status===409){

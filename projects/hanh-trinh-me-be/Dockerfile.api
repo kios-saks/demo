@@ -7,6 +7,10 @@ RUN npm install --omit=dev --workspace @mebe/api --no-audit --no-fund
 COPY apps/api/src ./apps/api/src
 COPY packages/data/src ./packages/data/src
 COPY packages/content ./packages/content
+COPY scripts ./scripts
+COPY apps/web/public/media ./apps/web/public/media
+COPY docs/media-review ./docs/media-review
+RUN node scripts/generate-media.mjs
 COPY database/migrations ./database/migrations
 COPY database/certs/prod-ca-2021.crt ./database/certs/prod-ca-2021.crt
 ENV SUPABASE_CA_CERT_PATH=/srv/database/certs/prod-ca-2021.crt

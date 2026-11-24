@@ -9,7 +9,8 @@
     "db:seed": "tsx src/db/run-seed.ts",
     "test:postgres": "tsx --test src/postgres.integration.ts",
     "db:status": "tsx src/db/run-status.ts",
-    "test:db-routing": "tsx --test src/db-routing.integration.ts"
+    "test:db-routing": "tsx --test src/db-routing.integration.ts",
+    "media:import": "tsx src/db/import-media.ts"
   },
   "dependencies": {
     "fastify": "^5.4.0",

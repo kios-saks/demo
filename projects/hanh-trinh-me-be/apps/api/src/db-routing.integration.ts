@@ -18,7 +18,13 @@ test("Docker+Supabase-target dual routing: primary only writes; secondary has dr
  // This proves routing/concurrency but does NOT claim access to a real Supabase project.
  for(const uri of [docker,secondary]){
    const pool=new Pool({connectionString:uri});
-   try{assert.equal(await migrateDatabase(pool),1);await seedDatabase(pool,seed);}
+   try{
+     assert.equal(await migrateDatabase(pool),3);
+     assert.equal(await migrateDatabase(pool),0,"Migration replay must be idempotent");
+     const media=await pool.query("SELECT to_regclass('media_assets') AS assets,to_regclass('media_revisions') AS revisions,to_regclass('article_media') AS active,to_regclass('media_review_events') AS events");
+     for(const name of Object.values(media.rows[0]))assert.ok(name,"Media schema must exist on both targets");
+     await seedDatabase(pool,seed);
+   }
    finally{await pool.end();}
  }
  const factory:ConnectionProviderFactory=(target,uri)=>({target,open:()=>new Pool({connectionString:uri,max:3})});
