@@ -2,6 +2,7 @@ import Link from "next/link";
 import {notFound} from "next/navigation";
 import type {Metadata} from "next";
 import {getWebRepository} from "../../lib/repository";
+import {editorialHero,articleCover,coverAlt} from "../../lib/editorial-media";
 import {stageVisuals} from "../../lib/stage-visuals";
 
 export const dynamic="force-dynamic";
@@ -29,13 +30,13 @@ export default async function StagePage({params}:{params:Promise<{stage:string}>
      
     </div>
    </div>
-   <img className="stage-image" src={stageVisuals[item.slug]||"/media/cover-family-planning.svg"} alt={"Minh họa giai đoạn "+item.title} width="1200" height="675"/>
+   <img className="stage-image" src={stageVisuals[item.slug]||editorialHero} alt={"Minh họa giai đoạn "+item.title} width="1200" height="675"/>
   </section>
   <section aria-labelledby="stage-list-heading">
    <span className="eyebrow">NỘI DUNG THEO CHẶNG</span>
    <h2 className="list-title" id="stage-list-heading">Bài viết của giai đoạn này <span>({list.length})</span></h2>
    {list.length?<div className="article-grid">{list.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}>
-    {a.media?.cover?<img className="article-card-visual" src={a.media.cover.src} alt={a.media.cover.alt} width="1200" height="675" loading="lazy"/>:null}
+    {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675" loading="lazy"/>:null}
     <span className="pill">{a.status==="published"?"Đã xuất bản":"Đang biên tập"}</span><h3>{a.title}</h3>
     <p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
    </Link>)}</div>:<div className="empty-library">
