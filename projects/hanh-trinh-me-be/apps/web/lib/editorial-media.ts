@@ -4,7 +4,7 @@ import curated from "../../../packages/content/mock/editorial-curated-infographi
 
 import lifestyle from "../../../packages/content/mock/lifestyle-media.json";
 
-type LifestyleAsset={src:string;alt:string;reviewStatus:"approved"|"pending"};
+type LifestyleAsset={src:string;alt:string;origin:"ai-generated"|"licensed"|"commissioned";reviewStatus:"approved"|"pending"};
 const approved:Record<string,LifestyleAsset>=lifestyle.assets;
 function photo(key:string){const entry=approved[key];return entry?.reviewStatus==="approved"&&entry.src==="/media/lifestyle-"+key+".webp"?entry:undefined}
 const keys=new Set(Object.keys(visuals.coverBriefs));
@@ -17,6 +17,7 @@ export function groupVisual(key:string){return photo("group-"+key)?.src||(naviga
 export function stageVisual(key:string){return photo("stage-"+key)?.src||(navigation.has("stage-"+key)?"/media/editorial-stage-"+key+".svg":editorialHero)}
 export function articleCover(slug:string,fallback?:string){return photo("cover-"+slug)?.src||(keys.has(slug)?"/media/editorial-cover-"+slug+".svg":fallback)}
 export function coverAlt(title:string,slug?:string){return (slug?photo("cover-"+slug)?.alt:undefined)||"Tranh minh họa biên tập theo chủ đề: "+title}
+export function coverCaption(slug:string){const entry=photo("cover-"+slug);return entry?.origin==="ai-generated"?"Ảnh minh họa tạo bằng AI · Hành Trình Mẹ & Bé":entry?"Ảnh minh họa đời sống · Hành Trình Mẹ & Bé":"Tranh minh họa biên tập theo chủ đề · Hành Trình Mẹ & Bé"}
 export function inlineAsset(slug:string,v:{src:string;sourceUrl?:string;points?:readonly string[]}){
  const card=cards.get(slug),original=knownCurated[slug];
  const samePoints=card&&v.points&&card.points.length===v.points.length&&card.points.every((p,i)=>p===v.points?.[i]);
