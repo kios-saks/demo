@@ -142,7 +142,18 @@ assert(readerHtml.includes("Hành trình của gia đình bạn"));
 assert(readerHtml.includes('class="home-stage-groups stage-tile-grid"'));
 assert.equal((readerHtml.match(/data-stage-group=/g)||[]).length,6);
 assert.equal((readerHtml.match(/data-stage-link=/g)||[]).length,12);
-assert((readerHtml.match(/data-article-card=/g)||[]).length<=6,"Homepage must not render all 72 articles");
+assert.equal((readerHtml.match(/data-article-card=/g)||[]).length,6,"Homepage must render six featured articles");
+const homeGroups=[...new Set(readerHtml.match(/\/media\/lifestyle-group-[a-z0-9-]+\.webp/g)||[])];
+const homeCovers=[...new Set(readerHtml.match(/\/media\/lifestyle-cover-[a-z0-9-]+\.webp/g)||[])];
+assert.equal(homeGroups.length,6,"All six home journey groups require distinct lifestyle artwork");
+assert.equal(homeCovers.length,6,"All six featured home articles require distinct lifestyle covers");
+assert(readerHtml.includes("/media/lifestyle-hero.webp"));
+for(const path of [...homeGroups,...homeCovers,"/media/lifestyle-hero.webp"]){
+ const image=await fetch(web+path);
+ assert.equal(image.status,200,path);
+ assert(image.headers.get("content-type")?.includes("image/webp"),path);
+}
+console.log("PASS homepage lifestyle: hero + 6 groups + 6 featured covers");
 assert(readerHtml.includes('class="mobile-reader-nav"'));
 assert(readerHtml.includes("/da-luu"));
 assert(readerHtml.includes("/hanh-trinh"));
