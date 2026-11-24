@@ -20,3 +20,11 @@ Ngày 24/11/2026. Chủ sản phẩm quyết định giữ, sửa hoặc thay th
 2. Với ảnh cần cân nhắc: lưu preview, provenance, checksum, đề xuất vị trí và lý do; chủ sản phẩm chọn giữ/chỉnh/thay.
 3. Với kiến thức sức khỏe, đối chiếu từng chi tiết với nguồn chuyên môn. Ví dụ: [CDC safe sleep](https://www.cdc.gov/sudden-infant-death/sleep-safely/), [WHO infant and young child feeding](https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding). Duyệt lâm sàng riêng trước khi xuất bản.
 4. Khi đủ điều kiện, thêm ảnh vào Media Registry, giữ ảnh cũ nếu ảnh mới chưa được duyệt; CI kiểm tra kích thước, checksum, anchor và responsive. Không sửa bài viết gốc hay DB; giữ PR Draft.
+
+### C — [Xem mockup thiết kế](./review-c.webp)
+- Generation 7f031ff4-1822-41d5-8863-a4fc8c27e7cd. SHA256 29c0efae8ec1f72b5efd3608f921d591b85301b62f34b2774eb649c15f1f2663.
+- Đây là mockup sinh ngoài yêu cầu ảnh lifestyle, không phải ảnh chụp website hay báo cáo dự án. Các số 94%, 67/72 và các dấu hoàn thành trên ảnh là dữ liệu minh họa không chính xác. Thực tế tại baseline: 25/72 bài có ảnh lifestyle trong repo, 47 còn thiếu.
+- Không kích hoạt. Có thể tham chiếu bố cục review A/B nếu chủ sản phẩm muốn; nội dung sức khỏe và giải phẫu phải được kiểm chứng riêng.
+
+## Hàng đợi sản xuất
+[47 brief theo đoạn văn](../inline-media-production-plan-2026-11-24.json). Mỗi mục có slug, mục nội dung, trích đoạn gốc, mục đích giáo dục, yêu cầu hình và nguồn ứng viên. Brief chưa phải tài nguyên hình ảnh.

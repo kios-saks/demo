@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "asOf": "2026-11-24",
+  "baseline": "333979ebedb9be075595545a6f898649d9fa568c",
+  "coverage": {
+    "existingInline": 25,
+    "pending": 47,
+    "total": 72
+  },
+  "rules": "All entries are production briefs, not produced images. Owner reviews aesthetics; education and clinical accuracy must be verified separately. No new medical claim or source endorsement inferred. Keep pending image proposals, outside public assets. Preserve original article/DB.",
+  "items": [
+    {
+      "slug": "dong-hanh-khi-mang-thai",
+      "title": "Người đồng hành có thể giúp gì?",
+      "stage": "thai-ky-3-thang-giua",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Bắt đầu bằng ba câu hỏi ngắn: hôm nay bạn muốn tôi giúp việc gì, điều gì khiến bạn mệt nhất, và cuộc hẹn y tế nào cần tôi đi cùng? Chủ động làm những việc đã thống nhất như nấu ăn, di chuyển, chuẩn bị hồ sơ, dọn dẹp mà không chờ nhắc nhiều lần. Khi người mang thai nhận kết quả cần theo dõi, đề nghị ghi chép giúp nếu họ đồng ý. Trong quyết định điều trị, tôn trọng người được chăm sóc và nhân viên y tế.",
+      "visualType": "lifestyle",
+      "scene": "Người đồng hành chủ động nấu bữa cơm, mẹ nghỉ ở bàn, không mô tả lời khuyên điều trị.",
+      "educationalPurpose": "Cho thấy việc nhà cụ thể có thể chia sẻ.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "nguoi-me-cung-can-duoc-cham-soc",
+      "title": "Sau sinh, người mẹ cũng cần được chăm sóc",
+      "stage": "hau-san",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Người đồng hành có thể tạo ba khoảng hỗ trợ: ăn uống và nghỉ ngơi, công việc nhà, lịch hẹn và thuốc theo hướng dẫn xuất viện. Đặt sẵn nước và bữa ăn phù hợp, giúp nhận cuộc gọi, đưa đi tái khám và hỏi mẹ có muốn tiếp khách hay không. Lưu dấu hiệu cảnh báo cần đến cơ sở y tế, kể cả khi đã xuất viện. Người mẹ cần được tự quyết việc chia sẻ thông tin sức khỏe và phương án hỗ trợ bản thân.",
+      "visualType": "lifestyle",
+      "scene": "Người thân đặt khay cơm và nước cạnh người mẹ đang nghỉ, một túi đồ tái khám ở bên cạnh.",
+      "educationalPurpose": "Minh họa hỗ trợ ăn uống và nghỉ ngơi.",
+      "sourceCandidates": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "lam-quen-nhip-sinh-hoat-so-sinh",
+      "title": "Làm quen nhịp sinh hoạt của trẻ sơ sinh",
+      "stage": "so-sinh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn ghi chú thật đơn giản về những cữ bú hoặc tình huống khiến gia đình băn khoăn, không cần theo dõi từng phút. Khi bé thức, người chăm có thể trò chuyện nhẹ nhàng, đáp lại tín hiệu và chuẩn bị chỗ ngủ phẳng, chắc, không có gối hay vật mềm. Hỏi bác sĩ nhi khoa cách đánh giá trẻ bú đủ và tăng trưởng phù hợp. Trong gia đình, chia thời gian nghỉ cho người chăm chính và sắp xếp người có thể thay ca khi quá mệt.",
+      "visualType": "lifestyle",
+      "scene": "Sổ ghi chú đơn giản và đồng hồ đặt trên bàn cạnh ghế của người chăm, không có lịch bú cố định hay bé đang ngủ.",
+      "educationalPurpose": "Minh họa ghi nhận linh hoạt, không áp đặt thời gian.",
+      "sourceCandidates": [
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "moc-phat-trien-khong-phai-cuoc-dua",
+      "title": "Mốc phát triển không phải cuộc đua",
+      "stage": "nhu-nhi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn tài liệu theo độ tuổi phù hợp, quan sát bé trong hoạt động tự nhiên như chơi, tương tác và ăn uống, rồi ghi vài ví dụ thực tế thay vì cố cho bé trình diễn trước máy quay. Nếu có kỹ năng chưa thấy, ghi lại bối cảnh và điều khiến bạn băn khoăn để hỏi bác sĩ. Duy trì không gian chơi an toàn và các hoạt động đáp ứng tín hiệu của bé, không dùng bài tập ép trẻ đạt mốc bằng mọi giá.",
+      "visualType": "lifestyle",
+      "scene": "Người chăm quan sát bé đang thức chơi với một đồ chơi lớn, phù hợp tuổi, không ép bé thực hiện kỹ năng.",
+      "educationalPurpose": "Thể hiện quan sát hoạt động tự nhiên.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.cdc.gov/act-early/milestones/6-months.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "khi-con-noi-khong",
+      "title": "Khi con bắt đầu nói “không”",
+      "stage": "tap-di",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Khi trẻ từ chối, người lớn có thể nói ngắn điều đang xảy ra rồi đưa hai lựa chọn đều an toàn: 'Con muốn mang giày xanh hay đỏ?' Nếu việc không thể thương lượng, chẳng hạn nắm tay khi qua đường, hãy nêu giới hạn rõ và thực hiện bình tĩnh. Dành vài giây chờ trẻ phản hồi, dùng ngôn ngữ đơn giản và làm mẫu cách yêu cầu giúp đỡ. Chỉ giao lựa chọn mà trẻ thực sự có quyền chọn, tránh hỏi rồi tự phủ nhận.",
+      "visualType": "lifestyle",
+      "scene": "Mẹ đưa hai đôi giày xanh và đỏ cho trẻ tập đi tự lựa chọn; cả hai ở tầm mắt trẻ.",
+      "educationalPurpose": "Minh họa lựa chọn hữu hạn, không cưỡng ép.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "goc-choi-kham-pha-an-toan",
+      "title": "Thiết kế góc chơi khám phá an toàn",
+      "stage": "tap-di",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Ngồi hoặc quỳ xuống ở độ cao gần tầm trẻ và rà từng góc phòng. Cất thuốc, hóa chất, pin cúc áo, túi nilon và vật nhỏ ngoài tầm với; kiểm tra ổ điện, dây kéo rèm và đồ nội thất dễ lật. Với cửa sổ, ban công, cầu thang và khu vực bếp, dùng biện pháp an toàn phù hợp và vẫn giám sát. Chọn vài món chơi bền, dễ vệ sinh và có kích thước thích hợp; để trẻ có khoảng trống di chuyển an toàn.",
+      "visualType": "education",
+      "scene": "Sơ đồ phòng chơi từ tầm mắt trẻ: lối đi trống, đồ chơi kích thước phù hợp, kệ thấp cố định và vật nhỏ cất riêng; cần kiểm tra chi tiết an toàn.",
+      "educationalPurpose": "Minh họa cách rà soát môi trường, không chứng nhận một căn phòng an toàn.",
+      "sourceCandidates": [
+        "https://www.who.int/publications/i/item/9789241514064",
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "noi-chuyen-ve-day-thi",
+      "title": "Nói chuyện về dậy thì không xấu hổ",
+      "stage": "thieu-nien",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn thời điểm không có người ngoài và hỏi con muốn biết điều gì về những thay đổi cơ thể. Dùng tên gọi khoa học rõ ràng, giải thích rằng mỗi người có thời điểm phát triển khác nhau và không cần so sánh với bạn. Khi trẻ chưa muốn nói, có thể giới thiệu sách hoặc nguồn giáo dục phù hợp để tự đọc, đồng thời nhắc rằng con có thể hỏi lại. Trao đổi về vệ sinh, cảm xúc, sự đồng ý và ai là người con có thể tìm khi gặp điều khiến mình không an toàn.",
+      "visualType": "education",
+      "scene": "Sơ đồ các chủ đề dậy thì theo tuổi: thay đổi cơ thể, vệ sinh, cảm xúc, quyền riêng tư và nguồn hỏi; hình nhân vật mặc trang phục, không so sánh ngoại hình.",
+      "educationalPurpose": "Giúp gọi tên thay đổi và bắt đầu câu hỏi; bổ sung nguồn giáo dục sức khỏe tuổi vị thành niên trước duyệt.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "dong-hanh-khi-con-tu-lap",
+      "title": "Khi con bắt đầu tự lập",
+      "stage": "truong-thanh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn một cuộc trò chuyện về ba lĩnh vực gần nhất với người trẻ: sinh hoạt, học tập hoặc công việc và tài chính. Hỏi con đang muốn tự chịu trách nhiệm việc gì, khó khăn nào cần hướng dẫn và loại hỗ trợ nào có giới hạn thời gian. Có thể cùng lập danh sách giấy tờ cá nhân, lịch hẹn sức khỏe, phương án liên hệ khi khẩn cấp và kỹ năng chăm sóc bản thân. Người lớn tôn trọng quyết định cá nhân và tránh biến trợ giúp thành quyền kiểm soát.",
+      "visualType": "lifestyle",
+      "scene": "Cha mẹ và người con trưởng thành cùng xem sổ kế hoạch ở bàn, người trẻ chủ động viết.",
+      "educationalPurpose": "Minh họa người trẻ tự quyết phạm vi hỗ trợ.",
+      "sourceCandidates": [
+        "https://www.who.int/europe/publications/i/item/9789240014886",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "axit-folic-truoc-khi-mang-thai",
+      "title": "Axit folic trước mang thai: những điều nên biết",
+      "stage": "chuan-bi-mang-thai",
+      "afterSection": 3,
+      "anchorHeading": "Phân biệt axit folic, folate và các viên vitamin",
+      "anchorText": "Folate là tên gọi một nhóm dạng vitamin B9, có trong nhiều thực phẩm như rau xanh và đậu. Axit folic là dạng được dùng trong thực phẩm tăng cường vi chất và nhiều viên bổ sung. Ăn uống đa dạng vẫn quan trọng, nhưng khó tự suy ra đã đủ lượng axit folic khuyến nghị chỉ từ một thực đơn hoặc nhãn ghi 'giàu folate'.",
+      "visualType": "education",
+      "scene": "Ảnh thực phẩm giàu folate (rau lá xanh, đậu) cạnh hộp bổ sung không nhãn, phân biệt khái niệm qua chú thích HTML; không nêu liều tự tạo.",
+      "educationalPurpose": "Phân biệt folate trong thực phẩm và axit folic bổ sung, cần đối chiếu nguồn.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "kham-suc-khoe-tien-thai",
+      "title": "Khám sức khỏe tiền thai: checklist chuẩn bị",
+      "stage": "chuan-bi-mang-thai",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Một tuần trước cuộc hẹn, hãy tập hợp hồ sơ bệnh, giấy tiêm chủng, tên và liều các thuốc đang dùng, kể cả sản phẩm bổ sung mua ngoài nhà thuốc. Ghi lại tiền sử dị ứng, phẫu thuật và các lần mang thai nếu có. Sắp xếp ba nhóm câu hỏi: điều cần điều chỉnh trước khi có thai, điều cần theo dõi trong thai kỳ và dấu hiệu nào nên liên hệ nơi khám. Đừng tự ngừng thuốc hay thay đổi liều chỉ để 'chuẩn bị sạch cơ thể'.",
+      "visualType": "lifestyle",
+      "scene": "Hồ sơ bệnh, giấy tiêm chủng giả lập và danh sách thuốc không có thông tin cá nhân trên bàn chuẩn bị khám.",
+      "educationalPurpose": "Minh họa chuẩn bị hồ sơ và câu hỏi.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "title": "Rà soát thuốc và tiêm chủng trước khi có thai",
+      "stage": "chuan-bi-mang-thai",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Viết danh sách theo từng hàng gồm tên thuốc hoặc sản phẩm, hàm lượng, cách dùng, lý do đang sử dụng và nơi đã kê. Chụp nhãn nếu tên khó đọc. Với tiêm chủng, tìm lại sổ hoặc ứng dụng ghi lịch, phân biệt thông tin đã tiêm chắc chắn với điều chỉ nhớ mang máng. Mang tất cả tới buổi tư vấn và hỏi loại nào cần kiểm tra, loại nào cần ưu tiên theo hướng dẫn tại Việt Nam. Đừng dùng một lịch tiêm của người khác làm lịch của mình.",
+      "visualType": "education",
+      "scene": "Sơ đồ danh sách rà soát thuốc: tên, hàm lượng, cách dùng, lý do, nơi kê; đặt cạnh sổ tiêm chủng trống. Không tên thuốc hay lịch tiêm giả.",
+      "educationalPurpose": "Giúp người đọc chuẩn bị thông tin cho chuyên gia, không tự ngừng thuốc.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "ke-hoach-ho-tro-tien-thai",
+      "title": "Kế hoạch hỗ trợ gia đình trước khi có con",
+      "stage": "chuan-bi-mang-thai",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Hãy chia kế hoạch thành năm ô nhỏ: sức khỏe, tài chính, công việc, người hỗ trợ và giao tiếp. Với mỗi ô, ghi một việc cần xác minh thay vì đặt mục tiêu quá xa. Ví dụ, tìm nơi khám thuận tiện, ước lượng chi phí di chuyển, tìm hiểu chế độ nghỉ theo quy định, hỏi người thân họ có thể hỗ trợ khi nào và thống nhất cách trao đổi khi hai người bất đồng. Xem lại bản kế hoạch mỗi khi lịch làm việc hoặc điều kiện sống thay đổi.",
+      "visualType": "education",
+      "scene": "Bảng năm nhóm kế hoạch: sức khỏe, tài chính, công việc, người hỗ trợ, giao tiếp. Dùng HTML text, hình icon khác biệt.",
+      "educationalPurpose": "Thể hiện năm nhóm cần xác minh.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "lich-kham-thai-ba-thang-dau",
+      "title": "Khám thai 3 tháng đầu: theo dõi những gì?",
+      "stage": "thai-ky-3-thang-dau",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Lưu một lịch chung với tên cơ sở khám, ngày hẹn, địa điểm, giấy tờ cần đem và mục đích của buổi khám. Trước mỗi lần đi, kiểm tra yêu cầu nhịn ăn hay làm xét nghiệm nếu được hướng dẫn, chuẩn bị danh sách thuốc và câu hỏi mới. Trong lúc khám, hỏi khi nào nhận kết quả và ai sẽ liên hệ nếu có vấn đề. Sau đó, ghi các thay đổi trong kế hoạch và xác nhận bạn đã hiểu nên làm gì trước cuộc hẹn tiếp.",
+      "visualType": "lifestyle",
+      "scene": "Lịch tuần với thẻ hẹn và túi hồ sơ; không ghi ngày xét nghiệm hoặc lịch khám bắt buộc.",
+      "educationalPurpose": "Minh họa quản lý cuộc hẹn theo hướng dẫn riêng.",
+      "sourceCandidates": [
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "om-nghen-va-an-uong-dau-thai-ky",
+      "title": "Ốm nghén và ăn uống 3 tháng đầu",
+      "stage": "thai-ky-3-thang-dau",
+      "afterSection": 3,
+      "anchorHeading": "Ghi lại điều gì để trao đổi dễ dàng?",
+      "anchorText": "Bạn có thể dùng ghi chú trên điện thoại để ghi thời điểm nôn, khả năng uống nước, màu và lượng nước tiểu, đồ ăn dung nạp được và triệu chứng đi kèm. Không cần theo dõi đến từng phút hoặc biến bảng ghi thành áp lực. Những điểm bất thường lặp lại trong ngày giúp người khám hiểu tình trạng hơn câu nói chung chung 'mấy hôm nay em rất mệt'.",
+      "visualType": "education",
+      "scene": "Bản ghi ví dụ gồm thời điểm nôn, lượng nước dung nạp, triệu chứng đi kèm; không dùng con số ngưỡng tự đặt.",
+      "educationalPurpose": "Giúp ghi nhận thông tin khi trao đổi y tế, không chẩn đoán.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "suc-khoe-tinh-than-ba-thang-dau",
+      "title": "Lo âu đầu thai kỳ: khi nào tìm hỗ trợ?",
+      "stage": "thai-ky-3-thang-dau",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Thử xác định ba tình huống khiến lo âu tăng: đọc quá nhiều thông tin trái chiều, chờ kết quả khám hoặc thiếu người hỗ trợ. Với mỗi tình huống, chọn việc có thể kiểm soát như đặt lịch trao đổi với bác sĩ, giới hạn thời gian đọc tin, chia sẻ câu hỏi với một người tin cậy. Ghi những biểu hiện về giấc ngủ, mức tập trung và tâm trạng để mang tới cuộc hẹn. Đừng bắt bản thân phải 'suy nghĩ tích cực' liên tục khi đang thật sự khổ sở.",
+      "visualType": "lifestyle",
+      "scene": "Người mang thai và người thân trò chuyện trong phòng yên tĩnh, điện thoại đặt sang một bên.",
+      "educationalPurpose": "Minh họa lắng nghe và giảm áp lực thông tin.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "dau-hieu-nguy-hiem-dau-thai-ky",
+      "title": "Dấu hiệu cảnh báo không nên bỏ qua khi mới mang thai",
+      "stage": "thai-ky-3-thang-dau",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước khi có sự cố, lưu số điện thoại khoa sản, nơi cấp cứu gần nhà và cách đến đó ngoài giờ. Ghi tuổi thai ước tính, thuốc đang dùng, dị ứng và các vấn đề bác sĩ đang theo dõi. Khi xuất hiện dấu hiệu lạ, mô tả được thời điểm bắt đầu, diễn biến và ảnh hưởng tới khả năng thở, đi lại, tỉnh táo. Những ghi chú này giúp trao đổi khi gọi điện hoặc tới viện, nhưng không nên dành nhiều thời gian ghi chép nếu tình trạng đang khẩn cấp.",
+      "visualType": "education",
+      "scene": "Sơ đồ các mục cần chuẩn bị khi gọi nơi khám: tuổi thai, thuốc/dị ứng, biểu hiện và thời điểm; dấu hiệu cảnh báo chỉ lấy từ nguồn chuyên môn.",
+      "educationalPurpose": "Giúp chuẩn bị liên hệ chăm sóc; không mô phỏng triệu chứng hoặc tự đặt thời gian chờ.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "kham-thai-ba-thang-giua",
+      "title": "Theo dõi 3 tháng giữa: lịch hẹn và câu hỏi",
+      "stage": "thai-ky-3-thang-giua",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước mỗi lần khám, xem lại phiếu hẹn, kiểm tra điều kiện chuẩn bị nếu có xét nghiệm và mang danh sách thuốc, sản phẩm bổ sung. Ghi các thay đổi về sức khỏe, vận động, ngủ, ăn uống hoặc lo lắng mới. Trong cuộc hẹn, hỏi rõ một kết quả bình thường có nghĩa gì và có giới hạn nào. Sau khi về nhà, ghi ngày nhận kết quả, người phụ trách theo dõi và dấu hiệu cần gọi cơ sở y tế giữa hai lần hẹn.",
+      "visualType": "lifestyle",
+      "scene": "Người mang thai và nhân viên y tế trao đổi tại bàn, có sổ ghi câu hỏi; không trình bày kết quả xét nghiệm hoặc siêu âm giả.",
+      "educationalPurpose": "Minh họa hỏi về kết quả và cuộc hẹn.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "sang-loc-tieu-duong-thai-ky",
+      "title": "Sàng lọc đái tháo đường thai kỳ: hỏi gì khi khám?",
+      "stage": "thai-ky-3-thang-giua",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước xét nghiệm, đọc kỹ phiếu hướng dẫn để biết có cần nhịn ăn, chuẩn bị ra sao và thuốc nào phải báo nhân viên y tế. Nếu có buồn nôn, bệnh nền hoặc lịch làm việc đặc biệt, liên hệ cơ sở xét nghiệm trước ngày hẹn. Trong ngày làm xét nghiệm, báo tình trạng không khỏe hoặc khó chịu. Sau đó, hỏi khi nào nhận kết quả và liệu kết quả có cần kiểm tra tiếp hoặc tư vấn dinh dưỡng, vận động hay không.",
+      "visualType": "education",
+      "scene": "Sơ đồ đọc phiếu hướng dẫn trước xét nghiệm và hỏi về nhịn ăn, thuốc, thời gian; không ghi giá trị glucose, liều dung dịch hay quy trình cố định.",
+      "educationalPurpose": "Làm rõ chuẩn bị theo cơ sở y tế, cần đối chiếu quy trình.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "van-dong-an-toan-khi-mang-thai",
+      "title": "Vận động trong thai kỳ: lắng nghe cơ thể",
+      "stage": "thai-ky-3-thang-giua",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước khi đổi cường độ luyện tập, hỏi nhân viên y tế về những chống chỉ định hoặc điều chỉnh riêng. Với người được phép vận động, có thể chọn hoạt động vừa sức và tăng dần theo cảm giác, dành thời gian khởi động, uống nước và tránh môi trường quá nóng. Quan sát phản ứng trong và sau hoạt động, giữ lịch nghỉ hợp lý. Nếu hoạt động khiến đau, chóng mặt hoặc khó chịu đáng kể, dừng lại và hỏi ý kiến y tế.",
+      "visualType": "lifestyle",
+      "scene": "Người mang thai đi bộ trên lối bằng phẳng cùng người thân, giày phù hợp, có nước uống; không động tác tập khó.",
+      "educationalPurpose": "Minh họa một hoạt động vừa sức khi được phép, không bảo đảm phù hợp mọi thai kỳ.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "chat-luong-giac-ngu-ba-thang-giua",
+      "title": "Giấc ngủ và sự thoải mái ở 3 tháng giữa",
+      "stage": "thai-ky-3-thang-giua",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Bắt đầu bằng việc quan sát điều gì làm giấc ngủ bị gián đoạn: ánh sáng, tiếng ồn, màn hình, bữa ăn muộn hoặc cảm giác khó chịu cơ thể. Chọn một hoặc hai thay đổi nhỏ như giảm ánh sáng, duy trì giờ nghỉ tương đối ổn định và tạo khoảng thư giãn trước khi nằm. Nếu có vấn đề về tư thế, đau hoặc khó thở, hỏi người theo dõi thai về điều chỉnh an toàn; không tự áp dụng mẹo có thể không phù hợp tình trạng sức khỏe.",
+      "visualType": "lifestyle",
+      "scene": "Góc phòng ngủ yên tĩnh, đèn dịu, sách và điện thoại úp trên bàn; không hình tư thế ngủ được khẳng định an toàn.",
+      "educationalPurpose": "Minh họa môi trường nghỉ ngơi.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "ke-hoach-sinh-an-toan",
+      "title": "Lập kế hoạch sinh linh hoạt cho gia đình",
+      "stage": "thai-ky-3-thang-cuoi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Ghi nơi dự sinh, số khoa sản, giấy tờ quan trọng và đường đi vào ban ngày lẫn ban đêm. Hỏi cơ sở y tế cách nhận biết thời điểm cần liên hệ, yêu cầu nhập viện và trường hợp phải tới ngay. Chuẩn bị danh sách thuốc, dị ứng, bệnh nền và tiền sử thai sản. Nếu có người đồng hành, thống nhất vai trò họ mong muốn đảm nhận; cũng có thể hỏi về hỗ trợ tinh thần, tư thế, quản lý đau và tiếp xúc da kề da theo điều kiện bệnh viện.",
+      "visualType": "lifestyle",
+      "scene": "Túi đi sinh và tập giấy tờ cạnh cửa, bản đồ tuyến đi dạng không chữ.",
+      "educationalPurpose": "Minh họa chuẩn bị phương án di chuyển, không cam kết kế hoạch sinh.",
+      "sourceCandidates": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "dau-hieu-can-di-vien-cuoi-thai-ky",
+      "title": "Cuối thai kỳ: khi nào cần liên hệ bệnh viện?",
+      "stage": "thai-ky-3-thang-cuoi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Lưu số tư vấn sản khoa và hướng dẫn khi nào tới viện ngay từ lần khám trước. Chuẩn bị thông tin tuổi thai, bệnh nền, thuốc đang dùng và các dấu hiệu bác sĩ dặn theo dõi. Khi có biểu hiện mới, quan sát thời điểm bắt đầu, mức độ thay đổi và các triệu chứng kèm theo để mô tả khi gọi điện. Nếu khó thở nặng, ngất, chảy máu nhiều hoặc tình huống nguy hiểm rõ ràng, gọi cấp cứu địa phương và ưu tiên được đưa tới cơ sở phù hợp.",
+      "visualType": "education",
+      "scene": "Sơ đồ thông tin liên hệ khoa sản, hồ sơ và biểu hiện mới; lấy chỉ dẫn khẩn cấp từ nguồn chính thống, không dùng một lịch chờ chung.",
+      "educationalPurpose": "Nhấn mạnh chuẩn bị liên hệ và không trì hoãn khi có dấu hiệu cảnh báo.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "thai-may-va-theo-doi-thai-cuoi-ky",
+      "title": "Quan sát thai máy và thay đổi đáng chú ý",
+      "stage": "thai-ky-3-thang-cuoi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Hãy chú ý kiểu cử động quen thuộc của thai trong sinh hoạt thường ngày mà không ép mình theo dõi liên tục đến mức căng thẳng. Lưu số điện thoại cơ sở theo dõi thai ở vị trí dễ tìm. Nếu nhận thấy bé chuyển động rõ rệt ít hơn hoặc khác thường, gọi nơi khám thai ngay để được đánh giá; mô tả tuổi thai và thay đổi bạn nhận thấy. Không tự đợi đến đủ một số giờ hay thử mẹo tại nhà trước khi liên hệ.",
+      "visualType": "education",
+      "scene": "Sơ đồ nhận biết kiểu cử động quen thuộc và thay đổi bất thường → liên hệ khoa sản ngay; không số lần đếm hoặc mẹo kích thích thai.",
+      "educationalPurpose": "Minh họa hành động khi cử động thay đổi; đối chiếu nguồn NHS/CDC.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "chuan-bi-sau-sinh-dinh-duong-cham-soc",
+      "title": "Chuẩn bị 48 giờ và 6 tuần đầu sau sinh",
+      "stage": "thai-ky-3-thang-cuoi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước sinh, hỏi bệnh viện về chăm sóc trong những giờ đầu, hỗ trợ tiếp xúc da kề da, nuôi dưỡng và hướng dẫn xuất viện phù hợp tình trạng mẹ bé. Chuẩn bị danh sách bữa ăn dễ thực hiện, người mua sắm, người đưa đi khám và chỗ ngủ an toàn của trẻ. Lưu các lịch hẹn sau sinh và cách liên hệ cơ sở y tế. Người mẹ nên được tham gia quyết định về việc thăm nom, chia sẻ thông tin sức khỏe và sự hỗ trợ mong muốn.",
+      "visualType": "lifestyle",
+      "scene": "Tủ lạnh có hộp thực phẩm và danh sách mua sắm, người thân chuẩn bị bữa ăn, không hình nuôi dưỡng lâm sàng.",
+      "educationalPurpose": "Minh họa chuẩn bị nguồn hỗ trợ tại nhà.",
+      "sourceCandidates": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "dau-hieu-canh-bao-sau-sinh",
+      "title": "Dấu hiệu cảnh báo ở mẹ sau sinh",
+      "stage": "hau-san",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Lưu giấy xuất viện ở nơi người thân có thể tìm được khi được phép, cùng số khoa sản, cấp cứu và phương án di chuyển. Quan sát những thay đổi khác thường như đau tăng rõ, sốt, vết thương có dấu nhiễm trùng, sưng đau một bên chân hoặc sản dịch bất thường. Khi liên hệ y tế, nói rõ mẹ đã sinh cách đây bao lâu, phương pháp sinh và thuốc đang dùng. Nếu triệu chứng nghiêm trọng, gọi hỗ trợ khẩn cấp thay vì tự chờ.",
+      "visualType": "education",
+      "scene": "Infographic biểu tượng các dấu hiệu được nguồn chính thống xác nhận và cách liên hệ cơ sở y tế; không hình vết thương thật hoặc nhãn tự chẩn đoán.",
+      "educationalPurpose": "Giúp nhận biết lúc cần hỗ trợ, bắt buộc thẩm định y khoa.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.who.int/publications-detail-redirect/9789240045989"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "title": "Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung",
+      "stage": "hau-san",
+      "afterSection": 3,
+      "anchorHeading": "Chăm vết mổ và vận động sau sinh mổ",
+      "anchorText": "Với người sinh mổ, việc giữ vết thương sạch, khô theo hướng dẫn và quan sát đỏ lan, sưng, chảy dịch có mùi hoặc đau tăng là quan trọng. Có thể hỏi bác sĩ cách tắm, thay băng và thời điểm được trở lại với các hoạt động sinh hoạt thường ngày. Không nên dùng một mốc thời gian trên mạng để tự bỏ qua hướng dẫn riêng của bệnh viện.",
+      "visualType": "education",
+      "scene": "Sơ đồ giải phẫu y khoa trung tính về vùng vết mổ/tiến trình hồi phục, nhãn dựa trên nguồn chính thức; không mô phỏng tự thay băng nếu chưa được chuyên môn duyệt.",
+      "educationalPurpose": "Làm rõ sự khác nhau giữa chăm sóc vết mổ và hồi phục sinh thường, tránh khẳng định thời gian giống nhau.",
+      "sourceCandidates": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/",
+        "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "tam-trang-sau-sinh-va-tram-cam",
+      "title": "Tâm trạng sau sinh: khi nào nên nhờ người giúp?",
+      "stage": "hau-san",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Dành thời gian hỏi người mẹ bằng câu cụ thể và không phán xét: dạo này có thấy buồn hoặc lo quá mức không, có việc gì làm mẹ sợ hoặc không ngủ được dù có cơ hội nghỉ không? Nếu mẹ muốn, có thể ghi lại thời gian triệu chứng và mức ảnh hưởng đến ăn, ngủ, chăm sóc bản thân để trao đổi với cơ sở y tế. Chủ động xin hỗ trợ chuyên môn khi biểu hiện kéo dài, tăng dần hoặc cản trở sinh hoạt.",
+      "visualType": "lifestyle",
+      "scene": "Hai người trưởng thành ngồi trao đổi, một người lắng nghe mẹ; ánh sáng dịu, không biểu diễn trầm cảm như một dáng vẻ cố định.",
+      "educationalPurpose": "Minh họa hỏi và lắng nghe không phán xét.",
+      "sourceCandidates": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "ho-tro-bu-me-va-khi-kho-khan",
+      "title": "Hỗ trợ nuôi con bằng sữa mẹ sau sinh",
+      "stage": "hau-san",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Ngay sau sinh, hỏi nhân viên y tế cách nhận biết bé đang bú hiệu quả, những tín hiệu bé cần bú và cách đánh giá đủ sữa trong bối cảnh tăng trưởng, tã và tình trạng sức khỏe. Nếu đau nhiều, nứt đầu vú, bé bú khó hoặc không tăng trưởng như mong đợi, xin người có chuyên môn quan sát trực tiếp một cữ bú. Ghi lại câu hỏi về thuốc mẹ đang dùng và việc lưu trữ sữa nếu cần, không tự suy đoán từ cảm giác ngực mềm.",
+      "visualType": "education",
+      "scene": "Sơ đồ giáo dục chuyên môn về tư thế và dấu hiệu ngậm bắt vú hiệu quả, dùng hình minh họa giải phẫu trung tính, lấy từ hướng dẫn WHO/UNICEF hoặc chuyên gia; không tự tạo chi tiết chưa kiểm chứng.",
+      "educationalPurpose": "Giúp gia đình hiểu vấn đề khi xin tư vấn, cần thẩm định y khoa và quyền sử dụng.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "ngu-an-toan-cho-tre-so-sinh",
+      "title": "Giấc ngủ an toàn: nằm ngửa và mặt phẳng chắc",
+      "stage": "so-sinh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị chỗ ngủ từng bước",
+      "anchorText": "Chọn cũi hoặc nôi đáp ứng tiêu chuẩn an toàn, có nệm chắc và phẳng, ga bọc vừa đúng kích thước. Bỏ gối, thú bông, chăn dày, đệm chắn thành cũi và vật rời khỏi khu vực nằm của bé. Trước khi đặt bé xuống, kiểm tra xem có khe kẹt, dây buộc, vật dụng mềm hay phụ kiện có thể che mũi miệng của bé không.",
+      "visualType": "education",
+      "scene": "So sánh bằng sơ đồ: bé nằm ngửa trên nệm chắc, phẳng, ga vừa khít, không vật mềm; phản ví dụ có nhãn sai rõ ràng nếu cần. Đối chiếu CDC.",
+      "educationalPurpose": "Minh họa các thành phần môi trường ngủ, không chứng nhận sản phẩm.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "dau-hieu-nguy-hiem-o-tre-so-sinh",
+      "title": "Dấu hiệu nguy hiểm ở trẻ sơ sinh cần đưa đi khám",
+      "stage": "so-sinh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước khi về nhà, hỏi cơ sở sinh về nơi khám nhi, số cấp cứu và dấu hiệu phải quay lại. Ghi thông tin tuổi theo ngày, tình trạng sinh non nếu có, cân nặng lúc sinh, thuốc đã được kê và cách nuôi dưỡng. Khi trẻ bất thường, mô tả được lúc bắt đầu, thay đổi bú, khả năng thức, màu da và kiểu thở. Với khó thở, tím tái, co giật, không đáp ứng hoặc biểu hiện nguy hiểm, gọi cấp cứu và đưa trẻ tới cơ sở y tế phù hợp ngay.",
+      "visualType": "education",
+      "scene": "Thẻ dấu hiệu cần đi khám được rút từ nguồn chính thức, icon trung tính; không mô phỏng triệu chứng để phụ huynh tự chẩn đoán qua ảnh.",
+      "educationalPurpose": "Nhấn mạnh liên hệ cấp cứu/cơ sở khám phù hợp, cần bác sĩ duyệt.",
+      "sourceCandidates": [
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+        "https://www.cdc.gov/act-early/milestones/2-months.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "bu-me-hoan-toan-sau-sinh",
+      "title": "Bú mẹ hoàn toàn 6 tháng đầu: nguyên tắc nền tảng",
+      "stage": "so-sinh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Ngay từ giai đoạn ở cơ sở sinh, hỏi nhân viên y tế cách nhận biết tín hiệu đói, tư thế và ngậm bắt vú, cùng các dấu hiệu bé nhận đủ sữa dựa trên tăng trưởng, tã và tình trạng thực tế. Nếu bé bú khó, mẹ đau nhiều hoặc lo thiếu sữa, xin người có chuyên môn quan sát một lần cho bú. Người đồng hành hỗ trợ nghỉ ngơi, nước uống và bữa ăn, tránh chỉ liên tục hỏi về lượng sữa.",
+      "visualType": "education",
+      "scene": "Sơ đồ định nghĩa bú mẹ hoàn toàn và ngoại lệ theo WHO, nhãn Việt ngữ có nguồn; hình vẽ y khoa trung tính nếu cần, không suy diễn lượng sữa từ ảnh.",
+      "educationalPurpose": "Giải thích chính xác định nghĩa và tình huống cần hỗ trợ.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "theo-doi-phat-trien-hai-thang-dau",
+      "title": "Quan sát mốc phát triển trong 2 tháng đầu",
+      "stage": "so-sinh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn những khoảnh khắc bé tỉnh táo để nhìn mặt, trò chuyện nhẹ, đáp lại âm thanh và quan sát cử động tự nhiên. Đọc checklist phù hợp tuổi từ nguồn chính thức, đánh dấu điều mình thực sự đã thấy và ghi điều chưa rõ để hỏi khi khám. Không cố buộc bé lặp lại một kỹ năng nhiều lần cho đủ video. Nếu trẻ sinh non, hỏi cách tính tuổi hiệu chỉnh và diễn giải mốc theo hướng dẫn của nhân viên y tế.",
+      "visualType": "education",
+      "scene": "Ảnh hoặc sơ đồ người chăm trò chuyện với trẻ tỉnh táo, ghi lại phản ứng tự nhiên; tư thế và độ tuổi kiểm chứng theo CDC.",
+      "educationalPurpose": "Minh họa tương tác, không yêu cầu đạt mốc bắt buộc.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/act-early/milestones/2-months.html",
+        "https://www.unicef.org/parenting/child-development/baby-tips"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "an-dam-khi-nao-bat-dau",
+      "title": "Ăn dặm từ khoảng 6 tháng: bắt đầu thế nào?",
+      "stage": "nhu-nhi",
+      "afterSection": 3,
+      "anchorHeading": "Dấu hiệu trẻ sẵn sàng làm quen thực phẩm",
+      "anchorText": "NHS nêu ba dấu hiệu nên xuất hiện cùng nhau vào khoảng sáu tháng: bé có thể duy trì tư thế ngồi và giữ đầu ổn định; phối hợp mắt, tay và miệng để nhìn, cầm và đưa thức ăn vào miệng; có thể nuốt thức ăn thay vì liên tục đẩy ra ngoài. Những tín hiệu đơn lẻ như mút tay, thức đêm hay nhìn người lớn ăn không đủ để kết luận trẻ đã sẵn sàng.",
+      "visualType": "education",
+      "scene": "Sơ đồ ba dấu hiệu sẵn sàng ăn dặm dựa trên NHS, minh họa trung tính mỗi dấu hiệu, không dựa vào tuổi đơn lẻ.",
+      "educationalPurpose": "Giúp hiểu điều kiện sẵn sàng, duyệt chính xác tư thế và kết cấu thực phẩm.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/publications-detail-redirect/9789240081864",
+        "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "an-toan-chong-sac-khi-an-dam",
+      "title": "Phòng hóc sặc khi bé bắt đầu ăn dặm",
+      "stage": "nhu-nhi",
+      "afterSection": 3,
+      "anchorHeading": "Tư thế ngồi và môi trường bữa ăn",
+      "anchorText": "Luôn cho bé ngồi thẳng trong ghế ăn phù hợp, có người lớn ở gần quan sát. Tránh cho bé vừa ăn vừa bò, chạy, nằm ngửa, cười đùa mạnh hoặc ngồi trên xe đang di chuyển. Không rời mắt để trả lời điện thoại vì tai nạn đường thở có thể diễn ra nhanh, đôi khi rất ít tiếng động.",
+      "visualType": "education",
+      "scene": "Sơ đồ ghế ăn, tư thế ngồi thẳng và người lớn giám sát; minh họa cắt/chế biến thức ăn chỉ nếu nguồn cụ thể được xác minh.",
+      "educationalPurpose": "Giúp hình dung giảm nguy cơ hóc sặc, không minh họa sơ cứu chưa duyệt.",
+      "sourceCandidates": [
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid/",
+        "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "moc-phat-trien-sau-thang-thu-sau",
+      "title": "Theo dõi phát triển 6–12 tháng không áp lực",
+      "stage": "nhu-nhi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trong lúc bé tỉnh, tạo không gian chơi trên sàn an toàn, cho bé cơ hội với, cầm đồ vật phù hợp và giao tiếp qua nét mặt, âm thanh. Đọc sách tranh ngắn, gọi tên đồ vật, chờ bé phản hồi rồi đáp lại. Quan sát kỹ năng qua nhiều ngày thay vì một lần thử. Với đồ chơi, kiểm tra chi tiết nhỏ dễ rời, pin cúc áo, dây dài và vật có thể đưa vào miệng, vì trẻ ở độ tuổi này khám phá mạnh bằng tay và miệng.",
+      "visualType": "lifestyle",
+      "scene": "Trẻ nhũ nhi đang thức trên thảm chơi, người chăm cùng xem sách tranh và đồ chơi lớn phù hợp; không ép đứng.",
+      "educationalPurpose": "Minh họa chơi và giao tiếp tự nhiên.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/act-early/milestones/6-months.html",
+        "https://www.cdc.gov/act-early/milestones/1-year.html",
+        "https://www.unicef.org/parenting/child-development/baby-tips"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
+      "title": "Giấc ngủ 4–12 tháng: thói quen và an toàn",
+      "stage": "nhu-nhi",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trước mỗi giấc ngủ, kiểm tra chỗ nằm của bé, bề mặt và các đồ vật có thể che mũi miệng. Tạo chuỗi hoạt động nhẹ nhàng trước giờ ngủ như giảm ánh sáng, nói nhỏ và chuyển bé về nơi ngủ riêng an toàn. Nếu nhiều người thay ca, thống nhất cùng quy tắc, không để ông bà hoặc người trông trẻ dùng gối, chăn dày hay nệm nghiêng theo thói quen cũ. Điều chỉnh giờ nghỉ theo tín hiệu và nhu cầu thực tế.",
+      "visualType": "education",
+      "scene": "Sơ đồ thói quen trước ngủ và nơi ngủ riêng an toàn; dùng chuẩn CDC, tránh chăn gối, không cam kết ngủ xuyên đêm.",
+      "educationalPurpose": "Minh họa trình tự và môi trường.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+        "https://www.cdc.gov/act-early/milestones/6-months.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "con-an-va-tu-lap-khi-tap-di",
+      "title": "Bữa ăn 1–3 tuổi: khuyến khích tự lập không ép",
+      "stage": "tap-di",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chuẩn bị giờ ăn tương đối đều, cho trẻ ngồi thẳng và đưa ra lựa chọn món phù hợp lứa tuổi. Người lớn quyết định thực phẩm nào được phục vụ và môi trường ăn an toàn; trẻ được khuyến khích nhận biết đói no và tham gia tự xúc theo kỹ năng. Bày lượng nhỏ để dễ thử, không cần đặt mục tiêu phải hết bát. Khi có khó khăn nuốt, dị ứng hoặc tăng trưởng, cần tư vấn dinh dưỡng hay bác sĩ theo tình trạng cụ thể.",
+      "visualType": "education",
+      "scene": "Trẻ tập đi ngồi thẳng, tự cầm thìa dưới giám sát trực tiếp của người chăm; phần ăn kích thước và kết cấu cần kiểm tra.",
+      "educationalPurpose": "Minh họa trẻ tự xúc không bị ép và an toàn bữa ăn.",
+      "sourceCandidates": [
+        "https://www.who.int/publications-detail-redirect/9789240081864",
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+      "title": "Trẻ hay ăn vạ: thiết lập giới hạn không bạo lực",
+      "stage": "tap-di",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Khi trẻ đang kích động, ưu tiên đưa đến vị trí an toàn, giữ giọng nói bình tĩnh và sử dụng câu ngắn như 'Con đang giận; mẹ ở đây'. Không tranh luận hoặc bắt trẻ xin lỗi ngay lúc đang khóc. Khi trẻ dịu hơn, gọi tên cảm xúc, nhắc giới hạn và cùng thực hành lựa chọn khác, chẳng hạn xin giúp hoặc chọn món chơi khác. Người lớn cũng cần tự điều chỉnh; nếu sắp mất kiểm soát, nhờ người khác giám sát trẻ một lúc.",
+      "visualType": "lifestyle",
+      "scene": "Người chăm ngồi ngang tầm trẻ đang bực, giữ khoảng cách tôn trọng, không ghì giữ hay trừng phạt.",
+      "educationalPurpose": "Minh họa đồng hành khi trẻ khó điều hòa cảm xúc.",
+      "sourceCandidates": [
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+        "https://www.cdc.gov/act-early/milestones/2-years.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "an-toan-trong-nha-khi-tre-tap-di",
+      "title": "An toàn khi con bắt đầu chạy, leo trèo và khám phá",
+      "stage": "tap-di",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Đi một vòng từ tầm mắt trẻ qua phòng khách, bếp, phòng tắm, ban công và cửa ra vào. Cất thuốc, chất tẩy rửa, pin cúc áo, nam châm mạnh và vật nhỏ trong tủ được khóa phù hợp. Kiểm tra cửa sổ, cầu thang, đồ cao dễ đổ và nơi có nước; không để trẻ một mình gần bồn tắm hay xô nước. Rà lại dây điện, bề mặt nóng và dụng cụ sắc. Thống nhất người phụ trách giám sát trong mỗi hoạt động.",
+      "visualType": "education",
+      "scene": "Sơ đồ rà soát nhà theo khu vực: tủ đồ nguy hiểm có khóa, dây cất gọn, lối đi và cửa sổ/cầu thang. Chi tiết kỹ thuật cần nguồn.",
+      "educationalPurpose": "Minh họa kiểm tra theo từng môi trường, không chứng nhận an toàn.",
+      "sourceCandidates": [
+        "https://www.unicef.org/parenting/child-development/baby-tips",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "moc-phat-trien-tuoi-bon-va-nam",
+      "title": "Mốc 4–5 tuổi: quan sát thay vì tạo áp lực",
+      "stage": "mam-non",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Trong sinh hoạt, tạo cơ hội để trẻ kể lại một sự việc, thử tự mặc đồ phù hợp, chơi theo lượt và tham gia hoạt động vận động an toàn. Khi xem checklist, ghi ví dụ bạn thực sự đã quan sát thay vì yêu cầu trẻ trình diễn. Nếu có dấu hiệu mất kỹ năng hoặc lo ngại về ngôn ngữ, nghe nhìn hay vận động, trao đổi với bác sĩ và giáo viên. Với trẻ có nhu cầu phát triển đặc biệt, cần kế hoạch đánh giá cá thể hóa.",
+      "visualType": "lifestyle",
+      "scene": "Trẻ 4–5 tuổi kể lại câu chuyện từ hình vẽ cho người chăm đang lắng nghe.",
+      "educationalPurpose": "Minh họa cơ hội thể hiện kỹ năng tự nhiên.",
+      "sourceCandidates": [
+        "https://www.cdc.gov/act-early/milestones/4-years.html",
+        "https://www.cdc.gov/act-early/milestones/5-years.html"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "giao-tiep-gioi-han-khong-don-roi",
+      "title": "Kỷ luật tích cực cho trẻ mầm non",
+      "stage": "mam-non",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn một hoặc hai quy tắc căn bản trong tình huống cụ thể như không đánh bạn, dừng trước đường hoặc cất đồ trước giờ ăn. Nói quy tắc bằng câu ngắn và mô tả hành vi muốn thấy: 'tay mình dùng để chơi nhẹ, không đánh'. Khi trẻ chưa làm được, người lớn giúp dừng hành vi nguy hiểm, gọi tên cảm xúc rồi hướng dẫn cách khác. Sau khi bình tĩnh, cùng luyện lời xin giúp hoặc đề nghị thay lượt.",
+      "visualType": "lifestyle",
+      "scene": "Hai trẻ chơi thay lượt với đồ chơi lớn, người chăm bình tĩnh hỗ trợ; không cảnh bạo lực.",
+      "educationalPurpose": "Minh họa quy tắc thay phiên.",
+      "sourceCandidates": [
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+        "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "phong-chong-bat-nat-o-truong",
+      "title": "Bắt nạt ở trường: cha mẹ và giáo viên cần phối hợp",
+      "stage": "tieu-hoc",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn nơi riêng tư để trẻ kể theo khả năng, hỏi điều gì xảy ra, ở đâu, khi nào, ai có mặt và trẻ cảm thấy thế nào. Ghi lại những sự việc cụ thể và lưu bằng chứng phù hợp, không thúc ép trẻ đối chất một mình. Liên hệ giáo viên hoặc người phụ trách bảo vệ trẻ của trường, hỏi biện pháp đảm bảo an toàn tức thì và kế hoạch theo dõi. Nếu có nguy cơ bạo lực nghiêm trọng, xâm hại hoặc đe dọa tính mạng, cần tiếp cận hỗ trợ khẩn cấp và cơ quan có thẩm quyền.",
+      "visualType": "lifestyle",
+      "scene": "Cha mẹ trò chuyện riêng với giáo viên tại bàn, sổ ghi sự việc không có dữ liệu cá nhân.",
+      "educationalPurpose": "Minh họa phối hợp nhà trường, không tái hiện bắt nạt gây hại.",
+      "sourceCandidates": [
+        "https://www.unicef.org/parenting/child-care/bullying",
+        "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "suc-khoe-tinh-than-tuoi-thieu-nien",
+      "title": "Sức khỏe tinh thần 12–17 tuổi: dấu hiệu cần hỗ trợ",
+      "stage": "thieu-nien",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn thời điểm riêng tư để hỏi con đang gặp điều gì khó và con muốn được lắng nghe hay giúp tìm giải pháp. Ghi nhận những thay đổi cụ thể nếu con đồng ý như mất ngủ kéo dài, bỏ học, cô lập hoặc không còn hứng thú với hoạt động từng yêu thích. Tìm nhân viên tư vấn trường học hoặc cơ sở y tế phù hợp khi triệu chứng ảnh hưởng đáng kể. Khi có nguy cơ tự hại, tự sát hoặc không an toàn, cần hỗ trợ khẩn cấp và người lớn có trách nhiệm ở bên cạnh.",
+      "visualType": "lifestyle",
+      "scene": "Người lớn lắng nghe thiếu niên trong không gian riêng tư, dáng ngồi thoải mái; không hình ảnh tự hại.",
+      "educationalPurpose": "Minh họa lời mời chia sẻ và tìm trợ giúp.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "noi-chuyen-day-thi-tinh-duc-an-toan",
+      "title": "Nói chuyện về dậy thì và ranh giới cá nhân",
+      "stage": "thieu-nien",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Bắt đầu bằng hỏi con đang muốn hiểu điều gì và con đã nghe thông tin ở đâu. Dùng từ ngữ y học rõ ràng và không phán xét, tập trung vào thay đổi cơ thể, vệ sinh, riêng tư, ranh giới tiếp xúc và sự đồng ý. Nếu câu hỏi vượt hiểu biết, thừa nhận và tìm nguồn chuyên môn phù hợp thay vì đoán. Cho trẻ biết có thể trao đổi riêng với nhân viên y tế hoặc người lớn đáng tin, và rằng việc kể về xâm hại sẽ được tiếp nhận nghiêm túc.",
+      "visualType": "education",
+      "scene": "Sơ đồ giáo dục phù hợp độ tuổi về cơ thể, vệ sinh, quyền riêng tư, đồng thuận và tìm trợ giúp; dùng thuật ngữ y học chuẩn, hình giải phẫu trung tính nếu cần, thẩm định chuyên môn.",
+      "educationalPurpose": "Giúp hiểu bản chất thay đổi cơ thể và ranh giới, không gây xấu hổ.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "title": "An toàn số và bắt nạt trực tuyến ở tuổi teen",
+      "stage": "thieu-nien",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Khi con báo sự việc, hãy giữ bình tĩnh, hỏi điều gì xảy ra và liệu có nguy cơ tiếp xúc trực tiếp hay không. Cùng con lưu bằng chứng cần thiết trước khi xóa, chặn và báo cáo tài khoản; bảo mật thông tin cá nhân và đổi cài đặt nếu phù hợp. Thông báo nhà trường khi sự việc liên quan bạn học hoặc hoạt động trường, đồng thời tìm cơ quan hỗ trợ khi có đe dọa, xâm hại hoặc tống tiền. Không yêu cầu con tranh cãi công khai để tự bảo vệ.",
+      "visualType": "education",
+      "scene": "Sơ đồ lưu bằng chứng cần thiết → chặn/báo cáo → bảo mật → tìm người hỗ trợ, không thông tin cá nhân hoặc giao diện thương hiệu.",
+      "educationalPurpose": "Minh họa quy trình phản hồi an toàn.",
+      "sourceCandidates": [
+        "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "required before public release"
+    },
+    {
+      "slug": "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "title": "Thiết lập ranh giới lành mạnh giữa cha mẹ và con trưởng thành",
+      "stage": "truong-thanh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Chọn một chủ đề đang gây khó chịu như thời gian gọi điện, ghé thăm, chia sẻ ảnh, tài chính hoặc việc góp ý chuyện riêng. Mỗi người mô tả tình huống và tác động đến mình bằng câu không quy kết. Thỏa thuận điều cụ thể: hỏi trước khi ghé, không chia sẻ hình ảnh hay số điện thoại nếu chưa đồng ý, báo qua kênh nào khi có khẩn cấp. Khi một bên chưa đồng ý, ghi nhận và hẹn lúc bàn tiếp thay vì áp đặt.",
+      "visualType": "lifestyle",
+      "scene": "Cha mẹ và con trưởng thành trao đổi lịch ghé thăm trong không gian riêng, mỗi người có sổ riêng.",
+      "educationalPurpose": "Minh họa tôn trọng ranh giới và thỏa thuận.",
+      "sourceCandidates": [
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    },
+    {
+      "slug": "quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+      "title": "Duy trì sức khỏe tinh thần và các mối quan hệ khi lớn lên",
+      "stage": "truong-thanh",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "anchorText": "Liệt kê những người và nơi có thể tìm tới theo từng nhu cầu: bạn bè, gia đình, đồng nghiệp tin cậy, cơ sở y tế hoặc dịch vụ tham vấn. Đặt lịch kết nối với những người mang lại cảm giác an toàn, nhưng cho phép mình từ chối mối quan hệ gây áp lực. Khi có khó khăn kéo dài về ngủ, tâm trạng hoặc khả năng sinh hoạt, tìm đánh giá phù hợp. Với các quyết định lớn, người trẻ có thể xin thêm góc nhìn nhưng vẫn giữ quyền quyết định cá nhân.",
+      "visualType": "lifestyle",
+      "scene": "Người trưởng thành gặp bạn tin cậy bên bàn cà phê, không biểu diễn triệu chứng, không lời khuyên chữa bệnh.",
+      "educationalPurpose": "Minh họa kết nối hỗ trợ tích cực.",
+      "sourceCandidates": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
+      "sourceStatus": "from existing article; not individually reverified",
+      "status": "planned",
+      "clinicalReview": "context review"
+    }
+  ]
+}

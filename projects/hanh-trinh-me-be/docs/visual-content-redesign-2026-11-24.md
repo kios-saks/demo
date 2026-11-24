@@ -41,3 +41,8 @@ P0 Hero, 6 nhóm, bỏ nhãn DEV trong media. P1 12 ảnh chặng, 72 cover riê
 - Với chủ đề dậy thì, ranh giới, sức khỏe sinh sản và chăm sóc y khoa, ưu tiên cảnh trò chuyện gia đình, sách vở, lịch hẹn, đồ vật hoặc không gian. Không minh họa vùng cơ thể riêng tư, thủ thuật, triệu chứng hoặc cách điều trị bằng ảnh sinh AI. Không đánh đồng minh họa ngữ cảnh với thẩm định chuyên môn.
 - Mỗi ảnh inline phải có slug riêng, index đoạn và heading khớp nội dung thực, chú thích mô tả đúng cảnh, alt, provenance, quyền sử dụng và checksum. Không dùng chung ảnh hoặc thay thế bằng mockup báo cáo. Chỉ kích hoạt ảnh đã kiểm tra ngữ cảnh trên DEV; giữ nguyên nguồn và bài viết gốc.
 - Lô 2 ảnh inline tại commit 0c6eef7: 9 ảnh WebP 960×540 (tình bạn, đạp xe, sách tranh, trò chơi đóng vai, góc học, đọc trước ngủ, làm quen trường, lắng nghe tuổi teen, chuẩn bị bữa ăn mang đi). Tổng 21/72 bài có ảnh lifestyle inline; còn 51. CI và Render của commit mới cần xác minh riêng.
+
+## Owner review workflow · 24/11/2026
+- Chủ sản phẩm quyết định hướng mỹ thuật, giữ/sửa/thay ảnh cần cân nhắc. Không tự xóa bản đề xuất; lưu riêng ở [docs/media-review](./media-review/README.md). Không kích hoạt ảnh chờ review hoặc nội dung giáo dục chưa đủ bằng chứng.
+- Không né chủ đề sức khỏe nhạy cảm khi có ích giáo dục: dùng sơ đồ y khoa chính xác, trung tính, phù hợp độ tuổi; đối chiếu nguồn và quyền sử dụng, thẩm định chuyên môn độc lập. Không nhầm phê duyệt hình ảnh với duyệt y khoa.
+- 25/72 bài đã có WebP riêng, 47 còn thiếu; [brief hàng đợi](./inline-media-production-plan-2026-11-24.json) định vị từng ảnh vào đoạn văn gốc. Không tính brief, mockup, SVG excerpt hay đề xuất chưa duyệt là lifestyle asset đã tích hợp.
