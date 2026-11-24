@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getWebRepository } from "../lib/repository";
+import {editorialHero,groupVisual,articleCover,coverAlt} from "../lib/editorial-media";
 import {stageVisuals} from "../lib/stage-visuals";
 import {stageGroups,readerTopics} from "../lib/reader-navigation";
 
@@ -39,7 +40,7 @@ export default async function Home() {
       
      </div>
      <div className="hero-art">
-      <img src="/media/cover-family-planning.svg" className="hero-editorial-image" alt="Tranh minh họa một gia đình đang cùng nhau chuẩn bị chào đón em bé" width={1200} height={675} fetchPriority="high"/>
+      <img src={editorialHero} className="hero-editorial-image" alt="Tranh minh họa gia đình cùng nhau đọc và trò chuyện" width={1200} height={675} fetchPriority="high"/>
       <p className="hero-image-caption">Đồng hành bằng sự thấu hiểu, không bằng những tiêu chuẩn so sánh.</p>
      </div>
     </div>
@@ -50,9 +51,9 @@ export default async function Home() {
      <p>Sáu nhóm lớn và 12 chặng chi tiết. Chọn chặng phù hợp nhất với gia đình.</p>
     </div>
     <div className="public-stage-groups">
-     {stageGroups.map(group=><details className="public-stage-group" key={group.image}><summary><img src={stageVisuals[group.image]||"/media/cover-family-planning.svg"} alt="" width={1200} height={675} loading="lazy"/><div><strong>{group.title}</strong><small>{group.description}</small><span aria-hidden="true">⌄</span></div></summary><div className="public-stage-links">{group.stages.map(([slug])=>stages.find(s=>s.slug===slug)).filter((s):s is NonNullable<typeof s>=>Boolean(s)).map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
+     {stageGroups.map(group=><details className="public-stage-group" key={group.image}><summary><img src={groupVisual(group.image)} alt="" width={1200} height={675} loading="lazy"/><div><strong>{group.title}</strong><small>{group.description}</small><span aria-hidden="true">⌄</span></div></summary><div className="public-stage-links">{group.stages.map(([slug])=>stages.find(s=>s.slug===slug)).filter((s):s is NonNullable<typeof s>=>Boolean(s)).map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
       <div className="journey-card-image">
-       <img src={stageVisuals[s.slug]||"/media/cover-family-planning.svg"} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
+       <img src={stageVisuals[s.slug]||editorialHero} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
        <span className="journey-card-index">{String(i+1).padStart(2,"0")}</span>
       </div>
       <div className="journey-card-content">
@@ -92,7 +93,7 @@ export default async function Home() {
     </div>
     {articles.length?<div className="article-grid">
      {articles.slice(0,6).map(a=><Link className="article-card" href={"/bai-viet/"+a.slug} key={a.slug}>
-      {a.media?.cover?<img className="article-card-visual" src={a.media.cover.src} alt={a.media.cover.alt} width="1200" height="675" loading="lazy"/>:null}
+      {a.media?.cover?<img className="article-card-visual" src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675" loading="lazy"/>:null}
       <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p><span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
      </Link>)}
     </div>:<div className="empty-library">
