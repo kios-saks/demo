@@ -37,6 +37,7 @@ const styles=[
  "apps/web/app/globals.css",
  "apps/web/app/ui-ux-pro-max.css",
  "apps/web/public/dev-review-pro.css",
+ "apps/web/public/reader-ecosystem.css",
  "apps/web/lib/dev-preview.ts"
 ];
 for(const path of styles){
@@ -55,4 +56,4 @@ assert(readerStyles.includes(".stage-tile img,.stage-tile .thumb-empty{width:100
 const readerShell=read("apps/web/lib/dev-preview.ts");
 assert(readerShell.includes(".article-cover img{width:100%;height:auto;display:block;aspect-ratio:auto;object-fit:contain"),"DEV full covers must preserve source ratio");
 assert(readerShell.includes(".infographic-figure img{width:100%;height:auto;"),"DEV infographics must preserve their own heights");
-console.log("PASS image ratios: "+checked.covers+" 16:9 covers, "+checked.infographics+" uncropped infographics, 4 CSS sources without cropping");
+console.log("PASS image ratios: "+checked.covers+" 16:9 covers, "+checked.infographics+" uncropped infographics, 5 CSS sources without cropping");
