@@ -28,7 +28,7 @@ function inspect(name:string,bytes:Buffer):Asset{
  assert(width>=1&&height>=1&&width<=8192&&height<=8192);
  return {id,path:id+".svg",mime:"image/svg+xml",bytes,width,height};
 }
-async function main(){
+export async function importMedia(apply=false){
  const {articles}=await json("packages/content/articles.json") as {articles:Article[]};
  const photos=(await json("packages/content/mock/lifestyle-media.json")).assets as Record<string,Entry>;
  const vectors=(await json("packages/content/mock/contextual-inline-illustrations.json")).assets as Record<string,Entry>;
@@ -60,7 +60,7 @@ async function main(){
  }
  assert.equal(articles.length,72);assert.equal(pairs.length,144);
  console.log("MEDIA_IMPORT_PLAN",JSON.stringify({files:inventory.size,uniqueObjects:new Set([...inventory.values()].map(a=>a.id)).size,articleSlots:pairs.length}));
- if(!process.argv.includes("--apply"))return;
+ if(!apply)return;
  loadLocalEnv();
  const config=parseDatabaseConfig();
  assert.equal(resolveMaintenanceTarget(config),"supabase","Import target must be Supabase");
@@ -110,4 +110,4 @@ async function main(){
   console.log("MEDIA_IMPORT_VERIFIED",JSON.stringify({verifiedObjects:seen.size,files:inventory.size,active:counts.rows}));
  }finally{await pool.end();}
 }
-main().catch(()=>{console.error("MEDIA_IMPORT_FAILED; no source deletion; inspect configuration and run dry-run first");process.exitCode=1;});
+if(process.argv[1]&&new URL(import.meta.url).pathname===process.argv[1])importMedia(process.argv.includes("--apply")).catch(()=>{console.error("MEDIA_IMPORT_FAILED; no source deletion; inspect configuration and run dry-run first");process.exitCode=1;});
