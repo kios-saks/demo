@@ -4,7 +4,7 @@ import curated from "../../../packages/content/mock/editorial-curated-infographi
 
 import lifestyle from "../../../packages/content/mock/lifestyle-media.json";
 
-type LifestyleAsset={src:string;alt:string;origin:string;reviewStatus:string};
+type LifestyleAsset={src:string;alt:string;origin:string;reviewStatus:string;afterSection?:number;anchorHeading?:string;caption?:string};
 const approved:Record<string,LifestyleAsset>=lifestyle.assets;
 function photo(key:string){const entry=approved[key];return entry?.reviewStatus==="approved"&&entry.src==="/media/lifestyle-"+key+".webp"?entry:undefined}
 const keys=new Set(Object.keys(visuals.coverBriefs));
@@ -14,6 +14,8 @@ const knownCurated:Record<string,{src:string;sourceUrl:string;points:string[]}>=
 export const editorialHero=photo("hero")?.src||"/media/editorial-hero.svg";
 export const editorialHeroAlt=photo("hero")?.alt||"Tranh minh họa gia đình cùng nhau đọc và trò chuyện";
 export function groupVisual(key:string){return photo("group-"+key)?.src||(navigation.has("group-"+key)?"/media/editorial-group-"+key+".svg":editorialHero)}
+export function groupVisualAlt(key:string,fallback:string){return photo("group-"+key)?.alt||fallback}
+export function inlineLifestyle(slug:string,index:number,heading:string){const entry=photo("inline-"+slug);return entry&&entry.afterSection===index&&entry.anchorHeading===heading&&entry.caption?entry:undefined}
 export function stageVisual(key:string){return photo("stage-"+key)?.src||(navigation.has("stage-"+key)?"/media/editorial-stage-"+key+".svg":editorialHero)}
 export function articleCover(slug:string,fallback?:string){return photo("cover-"+slug)?.src||(keys.has(slug)?"/media/editorial-cover-"+slug+".svg":fallback)}
 export function coverAlt(title:string,slug?:string){return (slug?photo("cover-"+slug)?.alt:undefined)||"Tranh minh họa biên tập theo chủ đề: "+title}
