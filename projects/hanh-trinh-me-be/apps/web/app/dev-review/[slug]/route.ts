@@ -29,7 +29,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      return '<section id="part-'+i+'"><h2>'+escapeHtml(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>'+visual;
    }).join("");
    const cover=safeMediaPath(articleCover(a.slug,a.media?.cover?.src));
-   const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(coverAlt(a.title))+'">'+
+   const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(coverAlt(a.title,a.slug))+'">'+
      '<figcaption>'+'Tranh minh họa biên tập theo chủ đề · Hành Trình Mẹ & Bé</figcaption></figure>':'';
    const quick=a.media?.highlights?.length?'<div class="quick-card"><h2>Ghi nhớ trong 30 giây</h2><ul>'+
       a.media.highlights.map(v=>'<li>'+escapeHtml(v)+'</li>').join("")+'</ul></div>':'';
