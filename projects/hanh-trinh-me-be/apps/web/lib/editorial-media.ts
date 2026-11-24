@@ -4,7 +4,7 @@ import curated from "../../../packages/content/mock/editorial-curated-infographi
 
 import lifestyle from "../../../packages/content/mock/lifestyle-media.json";
 
-type LifestyleAsset={src:string;alt:string;origin:"ai-generated"|"licensed"|"commissioned";reviewStatus:"approved"|"pending"};
+type LifestyleAsset={src:string;alt:string;origin:string;reviewStatus:string};
 const approved:Record<string,LifestyleAsset>=lifestyle.assets;
 function photo(key:string){const entry=approved[key];return entry?.reviewStatus==="approved"&&entry.src==="/media/lifestyle-"+key+".webp"?entry:undefined}
 const keys=new Set(Object.keys(visuals.coverBriefs));
