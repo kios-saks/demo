@@ -131,18 +131,64 @@ assert.equal(readerHome.status,200);
 assert.equal(readerHome.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 assert(/private.*no-store/.test(readerHome.headers.get("cache-control")));
 const readerHtml=await readerHome.text();
-assert(readerHtml.includes("72 bài chuyên sâu"));
+assert(readerHtml.includes("Hành trình của gia đình bạn"));
+assert(readerHtml.includes('class="home-stage-groups stage-tile-grid"'));
+assert.equal((readerHtml.match(/data-stage-group=/g)||[]).length,6);
+assert.equal((readerHtml.match(/data-stage-link=/g)||[]).length,12);
+assert((readerHtml.match(/data-article-card=/g)||[]).length<=6,"Homepage must not render all 72 articles");
+assert(readerHtml.includes('class="mobile-reader-nav"'));
+assert(readerHtml.includes("/da-luu"));
+assert(readerHtml.includes("/hanh-trinh"));
+assert(readerHtml.includes("/reader-ecosystem.css"));
+assert(readerHtml.includes("/reader-local.js"));
+assert(readerHtml.indexOf('class="search-zone"') < readerHtml.indexOf('class="home-stage-groups stage-tile-grid"'));
+const library=await fetch(web+"/thu-vien",{headers:readerHeaders});
+assert.equal(library.status,200);
+assert((await library.text()).includes("Hiển thị 72/72 bài viết"));
+
 assert(!readerHtml.includes("THƯ VIỆN KIẾN THỨC DEV"));
 assert(!readerHtml.includes("Backend/Supabase"));
 const readerStage=await fetch(web+"/so-sinh",{headers:readerHeaders});
 assert.equal(readerStage.status,200);
-assert((await readerStage.text()).includes("Hiển thị 6/72 bài viết"));
+const stageHtml=await readerStage.text();
+assert(stageHtml.includes("Hiển thị 6/72 bài viết"),"Stage path must preserve selected stage through rewrite");
+assert.equal((stageHtml.match(/data-article-card=/g)||[]).length,6);
+assert(stageHtml.includes("Checklist để bắt đầu"));
+assert(stageHtml.includes("data-checklist-key"));
+for(const s of stages.data){
+ const stageResponse=await fetch(web+"/"+s.slug,{headers:readerHeaders});
+ assert.equal(stageResponse.status,200,s.slug);
+ const body=await stageResponse.text();
+ assert.equal((body.match(/data-article-card=/g)||[]).length,6,s.slug);
+}
+
 const readerSearch=await fetch(web+"/tim-kiem?q=giấc%20ngủ",{headers:readerHeaders});
 assert.equal(readerSearch.status,200);
-assert((await readerSearch.text()).includes("Giấc ngủ"));
+const searchHtml=await readerSearch.text();
+assert(searchHtml.includes("Giấc ngủ"));
+const unaccented=await fetch(web+"/tim-kiem?q=giac%20ngu",{headers:readerHeaders});
+assert.equal(unaccented.status,200);
+assert((await unaccented.text()).includes("Giấc ngủ an toàn"),"Accent-insensitive Vietnamese search");
+const saved=await fetch(web+"/da-luu",{headers:readerHeaders});
+assert.equal(saved.status,200);
+assert((await saved.text()).includes("data-saved-list"));
+const journey=await fetch(web+"/hanh-trinh",{headers:readerHeaders});
+assert.equal(journey.status,200);
+assert((await journey.text()).includes("data-journey-select"));
+assert.equal((await fetch(web+"/da-luu")).status,404);
+
 const readerDetail=await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh",{headers:readerHeaders});
 assert.equal(readerDetail.status,200);
-assert((await readerDetail.text()).includes("Mục lục bài viết"));
+const readerDetailHtml=await readerDetail.text();
+assert(readerDetailHtml.includes("Mục lục bài viết"));
+assert(readerDetailHtml.includes('class="mobile-toc"'));
+assert(readerDetailHtml.includes("data-save-slug"));
+const ecosystemCss=await fetch(web+"/reader-ecosystem.css");
+assert.equal(ecosystemCss.status,200);
+const localScript=await fetch(web+"/reader-local.js");
+assert.equal(localScript.status,200);
+assert((await localScript.text()).includes("localStorage"));
+
 const forged=await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh",{headers:{cookie:"mebe_reader=invalid"}});
 assert.equal(forged.status,404,"Forged cookies never reveal a draft");
 assert.equal((await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh")).status,404);
