@@ -36,7 +36,7 @@ export default async function Home() {
       <div className="hero-qualities" aria-label="Đặc điểm thư viện">
        <span>Theo từng giai đoạn</span><span>Dễ tìm, dễ đọc</span><span>Có tài liệu tham khảo</span>
       </div>
-      {previewEnabled?<div className="dev-gateway"><strong>Đang xem bản giới thiệu công khai, chưa phải kho nội dung DEV.</strong><p>72 bài nháp, 8 bài chuyên sâu, checklist và nguồn tham khảo đang được biên tập trong không gian riêng.</p><Link className="text-link" href="/dev-review">Mở kho đọc DEV có mật khẩu →</Link></div>:null}
+      {previewEnabled?<div className="dev-gateway"><strong>Đang xem bản giới thiệu công khai, chưa phải kho nội dung DEV.</strong><p>72 bài chuyên sâu còn ở trạng thái nháp, cùng checklist và nguồn tham khảo đang được biên tập trong không gian riêng.</p><Link className="text-link" href="/dev-review">Mở kho đọc DEV có mật khẩu →</Link></div>:null}
      </div>
      <div className="hero-art">
       <img src="/media/cover-family-planning.svg" className="hero-editorial-image" alt="Tranh minh họa một gia đình đang cùng nhau chuẩn bị chào đón em bé" width={1200} height={675} fetchPriority="high"/>
