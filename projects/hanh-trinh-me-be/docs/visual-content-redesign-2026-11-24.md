@@ -20,3 +20,9 @@
 ## Roadmap
 
 P0 Hero, 6 nhóm, bỏ nhãn DEV trong media. P1 12 ảnh chặng, 72 cover riêng theo nội dung, 27 infographic responsive. P2 hình trong bài, CMS media, sản xuất ảnh lifestyle thực/AI có kiểm duyệt. Không merge PR #1, không publish draft, không thay đổi dữ liệu hoặc token. Chỉ báo PASS từ kiểm thử thực tế.
+
+## Phase 3: contextual visuals and coverage · 24/11/2026
+
+- Lifestyle photos active in the branch: hero, 4/6 group images (preconception, pregnancy, first year, school age+), 2 cover images (play and infant interaction), 2 contextual inline photos (birth bag and infant play). The remaining postpartum and 1–5 group visuals and remaining highlighted cover photos retain their original SVGs until suitable original photographs are reviewed. Do not reuse the same photo for unrelated slots. Generated mockup screenshots are not product assets.
+- All 72 article routes are designed to render an inline knowledge visual: retain 27 existing source-linked infographics and supplement the other 45 with two-block accessible SVG reading cards composed from the actual first two paragraphs available to the authorized reader. These cards are not new clinical guidance, not standalone public media, and not 45 new photographs. Exact paragraph excerpts, separate article source anchor, and explicit unreviewed status preserve context and reduce risk. Original article body and stored media data unchanged.
+- Contextual inline photo manifest requires exact article slug, section index and heading, descriptive alt/caption, original AI provenance, checksum, editorial DEV approval. No medical procedure illustrated. Validate source image dimensions, integrity and size, and responsive display at 390/768/1024/1440px. No new database writes or publication status changes. Keep PR draft. CI and deployment must be verified before announcing live.

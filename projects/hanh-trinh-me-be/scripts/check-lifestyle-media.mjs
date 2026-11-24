@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 const root=new URL("../",import.meta.url);
 const read=p=>JSON.parse(readFileSync(new URL(p,root),"utf8"));
 const manifest=read("packages/content/mock/lifestyle-media.json");
+const articles=new Map(read("packages/content/articles.json").articles.map(a=>[a.slug,a]));
 const briefs=read("packages/content/mock/editorial-visual-briefs.json");
 const keys=new Set([...Object.keys(briefs.navigation),...Object.keys(briefs.coverBriefs).map(s=>"cover-"+s),...Object.keys(briefs.coverBriefs).map(s=>"inline-"+s)]);
 function dimensions(b){
@@ -21,7 +22,7 @@ for(const [key,a] of Object.entries(manifest.assets)){
  assert(keys.has(key),"Unknown lifestyle slot: "+key);
  assert(["approved","pending"].includes(a.reviewStatus),"Unknown review status");
  assert(a.src==="/media/lifestyle-"+key+".webp","Unsafe asset path");
- if(key.startsWith("inline-")){assert(Number.isInteger(a.afterSection)&&a.afterSection>=0,"Missing article anchor");assert(typeof a.anchorHeading==="string"&&a.anchorHeading.length>0,"Missing exact section heading");assert(typeof a.caption==="string"&&a.caption.length>=15,"Missing contextual caption");}
+ if(key.startsWith("inline-")){assert(Number.isInteger(a.afterSection)&&a.afterSection>=0,"Missing article anchor");assert(typeof a.anchorHeading==="string"&&a.anchorHeading.length>0,"Missing exact section heading");assert(typeof a.caption==="string"&&a.caption.length>=15,"Missing contextual caption");assert.equal(articles.get(key.slice(7))?.sections[a.afterSection]?.heading,a.anchorHeading,"Inline asset must match exact article section");}
  assert(typeof a.alt==="string"&&a.alt.trim().length>=10,"Missing descriptive alt text");
  assert(["ai-generated","licensed","commissioned"].includes(a.origin),"Missing asset origin");
  assert(typeof a.provenance==="string"&&a.provenance.trim().length>=12,"Missing provenance");

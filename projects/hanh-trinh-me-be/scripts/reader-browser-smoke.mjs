@@ -91,6 +91,17 @@ try{
  assert(!(await page.locator("[data-history-opt-in]").isChecked()));
  await page.goto(web+"/da-luu");
  assert(!(await page.locator('[data-saved-item="ngu-an-toan-cho-tre-so-sinh"]').isVisible()));
+ await page.goto(web+"/bai-viet/tui-do-di-sinh");
+ for(const width of [390,768,1024,1440]){
+   await layout(page,width);
+   assert.equal(await page.locator(".contextual-photo img").count(),1,"Contextual photograph is present");
+   const visual=await page.locator(".reading-visual-svg").evaluate(svg=>{const box=svg.viewBox.baseVal;return [...svg.querySelectorAll("text")].every(t=>{const r=t.getBBox();return r.x>=0&&r.y>=0&&r.x+r.width<=box.width&&r.y+r.height<=box.height})});
+   assert(visual,"Reading card text must not exceed its canvas at "+width);
+   console.log("PASS inline visual and contextual photo responsive",width);
+ }
+ await page.goto(web+"/bai-viet/choi-va-tuong-tac-voi-be");
+ await layout(page,390);
+ assert.equal(await page.locator(".contextual-photo img").count(),1);
  assert.deepEqual(errors,[],"No browser JavaScript errors");
  const guest=await browser.newContext();
  const response=await guest.request.get(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh");
