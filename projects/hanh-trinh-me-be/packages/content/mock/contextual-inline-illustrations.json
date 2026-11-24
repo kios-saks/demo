@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "description": "Original DEV context-only vector illustrations, separate from existing photos, infographic and excerpt cards. Not medical illustrations or clinical approval. Photo replacement remains pending.",
+  "assets": {
+    "moc-phat-trien-khong-phai-cuoc-dua": {
+      "src": "/media/editorial-inline-context-moc-phat-trien-khong-phai-cuoc-dua.svg",
+      "alt": "Thảm chơi, sách tranh, khối đồ chơi và đồng hồ; gợi nhắc quan sát sinh hoạt tự nhiên thay vì chạy đua mốc phát triển.",
+      "caption": "Thảm chơi, sách tranh, khối đồ chơi và đồng hồ; gợi nhắc quan sát sinh hoạt tự nhiên thay vì chạy đua mốc phát triển.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "goc-choi-kham-pha-an-toan": {
+      "src": "/media/editorial-inline-context-goc-choi-kham-pha-an-toan.svg",
+      "alt": "Góc chơi minh họa với kệ, đồ chơi và kính quan sát; cần rà soát an toàn thực tế, không phải chứng nhận phòng an toàn.",
+      "caption": "Góc chơi minh họa với kệ, đồ chơi và kính quan sát; cần rà soát an toàn thực tế, không phải chứng nhận phòng an toàn.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "noi-chuyen-ve-day-thi": {
+      "src": "/media/editorial-inline-context-noi-chuyen-ve-day-thi.svg",
+      "alt": "Sách, hai bong bóng trò chuyện và biểu tượng riêng tư; gợi mở cuộc trò chuyện về dậy thì.",
+      "caption": "Sách, hai bong bóng trò chuyện và biểu tượng riêng tư; gợi mở cuộc trò chuyện về dậy thì.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "axit-folic-truoc-khi-mang-thai": {
+      "src": "/media/editorial-inline-context-axit-folic-truoc-khi-mang-thai.svg",
+      "alt": "Rau lá xanh, các loại đậu và lọ bổ sung không nhãn; hình không xác định thành phần hay liều dùng.",
+      "caption": "Rau lá xanh, các loại đậu và lọ bổ sung không nhãn; hình không xác định thành phần hay liều dùng.",
+      "afterSection": 3,
+      "anchorHeading": "Phân biệt axit folic, folate và các viên vitamin",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "kham-suc-khoe-tien-thai": {
+      "src": "/media/editorial-inline-context-kham-suc-khoe-tien-thai.svg",
+      "alt": "Tập hồ sơ, sổ câu hỏi và lịch hẹn để chuẩn bị khám tiền thai.",
+      "caption": "Tập hồ sơ, sổ câu hỏi và lịch hẹn để chuẩn bị khám tiền thai.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "thuoc-tiem-chung-va-ke-hoach-thai-ky": {
+      "src": "/media/editorial-inline-context-thuoc-tiem-chung-va-ke-hoach-thai-ky.svg",
+      "alt": "Lọ không nhãn, hồ sơ và sổ ghi chép để rà soát cùng nhân viên y tế; không phải lịch tiêm hay đơn thuốc.",
+      "caption": "Lọ không nhãn, hồ sơ và sổ ghi chép để rà soát cùng nhân viên y tế; không phải lịch tiêm hay đơn thuốc.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "ke-hoach-ho-tro-tien-thai": {
+      "src": "/media/editorial-inline-context-ke-hoach-ho-tro-tien-thai.svg",
+      "alt": "Lịch, ví và biểu tượng trò chuyện minh họa một phần việc chuẩn bị kế hoạch gia đình.",
+      "caption": "Lịch, ví và biểu tượng trò chuyện minh họa một phần việc chuẩn bị kế hoạch gia đình.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "lich-kham-thai-ba-thang-dau": {
+      "src": "/media/editorial-inline-context-lich-kham-thai-ba-thang-dau.svg",
+      "alt": "Lịch hẹn, túi và tập giấy tờ khám thai, không có ngày hoặc lịch xét nghiệm cố định.",
+      "caption": "Lịch hẹn, túi và tập giấy tờ khám thai, không có ngày hoặc lịch xét nghiệm cố định.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "om-nghen-va-an-uong-dau-thai-ky": {
+      "src": "/media/editorial-inline-context-om-nghen-va-an-uong-dau-thai-ky.svg",
+      "alt": "Ly nước, sổ ghi chép và đồng hồ để chuẩn bị thông tin trao đổi; không đưa ra ngưỡng y khoa.",
+      "caption": "Ly nước, sổ ghi chép và đồng hồ để chuẩn bị thông tin trao đổi; không đưa ra ngưỡng y khoa.",
+      "afterSection": 3,
+      "anchorHeading": "Ghi lại điều gì để trao đổi dễ dàng?",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "suc-khoe-tinh-than-ba-thang-dau": {
+      "src": "/media/editorial-inline-context-suc-khoe-tinh-than-ba-thang-dau.svg",
+      "alt": "Hai chỗ ngồi, cốc nước và biểu tượng trò chuyện, lắng nghe trong thai kỳ.",
+      "caption": "Hai chỗ ngồi, cốc nước và biểu tượng trò chuyện, lắng nghe trong thai kỳ.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "dau-hieu-nguy-hiem-dau-thai-ky": {
+      "src": "/media/editorial-inline-context-dau-hieu-nguy-hiem-dau-thai-ky.svg",
+      "alt": "Điện thoại, hồ sơ và đồng hồ gợi nhắc chuẩn bị thông tin liên hệ cơ sở y tế; không phải danh sách dấu hiệu.",
+      "caption": "Điện thoại, hồ sơ và đồng hồ gợi nhắc chuẩn bị thông tin liên hệ cơ sở y tế; không phải danh sách dấu hiệu.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "kham-thai-ba-thang-giua": {
+      "src": "/media/editorial-inline-context-kham-thai-ba-thang-giua.svg",
+      "alt": "Hồ sơ, câu hỏi và biểu tượng trao đổi với nhân viên y tế, không minh họa kết quả xét nghiệm.",
+      "caption": "Hồ sơ, câu hỏi và biểu tượng trao đổi với nhân viên y tế, không minh họa kết quả xét nghiệm.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "sang-loc-tieu-duong-thai-ky": {
+      "src": "/media/editorial-inline-context-sang-loc-tieu-duong-thai-ky.svg",
+      "alt": "Phiếu hướng dẫn không chữ, đồng hồ và dấu hỏi để trao đổi về xét nghiệm; không có ngưỡng glucose hay chỉ dẫn nhịn ăn.",
+      "caption": "Phiếu hướng dẫn không chữ, đồng hồ và dấu hỏi để trao đổi về xét nghiệm; không có ngưỡng glucose hay chỉ dẫn nhịn ăn.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "van-dong-an-toan-khi-mang-thai": {
+      "src": "/media/editorial-inline-context-van-dong-an-toan-khi-mang-thai.svg",
+      "alt": "Giày đi bộ và bình nước trong không gian ngoài trời; không minh họa bài tập hoặc chỉ định vận động.",
+      "caption": "Giày đi bộ và bình nước trong không gian ngoài trời; không minh họa bài tập hoặc chỉ định vận động.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "chat-luong-giac-ngu-ba-thang-giua": {
+      "src": "/media/editorial-inline-context-chat-luong-giac-ngu-ba-thang-giua.svg",
+      "alt": "Đèn dịu, sách và điện thoại đặt cạnh nhau; minh họa không gian nghỉ ngơi, không chỉ dẫn tư thế ngủ.",
+      "caption": "Đèn dịu, sách và điện thoại đặt cạnh nhau; minh họa không gian nghỉ ngơi, không chỉ dẫn tư thế ngủ.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "ke-hoach-sinh-an-toan": {
+      "src": "/media/editorial-inline-context-ke-hoach-sinh-an-toan.svg",
+      "alt": "Túi đồ, hồ sơ và sơ đồ đường đi không chữ để chuẩn bị trước khi sinh.",
+      "caption": "Túi đồ, hồ sơ và sơ đồ đường đi không chữ để chuẩn bị trước khi sinh.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "dau-hieu-can-di-vien-cuoi-thai-ky": {
+      "src": "/media/editorial-inline-context-dau-hieu-can-di-vien-cuoi-thai-ky.svg",
+      "alt": "Điện thoại, giấy tờ và bản đồ minh họa việc chuẩn bị liên hệ nơi chăm sóc; không phải quy trình cấp cứu.",
+      "caption": "Điện thoại, giấy tờ và bản đồ minh họa việc chuẩn bị liên hệ nơi chăm sóc; không phải quy trình cấp cứu.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "thai-may-va-theo-doi-thai-cuoi-ky": {
+      "src": "/media/editorial-inline-context-thai-may-va-theo-doi-thai-cuoi-ky.svg",
+      "alt": "Điện thoại, sổ ghi nhận và biểu tượng quan tâm; không phải hướng dẫn đếm cử động thai.",
+      "caption": "Điện thoại, sổ ghi nhận và biểu tượng quan tâm; không phải hướng dẫn đếm cử động thai.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "chuan-bi-sau-sinh-dinh-duong-cham-soc": {
+      "src": "/media/editorial-inline-context-chuan-bi-sau-sinh-dinh-duong-cham-soc.svg",
+      "alt": "Bát thực phẩm, rau và sổ chuẩn bị việc nhà; không minh họa chế độ dinh dưỡng điều trị.",
+      "caption": "Bát thực phẩm, rau và sổ chuẩn bị việc nhà; không minh họa chế độ dinh dưỡng điều trị.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "dau-hieu-canh-bao-sau-sinh": {
+      "src": "/media/editorial-inline-context-dau-hieu-canh-bao-sau-sinh.svg",
+      "alt": "Điện thoại, lịch và hồ sơ tái khám; không dùng hình ảnh để chẩn đoán dấu hiệu cảnh báo.",
+      "caption": "Điện thoại, lịch và hồ sơ tái khám; không dùng hình ảnh để chẩn đoán dấu hiệu cảnh báo.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "hoi-phuc-sau-sinh-mo-va-sinh-thuong": {
+      "src": "/media/editorial-inline-context-hoi-phuc-sau-sinh-mo-va-sinh-thuong.svg",
+      "alt": "Không gian nghỉ ngơi, nước uống và lịch hẹn; không phải sơ đồ giải phẫu hay hướng dẫn chăm sóc vết mổ.",
+      "caption": "Không gian nghỉ ngơi, nước uống và lịch hẹn; không phải sơ đồ giải phẫu hay hướng dẫn chăm sóc vết mổ.",
+      "afterSection": 3,
+      "anchorHeading": "Chăm vết mổ và vận động sau sinh mổ",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "tam-trang-sau-sinh-va-tram-cam": {
+      "src": "/media/editorial-inline-context-tam-trang-sau-sinh-va-tram-cam.svg",
+      "alt": "Không gian trò chuyện và biểu tượng lắng nghe; không dùng ảnh để nhận biết trầm cảm.",
+      "caption": "Không gian trò chuyện và biểu tượng lắng nghe; không dùng ảnh để nhận biết trầm cảm.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "ho-tro-bu-me-va-khi-kho-khan": {
+      "src": "/media/editorial-inline-context-ho-tro-bu-me-va-khi-kho-khan.svg",
+      "alt": "Sổ câu hỏi, biểu tượng tư vấn và điện thoại; không hướng dẫn tư thế hay ngậm bắt vú.",
+      "caption": "Sổ câu hỏi, biểu tượng tư vấn và điện thoại; không hướng dẫn tư thế hay ngậm bắt vú.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "ngu-an-toan-cho-tre-so-sinh": {
+      "src": "/media/editorial-inline-context-ngu-an-toan-cho-tre-so-sinh.svg",
+      "alt": "Sách, dấu hỏi và điện thoại để tìm hiểu giấc ngủ an toàn; không minh họa hoặc chứng nhận một nơi ngủ.",
+      "caption": "Sách, dấu hỏi và điện thoại để tìm hiểu giấc ngủ an toàn; không minh họa hoặc chứng nhận một nơi ngủ.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị chỗ ngủ từng bước",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "dau-hieu-nguy-hiem-o-tre-so-sinh": {
+      "src": "/media/editorial-inline-context-dau-hieu-nguy-hiem-o-tre-so-sinh.svg",
+      "alt": "Điện thoại, sổ ghi nhận và đồng hồ; không mô phỏng triệu chứng hoặc chẩn đoán.",
+      "caption": "Điện thoại, sổ ghi nhận và đồng hồ; không mô phỏng triệu chứng hoặc chẩn đoán.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "bu-me-hoan-toan-sau-sinh": {
+      "src": "/media/editorial-inline-context-bu-me-hoan-toan-sau-sinh.svg",
+      "alt": "Sách, dấu hỏi và biểu tượng tư vấn nuôi dưỡng; không minh họa lượng sữa hay kỹ thuật bú.",
+      "caption": "Sách, dấu hỏi và biểu tượng tư vấn nuôi dưỡng; không minh họa lượng sữa hay kỹ thuật bú.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "theo-doi-phat-trien-hai-thang-dau": {
+      "src": "/media/editorial-inline-context-theo-doi-phat-trien-hai-thang-dau.svg",
+      "alt": "Sách tranh, biểu tượng trò chuyện và sổ ghi nhận tương tác; không đánh giá kỹ năng theo ảnh.",
+      "caption": "Sách tranh, biểu tượng trò chuyện và sổ ghi nhận tương tác; không đánh giá kỹ năng theo ảnh.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "an-dam-khi-nao-bat-dau": {
+      "src": "/media/editorial-inline-context-an-dam-khi-nao-bat-dau.svg",
+      "alt": "Bát, thìa và dấu hỏi để trao đổi về thời điểm ăn dặm; không minh họa dấu hiệu sẵn sàng cụ thể.",
+      "caption": "Bát, thìa và dấu hỏi để trao đổi về thời điểm ăn dặm; không minh họa dấu hiệu sẵn sàng cụ thể.",
+      "afterSection": 3,
+      "anchorHeading": "Dấu hiệu trẻ sẵn sàng làm quen thực phẩm",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "an-toan-chong-sac-khi-an-dam": {
+      "src": "/media/editorial-inline-context-an-toan-chong-sac-khi-an-dam.svg",
+      "alt": "Thìa, bát và biểu tượng quan sát trong bữa ăn; không phải hướng dẫn chế biến hay phòng hóc sặc.",
+      "caption": "Thìa, bát và biểu tượng quan sát trong bữa ăn; không phải hướng dẫn chế biến hay phòng hóc sặc.",
+      "afterSection": 3,
+      "anchorHeading": "Tư thế ngồi và môi trường bữa ăn",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "moc-phat-trien-sau-thang-thu-sau": {
+      "src": "/media/editorial-inline-context-moc-phat-trien-sau-thang-thu-sau.svg",
+      "alt": "Khối đồ chơi, sách tranh và biểu tượng tương tác; không minh họa mốc vận động bắt buộc.",
+      "caption": "Khối đồ chơi, sách tranh và biểu tượng tương tác; không minh họa mốc vận động bắt buộc.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang": {
+      "src": "/media/editorial-inline-context-cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang.svg",
+      "alt": "Đèn, đồng hồ và sách gợi nhắc thói quen trước ngủ; không mô tả chỗ ngủ hoặc cam kết ngủ xuyên đêm.",
+      "caption": "Đèn, đồng hồ và sách gợi nhắc thói quen trước ngủ; không mô tả chỗ ngủ hoặc cam kết ngủ xuyên đêm.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "con-an-va-tu-lap-khi-tap-di": {
+      "src": "/media/editorial-inline-context-con-an-va-tu-lap-khi-tap-di.svg",
+      "alt": "Bát, thìa và ly nước gợi mở bữa ăn gia đình; không minh họa phần ăn hay tư thế.",
+      "caption": "Bát, thìa và ly nước gợi mở bữa ăn gia đình; không minh họa phần ăn hay tư thế.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "cam-xuc-an-va-khung-hoang-tuoi-len-hai": {
+      "src": "/media/editorial-inline-context-cam-xuc-an-va-khung-hoang-tuoi-len-hai.svg",
+      "alt": "Hai chỗ ngồi, trái tim và đồ chơi minh họa không gian kết nối, không mô phỏng khủng hoảng.",
+      "caption": "Hai chỗ ngồi, trái tim và đồ chơi minh họa không gian kết nối, không mô phỏng khủng hoảng.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "an-toan-trong-nha-khi-tre-tap-di": {
+      "src": "/media/editorial-inline-context-an-toan-trong-nha-khi-tre-tap-di.svg",
+      "alt": "Kệ, khóa và kính quan sát gợi nhắc rà soát trong nhà; không chứng nhận thiết bị hay biện pháp kỹ thuật.",
+      "caption": "Kệ, khóa và kính quan sát gợi nhắc rà soát trong nhà; không chứng nhận thiết bị hay biện pháp kỹ thuật.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "giao-tiep-gioi-han-khong-don-roi": {
+      "src": "/media/editorial-inline-context-giao-tiep-gioi-han-khong-don-roi.svg",
+      "alt": "Đồ chơi, trò chuyện và biểu tượng quan tâm để minh họa chia sẻ và giới hạn không bạo lực.",
+      "caption": "Đồ chơi, trò chuyện và biểu tượng quan tâm để minh họa chia sẻ và giới hạn không bạo lực.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "phong-chong-bat-nat-o-truong": {
+      "src": "/media/editorial-inline-context-phong-chong-bat-nat-o-truong.svg",
+      "alt": "Cặp sách, sổ ghi nhận và biểu tượng trao đổi giữa gia đình và nhà trường.",
+      "caption": "Cặp sách, sổ ghi nhận và biểu tượng trao đổi giữa gia đình và nhà trường.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "suc-khoe-tinh-than-tuoi-thieu-nien": {
+      "src": "/media/editorial-inline-context-suc-khoe-tinh-than-tuoi-thieu-nien.svg",
+      "alt": "Không gian trò chuyện riêng, nước uống và biểu tượng quan tâm; không mô phỏng dấu hiệu bệnh.",
+      "caption": "Không gian trò chuyện riêng, nước uống và biểu tượng quan tâm; không mô phỏng dấu hiệu bệnh.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "noi-chuyen-day-thi-tinh-duc-an-toan": {
+      "src": "/media/editorial-inline-context-noi-chuyen-day-thi-tinh-duc-an-toan.svg",
+      "alt": "Sách, biểu tượng riêng tư và trò chuyện; không có hình giải phẫu hay nội dung hướng dẫn tình dục.",
+      "caption": "Sách, biểu tượng riêng tư và trò chuyện; không có hình giải phẫu hay nội dung hướng dẫn tình dục.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen": {
+      "src": "/media/editorial-inline-context-an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen.svg",
+      "alt": "Điện thoại, khóa và biểu tượng tìm người hỗ trợ; không mô tả giao diện hoặc dữ liệu thật.",
+      "caption": "Điện thoại, khóa và biểu tượng tìm người hỗ trợ; không mô tả giao diện hoặc dữ liệu thật.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh": {
+      "src": "/media/editorial-inline-context-quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh.svg",
+      "alt": "Lịch hẹn, biểu tượng riêng tư và sổ cá nhân minh họa trao đổi ranh giới.",
+      "caption": "Lịch hẹn, biểu tượng riêng tư và sổ cá nhân minh họa trao đổi ranh giới.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    },
+    "quan-he-tinh-than-va-ho-tro-khi-truong-thanh": {
+      "src": "/media/editorial-inline-context-quan-he-tinh-than-va-ho-tro-khi-truong-thanh.svg",
+      "alt": "Hai chỗ ngồi, cốc nước và biểu tượng trò chuyện để minh họa kết nối với người tin cậy.",
+      "caption": "Hai chỗ ngồi, cốc nước và biểu tượng trò chuyện để minh họa kết nối với người tin cậy.",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "kind": "editorial-context-vector",
+      "reviewStatus": "dev-context-only"
+    }
+  }
+}

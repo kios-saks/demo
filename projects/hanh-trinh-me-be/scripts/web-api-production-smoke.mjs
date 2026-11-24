@@ -1,5 +1,6 @@
 import {readFileSync} from "node:fs";
 const lifestyle=JSON.parse(readFileSync(new URL("../packages/content/mock/lifestyle-media.json",import.meta.url),"utf8")).assets;
+const contextIllustrations=JSON.parse(readFileSync(new URL("../packages/content/mock/contextual-inline-illustrations.json",import.meta.url),"utf8")).assets;
 const selected=(key,fallback)=>lifestyle[key]?.reviewStatus==="approved"?lifestyle[key].src:fallback;
 import assert from "node:assert/strict";
 const web="http://127.0.0.1:3000",api="http://127.0.0.1:4000";
@@ -215,8 +216,8 @@ console.log("PASS: invited tester uses normal URLs with no Basic auth popup; una
 
 // Every protected article must contain an inline reading visual, without making draft text a static asset.
 const content=JSON.parse(readFileSync(new URL("../packages/content/articles.json",import.meta.url),"utf8")).articles;
-let excerptCount=0, infographicCount=0, photoCount=0;
-for(const a of content){const response=await fetch(web+"/bai-viet/"+a.slug,{headers:readerHeaders});assert.equal(response.status,200,a.slug);const html=await response.text();if(a.media?.inline?.length){assert(html.includes('class="infographic-figure"'),"Missing source-linked infographic "+a.slug);infographicCount++}else{assert(html.includes('data-reading-visual="'+a.slug+'"'),"Missing reading visual "+a.slug);assert(html.includes('class="reading-visual-svg"'));assert(html.includes("Trích nguyên văn từ bài viết."));assert(html.includes("Chưa thẩm định y khoa."));excerptCount++}const photo=lifestyle["inline-"+a.slug];if(photo?.reviewStatus==="approved"){assert(html.includes(photo.src),"Missing section-anchored photo "+a.slug);assert(html.includes("Ảnh minh họa tạo bằng AI"));photoCount++}}
-assert.equal(excerptCount,45);assert.equal(infographicCount,27);assert.equal(photoCount,Object.keys(lifestyle).filter(k=>k.startsWith("inline-")&&lifestyle[k].reviewStatus==="approved").length);
+let excerptCount=0, infographicCount=0, photoCount=0, vectorCount=0;
+for(const a of content){const response=await fetch(web+"/bai-viet/"+a.slug,{headers:readerHeaders});assert.equal(response.status,200,a.slug);const html=await response.text();if(a.media?.inline?.length){assert(html.includes('class="infographic-figure"'),"Missing source-linked infographic "+a.slug);infographicCount++}else{assert(html.includes('data-reading-visual="'+a.slug+'"'),"Missing reading visual "+a.slug);assert(html.includes('class="reading-visual-svg"'));assert(html.includes("Trích nguyên văn từ bài viết."));assert(html.includes("Chưa thẩm định y khoa."));excerptCount++}const photo=lifestyle["inline-"+a.slug];if(photo?.reviewStatus==="approved"){assert(html.includes(photo.src),"Missing section-anchored photo "+a.slug);assert(html.includes("Ảnh minh họa tạo bằng AI"));photoCount++}else{const entry=contextIllustrations[a.slug];assert(entry,"Missing context registry "+a.slug);assert(html.includes('data-contextual-illustration="'+a.slug+'"'));assert(html.includes(entry.src));const media=await fetch(web+entry.src);assert.equal(media.status,200);assert((await media.text()).includes('viewBox="0 0 1200 675"'));vectorCount++}}
+assert.equal(photoCount+vectorCount,72);assert.equal(excerptCount,45);assert.equal(infographicCount,27);assert.equal(photoCount,Object.keys(lifestyle).filter(k=>k.startsWith("inline-")&&lifestyle[k].reviewStatus==="approved").length);
 assert.equal((await fetch(web+"/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con")).status,404,"Article excerpt must remain protected");
 console.log("PASS: 72/72 articles with inline visuals (45 exact excerpts, 27 existing infographics), "+photoCount+" section-anchored lifestyle photos.");

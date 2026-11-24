@@ -39,3 +39,22 @@ for(const [key,a] of Object.entries(manifest.assets)){
  assert(!hashes.has(hash),"Duplicate lifestyle asset");hashes.add(hash);count++;
 }
 console.log("PASS lifestyle asset registry: "+count+" approved local WebP assets; fallback available for remaining slots");
+
+const context=read("packages/content/mock/contextual-inline-illustrations.json");
+const contextHashes=new Set();
+for(const [slug,a] of Object.entries(context.assets)){
+ assert(articles.has(slug),"Unknown context illustration "+slug);
+ assert.equal(a.kind,"editorial-context-vector");
+ assert.equal(a.reviewStatus,"dev-context-only");
+ assert.equal(a.src,"/media/editorial-inline-context-"+slug+".svg");
+ assert.equal(articles.get(slug).sections[a.afterSection]?.heading,a.anchorHeading);
+ assert(a.alt.length>=20&&a.caption.length>=20);
+ const s=readFileSync(new URL("apps/web/public"+a.src,root),"utf8");
+ assert(s.includes('width="1200" height="675" viewBox="0 0 1200 675"'));
+ assert(!/<(?:text|script|foreignObject)\b|https?:\/\/(?!www\.w3\.org\/2000\/svg)|\bon\w+=/i.test(s),"Unexpected SVG content");
+ assert(Buffer.byteLength(s)<50000);
+ const h=createHash("sha256").update(s).digest("hex");
+ assert(!contextHashes.has(h),"Duplicate context SVG");contextHashes.add(h);
+}
+for(const slug of articles.keys())assert(manifest.assets["inline-"+slug]?.reviewStatus==="approved"||context.assets[slug]?.reviewStatus==="dev-context-only","Missing dedicated contextual image "+slug);
+console.log("PASS dedicated context media coverage: "+articles.size+"/72; photos and original vector illustrations counted separately.");

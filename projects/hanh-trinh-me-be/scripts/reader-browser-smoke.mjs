@@ -1,6 +1,7 @@
 import {readFileSync} from "node:fs";
 const allArticles=JSON.parse(readFileSync(new URL("../packages/content/articles.json",import.meta.url),"utf8")).articles;
 const lifestyle=JSON.parse(readFileSync(new URL("../packages/content/mock/lifestyle-media.json",import.meta.url),"utf8")).assets;
+const contextIllustrations=JSON.parse(readFileSync(new URL("../packages/content/mock/contextual-inline-illustrations.json",import.meta.url),"utf8")).assets;
 import assert from "node:assert/strict";
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||"playwright");
 const web="http://localhost:3000";
@@ -112,16 +113,20 @@ try{
  await layout(page,390);
  assert.equal(await page.locator(".contextual-photo img").count(),1);
  // Full article visual regression: every article, all four viewport widths.
- let checked=0,photos=0;
+ let checked=0,photos=0,vectors=0;
  for(const a of allArticles){
    const response=await page.goto(web+"/bai-viet/"+a.slug,{waitUntil:"domcontentloaded"});
    assert.equal(response.status(),200,a.slug);
    const photo=lifestyle["inline-"+a.slug];
    const expectedPhoto=photo?.reviewStatus==="approved";
-   assert.equal(await page.locator(".contextual-photo img").count(),expectedPhoto?1:0,a.slug);
+   assert.equal(await page.locator(".contextual-photo img").count(),1,a.slug);
    if(expectedPhoto){
      assert.equal(await page.locator(".contextual-photo img").getAttribute("src"),photo.src,a.slug);
      photos++;
+   }else{
+     const entry=contextIllustrations[a.slug];assert(entry,"Missing context registry "+a.slug);
+     assert.equal(await page.locator(".contextual-illustration img").getAttribute("src"),entry.src,a.slug);
+     vectors++;
    }
    if(a.media?.inline?.length){
      assert(await page.locator(".infographic-figure img").count()>0,"Missing infographic "+a.slug);
@@ -134,8 +139,8 @@ try{
    for(const width of [390,768,1024,1440]){try{await layout(page,width)}catch(err){throw new Error(a.slug+" at "+width+"px: "+err.message)}}
    checked++;
  }
- assert.equal(checked,72);
- console.log("PASS full visual regression: "+checked+" articles x 4 viewport widths, "+photos+" contextual photos");
+ assert.equal(checked,72);assert.equal(photos+vectors,72);
+ console.log("PASS full visual regression: "+checked+" articles x 4 viewport widths, "+photos+" contextual photos, "+vectors+" distinct context vectors");
  assert.deepEqual(errors,[],"No browser JavaScript errors");
  const guest=await browser.newContext();
  const response=await guest.request.get(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh");
