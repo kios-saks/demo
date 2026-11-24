@@ -176,7 +176,11 @@ jobs:
           WEB_CONTENT_PROVIDER: api
           CONTENT_API_INTERNAL_URL: http://127.0.0.1:4000
         run: npm run build:web
-      - name: Check production public content gate
+      - name: Install isolated Chromium test runner
+        run: |
+          npm install --prefix /tmp/mebe-playwright --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
+          /tmp/mebe-playwright/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check production public content gate and reader interactions
         shell: bash
         run: |
           set -euo pipefail
@@ -186,6 +190,7 @@ jobs:
           web_pid=$!
           trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
           CI_DEV_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+          CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/reader-browser-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest
