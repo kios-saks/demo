@@ -1,4 +1,5 @@
 import {escapeHtml,htmlResponse,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
+import {articleCover,coverAlt,inlineAsset} from "../../../lib/editorial-media";
 import guideDataset from "../../../../../packages/content/mock/stage-guides.json";
 import contentSnapshot from "../../../../../packages/content/articles.json";
 export const dynamic="force-dynamic";
@@ -20,16 +21,16 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
        '<li><a href="/bai-viet/'+encodeURIComponent(r.slug)+'">'+escapeHtml(r.title)+'</a></li>').join("")+'</ul></section>':"";
    const sections=a.sections.map((s,i)=>{
      const visual=inline.filter(v=>v.afterSection===i).map(v=>{
-       const path=safeMediaPath(v.src);if(!path)return '';
+       const asset=inlineAsset(a.slug,v);const path=safeMediaPath(asset.src);if(!path)return '';
        return '<figure class="infographic-figure"><img src="'+escapeHtml(path)+'" width="1200" height="'+(v.src.startsWith("/media/auto-infographic-")?720:640)+'" loading="lazy" alt="'+escapeHtml(v.alt)+'">'+
          '<figcaption>'+escapeHtml(v.caption)+' · <a href="'+escapeHtml(v.sourceUrl||"#")+'" target="_blank" rel="noopener noreferrer nofollow">Xem nguồn gốc ↗</a></figcaption>'+
-         (v.points?.length===3?'<details class="infographic-transcript"><summary>Đọc 3 gợi ý trong hình dưới dạng văn bản</summary><ol>'+v.points.map(point=>'<li>'+escapeHtml(point)+'</li>').join("")+'</ol></details>':"")+'</figure>';
+         (asset.points?.length?'<details class="infographic-transcript" open><summary>Đọc '+asset.points.length+' gợi ý trong hình dưới dạng văn bản</summary><ol>'+asset.points.map(point=>'<li>'+escapeHtml(point)+'</li>').join("")+'</ol></details>':"")+'</figure>';
      }).join("");
      return '<section id="part-'+i+'"><h2>'+escapeHtml(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>'+visual;
    }).join("");
-   const cover=safeMediaPath(a.media?.cover?.src);
-   const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(a.media?.cover?.alt)+'">'+
-     '<figcaption>'+escapeHtml(a.media?.cover?.caption)+' · Hình minh họa gốc dự án</figcaption></figure>':'';
+   const cover=safeMediaPath(articleCover(a.slug,a.media?.cover?.src));
+   const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(coverAlt(a.title))+'">'+
+     '<figcaption>'+'Tranh minh họa biên tập theo chủ đề · Hành Trình Mẹ & Bé</figcaption></figure>':'';
    const quick=a.media?.highlights?.length?'<div class="quick-card"><h2>Ghi nhớ trong 30 giây</h2><ul>'+
       a.media.highlights.map(v=>'<li>'+escapeHtml(v)+'</li>').join("")+'</ul></div>':'';
    const toc='<nav class="toc" aria-label="Mục lục bài viết"><h2>Trong bài viết này</h2>'+a.sections.map((s,i)=>
