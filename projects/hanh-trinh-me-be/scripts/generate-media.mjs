@@ -107,3 +107,6 @@ console.log("Generated "+generated+" original article SVG covers in "+output);
 
 // Build source-linked inline illustrations within the same media pipeline.
 await import("./generate-infographics.mjs");
+
+// Generate separate editorial v2 assets; preserve original data URLs and legacy assets.
+await import("./generate-editorial-visuals.mjs");
