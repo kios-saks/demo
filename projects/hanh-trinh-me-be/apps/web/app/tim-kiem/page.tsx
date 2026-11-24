@@ -1,3 +1,4 @@
+import {articleCover,coverAlt} from "../../lib/editorial-media";
 import Link from "next/link";
 import {getWebRepository} from "../../lib/repository";
 
@@ -25,7 +26,7 @@ export default async function SearchPage({searchParams}:{searchParams:Promise<{q
   </form>
   <p className="result-count" role="status">Có {results.length} bài viết đã được công bố{q?" phù hợp với “"+q+"”":""}.</p>
   {results.length?<div className="article-grid">{results.map(a=><Link href={"/bai-viet/"+a.slug} className="article-card" key={a.slug}>
-   {a.media?.cover?<img src={a.media.cover.src} alt={a.media.cover.alt} width="1200" height="675" className="article-card-visual" loading="lazy"/>:null}
+   {a.media?.cover?<img src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675" className="article-card-visual" loading="lazy"/>:null}
    <span className="pill">{stages.find(s=>s.slug===a.stage)?.title}</span><h3>{a.title}</h3><p>{a.summary}</p>
    <span className="article-more">Đọc bài · {a.readMinutes} phút →</span>
   </Link>)}</div>:<div className="empty-library" role="status">
