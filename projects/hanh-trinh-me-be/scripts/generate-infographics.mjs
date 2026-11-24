@@ -73,7 +73,7 @@ function draw(card,i,article){
   drawLines(headline,65,188,52,43,"#44303e","800")+
   cards+
   '<text x="65" y="631" fill="'+accent+'" font-family="Arial,sans-serif" font-size="22" font-weight="750">Nguồn đọc thêm: '+xml(card.sourceLabel)+'</text>'+
-  '<text x="65" y="669" fill="#715e68" font-family="Arial,sans-serif" font-size="18">Nội dung biên tập độc lập • Bản nháp DEV • Không thay thế tư vấn chuyên môn</text>'+
+  '<text x="65" y="669" fill="#715e68" font-family="Arial,sans-serif" font-size="18">Nội dung biên tập độc lập • Chưa thẩm định y khoa • Không thay thế tư vấn chuyên môn</text>'+
   '<path d="M65 684h1069" stroke="'+accent+'" stroke-width="3" opacity=".19"/>'+
   '</svg>\n';
 }
