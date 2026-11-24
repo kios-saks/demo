@@ -95,9 +95,15 @@ try{
  for(const width of [390,768,1024,1440]){
    await layout(page,width);
    assert.equal(await page.locator(".contextual-photo img").count(),1,"Contextual photograph is present");
+   assert(await page.locator(".infographic-figure").count()>0,"Existing source-linked infographic must be retained");
+   console.log("PASS source-linked infographic and contextual photo responsive",width);
+ }
+ await page.goto(web+"/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con");
+ for(const width of [390,768,1024,1440]){
+   await layout(page,width);
    const visual=await page.locator(".reading-visual-svg").evaluate(svg=>{const box=svg.viewBox.baseVal;return [...svg.querySelectorAll("text")].every(t=>{const r=t.getBBox();return r.x>=0&&r.y>=0&&r.x+r.width<=box.width&&r.y+r.height<=box.height})});
    assert(visual,"Reading card text must not exceed its canvas at "+width);
-   console.log("PASS inline visual and contextual photo responsive",width);
+   console.log("PASS excerpt card responsive",width);
  }
  await page.goto(web+"/bai-viet/choi-va-tuong-tac-voi-be");
  await layout(page,390);
