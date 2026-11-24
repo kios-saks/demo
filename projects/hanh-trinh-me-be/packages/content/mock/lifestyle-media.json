@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "description": "Only approved local lifestyle assets are active. Empty assets means original SVG fallback.",
+  "assets": {}
+}
