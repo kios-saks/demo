@@ -201,3 +201,11 @@ const forged=await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh",{headers:{c
 assert.equal(forged.status,404,"Forged cookies never reveal a draft");
 assert.equal((await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh")).status,404);
 console.log("PASS: invited tester uses normal URLs with no Basic auth popup; unauthenticated access remains denied.");
+
+// Every protected article must contain an inline reading visual, without making draft text a static asset.
+const content=JSON.parse(readFileSync(new URL("../packages/content/articles.json",import.meta.url),"utf8")).articles;
+let excerptCount=0, infographicCount=0, photoCount=0;
+for(const a of content){const response=await fetch(web+"/bai-viet/"+a.slug,{headers:readerHeaders});assert.equal(response.status,200,a.slug);const html=await response.text();if(a.media?.inline?.length){assert(html.includes('class="infographic-figure"'),"Missing source-linked infographic "+a.slug);infographicCount++}else{assert(html.includes('data-reading-visual="'+a.slug+'"'),"Missing reading visual "+a.slug);assert(html.includes('class="reading-visual-svg"'));assert(html.includes("Trích nguyên văn từ bài viết."));assert(html.includes("Chưa thẩm định y khoa."));excerptCount++}const photo=lifestyle["inline-"+a.slug];if(photo?.reviewStatus==="approved"){assert(html.includes(photo.src),"Missing section-anchored photo "+a.slug);assert(html.includes("Ảnh minh họa tạo bằng AI"));photoCount++}}
+assert.equal(excerptCount,45);assert.equal(infographicCount,27);assert.equal(photoCount,Object.keys(lifestyle).filter(k=>k.startsWith("inline-")&&lifestyle[k].reviewStatus==="approved").length);
+assert.equal((await fetch(web+"/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con")).status,404,"Article excerpt must remain protected");
+console.log("PASS: 72/72 articles with inline visuals (45 exact excerpts, 27 existing infographics), "+photoCount+" section-anchored lifestyle photos.");

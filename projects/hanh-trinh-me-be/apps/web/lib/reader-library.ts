@@ -1,6 +1,6 @@
 import {escapeHtml as e,htmlResponse,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
 import {stageGroups,stageOptions,readerTopics,normalizeSearch} from "./reader-navigation";
-import {editorialHero,editorialHeroAlt,groupVisual,stageVisual,articleCover,coverAlt} from "./editorial-media";
+import {editorialHero,editorialHeroAlt,groupVisual,groupVisualAlt,stageVisual,articleCover,coverAlt} from "./editorial-media";
 import guidesData from "../../../packages/content/mock/stage-guides.json";
 import deepData from "../../../packages/content/mock/deep-articles.json";
 import type {ArticleSummary} from "../../../packages/data/src/contracts";
@@ -24,7 +24,7 @@ function itemCard(a:ArticleSummary){
 }
 function stageGroupsHtml(){
  return '<div class="home-stage-groups stage-tile-grid">'+stageGroups.map(g=>'<details class="stage-group" data-stage-group="'+e(g.image)+'"><summary>'+
- image(groupVisual(g.image),g.title,"group-image")+'<span class="group-copy"><strong>'+e(g.title)+'</strong><small>'+e(g.description)+'</small><span class="group-arrow" aria-hidden="true">⌄</span></span></summary>'+
+ image(groupVisual(g.image),groupVisualAlt(g.image,g.title),"group-image")+'<span class="group-copy"><strong>'+e(g.title)+'</strong><small>'+e(g.description)+'</small><span class="group-arrow" aria-hidden="true">⌄</span></span></summary>'+
  '<div class="stage-links">'+g.stages.map(([slug,title])=>'<a data-stage-link="'+e(slug)+'" href="'+stageHref(slug)+'">'+e(title)+' <span aria-hidden="true">→</span></a>').join("")+'</div></details>').join("")+'</div>';
 }
 function searchForm(q="",stage="",withStage=false){

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getWebRepository } from "../lib/repository";
-import {editorialHero,editorialHeroAlt,groupVisual,articleCover,coverAlt} from "../lib/editorial-media";
+import {editorialHero,editorialHeroAlt,groupVisual,groupVisualAlt,articleCover,coverAlt} from "../lib/editorial-media";
 import {stageVisuals} from "../lib/stage-visuals";
 import {stageGroups,readerTopics} from "../lib/reader-navigation";
 
@@ -51,7 +51,7 @@ export default async function Home() {
      <p>Sáu nhóm lớn và 12 chặng chi tiết. Chọn chặng phù hợp nhất với gia đình.</p>
     </div>
     <div className="public-stage-groups">
-     {stageGroups.map(group=><details className="public-stage-group" key={group.image}><summary><img src={groupVisual(group.image)} alt="" width={1200} height={675} loading="lazy"/><div><strong>{group.title}</strong><small>{group.description}</small><span aria-hidden="true">⌄</span></div></summary><div className="public-stage-links">{group.stages.map(([slug])=>stages.find(s=>s.slug===slug)).filter((s):s is NonNullable<typeof s>=>Boolean(s)).map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
+     {stageGroups.map(group=><details className="public-stage-group" key={group.image}><summary><img src={groupVisual(group.image)} alt={groupVisualAlt(group.image,"")} width={1200} height={675} loading="lazy"/><div><strong>{group.title}</strong><small>{group.description}</small><span aria-hidden="true">⌄</span></div></summary><div className="public-stage-links">{group.stages.map(([slug])=>stages.find(s=>s.slug===slug)).filter((s):s is NonNullable<typeof s>=>Boolean(s)).map((s,i)=><Link href={"/"+s.slug} className="journey-card" key={s.slug}>
       <div className="journey-card-image">
        <img src={stageVisuals[s.slug]||editorialHero} alt={"Minh họa giai đoạn "+s.title} width={1200} height={675} loading="lazy"/>
        <span className="journey-card-index">{String(i+1).padStart(2,"0")}</span>

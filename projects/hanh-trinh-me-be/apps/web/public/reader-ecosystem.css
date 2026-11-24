@@ -113,3 +113,11 @@
 /* Limit width rather than height: preserve intrinsic 16:9 even on tablets. */
 @media(max-width:768px){.home-hero img,.catalog-hero img{width:min(100%,416px);height:auto;max-height:none;justify-self:center}}
 @media(max-width:480px){.home-hero img,.catalog-hero img{width:min(100%,320px);height:auto;max-height:none}}
+
+/* Supplemental article visuals: original paragraphs, responsive and unclipped. */
+.contextual-photo,.reading-visual{margin:24px auto;max-width:100%;min-width:0;}
+.contextual-photo img{display:block;width:100%;height:auto;object-fit:contain;border-radius:18px;}
+.reading-visual-svg{display:block;width:100%;height:auto;max-width:580px;margin-inline:auto;border-radius:18px;}
+.contextual-photo figcaption,.reading-visual figcaption{font-size:14px;line-height:1.6;color:#536459;margin-top:9px;}
+.reading-visual .infographic-transcript{max-width:100%;overflow-wrap:anywhere;}
+@media(max-width:480px){.contextual-photo,.reading-visual{margin:18px 0;}.contextual-photo figcaption,.reading-visual figcaption{font-size:13px;}}

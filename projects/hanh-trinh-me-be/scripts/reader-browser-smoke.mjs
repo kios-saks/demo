@@ -15,7 +15,7 @@ async function layout(page,width){
    viewport:innerWidth,width:document.documentElement.scrollWidth,
    nav:getComputedStyle(document.querySelector(".mobile-reader-nav")).display,
    groups:document.querySelector(".home-stage-groups")?getComputedStyle(document.querySelector(".home-stage-groups")).gridTemplateColumns.split(" ").length:null,
-   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img,.editorial-stage-image,.infographic-figure img")].map(img=>getComputedStyle(img).objectFit)
+   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img,.editorial-stage-image,.infographic-figure img,.contextual-photo img")].map(img=>getComputedStyle(img).objectFit)
  }));
  assert(metrics.width<=metrics.viewport+1,"Horizontal overflow at "+width+": "+JSON.stringify(metrics));
  assert.equal(metrics.nav==="none",width>768,"Responsive navigation "+width);

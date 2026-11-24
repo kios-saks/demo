@@ -1,5 +1,6 @@
+import {readingVisual} from "../../../lib/reading-visual";
 import {escapeHtml,htmlResponse,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
-import {articleCover,coverAlt,coverCaption,inlineAsset} from "../../../lib/editorial-media";
+import {articleCover,coverAlt,coverCaption,inlineAsset,inlineLifestyle} from "../../../lib/editorial-media";
 import guideDataset from "../../../../../packages/content/mock/stage-guides.json";
 import contentSnapshot from "../../../../../packages/content/articles.json";
 export const dynamic="force-dynamic";
@@ -26,7 +27,11 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
          '<figcaption>'+escapeHtml(v.caption)+' · <a href="'+escapeHtml(v.sourceUrl||"#")+'" target="_blank" rel="noopener noreferrer nofollow">Xem nguồn gốc ↗</a></figcaption>'+
          (asset.points?.length?'<details class="infographic-transcript" open><summary>Đọc '+asset.points.length+' gợi ý trong hình dưới dạng văn bản</summary><ol>'+asset.points.map(point=>'<li>'+escapeHtml(point)+'</li>').join("")+'</ol></details>':"")+'</figure>';
      }).join("");
-     return '<section id="part-'+i+'"><h2>'+escapeHtml(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>'+visual;
+     const photo=inlineLifestyle(a.slug,i,s.heading);
+     const photoHtml=photo?'<figure class="contextual-photo"><img src="'+escapeHtml(photo.src)+'" width="1200" height="675" loading="lazy" alt="'+escapeHtml(photo.alt)+'"><figcaption>'+escapeHtml(photo.caption||"")+' · Ảnh minh họa tạo bằng AI</figcaption></figure>':"";
+     const card=readingVisual(a,i);
+     const cardHtml=card?'<figure class="reading-visual" data-reading-visual="'+escapeHtml(a.slug)+'">'+card.svg+'<figcaption>Hai đoạn trích từ nội dung bài viết, không phải hướng dẫn độc lập. <a href="#article-sources">Đối chiếu nguồn tham khảo của bài</a>.</figcaption><details class="infographic-transcript"><summary>Đọc nội dung hình dưới dạng văn bản</summary>'+card.points.map(p=>'<p><b>'+escapeHtml(p.heading)+'</b>: '+escapeHtml(p.text)+'</p>').join("")+'</details></figure>':"";
+     return '<section id="part-'+i+'"><h2>'+escapeHtml(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("")+'</section>'+visual+photoHtml+cardHtml;
    }).join("");
    const cover=safeMediaPath(articleCover(a.slug,a.media?.cover?.src));
    const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(coverAlt(a.title,a.slug))+'">'+
@@ -50,7 +55,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<p>Chọn mục để chuyển tới phần muốn đọc. Các mốc thời gian và hướng dẫn y tế cần đối chiếu với chuyên gia phù hợp.</p></aside>'+
      '<article class="content article-content" aria-label="Nội dung bài viết">'+quick+heroCover+sections+
      supplemental+related+
-     '<section><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
+     '<section id="article-sources"><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
      '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
      '<p><a href="/thu-vien">← Quay lại danh sách toàn bộ bài</a></p></article></div>';
    return htmlResponse(a.title,body);
