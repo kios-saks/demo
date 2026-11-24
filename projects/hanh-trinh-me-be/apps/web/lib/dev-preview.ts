@@ -95,5 +95,5 @@ export async function getDevArticle(slug:string):Promise<{data:Article;disclaime
 
 /** Whitelist public, versioned first-party media; ignore untrusted external URLs. */
 export function safeMediaPath(src:unknown):string|null{
- return typeof src==="string" && src.startsWith("/media/") && /^[a-z0-9-]+[.]svg$/.test(src.slice(7))?src:null;
+ return typeof src==="string" && src.startsWith("/media/") && /^(?:[a-z0-9-]+[.]svg|lifestyle-[a-z0-9-]+[.]webp)$/.test(src.slice(7))?src:null;
 }
