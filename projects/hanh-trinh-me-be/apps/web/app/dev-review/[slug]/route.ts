@@ -1,5 +1,5 @@
 import {escapeHtml,htmlResponse,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
-import {articleCover,coverAlt,inlineAsset} from "../../../lib/editorial-media";
+import {articleCover,coverAlt,coverCaption,inlineAsset} from "../../../lib/editorial-media";
 import guideDataset from "../../../../../packages/content/mock/stage-guides.json";
 import contentSnapshot from "../../../../../packages/content/articles.json";
 export const dynamic="force-dynamic";
@@ -30,7 +30,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    }).join("");
    const cover=safeMediaPath(articleCover(a.slug,a.media?.cover?.src));
    const heroCover=cover?'<figure class="article-cover"><img src="'+escapeHtml(cover)+'" width="1200" height="675" alt="'+escapeHtml(coverAlt(a.title,a.slug))+'">'+
-     '<figcaption>'+'Tranh minh họa biên tập theo chủ đề · Hành Trình Mẹ & Bé</figcaption></figure>':'';
+     '<figcaption>'+escapeHtml(coverCaption(a.slug))+'</figcaption></figure>':'';
    const quick=a.media?.highlights?.length?'<div class="quick-card"><h2>Ghi nhớ trong 30 giây</h2><ul>'+
       a.media.highlights.map(v=>'<li>'+escapeHtml(v)+'</li>').join("")+'</ul></div>':'';
    const toc='<nav class="toc" aria-label="Mục lục bài viết"><h2>Trong bài viết này</h2>'+a.sections.map((s,i)=>
