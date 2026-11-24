@@ -109,3 +109,7 @@
 .infographic-transcript{font-size:1rem;line-height:1.65}
 .infographic-transcript li{margin-block:.4rem}
 @media(max-width:767px){.editorial-stage-head{grid-template-columns:minmax(0,1fr)}.editorial-stage-image{max-height:none}.infographic-figure{margin-inline:0}.infographic-figure img[src*="editorial-infographic-"]{max-width:100%}}
+
+/* Limit width rather than height: preserve intrinsic 16:9 even on tablets. */
+@media(max-width:768px){.home-hero img,.catalog-hero img{width:min(100%,416px);height:auto;max-height:none;justify-self:center}}
+@media(max-width:480px){.home-hero img,.catalog-hero img{width:min(100%,320px);height:auto;max-height:none}}
