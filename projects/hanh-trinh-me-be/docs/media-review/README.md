@@ -32,5 +32,8 @@ Ngày 24/11/2026. Chủ sản phẩm quyết định giữ, sửa hoặc thay th
 ## Quyết định chủ sản phẩm — 24/11/2026
 - A và B: tạo ảnh thay thế, lưu bản gốc. Không xóa review-a.webp / review-b.webp.
 - [A thay thế](./review-a-replacement.webp), generation af18a4ef-212f-416c-8c0d-392ff3644ca7, SHA256 42f9c08f92afedfa014a1c3ac3294f7c1c977e2e63dc8c60648f18632db155b5. Đã sử dụng hai ô đời sống đúng đoạn văn; các ô y khoa (ngủ, ăn dặm, tiêm chủng) giữ ở hàng chờ, chưa được thẩm định.
-- B thay thế generation ca06b59a-d92c-4967-85ff-a18f1315a335 đã tạo ở cuộc trò chuyện; bản gốc B vẫn lưu nguyên. Chưa nhập tệp replacement B riêng vào repo.
+- B thay thế generation ca06b59a-d92c-4967-85ff-a18f1315a335 đã tạo ở cuộc trò chuyện; bản gốc B vẫn lưu nguyên. [B thay thế](./review-b-replacement.webp), SHA256 4af4662f41d98da46b2676a71ef8b86298bf260ba2031ef9e26c6f2c305c9116; đã lưu riêng, chưa kích hoạt.
 - Thêm 4 ảnh đời sống từ generation 722c500a-7596-46c7-b9d0-a408fd057bd8. Tổng 6 ảnh mới được gắn đúng mục trong bài, 31/72 bài có ảnh riêng. Chưa coi CI là đạt trước khi có kết quả.
+
+### Review cảnh ngủ trong A/B thay thế
+Hai ảnh mới thể hiện trẻ nằm ngửa, đầu không bị che và không thấy gấu bông/chăn rời. Đối chiếu CDC (https://www.cdc.gov/sudden-infant-death/sleep-safely/) và NIH (https://safetosleep.nichd.nih.gov/reduce-risk/safe-sleep-environment): bề mặt phải chắc, phẳng, không nghiêng, có ga vừa khít và cũi đạt chuẩn phù hợp. Các đặc tính vật lý/chứng nhận không thể xác nhận bằng ảnh AI. Chờ chủ sản phẩm chọn phương án mỹ thuật và thẩm định chuyên môn; không tự động kích hoạt. Những ô khác chưa sử dụng vẫn được bảo toàn trong hai ảnh tổng thể.
