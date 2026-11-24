@@ -85,6 +85,36 @@
       "width": 960,
       "height": 540,
       "sha256": "0316e8c4f69bf900591c600a1435ade2faf2569abbaf6cea6f9157e44a823491"
+    },
+    "inline-tui-do-di-sinh": {
+      "src": "/media/lifestyle-inline-tui-do-di-sinh.webp",
+      "alt": "Người mẹ mang thai chuẩn bị quần áo cho bé tại nhà (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation a5c58c2a-9d2d-4eee-8eac-4cba459e1e00; synthetic people, preserved full artwork and fitted to 16:9.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual non-clinical illustration accepted for private development preview; no medical procedure or instruction.",
+      "width": 1200,
+      "height": 675,
+      "sha256": "7a8d32547dc5ce5c105576ad23bba231edb57c6d5b3d6dc74d05e897d353c870",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Minh họa việc chuẩn bị đồ cho bé; danh sách cụ thể cần đối chiếu với nơi dự định sinh."
+    },
+    "inline-choi-va-tuong-tac-voi-be": {
+      "src": "/media/lifestyle-inline-choi-va-tuong-tac-voi-be.webp",
+      "alt": "Ba mẹ ở cạnh em bé đang chơi trên thảm trong phòng khách (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 5592de21-babf-4768-8e11-beb6c1aded97; synthetic people, preserved full artwork and fitted to 16:9.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual non-clinical illustration accepted for private development preview; no medical procedure or instruction.",
+      "width": 1200,
+      "height": 675,
+      "sha256": "b23c903387167aedb48cda1982ae8700a7433984bfd1bb73069e1e140176d88b",
+      "afterSection": 7,
+      "anchorHeading": "Một buổi chơi thực tế và câu hỏi FAQ",
+      "caption": "Minh họa một khoảng thời gian chơi có người chăm sóc ở cạnh; không dùng hình ảnh để đánh giá mốc phát triển của trẻ."
     }
   }
 }
