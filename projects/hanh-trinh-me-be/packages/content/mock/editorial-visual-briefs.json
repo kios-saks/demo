@@ -1,0 +1,554 @@
+{
+  "version": "warm-lifestyle-editorial-v1",
+  "origin": "original programmatic editorial vector illustration; not photography; not clinically reviewed",
+  "coverBriefs": {
+    "cuoc-tro-chuyen-truoc-khi-co-con": [
+      "couple",
+      "home",
+      "notebook",
+      "tea"
+    ],
+    "hen-tu-van-tien-thai": [
+      "consult",
+      "clinic",
+      "folder",
+      "calendar"
+    ],
+    "lan-kham-thai-dau-tien": [
+      "pregnant-consult",
+      "clinic",
+      "notebook",
+      "calendar"
+    ],
+    "cam-xuc-dau-thai-ky": [
+      "pregnant",
+      "window",
+      "tea",
+      "journal"
+    ],
+    "nhat-ky-thai-ky": [
+      "pregnant",
+      "desk",
+      "journal",
+      "pencil"
+    ],
+    "dong-hanh-khi-mang-thai": [
+      "pregnant-couple",
+      "home",
+      "water",
+      "plant"
+    ],
+    "tui-do-di-sinh": [
+      "pregnant",
+      "bedroom",
+      "bag",
+      "clothes"
+    ],
+    "ke-hoach-ho-tro-sau-sinh": [
+      "pregnant-couple",
+      "desk",
+      "calendar",
+      "notebook"
+    ],
+    "nguoi-me-cung-can-duoc-cham-soc": [
+      "adult",
+      "window",
+      "tea",
+      "cushion"
+    ],
+    "chia-viec-trong-gia-dinh": [
+      "couple",
+      "home",
+      "basket",
+      "calendar"
+    ],
+    "lam-quen-nhip-sinh-hoat-so-sinh": [
+      "newborn-family",
+      "home",
+      "clock",
+      "notebook"
+    ],
+    "nhung-cau-hoi-khi-cham-be": [
+      "baby-consult",
+      "clinic",
+      "folder",
+      "pencil"
+    ],
+    "choi-va-tuong-tac-voi-be": [
+      "infant-family",
+      "playroom",
+      "blocks",
+      "book"
+    ],
+    "moc-phat-trien-khong-phai-cuoc-dua": [
+      "infant-family",
+      "playroom",
+      "ball",
+      "journal"
+    ],
+    "khi-con-noi-khong": [
+      "toddler-family",
+      "home",
+      "book",
+      "cushion"
+    ],
+    "goc-choi-kham-pha-an-toan": [
+      "toddler-family",
+      "playroom",
+      "shelf",
+      "blocks"
+    ],
+    "hoc-thong-qua-choi": [
+      "preschool-family",
+      "playroom",
+      "blocks",
+      "pencil"
+    ],
+    "chuan-bi-ngay-dau-di-hoc": [
+      "preschool-family",
+      "entry",
+      "backpack",
+      "shoes"
+    ],
+    "dong-hanh-viec-hoc": [
+      "school-family",
+      "desk",
+      "book",
+      "pencil"
+    ],
+    "tinh-ban-dau-doi": [
+      "school-friends",
+      "garden",
+      "ball",
+      "backpack"
+    ],
+    "noi-chuyen-ve-day-thi": [
+      "teen-family",
+      "home",
+      "tea",
+      "book"
+    ],
+    "an-toan-so-cung-con": [
+      "teen-family",
+      "desk",
+      "laptop",
+      "phone"
+    ],
+    "dong-hanh-khi-con-tu-lap": [
+      "grown-family",
+      "entry",
+      "bag",
+      "keys"
+    ],
+    "giu-ket-noi-gia-dinh": [
+      "grown-family",
+      "home",
+      "tea",
+      "photo"
+    ],
+    "axit-folic-truoc-khi-mang-thai": [
+      "couple",
+      "desk",
+      "folder",
+      "notebook"
+    ],
+    "kham-suc-khoe-tien-thai": [
+      "consult",
+      "clinic",
+      "calendar",
+      "folder"
+    ],
+    "thuoc-tiem-chung-va-ke-hoach-thai-ky": [
+      "consult",
+      "clinic",
+      "folder",
+      "notebook"
+    ],
+    "ke-hoach-ho-tro-tien-thai": [
+      "couple",
+      "desk",
+      "calendar",
+      "tea"
+    ],
+    "lich-kham-thai-ba-thang-dau": [
+      "pregnant-consult",
+      "clinic",
+      "calendar",
+      "folder"
+    ],
+    "om-nghen-va-an-uong-dau-thai-ky": [
+      "pregnant",
+      "kitchen",
+      "bowl",
+      "water"
+    ],
+    "suc-khoe-tinh-than-ba-thang-dau": [
+      "pregnant-couple",
+      "window",
+      "journal",
+      "tea"
+    ],
+    "dau-hieu-nguy-hiem-dau-thai-ky": [
+      "pregnant-couple",
+      "entry",
+      "phone",
+      "folder"
+    ],
+    "kham-thai-ba-thang-giua": [
+      "pregnant-consult",
+      "clinic",
+      "folder",
+      "pencil"
+    ],
+    "sang-loc-tieu-duong-thai-ky": [
+      "pregnant-consult",
+      "clinic",
+      "notebook",
+      "water"
+    ],
+    "van-dong-an-toan-khi-mang-thai": [
+      "pregnant",
+      "garden",
+      "shoes",
+      "water"
+    ],
+    "chat-luong-giac-ngu-ba-thang-giua": [
+      "pregnant",
+      "bedroom",
+      "lamp",
+      "cushion"
+    ],
+    "ke-hoach-sinh-an-toan": [
+      "pregnant-couple",
+      "desk",
+      "folder",
+      "bag"
+    ],
+    "dau-hieu-can-di-vien-cuoi-thai-ky": [
+      "pregnant-couple",
+      "entry",
+      "bag",
+      "phone"
+    ],
+    "thai-may-va-theo-doi-thai-cuoi-ky": [
+      "pregnant",
+      "window",
+      "notebook",
+      "clock"
+    ],
+    "chuan-bi-sau-sinh-dinh-duong-cham-soc": [
+      "pregnant-couple",
+      "kitchen",
+      "basket",
+      "bowl"
+    ],
+    "dau-hieu-canh-bao-sau-sinh": [
+      "couple",
+      "entry",
+      "phone",
+      "folder"
+    ],
+    "hoi-phuc-sau-sinh-mo-va-sinh-thuong": [
+      "adult",
+      "bedroom",
+      "water",
+      "lamp"
+    ],
+    "tam-trang-sau-sinh-va-tram-cam": [
+      "couple",
+      "window",
+      "journal",
+      "cushion"
+    ],
+    "ho-tro-bu-me-va-khi-kho-khan": [
+      "baby-consult",
+      "clinic",
+      "notebook",
+      "water"
+    ],
+    "ngu-an-toan-cho-tre-so-sinh": [
+      "newborn-family",
+      "bedroom",
+      "lamp",
+      "clock"
+    ],
+    "dau-hieu-nguy-hiem-o-tre-so-sinh": [
+      "baby-consult",
+      "clinic",
+      "phone",
+      "folder"
+    ],
+    "bu-me-hoan-toan-sau-sinh": [
+      "newborn-family",
+      "home",
+      "water",
+      "cushion"
+    ],
+    "theo-doi-phat-trien-hai-thang-dau": [
+      "newborn-family",
+      "window",
+      "journal",
+      "clock"
+    ],
+    "an-dam-khi-nao-bat-dau": [
+      "infant-family",
+      "kitchen",
+      "bowl",
+      "spoon"
+    ],
+    "an-toan-chong-sac-khi-an-dam": [
+      "infant-family",
+      "kitchen",
+      "plate",
+      "water"
+    ],
+    "moc-phat-trien-sau-thang-thu-sau": [
+      "infant-family",
+      "playroom",
+      "book",
+      "ball"
+    ],
+    "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang": [
+      "infant-family",
+      "bedroom",
+      "clock",
+      "lamp"
+    ],
+    "giao-tiep-voi-tre-tu-mot-den-ba-tuoi": [
+      "toddler-family",
+      "playroom",
+      "book",
+      "ball"
+    ],
+    "con-an-va-tu-lap-khi-tap-di": [
+      "toddler-family",
+      "kitchen",
+      "plate",
+      "spoon"
+    ],
+    "cam-xuc-an-va-khung-hoang-tuoi-len-hai": [
+      "toddler-family",
+      "window",
+      "cushion",
+      "book"
+    ],
+    "an-toan-trong-nha-khi-tre-tap-di": [
+      "toddler-family",
+      "entry",
+      "shelf",
+      "basket"
+    ],
+    "hoc-qua-choi-ba-den-sau-tuoi": [
+      "preschool-family",
+      "playroom",
+      "pencil",
+      "blocks"
+    ],
+    "moc-phat-trien-tuoi-bon-va-nam": [
+      "preschool-family",
+      "desk",
+      "journal",
+      "pencil"
+    ],
+    "lam-quen-truong-mam-non": [
+      "preschool-family",
+      "entry",
+      "shoes",
+      "backpack"
+    ],
+    "giao-tiep-gioi-han-khong-don-roi": [
+      "preschool-family",
+      "window",
+      "book",
+      "cushion"
+    ],
+    "thoi-quen-hoc-tap-tieu-hoc": [
+      "school-family",
+      "desk",
+      "clock",
+      "notebook"
+    ],
+    "giac-ngu-hoc-sinh-tieu-hoc": [
+      "school-family",
+      "bedroom",
+      "lamp",
+      "book"
+    ],
+    "van-dong-cho-tre-tieu-hoc": [
+      "school-friends",
+      "garden",
+      "shoes",
+      "ball"
+    ],
+    "phong-chong-bat-nat-o-truong": [
+      "school-family",
+      "desk",
+      "backpack",
+      "notebook"
+    ],
+    "suc-khoe-tinh-than-tuoi-thieu-nien": [
+      "teen-family",
+      "window",
+      "journal",
+      "tea"
+    ],
+    "noi-chuyen-day-thi-tinh-duc-an-toan": [
+      "teen-family",
+      "home",
+      "book",
+      "plant"
+    ],
+    "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen": [
+      "teen-family",
+      "desk",
+      "phone",
+      "laptop"
+    ],
+    "giao-tiep-voi-con-tuoi-teen": [
+      "teen-family",
+      "garden",
+      "tea",
+      "plant"
+    ],
+    "ke-hoach-tu-lap-sau-muoi-tam-tuoi": [
+      "grown-family",
+      "desk",
+      "keys",
+      "notebook"
+    ],
+    "thoi-quen-suc-khoe-o-tuoi-truong-thanh": [
+      "grown",
+      "garden",
+      "shoes",
+      "water"
+    ],
+    "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh": [
+      "grown-family",
+      "home",
+      "book",
+      "tea"
+    ],
+    "quan-he-tinh-than-va-ho-tro-khi-truong-thanh": [
+      "grown-family",
+      "window",
+      "photo",
+      "plant"
+    ]
+  },
+  "navigation": {
+    "hero": [
+      "family",
+      "home",
+      "book",
+      "plant"
+    ],
+    "group-chuan-bi-mang-thai": [
+      "couple",
+      "window",
+      "notebook",
+      "plant"
+    ],
+    "group-thai-ky-3-thang-giua": [
+      "pregnant-couple",
+      "garden",
+      "tea",
+      "plant"
+    ],
+    "group-hau-san": [
+      "newborn-family",
+      "home",
+      "water",
+      "basket"
+    ],
+    "group-so-sinh": [
+      "infant-family",
+      "playroom",
+      "ball",
+      "book"
+    ],
+    "group-mam-non": [
+      "preschool-family",
+      "garden",
+      "blocks",
+      "backpack"
+    ],
+    "group-tieu-hoc": [
+      "school-family",
+      "garden",
+      "book",
+      "ball"
+    ],
+    "stage-chuan-bi-mang-thai": [
+      "couple",
+      "desk",
+      "calendar",
+      "plant"
+    ],
+    "stage-thai-ky-3-thang-dau": [
+      "pregnant-consult",
+      "clinic",
+      "folder",
+      "calendar"
+    ],
+    "stage-thai-ky-3-thang-giua": [
+      "pregnant",
+      "garden",
+      "water",
+      "plant"
+    ],
+    "stage-thai-ky-3-thang-cuoi": [
+      "pregnant-couple",
+      "bedroom",
+      "bag",
+      "clothes"
+    ],
+    "stage-hau-san": [
+      "couple",
+      "window",
+      "tea",
+      "basket"
+    ],
+    "stage-so-sinh": [
+      "newborn-family",
+      "home",
+      "clock",
+      "water"
+    ],
+    "stage-nhu-nhi": [
+      "infant-family",
+      "playroom",
+      "book",
+      "blocks"
+    ],
+    "stage-tap-di": [
+      "toddler-family",
+      "garden",
+      "ball",
+      "shoes"
+    ],
+    "stage-mam-non": [
+      "preschool-family",
+      "playroom",
+      "pencil",
+      "blocks"
+    ],
+    "stage-tieu-hoc": [
+      "school-family",
+      "desk",
+      "backpack",
+      "book"
+    ],
+    "stage-thieu-nien": [
+      "teen-family",
+      "window",
+      "journal",
+      "tea"
+    ],
+    "stage-truong-thanh": [
+      "grown-family",
+      "entry",
+      "keys",
+      "bag"
+    ]
+  }
+}
