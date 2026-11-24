@@ -163,6 +163,57 @@
       "width": 960,
       "height": 540,
       "sha256": "bec6777b925ed43b787baa911718d7e571735f2b94414de3efab01bcf30bd02c"
+    },
+    "cover-hoi-phuc-sau-sinh-mo-va-sinh-thuong": {
+      "src": "/media/lifestyle-cover-hoi-phuc-sau-sinh-mo-va-sinh-thuong.webp",
+      "alt": "Người thân mang bữa ăn đến cho mẹ đang nghỉ ngơi (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, generation 5d1cadd1-5d0e-4b64-8c79-c0becaa3a335; distinct panel from original 2x2 contact sheet; synthetic people.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Context-only illustration for private development preview; not clinical review or product safety certification.",
+      "width": 960,
+      "height": 540,
+      "sha256": "0786a9404cd21aaf39d73b6d1e857319104d67b5c7ce2f912946cc8652e9e19f"
+    },
+    "cover-ngu-an-toan-cho-tre-so-sinh": {
+      "src": "/media/lifestyle-cover-ngu-an-toan-cho-tre-so-sinh.webp",
+      "alt": "Cũi trống với nệm và ga trải, không có trẻ hay đồ chơi (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, generation 5d1cadd1-5d0e-4b64-8c79-c0becaa3a335; distinct panel from original 2x2 contact sheet; synthetic people.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Context-only illustration for private development preview; not clinical review or product safety certification.",
+      "width": 960,
+      "height": 540,
+      "sha256": "17a280e9df974cecd8df56a4ec08fa03f38cea3acb41ce873ead0ac5777eeb57"
+    },
+    "cover-dong-hanh-viec-hoc": {
+      "src": "/media/lifestyle-cover-dong-hanh-viec-hoc.webp",
+      "alt": "Bố cùng con tuổi tiểu học xem vở và làm bài tại bàn học (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, generation 5d1cadd1-5d0e-4b64-8c79-c0becaa3a335; distinct panel from original 2x2 contact sheet; synthetic people.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Context-only illustration for private development preview; not clinical review or product safety certification.",
+      "width": 960,
+      "height": 540,
+      "sha256": "c809064408c1402b1cb22acef805b37e86b1ef1cd62c5ea29a362229ca026a73"
+    },
+    "inline-hoc-thong-qua-choi": {
+      "src": "/media/lifestyle-inline-hoc-thong-qua-choi.webp",
+      "alt": "Trẻ tự xây hình từ các khối gỗ lớn bên cạnh mẹ đang quan sát (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, generation 5d1cadd1-5d0e-4b64-8c79-c0becaa3a335; distinct panel from original 2x2 contact sheet; synthetic people.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Context-only illustration for private development preview; not clinical review or product safety certification.",
+      "width": 960,
+      "height": 540,
+      "sha256": "76c99b5ad288ed581321150c3b398d5617b5600a86a35a45f5481c11545d2737",
+      "afterSection": 3,
+      "anchorHeading": "Chuẩn bị những việc có thể kiểm soát",
+      "caption": "Ví dụ góc chơi với khối xếp lớn: để trẻ lựa chọn cách xếp và người lớn quan sát, khuyến khích ý tưởng."
     }
   }
 }
