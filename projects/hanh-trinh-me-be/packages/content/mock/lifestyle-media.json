@@ -115,6 +115,54 @@
       "afterSection": 7,
       "anchorHeading": "Một buổi chơi thực tế và câu hỏi FAQ",
       "caption": "Minh họa một khoảng thời gian chơi có người chăm sóc ở cạnh; không dùng hình ảnh để đánh giá mốc phát triển của trẻ."
+    },
+    "group-hau-san": {
+      "src": "/media/lifestyle-group-hau-san.webp",
+      "alt": "Người mẹ bế em bé đang thức, người thân hỗ trợ bên cạnh (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation b0a22ddd-c1ec-415e-8488-f557ce2fca81; individual panel of 2x2 collage, synthetic subjects.",
+      "usageRights": "Original AI-generated project illustration; verify applicable usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual illustration approved for private development preview; no clinical instructions or endorsement.",
+      "width": 960,
+      "height": 540,
+      "sha256": "07022c2d1d16f43ef9d927bf759ab5c43101c22db3fe1dc4398eabc8c31d65da"
+    },
+    "group-mam-non": {
+      "src": "/media/lifestyle-group-mam-non.webp",
+      "alt": "Bố và con nhỏ cùng vẽ tranh ngoài hiên (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation b0a22ddd-c1ec-415e-8488-f557ce2fca81; individual panel of 2x2 collage, synthetic subjects.",
+      "usageRights": "Original AI-generated project illustration; verify applicable usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual illustration approved for private development preview; no clinical instructions or endorsement.",
+      "width": 960,
+      "height": 540,
+      "sha256": "e1ef743d0e290df0791548f8f20893888ab626fb441f8b6c2a58c7dfce4911e7"
+    },
+    "cover-hen-tu-van-tien-thai": {
+      "src": "/media/lifestyle-cover-hen-tu-van-tien-thai.webp",
+      "alt": "Hai vợ chồng xem hồ sơ và lịch hẹn bên bàn (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation b0a22ddd-c1ec-415e-8488-f557ce2fca81; individual panel of 2x2 collage, synthetic subjects.",
+      "usageRights": "Original AI-generated project illustration; verify applicable usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual illustration approved for private development preview; no clinical instructions or endorsement.",
+      "width": 960,
+      "height": 540,
+      "sha256": "aa0ffc67acdfe8020202f07b883a7c1aff4076a43656ac51697762d453c4284a"
+    },
+    "cover-nhat-ky-thai-ky": {
+      "src": "/media/lifestyle-cover-nhat-ky-thai-ky.webp",
+      "alt": "Người mẹ mang thai viết nhật ký bên cửa sổ (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation b0a22ddd-c1ec-415e-8488-f557ce2fca81; individual panel of 2x2 collage, synthetic subjects.",
+      "usageRights": "Original AI-generated project illustration; verify applicable usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual illustration approved for private development preview; no clinical instructions or endorsement.",
+      "width": 960,
+      "height": 540,
+      "sha256": "bec6777b925ed43b787baa911718d7e571735f2b94414de3efab01bcf30bd02c"
     }
   }
 }
