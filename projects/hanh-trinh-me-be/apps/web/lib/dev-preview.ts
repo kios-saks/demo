@@ -70,9 +70,10 @@ export async function listDevArticles():Promise<{articles:ArticleSummary[];sourc
    const articles=[...first.data];
    for(let page=2;articles.length<first.meta.total;page++){
      const next=await fromApi<{data:ArticleSummary[]}>("articles?page="+page+"&limit=50");
-     if(!next.data.length)break;
+     if(!next.data.length)throw Error("Incomplete preview catalog");
      articles.push(...next.data);
    }
+   if(articles.length!==first.meta.total||new Set(articles.map(a=>a.slug)).size!==articles.length)throw Error("Inconsistent preview catalog");
    return {articles:articles.map(a=>({...a,media:a.media||snapshotArticles.find(x=>x.slug===a.slug)?.media})),source:"supabase"};
  }catch(error){
    reportFallback(error);
