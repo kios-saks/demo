@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   openGraph: { type: "website", locale: "vi_VN", siteName: "Hành Trình Mẹ & Bé" },
   robots: { index: false, follow: false } // No reviewed content yet. Never index drafts.
 };
-const previewEnabled=Boolean(process.env.DEV_CONTENT_PREVIEW_TOKEN&&process.env.DEV_CONTENT_PREVIEW_TOKEN.length>=24);
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
  return (
@@ -33,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        <Link href="/tim-kiem">Tìm kiếm</Link>
        <Link href="/nguon-tham-khao">Nguồn tham khảo</Link>
        {process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production"?null:<Link href="/bien-tap">Góc biên tập</Link>}
-       {previewEnabled?<Link href="/dev-review" className="nav-preview">Thư viện DEV</Link>:null}
+       
       </nav>
      </div>
     </header>
@@ -42,12 +41,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
      <div className="wrap footer-inner">
       <div>
        <p><strong>Hành Trình Mẹ & Bé</strong> — Đồng hành bằng kiến thức và sự thấu hiểu.</p>
-       <small>Nội dung hiện là bản thử nghiệm, chưa được thẩm định y khoa. Không dùng để tự chẩn đoán, điều trị hoặc thay thế dịch vụ cấp cứu.</small>
+       <small>Nội dung chưa được thẩm định y khoa. Không dùng để tự chẩn đoán, điều trị hoặc thay thế dịch vụ cấp cứu.</small>
       </div>
       <nav className="footer-links" aria-label="Liên kết cuối trang">
        <Link href="/#hanh-trinh">12 giai đoạn</Link>
        <Link href="/nguon-tham-khao">Nguồn tham khảo</Link>
-       {previewEnabled?<Link href="/dev-review">Đọc nội dung DEV</Link>:null}
+       
       </nav>
      </div>
     </footer>
