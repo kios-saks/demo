@@ -7,12 +7,12 @@ Ngày 24/11/2026. Chủ sản phẩm quyết định giữ, sửa hoặc thay th
 ### A — [Xem ảnh](./review-a.webp)
 - Generation: 843b4767-5110-49d6-9bcf-50a2cfd07f3f. SHA256: 695d09225f85fd147c03d3d043c38484b5481a0ce77f84edf60ca7a8d0619a10.
 - Các cảnh gia đình có thể tham chiếu về ánh sáng, màu sắc. Ô ngủ sơ sinh có gấu bông/chăn mềm nhưng được gắn nhãn an toàn; mâu thuẫn với [CDC safe sleep](https://www.cdc.gov/sudden-infant-death/sleep-safely/). Đề xuất sửa cảnh này hoặc dùng với nhãn phản ví dụ rõ ràng sau thẩm định. Các nhãn ăn dặm và tiêm chủng cần đối chiếu nguồn cụ thể trước khi dùng.
-- Trạng thái: pending owner review; not activated.
+- Trạng thái: owner decided to create a replacement; original retained; not activated.
 
 ### B — [Xem ảnh](./review-b.webp)
 - Generation: 94ee3a6f-2f50-4eca-b27d-b03be6cdf0d3. SHA256: 0921ad407ab26f0106dff29bbeb99ae5a70f12705bc971a354d1e2c7c856b715.
 - Có các cảnh đọc sách, chơi, bữa ăn và học tập có thể tách để minh họa đúng đoạn văn. Ô ngủ sơ sinh có vật mềm; bảng tiêm chủng chỉ ghi tuổi mà không ghi vaccine và chưa đối chiếu lịch Việt Nam; hình thai nhi cần xem xét giải phẫu nếu dùng để giảng dạy. Không coi các nhãn AI là thông tin xác thực.
-- Trạng thái: pending owner review; not activated.
+- Trạng thái: owner decided to create a replacement; original retained; not activated.
 
 ## Quy trình
 
@@ -28,3 +28,9 @@ Ngày 24/11/2026. Chủ sản phẩm quyết định giữ, sửa hoặc thay th
 
 ## Hàng đợi sản xuất
 [47 brief theo đoạn văn](../inline-media-production-plan-2026-11-24.json). Mỗi mục có slug, mục nội dung, trích đoạn gốc, mục đích giáo dục, yêu cầu hình và nguồn ứng viên. Brief chưa phải tài nguyên hình ảnh.
+
+## Quyết định chủ sản phẩm — 24/11/2026
+- A và B: tạo ảnh thay thế, lưu bản gốc. Không xóa review-a.webp / review-b.webp.
+- [A thay thế](./review-a-replacement.webp), generation af18a4ef-212f-416c-8c0d-392ff3644ca7, SHA256 42f9c08f92afedfa014a1c3ac3294f7c1c977e2e63dc8c60648f18632db155b5. Đã sử dụng hai ô đời sống đúng đoạn văn; các ô y khoa (ngủ, ăn dặm, tiêm chủng) giữ ở hàng chờ, chưa được thẩm định.
+- B thay thế generation ca06b59a-d92c-4967-85ff-a18f1315a335 đã tạo ở cuộc trò chuyện; bản gốc B vẫn lưu nguyên. Chưa nhập tệp replacement B riêng vào repo.
+- Thêm 4 ảnh đời sống từ generation 722c500a-7596-46c7-b9d0-a408fd057bd8. Tổng 6 ảnh mới được gắn đúng mục trong bài, 31/72 bài có ảnh riêng. Chưa coi CI là đạt trước khi có kết quả.

@@ -3,8 +3,8 @@
   "asOf": "2026-11-24",
   "baseline": "333979ebedb9be075595545a6f898649d9fa568c",
   "coverage": {
-    "existingInline": 25,
-    "pending": 47,
+    "existingInline": 31,
+    "pending": 41,
     "total": 72
   },
   "rules": "All entries are production briefs, not produced images. Owner reviews aesthetics; education and clinical accuracy must be verified separately. No new medical claim or source endorsement inferred. Keep pending image proposals, outside public assets. Preserve original article/DB.",
@@ -24,8 +24,11 @@
         "https://www.cdc.gov/hearher/maternal-warning-signs/"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-dong-hanh-khi-mang-thai",
+      "actualScene": "Hai vợ chồng trao đổi và ghi chú trong thai kỳ",
+      "assetSha256": "2500c1c4e8b0ef0ee7ef914f1890e27a3b4197f5d7b56034977fca78d95f2dd5"
     },
     {
       "slug": "nguoi-me-cung-can-duoc-cham-soc",
@@ -42,8 +45,11 @@
         "https://www.cdc.gov/hearher/maternal-warning-signs/"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-nguoi-me-cung-can-duoc-cham-soc",
+      "actualScene": "Người thân mang khay bữa ăn và nước tới cho mẹ đang nghỉ",
+      "assetSha256": "1ee3816c7eb47a49d290c8d7a38f702cf050ab3cdc85cb047597386362492eae"
     },
     {
       "slug": "lam-quen-nhip-sinh-hoat-so-sinh",
@@ -60,8 +66,11 @@
         "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-lam-quen-nhip-sinh-hoat-so-sinh",
+      "actualScene": "Sổ ghi chép, bút và đồng hồ trên bàn",
+      "assetSha256": "8b98d9b963404dfc3d3f9b1992f1a9c940398aeb1fff9ced159319775cd962d6"
     },
     {
       "slug": "moc-phat-trien-khong-phai-cuoc-dua",
@@ -97,8 +106,11 @@
         "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-khi-con-noi-khong",
+      "actualScene": "Hai đôi giày trẻ em màu xanh và đỏ",
+      "assetSha256": "666f954cdb788e53d8514169242d929e2d6bb3d6bb5e237f4df6867d859000d7"
     },
     {
       "slug": "goc-choi-kham-pha-an-toan",
@@ -152,8 +164,11 @@
         "https://www.unicef.org/reports/parenting-adolescents"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-dong-hanh-khi-con-tu-lap",
+      "actualScene": "Người trẻ cùng cha mẹ xem sổ kế hoạch và chủ động viết",
+      "assetSha256": "9aa3847cec878e95cc24a8bb7a46e0b5714d23d9a52e51019f115d1ad0c3cd48"
     },
     {
       "slug": "axit-folic-truoc-khi-mang-thai",
@@ -739,8 +754,11 @@
         "https://www.cdc.gov/act-early/milestones/5-years.html"
       ],
       "sourceStatus": "from existing article; not individually reverified",
-      "status": "planned",
-      "clinicalReview": "context review"
+      "status": "integrated-dev",
+      "clinicalReview": "context review",
+      "assetKey": "inline-moc-phat-trien-tuoi-bon-va-nam",
+      "actualScene": "Mẹ ngồi cạnh trẻ đang vẽ tranh",
+      "assetSha256": "3b5a5d560a02fecf9f68d0502ae8f51c033238a87e832631ff3786495daf3b91"
     },
     {
       "slug": "giao-tiep-gioi-han-khong-don-roi",
