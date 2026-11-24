@@ -12,10 +12,10 @@ const message=(e:unknown)=>e instanceof Error?e.message:"Không thực hiện đ
 const path=(slug:string)=>"/"+encodeURIComponent(slug);
 const coverOf=(h:History|null)=>h?.active.find(x=>x.slot==="cover")?.revision??null;
 const approved=(r:Revision)=>["dev_approved","dev_context_only"].includes(r.review_status);
-const labels:Record<string,string>={NOT_FOUND:"Không có quyền hoặc không tìm thấy dữ liệu.",MEDIA_DISABLED:"Backend chưa bật quản lý ảnh.",MEDIA_UNAVAILABLE:"Backend chưa phản hồi. Hãy thử lại.",ACTIVE_REVISION_CHANGED:"Ảnh đang hoạt động đã thay đổi. Hãy tải lại trước khi duyệt.",INVALID_WEBP:"File WebP không hợp lệ.",INVALID_IMAGE:"File vượt giới hạn hoặc sai định dạng.",NOT_APPROVED:"Revision này chưa được duyệt.",MEDIA_INTEGRITY:"Checksum ảnh không khớp.",INVALID_OR_OVERSIZED_PAYLOAD:"Dữ liệu không hợp lệ hoặc vượt giới hạn."};
+const labels:Record<string,string>={NOT_FOUND:"Không có quyền hoặc không tìm thấy dữ liệu.",MEDIA_DISABLED:"Backend chưa bật quản lý ảnh.",MEDIA_UNAVAILABLE:"Backend chưa sẵn sàng hoặc kết nối bị gián đoạn. Thử lại trên cùng trang; không cần chọn lại ảnh.",ACTIVE_REVISION_CHANGED:"Ảnh đang hoạt động đã thay đổi. Hãy tải lại trước khi duyệt.",INVALID_WEBP:"File WebP không hợp lệ.",INVALID_IMAGE:"File vượt giới hạn hoặc sai định dạng.",NOT_APPROVED:"Revision này chưa được duyệt.",MEDIA_INTEGRITY:"Checksum ảnh không khớp.",INVALID_OR_OVERSIZED_PAYLOAD:"Dữ liệu không hợp lệ hoặc vượt giới hạn."};
 async function api<T>(token:string,route:string,payload?:unknown):Promise<T>{
  const response=await fetch("/api/media-admin"+route,{method:payload===undefined?"GET":"POST",headers:{Authorization:"Bearer "+token,...(payload===undefined?{}:{"Content-Type":"application/json"})},body:payload===undefined?undefined:JSON.stringify(payload),cache:"no-store",redirect:"error"});
- const data=await response.json();
+ let data;try{data=await response.json();}catch{throw Error("Backend hoặc Web đang khởi động; hãy thử lại, các ảnh đã chọn vẫn được giữ trong trang.");}
  if(!response.ok)throw Error(labels[data.error]||"Yêu cầu thất bại: "+response.status);
  return data.data as T;
 }
@@ -100,7 +100,16 @@ export default function MediaWorkbench(){
      const exists=h.revisions.find(r=>r.slot==="cover"&&r.asset_id===digest&&r.review_status==="pending");
      if(exists){change(x.id,{state:"pending",revision:exists.revision,message:"Đã có revision chờ duyệt"});count++;continue;}
      if(h.revisions.some(r=>r.slot==="cover"&&r.asset_id===digest)){throw Error("Ảnh này đã có trong lịch sử; dùng chức năng duyệt hoặc rollback thay vì upload lại.");}
-     const result=await api<{revision:number;assetId:string}>(token,path(x.slug)+"/upload",{slot:"cover",imageBase64,alt:x.alt.trim(),caption:x.caption.trim(),provenance:"AI-generated editorial cover; DEV only; "+x.file.name.slice(0,180)});
+     let result:{revision:number;assetId:string};
+     try{result=await api<{revision:number;assetId:string}>(token,path(x.slug)+"/upload",{slot:"cover",imageBase64,alt:x.alt.trim(),caption:x.caption.trim(),provenance:"AI-generated editorial cover; DEV only; "+x.file.name.slice(0,180)});}
+     catch(originalError){
+      // A transport failure can occur after the server has committed the revision.
+      // Reconcile with history before offering manual retry; never repeat POST here.
+      const recovered=await api<History>(token,path(x.slug)).catch(()=>null);
+      const match=recovered?.revisions.find(r=>r.slot==="cover"&&r.asset_id===digest&&r.review_status==="pending");
+      if(!match)throw originalError;
+      result={revision:match.revision,assetId:match.asset_id};
+     }
      if(result.assetId!==digest)throw Error("Checksum sau upload không khớp.");
      change(x.id,{state:"pending",revision:result.revision,message:"Đã tải lên · chờ reviewer"});count++;
     }catch(e){change(x.id,{state:"error",message:message(e)});}
@@ -145,7 +154,7 @@ export default function MediaWorkbench(){
  return <div className="cms-frame media-cms">
   <section className="cms-access">
    <h2>Quản lý ảnh bài viết</h2><p>Kho ảnh DEV riêng tư. Duyệt ảnh ở đây chỉ là duyệt biên tập, không phải thẩm định y khoa hoặc xuất bản.</p>
-   {!role?<form className="cms-row" onSubmit={e=>{e.preventDefault();void connect();}}><label className="cms-field cms-grow">Editor hoặc Reviewer Token<input type="password" autoComplete="off" value={token} onChange={e=>setToken(e.target.value)} required placeholder="Khóa Media DEV trên Render"/></label><button className="cms-btn" disabled={busy||token.length<32}>Đăng nhập</button></form>:<div className="cms-row cms-between"><strong>Vai trò: {role==="editor"?"Editor · tải ảnh":"Reviewer · duyệt và khôi phục"}</strong><button type="button" className="cms-btn secondary" disabled={busy} onClick={logout}>Đăng xuất / đổi vai trò</button></div>}
+   {!role?<form className="cms-row" onSubmit={e=>{e.preventDefault();void connect();}}><label className="cms-field cms-grow">Editor hoặc Reviewer Token<input type="password" autoComplete="off" value={token} onChange={e=>setToken(e.target.value)} required placeholder="Khóa Media DEV trên Render"/></label><button className="cms-btn" disabled={busy||token.length<32}>{busy?"Đang kết nối Backend…":"Đăng nhập"}</button></form>:<div className="cms-row cms-between"><strong>Vai trò: {role==="editor"?"Editor · tải ảnh":"Reviewer · duyệt và khôi phục"}</strong><button type="button" className="cms-btn secondary" disabled={busy} onClick={logout}>Đăng xuất / đổi vai trò</button></div>}
    <p className="cms-muted">Token chỉ giữ trong bộ nhớ của trang; không lưu localStorage, cookie hoặc URL. Hai vai trò sử dụng khóa riêng.</p>
   </section>
   {error?<p className="cms-alert error" role="alert">{error}</p>:null}
