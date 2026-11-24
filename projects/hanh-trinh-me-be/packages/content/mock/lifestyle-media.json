@@ -1,5 +1,18 @@
 {
   "version": 1,
   "description": "Only approved local lifestyle assets are active. Empty assets means original SVG fallback.",
-  "assets": {}
+  "assets": {
+    "hero": {
+      "src": "/media/lifestyle-hero.webp",
+      "alt": "Gia đình châu Á cùng đọc sách và trò chuyện trong phòng khách (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 54a4d0d5-b48f-4404-af65-5190b579e5a8; synthetic people, no stock image source.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Context-only lifestyle illustration reviewed for development use; no medical action or clinical endorsement is depicted.",
+      "width": 1440,
+      "height": 810,
+      "sha256": "047c1814f399dcc799f1cba1a766bdc7ed19a082c255148fc57fb2d80efe8ede"
+    }
+  }
 }
