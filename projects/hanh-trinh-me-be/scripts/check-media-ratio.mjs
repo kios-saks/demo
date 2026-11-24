@@ -57,3 +57,40 @@ const readerShell=read("apps/web/lib/dev-preview.ts");
 assert(readerShell.includes(".article-cover img{width:100%;height:auto;display:block;aspect-ratio:auto;object-fit:contain"),"DEV full covers must preserve source ratio");
 assert(readerShell.includes(".infographic-figure img{width:100%;height:auto;"),"DEV infographics must preserve their own heights");
 console.log("PASS image ratios: "+checked.covers+" 16:9 covers, "+checked.infographics+" uncropped infographics, 5 CSS sources without cropping");
+
+const briefs=JSON.parse(read("packages/content/mock/editorial-visual-briefs.json"));
+const info=JSON.parse(read("packages/content/mock/infographic-cards.json"));
+const curated=JSON.parse(read("packages/content/mock/editorial-curated-infographics.json"));
+const allInfo=new Map(info.cards.map(c=>[c.articleSlug,c]));
+for(const [slug,c] of Object.entries(curated))allInfo.set(slug,c);
+assert.equal(Object.keys(briefs.coverBriefs).length,72);
+assert.equal(new Set(Object.values(briefs.coverBriefs).map(v=>JSON.stringify(v))).size,72,"Every article must have a distinct scene brief");
+assert.equal(Object.keys(briefs.navigation).length,19);
+const artworks=new Set();
+function validateEditorial(name,width,height){
+ const svg=read("apps/web/public/media/editorial-"+name+".svg");
+ assert(svg.includes('width="'+width+'" height="'+height+'" viewBox="0 0 '+width+' '+height+'"'),"Wrong artwork dimensions "+name);
+ assert(!/\bDEV\b|<script|<foreignObject|https?:\/\/(?!www\.w3\.org\/2000\/svg)/i.test(svg),"Unexpected environment label or remote dependency "+name);
+ if(!name.startsWith("infographic-")){
+  assert(!/<text\b/.test(svg),"Cover should not repeat titles or logos "+name);
+  const body=svg.slice(svg.indexOf(">")+1);
+  assert(!artworks.has(body),"Duplicate scene "+name);artworks.add(body);
+ }
+ assert(Buffer.byteLength(svg)<50000,"Oversize SVG "+name);
+ return svg;
+}
+for(const a of content.articles){
+ assert(briefs.coverBriefs[a.slug],"Missing brief "+a.slug);
+ validateEditorial("cover-"+a.slug,1200,675);
+ if(a.media.inline?.length){
+  const c=allInfo.get(a.slug);assert(c,"Missing infographic brief "+a.slug);
+  const svg=validateEditorial("infographic-"+a.slug,720,c.points.length===4?1320:1100);
+  assert(svg.includes("Chưa thẩm định y khoa."),"Required editorial disclaimer");
+  assert(svg.includes("Nguồn:"),"Required source label");
+  assert(a.sources.some(s=>s.url===a.media.inline[0].sourceUrl),"Infographic source must belong to article");
+ }
+}
+for(const name of Object.keys(briefs.navigation))validateEditorial(name,1200,675);
+assert.equal(artworks.size,91);
+assert.equal(allInfo.size,27);
+console.log("PASS: 118 original editorial assets; 91 distinct text-free scenes and 27 portrait diagrams, source references retained, SVG < 50 KB each.");
