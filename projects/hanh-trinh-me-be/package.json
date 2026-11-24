@@ -18,8 +18,8 @@
     "test:postgres": "npm run test:postgres -w @mebe/api",
     "db:status": "npm run db:status -w @mebe/api",
     "test:db-routing": "npm run test:db-routing -w @mebe/api",
-    "generate:media": "node scripts/generate-media.mjs",
-    "check:media": "node scripts/check-media-ratio.mjs",
+    "generate:media": "node scripts/generate-media.mjs && node scripts/check-lifestyle-media.mjs",
+    "check:media": "node scripts/check-media-ratio.mjs && node scripts/check-lifestyle-media.mjs",
     "generate:depth": "node scripts/expand-depth-content.mjs",
     "check:depth": "node scripts/expand-depth-content.mjs --check"
   },
