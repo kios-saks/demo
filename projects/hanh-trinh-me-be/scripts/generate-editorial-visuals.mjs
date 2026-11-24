@@ -44,6 +44,12 @@ function person(x,y,s,kind,p,i,flip=1,pose=0){
  const arms=pose===1?path("M-47 40Q-68 83-23 110M46 41Q77 63 98 28","none",skin,kid?17:22):path("M-47 39Q-72 82-26 115M47 39Q72 82 27 115","none",skin,kid?17:22);
  return g(x,y,s,ellipse(0,257,75,12,"#b6a38a")+legs+backHair+body+rect(-12,-16,24,35,8,skin)+face+cap+eyes+arms+(doctor?path("M-28 22L0 67L28 22M0 67V143","none",p[2],4):"")+(preg?ellipse(30,101,44,47,torso):""),flip);
 }
+// Context-only portrait of a baby close to a caregiver; no feeding, sleeping,
+// clinical procedures, developmental milestones or instructional positions are depicted.
+function heldBaby(x,y,s,p,i){
+ const skin=skins[i%skins.length],h=hair[i%hair.length];
+ return g(x,y,s,path("M-58 18Q0-8 58 18L49 109Q0 135-49 109Z",p[4])+ellipse(0,-19,42,45,skin)+path("M-35-38Q-5-63 24-41","none",h,8)+ellipse(-13,-19,3,3,h)+ellipse(13,-19,3,3,h)+path("M-5-1Q0 3 5-1","none","#925d53",2.5)+path("M-38 34Q2 55 37 34","none","#fffaf1",8));
+}
 function prop(type,x,y,s,p){
  const a=p[2],b=p[3],c=p[4],cream="#fffaf1";let v="";
  switch(type){
@@ -84,7 +90,13 @@ function artwork(key,brief,title){
   const scale=kind==="baby"?.36:kind==="infant"?.52:kind==="toddler"?.64:kind==="preschool"?.74:kind==="school"?.88:kind==="teen"?.96:1.12;
   const pos=people.length===1?600:people.length===2?(i===0?445:744):[345,600,855][i];
   const x=pos+(hash[1]%21)-10;
-  body+=person(x,550-257*scale,scale,kind,p,(hash[2]+i)%12,i%2?-1:1,(n+i)%2);
+  if(kind==="baby"||kind==="infant"){
+   // The caregiver immediately preceding the infant is the contextual anchor.
+   // Avoid presenting infants as standing or walking in generic cover artwork.
+   const anchor=people.length===2?445:345;
+   const babyX=anchor+110+(hash[1]%21)-10;
+   body+=heldBaby(babyX,357,kind==="baby"?.66:.8,p,(hash[2]+i)%12);
+  }else body+=person(x,550-257*scale,scale,kind,p,(hash[2]+i)%12,i%2?-1:1,(n+i)%2);
  });
  if(table)body+=rect(340,482,520,28,12,"#b7977a")+rect(365,510,20,90,7,"#a88d73")+rect(814,510,20,90,7,"#a88d73");
  const spots=table?[[532,470],[673,470]]:n%2?[[263,533],[945,535]]:[[320,535],[870,530]];
