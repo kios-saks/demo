@@ -49,6 +49,42 @@
       "width": 1200,
       "height": 675,
       "sha256": "2a75579b4151723b4156addffd3abc81381f4a56af1fa8d9b18957ed3d1efba3"
+    },
+    "group-chuan-bi-mang-thai": {
+      "src": "/media/lifestyle-group-chuan-bi-mang-thai.webp",
+      "alt": "Cặp vợ chồng cùng ghi kế hoạch và trò chuyện bên bàn (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 1b1d4465-610f-4fdd-a5d2-a74be538f8ba; separate full 16:9 panel from a 2×2 generated sheet, scaled to 960×540.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual lifestyle illustration accepted for private development preview; no clinical procedure or instruction.",
+      "width": 960,
+      "height": 540,
+      "sha256": "80b3936c3d488be88263355d8639d7f6c889281e2ae72bf359632e7e116d5b72"
+    },
+    "group-so-sinh": {
+      "src": "/media/lifestyle-group-so-sinh.webp",
+      "alt": "Ba mẹ cùng chơi với em bé đang thức trên thảm (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 1b1d4465-610f-4fdd-a5d2-a74be538f8ba; separate full 16:9 panel from a 2×2 generated sheet, scaled to 960×540.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual lifestyle illustration accepted for private development preview; no clinical procedure or instruction.",
+      "width": 960,
+      "height": 540,
+      "sha256": "3b7e7e902959af8c7f325f6e353e96931fa2cb88b523a3fdc249d8d230c41f69"
+    },
+    "group-tieu-hoc": {
+      "src": "/media/lifestyle-group-tieu-hoc.webp",
+      "alt": "Mẹ và trẻ tuổi đi học cùng đọc sách tại bàn (ảnh minh họa AI)",
+      "origin": "ai-generated",
+      "provenance": "OpenAI image generation, 2026-11-24, generation 1b1d4465-610f-4fdd-a5d2-a74be538f8ba; separate full 16:9 panel from a 2×2 generated sheet, scaled to 960×540.",
+      "usageRights": "Original generated project illustration; retain generation provenance and review applicable output usage terms before public release.",
+      "reviewStatus": "approved",
+      "editorialReview": "Contextual lifestyle illustration accepted for private development preview; no clinical procedure or instruction.",
+      "width": 960,
+      "height": 540,
+      "sha256": "0316e8c4f69bf900591c600a1435ade2faf2569abbaf6cea6f9157e44a823491"
     }
   }
 }
