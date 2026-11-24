@@ -8,11 +8,14 @@ async function layout(page,width){
  await page.setViewportSize({width,height:900});
  await page.waitForLoadState("domcontentloaded");
  await page.locator(".reader-brand").waitFor();
+ const visualMetrics=await page.evaluate(async()=>Promise.all([...document.querySelectorAll('img[src*="/media/editorial-"]')].map(async img=>{img.loading="eager";await img.decode();const r=img.getBoundingClientRect();return {src:img.getAttribute("src"),w:img.naturalWidth,h:img.naturalHeight,renderedWidth:r.width,renderedHeight:r.height}})));
+ assert(visualMetrics.length>0,"Editorial images must render");
+ for(const image of visualMetrics){assert(image.w>0&&image.h>0,"Broken image "+image.src);if(image.renderedWidth>0)assert(Math.abs(image.renderedWidth/image.renderedHeight-image.w/image.h)<.03,"Wrong rendered aspect ratio "+image.src);if(image.src.includes("infographic"))assert(image.h>image.w,"Portrait infographic");}
  const metrics=await page.evaluate(()=>({
    viewport:innerWidth,width:document.documentElement.scrollWidth,
    nav:getComputedStyle(document.querySelector(".mobile-reader-nav")).display,
    groups:document.querySelector(".home-stage-groups")?getComputedStyle(document.querySelector(".home-stage-groups")).gridTemplateColumns.split(" ").length:null,
-   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img")].map(img=>getComputedStyle(img).objectFit)
+   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img,.editorial-stage-image,.infographic-figure img")].map(img=>getComputedStyle(img).objectFit)
  }));
  assert(metrics.width<=metrics.viewport+1,"Horizontal overflow at "+width+": "+JSON.stringify(metrics));
  assert.equal(metrics.nav==="none",width>768,"Responsive navigation "+width);
@@ -40,6 +43,7 @@ try{
  await page.waitForURL(web+"/so-sinh");
  await page.getByText("Hiển thị 6/72 bài viết",{exact:true}).waitFor();
  assert.equal(await page.locator("[data-article-card]").count(),6);
+ await layout(page,390);
  const save=page.locator('[data-save-slug="ngu-an-toan-cho-tre-so-sinh"]');
  await save.click();
  assert.equal(await save.getAttribute("aria-pressed"),"true");
@@ -58,6 +62,7 @@ try{
  await page.waitForURL(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh");
  for(const width of [390,768,1024,1440]){
    await layout(page,width);
+   assert(await page.locator(".infographic-transcript").first().isVisible(),"Readable infographic transcript");
    const toc=page.locator(".mobile-toc");
    assert.equal(await toc.isVisible(),width<=768);
    console.log("PASS article responsive",width);
