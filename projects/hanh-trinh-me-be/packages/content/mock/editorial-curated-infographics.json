@@ -1,0 +1,36 @@
+{
+  "lich-kham-thai-ba-thang-dau": {
+    "title": "Dấu hiệu cần được đánh giá ngay",
+    "points": [
+      "Ra máu nhiều hoặc đau bụng dữ dội",
+      "Đau đầu dữ dội, đặc biệt kèm thay đổi thị lực",
+      "Khó thở hoặc đau ngực bất thường",
+      "Ngất, co giật: cần hỗ trợ y tế khẩn cấp"
+    ],
+    "sourceLabel": "CDC – Hear Her",
+    "src": "/media/infographic-maternal-warning.svg",
+    "sourceUrl": "https://www.cdc.gov/hearher/maternal-warning-signs/"
+  },
+  "ngu-an-toan-cho-tre-so-sinh": {
+    "title": "3 nguyên tắc ngủ an toàn",
+    "points": [
+      "Nằm ngửa: đặt bé nằm ngửa khi bắt đầu ngủ",
+      "Chắc và phẳng: dùng bề mặt ngủ phù hợp, không nghiêng",
+      "Cũi trống: không gối, chăn rời hay thú bông"
+    ],
+    "sourceLabel": "CDC – Safe Sleep",
+    "src": "/media/infographic-safe-sleep.svg",
+    "sourceUrl": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+  },
+  "an-dam-khi-nao-bat-dau": {
+    "title": "3 điểm nhớ khi bắt đầu ăn dặm",
+    "points": [
+      "Khoảng 6 tháng: bắt đầu khi trẻ đã sẵn sàng",
+      "Đa dạng thực phẩm: chú ý dinh dưỡng và kết cấu phù hợp",
+      "Luôn giám sát: cho bé ngồi thẳng trong suốt bữa ăn"
+    ],
+    "sourceLabel": "WHO / NHS",
+    "src": "/media/infographic-first-solids.svg",
+    "sourceUrl": "https://www.who.int/publications-detail-redirect/9789240081864"
+  }
+}
