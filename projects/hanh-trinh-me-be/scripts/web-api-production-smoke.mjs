@@ -23,6 +23,7 @@ assert(!homepage.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"
 
 assert(!homepage.includes("Thư viện DEV"),"Public homepage has no development labels");
 assert(!homepage.includes("Mở kho đọc DEV"),"Public homepage does not advertise the private reader");
+assert.equal((homepage.match(/class="public-stage-group"/g)||[]).length,6);
 assert(homepage.includes('class="hero-search"'),"Home search is discoverable above the fold");
 assert((homepage.match(/class="journey-card"/g)||[]).length===12,"Journey has 12 image-rich selectable stages");
 assert(homepage.includes("Đi thẳng đến nội dung chính"),"Keyboard skip link must exist on public Web");
@@ -58,11 +59,12 @@ assert(overviewHtml.includes("/media/cover-family-planning.svg"),"Dev library he
 assert(overviewHtml.includes('/dev-review-pro.css'),"Private reader loads responsive design stylesheet");
 assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link target");
 assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
-assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="stage-tile-grid"'),"Search must appear before 12 stage options");
+assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="home-stage-groups stage-tile-grid"'),"Search must appear before 12 stage options");
 assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
 assert(overviewHtml.includes("72 bài chuyên sâu"),"DEV highlights the full long-form knowledge base");
 assert(overviewHtml.includes("Bài chuyên sâu tiêu biểu"),"DEV contains a curated highlighted reading shelf");
 assert(overviewHtml.includes("CHUYÊN SÂU"),"Reader presents article category");
+assert.equal((overviewHtml.match(/data-article-card=/g)||[]).length,72,"Full catalog retains 72 unique cards");
 assert(!overviewHtml.includes("THƯ VIỆN KIẾN THỨC DEV"),"No development labels in the tester experience");
 assert(overviewHtml.includes("/bai-viet/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
 const readerStyles=await fetch(web+"/dev-review-pro.css");
