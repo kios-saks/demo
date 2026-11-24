@@ -9,7 +9,6 @@ const journeys=[
  {stage:"so-sinh",title:"Những ngày đầu bên em bé",detail:"Chăm sóc an toàn, nhịp sinh hoạt và kết nối.",index:"02 / BẮT ĐẦU"},
  {stage:"tap-di",title:"Khi con lớn lên mỗi ngày",detail:"Khám phá, giao tiếp và đồng hành đến tuổi trưởng thành.",index:"03 / ĐỒNG HÀNH"}
 ];
-const previewEnabled=Boolean(process.env.DEV_CONTENT_PREVIEW_TOKEN&&process.env.DEV_CONTENT_PREVIEW_TOKEN.length>=24);
 
 export default async function Home() {
  const repo=getWebRepository();
@@ -30,13 +29,13 @@ export default async function Home() {
        <button type="submit">Tìm chủ đề</button>
       </form>
       <div className="hero-actions">
-       {previewEnabled?<Link className="primary-btn" href="/dev-review">Đọc thư viện DEV <span aria-hidden="true">→</span></Link>:null}
-       <Link className={previewEnabled?"ghost-btn":"primary-btn"} href="#hanh-trinh">Khám phá 12 giai đoạn <span aria-hidden="true">→</span></Link>
+       
+       <Link className="primary-btn" href="#hanh-trinh">Khám phá 12 giai đoạn <span aria-hidden="true">→</span></Link>
       </div>
       <div className="hero-qualities" aria-label="Đặc điểm thư viện">
        <span>Theo từng giai đoạn</span><span>Dễ tìm, dễ đọc</span><span>Có tài liệu tham khảo</span>
       </div>
-      {previewEnabled?<div className="dev-gateway"><strong>Đang xem bản giới thiệu công khai, chưa phải kho nội dung DEV.</strong><p>72 bài chuyên sâu còn ở trạng thái nháp, cùng checklist và nguồn tham khảo đang được biên tập trong không gian riêng.</p><Link className="text-link" href="/dev-review">Mở kho đọc DEV có mật khẩu →</Link></div>:null}
+      
      </div>
      <div className="hero-art">
       <img src="/media/cover-family-planning.svg" className="hero-editorial-image" alt="Tranh minh họa một gia đình đang cùng nhau chuẩn bị chào đón em bé" width={1200} height={675} fetchPriority="high"/>
@@ -81,7 +80,7 @@ export default async function Home() {
      <div className="trust-points">
       <div><strong>Có nguồn để đối chiếu</strong><p>Dẫn tới tài liệu của cơ quan và tổ chức chuyên môn khi sử dụng nội dung tham khảo.</p></div>
       <div><strong>Đọc theo hoàn cảnh</strong><p>Những gợi ý thực hành không áp dụng đồng loạt cho mọi mẹ, mọi bé hay mọi gia đình.</p></div>
-      <div><strong>Minh bạch trạng thái</strong><p>Bài chưa thẩm định vẫn là bản nháp và được giữ trong khu đọc DEV có mật khẩu.</p></div>
+      <div><strong>Minh bạch trạng thái</strong><p>Nội dung chưa được thẩm định y khoa không thay thế tư vấn chuyên môn.</p></div>
      </div>
     </div>
    </section>
@@ -98,7 +97,7 @@ export default async function Home() {
      <h3>Chúng tôi đang hoàn thiện thư viện trước khi phát hành.</h3>
      <p>Các bài viết mới được biên tập và đối chiếu nguồn. Nội dung chưa thẩm định không hiển thị công khai để tránh gây hiểu lầm.</p>
      <div className="empty-actions">
-      {previewEnabled?<Link className="primary-btn" href="/dev-review">Xem 72 bản thảo trong DEV →</Link>:null}
+      
       <Link className="ghost-btn" href="/nguon-tham-khao">Xem danh mục nguồn tham khảo →</Link>
      </div>
     </div>}
