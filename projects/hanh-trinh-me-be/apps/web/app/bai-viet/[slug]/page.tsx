@@ -25,7 +25,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     <span className="pill">{a.status==="published"?"ĐÃ XUẤT BẢN":"BẢN NHÁP • CHƯA THẨM ĐỊNH"}</span><h1>{a.title}</h1><p className="lead">{a.summary}</p>
     <div className="meta">Đọc khoảng {a.readMinutes} phút · Chuyên mục: {stage.title}</div>
     <div className="disclaimer"><b>Lưu ý:</b> {disclaimer}</div>
-    {a.media?.cover&&<figure className="article-cover"><img src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title)} width="1200" height="675"/><figcaption>Tranh minh họa biên tập theo chủ đề · {a.media.cover.credit}</figcaption></figure>}
+    {a.media?.cover&&<figure className="article-cover"><img src={articleCover(a.slug,a.media.cover.src)} alt={coverAlt(a.title,a.slug)} width="1200" height="675"/><figcaption>Tranh minh họa biên tập theo chủ đề · {a.media.cover.credit}</figcaption></figure>}
     {a.media?.highlights?.length&&<section className="quick-takeaway"><h2>Ghi nhớ trong 30 giây</h2><ul>{a.media.highlights.map(x=><li key={x}>{x}</li>)}</ul></section>}
     <details className="mobile-article-toc"><summary>Trong bài viết này · {a.sections.length} phần</summary>
       <nav aria-label="Mục lục bài viết trên điện thoại">{a.sections.map((s,i)=><a key={s.heading} href={"#chuong-"+i}>{String(i+1).padStart(2,"0")} · {s.heading}</a>)}</nav>
