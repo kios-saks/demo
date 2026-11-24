@@ -57,7 +57,7 @@ export async function GET(request:Request):Promise<Response>{
   const covered=articles.filter(a=>a.media?.cover).length;
   const infographics=articles.reduce((n,a)=>n+(a.media?.inline?.length||0),0);
   const badges='<div class="stats-mini"><b>'+articles.length+' bài biên tập</b><b>'+guides.length+' giai đoạn có hướng dẫn</b><b>'+
-    covered+' ảnh bìa · '+infographics+' infographic</b><b>'+deepArticleSlugs.size+' bài chuyên sâu</b></div>';
+    covered+' ảnh bìa · '+infographics+' infographic</b><b>'+articles.length+' bài chuyên sâu</b></div>';
   const hero='<section class="hero-visual"><div class="hero"><span class="pill">THƯ VIỆN KIẾN THỨC DEV • CÓ MẬT KHẨU</span>'+
     '<h1>Khám phá theo hành trình của gia đình</h1>'+
     '<p>Đọc bản nháp theo 12 giai đoạn, xem checklist, câu hỏi thường gặp và bài viết có dẫn nguồn. Kho này dành riêng cho biên tập và kiểm thử, chưa mở xuất bản.</p>'+
@@ -79,8 +79,8 @@ export async function GET(request:Request):Promise<Response>{
    '<button type="submit">Tìm bài</button></form>';
   const showFeatured=!active&&!q;
   const deepCards=showFeatured?list.filter(a=>deepArticleSlugs.has(a.slug)):[];
-  const featured=deepCards.length?'<section class="article-section"><h2>Hướng dẫn chuyên sâu đang biên tập</h2>'+
-    '<p>Những bài đã được viết chi tiết, có nguồn và ví dụ thực hành; vẫn đang chờ thẩm định y khoa.</p>'+
+  const featured=deepCards.length?'<section class="article-section"><h2>Bài chuyên sâu tiêu biểu</h2>'+
+    '<p>Tám bài nổi bật của thư viện 72 bài viết chuyên sâu. Tất cả vẫn đang chờ thẩm định y khoa.</p>'+
     '<div class="list">'+deepCards.map(itemCard).join("")+'</div></section>':"";
   const stageTitle=active?stageLabel(active):"Các bài viết theo giai đoạn";
   const groups=(active?guides.filter(g=>g.slug===active):guides).map(g=>{
