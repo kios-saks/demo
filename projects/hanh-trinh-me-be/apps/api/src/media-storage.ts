@@ -44,6 +44,20 @@ export class PrivateMediaStorage{
    console.warn("MEDIA_STORAGE_HTTP_FAILURE",JSON.stringify({operation:"upload",status:res.status}));
    throw new MediaError(503,"STORAGE_UPLOAD_FAILED");
  }
+ async verifiedBytes(path:string,id:string,mime:string){
+   if(!/^[0-9a-f]{64}$/.test(id)||!["image/webp","image/svg+xml","image/png","image/jpeg"].includes(mime)||path.split(".")[0]!==id)throw new MediaError(503,"MEDIA_INTEGRITY");
+   const url=await this.signedUrl(path);
+   const response=await this.request(url,{signal:AbortSignal.timeout(15000),redirect:"error"});
+   if(!response.ok)throw new MediaError(503,"STORAGE_READ_FAILED");
+   const declared=response.headers.get("content-length");
+   if(declared&&Number(declared)>MAX_MEDIA_BYTES)throw new MediaError(503,"MEDIA_INTEGRITY");
+   const reader=response.body?.getReader();if(!reader)throw new MediaError(503,"STORAGE_READ_FAILED");
+   const chunks:Uint8Array[]=[];let size=0;
+   try{for(;;){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>MAX_MEDIA_BYTES){await reader.cancel();throw new MediaError(503,"MEDIA_INTEGRITY");}chunks.push(value);}}finally{reader.releaseLock();}
+   const bytes=Buffer.concat(chunks);
+   if(digest(bytes)!==id)throw new MediaError(503,"MEDIA_INTEGRITY");
+   return {bytes,mime,id};
+ }
  async signedUrl(path:string){
    const suffix=this.path(path);
    const res=await this.request(this.origin+"/storage/v1/object/sign/"+suffix,{method:"POST",headers:this.headers({"Content-Type":"application/json"}),body:JSON.stringify({expiresIn:120}),signal:AbortSignal.timeout(10000),redirect:"error"});

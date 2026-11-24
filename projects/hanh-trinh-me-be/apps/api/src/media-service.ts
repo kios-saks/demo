@@ -31,6 +31,21 @@ export class MediaService{
   const rows=await this.pool.query<MediaRow>(select+" JOIN article_media m ON (m.article_slug,m.slot,m.revision)=(r.article_slug,r.slot,r.revision) WHERE r.article_slug=$1 AND r.review_status IN ('dev_context_only','dev_approved') ORDER BY r.slot",[slug]);
   return Promise.all(rows.rows.map(async r=>{validateAnchor(r.slot,r.after_section,r.anchor_heading,payload);return {slot:r.slot,revision:r.revision,assetId:r.asset_id,url:await this.storage.signedUrl(r.object_path),expiresIn:120,width:r.width,height:r.height,alt:r.alt,caption:r.caption,afterSection:r.after_section,anchorHeading:r.anchor_heading,reviewStatus:r.review_status};}));
  }
+ async activeImage(slug:string,slotValue:unknown,expected?:unknown){
+  const payload=await this.article(this.pool,slug),slot=requireSlot(slotValue);
+  const r=await this.pool.query<MediaRow>(select+" JOIN article_media m ON (m.article_slug,m.slot,m.revision)=(r.article_slug,r.slot,r.revision) WHERE r.article_slug=$1 AND r.slot=$2 AND r.review_status IN ('dev_context_only','dev_approved')",[slug,slot]);
+  if(!r.rowCount)throw new MediaError(404,"NOT_FOUND");
+  const row=r.rows[0];validateAnchor(slot,row.after_section,row.anchor_heading,payload);
+  if(expected!==undefined&&String(row.revision)!==expected)throw new MediaError(409,"ACTIVE_REVISION_CHANGED");
+  return this.storage.verifiedBytes(row.object_path,row.asset_id,row.mime_type);
+ }
+ async catalogImage(file:string){
+  // Only existing reader-facing source paths; never expose review archives.
+  if(!/^[a-z0-9-]{1,180}\.(webp|svg)$/.test(file))throw new MediaError(404,"NOT_FOUND");
+  const r=await this.pool.query<{object_path:string;id:string;mime_type:string}>("SELECT a.object_path,a.id,a.mime_type FROM media_import_catalog c JOIN media_assets a ON a.id=c.asset_id WHERE c.logical_path=$1 AND c.usage='legacy_source'",["apps/web/public/media/"+file]);
+  if(!r.rowCount)throw new MediaError(404,"NOT_FOUND");
+  const row=r.rows[0];return this.storage.verifiedBytes(row.object_path,row.id,row.mime_type);
+ }
  async history(slug:string){
   await this.article(this.pool,slug);
   const rows=await this.pool.query<MediaRow>(select+" WHERE r.article_slug=$1 ORDER BY r.slot,r.revision DESC",[slug]);

@@ -38,6 +38,8 @@ jobs:
         run: npm run check:content
       - name: API tests
         run: npm test
+      - name: Dynamic reader integration — 72 articles and revision changes
+        run: npm exec -w @mebe/api -- tsx --test ../../scripts/dynamic-reader.test.ts
       - name: API TypeScript
         run: npm exec -w @mebe/api -- tsc --noEmit
       - name: Mobile TypeScript

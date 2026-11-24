@@ -14,11 +14,25 @@ const body=(value:unknown):Record<string,unknown>=>{if(!value||typeof value!=="o
 async function respond(reply:FastifyReply,task:()=>Promise<unknown>){
  try{return {data:await task()};}catch(e){if(e instanceof MediaError)return reply.code(e.status).send({error:e.code});return reply.code(503).send({error:"MEDIA_UNAVAILABLE"});}
 }
+async function imageReply(reply:FastifyReply,task:()=>Promise<{bytes:Buffer;mime:string;id:string}>){
+ try{const data=await task();return reply.header("Content-Type",data.mime).header("X-Content-Type-Options","nosniff").header("Content-Security-Policy","default-src 'none'; sandbox").header("X-Media-Asset",data.id).send(data.bytes);}
+ catch(e){return reply.code(e instanceof MediaError?e.status:503).send({error:e instanceof MediaError?e.code:"MEDIA_UNAVAILABLE"});}
+}
 export function registerMedia(app:FastifyInstance,service?:MediaService){
  app.get<{Params:{slug:string}}>("/v1/dev-preview/media/:slug",async(req,reply)=>{
    privacy(reply);if(!eq(req.headers["x-preview-token"],process.env.DEV_CONTENT_PREVIEW_TOKEN))return no(reply);
    if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
    return respond(reply,()=>service.active(req.params.slug));
+ });
+ app.get<{Params:{slug:string;slot:string};Querystring:{revision?:string}}>("/v1/dev-preview/media/:slug/:slot",async(req,reply)=>{
+   privacy(reply);if(!eq(req.headers["x-preview-token"],process.env.DEV_CONTENT_PREVIEW_TOKEN))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return imageReply(reply,()=>service.activeImage(req.params.slug,req.params.slot,req.query.revision));
+ });
+ app.get<{Params:{file:string}}>("/v1/dev-preview/media-catalog/:file",async(req,reply)=>{
+   privacy(reply);if(!eq(req.headers["x-preview-token"],process.env.DEV_CONTENT_PREVIEW_TOKEN))return no(reply);
+   if(!service)return reply.code(503).send({error:"MEDIA_DISABLED"});
+   return imageReply(reply,()=>service.catalogImage(req.params.file));
  });
  app.get<{Params:{slug:string}}>("/v1/dev-media-admin/:slug",async(req,reply)=>{
    privacy(reply);if(!adminRole(req.headers.authorization))return no(reply);

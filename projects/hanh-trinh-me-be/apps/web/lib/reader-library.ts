@@ -1,3 +1,4 @@
+import {dynamicMediaEnabled,articleMediaUrl,catalogMediaUrl} from "./dynamic-media";
 import {escapeHtml as e,htmlResponse,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
 import {stageGroups,stageOptions,readerTopics,normalizeSearch} from "./reader-navigation";
 import {editorialHero,editorialHeroAlt,groupVisual,groupVisualAlt,stageVisual,articleCover,coverAlt} from "./editorial-media";
@@ -10,7 +11,7 @@ const stageName=(slug:string)=>stageOptions.find(([key])=>key===slug)?.[1]||slug
 const href=(slug:string)=>"/bai-viet/"+encodeURIComponent(slug);
 const stageHref=(slug:string)=>"/"+encodeURIComponent(slug);
 const image=(src:string|undefined,alt:string,cls="thumb",priority=false)=>{
- const path=safeMediaPath(src);
+ const path=src?.startsWith("/api/dev-media/")?src:catalogMediaUrl(src);
  return path?'<img class="'+cls+'" src="'+e(path)+'" alt="'+e(alt)+'" width="1200" height="675" '+(priority?'fetchpriority="high"':'loading="lazy"')+'>':'<div class="thumb-empty" aria-hidden="true"></div>';
 };
 function sourceLink(url:string,title:string){
@@ -18,7 +19,7 @@ function sourceLink(url:string,title:string){
  return '<a href="'+e(url)+'" rel="noopener noreferrer nofollow" target="_blank">'+e(title)+' ↗</a>';
 }
 function itemCard(a:ArticleSummary){
- return '<div class="item" data-article-card="'+e(a.slug)+'"><a class="card-link" href="'+href(a.slug)+'">'+image(articleCover(a.slug,a.media?.cover?.src),coverAlt(a.title,a.slug))+
+ return '<div class="item" data-article-card="'+e(a.slug)+'"><a class="card-link" href="'+href(a.slug)+'">'+image(dynamicMediaEnabled()?articleMediaUrl(a.slug,"cover"):articleCover(a.slug,a.media?.cover?.src),coverAlt(a.title,a.slug))+
  '<div class="item-content"><span class="pill">'+e(stageName(a.stage))+' · CHUYÊN SÂU</span><h3>'+e(a.title)+'</h3><p>'+e(a.summary)+'</p><p class="meta">'+Number(a.readMinutes||0)+' phút đọc · Đọc bài →</p></div></a>'+
  '<div class="card-actions"><button type="button" class="save-button" data-save-slug="'+e(a.slug)+'" aria-pressed="false" hidden>Lưu bài</button></div></div>';
 }
@@ -73,7 +74,8 @@ export async function renderReaderLibrary(request:Request,options:ReaderOptions=
   const selected=options.stage||(params.get("stage")||"").trim();
   const active=guides.some(g=>g.slug===selected)?selected:"";
   if(mode==="stage"&&!active)return htmlResponse("Không tìm thấy giai đoạn",'<p>Giai đoạn không tồn tại. <a href="/thu-vien">Về thư viện</a></p>',404);
-  const {articles}=await listDevArticles();
+  const {articles,source}=await listDevArticles();
+  if(dynamicMediaEnabled()&&source!=="supabase")throw Error("Live article catalog required");
   if(mode==="home")return htmlResponse("Trang chủ",home(articles));
   if(mode==="saved"||mode==="journey")return htmlResponse(mode==="saved"?"Đã lưu":"Hành trình của tôi",personal(articles,mode));
   const norm=normalizeSearch(q);

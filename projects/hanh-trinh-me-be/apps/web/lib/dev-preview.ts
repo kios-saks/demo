@@ -44,7 +44,7 @@ async function fromApi<T>(route:string):Promise<T>{
    throw Error("Invalid backend origin");
  const response=await fetch(url.origin+"/v1/dev-preview/"+route,{
    headers:{"x-preview-token":token,"Accept":"application/json"},
-   signal:AbortSignal.timeout(12000)
+   cache:"no-store",redirect:"error",signal:AbortSignal.timeout(12000)
  });
  if(response.status===404)throw Error("Preview API unavailable");
  if(!response.ok)throw Error("Preview API returned non-success");
