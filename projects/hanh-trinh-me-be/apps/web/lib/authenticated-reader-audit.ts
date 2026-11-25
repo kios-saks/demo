@@ -2,6 +2,7 @@ import {GET as renderArticle} from "../app/dev-review/[slug]/route";
 import {renderReaderLibrary} from "./reader-library";
 import {proxyMedia,dynamicMediaEnabled} from "./dynamic-media";
 import {listDevArticles} from "./dev-preview";
+import {readBackend} from "./backend-reader";
 
 // Bounded, read-only smoke using the existing DEV server credential.
 // No token, body, URL with credentials, or article content is logged.
@@ -16,8 +17,12 @@ export async function auditAuthenticatedReader(){
  const slug="lam-quen-nhip-sinh-hoat-so-sinh";
  const started=Date.now();
  for(let attempt=1;attempt<=2;attempt++){
- let step="CATALOG";
+ let step="WAKE_BACKEND";
  try{
+  // Start with the public readiness endpoint, without sending the preview token.
+  // The Web instance itself owns this bounded startup wake; no cron or runner needed.
+  await readBackend.ready(process.env.CONTENT_API_INTERNAL_URL||"");
+  step="CATALOG";
   const list=await listDevArticles();
   if(list.source!=="supabase"||list.articles.length!==72||new Set(list.articles.map(a=>a.slug)).size!==72||new Set(list.articles.map(a=>a.stage)).size!==12)throw Error("CATALOG");
   step="LIBRARY";
@@ -46,7 +51,7 @@ export async function auditAuthenticatedReader(){
   console.log("DEV_AUTH_SMOKE_PASS",JSON.stringify({articles:72,stages:12,library:200,article:200,verifiedImages:images,guestDenials:3,elapsedMs:Date.now()-started}));
   return;
  }catch{
-  if(attempt===1&&["CATALOG","LIBRARY","ARTICLE","IMAGE_COVER","IMAGE_INLINE"].includes(step)){
+  if(attempt===1&&["WAKE_BACKEND","CATALOG","LIBRARY","ARTICLE","IMAGE_COVER","IMAGE_INLINE"].includes(step)){
    console.warn("DEV_AUTH_SMOKE_RETRY",JSON.stringify({step,attempt,elapsedMs:Date.now()-started}));
    await new Promise(resolve=>setTimeout(resolve,5000));continue;
   }

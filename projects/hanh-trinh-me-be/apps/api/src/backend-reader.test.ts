@@ -54,3 +54,25 @@ test("programming errors are not retried as network errors",async()=>{
  const f=fixture(()=>{throw new Error("fixture assertion");});
  await assert.rejects(()=>f.reader(origin+"/a"),/fixture assertion/);assert.equal(f.calls.length,1);
 });
+
+
+test("explicit startup wake shares readiness flight with recovering reads and never forwards auth",async()=>{
+ let clock=0,probes=0,calls=0,release!:()=>void;
+ const gate=new Promise<void>(r=>{release=r;});
+ const events:{event:string;data:Record<string,string|number>}[]=[];
+ const reader=createBackendReader({now:()=>clock,sleep:async(ms)=>{clock+=ms;},
+  fetcher:async()=>++calls===1?new Response("cold",{status:502}):ok({data:1}),
+  readinessFetcher:async(input,init)=>{probes++;assert.equal(String(input),origin+"/health/ready");const h=new Headers(init?.headers);assert.equal(h.get("authorization"),null);assert.equal(h.get("x-preview-token"),null);await gate;return ok({ok:true});},
+  diagnostic:(event,data)=>events.push({event,data})});
+ const startup=reader.ready(origin),other=reader.ready(origin),read=reader(origin+"/a",{authorization:"Bearer fixture-secret"});
+ await Promise.resolve();release();
+ await Promise.all([startup,other,read]);assert.equal(probes,1);assert.equal(calls,2);
+ assert.ok(events.some(e=>e.event==="BACKEND_WAKE_READY"));assert.ok(!JSON.stringify(events).includes("fixture-secret"));
+});
+test("readiness diagnostics distinguish upstream 502 and DNS without logging request data",async()=>{
+ let clock=0,n=0;const events:{event:string;data:Record<string,string|number>}[]=[];
+ const reader=createBackendReader({now:()=>clock,sleep:async(ms)=>{clock+=ms;},fetcher:async()=>{n++;if(n===1)return new Response("gateway",{status:502});if(n===2)throw new TypeError("fixture secret",{cause:{code:"ENOTFOUND"}});return ok({ok:true});},diagnostic:(event,data)=>events.push({event,data})});
+ await reader.ready(origin);assert.equal(n,3);
+ assert.ok(events.some(e=>e.data.kind==="HTTP_502"&&e.data.status===502));
+ assert.ok(events.some(e=>e.data.kind==="DNS"));assert.ok(!JSON.stringify(events).includes("fixture secret"));
+});

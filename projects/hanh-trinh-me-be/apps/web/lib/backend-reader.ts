@@ -1,12 +1,48 @@
 import {createHash} from "node:crypto";
+import {request as httpsRequest} from "node:https";
 
 type Buffered={status:number;headers:[string,string][];body:Uint8Array};
 type Options={budgetMs?:number;attemptMs?:number;maxBytes?:number;accept?:RegExp};
-type Dependencies={fetcher?:typeof fetch;now?:()=>number;sleep?:(ms:number)=>Promise<void>};
+type Dependencies={fetcher?:typeof fetch;readinessFetcher?:typeof fetch;now?:()=>number;sleep?:(ms:number)=>Promise<void>;diagnostic?:(event:string,data:Record<string,number|string>)=>void};
 const transient=(s:number)=>[502,503,504].includes(s);
 const json=/^application\/json(?:;|$)/i;
 const retryable=(e:unknown)=>e instanceof BackendUnavailable||e instanceof TypeError||e instanceof DOMException&&(e.name==="TimeoutError"||e.name==="AbortError");
-export class BackendUnavailable extends Error{constructor(){super("Backend temporarily unavailable");this.name="BackendUnavailable";}}
+export class BackendUnavailable extends Error{constructor(readonly reason="UNAVAILABLE",readonly status=0){super("Backend temporarily unavailable");this.name="BackendUnavailable";}}
+function transportKind(error:unknown){
+ if(error instanceof BackendUnavailable)return error.reason;
+ if(error instanceof SyntaxError)return "INVALID_JSON";
+ if(error instanceof DOMException&&["TimeoutError","AbortError"].includes(error.name))return "TIMEOUT";
+ const e=error as {code?:string;cause?:{code?:string}}|null;
+ const code=e?.code||e?.cause?.code||"";
+ if(["ENOTFOUND","EAI_AGAIN","ENODATA"].includes(code))return "DNS";
+ if(["CERT_HAS_EXPIRED","UNABLE_TO_VERIFY_LEAF_SIGNATURE","ERR_TLS_CERT_ALTNAME_INVALID","SELF_SIGNED_CERT_IN_CHAIN"].includes(code)||code.startsWith("ERR_SSL")||code.startsWith("ERR_TLS"))return "TLS";
+ if(["ETIMEDOUT","UND_ERR_CONNECT_TIMEOUT","UND_ERR_HEADERS_TIMEOUT","UND_ERR_BODY_TIMEOUT","ABORT_ERR"].includes(code))return "TIMEOUT";
+ if(["ECONNREFUSED","ECONNRESET","EHOSTUNREACH","ENETUNREACH","EPIPE"].includes(code))return code;
+ return "TRANSPORT";
+}
+/** Plain HTTPS GET to the configured public service, through system DNS and
+ * standard TLS verification. No redirect, token, cookie, proxy or reused socket.
+ * This isolates the wake path from Next's patched fetch / pooled connections.
+ */
+const nativeReadiness:typeof fetch=(async(input,init)=>{
+ const url=new URL(String(input));
+ if(url.protocol!=="https:"||url.username||url.password||url.pathname!=="/health/ready"||url.search||url.hash)throw Error("Invalid readiness URL");
+ return new Promise<Response>((resolve,reject)=>{
+  const req=httpsRequest(url,{method:"GET",agent:false,signal:init?.signal??undefined,headers:{accept:"application/json","accept-encoding":"identity","cache-control":"no-cache","user-agent":"mebe-web-readiness/1.0"}},res=>{
+   const chunks:Buffer[]=[];let size=0;
+   res.on("data",(chunk:Buffer)=>{size+=chunk.length;if(size>16384){res.destroy();reject(new InvalidBody());return;}chunks.push(chunk);});
+   res.on("error",reject);
+   res.on("aborted",()=>reject(new TypeError("Readiness response aborted")));
+   res.on("end",()=>{const status=res.statusCode||503;const type=res.headers["content-type"];try{resolve(new Response([204,205,304].includes(status)?null:new Uint8Array(Buffer.concat(chunks)),{status,headers:typeof type==="string"?{"content-type":type}:{}}));}catch(e){reject(e);}});
+  });
+  req.on("error",e=>{const error=new TypeError("Readiness transport failed",{cause:e});reject(error);});
+  req.end();
+ });
+}) as typeof fetch;
+function useNativeReadiness(origin:string){
+ if(process.env.RENDER!=="true"||!process.env.CONTENT_API_INTERNAL_URL)return false;
+ try{const configured=new URL(process.env.CONTENT_API_INTERNAL_URL);return configured.origin===origin&&configured.protocol==="https:"&&configured.hostname.endsWith(".onrender.com")&&!configured.username&&!configured.password;}catch{return false;}
+}
 class InvalidBody extends Error{constructor(){super("Backend response too large");this.name="InvalidBody";}}
 /** GET only. In-flight sharing is scoped to URL, all headers (hashed), and policy.
  * No completed-response cache; no credentials or content in logs.
@@ -16,6 +52,7 @@ export function createBackendReader(deps:Dependencies={}){
  const inflight=new Map<string,Promise<Buffered>>();
  const readiness=new Map<string,Promise<void>>();
  const fetcher=deps.fetcher||((input,init)=>fetch(input,init));
+ const diagnostic=deps.diagnostic||((event,data)=>{if(process.env.RENDER==="true")console.info(event,JSON.stringify(data));});
  function remaining(deadline:number){const ms=deadline-now();if(ms<=0)throw new BackendUnavailable();return ms;}
  async function bounded(response:Response,max:number):Promise<Uint8Array>{
   if(Number(response.headers.get("content-length")||0)>max){void response.body?.cancel().catch(()=>{});throw new InvalidBody();}
@@ -25,10 +62,10 @@ export function createBackendReader(deps:Dependencies={}){
   finally{reader.releaseLock();}
   return new Uint8Array(Buffer.concat(chunks));
  }
- async function once(url:string,headers:Headers,deadline:number,attemptMs:number,maxBytes:number,accept:RegExp):Promise<Buffered>{
-  const response=await fetcher(url,{method:"GET",headers:Object.fromEntries(headers.entries()),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))} as RequestInit & {cache:"no-store"});
+ async function once(url:string,headers:Headers,deadline:number,attemptMs:number,maxBytes:number,accept:RegExp,transport=fetcher):Promise<Buffered>{
+  const response=await transport(url,{method:"GET",headers:Object.fromEntries(headers.entries()),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))} as RequestInit & {cache:"no-store"});
   if(transient(response.status)||(response.ok&&!accept.test(response.headers.get("content-type")||""))){
-   void response.body?.cancel().catch(()=>{});throw new BackendUnavailable();
+   void response.body?.cancel().catch(()=>{});throw new BackendUnavailable(transient(response.status)?"HTTP_"+response.status:"UNEXPECTED_CONTENT_TYPE",response.status);
   }
   const body=await bounded(response,maxBytes);
   return {status:response.status,headers:Array.from(response.headers.entries()),body};
@@ -39,16 +76,30 @@ export function createBackendReader(deps:Dependencies={}){
   let flight=readiness.get(key);
   if(!flight){
    flight=(async()=>{
-    let delay=500;
-    for(;;){
-     try{
-      const result=await once(origin+"/health/ready",new Headers({accept:"application/json"}),deadline,attemptMs,16384,json);
-      if(result.status===200&&JSON.parse(Buffer.from(result.body).toString("utf8")).ok===true)return;
-      // A permanent HTTP error on readiness must not spin indefinitely.
-      if(result.status>=400&&result.status<500)throw new InvalidBody();
-     }catch(e){if(!retryable(e)&&!(e instanceof SyntaxError))throw e;}
-     await sleep(Math.min(delay,remaining(deadline)));delay=Math.min(delay*2,5000);
-    }
+    let delay=500,attempt=0;const started=now();
+    const native=useNativeReadiness(origin)&&!deps.fetcher;
+    const probe=deps.readinessFetcher||(native?nativeReadiness:fetcher);
+    const mode=native?"native-https":"fetch";
+    diagnostic("BACKEND_WAKE_START",{mode,budgetMs:remaining(deadline)});
+    try{
+     for(;;){
+      attempt++;const probeStarted=now();
+      try{
+       // A native health GET can stay connected during the platform's cold start;
+       // it shares the original total deadline, not a new unbounded timeout.
+       const result=await once(origin+"/health/ready",new Headers({accept:"application/json"}),deadline,native?45000:attemptMs,16384,json,probe);
+       if(result.status===200&&JSON.parse(Buffer.from(result.body).toString("utf8")).ok===true){
+        diagnostic("BACKEND_WAKE_READY",{mode,attempt,elapsedMs:now()-started});return;
+       }
+       diagnostic("BACKEND_WAKE_PROBE",{mode,attempt,status:result.status,kind:"NOT_READY",elapsedMs:now()-probeStarted});
+       if(result.status>=400&&result.status<500)throw new InvalidBody();
+      }catch(e){
+       if(!retryable(e)&&!(e instanceof SyntaxError))throw e;
+       diagnostic("BACKEND_WAKE_PROBE",{mode,attempt,status:e instanceof BackendUnavailable?e.status:0,kind:transportKind(e),elapsedMs:now()-probeStarted});
+      }
+      await sleep(Math.min(delay,remaining(deadline)));delay=Math.min(delay*2,5000);
+     }
+    }catch(e){diagnostic("BACKEND_WAKE_FAIL",{mode,attempt,kind:transportKind(e),elapsedMs:now()-started});throw e;}
    })();
    readiness.set(key,flight);
    void flight.finally(()=>{if(readiness.get(key)===flight)readiness.delete(key);}).catch(()=>{});
@@ -71,7 +122,7 @@ export function createBackendReader(deps:Dependencies={}){
    }
   }
  }
- return async function readBackend(url:string,headersInit:ConstructorParameters<typeof Headers>[0]={},options:Options={}):Promise<Response>{
+ async function readBackend(url:string,headersInit:ConstructorParameters<typeof Headers>[0]={},options:Options={}):Promise<Response>{
   const target=new URL(url);
   if(!["http:","https:"].includes(target.protocol)||target.username||target.password||target.hash)throw Error("Invalid backend origin");
   const headers=new Headers(headersInit);
@@ -86,6 +137,11 @@ export function createBackendReader(deps:Dependencies={}){
   }
   const result=await flight;
   return new Response([204,205,304].includes(result.status)?null:new Uint8Array(result.body),{status:result.status,headers:result.headers});
- };
+ }
+ return Object.assign(readBackend,{ready:async(origin:string,budgetMs=65000,attemptMs=20000)=>{
+  const url=new URL(origin);
+  if(!["http:","https:"].includes(url.protocol)||url.username||url.password||url.search||url.hash||url.pathname!=="/")throw Error("Invalid readiness origin");
+  await waitReady(url.origin,now()+budgetMs,attemptMs,budgetMs);
+ }});
 }
 export const readBackend=createBackendReader();
