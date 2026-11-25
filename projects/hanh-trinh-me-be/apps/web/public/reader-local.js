@@ -26,12 +26,22 @@ function refreshJourney(){
  all("[data-journey-select]").forEach(el=>{el.value=Array.from(el.options).some(o=>o.value===stage)?stage:""});
  const select=document.querySelector("[data-journey-select]");
  const chosen=select&&select.selectedOptions[0];
+ const plans=all("[data-journey-plan]");
+ plans.forEach(el=>{el.hidden=!(chosen&&validSlug(chosen.value)&&el.dataset.journeyPlan===chosen.value)});
+ all("[data-journey-plan-empty]").forEach(el=>{el.hidden=plans.some(plan=>!plan.hidden)});
+
  all("[data-journey-description]").forEach(el=>{el.textContent=chosen&&chosen.value?"Bạn đang quan tâm: "+chosen.textContent+".":"Chọn chặng bạn quan tâm để tìm kiến thức phù hợp hơn."});
  all("[data-journey-link]").forEach(el=>{el.href=chosen&&validSlug(chosen.value)?"/"+chosen.value:"/hanh-trinh";el.textContent=chosen&&chosen.value?"Khám phá chặng này →":"Xem hành trình →"});
 }
 function refreshChecks(){
  const data=get("checklist",{});
  all("[data-checklist-key]").forEach(el=>{el.disabled=false;el.checked=Boolean(data&&data[el.dataset.checklistKey]===true)});
+ all("[data-journey-plan]").forEach(plan=>{
+  const boxes=Array.from(plan.querySelectorAll("[data-checklist-key]"));
+  const progress=plan.querySelector("[data-journey-progress]");
+  if(progress)progress.textContent=boxes.filter(box=>box.checked).length+"/"+boxes.length+" việc đã đánh dấu";
+ });
+
 }
 function refreshHistory(){
  const enabled=get("historyEnabled",false)===true;
