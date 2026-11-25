@@ -5,18 +5,16 @@ const browser=await chromium.launch({headless:true});
 try {
  const guest=await browser.newContext();
  const res=await guest.request.get(origin+"/bai-viet/ngu-an-toan-cho-tre-so-sinh");
- assert.equal(res.status(),404,"Guest draft access must be denied");
+ assert.equal(res.status(),200,"DEV link must open without invitation");
+ assert.match(res.headers()["x-robots-tag"]||"",/noindex/);
+ assert.match(await res.text(),/Chưa được thẩm định y khoa/);
+ assert.equal((await guest.request.get(origin+"/api/media-admin/session")).status(),404,"Guest CMS access must remain denied");
+ assert.equal((await guest.request.get(origin+"/api/media-admin/catalog")).status(),404);
  await guest.close();
- console.log("PASS live guest denial");
- const token=process.env.DEV_READER_INVITE_TOKEN;
- if(!token){console.log("BLOCKED live authenticated browser: DEV_READER_INVITE_TOKEN secret missing");process.exitCode=2;}
- else {
+ console.log("PASS live link access and CMS guest denial");
  const ctx=await browser.newContext({viewport:{width:390,height:844}});
  const page=await ctx.newPage();
  const errors=[];page.on("pageerror",()=>errors.push(true));
- // Never print token, URL fragment, cookies, page HTML, trace or screenshots.
- await page.goto(origin+"/tham-gia#"+encodeURIComponent(token));
- await page.waitForURL(origin+"/",{timeout:90000});
  await page.goto(origin+"/hanh-trinh");
  await page.locator("[data-journey-save]").waitFor({state:"visible"});
  await page.locator("[data-clear-reader]").click();
@@ -47,8 +45,7 @@ try {
  await page.locator("[data-clear-reader]").click();
  assert.equal(await page.locator("[data-journey-select]").inputValue(),"");
  assert(!(await plan.isVisible()));assert.equal(errors.length,0);
- console.log("PASS LIVE_PERSONAL_JOURNEY: stage, checklist, progress, persistence, bookmark, reset, clear, responsive, guest denial");
+ console.log("PASS LIVE_PERSONAL_JOURNEY: stage, checklist, progress, persistence, bookmark, reset, clear, responsive, open reader and CMS denial");
  await ctx.close();
- }
-} catch { console.error("FAIL live browser: assertion or navigation failed (details suppressed to protect credentials)");process.exitCode=1; }
+} catch { console.error("FAIL live browser: assertion or navigation failed (assertion details suppressed)");process.exitCode=1; }
 finally {await browser.close();}
