@@ -35,6 +35,7 @@ test("fixture family API: verified principal, consent, tenant isolation, invite,
   assert.equal((await call("POST","/v1/account/onboard","owner",{displayName:"Other",consentVersion:"family-v1"})).statusCode,409);
   assert.equal((await call("POST","/v1/families","owner",{name:"Family",role:"owner",accountId:"other"})).statusCode,400);
   const created=await call("POST","/v1/families","owner",{name:"My family"});assert.equal(created.statusCode,200);
+  assert.equal(data(created).role,"owner");
   const family=data(created).id as string, path="/v1/families/"+family;
   const second=data(await call("POST","/v1/families","other",{name:"Other family"})).id;
   assert.equal(data(await call("GET","/v1/families","owner")).length,1);
@@ -53,7 +54,7 @@ test("fixture family API: verified principal, consent, tenant isolation, invite,
   const v=data(await invite("viewer","viewer")).token;now+=86400000;
   assert.equal((await accept("viewer",v)).statusCode,404);
   const fresh=data(await invite("viewer","viewer")).token;assert.equal((await accept("viewer",fresh)).statusCode,200);
-  assert.equal((await call("GET",path,"viewer")).statusCode,200);
+  const viewerFamily=await call("GET",path,"viewer");assert.equal(viewerFamily.statusCode,200);assert.equal(data(viewerFamily).role,"viewer");
   assert.equal((await call("PATCH",path+"/journey","viewer",{stage:"so-sinh",revision:0})).statusCode,404);
   assert.equal((await call("GET",path+"/members","member")).statusCode,404);
   assert.equal((await call("PATCH",path+"/journey","member",{stage:"invalid",revision:0})).statusCode,400);

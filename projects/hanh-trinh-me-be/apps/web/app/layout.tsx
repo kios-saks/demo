@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {familyWebConfig} from "../lib/family-web-config";
 import "./globals.css";
 import "./ui-ux-pro-max.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        <Link href="/#hanh-trinh">Các giai đoạn</Link>
        <Link href="/tim-kiem">Tìm kiếm</Link>
        <Link href="/nguon-tham-khao">Nguồn tham khảo</Link>
+       {familyWebConfig()&&<Link href="/gia-dinh">Gia đình</Link>}
        {process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production"?null:<Link href="/bien-tap">Góc biên tập</Link>}
        
       </nav>
