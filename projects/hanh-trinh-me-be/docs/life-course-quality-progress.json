@@ -1,0 +1,1797 @@
+{
+  "version": 1,
+  "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
+  "batch": "S04-AZ-04A",
+  "items": [
+    {
+      "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hen-tu-van-tien-thai",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lan-kham-thai-dau-tien",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cam-xuc-dau-thai-ky",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nhat-ky-thai-ky",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dong-hanh-khi-mang-thai",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:tui-do-di-sinh",
+      "stage": "prenatal",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-ho-tro-sau-sinh",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nguoi-me-cung-can-duoc-cham-soc",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chia-viec-trong-gia-dinh",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+      "stage": "baby",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nhung-cau-hoi-khi-cham-be",
+      "stage": "baby",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:choi-va-tuong-tac-voi-be",
+      "stage": "baby",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+      "stage": "baby",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:khi-con-noi-khong",
+      "stage": "toddler",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:goc-choi-kham-pha-an-toan",
+      "stage": "toddler",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hoc-thong-qua-choi",
+      "stage": "preschool",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chuan-bi-ngay-dau-di-hoc",
+      "stage": "preschool",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dong-hanh-viec-hoc",
+      "stage": "school",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:tinh-ban-dau-doi",
+      "stage": "school",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:noi-chuyen-ve-day-thi",
+      "stage": "preteen",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-so-cung-con",
+      "stage": "preteen",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dong-hanh-khi-con-tu-lap",
+      "stage": "adult",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giu-ket-noi-gia-dinh",
+      "stage": "adult",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:axit-folic-truoc-khi-mang-thai",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:kham-suc-khoe-tien-thai",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-ho-tro-tien-thai",
+      "stage": "prenatal",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lich-kham-thai-ba-thang-dau",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:om-nghen-va-an-uong-dau-thai-ky",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:suc-khoe-tinh-than-ba-thang-dau",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:kham-thai-ba-thang-giua",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:sang-loc-tieu-duong-thai-ky",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:van-dong-an-toan-khi-mang-thai",
+      "stage": "prenatal",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chat-luong-giac-ngu-ba-thang-giua",
+      "stage": "prenatal",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-sinh-an-toan",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-can-di-vien-cuoi-thai-ky",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thai-may-va-theo-doi-thai-cuoi-ky",
+      "stage": "prenatal",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-canh-bao-sau-sinh",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "stage": "prenatal",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:tam-trang-sau-sinh-va-tram-cam",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ho-tro-bu-me-va-khi-kho-khan",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ngu-an-toan-cho-tre-so-sinh",
+      "stage": "baby",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
+      "stage": "baby",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:bu-me-hoan-toan-sau-sinh",
+      "stage": "baby",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:theo-doi-phat-trien-hai-thang-dau",
+      "stage": "baby",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-dam-khi-nao-bat-dau",
+      "stage": "baby",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-chong-sac-khi-an-dam",
+      "stage": "baby",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:moc-phat-trien-sau-thang-thu-sau",
+      "stage": "baby",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
+      "stage": "baby",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+      "stage": "toddler",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:con-an-va-tu-lap-khi-tap-di",
+      "stage": "toddler",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+      "stage": "toddler",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-trong-nha-khi-tre-tap-di",
+      "stage": "toddler",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hoc-qua-choi-ba-den-sau-tuoi",
+      "stage": "preschool",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:moc-phat-trien-tuoi-bon-va-nam",
+      "stage": "preschool",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lam-quen-truong-mam-non",
+      "stage": "preschool",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giao-tiep-gioi-han-khong-don-roi",
+      "stage": "preschool",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thoi-quen-hoc-tap-tieu-hoc",
+      "stage": "school",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giac-ngu-hoc-sinh-tieu-hoc",
+      "stage": "school",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:van-dong-cho-tre-tieu-hoc",
+      "stage": "school",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:phong-chong-bat-nat-o-truong",
+      "stage": "school",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:suc-khoe-tinh-than-tuoi-thieu-nien",
+      "stage": "teen",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:noi-chuyen-day-thi-tinh-duc-an-toan",
+      "stage": "teen",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "stage": "teen",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giao-tiep-voi-con-tuoi-teen",
+      "stage": "teen",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+      "stage": "adult",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+      "stage": "adult",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "stage": "adult",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+      "stage": "adult",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:dap-lai-tin-hieu",
+      "stage": "baby",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:kham-pha-giac-quan",
+      "stage": "baby",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:thoi-quen-doc-cung-be",
+      "stage": "baby",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:cam-xuc-va-gioi-han",
+      "stage": "toddler",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tu-chu-tung-buoc",
+      "stage": "toddler",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ranh-gioi-co-the",
+      "stage": "toddler",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:choi-tu-duy",
+      "stage": "preschool",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:cam-xuc-va-ban-be",
+      "stage": "preschool",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:con-va-cong-nghe",
+      "stage": "preschool",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:hoc-khong-so-sai",
+      "stage": "school",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:kiem-chung-thong-tin",
+      "stage": "school",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tien-tieu-vat",
+      "stage": "school",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:day-thi-thay-doi",
+      "stage": "preteen",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ban-be-va-ap-luc",
+      "stage": "preteen",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ai-co-the-sai",
+      "stage": "preteen",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:quan-he-va-dong-thuan",
+      "stage": "teen",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:du-an-ai-co-trach-nhiem",
+      "stage": "teen",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ngan-sach-va-lua-chon",
+      "stage": "teen",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tu-lap-va-nghe-nghiep",
+      "stage": "adult",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tai-chinh-tu-lap",
+      "stage": "adult",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tu-chu-va-ket-noi",
+      "stage": "adult",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuan-bi-nha-tre-1-2",
+      "stage": "toddler",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-mam-non-3-5",
+      "stage": "preschool",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-di-hoc-6-10",
+      "stage": "school",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-tieu-hoc-theo-nhu-cau",
+      "stage": "school",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuyen-cap-thcs",
+      "stage": "preteen",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:du-an-hoc-tap-thoi-ai",
+      "stage": "teen",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-uong-khi-di-lam",
+      "stage": "early-adult",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:van-dong-va-nhip-song-trung-nien",
+      "stage": "midlife",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phong-te-nga-tuoi-60-74",
+      "stage": "older",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghi-huu-va-ket-noi",
+      "stage": "older",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ke-hoach-cham-soc-75-plus",
+      "stage": "later-life",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:gan-bo-va-dap-ung-nam-dau",
+      "stage": "baby",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-phat-trien-rang-1-2",
+      "stage": "toddler",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:van-dong-ngon-ngu-va-ve-sinh-1-2",
+      "stage": "toddler",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-sinh-hoat-1-2",
+      "stage": "toddler",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:rang-thi-luc-suc-khoe-3-5",
+      "stage": "preschool",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngu-choi-tu-phuc-vu-3-5",
+      "stage": "preschool",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-mam-non-co-the-nuoc",
+      "stage": "preschool",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:suc-khoe-hoc-duong-6-10",
+      "stage": "school",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:co-the-thay-doi-6-10",
+      "stage": "school",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:dinh-duong-day-thi-11-13",
+      "stage": "preteen",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-suc-khoe-11-13",
+      "stage": "preteen",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngu-van-dong-man-hinh-11-13",
+      "stage": "preteen",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-hoc-va-ghi-chu-thcs",
+      "stage": "preteen",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bat-nat-va-lua-dao-11-13",
+      "stage": "preteen",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-uong-va-on-thi-14-17",
+      "stage": "teen",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tiep-can-y-te-tuoi-14-17",
+      "stage": "teen",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-song-on-thi-14-17",
+      "stage": "teen",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-thpt-hoc-nghe-14-17",
+      "stage": "teen",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-mang-va-di-lai-14-17",
+      "stage": "teen",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-tu-lap-18-22",
+      "stage": "adult",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:suc-khoe-sinh-san-tu-lap-18-22",
+      "stage": "adult",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngu-va-lich-hoc-lam-18-22",
+      "stage": "adult",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-dai-hoc-va-hoc-nghe-18-22",
+      "stage": "adult",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-sanh-dai-hoc-cao-dang-18-22",
+      "stage": "adult",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-tu-lap-18-22",
+      "stage": "adult",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-chu-dong-23-34",
+      "stage": "early-adult",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:cang-thang-va-kiet-suc-23-34",
+      "stage": "early-adult",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:sinh-san-va-quyet-dinh-gia-dinh-23-34",
+      "stage": "early-adult",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lich-lam-viec-va-giac-ngu-23-34",
+      "stage": "early-adult",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-nang-cao-ky-nang-23-34",
+      "stage": "early-adult",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-chuong-trinh-dao-tao-23-34",
+      "stage": "early-adult",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-lao-dong-va-lua-dao-23-34",
+      "stage": "early-adult",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-trung-nien-35-59",
+      "stage": "midlife",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-theo-nguy-co-35-59",
+      "stage": "midlife",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuyen-tiep-va-cham-nguoi-than-35-59",
+      "stage": "midlife",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:sinh-ly-va-man-kinh-35-59",
+      "stage": "midlife",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-suot-doi-35-59",
+      "stage": "midlife",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-khoa-dao-tao-lai-35-59",
+      "stage": "midlife",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-cong-viec-va-cham-soc-35-59",
+      "stage": "midlife",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-uong-va-nuoc-60-74",
+      "stage": "older",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-chu-dong-va-thuoc-60-74",
+      "stage": "older",
+      "pillar": "health",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:co-the-giac-quan-60-74",
+      "stage": "older",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-song-va-van-dong-60-74",
+      "stage": "older",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-ky-nang-moi-60-74",
+      "stage": "older",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-lop-cong-dong-60-74",
+      "stage": "older",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ho-tro-an-uong-75-plus",
+      "stage": "later-life",
+      "pillar": "nutrition",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:cam-xuc-mat-mat-75-plus",
+      "stage": "later-life",
+      "pillar": "psych",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:giac-quan-va-tu-quyet-75-plus",
+      "stage": "later-life",
+      "pillar": "body",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-sinh-hoat-ho-tro-75-plus",
+      "stage": "later-life",
+      "pillar": "routine",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-theo-so-thich-75-plus",
+      "stage": "later-life",
+      "pillar": "education",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lop-hoc-de-tiep-can-75-plus",
+      "stage": "later-life",
+      "pillar": "schools",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+      "stage": "later-life",
+      "pillar": "safety",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngan-sach-don-be",
+      "stage": "prenatal",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "expanded-draft",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:thu-tuc-thai-san-khai-sinh",
+      "stage": "prenatal",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "expanded-draft",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-pha-nguyen-nhan-ket-qua",
+      "stage": "baby",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "expanded-draft",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:am-thanh-va-chuyen-dong-nam-dau",
+      "stage": "baby",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:cham-soc-dap-ung-va-chuyen-tiep",
+      "stage": "baby",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phan-loai-va-thu-lai-1-2",
+      "stage": "toddler",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:choi-canh-ban-va-xin-luot",
+      "stage": "toddler",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:am-nhac-tao-hinh-1-2",
+      "stage": "toddler",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tinh-ban-va-lam-hoa-3-5",
+      "stage": "preschool",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghe-thuat-va-trai-nghiem-3-5",
+      "stage": "preschool",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-phuc-vu-va-hop-tac-3-5",
+      "stage": "preschool",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-so-va-ai-6-10",
+      "stage": "school",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-cau-lac-bo-6-10",
+      "stage": "school",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-hoc-tap-va-quy-tac-truong-6-10",
+      "stage": "school",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quan-ly-thoi-gian-va-viec-nha-6-10",
+      "stage": "school",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lap-luan-va-kiem-chung-11-13",
+      "stage": "preteen",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tinh-ban-va-ranh-gioi-11-13",
+      "stage": "preteen",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-nang-khieu-11-13",
+      "stage": "preteen",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tiet-kiem-va-quang-cao-11-13",
+      "stage": "preteen",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-pha-nghe-11-13",
+      "stage": "preteen",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-tre-em-va-trach-nhiem-so-11-13",
+      "stage": "preteen",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-quan-va-thich-nghi-thcs",
+      "stage": "preteen",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghien-cuu-va-tu-duy-phan-bien-14-17",
+      "stage": "teen",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:portfolio-va-hoat-dong-cong-dong-14-17",
+      "stage": "teen",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:huong-nghiep-va-thu-nghe-14-17",
+      "stage": "teen",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-lao-dong-va-trach-nhiem-14-17",
+      "stage": "teen",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ra-quyet-dinh-va-tu-lap-14-17",
+      "stage": "teen",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:danh-gia-bang-chung-18-22",
+      "stage": "adult",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ai-hoc-tap-cong-viec-18-22",
+      "stage": "adult",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:portfolio-va-so-thich-18-22",
+      "stage": "adult",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hop-dong-bhxh-va-thu-tuc-18-22",
+      "stage": "adult",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ra-quyet-dinh-co-bang-chung-23-34",
+      "stage": "early-adult",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ai-cong-viec-va-bao-mat-23-34",
+      "stage": "early-adult",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quan-he-va-lua-chon-song-23-34",
+      "stage": "early-adult",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-thoi-gian-rieng-23-34",
+      "stage": "early-adult",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngan-sach-no-va-du-phong-23-34",
+      "stage": "early-adult",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phat-trien-nghe-va-thuong-luong-23-34",
+      "stage": "early-adult",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hop-dong-nha-o-bao-hiem-23-34",
+      "stage": "early-adult",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-quan-thoi-gian-va-cham-soc-23-34",
+      "stage": "early-adult",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyet-dinh-dai-han-35-59",
+      "stage": "midlife",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ai-va-an-toan-so-35-59",
+      "stage": "midlife",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:gia-dinh-da-the-he-35-59",
+      "stage": "midlife",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-cong-dong-35-59",
+      "stage": "midlife",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ke-hoach-huu-tri-va-du-phong-35-59",
+      "stage": "midlife",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuyen-nghe-va-nang-ky-nang-35-59",
+      "stage": "midlife",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+      "stage": "midlife",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phan-chia-trach-nhiem-va-cham-soc-35-59",
+      "stage": "midlife",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-duy-va-giai-quyet-van-de-60-74",
+      "stage": "older",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:dien-thoai-va-an-toan-so-60-74",
+      "stage": "older",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ket-noi-va-tu-chu-60-74",
+      "stage": "older",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghe-thuat-va-so-thich-60-74",
+      "stage": "older",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quan-ly-thu-nhap-huu-tri-60-74",
+      "stage": "older",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+      "stage": "older",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-huu-tri-bhyt-60-74",
+      "stage": "older",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:song-doc-lap-va-ke-hoach-ho-tro-60-74",
+      "stage": "older",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tri-tue-va-so-thich-75-plus",
+      "stage": "later-life",
+      "pillar": "thinking",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lien-lac-so-va-bao-mat-75-plus",
+      "stage": "later-life",
+      "pillar": "digital",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ket-noi-va-nguoi-cham-soc-75-plus",
+      "stage": "later-life",
+      "pillar": "relationships",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+      "stage": "later-life",
+      "pillar": "talents",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
+      "stage": "later-life",
+      "pillar": "finance",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoat-dong-co-y-nghia-75-plus",
+      "stage": "later-life",
+      "pillar": "career",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-dai-dien-va-cham-soc-75-plus",
+      "stage": "later-life",
+      "pillar": "civic",
+      "priority": "P0",
+      "status": "queued",
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-chu-va-ke-hoach-cham-soc-75-plus",
+      "stage": "later-life",
+      "pillar": "life",
+      "priority": "P1",
+      "status": "queued",
+      "expertReviewed": false
+    }
+  ],
+  "upgraded": [
+    {
+      "key": "article:ngan-sach-don-be",
+      "stage": "prenatal",
+      "title": "Ngân sách đón bé: chuẩn bị chi phí thai sản và dự phòng",
+      "before": 234,
+      "after": 725,
+      "sections": 7,
+      "practice": 5,
+      "claimChecks": 3
+    },
+    {
+      "key": "article:thu-tuc-thai-san-khai-sinh",
+      "stage": "prenatal",
+      "title": "Thủ tục đón bé tại Việt Nam: thai sản, khai sinh và bảo hiểm y tế",
+      "before": 238,
+      "after": 810,
+      "sections": 8,
+      "practice": 5,
+      "claimChecks": 4
+    },
+    {
+      "key": "article:kham-pha-nguyen-nhan-ket-qua",
+      "stage": "baby",
+      "title": "Năm đầu đời: khám phá nguyên nhân–kết quả qua chơi",
+      "before": 220,
+      "after": 651,
+      "sections": 7,
+      "practice": 5,
+      "claimChecks": 2
+    }
+  ],
+  "sourceReview": {
+    "baseline": 131,
+    "attempted": 17,
+    "remaining": 114,
+    "additional": 4
+  }
+}

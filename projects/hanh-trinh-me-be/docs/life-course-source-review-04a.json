@@ -1,0 +1,728 @@
+{
+  "version": 1,
+  "date": "2026-11-25",
+  "baselineUrlCount": 131,
+  "checked": [
+    {
+      "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "status": "opened",
+      "note": "Trang WHO, chủ đề thai kỳ; chưa so từng claim",
+      "checkedOn": "2026-11-25",
+      "refCount": 19
+    },
+    {
+      "url": "https://www.cdc.gov/hearher/maternal-warning-signs",
+      "status": "replacement-found",
+      "note": "URL cũ cache miss; URL có index.html đã mở, dấu hiệu cảnh báo",
+      "replacement": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+      "checkedOn": "2026-11-25",
+      "refCount": 19
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+      "status": "opened",
+      "note": "Trang WHO; xác nhận tiêu đề và chủ đề",
+      "checkedOn": "2026-11-25",
+      "refCount": 16
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+      "status": "opened",
+      "note": "Trang Harvard chuyển hướng tới URL có dấu /; bài hoạt động chơi",
+      "checkedOn": "2026-11-25",
+      "refCount": 12
+    },
+    {
+      "url": "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+      "status": "search-only",
+      "note": "Mở cache miss; tìm thấy kết quả UNESCO chính thức, chờ đọc toàn văn",
+      "checkedOn": "2026-11-25",
+      "refCount": 12
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+      "status": "opened",
+      "note": "Trang UIL, khuyến nghị học người lớn",
+      "checkedOn": "2026-11-25",
+      "refCount": 11
+    },
+    {
+      "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+      "status": "opened",
+      "note": "Trang mô tả tài liệu chăm sóc hậu sản; chưa đọc PDF",
+      "checkedOn": "2026-11-25",
+      "refCount": 10
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240015128",
+      "status": "opened",
+      "note": "Trang mô tả hướng dẫn vận động; chưa đọc toàn bộ tài liệu",
+      "checkedOn": "2026-11-25",
+      "refCount": 10
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+      "status": "opened",
+      "note": "Trang WHO về kết nối xã hội",
+      "checkedOn": "2026-11-25",
+      "refCount": 10
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+      "status": "opened",
+      "note": "URL có dấu / mở được; lịch NHS không áp dụng nguyên xi Việt Nam",
+      "replacement": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+      "checkedOn": "2026-11-25",
+      "refCount": 9
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+      "status": "opened",
+      "note": "Trang WHO; chưa so từng claim",
+      "checkedOn": "2026-11-25",
+      "refCount": 9
+    },
+    {
+      "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+      "status": "opened",
+      "note": "Trang mô tả ICOPE 2nd ed.; chưa đọc toàn văn",
+      "checkedOn": "2026-11-25",
+      "refCount": 9
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+      "status": "opened",
+      "note": "Luật 41/2024/QH15, metadata ngày hiệu lực 01/07/2025",
+      "checkedOn": "2026-11-25",
+      "refCount": 9
+    },
+    {
+      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh-lien-thong-chi-tiet.html?ma_thu_tuc=341602",
+      "status": "replacement-found",
+      "note": "URL cũ không truy cập được; thay trong registry bằng trang quốc gia đã đọc; không chép biểu phí/thời hạn cũ",
+      "replacement": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002621",
+      "checkedOn": "2026-11-25",
+      "refCount": 1
+    },
+    {
+      "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund",
+      "status": "opened",
+      "note": "Đã mở hướng dẫn quỹ dự phòng; áp dụng nguyên tắc, không áp dụng luật Mỹ",
+      "checkedOn": "2026-11-25",
+      "refCount": 3
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+      "status": "opened",
+      "note": "Đã đọc nội dung hoạt động theo tuổi",
+      "checkedOn": "2026-11-25",
+      "refCount": 5
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/97892400020986",
+      "status": "opened",
+      "note": "Trang WHO về phát triển trẻ nhỏ, chưa đọc PDF",
+      "checkedOn": "2026-11-25",
+      "refCount": 4
+    }
+  ],
+  "additional": [
+    {
+      "id": "population2026",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218155&pageid=27160",
+      "status": "opened",
+      "note": "Trang công bố văn bản, hiệu lực 01/07/2026; đối chiếu điều kiện nghỉ thai sản khi sinh con thứ hai với hướng dẫn BHXH."
+    },
+    {
+      "id": "bhxhSecond2026",
+      "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/hoat-dong-ung-cuu-attt-mang.aspx?CateID=0&ItemID=26742&OtItem=date",
+      "status": "search-only",
+      "note": "Kết quả tra cứu nội dung chính thức về điều kiện chính sách sinh con thứ hai; chưa đọc được toàn văn trong đợt này."
+    },
+    {
+      "id": "birthAmend2026",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=219043&pageid=27160&typegroupid=4",
+      "status": "opened",
+      "note": "Trang công bố văn bản sửa đổi thủ tục liên thông khai sinh, hiệu lực 01/09/2026; không diễn giải điều khoản chưa đọc."
+    },
+    {
+      "id": "birthConsolidated",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=219270&pageid=27160",
+      "status": "search-only",
+      "note": "Tra cứu văn bản hợp nhất về thủ tục liên thông; kết quả tìm kiếm chính thức, cần đọc toàn văn khi áp dụng."
+    }
+  ],
+  "pendingBaseline": [
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "refs": 8,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/sleep/about",
+      "refs": 8,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+      "refs": 8,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://tongdai111.vn/sites/gioi-thieu",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+      "refs": 7,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/reports/parenting-adolescents",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/digital-parenting",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240085336",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=214590&pageid=27160",
+      "refs": 6,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/parenting-hub",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+      "refs": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/healthy-schools/sleep",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-development/baby-tips",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unesco.org/en/communication-information/priorities/media-information-literacy",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+      "refs": 4,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241514064",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/europe/publications/i/item/9789240014886",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/oral-health",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://tuyensinh.moet.gov.vn/ts",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=184566&pageid=27160",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-answers-you-decide",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214515&pageid=27160&typegroupid=4",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214435&pageid=27160&typegroupid=4",
+      "refs": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/science-of-play",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications-detail-redirect/9789240081864",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/key-concept/serve-and-return",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/building-core-skills-youth",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/ageing-and-health",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241550536",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240105201",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/health-topics/adolescent-health",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/how-talk-your-children-about-bullying",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/family-planning-contraception",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/health-topics/occupational-health",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/malnutrition",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/2025/12/oecd-skills-outlook-2025_ac37c7d4.html",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=215257&pageid=27160",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/articles/new-online-course-helps-cities-advance-digital-learning-older-adults",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud",
+      "refs": 2,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/index.html",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/bullying",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-610-years",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240062764",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-support-someone-you-care-for-with-eating",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217346&pageid=27160",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=175351&pageid=27160",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=202609&pageid=27160",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214560&pageid=27160&typegroupid=3",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness",
+      "refs": 1,
+      "status": "pending"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=217083&pageid=27160",
+      "refs": 1,
+      "status": "pending"
+    }
+  ],
+  "note": "Trạng thái opened = truy cập được trang web/metadata, không phải xác minh toàn bộ luận điểm. search-only và replacement-found vẫn cần rà soát. Tài liệu PDF chưa đọc. Không coi cache miss là HTTP 404."
+}

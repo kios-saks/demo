@@ -1993,8 +1993,8 @@
       "stage": "prenatal",
       "pillar": "finance",
       "originalStage": "prenatal",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-ngan-sach-don-be"
     },
@@ -2005,8 +2005,8 @@
       "stage": "prenatal",
       "pillar": "civic",
       "originalStage": "prenatal",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 6,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-thu-tuc-thai-san-khai-sinh"
     },
@@ -2018,7 +2018,7 @@
       "pillar": "thinking",
       "originalStage": "baby",
       "sourceCount": 2,
-      "sectionCount": 4,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-kham-pha-nguyen-nhan-ket-qua"
     },

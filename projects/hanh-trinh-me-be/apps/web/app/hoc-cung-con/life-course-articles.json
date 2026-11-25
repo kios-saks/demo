@@ -268,8 +268,8 @@
     },
     "birth": {
       "name": "Cổng Dịch vụ công — Liên thông khai sinh, thường trú, BHYT dưới 6 tuổi",
-      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh-lien-thong-chi-tiet.html?ma_thu_tuc=341602",
-      "scope": "Tra cứu quy trình, hồ sơ, nơi tiếp nhận; không khẳng định mức phí áp dụng toàn quốc.",
+      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002621",
+      "scope": "Trang thủ tục quốc gia: quy trình điện tử, tờ khai và dữ liệu giấy chứng sinh; lựa chọn địa phương. Đối chiếu Nghị định 301/2026 trước khi áp dụng thời hạn/phí.",
       "checkedOn": "2026-11-25"
     },
     "emergencyFund": {
@@ -462,6 +462,30 @@
       "name": "Văn phòng Quốc hội — Luật Khám bệnh, chữa bệnh, VBHN 26/VBHN-VPQH",
       "url": "https://vanban.chinhphu.vn/?docid=217083&pageid=27160",
       "scope": "Tra cứu quyền, nghĩa vụ và cơ chế quyết định chăm sóc theo pháp luật.",
+      "checkedOn": "2026-11-25"
+    },
+    "population2026": {
+      "name": "Chính phủ — Nghị định 168/2026/NĐ-CP hướng dẫn Luật Dân số",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218155&pageid=27160",
+      "scope": "Trang công bố văn bản, hiệu lực 01/07/2026; đối chiếu điều kiện nghỉ thai sản khi sinh con thứ hai với hướng dẫn BHXH.",
+      "checkedOn": "2026-11-25"
+    },
+    "bhxhSecond2026": {
+      "name": "BHXH Việt Nam — Những điều cần biết về chế độ thai sản khi sinh con thứ hai từ 01/7/2026",
+      "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/hoat-dong-ung-cuu-attt-mang.aspx?CateID=0&ItemID=26742&OtItem=date",
+      "scope": "Kết quả tra cứu nội dung chính thức về điều kiện chính sách sinh con thứ hai; chưa đọc được toàn văn trong đợt này.",
+      "checkedOn": "2026-11-25"
+    },
+    "birthAmend2026": {
+      "name": "Chính phủ — Nghị định 301/2026/NĐ-CP sửa đổi Nghị định 63/2024/NĐ-CP",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=219043&pageid=27160&typegroupid=4",
+      "scope": "Trang công bố văn bản sửa đổi thủ tục liên thông khai sinh, hiệu lực 01/09/2026; không diễn giải điều khoản chưa đọc.",
+      "checkedOn": "2026-11-25"
+    },
+    "birthConsolidated": {
+      "name": "Bộ Tư pháp — Văn bản hợp nhất 03/2026/VBHN-NĐ-BTP",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=219270&pageid=27160",
+      "scope": "Tra cứu văn bản hợp nhất về thủ tục liên thông; kết quả tìm kiếm chính thức, cần đọc toàn văn khi áp dụng.",
       "checkedOn": "2026-11-25"
     }
   },
@@ -3535,107 +3559,233 @@
       "pillar": "finance",
       "id": "ngan-sach-don-be",
       "title": "Ngân sách đón bé: chuẩn bị chi phí thai sản và dự phòng",
-      "summary": "Lập ba kịch bản chi phí, không mua sắm theo danh sách quảng cáo.",
+      "summary": "Cẩm nang chuẩn bị dòng tiền từ tiền thai đến ba tháng sau sinh: dự toán theo báo giá, ba kịch bản, quyền lợi và kế hoạch dự phòng bằng bảng tính đơn giản.",
       "sections": [
         {
-          "heading": "Tách nhu cầu và dòng tiền",
-          "body": "Dự phòng giúp gia đình ứng phó khoản chi ngoài kế hoạch. Trước khi có bé, ghi thu nhập thực nhận và thời điểm nhận, các chi phí sinh hoạt phải trả, cùng chi phí dự kiến cho khám, sinh và chăm sóc. Đừng coi khoản thưởng hoặc tiền bảo hiểm chưa xác nhận là tiền đã có.",
+          "heading": "Bắt đầu bằng dòng tiền, không bắt đầu bằng danh sách đồ sơ sinh",
+          "body": "Một gia đình có thể có tổng thu nhập đủ nhưng vẫn thiếu tiền đúng tuần phải thanh toán viện phí. Tách dòng tiền theo ngày nhận lương và ngày chi, phân biệt tiền đang có với thu nhập dự kiến. CFPB giải thích quỹ dự phòng là phần dành cho tình huống ngoài kế hoạch, không đồng nhất với tiền mua sắm đã định. Trong bối cảnh Việt Nam, hãy dành một cột cho khoản BHXH/BHYT chưa xác minh và một cột cho hỗ trợ tự nguyện từ người thân; đừng tính hai khoản này vào số tiền chắc chắn.",
           "sourceIds": [
-            "emergencyFund",
-            "bhxh"
+            "emergencyFund"
           ],
           "kind": "source-based"
         },
         {
-          "heading": "Dự toán từ nơi cung cấp",
-          "body": "Hỏi bệnh viện về giá theo dịch vụ, khoản có thể phát sinh và phần được bảo hiểm chi trả theo trường hợp. Tách đồ dùng cần ngay khỏi món có thể mượn hoặc mua sau; ghi nguồn, ngày báo giá. Lập một cột chưa biết thay vì ghi 0 đồng. Không chọn cơ sở y tế chỉ vì chi phí thấp.",
+          "heading": "Lập bản dự toán theo từng mốc",
+          "body": "Chia thành bốn nhóm: trước sinh (khám, di chuyển, thời gian nghỉ), thời điểm sinh (dịch vụ y tế và khoản phát sinh theo báo giá), sau sinh (chăm mẹ, chăm bé, sinh hoạt), và thu nhập giảm khi nghỉ việc. Liệt kê số lượng, đơn giá, ngày phải trả, nguồn báo giá và người phụ trách. Ví dụ một khoản đồ dùng có thể mua sau nếu chưa cần; nhưng không trì hoãn chăm sóc y tế cần thiết để đạt mục tiêu ngân sách. Mức chi thực tế phải lấy từ nơi cung cấp dịch vụ, không dùng số liệu quảng cáo như giá cố định.",
           "sourceIds": [],
           "kind": "editorial-practice"
         },
         {
-          "heading": "Ba kịch bản sau sinh",
-          "body": "Ví dụ giả định một tháng chi thiết yếu 10 triệu, dự kiến giảm thu nhập 4 triệu, thêm chi chăm bé 3 triệu: khoản chênh cần có phương án bù. Thử cả trường hợp trở lại làm muộn hoặc người chăm cần nghỉ thêm. Con số chỉ để luyện tính, không đại diện giá thị trường.",
+          "heading": "Hỏi bệnh viện và bảo hiểm đúng câu hỏi",
+          "body": "Hỏi cơ sở dự kiến sinh về chi phí dự kiến cho trường hợp thông thường, cách xử lý khoản phát sinh, tiền đặt trước, những khoản đã hoặc chưa nằm trong báo giá, và cách thanh toán. Với BHYT, hỏi bộ phận phụ trách về phạm vi chi trả và giấy tờ theo trường hợp. Ghi rõ ngày hỏi, nguồn thông tin và phần chưa rõ. Không giả định sinh thường, sinh mổ hay một tình huống y khoa sẽ xảy ra; chi phí không được dùng để quyết định thay chỉ định y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
         },
         {
-          "heading": "Thống nhất ưu tiên và quyền lợi",
-          "body": "Kiểm tra điều kiện hưởng thai sản qua cơ quan BHXH hoặc nơi làm việc, giữ hồ sơ riêng. Thống nhất ai phụ trách thanh toán, mức dự phòng có thể tích lũy và khi nào cần điều chỉnh kế hoạch. Tránh vay hoặc mua bảo hiểm chỉ dựa vào lời tư vấn chưa đọc hợp đồng.",
+          "heading": "Bài tập ba kịch bản bằng đồng Việt Nam",
+          "body": "Ví dụ minh họa, không phải giá thị trường: tiền sẵn có đầu tháng là 12 triệu, thu nhập chắc chắn tháng đó 18 triệu, chi thiết yếu 11 triệu, khoản chăm sóc theo kế hoạch 5 triệu. Cuối tháng còn 14 triệu nếu không phát sinh. Nếu thu nhập giảm 5 triệu, còn 9 triệu; nếu đồng thời phát sinh thêm 7 triệu, còn 2 triệu. Công thức là tiền đầu kỳ + thu chắc chắn − chi bắt buộc − chi dự kiến − phát sinh. Dùng số thật của gia đình, thêm mốc thanh toán theo tuần và không nhập số tài khoản hoặc hồ sơ sức khỏe vào bảng chia sẻ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyền lợi thai sản: cần xác minh trước khi tính tiền",
+          "body": "Luật BHXH 41/2024/QH15 có hiệu lực từ 01/07/2025. Từ 01/07/2026 có thêm quy định liên quan nghỉ thai sản khi sinh con thứ hai theo Nghị định 168/2026/NĐ-CP hướng dẫn Luật Dân số. BHXH Việt Nam giải thích chính sách áp dụng với người đủ điều kiện theo quy định. Trước khi dự toán, kiểm tra quá trình tham gia, hoàn cảnh sinh con, hồ sơ và dự kiến thời điểm giải quyết với cơ quan BHXH hoặc bộ phận nhân sự. Không coi khoản dự kiến được hưởng là tiền đã nhận; cũng không dùng mức hưởng hoặc thời gian nghỉ của một người quen cho trường hợp của mình.",
+          "sourceIds": [
+            "bhxh",
+            "population2026",
+            "bhxhSecond2026"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xây quỹ dự phòng theo khả năng và mức bất định",
+          "body": "Hãy chọn số tiền phù hợp với rủi ro và dòng tiền, không có một mức chung bắt buộc. Tách nơi giữ tiền dự phòng khỏi tiền chi hằng ngày, ưu tiên khả năng tiếp cận và an toàn. Nếu đang có nợ, liệt kê số dư, lãi, phí và hạn thanh toán; không tự vay thêm chỉ vì dự kiến có khoản thai sản. Khi dòng tiền thiếu, rà khoản không cấp thiết, hỏi phương án thanh toán chính thức và tìm hỗ trợ phù hợp trước khi ký cam kết lớn.",
+          "sourceIds": [
+            "emergencyFund"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Checklist họp gia đình trước và sau sinh",
+          "body": "Trước sinh, thống nhất người ghi chi phí, người liên hệ cơ sở y tế, người theo dõi hồ sơ và người dự phòng nếu một người không thể thực hiện. Sau sinh, chọn thời điểm thuận tiện để xem lại số chi thực tế, ưu tiên nghỉ ngơi và chăm sóc thay vì trách móc người phát sinh chi phí. Nếu khoản chi chưa biết, đánh dấu chờ xác minh và cập nhật khi có chứng từ. Kế hoạch là công cụ hỗ trợ, không phải lý do trì hoãn khám hoặc cấp cứu.",
           "sourceIds": [],
           "kind": "editorial-practice"
         }
       ],
       "practice": [
-        "Lập bảng thu chi 3 tháng trước và sau sinh.",
-        "Xin báo giá và xác minh quyền lợi BHXH theo trường hợp.",
-        "Chọn phương án dự phòng phù hợp dòng tiền."
+        "Tạo bảng: khoản chi, ngày trả, số dự kiến, số thực tế, nguồn, người phụ trách.",
+        "Xin báo giá trực tiếp và ghi phần chưa xác nhận.",
+        "Thử ba kịch bản thu nhập/chi phí, xác định tuần có thể thiếu tiền.",
+        "Tra cứu điều kiện thai sản qua BHXH hoặc nhân sự; ghi ngày xác minh.",
+        "Thống nhất cách dùng và bổ sung dự phòng sau sinh."
       ],
-      "limits": "Ví dụ giả định, không tư vấn đầu tư, bảo hiểm hoặc xác định mức hưởng thai sản cá nhân.",
+      "limits": "Ví dụ tài chính chỉ để học cách lập dòng tiền; không phải mức chi phí sinh, dự báo quyền lợi, tư vấn bảo hiểm, đầu tư hay tín dụng. Mọi quyết định chăm sóc y tế do người được chăm sóc và chuyên gia phù hợp xác định.",
       "sourceIds": [
         "emergencyFund",
-        "bhxh"
+        "bhxh",
+        "population2026",
+        "bhxhSecond2026"
       ],
       "status": "draft",
-      "batch": "S04-AZ-03A"
+      "batch": "S04-AZ-03A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04A",
+        "revisedOn": "2026-11-25",
+        "status": "expanded-draft",
+        "claimChecks": [
+          {
+            "id": "C01",
+            "claim": "Quỹ dự phòng dành cho chi phí ngoài kế hoạch và nên dễ tiếp cận",
+            "sourceId": "emergencyFund",
+            "evidence": "Đã mở nội dung hướng dẫn; nguyên tắc giáo dục, không dùng quy định Mỹ."
+          },
+          {
+            "id": "C02",
+            "claim": "Luật BHXH 41/2024 có hiệu lực 01/07/2025",
+            "sourceId": "bhxh",
+            "evidence": "Trang công bố chính thức xác nhận ngày hiệu lực."
+          },
+          {
+            "id": "C03",
+            "claim": "Nghị định 168/2026 có hiệu lực 01/07/2026; có chính sách liên quan sinh con thứ hai",
+            "sourceId": "population2026",
+            "evidence": "Trang công bố xác nhận ngày; hướng dẫn BHXH tìm thấy qua kết quả tra cứu, chưa đọc toàn văn; không nêu mức hưởng cá nhân."
+          }
+        ],
+        "expertReviewed": false
+      }
     },
     {
       "stage": "prenatal",
       "pillar": "civic",
       "id": "thu-tuc-thai-san-khai-sinh",
       "title": "Thủ tục đón bé tại Việt Nam: thai sản, khai sinh và bảo hiểm y tế",
-      "summary": "Chuẩn bị hồ sơ và đầu mối chính thức; không dựa vào hướng dẫn đã hết hiệu lực.",
+      "summary": "Cẩm nang tra cứu thủ tục sau sinh tại Việt Nam: chuẩn bị hồ sơ, liên thông khai sinh–thường trú–BHYT, theo dõi thai sản và kiểm tra cập nhật pháp luật 2026.",
       "sections": [
         {
-          "heading": "Phân biệt các nhóm thủ tục",
-          "body": "Luật BHXH là căn cứ tra cứu quyền lợi thai sản, còn Cổng Dịch vụ công có quy trình liên thông khai sinh, thường trú và BHYT trẻ dưới sáu tuổi. Mỗi thủ tục có đối tượng, điều kiện và nơi tiếp nhận khác nhau; không coi một giấy tờ là tự động đủ mọi quyền lợi.",
+          "heading": "Bản đồ ba luồng cần phân biệt",
+          "body": "Đăng ký khai sinh xác lập thông tin hộ tịch; đăng ký thường trú giải quyết thông tin cư trú; cấp thẻ BHYT cho trẻ liên quan quyền lợi bảo hiểm y tế. Cổng dịch vụ công có dịch vụ điện tử liên thông cho nhóm thủ tục này. Hồ sơ hưởng thai sản của người lao động là luồng khác, cần đối chiếu BHXH và hoàn cảnh riêng. Không coi hoàn thành khai sinh đồng nghĩa đã hoàn thành mọi quyền lợi của mẹ, bố và bé.",
           "sourceIds": [
-            "bhxh",
+            "birth",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra văn bản cập nhật năm 2026",
+          "body": "Nghị định 301/2026/NĐ-CP sửa đổi Nghị định 63/2024/NĐ-CP về liên thông thủ tục, có hiệu lực 01/09/2026. Bộ Tư pháp công bố Văn bản hợp nhất 03/2026/VBHN-NĐ-BTP. Vì thủ tục, mẫu và cách tổ chức địa phương có thể được cập nhật, nên đối chiếu trang thủ tục đang áp dụng tại xã/phường và văn bản hiện hành trước khi nộp. Bài này không sao chép biểu phí hoặc cam kết thời hạn xử lý từ trang cũ; thông tin chưa kiểm chứng toàn văn văn bản sửa đổi không được biến thành chỉ dẫn cụ thể.",
+          "sourceIds": [
+            "birthAmend2026",
+            "birthConsolidated"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Trước khi sinh: chuẩn bị hồ sơ và đầu mối",
+          "body": "Kiểm tra thông tin họ tên, giấy tờ cá nhân và nơi dự kiến đăng ký; hỏi cơ sở sinh về việc cấp hoặc liên thông giấy chứng sinh. Nếu cha mẹ có hoàn cảnh cư trú khác nhau, chưa thống nhất thông tin, không có giấy chứng sinh hoặc có yếu tố nước ngoài, hỏi cán bộ hộ tịch về trường hợp tương ứng thay vì tự làm theo mẫu chung. Chuẩn bị bản sao ở nơi bảo mật, không gửi ảnh giấy tờ cho dịch vụ hoặc tài khoản chưa xác minh. Chỉ cung cấp thông tin thật sự cần qua kênh chính thức.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sau sinh: đi đúng luồng dịch vụ công",
+          "body": "Trang thủ tục quốc gia hướng dẫn truy cập Cổng Dịch vụ công hoặc VNeID, chọn nhóm liên thông khai sinh, khai tử, điền tờ khai điện tử và cung cấp giấy tờ theo trường hợp. Trang này nêu dữ liệu giấy chứng sinh có ký số có thể được chuyển từ cơ sở khám chữa bệnh; nếu không có giấy chứng sinh, cần hồ sơ thay thế theo quy định. Chọn địa phương và đọc thành phần hồ sơ hiện hành. Sau khi nộp, lưu mã hồ sơ, thông báo tiếp nhận và hướng dẫn bổ sung; không gửi OTP cho người tự xưng làm hộ.",
+          "sourceIds": [
             "birth"
           ],
           "kind": "source-based"
         },
         {
-          "heading": "Chuẩn bị từ trước sinh",
-          "body": "Hỏi bộ phận nhân sự hoặc cơ quan BHXH về quá trình tham gia, điều kiện và hồ sơ cần nộp. Kiểm tra họ tên trên giấy tờ và nơi liên hệ; hỏi bệnh viện về giấy chứng sinh và cách nhận. Chỉ lưu bản sao tại nơi bảo mật, không đưa số định danh vào công cụ AI công cộng.",
+          "heading": "Theo dõi và đối chiếu kết quả",
+          "body": "Hệ thống liên thông chuyển dữ liệu từ khâu hộ tịch sang khâu cư trú và BHXH để xử lý các thủ tục tương ứng. Khi nhận kết quả, kiểm tra tên, ngày sinh, thông tin cha mẹ nếu có, và trạng thái từng thủ tục; hỏi cơ quan tiếp nhận cách xử lý nếu sai hoặc chưa có kết quả. Không đăng ảnh giấy khai sinh hoặc thẻ BHYT công khai. Nếu một khâu đã hoàn thành nhưng khâu khác đang chờ xác minh, ghi riêng trạng thái thay vì nộp lại toàn bộ hồ sơ vội.",
+          "sourceIds": [
+            "birth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thai sản của người lao động: tra cứu theo hồ sơ",
+          "body": "Luật BHXH 41/2024/QH15 có hiệu lực từ 01/07/2025. Nghị định 168/2026/NĐ-CP có hiệu lực 01/07/2026 liên quan quy định mới về nghỉ thai sản khi sinh con thứ hai; thông tin hướng dẫn BHXH nhấn mạnh điều kiện hưởng. Hỏi bộ phận nhân sự hoặc cơ quan BHXH về quá trình tham gia, loại hồ sơ, kênh nộp và trường hợp đã nghỉ việc. Không tự áp dụng thời gian nghỉ hoặc mức trợ cấp chỉ vì đủ tuổi hay số con; cần đối chiếu điều kiện và văn bản đang có hiệu lực.",
+          "sourceIds": [
+            "bhxh",
+            "population2026",
+            "bhxhSecond2026"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tình huống minh họa: hai vợ chồng khác nơi cư trú",
+          "body": "Giả sử mẹ sinh tại thành phố nơi đang làm việc, bố có nơi cư trú khác và gia đình chưa chắc sẽ đăng ký thường trú cho bé ở đâu. Trước khi nộp, hỏi cán bộ phụ trách tại nơi dự kiến đăng ký về yêu cầu cư trú, sự đồng ý và hồ sơ bổ sung theo trường hợp. Kiểm tra dữ liệu giấy chứng sinh và chọn đúng thủ tục trên cổng. Không chuyển tiền cho người hứa hoàn tất hồ sơ không cần giấy tờ. Sau khi nhận thông báo, xác nhận từng kết quả; hồ sơ thai sản kiểm tra riêng với cơ quan BHXH.",
           "sourceIds": [],
           "kind": "editorial-practice"
         },
         {
-          "heading": "Sau sinh: tra cứu đúng trường hợp",
-          "body": "Vào cổng dịch vụ công hoặc hỏi bộ phận tiếp nhận tại xã, phường để tìm thủ tục liên thông hiện hành. Xem thành phần hồ sơ, phương thức nộp, lệ phí nếu có, lịch trả và tình trạng xử lý. Trường hợp cha mẹ khác nơi cư trú hoặc giấy tờ có sai lệch cần hỏi cán bộ có thẩm quyền.",
-          "sourceIds": [],
-          "kind": "editorial-practice"
-        },
-        {
-          "heading": "Theo dõi đến khi có kết quả",
-          "body": "Ghi mã hồ sơ, đầu mối và ngày hẹn; đối chiếu thông tin trên kết quả khai sinh, đăng ký cư trú và thẻ BHYT. Nếu có sai sót, yêu cầu hướng dẫn điều chỉnh qua kênh chính thức. Không thanh toán cho người tự xưng xử lý nhanh qua tin nhắn hoặc chia sẻ mã xác thực.",
+          "heading": "Mẫu theo dõi một trang, không chứa dữ liệu thừa",
+          "body": "Ghi tên thủ tục, cơ quan phụ trách, link đã kiểm tra, ngày nộp, mã hồ sơ lưu riêng, trạng thái và việc tiếp theo. Tách bản ghi công việc khỏi bản sao giấy tờ cá nhân; chia sẻ chỉ với người được phép. Nếu khó sử dụng dịch vụ công trực tuyến, hỏi bộ phận một cửa về cách được hỗ trợ. Khi có tranh chấp về hộ tịch, cư trú hoặc quyền lợi, tìm cơ quan có thẩm quyền hoặc tư vấn pháp lý phù hợp.",
           "sourceIds": [],
           "kind": "editorial-practice"
         }
       ],
       "practice": [
-        "Lưu link chính thức của BHXH và dịch vụ công.",
-        "Liệt kê giấy tờ cần xác minh trước sinh.",
-        "Lập bảng theo dõi từng thủ tục đến khi nhận kết quả."
+        "Lưu trang thủ tục quốc gia và văn bản hiện hành, chọn địa phương.",
+        "Chuẩn bị danh sách giấy tờ cần kiểm tra, hỏi bệnh viện về giấy chứng sinh.",
+        "Theo dõi ba kết quả liên thông bằng mã hồ sơ riêng.",
+        "Xác minh điều kiện và kênh hồ sơ thai sản qua BHXH/nhân sự.",
+        "Đối chiếu thông tin kết quả, yêu cầu sửa sai qua kênh chính thức."
       ],
-      "limits": "Không khẳng định mức hưởng, thời hạn hay lệ phí; cần kiểm tra quy định hiện hành và hồ sơ cá nhân.",
+      "limits": "Thông tin pháp luật được đối chiếu nguồn ngày 25/11/2026; chưa rà soát toàn văn văn bản hợp nhất và hướng dẫn mới. Không khẳng định thời hạn, lệ phí, mức hưởng hay tính hợp lệ cho hồ sơ cụ thể; cần xác minh tại địa phương/cơ quan BHXH khi thực hiện.",
       "sourceIds": [
+        "birth",
         "bhxh",
-        "birth"
+        "population2026",
+        "bhxhSecond2026",
+        "birthAmend2026",
+        "birthConsolidated"
       ],
       "status": "draft",
-      "batch": "S04-AZ-03A"
+      "batch": "S04-AZ-03A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04A",
+        "revisedOn": "2026-11-25",
+        "status": "expanded-draft",
+        "claimChecks": [
+          {
+            "id": "C01",
+            "claim": "Dịch vụ công liên thông ba thủ tục, truy cập qua cổng hoặc VNeID; tờ khai và dữ liệu giấy chứng sinh",
+            "sourceId": "birth",
+            "evidence": "Đã đọc trang thủ tục quốc gia, các bước và hồ sơ; chưa xác minh dữ liệu chi tiết từng địa phương."
+          },
+          {
+            "id": "C02",
+            "claim": "Nghị định 301/2026 sửa Nghị định 63/2024, hiệu lực 01/09/2026",
+            "sourceId": "birthAmend2026",
+            "evidence": "Đã mở trang công bố; chưa đọc toàn văn."
+          },
+          {
+            "id": "C03",
+            "claim": "Văn bản hợp nhất 03/2026/VBHN-NĐ-BTP",
+            "sourceId": "birthConsolidated",
+            "evidence": "Nguồn tìm kiếm chính thức; trang mở không truy cập được qua công cụ; chờ đọc toàn văn."
+          },
+          {
+            "id": "C04",
+            "claim": "Quy định thai sản có cập nhật 2026",
+            "sourceId": "population2026",
+            "evidence": "Đã mở metadata; BHXH công bố hướng dẫn, chưa kiểm tra toàn văn điều kiện."
+          }
+        ],
+        "expertReviewed": false
+      }
     },
     {
       "stage": "baby",
       "pillar": "thinking",
       "id": "kham-pha-nguyen-nhan-ket-qua",
       "title": "Năm đầu đời: khám phá nguyên nhân–kết quả qua chơi",
-      "summary": "Cho bé cơ hội quan sát, thử và phản hồi trong môi trường an toàn.",
+      "summary": "Cẩm nang chơi nhận thức 0–12 tháng theo tín hiệu của bé: quan sát, thử, đáp lại, điều chỉnh độ khó và an toàn trong nhà.",
       "sections": [
         {
-          "heading": "Tư duy bắt đầu bằng tương tác",
-          "body": "Hoạt động chơi qua lại giúp trẻ thực hành chú ý và khám phá môi trường. Với bé nhỏ, người lớn có thể phản hồi khi bé phát âm hoặc đưa tay, sau đó chờ bé tiếp tục. Không cần trò chơi có đáp án hoặc mục tiêu phát triển trí thông minh sớm.",
+          "heading": "Vì sao khám phá nguyên nhân–kết quả quan trọng?",
+          "body": "Bé học từ sự thay đổi của môi trường và phản ứng của người chăm sóc. Khi một hành động dẫn tới kết quả có thể quan sát, chẳng hạn bé phát âm và người lớn trả lời, bé có cơ hội khám phá sự liên hệ giữa hành động và điều xảy ra. Harvard và UNICEF mô tả chơi tương tác là cơ hội luyện tập kỹ năng phát triển; điều này không có nghĩa một trò chơi riêng lẻ giúp tăng IQ hoặc dự đoán thành tích. Mục tiêu là sự tò mò và kết nối trong lúc bé tỉnh, thoải mái.",
           "sourceIds": [
             "playHarvard",
             "playInfant"
@@ -3643,36 +3793,78 @@
           "kind": "source-based"
         },
         {
-          "heading": "Ví dụ đồ vật biến mất rồi xuất hiện",
-          "body": "Khi bé tỉnh và muốn chơi, dùng một đồ chơi phù hợp tuổi, che một phần bằng tay rồi đưa ra để bé quan sát. Người lớn giữ khăn và vật dụng ngoài vùng mặt bé; không để đồ mềm, dây hoặc vật nhỏ trong chỗ ngủ. Nếu bé không hứng thú, đổi hoạt động.",
+          "heading": "Giai đoạn còn chủ yếu quan sát và nghe",
+          "body": "Khi bé chưa chủ động cầm nắm, chọn trò chơi mặt đối mặt: nói một câu, đợi bé nhìn hoặc phát âm, rồi đáp lại nhẹ nhàng. Có thể đặt một vật tương phản an toàn ngoài tầm miệng trong lúc chơi có giám sát, di chuyển chậm để bé quan sát nếu muốn. Không ép bé theo dõi vật, không đánh giá nếu bé quay mặt, không đưa đồ chơi vào nôi ngủ. Nếu bé mệt hoặc đói, nghỉ và đáp ứng nhu cầu trước.",
           "sourceIds": [],
           "kind": "editorial-practice"
         },
         {
-          "heading": "Tạo nhiều cách thử",
-          "body": "Với bé đã có khả năng cầm nắm phù hợp, đặt vật nhẹ, đủ lớn và an toàn trong tầm với dưới giám sát. Người chăm mô tả khi vật di chuyển, để bé thử lại thay vì ngay lập tức đưa vào tay. Không treo dây hoặc đồ vật ở nơi có nguy cơ mắc kẹt.",
+          "heading": "Giai đoạn đã biết với và cầm đồ vật",
+          "body": "Khi khả năng cầm nắm phù hợp, chuẩn bị một đồ chơi nguyên khối nhẹ, lớn hơn nguy cơ hóc và được thiết kế cho độ tuổi. Đặt trên bề mặt chơi ổn định, để bé chủ động với tới trong tư thế an toàn. Người lớn mô tả khi đồ vật di chuyển, đợi bé thử rồi hỗ trợ nếu bé muốn. Có thể lặp lại cùng món đồ ở vị trí khác; không đặt vật quá xa hoặc buộc bé thực hiện tư thế chưa sẵn sàng.",
           "sourceIds": [],
           "kind": "editorial-practice"
         },
         {
-          "heading": "Điều chỉnh theo tín hiệu",
-          "body": "Một ngày bé có thể thích nhìn, ngày khác muốn nghỉ. Dừng nếu bé khó chịu và không ép kéo dài. Người chăm có thể ghi nhận điều bé tự làm được, không so sánh với video trên mạng. Nếu lo về khả năng đáp ứng hoặc mất kỹ năng, trao đổi bác sĩ.",
+          "heading": "Khi bé quan tâm đồ vật ẩn và xuất hiện",
+          "body": "UNICEF có hoạt động tìm đồ vật trong danh sách trò chơi theo giai đoạn. Một phiên bản tại nhà là người lớn giữ một vật phù hợp tuổi, che một phần sau bàn tay mình rồi cho vật xuất hiện trở lại. Bé có thể nhìn, đưa tay hoặc chỉ quan sát. Người lớn giữ mọi vật che ngoài vùng mặt và đường thở; không đặt chăn, dây hoặc túi trong vùng ngủ/chơi không giám sát. Không cần bé phải tìm đúng, chỉ tiếp tục nếu bé thích.",
+          "sourceIds": [
+            "playInfant"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo một vòng chơi 3 bước: quan sát – thử – chờ",
+          "body": "Bước đầu, quan sát bé đang chú ý điều gì. Tiếp theo, tạo một thay đổi nhỏ, ví dụ lăn một quả bóng mềm lớn trên mặt sàn an toàn khi người lớn giữ kiểm soát. Sau đó chờ bé phản hồi, không ngay lập tức lặp dồn dập. Nếu bé nhìn sang chỗ khác, chuyển sang tương tác khác hoặc kết thúc. Bố, mẹ và ông bà đều có thể thực hành bằng ngôn ngữ quen thuộc; không cần mua bộ đồ chơi kích thích trí não.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "An toàn và điều chỉnh theo từng trẻ",
+          "body": "Kiểm tra đồ chơi có bộ phận nhỏ, pin dễ tháo, nam châm, dây, cạnh sắc hoặc hư hỏng; tránh vật có nguy cơ hóc hoặc mắc kẹt. Chỉ chơi khi bé tỉnh và người lớn giám sát, giữ không gian ngủ theo hướng dẫn an toàn riêng. Trẻ sinh non hoặc có nhu cầu phát triển đặc biệt có thể cần hoạt động được điều chỉnh theo tư vấn chuyên môn. Không dựa trên tuổi ghi trong bài để ép bé ngồi, bò hoặc đứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi hứng thú chứ không chấm điểm",
+          "body": "Ghi một câu đơn giản nếu muốn: hôm nay bé nhìn bóng lăn, quay sang khi nghe tiếng mẹ, hoặc dừng vì mệt. Không so sánh số lần làm được giữa các trẻ, không dùng kết quả để chẩn đoán. Nếu có lo ngại kéo dài về đáp ứng, nghe nhìn, vận động hoặc mất kỹ năng đã có, trao đổi bác sĩ. Với mục tiêu tìm hiểu gắn bó và giao tiếp, bài học 'Khi bé nhìn, ê a hoặc khóc' tập trung vào đáp lại tín hiệu; bài này tập trung vào khám phá đồ vật và nguyên nhân–kết quả, tránh lặp hai mục đích.",
           "sourceIds": [],
           "kind": "editorial-practice"
         }
       ],
       "practice": [
-        "Chọn một đồ chơi an toàn phù hợp tuổi.",
-        "Thử tương tác quan sát–chờ–đáp lại.",
-        "Dừng khi bé mất hứng thú, ghi điều bé quan tâm."
+        "Chọn một đồ chơi an toàn, nguyên khối, phù hợp khả năng.",
+        "Thực hành vòng quan sát–thử–chờ khi bé tỉnh.",
+        "Thử thay đổi một yếu tố nhỏ, không ép phản ứng.",
+        "Kiểm tra môi trường chơi và dừng khi bé mệt.",
+        "Ghi một điều bé hứng thú; trao đổi chuyên gia nếu có lo ngại."
       ],
-      "limits": "Không phải bài kiểm tra nhận thức hay liệu pháp kích thích phát triển; luôn giám sát và chọn vật an toàn.",
+      "limits": "Không phải bài kiểm tra phát triển, bài tập trị liệu hoặc phương pháp tăng IQ. Mốc chỉ định hướng lựa chọn hoạt động, không bắt buộc đạt theo tháng; luôn bảo đảm giám sát và an toàn.",
       "sourceIds": [
         "playHarvard",
         "playInfant"
       ],
       "status": "draft",
-      "batch": "S04-AZ-03A"
+      "batch": "S04-AZ-03A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04A",
+        "revisedOn": "2026-11-25",
+        "status": "expanded-draft",
+        "claimChecks": [
+          {
+            "id": "C01",
+            "claim": "Chơi tạo cơ hội khám phá và thực hành kỹ năng",
+            "sourceId": "playHarvard",
+            "evidence": "Đã mở trang hoạt động của Harvard, dùng nguyên tắc tổng quát."
+          },
+          {
+            "id": "C02",
+            "claim": "UNICEF có ví dụ trò chơi theo giai đoạn, tương tác và tìm đồ vật",
+            "sourceId": "playInfant",
+            "evidence": "Đã đọc trang, chọn hoạt động có điều chỉnh an toàn; quy trình 3 bước do dự án biên tập."
+          }
+        ],
+        "expertReviewed": false
+      }
     },
     {
       "stage": "baby",
