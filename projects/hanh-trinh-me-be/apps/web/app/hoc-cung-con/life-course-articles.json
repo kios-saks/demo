@@ -189,6 +189,36 @@
       "name": "Bộ Công an — Cảnh giác trước các kịch bản lừa đảo 2026",
       "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
       "scope": "Không cung cấp OTP, xác minh kênh chính thức; trình báo khi nghi lừa đảo."
+    },
+    "ncd": {
+      "name": "WHO — Noncommunicable diseases",
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases/",
+      "scope": "Yếu tố nguy cơ, phòng ngừa, phát hiện và chăm sóc bệnh không lây."
+    },
+    "bp": {
+      "name": "WHO Việt Nam — Hypertension",
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension",
+      "scope": "Tăng huyết áp, yếu tố nguy cơ và theo dõi chuyên môn."
+    },
+    "workMental": {
+      "name": "WHO — Mental health at work",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+      "scope": "Điều kiện làm việc, hỗ trợ và sức khỏe tinh thần."
+    },
+    "menopause": {
+      "name": "WHO — Menopause",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+      "scope": "Chuyển tiếp mãn kinh, trải nghiệm đa dạng, chăm sóc phù hợp."
+    },
+    "workSafety": {
+      "name": "WHO — Occupational health",
+      "url": "https://www.who.int/health-topics/occupational-health",
+      "scope": "Môi trường làm việc, kiểm soát nguy cơ và sức khỏe nghề nghiệp."
+    },
+    "communityLearning": {
+      "name": "UNESCO — Community Learning Centres in Viet Nam",
+      "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+      "scope": "Mô hình học tập cộng đồng; không phải danh sách cơ sở đang hoạt động."
     }
   },
   "articles": [
@@ -1923,6 +1953,688 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "health",
+      "id": "kham-chu-dong-23-34",
+      "title": "Khám sức khỏe chủ động tuổi 23–34: xây hồ sơ và kế hoạch theo nguy cơ",
+      "summary": "Chuyển từ khám khi ốm sang biết tiền sử, nhu cầu dự phòng và theo dõi phù hợp.",
+      "sections": [
+        {
+          "heading": "Hiểu lý do khám chủ động",
+          "body": "Bệnh không lây có thể liên quan cả yếu tố di truyền, môi trường và thói quen. Ở tuổi đi làm, đừng đợi đến khi có triệu chứng mới tìm hiểu sức khỏe. Không nhất thiết mua gói xét nghiệm lớn; trao đổi bác sĩ về tiền sử, nghề nghiệp, thuốc, tiêm chủng và nguy cơ riêng.",
+          "sourceIds": [
+            "ncd",
+            "bp"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị hồ sơ cá nhân",
+          "body": "Ghi những bệnh từng được xác nhận, thuốc và dị ứng, tiền sử gia đình nếu biết, lần khám và kết quả cũ. Mang thông tin cần thiết đến cơ sở y tế để tránh xét nghiệm trùng lặp. Giữ tài liệu ở nơi riêng tư, không gửi cho dịch vụ chưa xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hỏi bác sĩ về dự phòng",
+          "body": "Thảo luận việc đo huyết áp, răng miệng, thị lực, tiêm chủng, sức khỏe sinh sản và những nguy cơ liên quan môi trường làm việc. Hỏi mục đích của mỗi kiểm tra, giới hạn và cách xử lý kết quả. Không tự suy luận bệnh từ một chỉ số hoặc tự uống thuốc theo kết quả.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi và lựa chọn thay đổi",
+          "body": "Sau buổi khám, ghi rõ việc cần làm, mốc hẹn lại và người liên hệ khi có câu hỏi. Chọn thay đổi khả thi như bớt thuốc lá, thêm vận động hoặc ổn định bữa ăn. Nếu xuất hiện dấu hiệu cấp cứu, tìm trợ giúp ngay, không chờ lịch khám.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập hợp thông tin thuốc, tiền sử và kết quả cũ.",
+        "Đặt ba câu hỏi về nguy cơ cá nhân cho buổi khám.",
+        "Ghi kế hoạch theo dõi do bác sĩ thống nhất."
+      ],
+      "limits": "Không khuyến nghị một gói xét nghiệm hay lịch sàng lọc chung; kế hoạch dự phòng cần dựa trên nguy cơ và chuyên môn.",
+      "sourceIds": [
+        "ncd",
+        "bp"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "psych",
+      "id": "cang-thang-va-kiet-suc-23-34",
+      "title": "Căng thẳng tuổi 23–34: phân biệt khó khăn nhất thời với nhu cầu hỗ trợ",
+      "summary": "Xem lại khối lượng công việc, quan hệ, tài chính và nguồn lực thay vì quy mọi vấn đề cho ý chí.",
+      "sections": [
+        {
+          "heading": "Nhìn cả môi trường và bản thân",
+          "body": "WHO xem điều kiện công việc là yếu tố quan trọng đối với sức khỏe tinh thần. Áp lực thời hạn, thiếu quyền chủ động, thu nhập bấp bênh hoặc phân biệt đối xử có thể làm khó việc nghỉ ngơi. Không coi chịu đựng vô hạn là biểu hiện của trách nhiệm.",
+          "sourceIds": [
+            "workMental"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xác định vấn đề cụ thể",
+          "body": "Trong vài ngày, ghi lại tình huống khiến bạn căng thẳng, nhu cầu chưa được đáp ứng và việc nào nằm trong khả năng thay đổi. Ví dụ lịch họp kéo dài khiến không có bữa trưa; giải pháp có thể là thương lượng khung nghỉ, thay vì chỉ mua một khóa quản lý căng thẳng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo hệ thống hỗ trợ",
+          "body": "Nói rõ một đề nghị với quản lý, bạn đời hoặc người tin cậy: cần phân chia việc, giảm nhiệm vụ không thiết yếu hoặc có thời gian nghỉ. Giữ kết nối xã hội và hoạt động dễ chịu. Nếu hoàn cảnh không an toàn, tìm hỗ trợ phù hợp thay vì tự đối đầu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần chuyên gia",
+          "body": "Buồn bã, lo âu, mất ngủ hoặc khó sinh hoạt kéo dài là lý do nên trao đổi chuyên môn. Không tự chẩn đoán kiệt sức hay bệnh tâm thần qua quiz. Khi có nguy cơ tự gây hại hoặc không thể giữ an toàn, hãy tìm trợ giúp khẩn cấp và ở cạnh người tin cậy nếu có thể.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Ghi một vấn đề có thể thay đổi và một vấn đề cần hỗ trợ.",
+        "Đặt một ranh giới công việc khả thi trong tuần.",
+        "Xác định người và dịch vụ hỗ trợ đáng tin."
+      ],
+      "limits": "Không phải công cụ chẩn đoán, không thay tư vấn tâm lý hoặc điều trị; ưu tiên trợ giúp khẩn cấp nếu có nguy cơ.",
+      "sourceIds": [
+        "workMental"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "body",
+      "id": "sinh-san-va-quyet-dinh-gia-dinh-23-34",
+      "title": "Sức khỏe sinh sản 23–34: lựa chọn có con, tránh thai và chuẩn bị chăm sóc",
+      "summary": "Bảo vệ quyền tự quyết, trao đổi về kế hoạch sống và sử dụng dịch vụ y tế phù hợp.",
+      "sections": [
+        {
+          "heading": "Không có một lộ trình bắt buộc",
+          "body": "Kế hoạch sinh sản là quyết định cá nhân. Có con, chưa có con hoặc không có con đều là lựa chọn cần được tôn trọng. WHO cung cấp thông tin các phương pháp tránh thai để hỗ trợ quyết định có hiểu biết; phương pháp phù hợp phụ thuộc sức khỏe và mong muốn.",
+          "sourceIds": [
+            "contraception",
+            "sti"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nếu đang cân nhắc có con",
+          "body": "Trao đổi với bạn đời về trách nhiệm chăm sóc, tài chính, nơi ở, công việc và nguồn hỗ trợ, không gây áp lực về thời điểm. Khi có kế hoạch mang thai, hẹn tư vấn tiền thai để hỏi về thuốc, bệnh nền, tiêm chủng và các yếu tố cần điều chỉnh. Không tự ngưng thuốc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nếu chưa muốn mang thai",
+          "body": "Hỏi cơ sở y tế về hiệu quả, cách dùng, tác dụng phụ và phương án phòng STI. Không tự chọn thuốc dựa trên trải nghiệm của người khác. Tôn trọng đồng thuận trong mọi quyết định; nếu bị ép buộc, tìm người hỗ trợ an toàn và dịch vụ phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chăm sóc khi có lo lắng",
+          "body": "Đau, ra máu bất thường, triệu chứng nhiễm trùng hoặc khó khăn sinh sản cần được đánh giá theo hoàn cảnh. Chuẩn bị câu hỏi, thông tin thuốc và triệu chứng; không gửi hình ảnh riêng cho tài khoản bán thuốc. Giữ quyền riêng tư trong cả trao đổi gia đình lẫn khám bệnh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết những mong muốn và câu hỏi của bản thân.",
+        "Chọn một cuộc tư vấn phù hợp nếu cần.",
+        "Thảo luận trách nhiệm và giới hạn một cách tự nguyện."
+      ],
+      "limits": "Không chỉ định phương pháp tránh thai, thời điểm sinh con hoặc điều trị hiếm muộn; cần tư vấn cá nhân.",
+      "sourceIds": [
+        "contraception",
+        "sti"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "routine",
+      "id": "lich-lam-viec-va-giac-ngu-23-34",
+      "title": "Nhịp sống tuổi 23–34: ngủ, vận động và thời gian phục hồi khi đi làm",
+      "summary": "Thiết kế lịch thực tế theo công việc ca kíp, đi lại và trách nhiệm cá nhân.",
+      "sections": [
+        {
+          "heading": "Đặt giấc ngủ vào lịch thật",
+          "body": "Xem giờ bắt đầu ca, đi lại, giờ kết thúc và trách nhiệm ở nhà. Giữ nhịp nghỉ ổn định trong khả năng; nếu làm ca đêm, cần có môi trường nghỉ phù hợp và tránh điều khiển phương tiện khi quá buồn ngủ. Không đánh giá sức khỏe qua việc dậy sớm bằng mọi giá.",
+          "sourceIds": [
+            "sleep",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Vận động có thể duy trì",
+          "body": "Thử đi bộ một phần quãng đường khi an toàn, thay đổi tư thế giữa giờ làm hoặc tham gia hoạt động yêu thích. Bắt đầu với mức phù hợp và tăng dần theo khả năng. Không dùng tập luyện để bù toàn bộ thời gian ngủ thiếu hoặc ép mục tiêu theo người khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đặt giới hạn chuyển tiếp",
+          "body": "Chọn một tín hiệu kết thúc ngày làm việc, như ghi lại việc mai làm rồi đóng thông báo không cấp thiết. Thống nhất chia việc nhà với người cùng sống. Nếu việc làm đòi hỏi liên lạc ngoài giờ, trao đổi phạm vi và phương án nghỉ thay vì chịu quá tải kéo dài.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại điều làm bạn mệt",
+          "body": "Sau một tuần, ghi những lần bỏ bữa, thiếu nghỉ hoặc lịch không khả thi; thay đổi một yếu tố trước. Mất ngủ kéo dài, buồn ngủ ban ngày hoặc triệu chứng khi vận động cần đánh giá chuyên môn; không tự dùng thuốc ngủ hay chất kích thích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập lịch một tuần gồm giờ đi lại, làm và nghỉ.",
+        "Chọn một hoạt động thể chất vừa sức.",
+        "Đặt một khoảng nghỉ không thông báo mỗi ngày nếu khả thi."
+      ],
+      "limits": "Không thay đánh giá rối loạn giấc ngủ hay chỉ định vận động; ca kíp và bệnh nền cần điều chỉnh riêng.",
+      "sourceIds": [
+        "sleep",
+        "activityGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "education",
+      "id": "hoc-nang-cao-ky-nang-23-34",
+      "title": "Học nâng cao 23–34 tuổi: chọn kỹ năng có ích và xây sản phẩm thực tế",
+      "summary": "Lập kế hoạch học theo nhu cầu nghề nghiệp và mục tiêu sống, tránh tích lũy chứng chỉ vô mục đích.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ năng lực cần dùng",
+          "body": "Học suốt đời không chỉ có bằng cấp. Hãy xác định một công việc chưa làm tốt hoặc mục tiêu muốn đạt: ví dụ viết báo cáo, ngoại ngữ, phân tích số liệu, sử dụng công cụ số. Chọn mục tiêu có thể quan sát và phù hợp thời gian, thay vì học theo trào lưu.",
+          "sourceIds": [
+            "lifelong",
+            "ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khảo sát lỗ hổng bằng việc làm",
+          "body": "Thử một nhiệm vụ nhỏ trước khi mua khóa: viết báo cáo mẫu, xây bảng tính hoặc trình bày một vấn đề. Tìm điều khó nhất, rồi chia thành kiến thức nền, thực hành và phản hồi. Dùng tài liệu chính thống và hỏi người có chuyên môn; không chỉ xem video liên tục.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học song song công việc",
+          "body": "Lên lịch hai đến ba khoảng học khả thi, đặt một sản phẩm đầu ra mỗi tuần. Khi dùng AI, loại bỏ dữ liệu khách hàng, bí mật công ty và thông tin cá nhân khỏi đầu vào; kiểm chứng kết quả. Hỏi quy định của nơi làm trước khi đưa công cụ vào quy trình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá đầu ra",
+          "body": "Cuối tháng, đối chiếu sản phẩm với tiêu chí ban đầu, xin góp ý và chọn bước tiếp theo. Nếu khóa học không đáp ứng nhu cầu, xem chính sách dừng hoặc hoàn phí. Không gắn giá trị bản thân với số chứng chỉ hay lời hứa tăng lương.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một kỹ năng và nhiệm vụ kiểm tra ban đầu.",
+        "Lập lộ trình bốn tuần có sản phẩm đầu ra.",
+        "Tìm một người phản hồi và đo tiến bộ bằng sản phẩm."
+      ],
+      "limits": "Kế hoạch chỉ là gợi ý; không bảo đảm thăng chức, thu nhập hoặc chứng chỉ được công nhận.",
+      "sourceIds": [
+        "lifelong",
+        "ai"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "schools",
+      "id": "chon-chuong-trinh-dao-tao-23-34",
+      "title": "Chọn chương trình đào tạo tuổi 23–34: học nghề, học thêm hay chứng chỉ",
+      "summary": "Kiểm chứng cơ sở, nội dung, đầu ra và toàn bộ chi phí trước khi đăng ký.",
+      "sections": [
+        {
+          "heading": "Phân biệt loại hình đào tạo",
+          "body": "Một chương trình có thể cấp bằng, chứng chỉ nghề, giấy hoàn thành khóa hoặc chỉ cung cấp kiến thức. Trước khi chọn, hỏi văn bằng dùng cho mục tiêu nào, cơ quan/cơ sở nào cấp và nơi tuyển dụng có yêu cầu gì. Đừng coi mọi chứng nhận quảng cáo là tương đương.",
+          "sourceIds": [
+            "schools",
+            "accredit",
+            "lifelong"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra nguồn công khai",
+          "body": "Tra cứu website chính thức, thông tin đơn vị tổ chức, chương trình, giảng viên, phí và điều khoản. Với giáo dục đại học, đối chiếu phạm vi kiểm định trong danh sách của Cục Quản lý chất lượng và cập nhật mới hơn nếu có. Với nghề hoặc khóa ngắn, kiểm tra nguồn có thẩm quyền phù hợp loại hình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "So sánh tổng thời gian và chi phí",
+          "body": "Ghi học phí, tài liệu, đi lại, phí thi, thời gian ngoài giờ và điều kiện hoàn phí. Yêu cầu ví dụ bài thực hành, tiêu chí đánh giá, cách hỗ trợ học viên. Nếu quảng cáo cam kết việc làm hoặc thu nhập, kiểm tra văn bản và cách xác minh trước khi trả tiền.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử trước khi đăng ký",
+          "body": "Tham dự buổi tư vấn chính thức hoặc bài mẫu, hỏi người đã học về nội dung thực tế và xem phản hồi có bằng chứng. Chọn khóa phù hợp mục tiêu thay vì đắt nhất; nếu không thể xác minh pháp lý hoặc chi phí, hoãn quyết định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng so sánh ba khóa theo cùng tiêu chí.",
+        "Kiểm tra nơi cấp và giá trị của giấy chứng nhận.",
+        "Đọc điều khoản trước khi thanh toán."
+      ],
+      "limits": "Không phải danh sách đề cử cơ sở; cần kiểm chứng công nhận, điều khoản và dữ liệu đúng thời điểm.",
+      "sourceIds": [
+        "schools",
+        "accredit",
+        "lifelong"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "safety",
+      "id": "an-toan-lao-dong-va-lua-dao-23-34",
+      "title": "An toàn tuổi 23–34: công việc, giao dịch số và kế hoạch khẩn cấp",
+      "summary": "Nhận diện nguy cơ tại nơi làm, tránh giao dịch vội và biết cách tìm hỗ trợ.",
+      "sections": [
+        {
+          "heading": "Môi trường lao động an toàn",
+          "body": "WHO nhấn mạnh sức khỏe nghề nghiệp gắn với tổ chức công việc và phòng nguy cơ. Khi bắt đầu việc mới, hỏi hướng dẫn an toàn, đào tạo và đầu mối báo sự cố. Không vận hành máy móc hoặc làm nhiệm vụ nguy hiểm khi chưa được đào tạo; yêu cầu trang bị phù hợp.",
+          "sourceIds": [
+            "workSafety",
+            "scam",
+            "road"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giao dịch và tuyển dụng",
+          "body": "Xác minh công ty, tài khoản nhận tiền, hợp đồng và thông tin tuyển dụng độc lập. Không cài phần mềm từ người lạ hoặc đưa mã OTP. Nếu nghi lừa đảo, ngừng giao dịch, liên hệ ngân hàng qua kênh chính thức và trình báo cơ quan Công an phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đi lại và nhà ở",
+          "body": "Kiểm tra lối thoát, thiết bị điện, chỗ để xe và phương án đi lại an toàn. Nếu mệt sau ca dài, chọn cách về phù hợp thay vì lái xe khi buồn ngủ. Khi sống cùng người khác, thống nhất quy tắc khóa, khách và đầu mối quản lý.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi xảy ra sự cố",
+          "body": "Ưu tiên rời nguy hiểm nếu an toàn, gọi trợ giúp và làm theo hướng dẫn của người có chuyên môn. Tham gia đào tạo sơ cứu thực hành nếu có cơ hội; không thử kỹ thuật cấp cứu chưa được hướng dẫn. Báo sự cố tại nơi làm theo quy trình, lưu thông tin cần thiết.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi người phụ trách về quy trình an toàn ở nơi làm.",
+        "Kiểm tra kênh ngân hàng và tài khoản nhận tiền trước giao dịch.",
+        "Lưu người liên hệ, lối thoát và phương án đi lại an toàn."
+      ],
+      "limits": "Không thay đào tạo an toàn lao động hoặc hướng dẫn cấp cứu chuyên nghiệp; tuân thủ quy định và quy trình tại chỗ.",
+      "sourceIds": [
+        "workSafety",
+        "scam",
+        "road"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "nutrition",
+      "id": "bua-an-trung-nien-35-59",
+      "title": "Dinh dưỡng tuổi 35–59: ăn cân bằng trong bữa cơm gia đình và khi có bệnh nền",
+      "summary": "Tổ chức bữa ăn linh hoạt, chú ý chất lượng và hỏi chuyên gia khi có nhu cầu điều trị.",
+      "sections": [
+        {
+          "heading": "Không có thực đơn trung niên duy nhất",
+          "body": "Một chế độ ăn đa dạng, phù hợp nhu cầu là nền tảng sức khỏe. Khi hoàn cảnh thay đổi, như ít vận động hơn, làm ca hoặc đang điều trị bệnh, không nhất thiết giữ nguyên thói quen cũ. Đừng dùng thực đơn trên mạng để thay chỉ định chuyên môn.",
+          "sourceIds": [
+            "whoDiet",
+            "ncd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh bữa cơm chung",
+          "body": "Chọn các món rau, đậu, cá, thịt hoặc trứng và thực phẩm tinh bột theo điều kiện; hỏi người ăn về khẩu vị và khả năng nhai. Thử nêm vừa, để gia vị riêng và hạn chế đồ uống ngọt. Có thể đổi cách chế biến thay vì loại bỏ toàn bộ món yêu thích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Mua sắm và ăn ngoài",
+          "body": "Lập kế hoạch vài ngày, dùng thực phẩm theo mùa, so sánh nhãn và chi phí. Nếu thường ăn ngoài do công việc, chọn món dễ kết hợp và hạn chế tình trạng bỏ bữa. Tôn trọng nhu cầu khác nhau giữa thành viên, không buộc cả nhà ăn theo chế độ điều trị của một người.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có bệnh hoặc thay đổi sức khỏe",
+          "body": "Người có đái tháo đường, bệnh thận, tim mạch, dị ứng hoặc thay đổi cân nặng không chủ ý cần tư vấn riêng. Mang kết quả khám và hỏi cách điều chỉnh món quen thuộc. Không tự dùng thực phẩm chức năng hoặc ngừng thuốc vì lời quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn ba món gia đình dễ điều chỉnh gia vị.",
+        "Ghi những câu hỏi về ăn uống liên quan kết quả khám.",
+        "Đối chiếu chi phí và tính khả thi sau một tuần."
+      ],
+      "limits": "Không cung cấp chế độ điều trị, hạn mức dinh dưỡng hoặc thực đơn giảm cân cá nhân.",
+      "sourceIds": [
+        "whoDiet",
+        "ncd"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "health",
+      "id": "kham-theo-nguy-co-35-59",
+      "title": "Khám sức khỏe tuổi 35–59: dự phòng bệnh mạn tính và theo dõi có kế hoạch",
+      "summary": "Tổ chức hồ sơ, trao đổi nguy cơ và lựa chọn sàng lọc có căn cứ.",
+      "sections": [
+        {
+          "heading": "Chủ động trước triệu chứng",
+          "body": "Tăng huyết áp và nhiều bệnh mạn có thể cần được phát hiện qua kiểm tra phù hợp. Nguy cơ thay đổi theo tuổi, tiền sử, thói quen và hoàn cảnh. Hỏi bác sĩ việc nào cần ưu tiên, không mua gói tầm soát toàn thân chỉ vì quảng cáo phát hiện mọi bệnh.",
+          "sourceIds": [
+            "ncd",
+            "bp"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị thông tin hữu ích",
+          "body": "Mang danh sách thuốc, kết quả xét nghiệm và chẩn đoán trước đây, tiền sử gia đình và câu hỏi về triệu chứng. Hỏi ý nghĩa, lợi ích, hạn chế và chi phí của xét nghiệm được đề xuất. Không tự giải mã một kết quả đơn lẻ hoặc thay đơn thuốc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi sau khi khám",
+          "body": "Nếu được hướng dẫn theo dõi tại nhà, ghi kết quả đúng cách theo chỉ dẫn và mang đến lần hẹn. Thống nhất mốc kiểm tra tiếp, ai liên hệ khi có vấn đề và việc cần thay đổi. Nếu phải chăm người khác, sắp xếp thời gian riêng cho chăm sóc bản thân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tình huống cần trợ giúp",
+          "body": "Đau ngực, khó thở nặng, yếu liệt mới hoặc mất ý thức cần trợ giúp khẩn cấp. Với triệu chứng kéo dài hoặc sức khỏe thay đổi, hẹn đánh giá phù hợp. Không chờ đến đợt khám công ty nếu xuất hiện vấn đề đáng lo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập hợp hồ sơ cũ và danh sách thuốc.",
+        "Hỏi bác sĩ về kế hoạch sàng lọc theo nguy cơ.",
+        "Ghi mốc theo dõi và đầu mối liên hệ."
+      ],
+      "limits": "Không quy định xét nghiệm, tần suất khám hay mục tiêu điều trị cho mọi người; cần chuyên gia cá nhân hóa.",
+      "sourceIds": [
+        "ncd",
+        "bp"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "psych",
+      "id": "chuyen-tiep-va-cham-nguoi-than-35-59",
+      "title": "Tâm lý trung niên: áp lực công việc, thay đổi gia đình và gánh nặng chăm sóc",
+      "summary": "Nhận diện quá tải, chia sẻ trách nhiệm và xây mạng lưới hỗ trợ.",
+      "sections": [
+        {
+          "heading": "Nhiều vai trò cùng lúc",
+          "body": "Tuổi trung niên có thể đi kèm chăm con, cha mẹ, công việc và trách nhiệm tài chính. Điều kiện sống và làm việc ảnh hưởng sức khỏe tinh thần; không coi việc luôn phải gồng mình là thước đo thành công. Mỗi người có trải nghiệm khác nhau.",
+          "sourceIds": [
+            "workMental",
+            "mentalOlder",
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lập bản đồ trách nhiệm",
+          "body": "Ghi việc mình đang đảm nhận, thời gian cần, ai có thể hỗ trợ và việc có thể giảm. Ví dụ hẹn khám cho cha mẹ, đưa đón con và làm việc ngoài giờ có thể trùng nhau. Trao đổi một yêu cầu cụ thể thay vì chờ mọi người tự nhận ra khó khăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ không gian cho bản thân",
+          "body": "Chọn thời gian nghỉ, sở thích hoặc kết nối mà bản thân mong muốn; có thể rất ngắn nếu hoàn cảnh bận. Hỏi người được chăm sóc về nhu cầu của họ, tôn trọng quyền tự quyết. Tìm nguồn hỗ trợ gia đình hoặc cộng đồng để giảm việc phải làm một mình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần trợ giúp",
+          "body": "Nếu căng thẳng, buồn bã hoặc khó ngủ kéo dài và ảnh hưởng sinh hoạt, trao đổi chuyên gia. Không tự chẩn đoán qua danh sách dấu hiệu. Khi có nguy cơ tự gây hại, bạo lực hoặc tình huống khẩn cấp, tìm trợ giúp ngay và ưu tiên nơi an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Vẽ bảng trách nhiệm và người có thể chia sẻ.",
+        "Thống nhất một việc được phân công lại.",
+        "Chọn một khoảng nghỉ tự nguyện mỗi tuần."
+      ],
+      "limits": "Không thay đánh giá sức khỏe tinh thần; hoàn cảnh bạo lực hoặc nguy cơ tự gây hại cần trợ giúp khẩn cấp.",
+      "sourceIds": [
+        "workMental",
+        "mentalOlder",
+        "social"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "body",
+      "id": "sinh-ly-va-man-kinh-35-59",
+      "title": "Thay đổi sinh lý tuổi 35–59: tiền mãn kinh, sức khỏe tình dục và cơ thể",
+      "summary": "Thảo luận thay đổi tự nhiên và triệu chứng cần đánh giá, không coi mọi vấn đề là do tuổi.",
+      "sections": [
+        {
+          "heading": "Trải nghiệm sinh lý đa dạng",
+          "body": "WHO giải thích mãn kinh là một chuyển tiếp sinh lý, không phải bệnh; trải nghiệm và triệu chứng rất khác nhau. Người khác cũng có thể nhận thấy thay đổi giấc ngủ, chức năng tình dục hoặc cơ thể. Không giả định mọi người đều có cùng triệu chứng hay nhu cầu.",
+          "sourceIds": [
+            "menopause",
+            "menstrual",
+            "sti"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ghi nhận thay đổi có ích",
+          "body": "Nếu có thay đổi kinh nguyệt, nóng bừng, khó ngủ, khó chịu khi quan hệ hoặc vấn đề cơ thể, ghi thời điểm, mức ảnh hưởng và thuốc đang dùng. Không cần chia sẻ thông tin riêng ngoài phạm vi chăm sóc. Hỏi bác sĩ liệu triệu chứng cần đánh giá nguyên nhân khác không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quan hệ và lựa chọn chăm sóc",
+          "body": "Trao đổi nhu cầu và ranh giới với người thân; mọi hoạt động tình dục đều cần đồng thuận. Nguy cơ STI không biến mất vì lớn tuổi. Hỏi chuyên gia về phương án phù hợp, tránh dùng hormone, thuốc hoặc thực phẩm chức năng do quảng cáo hứa trẻ hóa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm đánh giá khi có lo lắng",
+          "body": "Ra máu bất thường, đau hoặc triệu chứng ảnh hưởng đáng kể sinh hoạt cần trao đổi nhân viên y tế. Đừng chịu đựng vì nghĩ đó là điều tất yếu của tuổi tác. Khi trao đổi, hỏi lợi ích, nguy cơ và lựa chọn theo dõi; không tự ngưng thuốc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết câu hỏi về thay đổi cơ thể muốn trao đổi riêng.",
+        "Tìm cơ sở tư vấn có chuyên môn.",
+        "Thảo luận nhu cầu và ranh giới với người đồng hành nếu muốn."
+      ],
+      "limits": "Không chẩn đoán mãn kinh, chỉ định hormone hoặc phương án điều trị; triệu chứng cần đánh giá riêng.",
+      "sourceIds": [
+        "menopause",
+        "menstrual",
+        "sti"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "education",
+      "id": "hoc-suot-doi-35-59",
+      "title": "Học suốt đời tuổi 35–59: cập nhật kỹ năng và thích nghi thay đổi công việc",
+      "summary": "Xây lộ trình học từ kinh nghiệm sẵn có, có thực hành và phản hồi.",
+      "sections": [
+        {
+          "heading": "Kinh nghiệm là tài nguyên",
+          "body": "Học tập người lớn bao gồm kỹ năng nghề, cộng đồng và phát triển cá nhân. Bắt đầu bằng kinh nghiệm đã có: tổ chức công việc, chuyên môn, giao tiếp hoặc chăm sóc. Xác định việc muốn làm khác đi, tránh xem tuổi tác là lý do không thể học công nghệ.",
+          "sourceIds": [
+            "lifelong",
+            "ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn nhiệm vụ thực tế",
+          "body": "Ví dụ học bảng tính để quản lý chi phí, học ngoại ngữ cho công việc hoặc học quy trình mới. Chia nhiệm vụ thành bước nhỏ, dùng hướng dẫn chính thức và thực hành với dữ liệu giả. Khi dùng AI, không đưa dữ liệu công ty hoặc thông tin người khác vào công cụ chưa được phép.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tổ chức thời gian linh hoạt",
+          "body": "Nếu bận chăm sóc gia đình, chọn khoảng học ngắn có mục tiêu và chỗ lưu tiến độ. Xin hỗ trợ hoặc học cùng người tin cậy; không so sánh tốc độ với người trẻ. Có thể tham khảo lớp địa phương, đào tạo tại nơi làm hoặc khóa tự học.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá bằng khả năng áp dụng",
+          "body": "Cuối tháng, thử làm lại nhiệm vụ ban đầu không nhìn hướng dẫn, ghi bước còn vướng và xin phản hồi. Đừng tiếp tục mua khóa mới nếu chưa áp dụng khóa cũ. Nếu thay đổi nghề, khảo sát yêu cầu thực tế trước khi bỏ việc hoặc cam kết khoản chi lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một nhiệm vụ cần cải thiện.",
+        "Thực hành với dữ liệu mẫu hai đến ba lần.",
+        "Xin phản hồi và điều chỉnh lộ trình sau bốn tuần."
+      ],
+      "limits": "Không bảo đảm chuyển nghề thành công hoặc thu nhập; kiểm chứng yêu cầu tuyển dụng, điều kiện chứng chỉ.",
+      "sourceIds": [
+        "lifelong",
+        "ai"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "schools",
+      "id": "chon-khoa-dao-tao-lai-35-59",
+      "title": "Chọn khóa đào tạo lại tuổi 35–59: chất lượng, đầu ra và khả năng học thực tế",
+      "summary": "Đối chiếu bằng chứng thay vì mua khóa học theo lời hứa nghề nghiệp.",
+      "sections": [
+        {
+          "heading": "Chọn đúng loại chương trình",
+          "body": "Hỏi mình cần bằng chính thức, chứng chỉ chuyên môn, kỹ năng ngắn hạn hay hoạt động cộng đồng. Loại giấy chứng nhận khác nhau về giá trị và phạm vi. Không coi tên gọi học viện hoặc trung tâm quốc tế là chứng minh được công nhận.",
+          "sourceIds": [
+            "lifelong",
+            "accredit",
+            "communityLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xác minh đơn vị đào tạo",
+          "body": "Tra cứu tổ chức cấp, nội dung, giảng viên, hình thức đánh giá và thông tin liên hệ chính thức. Nếu thuộc đại học, kiểm tra phạm vi kiểm định phù hợp; với lớp địa phương, hỏi cơ quan quản lý hoặc đơn vị tổ chức. UNESCO mô tả mô hình trung tâm học tập cộng đồng tại Việt Nam, không xác nhận từng nơi đang mở lớp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra khả năng tham gia",
+          "body": "So sánh lịch, phương tiện đi lại, học trực tuyến, yêu cầu thiết bị, khả năng hỗ trợ và toàn bộ phí. Hỏi điều kiện nghỉ, học lại và hoàn phí. Nếu chương trình quảng cáo giúp đổi nghề nhanh, hỏi số liệu đầu ra và cách xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ra quyết định từng bước",
+          "body": "Dùng bài học mẫu hoặc buổi tư vấn để đánh giá mức độ phù hợp. Chọn thử một khóa nhỏ nếu mục tiêu chưa rõ, sau đó xem có cần học dài hơn. Đừng vay hoặc trả toàn bộ khoản lớn trước khi đọc hợp đồng và kiểm tra nơi nhận tiền.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "So sánh ba lựa chọn theo mục tiêu và giá trị chứng nhận.",
+        "Xác minh lịch và phí toàn khóa qua nguồn chính thức.",
+        "Thử bài mẫu rồi quyết định."
+      ],
+      "limits": "Không đề cử trường cụ thể; cần kiểm chứng thông tin hiện hành và giá trị văn bằng với bên sử dụng.",
+      "sourceIds": [
+        "lifelong",
+        "accredit",
+        "communityLearning"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "safety",
+      "id": "an-toan-cong-viec-va-cham-soc-35-59",
+      "title": "An toàn tuổi 35–59: lao động, đi lại và chăm sóc người thân",
+      "summary": "Giảm nguy cơ trong các vai trò thường ngày bằng chuẩn bị và chia sẻ trách nhiệm.",
+      "sections": [
+        {
+          "heading": "Nhận diện nguy cơ theo công việc",
+          "body": "Môi trường lao động an toàn cần quy trình và trang bị phù hợp, không chỉ sự cẩn thận cá nhân. Xem lại nguy cơ nâng vật nặng, máy móc, trượt ngã hoặc làm việc quá mệt. Yêu cầu hướng dẫn và báo điều kiện không an toàn theo quy trình.",
+          "sourceIds": [
+            "workSafety",
+            "road",
+            "falls"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Di chuyển khi có trách nhiệm gia đình",
+          "body": "Nếu phải đưa đón người thân, lập lịch dự phòng và chọn tuyến an toàn. Không điều khiển phương tiện khi mất tỉnh táo. Tránh vừa lái vừa nghe chỉ dẫn dài từ điện thoại; dừng ở vị trí an toàn nếu cần liên lạc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chăm sóc người thân không quá sức",
+          "body": "Khi hỗ trợ người hạn chế vận động, hỏi nhân viên y tế cách di chuyển và dụng cụ phù hợp. Không tự nâng hoặc kéo người bằng sức mình nếu không an toàn. Rà soát lối đi, ánh sáng, nơi tắm và người hỗ trợ; tôn trọng lựa chọn người được chăm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kế hoạch khi xảy ra sự cố",
+          "body": "Lưu đầu mối cơ sở y tế, người thân và quản lý nơi làm; thống nhất người thay thế khi có việc đột xuất. Nếu có chấn thương nghiêm trọng hoặc cấp cứu, tìm hỗ trợ và làm theo hướng dẫn chuyên môn, không thử thao tác vượt khả năng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Rà soát một nguy cơ ở nhà và một ở nơi làm.",
+        "Thống nhất người hỗ trợ khi lịch chăm sóc trùng.",
+        "Hỏi chuyên gia về cách hỗ trợ di chuyển an toàn nếu cần."
+      ],
+      "limits": "Không thay đào tạo an toàn, vật lý trị liệu hay sơ cứu; điều chỉnh theo khả năng và hoàn cảnh thực tế.",
+      "sourceIds": [
+        "workSafety",
+        "road",
+        "falls"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02C"
     }
   ]
 }
