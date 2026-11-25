@@ -1,10 +1,18 @@
 import type {FastifyInstance,FastifyRequest,FastifyReply} from "fastify";
-import {FixtureFamilyService,FamilyError} from "./family-service.js";
+import {FamilyError,type FixtureFamilyService} from "./family-service.js";
+import {authConfig,createSupabaseAuth} from "../../../packages/auth/src/supabase-auth.js";
+type Awaitable<T>=T|Promise<T>;
+export type FamilyRepository = { [K in keyof FixtureFamilyService]: FixtureFamilyService[K] extends (...args:infer A)=>infer R ? (...args:A)=>Awaitable<R> : never };
 export interface FamilyDependencies {
  // Established provider adapter must verify signature/issuer/audience/expiry and account status.
  // The route never trusts identity or role supplied in JSON or headers other than verified Bearer.
  verifyIdentity:(token:string)=>Promise<string|null>;
- service:FixtureFamilyService;
+ service:FamilyRepository;
+}
+// Compose a real provider with a future durable repository; server startup remains disabled.
+export function createSupabaseFamilyDependencies(service:FamilyRepository,env:Record<string,string|undefined>):FamilyDependencies|null{
+ const config=authConfig(env);if(!config)return null;
+ return {service,verifyIdentity:createSupabaseAuth(config).verifyIdentity};
 }
 export function registerFamilyRoutes(app:FastifyInstance,deps:FamilyDependencies){
  const {service,verifyIdentity}=deps;
@@ -15,7 +23,7 @@ export function registerFamilyRoutes(app:FastifyInstance,deps:FamilyDependencies
   let id:string|null;
   try{id=await verifyIdentity(auth.slice(7));}catch{return reply.code(503).send({error:"AUTH_UNAVAILABLE"});}
   if(!id)return reply.code(401).send({error:"AUTH_REQUIRED"});
-  try{return {data:fn(id,req)};}catch(e){
+  try{return {data:await fn(id,req)};}catch(e){
    if(e instanceof FamilyError)return reply.code(e.status).send({error:e.code});
    return reply.code(500).send({error:"FAMILY_ERROR"});
   }
@@ -34,5 +42,5 @@ export function registerFamilyRoutes(app:FastifyInstance,deps:FamilyDependencies
  app.get("/v1/families/:familyId/members",run((id,r)=>service.members(id,param(r,"familyId"))));
  app.post("/v1/families/:familyId/invitations",run((id,r)=>{const b=body(r,["accountId","role"]);return service.invite(id,param(r,"familyId"),b.accountId,b.role);}));
  app.post("/v1/family-invitations/accept",run((id,r)=>service.accept(id,body(r,["token"]).token)));
- app.delete("/v1/families/:familyId/members/:accountId",run((id,r)=>{service.revoke(id,param(r,"familyId"),param(r,"accountId"));return {revoked:true};}));
+ app.delete("/v1/families/:familyId/members/:accountId",run(async(id,r)=>{await service.revoke(id,param(r,"familyId"),param(r,"accountId"));return {revoked:true};}));
 }
