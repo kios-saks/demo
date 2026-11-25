@@ -64,7 +64,7 @@ function reportFallback(error:unknown):void{
    error instanceof Error&&error.message==="Invalid backend origin"?"INVALID_ORIGIN":
    error instanceof Error&&error.message==="Preview API unavailable"?"UPSTREAM_404":
    error instanceof Error&&error.message==="Preview API returned non-success"?"UPSTREAM_NON_200":"UNKNOWN";
- console.warn("DEV_CONTENT_SNAPSHOT_FALLBACK",kind);
+ console.warn(process.env.WEB_DYNAMIC_MEDIA==="true"?"DEV_CONTENT_LIVE_UNAVAILABLE":"DEV_CONTENT_SNAPSHOT_FALLBACK",kind);
 }
 export async function listDevArticles():Promise<{articles:ArticleSummary[];source:PreviewSource}>{
  try{

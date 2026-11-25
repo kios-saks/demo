@@ -49,3 +49,8 @@ test("permanently unavailable upstream exhausts bounded deadline and clears flig
 test("oversized body is not retried",async()=>{
  const f=fixture(()=>ok({data:"x".repeat(1024)}));await assert.rejects(()=>f.reader(origin+"/a",{},{maxBytes:100}),/too large/);assert.equal(f.calls.length,1);
 });
+
+test("programming errors are not retried as network errors",async()=>{
+ const f=fixture(()=>{throw new Error("fixture assertion");});
+ await assert.rejects(()=>f.reader(origin+"/a"),/fixture assertion/);assert.equal(f.calls.length,1);
+});

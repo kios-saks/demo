@@ -5,6 +5,7 @@ type Options={budgetMs?:number;attemptMs?:number;maxBytes?:number;accept?:RegExp
 type Dependencies={fetcher?:typeof fetch;now?:()=>number;sleep?:(ms:number)=>Promise<void>};
 const transient=(s:number)=>[502,503,504].includes(s);
 const json=/^application\/json(?:;|$)/i;
+const retryable=(e:unknown)=>e instanceof BackendUnavailable||e instanceof TypeError||e instanceof DOMException&&(e.name==="TimeoutError"||e.name==="AbortError");
 export class BackendUnavailable extends Error{constructor(){super("Backend temporarily unavailable");this.name="BackendUnavailable";}}
 class InvalidBody extends Error{constructor(){super("Backend response too large");this.name="InvalidBody";}}
 /** GET only. In-flight sharing is scoped to URL, all headers (hashed), and policy.
@@ -25,7 +26,7 @@ export function createBackendReader(deps:Dependencies={}){
   return new Uint8Array(Buffer.concat(chunks));
  }
  async function once(url:string,headers:Headers,deadline:number,attemptMs:number,maxBytes:number,accept:RegExp):Promise<Buffered>{
-  const response=await fetcher(url,{method:"GET",headers,cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))});
+  const response=await fetcher(url,{method:"GET",headers:Object.fromEntries(headers.entries()),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))});
   if(transient(response.status)||(response.ok&&!accept.test(response.headers.get("content-type")||""))){
    void response.body?.cancel().catch(()=>{});throw new BackendUnavailable();
   }
@@ -45,7 +46,7 @@ export function createBackendReader(deps:Dependencies={}){
       if(result.status===200&&JSON.parse(Buffer.from(result.body).toString("utf8")).ok===true)return;
       // A permanent HTTP error on readiness must not spin indefinitely.
       if(result.status>=400&&result.status<500)throw new InvalidBody();
-     }catch(e){if(e instanceof InvalidBody)throw e;}
+     }catch(e){if(!retryable(e)&&!(e instanceof SyntaxError))throw e;}
      await sleep(Math.min(delay,remaining(deadline)));delay=Math.min(delay*2,5000);
     }
    })();
@@ -62,7 +63,7 @@ export function createBackendReader(deps:Dependencies={}){
   for(;;){
    try{return await once(url.href,headers,deadline,o.attemptMs,o.maxBytes,o.accept);}
    catch(e){
-    if(e instanceof InvalidBody)throw e;
+    if(!retryable(e))throw e;
     remaining(deadline);
     await waitReady(url.origin,deadline,o.attemptMs,o.budgetMs);
     // Delay between repeated application-level 503s even if readiness itself is green.
