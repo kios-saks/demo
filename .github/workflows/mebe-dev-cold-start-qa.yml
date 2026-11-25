@@ -36,10 +36,8 @@ jobs:
           echo "WEB_FIRST_START $(date -u +%FT%TZ)"
           curl --silent --show-error --connect-timeout 15 --max-time 90 --output /dev/null --write-out 'WEB_FIRST HTTP %{http_code}; total %{time_total}s; DNS %{time_namelookup}s\n' https://hanh-trinh-me-be-web-jn5v.onrender.com/api/health || true
           echo "WEB_FIRST_END $(date -u +%FT%TZ)"
-          # Let Web's existing authenticated startup audit trigger the API itself.
-          # No HTTP probes to API during this observation window.
-          sleep 75
-          echo "API_OBSERVATION_END $(date -u +%FT%TZ)"
-          curl --silent --show-error --connect-timeout 15 --max-time 90 --output /dev/null --write-out 'API_FOLLOWUP HTTP %{http_code}; total %{time_total}s; DNS %{time_namelookup}s\n' https://hanh-trinh-me-be-api-jn5v.onrender.com/health/ready || true
-      - name: Read-only live HTTP smoke
-        run: node scripts/qa-dev-live.mjs
+          # Observe the complete startup retry window. Never call the API
+          # directly in this job: doing so would invalidate a Web-only wake.
+          sleep 180
+          echo "WEB_ONLY_OBSERVATION_END $(date -u +%FT%TZ)"
+          echo "Inspect fresh Render startup, BACKEND_WAKE_READY, DEV_AUTH_SMOKE_PASS and DEV_CMS_SMOKE_PASS. This job alone does not certify backend cold-start recovery."
