@@ -59,19 +59,24 @@ all("[data-journey-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("
 all("[data-checklist-key]").forEach(el=>el.addEventListener("change",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
  if(el.checked)data[el.dataset.checklistKey]=true;else delete data[el.dataset.checklistKey];
- if(!set("checklist",data))refreshChecks();
+ if(!set("checklist",data)){refreshChecks();announce("Không thể lưu checklist trên trình duyệt này.");}
 }));
 all("[data-checklist-reset]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
- Object.keys(data).filter(key=>key.startsWith(btn.dataset.checklistReset+"-")).forEach(key=>delete data[key]);set("checklist",data);refreshChecks();
+ Object.keys(data).filter(key=>key.startsWith(btn.dataset.checklistReset+"-")).forEach(key=>delete data[key]);const ok=set("checklist",data);refreshChecks();if(!ok)announce("Không thể đặt lại checklist trên trình duyệt này.");
 })});
 all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
- set("historyEnabled",el.checked);if(!el.checked)remove("history");refreshHistory();
+ const wasEnabled=get("historyEnabled",false)===true;
+ if(el.checked&&!wasEnabled&&!remove("history")){refreshHistory();announce("Không thể xóa lịch sử cũ; chưa bật lưu lịch sử đọc.");return;}
+ const saved=set("historyEnabled",el.checked);
+ if(!saved){refreshHistory();announce("Không thể thay đổi tùy chọn lịch sử đọc trên trình duyệt này.");return;}
+ const cleared=el.checked||remove("history");refreshHistory();
+ if(!cleared)announce("Đã tắt lưu lịch sử đọc nhưng chưa xóa được dữ liệu cũ. Hãy thử xóa lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 }));
-all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{remove("history");refreshHistory();announce("Đã xóa lịch sử đọc.")})});
+all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
 all("[data-clear-reader]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
- ["saved","stage","checklist","history","historyEnabled"].forEach(remove);
- refreshSaved();refreshJourney();refreshChecks();refreshHistory();announce("Đã xóa dữ liệu cá nhân hóa trên thiết bị này.");
+ const results=["historyEnabled","saved","stage","checklist","history"].map(remove);
+ refreshSaved();refreshJourney();refreshChecks();refreshHistory();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 })});
 all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",async()=>{
  if(!validSlug(current))return;
