@@ -1,0 +1,3486 @@
+{
+  "version": 1,
+  "asOf": "2026-11-25",
+  "method": "Mỗi bài gán một chặng và một chủ đề chính; bài thai kỳ/hậu sản giữ originalStage; thiếu niên chia theo trọng tâm, các chặng 23+ không tự gán bài 18+. Độ phủ draft không phải đủ nội dung hoặc kiểm định nguồn. Kiểm kê từ metadata và tiêu đề, cần đọc claim từng bài khi biên tập.",
+  "stats": {
+    "legacy": 72,
+    "lessons": 21,
+    "unique": 93,
+    "cells": 192,
+    "applicable": 173,
+    "partial": 47,
+    "gaps": 126,
+    "notPriority": 19,
+    "byStage": [
+      {
+        "id": "prenatal",
+        "age": "Trước khi sinh",
+        "items": 30,
+        "applicable": 10,
+        "partial": 8,
+        "gaps": 2
+      },
+      {
+        "id": "baby",
+        "age": "0–12 tháng",
+        "items": 15,
+        "applicable": 11,
+        "partial": 7,
+        "gaps": 4
+      },
+      {
+        "id": "toddler",
+        "age": "1–2 tuổi",
+        "items": 9,
+        "applicable": 12,
+        "partial": 5,
+        "gaps": 7
+      },
+      {
+        "id": "preschool",
+        "age": "3–5 tuổi",
+        "items": 9,
+        "applicable": 13,
+        "partial": 6,
+        "gaps": 7
+      },
+      {
+        "id": "school",
+        "age": "6–10 tuổi",
+        "items": 9,
+        "applicable": 15,
+        "partial": 7,
+        "gaps": 8
+      },
+      {
+        "id": "preteen",
+        "age": "11–13 tuổi",
+        "items": 5,
+        "applicable": 16,
+        "partial": 3,
+        "gaps": 13
+      },
+      {
+        "id": "teen",
+        "age": "14–17 tuổi",
+        "items": 7,
+        "applicable": 16,
+        "partial": 5,
+        "gaps": 11
+      },
+      {
+        "id": "adult",
+        "age": "18–22 tuổi",
+        "items": 9,
+        "applicable": 16,
+        "partial": 6,
+        "gaps": 10
+      },
+      {
+        "id": "early-adult",
+        "age": "23–34 tuổi",
+        "items": 0,
+        "applicable": 16,
+        "partial": 0,
+        "gaps": 16
+      },
+      {
+        "id": "midlife",
+        "age": "35–59 tuổi",
+        "items": 0,
+        "applicable": 16,
+        "partial": 0,
+        "gaps": 16
+      },
+      {
+        "id": "older",
+        "age": "60–74 tuổi",
+        "items": 0,
+        "applicable": 16,
+        "partial": 0,
+        "gaps": 16
+      },
+      {
+        "id": "later-life",
+        "age": "75+ tuổi",
+        "items": 0,
+        "applicable": 16,
+        "partial": 0,
+        "gaps": 16
+      }
+    ],
+    "p0": 63
+  },
+  "refs": [
+    {
+      "kind": "legacy",
+      "id": "cuoc-tro-chuyen-truoc-khi-co-con",
+      "title": "5 cuộc trò chuyện trước khi có em bé",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con"
+    },
+    {
+      "kind": "legacy",
+      "id": "hen-tu-van-tien-thai",
+      "title": "Một cuộc hẹn tiền thai nên chuẩn bị gì?",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 4,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/hen-tu-van-tien-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "axit-folic-truoc-khi-mang-thai",
+      "title": "Axit folic trước mang thai: những điều nên biết",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 2,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/axit-folic-truoc-khi-mang-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "kham-suc-khoe-tien-thai",
+      "title": "Khám sức khỏe tiền thai: checklist chuẩn bị",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/kham-suc-khoe-tien-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "title": "Rà soát thuốc và tiêm chủng trước khi có thai",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/thuoc-tiem-chung-va-ke-hoach-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "ke-hoach-ho-tro-tien-thai",
+      "title": "Kế hoạch hỗ trợ gia đình trước khi có con",
+      "stage": "prenatal",
+      "pillar": "life",
+      "originalStage": "chuan-bi-mang-thai",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/ke-hoach-ho-tro-tien-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "lan-kham-thai-dau-tien",
+      "title": "Lần khám thai đầu tiên: chuẩn bị như thế nào?",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/lan-kham-thai-dau-tien"
+    },
+    {
+      "kind": "legacy",
+      "id": "cam-xuc-dau-thai-ky",
+      "title": "Khi cảm xúc thay đổi trong đầu thai kỳ",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/cam-xuc-dau-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "lich-kham-thai-ba-thang-dau",
+      "title": "Khám thai 3 tháng đầu: theo dõi những gì?",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/lich-kham-thai-ba-thang-dau"
+    },
+    {
+      "kind": "legacy",
+      "id": "om-nghen-va-an-uong-dau-thai-ky",
+      "title": "Ốm nghén và ăn uống 3 tháng đầu",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 3,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/om-nghen-va-an-uong-dau-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "suc-khoe-tinh-than-ba-thang-dau",
+      "title": "Lo âu đầu thai kỳ: khi nào tìm hỗ trợ?",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/suc-khoe-tinh-than-ba-thang-dau"
+    },
+    {
+      "kind": "legacy",
+      "id": "dau-hieu-nguy-hiem-dau-thai-ky",
+      "title": "Dấu hiệu cảnh báo không nên bỏ qua khi mới mang thai",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "originalStage": "thai-ky-3-thang-dau",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dau-hieu-nguy-hiem-dau-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "nhat-ky-thai-ky",
+      "title": "Tạo nhật ký thai kỳ không áp lực",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/nhat-ky-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "dong-hanh-khi-mang-thai",
+      "title": "Người đồng hành có thể giúp gì?",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dong-hanh-khi-mang-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "kham-thai-ba-thang-giua",
+      "title": "Theo dõi 3 tháng giữa: lịch hẹn và câu hỏi",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/kham-thai-ba-thang-giua"
+    },
+    {
+      "kind": "legacy",
+      "id": "sang-loc-tieu-duong-thai-ky",
+      "title": "Sàng lọc đái tháo đường thai kỳ: hỏi gì khi khám?",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/sang-loc-tieu-duong-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "van-dong-an-toan-khi-mang-thai",
+      "title": "Vận động trong thai kỳ: lắng nghe cơ thể",
+      "stage": "prenatal",
+      "pillar": "routine",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/van-dong-an-toan-khi-mang-thai"
+    },
+    {
+      "kind": "legacy",
+      "id": "chat-luong-giac-ngu-ba-thang-giua",
+      "title": "Giấc ngủ và sự thoải mái ở 3 tháng giữa",
+      "stage": "prenatal",
+      "pillar": "routine",
+      "originalStage": "thai-ky-3-thang-giua",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/chat-luong-giac-ngu-ba-thang-giua"
+    },
+    {
+      "kind": "legacy",
+      "id": "tui-do-di-sinh",
+      "title": "Danh sách túi đồ đi sinh linh hoạt",
+      "stage": "prenatal",
+      "pillar": "life",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/tui-do-di-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "ke-hoach-ho-tro-sau-sinh",
+      "title": "Lập kế hoạch hỗ trợ 2 tuần đầu sau sinh",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/ke-hoach-ho-tro-sau-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "ke-hoach-sinh-an-toan",
+      "title": "Lập kế hoạch sinh linh hoạt cho gia đình",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/ke-hoach-sinh-an-toan"
+    },
+    {
+      "kind": "legacy",
+      "id": "dau-hieu-can-di-vien-cuoi-thai-ky",
+      "title": "Cuối thai kỳ: khi nào cần liên hệ bệnh viện?",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dau-hieu-can-di-vien-cuoi-thai-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "thai-may-va-theo-doi-thai-cuoi-ky",
+      "title": "Quan sát thai máy và thay đổi đáng chú ý",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/thai-may-va-theo-doi-thai-cuoi-ky"
+    },
+    {
+      "kind": "legacy",
+      "id": "chuan-bi-sau-sinh-dinh-duong-cham-soc",
+      "title": "Chuẩn bị 48 giờ và 6 tuần đầu sau sinh",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "originalStage": "thai-ky-3-thang-cuoi",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/chuan-bi-sau-sinh-dinh-duong-cham-soc"
+    },
+    {
+      "kind": "legacy",
+      "id": "nguoi-me-cung-can-duoc-cham-soc",
+      "title": "Sau sinh, người mẹ cũng cần được chăm sóc",
+      "stage": "prenatal",
+      "pillar": "health",
+      "originalStage": "hau-san",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/nguoi-me-cung-can-duoc-cham-soc"
+    },
+    {
+      "kind": "legacy",
+      "id": "chia-viec-trong-gia-dinh",
+      "title": "Phân chia công việc để không ai kiệt sức",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "originalStage": "hau-san",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/chia-viec-trong-gia-dinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "dau-hieu-canh-bao-sau-sinh",
+      "title": "Dấu hiệu cảnh báo ở mẹ sau sinh",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "originalStage": "hau-san",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dau-hieu-canh-bao-sau-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "title": "Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung",
+      "stage": "prenatal",
+      "pillar": "body",
+      "originalStage": "hau-san",
+      "sourceCount": 3,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/hoi-phuc-sau-sinh-mo-va-sinh-thuong"
+    },
+    {
+      "kind": "legacy",
+      "id": "tam-trang-sau-sinh-va-tram-cam",
+      "title": "Tâm trạng sau sinh: khi nào nên nhờ người giúp?",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "originalStage": "hau-san",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/tam-trang-sau-sinh-va-tram-cam"
+    },
+    {
+      "kind": "legacy",
+      "id": "ho-tro-bu-me-va-khi-kho-khan",
+      "title": "Hỗ trợ nuôi con bằng sữa mẹ sau sinh",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "originalStage": "hau-san",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/ho-tro-bu-me-va-khi-kho-khan"
+    },
+    {
+      "kind": "legacy",
+      "id": "lam-quen-nhip-sinh-hoat-so-sinh",
+      "title": "Làm quen nhịp sinh hoạt của trẻ sơ sinh",
+      "stage": "baby",
+      "pillar": "routine",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "nhung-cau-hoi-khi-cham-be",
+      "title": "10 câu hỏi nên hỏi bác sĩ khi chăm bé sơ sinh",
+      "stage": "baby",
+      "pillar": "health",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/nhung-cau-hoi-khi-cham-be"
+    },
+    {
+      "kind": "legacy",
+      "id": "ngu-an-toan-cho-tre-so-sinh",
+      "title": "Giấc ngủ an toàn: nằm ngửa và mặt phẳng chắc",
+      "stage": "baby",
+      "pillar": "routine",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/ngu-an-toan-cho-tre-so-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "dau-hieu-nguy-hiem-o-tre-so-sinh",
+      "title": "Dấu hiệu nguy hiểm ở trẻ sơ sinh cần đưa đi khám",
+      "stage": "baby",
+      "pillar": "safety",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dau-hieu-nguy-hiem-o-tre-so-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "bu-me-hoan-toan-sau-sinh",
+      "title": "Bú mẹ hoàn toàn 6 tháng đầu: nguyên tắc nền tảng",
+      "stage": "baby",
+      "pillar": "nutrition",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/bu-me-hoan-toan-sau-sinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "theo-doi-phat-trien-hai-thang-dau",
+      "title": "Quan sát mốc phát triển trong 2 tháng đầu",
+      "stage": "baby",
+      "pillar": "body",
+      "originalStage": "so-sinh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/theo-doi-phat-trien-hai-thang-dau"
+    },
+    {
+      "kind": "legacy",
+      "id": "choi-va-tuong-tac-voi-be",
+      "title": "Chơi và tương tác cùng bé 4–12 tháng",
+      "stage": "baby",
+      "pillar": "education",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 3,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/choi-va-tuong-tac-voi-be"
+    },
+    {
+      "kind": "legacy",
+      "id": "moc-phat-trien-khong-phai-cuoc-dua",
+      "title": "Mốc phát triển không phải cuộc đua",
+      "stage": "baby",
+      "pillar": "body",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/moc-phat-trien-khong-phai-cuoc-dua"
+    },
+    {
+      "kind": "legacy",
+      "id": "an-dam-khi-nao-bat-dau",
+      "title": "Ăn dặm từ khoảng 6 tháng: bắt đầu thế nào?",
+      "stage": "baby",
+      "pillar": "nutrition",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 3,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/an-dam-khi-nao-bat-dau"
+    },
+    {
+      "kind": "legacy",
+      "id": "an-toan-chong-sac-khi-an-dam",
+      "title": "Phòng hóc sặc khi bé bắt đầu ăn dặm",
+      "stage": "baby",
+      "pillar": "safety",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 3,
+      "sectionCount": 10,
+      "status": "draft",
+      "href": "/bai-viet/an-toan-chong-sac-khi-an-dam"
+    },
+    {
+      "kind": "legacy",
+      "id": "moc-phat-trien-sau-thang-thu-sau",
+      "title": "Theo dõi phát triển 6–12 tháng không áp lực",
+      "stage": "baby",
+      "pillar": "body",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/moc-phat-trien-sau-thang-thu-sau"
+    },
+    {
+      "kind": "legacy",
+      "id": "cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
+      "title": "Giấc ngủ 4–12 tháng: thói quen và an toàn",
+      "stage": "baby",
+      "pillar": "routine",
+      "originalStage": "nhu-nhi",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang"
+    },
+    {
+      "kind": "legacy",
+      "id": "khi-con-noi-khong",
+      "title": "Khi con bắt đầu nói “không”",
+      "stage": "toddler",
+      "pillar": "psych",
+      "originalStage": "tap-di",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/khi-con-noi-khong"
+    },
+    {
+      "kind": "legacy",
+      "id": "goc-choi-kham-pha-an-toan",
+      "title": "Thiết kế góc chơi khám phá an toàn",
+      "stage": "toddler",
+      "pillar": "safety",
+      "originalStage": "tap-di",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/goc-choi-kham-pha-an-toan"
+    },
+    {
+      "kind": "legacy",
+      "id": "giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+      "title": "Phát triển ngôn ngữ 1–3 tuổi: trò chuyện thế nào?",
+      "stage": "toddler",
+      "pillar": "education",
+      "originalStage": "tap-di",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/giao-tiep-voi-tre-tu-mot-den-ba-tuoi"
+    },
+    {
+      "kind": "legacy",
+      "id": "con-an-va-tu-lap-khi-tap-di",
+      "title": "Bữa ăn 1–3 tuổi: khuyến khích tự lập không ép",
+      "stage": "toddler",
+      "pillar": "nutrition",
+      "originalStage": "tap-di",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/con-an-va-tu-lap-khi-tap-di"
+    },
+    {
+      "kind": "legacy",
+      "id": "cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+      "title": "Trẻ hay ăn vạ: thiết lập giới hạn không bạo lực",
+      "stage": "toddler",
+      "pillar": "psych",
+      "originalStage": "tap-di",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/cam-xuc-an-va-khung-hoang-tuoi-len-hai"
+    },
+    {
+      "kind": "legacy",
+      "id": "an-toan-trong-nha-khi-tre-tap-di",
+      "title": "An toàn khi con bắt đầu chạy, leo trèo và khám phá",
+      "stage": "toddler",
+      "pillar": "safety",
+      "originalStage": "tap-di",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/an-toan-trong-nha-khi-tre-tap-di"
+    },
+    {
+      "kind": "legacy",
+      "id": "hoc-thong-qua-choi",
+      "title": "Học thông qua chơi ở tuổi mầm non",
+      "stage": "preschool",
+      "pillar": "education",
+      "originalStage": "mam-non",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/hoc-thong-qua-choi"
+    },
+    {
+      "kind": "legacy",
+      "id": "chuan-bi-ngay-dau-di-hoc",
+      "title": "Chuẩn bị cho ngày đầu đi học",
+      "stage": "preschool",
+      "pillar": "schools",
+      "originalStage": "mam-non",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/chuan-bi-ngay-dau-di-hoc"
+    },
+    {
+      "kind": "legacy",
+      "id": "hoc-qua-choi-ba-den-sau-tuoi",
+      "title": "Học qua chơi 3–6 tuổi: trò chơi nào thực sự hữu ích?",
+      "stage": "preschool",
+      "pillar": "education",
+      "originalStage": "mam-non",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/hoc-qua-choi-ba-den-sau-tuoi"
+    },
+    {
+      "kind": "legacy",
+      "id": "moc-phat-trien-tuoi-bon-va-nam",
+      "title": "Mốc 4–5 tuổi: quan sát thay vì tạo áp lực",
+      "stage": "preschool",
+      "pillar": "body",
+      "originalStage": "mam-non",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/moc-phat-trien-tuoi-bon-va-nam"
+    },
+    {
+      "kind": "legacy",
+      "id": "lam-quen-truong-mam-non",
+      "title": "Làm quen môi trường mẫu giáo: lộ trình mềm mại",
+      "stage": "preschool",
+      "pillar": "schools",
+      "originalStage": "mam-non",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/lam-quen-truong-mam-non"
+    },
+    {
+      "kind": "legacy",
+      "id": "giao-tiep-gioi-han-khong-don-roi",
+      "title": "Kỷ luật tích cực cho trẻ mầm non",
+      "stage": "preschool",
+      "pillar": "psych",
+      "originalStage": "mam-non",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/giao-tiep-gioi-han-khong-don-roi"
+    },
+    {
+      "kind": "legacy",
+      "id": "dong-hanh-viec-hoc",
+      "title": "Đồng hành việc học không chỉ nhìn điểm số",
+      "stage": "school",
+      "pillar": "education",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dong-hanh-viec-hoc"
+    },
+    {
+      "kind": "legacy",
+      "id": "tinh-ban-dau-doi",
+      "title": "Đồng hành cùng tình bạn đầu đời",
+      "stage": "school",
+      "pillar": "relationships",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/tinh-ban-dau-doi"
+    },
+    {
+      "kind": "legacy",
+      "id": "thoi-quen-hoc-tap-tieu-hoc",
+      "title": "Thói quen học tập 6–11 tuổi không chạy theo điểm số",
+      "stage": "school",
+      "pillar": "education",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/thoi-quen-hoc-tap-tieu-hoc"
+    },
+    {
+      "kind": "legacy",
+      "id": "giac-ngu-hoc-sinh-tieu-hoc",
+      "title": "Trẻ tiểu học ngủ bao nhiêu là đủ?",
+      "stage": "school",
+      "pillar": "routine",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/giac-ngu-hoc-sinh-tieu-hoc"
+    },
+    {
+      "kind": "legacy",
+      "id": "van-dong-cho-tre-tieu-hoc",
+      "title": "Vận động mỗi ngày cho trẻ 6–11 tuổi",
+      "stage": "school",
+      "pillar": "routine",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/van-dong-cho-tre-tieu-hoc"
+    },
+    {
+      "kind": "legacy",
+      "id": "phong-chong-bat-nat-o-truong",
+      "title": "Bắt nạt ở trường: cha mẹ và giáo viên cần phối hợp",
+      "stage": "school",
+      "pillar": "safety",
+      "originalStage": "tieu-hoc",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/phong-chong-bat-nat-o-truong"
+    },
+    {
+      "kind": "legacy",
+      "id": "noi-chuyen-ve-day-thi",
+      "title": "Nói chuyện về dậy thì không xấu hổ",
+      "stage": "preteen",
+      "pillar": "body",
+      "originalStage": "thieu-nien",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/noi-chuyen-ve-day-thi"
+    },
+    {
+      "kind": "legacy",
+      "id": "an-toan-so-cung-con",
+      "title": "Xây dựng thỏa thuận an toàn số với con",
+      "stage": "preteen",
+      "pillar": "digital",
+      "originalStage": "thieu-nien",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/an-toan-so-cung-con"
+    },
+    {
+      "kind": "legacy",
+      "id": "suc-khoe-tinh-than-tuoi-thieu-nien",
+      "title": "Sức khỏe tinh thần 12–17 tuổi: dấu hiệu cần hỗ trợ",
+      "stage": "teen",
+      "pillar": "psych",
+      "originalStage": "thieu-nien",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/suc-khoe-tinh-than-tuoi-thieu-nien"
+    },
+    {
+      "kind": "legacy",
+      "id": "noi-chuyen-day-thi-tinh-duc-an-toan",
+      "title": "Nói chuyện về dậy thì và ranh giới cá nhân",
+      "stage": "teen",
+      "pillar": "body",
+      "originalStage": "thieu-nien",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/noi-chuyen-day-thi-tinh-duc-an-toan"
+    },
+    {
+      "kind": "legacy",
+      "id": "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "title": "An toàn số và bắt nạt trực tuyến ở tuổi teen",
+      "stage": "teen",
+      "pillar": "digital",
+      "originalStage": "thieu-nien",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen"
+    },
+    {
+      "kind": "legacy",
+      "id": "giao-tiep-voi-con-tuoi-teen",
+      "title": "11 nguyên tắc gợi ý để trò chuyện với con tuổi teen",
+      "stage": "teen",
+      "pillar": "relationships",
+      "originalStage": "thieu-nien",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/giao-tiep-voi-con-tuoi-teen"
+    },
+    {
+      "kind": "legacy",
+      "id": "dong-hanh-khi-con-tu-lap",
+      "title": "Khi con bắt đầu tự lập",
+      "stage": "adult",
+      "pillar": "life",
+      "originalStage": "truong-thanh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/dong-hanh-khi-con-tu-lap"
+    },
+    {
+      "kind": "legacy",
+      "id": "giu-ket-noi-gia-dinh",
+      "title": "Giữ kết nối gia đình khi con đã lớn",
+      "stage": "adult",
+      "pillar": "relationships",
+      "originalStage": "truong-thanh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/giu-ket-noi-gia-dinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+      "title": "Lập kế hoạch tự lập sau 18 tuổi",
+      "stage": "adult",
+      "pillar": "life",
+      "originalStage": "truong-thanh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/ke-hoach-tu-lap-sau-muoi-tam-tuoi"
+    },
+    {
+      "kind": "legacy",
+      "id": "thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+      "title": "Thói quen sức khỏe khi bước vào tuổi trưởng thành",
+      "stage": "adult",
+      "pillar": "health",
+      "originalStage": "truong-thanh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+    },
+    {
+      "kind": "legacy",
+      "id": "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "title": "Thiết lập ranh giới lành mạnh giữa cha mẹ và con trưởng thành",
+      "stage": "adult",
+      "pillar": "relationships",
+      "originalStage": "truong-thanh",
+      "sourceCount": 2,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh"
+    },
+    {
+      "kind": "legacy",
+      "id": "quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+      "title": "Duy trì sức khỏe tinh thần và các mối quan hệ khi lớn lên",
+      "stage": "adult",
+      "pillar": "psych",
+      "originalStage": "truong-thanh",
+      "sourceCount": 3,
+      "sectionCount": 12,
+      "status": "draft",
+      "href": "/bai-viet/quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+    },
+    {
+      "kind": "lesson",
+      "id": "dap-lai-tin-hieu",
+      "title": "Khi bé nhìn, ê a hoặc khóc: đáp lại thế nào?",
+      "stage": "baby",
+      "pillar": "relationships",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-dap-lai-tin-hieu"
+    },
+    {
+      "kind": "lesson",
+      "id": "kham-pha-giac-quan",
+      "title": "Khám phá giác quan một cách an toàn",
+      "stage": "baby",
+      "pillar": "body",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-kham-pha-giac-quan"
+    },
+    {
+      "kind": "lesson",
+      "id": "thoi-quen-doc-cung-be",
+      "title": "Đọc sách từ năm đầu đời",
+      "stage": "baby",
+      "pillar": "education",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-thoi-quen-doc-cung-be"
+    },
+    {
+      "kind": "lesson",
+      "id": "cam-xuc-va-gioi-han",
+      "title": "Con giận dữ: gọi tên cảm xúc và giữ giới hạn",
+      "stage": "toddler",
+      "pillar": "psych",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-cam-xuc-va-gioi-han"
+    },
+    {
+      "kind": "lesson",
+      "id": "tu-chu-tung-buoc",
+      "title": "Tự lập qua việc nhỏ hằng ngày",
+      "stage": "toddler",
+      "pillar": "life",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-tu-chu-tung-buoc"
+    },
+    {
+      "kind": "lesson",
+      "id": "ranh-gioi-co-the",
+      "title": "Cơ thể của con và quyền nói không",
+      "stage": "toddler",
+      "pillar": "safety",
+      "originalStage": "toddler",
+      "sourceCount": 1,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-ranh-gioi-co-the"
+    },
+    {
+      "kind": "lesson",
+      "id": "choi-tu-duy",
+      "title": "Chơi để luyện chú ý và giải quyết vấn đề",
+      "stage": "preschool",
+      "pillar": "thinking",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-choi-tu-duy"
+    },
+    {
+      "kind": "lesson",
+      "id": "cam-xuc-va-ban-be",
+      "title": "Nhận biết cảm xúc và làm hòa với bạn",
+      "stage": "preschool",
+      "pillar": "psych",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-cam-xuc-va-ban-be"
+    },
+    {
+      "kind": "lesson",
+      "id": "con-va-cong-nghe",
+      "title": "Làm quen công nghệ có người lớn đồng hành",
+      "stage": "preschool",
+      "pillar": "digital",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-con-va-cong-nghe"
+    },
+    {
+      "kind": "lesson",
+      "id": "hoc-khong-so-sai",
+      "title": "Điểm số, sai lầm và cảm giác thuộc về",
+      "stage": "school",
+      "pillar": "psych",
+      "originalStage": "school",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-hoc-khong-so-sai"
+    },
+    {
+      "kind": "lesson",
+      "id": "kiem-chung-thong-tin",
+      "title": "Thám tử thông tin: đọc và kiểm chứng",
+      "stage": "school",
+      "pillar": "thinking",
+      "originalStage": "school",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-kiem-chung-thong-tin"
+    },
+    {
+      "kind": "lesson",
+      "id": "tien-tieu-vat",
+      "title": "Tiền tiêu vặt: nhu cầu, mong muốn và tiết kiệm",
+      "stage": "school",
+      "pillar": "finance",
+      "originalStage": "school",
+      "sourceCount": 1,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-tien-tieu-vat"
+    },
+    {
+      "kind": "lesson",
+      "id": "day-thi-thay-doi",
+      "title": "Dậy thì: hiểu thay đổi cơ thể và chăm sóc bản thân",
+      "stage": "preteen",
+      "pillar": "body",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-day-thi-thay-doi"
+    },
+    {
+      "kind": "lesson",
+      "id": "ban-be-va-ap-luc",
+      "title": "Bạn bè, bản sắc và áp lực đồng trang lứa",
+      "stage": "preteen",
+      "pillar": "psych",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-ban-be-va-ap-luc"
+    },
+    {
+      "kind": "lesson",
+      "id": "ai-co-the-sai",
+      "title": "AI có thể sai: hỏi thông minh và giữ riêng tư",
+      "stage": "preteen",
+      "pillar": "digital",
+      "originalStage": "preteen",
+      "sourceCount": 3,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-ai-co-the-sai"
+    },
+    {
+      "kind": "lesson",
+      "id": "quan-he-va-dong-thuan",
+      "title": "Quan hệ lành mạnh, đồng thuận và ranh giới",
+      "stage": "teen",
+      "pillar": "relationships",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-quan-he-va-dong-thuan"
+    },
+    {
+      "kind": "lesson",
+      "id": "du-an-ai-co-trach-nhiem",
+      "title": "Dự án học tập có AI và tư duy phản biện",
+      "stage": "teen",
+      "pillar": "digital",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-du-an-ai-co-trach-nhiem"
+    },
+    {
+      "kind": "lesson",
+      "id": "ngan-sach-va-lua-chon",
+      "title": "Ngân sách, lừa đảo và quyết định mua sắm",
+      "stage": "teen",
+      "pillar": "finance",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-ngan-sach-va-lua-chon"
+    },
+    {
+      "kind": "lesson",
+      "id": "tu-lap-va-nghe-nghiep",
+      "title": "Tự lập: thử nghề, học suốt đời và lập kế hoạch",
+      "stage": "adult",
+      "pillar": "career",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-tu-lap-va-nghe-nghiep"
+    },
+    {
+      "kind": "lesson",
+      "id": "tai-chinh-tu-lap",
+      "title": "Tài chính tự lập: thu nhập, chi phí và dự phòng",
+      "stage": "adult",
+      "pillar": "finance",
+      "originalStage": "adult",
+      "sourceCount": 1,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-tai-chinh-tu-lap"
+    },
+    {
+      "kind": "lesson",
+      "id": "tu-chu-va-ket-noi",
+      "title": "Tự chủ, ranh giới và kết nối với gia đình",
+      "stage": "adult",
+      "pillar": "psych",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 3,
+      "status": "draft",
+      "href": "/hoc-cung-con#lesson-tu-chu-va-ket-noi"
+    }
+  ],
+  "cells": [
+    {
+      "id": "prenatal--nutrition",
+      "stage": "prenatal",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thực phẩm an toàn, bữa ăn, vi chất theo tư vấn",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:axit-folic-truoc-khi-mang-thai",
+        "legacy:om-nghen-va-an-uong-dau-thai-ky",
+        "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+        "legacy:ho-tro-bu-me-va-khi-kho-khan"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--health",
+      "stage": "prenatal",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám tiền thai, từng tam cá nguyệt, hậu sản; hồ sơ chăm sóc",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:hen-tu-van-tien-thai",
+        "legacy:kham-suc-khoe-tien-thai",
+        "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
+        "legacy:lan-kham-thai-dau-tien",
+        "legacy:lich-kham-thai-ba-thang-dau",
+        "legacy:kham-thai-ba-thang-giua",
+        "legacy:sang-loc-tieu-duong-thai-ky",
+        "legacy:ke-hoach-sinh-an-toan",
+        "legacy:thai-may-va-theo-doi-thai-cuoi-ky",
+        "legacy:nguoi-me-cung-can-duoc-cham-soc"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--psych",
+      "stage": "prenatal",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Lo âu, thay đổi cảm xúc, hỗ trợ sau sinh",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:cam-xuc-dau-thai-ky",
+        "legacy:suc-khoe-tinh-than-ba-thang-dau",
+        "legacy:nhat-ky-thai-ky",
+        "legacy:tam-trang-sau-sinh-va-tram-cam"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--body",
+      "stage": "prenatal",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Sức khỏe sinh sản, thay đổi cơ thể và hồi phục",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--routine",
+      "stage": "prenatal",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giấc ngủ, vệ sinh, vận động phù hợp thai kỳ",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:van-dong-an-toan-khi-mang-thai",
+        "legacy:chat-luong-giac-ngu-ba-thang-giua"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--education",
+      "stage": "prenatal",
+      "pillar": "education",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Giáo dục tiền sản và học kỹ năng chăm bé",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--schools",
+      "stage": "prenatal",
+      "pillar": "schools",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Lớp tiền sản: tiêu chí chọn cơ sở có chuyên môn",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--thinking",
+      "stage": "prenatal",
+      "pillar": "thinking",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Kiểm chứng lời khuyên và thông tin thai sản",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--digital",
+      "stage": "prenatal",
+      "pillar": "digital",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "An toàn ứng dụng thai kỳ, dữ liệu sức khỏe",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--relationships",
+      "stage": "prenatal",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Phân chia chăm sóc, trao đổi kỳ vọng",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+        "legacy:dong-hanh-khi-mang-thai",
+        "legacy:ke-hoach-ho-tro-sau-sinh",
+        "legacy:chia-viec-trong-gia-dinh"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--safety",
+      "stage": "prenatal",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Dấu hiệu cảnh báo, an toàn thực phẩm và kế hoạch cấp cứu",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
+        "legacy:dau-hieu-can-di-vien-cuoi-thai-ky",
+        "legacy:dau-hieu-canh-bao-sau-sinh"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--talents",
+      "stage": "prenatal",
+      "pillar": "talents",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Hoạt động thư giãn phù hợp sở thích",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--finance",
+      "stage": "prenatal",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Ngân sách thai sản, chi phí dự phòng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--career",
+      "stage": "prenatal",
+      "pillar": "career",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Chuẩn bị nghỉ việc, trở lại làm việc",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "prenatal--civic",
+      "stage": "prenatal",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thai sản, bảo hiểm, khai sinh: kiểm chứng quy định Việt Nam",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "prenatal--life",
+      "stage": "prenatal",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Chuẩn bị đồ dùng và kế hoạch hỗ trợ sau sinh",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:ke-hoach-ho-tro-tien-thai",
+        "legacy:tui-do-di-sinh"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--nutrition",
+      "stage": "baby",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bú mẹ hoặc sữa phù hợp, ăn dặm, kết cấu và đáp ứng tín hiệu",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:bu-me-hoan-toan-sau-sinh",
+        "legacy:an-dam-khi-nao-bat-dau"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--health",
+      "stage": "baby",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám định kỳ, theo dõi tăng trưởng, tiêm chủng theo lịch Việt Nam",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:nhung-cau-hoi-khi-cham-be"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--psych",
+      "stage": "baby",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Gắn bó, đáp lại tín hiệu, khóc và hỗ trợ người chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--body",
+      "stage": "baby",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Phát triển giác quan, vận động, khác biệt mốc",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:theo-doi-phat-trien-hai-thang-dau",
+        "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+        "legacy:moc-phat-trien-sau-thang-thu-sau",
+        "lesson:kham-pha-giac-quan"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--routine",
+      "stage": "baby",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ngủ an toàn, tắm, vệ sinh và nhịp sinh hoạt",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+        "legacy:ngu-an-toan-cho-tre-so-sinh",
+        "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--education",
+      "stage": "baby",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Đọc sách, trò chuyện và chơi tương tác",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:choi-va-tuong-tac-voi-be",
+        "lesson:thoi-quen-doc-cung-be"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--schools",
+      "stage": "baby",
+      "pillar": "schools",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Nhóm chăm trẻ: tiêu chí chọn và giám sát",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "baby--thinking",
+      "stage": "baby",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Khám phá nguyên nhân-kết quả bằng vật an toàn",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--digital",
+      "stage": "baby",
+      "pillar": "digital",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Vai trò thiết bị của người chăm sóc, bảo mật hình ảnh",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "baby--relationships",
+      "stage": "baby",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Gắn bó với nhiều người chăm sóc",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:dap-lai-tin-hieu"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--safety",
+      "stage": "baby",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Hóc sặc, bỏng, ngã, môi trường ngủ",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
+        "legacy:an-toan-chong-sac-khi-an-dam"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--talents",
+      "stage": "baby",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Âm thanh, vận động và khám phá cảm giác",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "baby--finance",
+      "stage": "baby",
+      "pillar": "finance",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Chi phí chăm bé và kế hoạch dự phòng của người chăm sóc",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "baby--career",
+      "stage": "baby",
+      "pillar": "career",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Nghề nghiệp chưa phải mục tiêu của trẻ",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "baby--civic",
+      "stage": "baby",
+      "pillar": "civic",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Khai sinh, bảo hiểm y tế, quyền trẻ em",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "baby--life",
+      "stage": "baby",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thói quen chăm sóc đáp ứng và chuyển tiếp nhà trẻ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--nutrition",
+      "stage": "toddler",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa cơm gia đình, khẩu phần linh hoạt, ăn đáp ứng",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:con-an-va-tu-lap-khi-tap-di"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--health",
+      "stage": "toddler",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Theo dõi phát triển, răng miệng, khám khi có lo lắng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--psych",
+      "stage": "toddler",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ăn vạ, cảm xúc, tự chủ và kỷ luật tích cực",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:khi-con-noi-khong",
+        "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+        "lesson:cam-xuc-va-gioi-han"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--body",
+      "stage": "toddler",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ngôn ngữ, vận động, vệ sinh và ranh giới cơ thể",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--routine",
+      "stage": "toddler",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giấc ngủ, vệ sinh, tập tự phục vụ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--education",
+      "stage": "toddler",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chơi, đọc sách, ngôn ngữ và giao tiếp",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--schools",
+      "stage": "toddler",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chọn nhà trẻ: an toàn, người chăm sóc và thích nghi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "toddler--thinking",
+      "stage": "toddler",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Trò chơi phân loại, xếp hình, thử lại",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--digital",
+      "stage": "toddler",
+      "pillar": "digital",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Cùng xem nội dung, ưu tiên tương tác thật",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "toddler--relationships",
+      "stage": "toddler",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Chơi cạnh bạn, chia sẻ và xin lượt",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--safety",
+      "stage": "toddler",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn nhà cửa, đồ chơi, giao thông",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:goc-choi-kham-pha-an-toan",
+        "legacy:an-toan-trong-nha-khi-tre-tap-di",
+        "lesson:ranh-gioi-co-the"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--talents",
+      "stage": "toddler",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Âm nhạc, vẽ và vận động tự do",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "toddler--finance",
+      "stage": "toddler",
+      "pillar": "finance",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Làm quen chờ đợi và lựa chọn đơn giản",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "toddler--career",
+      "stage": "toddler",
+      "pillar": "career",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Chưa định hướng nghề sớm",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "toddler--civic",
+      "stage": "toddler",
+      "pillar": "civic",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Quyền được bảo vệ và người lớn tin cậy",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "toddler--life",
+      "stage": "toddler",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Cất đồ, chọn áo và sinh hoạt tự chủ",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:tu-chu-tung-buoc"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--nutrition",
+      "stage": "preschool",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa ăn đa dạng, nước, thói quen bàn ăn",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--health",
+      "stage": "preschool",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Răng miệng, thị lực, theo dõi sức khỏe",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--psych",
+      "stage": "preschool",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Cảm xúc, chia sẻ, thích nghi lớp học",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:giao-tiep-gioi-han-khong-don-roi",
+        "lesson:cam-xuc-va-ban-be"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--body",
+      "stage": "preschool",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Cơ thể, vệ sinh, ranh giới, phát triển vận động",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:moc-phat-trien-tuoi-bon-va-nam"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--routine",
+      "stage": "preschool",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ngủ, vận động, tự chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--education",
+      "stage": "preschool",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Học qua chơi, ngôn ngữ, tiền đọc viết",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:hoc-thong-qua-choi",
+        "legacy:hoc-qua-choi-ba-den-sau-tuoi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--schools",
+      "stage": "preschool",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chọn mầm non, thăm trường, chuyển tiếp lớp một",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:chuan-bi-ngay-dau-di-hoc",
+        "legacy:lam-quen-truong-mam-non"
+      ],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "preschool--thinking",
+      "stage": "preschool",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Luật chơi, trí nhớ, sáng tạo và giải quyết vấn đề",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:choi-tu-duy"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--digital",
+      "stage": "preschool",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thiết bị có người lớn, nội dung và thông tin cá nhân",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:con-va-cong-nghe"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--relationships",
+      "stage": "preschool",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tình bạn, làm hòa, giao tiếp tôn trọng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--safety",
+      "stage": "preschool",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn cơ thể, đường phố, nước, tìm trợ giúp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--talents",
+      "stage": "preschool",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Âm nhạc, tạo hình, vận động và trải nghiệm",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preschool--finance",
+      "stage": "preschool",
+      "pillar": "finance",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Tiền giả định, nhu cầu và mong muốn",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "preschool--career",
+      "stage": "preschool",
+      "pillar": "career",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Khám phá nghề qua trò chơi, không gắn nhãn",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "preschool--civic",
+      "stage": "preschool",
+      "pillar": "civic",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Quyền trẻ em và quy tắc cộng đồng",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "preschool--life",
+      "stage": "preschool",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tự phục vụ, giữ gìn đồ dùng, hợp tác",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--nutrition",
+      "stage": "school",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa sáng, bữa phụ, nước và bữa ăn tại trường",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--health",
+      "stage": "school",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám định kỳ, răng, thị lực, sức khỏe học đường",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--psych",
+      "stage": "school",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Áp lực điểm số, tự tin, cảm xúc và hỗ trợ",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:hoc-khong-so-sai"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--body",
+      "stage": "school",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thay đổi cơ thể, vệ sinh và ranh giới",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--routine",
+      "stage": "school",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ngủ đủ, vận động, lịch học và nghỉ",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:giac-ngu-hoc-sinh-tieu-hoc",
+        "legacy:van-dong-cho-tre-tieu-hoc"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--education",
+      "stage": "school",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Đọc hiểu, toán, ngoại ngữ, tự học",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:dong-hanh-viec-hoc",
+        "legacy:thoi-quen-hoc-tap-tieu-hoc"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--schools",
+      "stage": "school",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chọn tiểu học, tuyến tuyển sinh, công khai học phí",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "school--thinking",
+      "stage": "school",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Đặt câu hỏi, kiểm chứng, dự án STEAM",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:kiem-chung-thong-tin"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--digital",
+      "stage": "school",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "An toàn mạng, AI phù hợp tuổi, quảng cáo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--relationships",
+      "stage": "school",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Bạn bè, xung đột, bắt nạt và hợp tác",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:tinh-ban-dau-doi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--safety",
+      "stage": "school",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giao thông, đuối nước, người lớn tin cậy",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:phong-chong-bat-nat-o-truong"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--talents",
+      "stage": "school",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Khám phá sở thích, câu lạc bộ không áp lực",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--finance",
+      "stage": "school",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tiền tiêu vặt, tiết kiệm và chi tiêu",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:tien-tieu-vat"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--career",
+      "stage": "school",
+      "pillar": "career",
+      "applicable": false,
+      "priority": "context-only",
+      "topic": "Tìm hiểu nghề qua trải nghiệm",
+      "status": "not-priority",
+      "refs": [],
+      "acceptance": "Chỉ viết khi có nhu cầu phù hợp; không áp đặt mục tiêu theo tuổi."
+    },
+    {
+      "id": "school--civic",
+      "stage": "school",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quyền học tập, trách nhiệm và quy tắc trường",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "school--life",
+      "stage": "school",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Việc nhà, tự chuẩn bị, quản lý thời gian",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--nutrition",
+      "stage": "preteen",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Dinh dưỡng tuổi dậy thì và hình ảnh cơ thể",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--health",
+      "stage": "preteen",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám khi có lo lắng, sức khỏe học đường",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--psych",
+      "stage": "preteen",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bản sắc, áp lực bạn bè, tự trọng",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:ban-be-va-ap-luc"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--body",
+      "stage": "preteen",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Dậy thì, kinh nguyệt, vệ sinh và quyền riêng tư",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:noi-chuyen-ve-day-thi",
+        "lesson:day-thi-thay-doi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--routine",
+      "stage": "preteen",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giấc ngủ, lịch học, vận động và màn hình",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--education",
+      "stage": "preteen",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chuyển cấp THCS, ghi chú, tự học",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--schools",
+      "stage": "preteen",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "So sánh THCS, chương trình, tuyển sinh",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "preteen--thinking",
+      "stage": "preteen",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Lập luận, kiểm chứng, học qua dự án",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--digital",
+      "stage": "preteen",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "AI có thể sai, quyền riêng tư và mạng xã hội",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:an-toan-so-cung-con",
+        "lesson:ai-co-the-sai"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--relationships",
+      "stage": "preteen",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tình bạn, giao tiếp, ranh giới",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--safety",
+      "stage": "preteen",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Phòng bắt nạt, lừa đảo và tìm người hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--talents",
+      "stage": "preteen",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Sở thích, nghệ thuật, thể thao",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--finance",
+      "stage": "preteen",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tiết kiệm, mua sắm, quảng cáo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--career",
+      "stage": "preteen",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Khám phá sở thích và nghề đa dạng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--civic",
+      "stage": "preteen",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quyền trẻ em, trách nhiệm trên mạng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "preteen--life",
+      "stage": "preteen",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thích nghi chuyển cấp, tự quản lý việc học",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--nutrition",
+      "stage": "teen",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Dinh dưỡng, bữa ăn học tập, hình ảnh cơ thể",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--health",
+      "stage": "teen",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chăm sóc sức khỏe vị thành niên và tiếp cận hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--psych",
+      "stage": "teen",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Căng thẳng, sức khỏe tinh thần, tìm trợ giúp",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:suc-khoe-tinh-than-tuoi-thieu-nien"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--body",
+      "stage": "teen",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Sức khỏe sinh sản, đồng thuận và quan hệ lành mạnh",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:noi-chuyen-day-thi-tinh-duc-an-toan"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--routine",
+      "stage": "teen",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giấc ngủ, học tập, vận động, nghỉ ngơi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--education",
+      "stage": "teen",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Phương pháp học, thi cử và học nghề",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--schools",
+      "stage": "teen",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "THPT, trung cấp, tuyển sinh, hướng đi sau phổ thông",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "teen--thinking",
+      "stage": "teen",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tư duy phản biện, nghiên cứu và sáng tạo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--digital",
+      "stage": "teen",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "AI có trách nhiệm, bảo mật và đạo văn",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+        "lesson:du-an-ai-co-trach-nhiem"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--relationships",
+      "stage": "teen",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tình bạn, tình cảm, giao tiếp không bạo lực",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:giao-tiep-voi-con-tuoi-teen",
+        "lesson:quan-he-va-dong-thuan"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--safety",
+      "stage": "teen",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn số, giao thông, tìm trợ giúp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--talents",
+      "stage": "teen",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Năng khiếu, hồ sơ dự án và hoạt động cộng đồng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--finance",
+      "stage": "teen",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Ngân sách, lừa đảo và quyết định chi tiêu",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:ngan-sach-va-lua-chon"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--career",
+      "stage": "teen",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hướng nghiệp, trải nghiệm nghề và kỹ năng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--civic",
+      "stage": "teen",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quyền, trách nhiệm, việc làm phù hợp tuổi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "teen--life",
+      "stage": "teen",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Ra quyết định, tự lập, lập kế hoạch",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--nutrition",
+      "stage": "adult",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa ăn tự lập, ngân sách và an toàn thực phẩm",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--health",
+      "stage": "adult",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chăm sóc sức khỏe chủ động, khám khi có triệu chứng",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--psych",
+      "stage": "adult",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thích nghi học tập, việc làm và hỗ trợ tâm lý",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+        "lesson:tu-chu-va-ket-noi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--body",
+      "stage": "adult",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Sức khỏe sinh sản, cơ thể và lựa chọn cá nhân",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--routine",
+      "stage": "adult",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ngủ, vận động, lịch học/làm và nghỉ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--education",
+      "stage": "adult",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Đại học, nghề, học suốt đời",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--schools",
+      "stage": "adult",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "So sánh ngành học, kiểm định và chi phí",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "adult--thinking",
+      "stage": "adult",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--digital",
+      "stage": "adult",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "AI trong học tập và công việc, bảo mật",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--relationships",
+      "stage": "adult",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quan hệ, bạn cùng phòng, ranh giới",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:giu-ket-noi-gia-dinh",
+        "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--safety",
+      "stage": "adult",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn đi lại, lừa đảo và tình huống khẩn cấp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--talents",
+      "stage": "adult",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Năng khiếu, portfolio và hoạt động cộng đồng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--finance",
+      "stage": "adult",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thu nhập, chi phí, quỹ dự phòng, hợp đồng",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:tai-chinh-tu-lap"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--career",
+      "stage": "adult",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thực tập, CV, phỏng vấn và thử nghề",
+      "status": "partial-draft",
+      "refs": [
+        "lesson:tu-lap-va-nghe-nghiep"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--civic",
+      "stage": "adult",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hợp đồng lao động, bảo hiểm, thủ tục",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "adult--life",
+      "stage": "adult",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tự lập, nhà ở, quản lý thời gian",
+      "status": "partial-draft",
+      "refs": [
+        "legacy:dong-hanh-khi-con-tu-lap",
+        "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi"
+      ],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--nutrition",
+      "stage": "early-adult",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa ăn cân bằng khi bận rộn",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--health",
+      "stage": "early-adult",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám sức khỏe theo nguy cơ, phòng bệnh",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--psych",
+      "stage": "early-adult",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Căng thẳng, kiệt sức, thích nghi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--body",
+      "stage": "early-adult",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Sức khỏe sinh sản và lựa chọn gia đình",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--routine",
+      "stage": "early-adult",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giấc ngủ, vận động, lịch làm việc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--education",
+      "stage": "early-adult",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Học nâng cao, kỹ năng và chứng chỉ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--schools",
+      "stage": "early-adult",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chọn chương trình đào tạo nghề, liên tục",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "early-adult--thinking",
+      "stage": "early-adult",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Ra quyết định, kiểm chứng thông tin và thích nghi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--digital",
+      "stage": "early-adult",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "AI công việc, bảo mật, quyền riêng tư",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--relationships",
+      "stage": "early-adult",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quan hệ, hôn nhân hoặc lựa chọn sống riêng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--safety",
+      "stage": "early-adult",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn lao động, lừa đảo, cấp cứu",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--talents",
+      "stage": "early-adult",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Sở thích, nghỉ ngơi, sáng tạo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--finance",
+      "stage": "early-adult",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Ngân sách, dự phòng, nợ và bảo hiểm",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--career",
+      "stage": "early-adult",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Phát triển nghề, chuyển nghề, thương lượng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--civic",
+      "stage": "early-adult",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hợp đồng, nhà ở, bảo hiểm và thủ tục",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "early-adult--life",
+      "stage": "early-adult",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Tự quản lý, phân bổ thời gian, chăm sóc người thân",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--nutrition",
+      "stage": "midlife",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Ăn uống cân bằng, điều chỉnh theo sức khỏe",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--health",
+      "stage": "midlife",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám theo nguy cơ, phòng bệnh mạn tính",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--psych",
+      "stage": "midlife",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Căng thẳng, chuyển tiếp, hỗ trợ người chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--body",
+      "stage": "midlife",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thay đổi sinh lý và sức khỏe sinh sản",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--routine",
+      "stage": "midlife",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Vận động, ngủ, cân bằng công việc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--education",
+      "stage": "midlife",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Học suốt đời, nâng kỹ năng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--schools",
+      "stage": "midlife",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Chọn khóa đào tạo lại có bằng chứng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "midlife--thinking",
+      "stage": "midlife",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Đánh giá quyết định dài hạn và bằng chứng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--digital",
+      "stage": "midlife",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thích nghi AI, bảo mật và chống lừa đảo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--relationships",
+      "stage": "midlife",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quan hệ gia đình, chăm sóc cha mẹ, con trưởng thành",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--safety",
+      "stage": "midlife",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "An toàn lao động, đi lại, chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--talents",
+      "stage": "midlife",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Duy trì sở thích và hoạt động cộng đồng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--finance",
+      "stage": "midlife",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Kế hoạch dài hạn, hưu trí và dự phòng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--career",
+      "stage": "midlife",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Chuyển nghề, phát triển kỹ năng, quản lý",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--civic",
+      "stage": "midlife",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quyền lợi lao động, bảo hiểm, tài sản",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "midlife--life",
+      "stage": "midlife",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Chăm sóc bản thân, phân chia trách nhiệm",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--nutrition",
+      "stage": "older",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa ăn đủ chất, tiếp cận thực phẩm và nước",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--health",
+      "stage": "older",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Khám chủ động, quản lý thuốc với chuyên gia",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--psych",
+      "stage": "older",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Kết nối, nghỉ hưu, cô đơn và hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--body",
+      "stage": "older",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thay đổi cơ thể, giác quan và phẩm giá",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--routine",
+      "stage": "older",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Vận động phù hợp, giấc ngủ và sinh hoạt",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--education",
+      "stage": "older",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Học suốt đời, học kỹ năng mới",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--schools",
+      "stage": "older",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Lớp cộng đồng và cơ sở đào tạo phù hợp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "older--thinking",
+      "stage": "older",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Duy trì tò mò, giải quyết vấn đề đời thường",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--digital",
+      "stage": "older",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Điện thoại, xác minh thông tin và an toàn số",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--relationships",
+      "stage": "older",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Bạn bè, gia đình, cộng đồng và tự chủ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--safety",
+      "stage": "older",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Phòng té ngã, môi trường nhà, tìm trợ giúp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--talents",
+      "stage": "older",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Nghệ thuật, sở thích và vận động phù hợp",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--finance",
+      "stage": "older",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Thu nhập hưu trí, chi phí và chống lừa đảo",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--career",
+      "stage": "older",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Lựa chọn công việc, tình nguyện hoặc nghỉ ngơi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--civic",
+      "stage": "older",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hưu trí, bảo hiểm, trợ giúp xã hội",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "older--life",
+      "stage": "older",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Sinh hoạt độc lập, kế hoạch hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--nutrition",
+      "stage": "later-life",
+      "pillar": "nutrition",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Bữa ăn, nước, khả năng nhai nuốt và hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--health",
+      "stage": "later-life",
+      "pillar": "health",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Đánh giá chức năng, phối hợp chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--psych",
+      "stage": "later-life",
+      "pillar": "psych",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Tôn trọng cảm xúc, kết nối, mất mát",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--body",
+      "stage": "later-life",
+      "pillar": "body",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Giác quan, khả năng vận động, quyền tự quyết",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--routine",
+      "stage": "later-life",
+      "pillar": "routine",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Thói quen, hỗ trợ sinh hoạt và nghỉ ngơi",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--education",
+      "stage": "later-life",
+      "pillar": "education",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Học theo sở thích, tiếp cận thông tin",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--schools",
+      "stage": "later-life",
+      "pillar": "schools",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Lớp cộng đồng dễ tiếp cận, hỗ trợ học",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
+    },
+    {
+      "id": "later-life--thinking",
+      "stage": "later-life",
+      "pillar": "thinking",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hoạt động trí tuệ phù hợp sở thích",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--digital",
+      "stage": "later-life",
+      "pillar": "digital",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Liên lạc số, hỗ trợ thiết bị và bảo mật",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--relationships",
+      "stage": "later-life",
+      "pillar": "relationships",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Kết nối xã hội, người chăm sóc, lựa chọn cá nhân",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--safety",
+      "stage": "later-life",
+      "pillar": "safety",
+      "applicable": true,
+      "priority": "P0",
+      "topic": "Phòng té ngã, an toàn nhà, kế hoạch hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--talents",
+      "stage": "later-life",
+      "pillar": "talents",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Âm nhạc, nghệ thuật, sở thích có hỗ trợ",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--finance",
+      "stage": "later-life",
+      "pillar": "finance",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Chi tiêu, hỗ trợ tài chính và phòng lợi dụng",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--career",
+      "stage": "later-life",
+      "pillar": "career",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hoạt động có ý nghĩa, lựa chọn tham gia",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--civic",
+      "stage": "later-life",
+      "pillar": "civic",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Quyền lợi, đại diện và quyết định chăm sóc",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    },
+    {
+      "id": "later-life--life",
+      "stage": "later-life",
+      "pillar": "life",
+      "applicable": true,
+      "priority": "P1",
+      "topic": "Hỗ trợ tự chủ, kế hoạch chăm sóc và phẩm giá",
+      "status": "gap",
+      "refs": [],
+      "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
+    }
+  ]
+}
