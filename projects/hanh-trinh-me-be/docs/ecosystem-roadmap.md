@@ -12,9 +12,10 @@
 |---|---|---|
 | 1 | Nền tảng hệ sinh thái | Đã hoàn thành ở DEV |
 | 2 | Nghiệm thu tổng thể Web – API – Database | Combined DEV LIVE; QA-006 WAIVED; QA khác theo dõi riêng |
-| 3 | Hành trình cá nhân hóa | Đang thực hiện — ưu tiên hiện tại |
-| 4 | Không gian gia đình | Kế hoạch |
-| 5 | AI Assistant | Kế hoạch |
+| 3 | Hành trình cá nhân hóa | Đã nghiệm thu kỹ thuật DEV (S03-08) |
+| 4 | Không gian gia đình | Demo LIVE PASS — dừng mở rộng theo quyết định chủ dự án |
+| 4A | Học cùng con: kiến thức theo độ tuổi | Ưu tiên mới — đang triển khai |
+| 5 | AI Assistant | Hoãn đến khi nền tảng kiến thức ổn định |
 | 6 | Ổn định hệ sinh thái, chuẩn bị Production | Kế hoạch |
 | 7 | Hoàn thiện Mobile App iOS/Android | Sau cùng |
 
@@ -49,7 +50,9 @@ Baseline kiểm tra ngày 24/11/2026: 390 storage objects, 65/65 ảnh bìa mớ
 - [ ] Local-first: quyền chủ động chọn, đổi, đặt lại, xóa; không mặc định thu thập ngày sinh hoặc dữ liệu sức khỏe trẻ.
 - [ ] Kiểm thử và nghiệm thu từng luồng trên Web.
 
-## Giai đoạn 4 — Không gian gia đình
+## Giai đoạn 4 — Không gian gia đình (FROZEN)
+
+Quyết định chủ dự án 25/11/2026: dừng phát triển mở rộng Không gian gia đình tại bản demo đã nghiệm thu LIVE. Không phát triển dashboard mới, lịch, nhắc việc, nhật ký hay kết nối Auth trong giai đoạn này. Giữ nguyên chức năng hiện tại; không xóa dữ liệu hoặc hạ cấp bảo mật. Các mục chưa xong bên dưới là phạm vi hoãn, không phải backlog ưu tiên. [LIVE QA](https://github.com/kios-saks/demo/actions/runs/45610760274), commit e1acfaa; 5 persona, role, checklist, invite, isolation, responsive, không gọi API thật.
 
 - [ ] Nền tảng tài khoản Web/API, consent, RBAC, cách ly dữ liệu giữa gia đình, export/delete; kiểm thử bảo mật.
 - [ ] Không gian gia đình và phân quyền thành viên.
@@ -59,6 +62,17 @@ Baseline kiểm tra ngày 24/11/2026: 390 storage objects, 65/65 ảnh bìa mớ
 
 Chỉ thu thập dữ liệu cần thiết. Dữ liệu trẻ em/sức khỏe, lịch tiêm, thuốc hoặc theo dõi y khoa cần đánh giá privacy/security/medical riêng trước khi triển khai.
 
+## Giai đoạn 4A — Học cùng con (ưu tiên mới)
+- [x] Rà soát 72 bài hiện có: 6 bài/chặng, các chủ đề AI, tư duy phản biện, năng lực số, tài chính và định hướng nghề còn cần mở rộng.
+- [x] Xây dựng 7 nhóm tuổi 0–12 tháng, 1–2, 3–5, 6–10, 11–13, 14–17, 18–22; 5 trụ cột tâm lý/cảm xúc, cơ thể/sinh lý, giáo dục/kỹ năng, AI/công nghệ, tài chính/tự lập.
+- [x] Biên tập 21 bài học đầu tiên (3 bài mỗi nhóm tuổi), mỗi bài có mục tiêu, kiến thức, thực hành, câu hỏi và nguồn. Bản draft DEV, 14 nguồn được xác định, chưa chuyên gia thẩm định.
+- [x] Web hub /hoc-cung-con, lọc theo tuổi/chủ đề, tìm kiếm, nguồn, điều hướng. Chỉ đúng Combined DEV; chưa deploy.
+- [ ] CI, nghiệm thu trình duyệt và deploy DEV. Không mở public Production.
+- [ ] Mở rộng theo lộ trình chiều sâu: mốc phát triển, ngôn ngữ, cảm xúc, sức khỏe sinh sản, an toàn cơ thể, kỹ năng học, STEAM, tư duy phản biện, AI có trách nhiệm, an toàn mạng, tài chính và hướng nghiệp.
+- [ ] Xây dựng module học theo tuần, câu hỏi tự kiểm tra, hoạt động offline và nội dung song hành dành cho cha mẹ/con phù hợp độ tuổi; không chấm điểm phát triển trẻ.
+- [ ] Rà soát claim → nguồn, chuyên gia tâm lý/y khoa/giáo dục, minh họa đúng nội dung, truy cập trên thiết bị thật.
+- [ ] Tích hợp catalog vào API/CMS/Database qua migration có kế hoạch; không sửa trực tiếp 72 bài/seed hoặc dữ liệu Supabase đang phục vụ. Không thu thập dữ liệu trẻ em.
+- [ ] AI Assistant chỉ sau khi knowledge corpus được thẩm định và có publication gate.
 ## Giai đoạn 5 — AI Assistant
 
 - [ ] Tra cứu kiến thức theo giai đoạn, truy xuất nguồn, trả lời có dẫn nguồn.
@@ -91,7 +105,7 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - PR #1 giữ Draft; không tự merge hoặc phát hành Production.
 - Phân biệt đã triển khai, đã kiểm thử, đã nghiệm thu, và kế hoạch.
 
-**Sprint 03 hiện tại:** hoàn thiện module Hành trình của tôi. Theo quyết định chủ dự án 25/11/2026, miễn kiểm thử Natural Cold Start trên Render Free (QA-006 CLOSED/WAIVED, không phải PASS) vì Production sẽ dùng gói trả phí. Các QA còn lại không bị miễn; giữ production gate, readiness và giám sát. Không tự nâng gói DEV. Roadmap này thay thế thứ tự ưu tiên cũ; các tài liệu lịch sử vẫn được giữ để tham chiếu.
+**Ưu tiên hiện tại (25/11/2026):** Học cùng con — phát triển kiến thức theo từng độ tuổi. S03-08 đã nghiệm thu kỹ thuật, Family Demo đã LIVE PASS và đóng phạm vi mở rộng theo quyết định chủ dự án. Theo quyết định chủ dự án 25/11/2026, miễn kiểm thử Natural Cold Start trên Render Free (QA-006 CLOSED/WAIVED, không phải PASS) vì Production sẽ dùng gói trả phí. Các QA còn lại không bị miễn; giữ production gate, readiness và giám sát. Không tự nâng gói DEV. Roadmap này thay thế thứ tự ưu tiên cũ; các tài liệu lịch sử vẫn được giữ để tham chiếu.
 
 ## Tham chiếu
 
