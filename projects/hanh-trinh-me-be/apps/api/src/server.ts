@@ -14,7 +14,7 @@ try{
  // Bind HTTP before probing external PostgreSQL. Render Free cold starts must
  // not crash the process solely because the Shared Pooler is slow to respond.
  // /health is liveness; /health/ready independently checks database readiness.
- await app.listen({port:Number(process.env.PORT||4000),host:"0.0.0.0"});
+ await app.listen({port:Number(process.env.PORT||4000),host:process.env.MEBE_COMBINED_DEV==="true"?"127.0.0.1":"0.0.0.0"});
  console.log("API_HTTP_LISTENING");
  if(process.env.MEDIA_IMPORT_ON_START==="true")void bootstrapMedia(app).catch(error=>console.error("MEDIA_IMPORT_BOOTSTRAP_FAILED",JSON.stringify({stage:"CLEANUP",code:safeMediaFailure(error)})));
 

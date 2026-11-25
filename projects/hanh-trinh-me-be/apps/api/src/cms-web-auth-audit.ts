@@ -1,10 +1,14 @@
 import {createHash} from "node:crypto";
-const web="https://hanh-trinh-me-be-web-jn5v.onrender.com";
+const splitWeb="https://hanh-trinh-me-be-web-jn5v.onrender.com";
 const slug="lam-quen-nhip-sinh-hoat-so-sinh";
 const pause=(ms:number)=>new Promise<void>(resolve=>setTimeout(resolve,ms));
 // DEV only, existing server-side credentials; GET requests, no token/body logging.
 export async function auditCmsWebProxy(){
- if(process.env.RENDER!=="true"||process.env.RENDER_SERVICE_ID!=="srv-dc19bt7f3r2c73c2515g"||process.env.MEDIA_DEV_ENABLED!=="true")return;
+ const combined=process.env.MEBE_COMBINED_DEV==="true";
+ if(process.env.RENDER!=="true"||(!combined&&process.env.RENDER_SERVICE_ID!=="srv-dc19bt7f3r2c73c2515g")||process.env.MEDIA_DEV_ENABLED!=="true")return;
+ const port=Number(process.env.MEBE_COMBINED_WEB_PORT);
+ if(combined&&(!Number.isInteger(port)||port<1024||port>65535))return;
+ const web=combined?"http://127.0.0.1:"+port:splitWeb;
  const editor=process.env.MEDIA_DEV_EDITOR_TOKEN,reviewer=process.env.MEDIA_DEV_REVIEWER_TOKEN;
  if(!editor||!reviewer||editor.length<32||reviewer.length<32||editor===reviewer){console.error("DEV_CMS_SMOKE_FAIL",JSON.stringify({step:"CONFIG"}));return;}
  const started=Date.now();let step="READY",status=0;

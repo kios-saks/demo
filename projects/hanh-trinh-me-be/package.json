@@ -22,7 +22,10 @@
     "check:media": "node scripts/check-media-ratio.mjs && node scripts/check-lifestyle-media.mjs",
     "generate:depth": "node scripts/expand-depth-content.mjs",
     "check:depth": "node scripts/expand-depth-content.mjs --check",
-    "test:reader-local": "node scripts/test-reader-local-privacy.mjs"
+    "test:reader-local": "node scripts/test-reader-local-privacy.mjs",
+    "build:dev:combined": "node scripts/combined-dev.mjs build",
+    "start:dev:combined": "node scripts/combined-dev.mjs start",
+    "test:dev:combined": "node --test scripts/combined-dev.test.mjs"
   },
   "engines": {
     "node": ">=20.11.0"

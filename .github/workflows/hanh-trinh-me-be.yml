@@ -54,6 +54,10 @@ jobs:
         run: npm run build:web
         env:
           NEXT_TELEMETRY_DISABLED: "1"
+      - name: Combined DEV environment isolation regression
+        run: npm run test:dev:combined
+      - name: Combined DEV HTTP and shutdown smoke (mock only)
+        run: node scripts/combined-dev-smoke.mjs
       - name: HTTP integration smoke tests
         shell: bash
         run: |
