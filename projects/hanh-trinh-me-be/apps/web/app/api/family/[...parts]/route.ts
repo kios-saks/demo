@@ -34,6 +34,7 @@ async function handle(req:NextRequest,{params}:{params:Promise<{parts:string[]}>
    let b:Record<string,unknown>;try{b=await body(req);}catch{return deny("INVALID_BODY",400);}
    if(Object.keys(b).some(k=>!["email","password"].includes(k))||typeof b.email!=="string"||typeof b.password!=="string"||b.email.length>254||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(b.email)||b.password.length<1||b.password.length>256)return deny("INVALID_CREDENTIALS",400);
    if(p==="auth/signup"){
+    if(process.env.FAMILY_SIGNUP_ENABLED!=="true")return deny("SIGNUP_DISABLED",403);
     if(b.password.length<12)return deny("PASSWORD_TOO_SHORT",400);
     const result=await auth.signup(b.email,b.password,cfg.origin+"/gia-dinh");
     return result==="accepted"?json({data:{checkEmail:true}}):deny(result==="limited"?"RATE_LIMIT":"SIGNUP_FAILED",result==="limited"?429:400);
