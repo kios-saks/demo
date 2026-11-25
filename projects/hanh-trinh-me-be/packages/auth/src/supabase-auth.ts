@@ -11,7 +11,10 @@ export function authConfig(env:Record<string,string|undefined>):AuthConfig|null{
   return {url:u.origin,publishableKey:k};
  }catch{return null;}
 }
-export function createSupabaseAuth(config:AuthConfig,transport:typeof fetch=fetch){
+// Node-only RequestInit typings omit cache; Next fetch supports it at runtime.
+export type AuthRequestInit = RequestInit & {cache?: "no-store"};
+export type AuthTransport = (input:string,init?:AuthRequestInit)=>Promise<Response>;
+export function createSupabaseAuth(config:AuthConfig,transport:AuthTransport=fetch){
  async function request(path:string,method:"GET"|"POST",body?:unknown,token?:string){
   try {
    return await transport(config.url+"/auth/v1/"+path,{method,headers:{apikey:config.publishableKey,Accept:"application/json",...(body===undefined?{}:{"Content-Type":"application/json"}),...(token?{Authorization:"Bearer "+token}:{})},...(body===undefined?{}:{body:JSON.stringify(body)}),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(10000)});

@@ -6,6 +6,7 @@ COPY apps/api/package.json ./apps/api/package.json
 RUN npm install --omit=dev --workspace @mebe/api --no-audit --no-fund
 COPY apps/api/src ./apps/api/src
 COPY packages/data/src ./packages/data/src
+COPY packages/auth/src ./packages/auth/src
 COPY packages/content ./packages/content
 COPY scripts ./scripts
 COPY apps/web/public/media ./apps/web/public/media
