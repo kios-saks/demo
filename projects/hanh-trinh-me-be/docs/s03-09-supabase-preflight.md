@@ -22,3 +22,6 @@ https://supabase.com/docs/guides/security/production-checklist
 https://supabase.com/docs/guides/auth/general-configuration
 https://supabase.com/docs/guides/auth/redirect-urls
 https://supabase.com/docs/guides/database/connecting-to-postgres
+
+## Update: migration applied
+The original HOLD for additive schema migration was superseded by owner approval. Migration 20261125110252 applied and verified; see [hosted migration acceptance](s03-09-family-migration-acceptance.md). Runtime activation remains HOLD. No real user enrollment.
