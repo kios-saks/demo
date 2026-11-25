@@ -26,7 +26,7 @@ export function createBackendReader(deps:Dependencies={}){
   return new Uint8Array(Buffer.concat(chunks));
  }
  async function once(url:string,headers:Headers,deadline:number,attemptMs:number,maxBytes:number,accept:RegExp):Promise<Buffered>{
-  const response=await fetcher(url,{method:"GET",headers:Object.fromEntries(headers.entries()),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))});
+  const response=await fetcher(url,{method:"GET",headers:Object.fromEntries(headers.entries()),cache:"no-store",redirect:"error",signal:AbortSignal.timeout(Math.max(1,Math.min(attemptMs,remaining(deadline))))} as RequestInit & {cache:"no-store"});
   if(transient(response.status)||(response.ok&&!accept.test(response.headers.get("content-type")||""))){
    void response.body?.cancel().catch(()=>{});throw new BackendUnavailable();
   }
@@ -71,7 +71,7 @@ export function createBackendReader(deps:Dependencies={}){
    }
   }
  }
- return async function readBackend(url:string,headersInit:HeadersInit={},options:Options={}):Promise<Response>{
+ return async function readBackend(url:string,headersInit:ConstructorParameters<typeof Headers>[0]={},options:Options={}):Promise<Response>{
   const target=new URL(url);
   if(!["http:","https:"].includes(target.protocol)||target.username||target.password||target.hash)throw Error("Invalid backend origin");
   const headers=new Headers(headersInit);

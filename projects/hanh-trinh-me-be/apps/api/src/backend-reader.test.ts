@@ -38,7 +38,7 @@ test("different paths share one readiness flight",async()=>{
 });
 test("200 HTML wake page and network errors are not accepted as JSON",async()=>{
  let n=0;const f=fixture(path=>{if(path==="/health/ready")return ok({ok:true});n++;if(n===1)throw new TypeError("network");if(n===2)return new Response("<html>waking</html>",{headers:{"content-type":"text/html"}});return ok({ok:true});});
- assert.equal((await (await f.reader(origin+"/a")).json()).ok,true);assert.equal(n,3);
+ assert.equal(((await (await f.reader(origin+"/a")).json()) as {ok:boolean}).ok,true);assert.equal(n,3);
 });
 test("permanently unavailable upstream exhausts bounded deadline and clears flight",async()=>{
  const f=fixture(()=>new Response("unavailable",{status:503}));
