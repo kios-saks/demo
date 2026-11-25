@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "batch": "S04-AZ-01",
+  "status": "draft",
+  "sourceCheckedOn": "2026-11-25",
+  "reviewedAt": null,
+  "sources": {
+    "whoDiet": {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "scope": "Nguyên tắc đa dạng, cân bằng, hạn chế đường tự do và muối; điều chỉnh theo tuổi."
+    },
+    "whoFeed": {
+      "name": "WHO — Guideline for complementary feeding of infants and young children 6–23 months",
+      "url": "https://www.who.int/publications/i/item/9789240081864",
+      "scope": "Ăn bổ sung, chất lượng thực phẩm và cho ăn đáp ứng ở 6–23 tháng."
+    },
+    "whoInfant": {
+      "name": "WHO Việt Nam — Infant and young child feeding",
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+      "scope": "Nuôi dưỡng trẻ nhỏ và thời điểm bổ sung thức ăn."
+    },
+    "activity": {
+      "name": "WHO — Physical activity",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "scope": "Vận động theo nhóm tuổi và giảm ít vận động."
+    },
+    "activityGuide": {
+      "name": "WHO — Guidelines on physical activity and sedentary behaviour",
+      "url": "https://www.who.int/publications/i/item/9789240015128/",
+      "scope": "Khuyến nghị vận động theo nhóm tuổi, khả năng và hoàn cảnh sức khỏe."
+    },
+    "schools": {
+      "name": "Bộ GD&ĐT — Thông tư 09/2024/TT-BGDĐT về công khai trong hoạt động cơ sở giáo dục",
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+      "scope": "Căn cứ tra cứu thông tin công khai của trường; cần xác minh quy định tuyển sinh và tình trạng hiện hành theo địa phương."
+    },
+    "schoolDetails": {
+      "name": "Bộ GD&ĐT — Thông tin tóm tắt Thông tư 09/2024",
+      "url": "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html",
+      "scope": "Hình thức công khai, minh bạch và đặc thù cơ sở mầm non."
+    },
+    "ageing": {
+      "name": "WHO Việt Nam — Ageing and health",
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/ageing-and-health",
+      "scope": "Lão hóa đa dạng, sức khỏe, môi trường hỗ trợ và chăm sóc lấy người cao tuổi làm trung tâm."
+    },
+    "falls": {
+      "name": "WHO — Falls",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls/",
+      "scope": "Nguy cơ té ngã và phòng ngừa, đặc biệt ở người cao tuổi."
+    },
+    "icope": {
+      "name": "WHO — ICOPE: person-centred assessment and pathways in primary care, 2nd ed.",
+      "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+      "scope": "Đánh giá chức năng, chăm sóc tích hợp và kế hoạch phù hợp cá nhân."
+    },
+    "mentalOlder": {
+      "name": "WHO — Mental health of older adults",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+      "scope": "Sức khỏe tinh thần, kết nối xã hội và môi trường hỗ trợ."
+    },
+    "social": {
+      "name": "WHO — Social connection",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+      "scope": "Vai trò của kết nối xã hội đối với sức khỏe."
+    },
+    "ai": {
+      "name": "UNESCO — AI competency framework for students",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961&trk=article-ssr-frontend-pulse_little-text-block",
+      "scope": "Năng lực AI, trách nhiệm, giá trị và kỹ năng của người học."
+    }
+  },
+  "articles": [
+    {
+      "stage": "toddler",
+      "pillar": "schools",
+      "id": "chuan-bi-nha-tre-1-2",
+      "title": "Chọn nhà trẻ cho con 1–2 tuổi: từ khảo sát đến tuần đầu thích nghi",
+      "summary": "Một quy trình tìm nơi chăm sóc phù hợp, kiểm tra minh bạch và giúp trẻ chuyển tiếp mà không ép thích nghi nhanh.",
+      "sections": [
+        {
+          "heading": "Hiểu nhu cầu trước khi tìm trường",
+          "body": "Ở tuổi này, chọn nhà trẻ không phải chọn nơi dạy nhiều chữ nhất. Hãy cân nhắc giờ sinh hoạt của con, cách con tìm an ủi, nhu cầu ăn ngủ, khả năng đi lại của người chăm sóc và ngân sách cả năm. Nếu trẻ có nhu cầu hỗ trợ đặc biệt, cần trao đổi trực tiếp về khả năng đáp ứng trước khi đăng ký. Đây là hướng dẫn lựa chọn, không phải đánh giá một trường cụ thể.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra thông tin chính thức",
+          "body": "Thông tư 09/2024 của Bộ GD&ĐT đặt ra yêu cầu công khai thông tin hoạt động giáo dục, với hình thức phù hợp cho cơ sở mầm non. Tìm thông tin pháp lý, địa chỉ, chương trình, các khoản thu và đầu mối phụ trách; đối chiếu danh sách cơ sở do cơ quan địa phương công bố nếu có. Hỏi trường cung cấp hồ sơ còn hiệu lực thay vì dựa vào bài quảng cáo.",
+          "sourceIds": [
+            "schools",
+            "schoolDetails"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thăm trường bằng câu hỏi cụ thể",
+          "body": "Quan sát khu đón trả, hàng rào, đồ chơi, nơi ăn ngủ, vệ sinh và cách người lớn nói chuyện với trẻ. Hỏi quy trình liên lạc khi trẻ ốm, xử lý khi bị thương, bàn giao cho người đón và chính sách về hình ảnh của trẻ. Ghi lại câu trả lời và điều chưa xác minh. Không suy diễn chỉ từ một lần thăm; nếu được phép, hẹn quan sát thêm một buổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuyển tiếp cùng trẻ",
+          "body": "Thống nhất với trường về đồ vật quen thuộc, giờ đưa đón, thông tin dị ứng hoặc nhu cầu chăm sóc cần thiết. Có thể làm quen ngắn và tăng thời gian phù hợp theo kế hoạch của nhà trường. Khi chia tay, chào rõ ràng rồi trở lại đúng hẹn. Theo dõi sự thay đổi của trẻ qua nhiều ngày; trao đổi nếu tình trạng khó chịu kéo dài hoặc ảnh hưởng sinh hoạt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng ba cơ sở: giấy tờ đã kiểm chứng, thời gian đi lại, tổng chi phí, an toàn, người chăm sóc và khả năng đáp ứng.",
+        "Ghi lại 3 câu hỏi chưa được giải đáp; không đặt cọc khi còn băn khoăn về pháp lý hoặc an toàn.",
+        "Hẹn trao đổi cuối tuần đầu về ăn, ngủ, chơi và phản ứng của trẻ."
+      ],
+      "limits": "Không có trường được giới thiệu hoặc xếp hạng trong bài. Cần kiểm tra quy định và thông tin tuyển sinh của địa phương tại thời điểm quyết định.",
+      "sourceIds": [
+        "schools",
+        "schoolDetails"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "nutrition",
+      "id": "bua-an-mam-non-3-5",
+      "title": "Bữa ăn 3–5 tuổi: xây dựng nếp ăn đa dạng, vui vẻ và an toàn",
+      "summary": "Hướng dẫn thiết kế bữa ăn gia đình và phối hợp với trường, không ép trẻ ăn hoặc dùng cân nặng làm mục tiêu.",
+      "sections": [
+        {
+          "heading": "Nguyên tắc thiết kế bữa ăn",
+          "body": "Một bữa ăn cân bằng không nhất thiết có thực phẩm đắt tiền. WHO nhấn mạnh sự đa dạng và chất lượng thực phẩm; gia đình có thể luân phiên cơm, khoai, bún, rau củ, trái cây, đậu, trứng, cá và thịt phù hợp điều kiện, ưu tiên nước uống thông thường hơn đồ uống có đường. Điều chỉnh theo dị ứng, tình trạng sức khỏe và hướng dẫn chuyên môn.",
+          "sourceIds": [
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sắp xếp lịch và môi trường",
+          "body": "Hẹn khung giờ ăn tương đối ổn định, tránh để trẻ vừa ăn vừa chạy chơi. Người lớn chuẩn bị các lựa chọn phù hợp; trẻ được báo khi đã no và được làm quen với món mới mà không bị ép. Nếu con từ chối một món, thử cách chế biến khác ở lần sau, không biến bàn ăn thành cuộc thương lượng điểm thưởng. Đây là gợi ý tổ chức sinh hoạt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ví dụ minh họa một ngày",
+          "body": "Bữa sáng có cháo thịt hoặc bánh mì trứng và trái cây phù hợp; bữa trưa cơm, cá hoặc đậu, rau và canh; bữa phụ có trái cây mềm hoặc sữa chua không đường nếu dung nạp; bữa tối thay đổi nguồn đạm và rau. Ví dụ không quy định khẩu phần, không thay chế độ ăn điều trị. Hạn chế thực phẩm nguy cơ hóc; người lớn chuẩn bị kết cấu và giám sát phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phối hợp trường và nhà",
+          "body": "Xin thực đơn của trường, xem món nào trùng, món nào cần bổ sung ở nhà; hỏi cách trường quản lý dị ứng, nguồn thực phẩm và ăn khi trẻ không khỏe. Với trẻ ăn hạn chế kéo dài, khó nhai nuốt, sụt cân hoặc lo ngại tăng trưởng, trao đổi với bác sĩ hoặc chuyên gia dinh dưỡng thay vì tự cắt nhóm thực phẩm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập thực đơn ba ngày với ít nhất hai lựa chọn khác nhau cho nguồn đạm và rau.",
+        "Để con chọn một loại rau hoặc trái cây ở chợ cùng người lớn.",
+        "Trao đổi với giáo viên về bữa ăn, không yêu cầu trẻ luôn ăn hết phần."
+      ],
+      "limits": "Không dùng thực đơn mẫu để ấn định năng lượng, cân nặng hay điều trị dị ứng. Trẻ có bệnh, khó ăn hoặc rối loạn tăng trưởng cần kế hoạch cá nhân.",
+      "sourceIds": [
+        "whoDiet"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "school",
+      "pillar": "nutrition",
+      "id": "bua-an-di-hoc-6-10",
+      "title": "Ăn uống tuổi tiểu học: bữa sáng, bữa phụ và bữa ăn tại trường",
+      "summary": "Cách xây dựng thói quen ăn uống giúp trẻ chủ động hơn trong ngày học, phù hợp gia đình Việt Nam.",
+      "sections": [
+        {
+          "heading": "Mục tiêu là nếp ăn, không phải cân nặng",
+          "body": "Một chế độ ăn lành mạnh có nhiều nhóm thực phẩm và hạn chế đồ uống nhiều đường hoặc thực phẩm quá mặn. Nhu cầu thực tế khác nhau theo tăng trưởng và hoạt động. Tránh nhận xét ngoại hình hoặc bắt trẻ ăn kiêng theo trào lưu. Nếu lo lắng về dinh dưỡng, tìm đánh giá chuyên môn dựa trên tăng trưởng và sức khỏe tổng thể.",
+          "sourceIds": [
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị bữa sáng dễ thực hiện",
+          "body": "Chọn hai đến ba phương án luân phiên theo thời gian gia đình có: cơm với trứng và rau, bánh mì cùng đậu hoặc trứng, cháo và trái cây phù hợp. Có thể chuẩn bị nguyên liệu tối hôm trước. Nếu trẻ thường vội, hỏi nguyên nhân và điều chỉnh giờ sinh hoạt thay vì dùng món ngọt để thay tất cả bữa sáng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bữa phụ, nước và căng tin",
+          "body": "Cùng trẻ chọn bữa phụ phù hợp quy định của trường và bảo quản an toàn. Cho trẻ mang nước nếu trường cho phép, tìm hiểu nơi lấy nước và thói quen uống. Khi có tiền mua đồ ăn, tập đọc nhãn, so sánh thành phần và lựa chọn theo nhu cầu. Không yêu cầu trẻ báo cáo từng miếng đã ăn; chú trọng sự chủ động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một cuộc trao đổi với trường",
+          "body": "Tìm thực đơn, đầu mối phụ trách bán trú và cách xử lý dị ứng; xác nhận giá bữa ăn và thông tin còn thiếu với nhà trường. Khi trẻ mệt thường xuyên, đau bụng kéo dài, giảm ăn hoặc khó tập trung, không tự quy mọi vấn đề cho dinh dưỡng; hỏi nhân viên y tế phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Cùng trẻ chọn ba bữa sáng dễ chuẩn bị và một bữa phụ mang đi.",
+        "Thực hành so sánh hai nhãn thực phẩm bằng câu hỏi về thành phần, không xếp món thành tốt/xấu tuyệt đối.",
+        "Xin thực đơn bán trú, kiểm tra chính sách dị ứng và thói quen uống nước."
+      ],
+      "limits": "Không đưa khẩu phần hoặc thực đơn chữa bệnh. Điều chỉnh theo nhu cầu, khả năng tiếp cận, dị ứng và tư vấn chuyên gia.",
+      "sourceIds": [
+        "whoDiet"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "school",
+      "pillar": "schools",
+      "id": "chon-tieu-hoc-theo-nhu-cau",
+      "title": "Chọn trường tiểu học: so sánh sự phù hợp, không chạy theo danh tiếng",
+      "summary": "Hồ sơ đối chiếu trường công, tư và quốc tế dựa trên nguồn chính thức, môi trường và chi phí thực tế.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ nhu cầu học của trẻ",
+          "body": "Cùng gia đình xác định các điều kiện bắt buộc: đi lại, lịch đón, hỗ trợ học tập, ngôn ngữ giảng dạy, khả năng tiếp cận, mức chi phí và thời gian chơi nghỉ. Một trường phù hợp với trẻ này có thể không phù hợp trẻ khác. Không coi kết quả thi hoặc danh tiếng trên mạng là tiêu chí duy nhất.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đọc thông tin công khai",
+          "body": "Bộ GD&ĐT có quy định công khai hoạt động cơ sở giáo dục tại Thông tư 09/2024. Ưu tiên website chính thức, thông báo tuyển sinh năm học đang xét và nguồn của cơ quan quản lý địa phương. Ghi ngày công bố, địa chỉ, cấp học, chương trình, phí và điều kiện tuyển sinh. Không sử dụng số liệu của năm cũ như số hiện hành.",
+          "sourceIds": [
+            "schools",
+            "schoolDetails"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "So sánh bằng tổng chi phí và môi trường",
+          "body": "Lập bảng học phí, bán trú, đồng phục, tài liệu, xe đưa đón, hoạt động tự chọn và khoản thu chưa rõ. Với môi trường học, hỏi cách hỗ trợ trẻ gặp khó khăn, quy trình xử lý bắt nạt, giao tiếp với gia đình và chính sách bảo mật thông tin học sinh. Không chấm điểm khi chưa có dữ liệu; đánh dấu chưa xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đi xem trường và quyết định",
+          "body": "Chuẩn bị danh sách câu hỏi, gặp cán bộ tuyển sinh, tìm hiểu trải nghiệm từ nhiều phụ huynh nhưng phân biệt ý kiến với bằng chứng. Nếu có thể, cho trẻ tham gia thăm trường theo quy định, hỏi điều khiến con thấy thoải mái. Sau đó đối chiếu các điều kiện bắt buộc và lý do lựa chọn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tạo hồ sơ cho ba trường gần khu vực mong muốn với URL nguồn chính thức và ngày đọc.",
+        "Tính tổng chi phí dự kiến cả năm, đánh dấu khoản chưa rõ.",
+        "Viết năm câu hỏi về thích nghi, an toàn và hỗ trợ học tập để hỏi trường."
+      ],
+      "limits": "Bài không xác nhận uy tín hoặc đề cử tên trường. Tuyến tuyển sinh, chỉ tiêu, học phí và điều kiện cần kiểm tra theo năm học; dữ liệu chưa rõ không được coi là 0 đồng hoặc đạt chuẩn.",
+      "sourceIds": [
+        "schools",
+        "schoolDetails"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "schools",
+      "id": "chuyen-cap-thcs",
+      "title": "Chuyển cấp THCS 11–13 tuổi: chọn môi trường và thích nghi với nhịp học mới",
+      "summary": "Chuẩn bị cho sự thay đổi giáo viên, môn học, bạn bè và trách nhiệm học tập.",
+      "sections": [
+        {
+          "heading": "Nhận diện sự thay đổi",
+          "body": "Chuyển cấp có thể làm thay đổi lịch học, số giáo viên, cách ghi bài và quan hệ bạn bè. Hãy hỏi con đang lo về điều gì, tránh chỉ nói phải đạt kết quả cao. Cùng con chuẩn bị thông tin thực tế: đường đến trường, giờ học, lịch ăn nghỉ và người có thể hỗ trợ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đọc hồ sơ tuyển sinh THCS",
+          "body": "Tra cứu công khai của trường và thông báo của cơ quan quản lý địa phương; Thông tư 09/2024 là một căn cứ về minh bạch hoạt động giáo dục. Hỏi rõ chương trình, điều kiện nhập học, chi phí, các dịch vụ hỗ trợ và thông tin có thể thay đổi theo năm. Không coi việc được quảng bá là trường tốt như một chứng nhận kiểm định.",
+          "sourceIds": [
+            "schools",
+            "schoolDetails"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch hai tuần đầu",
+          "body": "Chuẩn bị thời khóa biểu đơn giản, một nơi ghi bài tập, cách phân loại sách vở và thời gian đi lại. Chọn một khoảng thời gian ngắn mỗi ngày để xem việc cần làm ngày mai, nhưng cho con chủ động tăng dần. Nếu con khó theo kịp, hỏi giáo viên cách hỗ trợ thay vì tăng lớp học thêm ngay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi thích nghi và kết nối",
+          "body": "Mỗi tuần hỏi con về một điều mới học, một người có thể nói chuyện và một khó khăn cần hỗ trợ. Thống nhất cách liên lạc với giáo viên, cách phản ánh bắt nạt hoặc khó khăn học tập. Khi lo âu kéo dài hoặc con không thể sinh hoạt bình thường, tìm hỗ trợ chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng lựa chọn trường với điều kiện bắt buộc và mục chưa xác minh.",
+        "Cùng con thử đi tuyến đường tới trường, chuẩn bị thời khóa biểu và túi đồ.",
+        "Đặt một cuộc trao đổi ngắn vào cuối tuần thứ nhất và thứ hai."
+      ],
+      "limits": "Không phải tư vấn tuyển sinh cho một địa phương. Không xếp hạng trường; kiểm tra thông báo chính thức và nhu cầu hỗ trợ riêng của trẻ.",
+      "sourceIds": [
+        "schools",
+        "schoolDetails"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "teen",
+      "pillar": "education",
+      "id": "du-an-hoc-tap-thoi-ai",
+      "title": "Học tập tuổi 14–17 trong thời đại AI: xây năng lực bằng một dự án thực tế",
+      "summary": "Rèn tự học, nghiên cứu, đánh giá thông tin, trách nhiệm và khả năng trình bày thay vì chỉ học công cụ.",
+      "sections": [
+        {
+          "heading": "Năng lực chứ không chỉ công cụ",
+          "body": "Khung năng lực AI dành cho học sinh của UNESCO hướng đến kỹ năng, kiến thức và giá trị cần thiết để sử dụng AI có trách nhiệm. Không biến việc sử dụng nhiều ứng dụng thành mục tiêu. Một học sinh cần biết đặt câu hỏi, kiểm tra thông tin, giải thích lựa chọn và nhận diện giới hạn của công cụ.",
+          "sourceIds": [
+            "ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn đề tài có ý nghĩa",
+          "body": "Ví dụ: làm thế nào để giảm lãng phí giấy trong lớp? Học sinh mô tả vấn đề, tìm hai nguồn đáng tin, quan sát tình huống mà không thu thập thông tin cá nhân, rồi đề xuất thử nghiệm nhỏ. Giáo viên hoặc phụ huynh xác định quy định dùng AI và lựa chọn công cụ phù hợp độ tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng AI với kiểm chứng",
+          "body": "Có thể nhờ công cụ gợi ý câu hỏi, bố cục hoặc cách trình bày. Người học kiểm tra từng thông tin bằng nguồn độc lập, không đưa dữ liệu cá nhân hoặc bài làm của bạn vào dịch vụ. Ghi lại phần AI hỗ trợ, tự giải thích lập luận, không nộp câu trả lời máy tạo nguyên văn như bài của mình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá sản phẩm và phản hồi",
+          "body": "Chấm theo câu hỏi rõ ràng, nguồn kiểm chứng được, giải pháp khả thi và khả năng giải thích; không chấm theo độ bóng bẩy của bài thuyết trình. Sau phản hồi, chọn một điểm sửa và một kỹ năng muốn học tiếp. Người lớn có thể hỗ trợ thiết bị hoặc thời gian nhưng không làm thay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tuần 1: chọn vấn đề, xác định câu hỏi và nguồn. Tuần 2: khảo sát không thu dữ liệu cá nhân, xây giải pháp.",
+        "Tuần 3: làm sản phẩm nhỏ; kiểm tra thông tin AI nếu được dùng.",
+        "Tuần 4: trình bày, ghi nguồn, tự nhận xét một điều học được và một điều cần sửa."
+      ],
+      "limits": "Đây là dự án gợi ý do biên tập đề xuất, không phải chương trình chính thức của UNESCO; tuân thủ chính sách của trường và điều kiện độ tuổi công cụ.",
+      "sourceIds": [
+        "ai"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "nutrition",
+      "id": "an-uong-khi-di-lam",
+      "title": "Ăn uống khi đi làm tuổi 23–34: cân bằng giữa thời gian, chi phí và sức khỏe",
+      "summary": "Xây dựng hệ thống ăn uống thực tế cho người bận rộn, không cần thực đơn cầu kỳ.",
+      "sections": [
+        {
+          "heading": "Thiết kế từ hoàn cảnh sống",
+          "body": "WHO khuyến khích chế độ ăn đa dạng, cân bằng, chú ý chất lượng thực phẩm. Với người đi làm, điều quan trọng là có lựa chọn dễ lặp lại và phù hợp ngân sách. Không có thực đơn chung cho mọi thể trạng; người mang thai, có bệnh nền hoặc cần chế độ ăn đặc biệt nên hỏi chuyên gia.",
+          "sourceIds": [
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị thực phẩm theo mô-đun",
+          "body": "Chọn vài nguyên liệu cơ bản dễ chế biến: một món tinh bột, hai nguồn đạm, một số rau và trái cây. Tách thực phẩm sống và chín, bảo quản đúng hướng dẫn và tránh giữ đồ ăn trong điều kiện không an toàn. Sắp xếp để có món dự phòng vào ngày bận; ưu tiên phương án khả thi hơn việc ép mình nấu đủ ba bữa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi phải ăn ngoài",
+          "body": "Xem các lựa chọn trong khu vực làm việc, hỏi về thành phần nếu cần, gọi thêm món rau hoặc chọn nước không đường khi phù hợp. Có thể lập ngân sách ăn uống tuần, so sánh tiền mua nguyên liệu với chi phí ăn ngoài. Nếu ngày nào cũng ăn muộn, xem xét lịch làm việc và khả năng mang bữa ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi thói quen thay vì ép cân",
+          "body": "Trong một tuần, ghi các trở ngại như bỏ bữa vì họp, không có chỗ bảo quản hoặc quá mệt để nấu. Chọn một thay đổi nhỏ, chẳng hạn chuẩn bị hai bữa trưa. Nếu khó ăn kéo dài, đau bụng, thay đổi cân nặng bất thường hoặc có lo lắng về ăn uống, tìm đánh giá y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập danh sách ba bữa ăn dưới ngân sách tự chọn.",
+        "Dành một buổi chuẩn bị nguyên liệu và xác định món dự phòng.",
+        "Sau bảy ngày, giữ lại thói quen dễ duy trì và điều chỉnh phần còn khó."
+      ],
+      "limits": "Không đưa thực đơn giảm cân, lượng calo hoặc khuyến cáo điều trị cá nhân. Các ví dụ là kế hoạch sinh hoạt, không phải đơn dinh dưỡng.",
+      "sourceIds": [
+        "whoDiet"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "routine",
+      "id": "van-dong-va-nhip-song-trung-nien",
+      "title": "Tuổi 35–59: xây nhịp vận động, nghỉ ngơi và công việc bền vững",
+      "summary": "Bắt đầu từ hoạt động phù hợp khả năng, duy trì lịch sinh hoạt có thể thực hiện.",
+      "sections": [
+        {
+          "heading": "Vận động là một phần sinh hoạt",
+          "body": "WHO khuyến nghị giảm thời gian ít vận động và duy trì hoạt động thể chất phù hợp lứa tuổi. Mức độ và loại hoạt động cần điều chỉnh theo sức khỏe và khả năng. Người chưa quen vận động không cần bắt đầu bằng kế hoạch cường độ cao hoặc mục tiêu thi đấu.",
+          "sourceIds": [
+            "activity",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm khoảng trống trong ngày",
+          "body": "Vẽ lịch làm việc, đưa đón, chăm người thân và giờ nghỉ. Chọn những thời điểm có thể đi bộ, thay đổi tư thế hoặc làm việc nhà an toàn. Nếu lịch quá tải, ưu tiên điều chỉnh khối lượng việc và chia sẻ trách nhiệm thay vì thêm một lịch tập khó thực hiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo nhịp nghỉ có chủ đích",
+          "body": "Đặt giờ kết thúc công việc khả thi, dành thời gian chuyển tiếp trước giờ ngủ và hạn chế nhiệm vụ không cấp thiết vào buổi tối. Nếu phải làm ca, tìm cách ổn định khung nghỉ phù hợp và trao đổi khi lịch gây mệt mỏi quá mức. Không coi mất ngủ kéo dài là điều phải chịu đựng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh và tìm hỗ trợ",
+          "body": "Theo dõi mức thoải mái và khả năng duy trì, không đặt mục tiêu dựa trên người khác. Nếu có đau ngực, khó thở bất thường, ngất hoặc triệu chứng nghiêm trọng trong vận động, dừng và tìm trợ giúp y tế thích hợp; người có bệnh nền hoặc mới phẫu thuật cần kế hoạch phù hợp từ chuyên gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một khoảng đi bộ ngắn hoặc hoạt động nhẹ phù hợp trong ba ngày đầu.",
+        "Sắp xếp nhắc nghỉ giữa các khối công việc, không thu thập dữ liệu sức khỏe vào ứng dụng.",
+        "Cuối tuần, đánh giá việc nào giúp cơ thể thoải mái hơn và điều gì cần giảm tải."
+      ],
+      "limits": "Không phải đơn tập luyện hoặc tiêu chuẩn thể lực; cần tư vấn nếu có bệnh nền, hạn chế vận động hoặc triệu chứng bất thường.",
+      "sourceIds": [
+        "activity",
+        "activityGuide"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "older",
+      "pillar": "safety",
+      "id": "phong-te-nga-tuoi-60-74",
+      "title": "Tuổi 60–74: rà soát môi trường sống để giảm nguy cơ té ngã",
+      "summary": "Bắt đầu từ những nơi sinh hoạt hằng ngày, đồng thời giữ quyền lựa chọn và khả năng tự lập.",
+      "sections": [
+        {
+          "heading": "Nhận diện nguy cơ theo hoàn cảnh",
+          "body": "WHO xem té ngã là vấn đề sức khỏe quan trọng, đặc biệt ở người cao tuổi. Nguy cơ có thể liên quan môi trường, khả năng vận động, thị giác hoặc các yếu tố sức khỏe. Không coi tuổi tác tự động đồng nghĩa mất tự lập; cần tìm nguyên nhân phù hợp khi có lần ngã hoặc thay đổi khả năng đi lại.",
+          "sourceIds": [
+            "falls",
+            "ageing"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đi một vòng trong nhà",
+          "body": "Cùng người sử dụng nhà quan sát lối đi, ánh sáng, dây điện, thảm lỏng, bậc cửa và khu vực ướt. Sắp xếp đồ thường dùng ở vị trí dễ lấy, không bắt buộc leo trèo. Trao đổi trước khi thay đổi bố trí, tránh làm mất đồ quen thuộc hoặc tự ý mua dụng cụ chưa phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lên kế hoạch di chuyển",
+          "body": "Hỏi người cao tuổi họ muốn tiếp tục hoạt động nào và cần hỗ trợ gì: đi chợ, đi bộ, thăm bạn, dùng cầu thang. Xem xét giày dép phù hợp, đường đi và phương tiện hỗ trợ nếu đã được tư vấn. Hoạt động tăng sức mạnh và thăng bằng có thể là một phần chăm sóc, nhưng cần phù hợp khả năng.",
+          "sourceIds": [
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi từng ngã hoặc thấy không vững",
+          "body": "Không tự quy nguyên nhân cho tuổi già. Hẹn trao đổi với nhân viên y tế về lần ngã, chóng mặt, thị lực, thuốc đang dùng và khả năng di chuyển. Không tự ngưng thuốc. Nếu ngã gây chấn thương nghiêm trọng, mất ý thức, đau nhiều hoặc có triệu chứng cấp tính, tìm trợ giúp khẩn cấp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Rà soát lối đi từ giường đến nhà vệ sinh vào buổi tối.",
+        "Chọn ba thay đổi an toàn có sự đồng ý của người cao tuổi.",
+        "Chuẩn bị danh sách câu hỏi và người liên hệ nếu có tình huống cần trợ giúp."
+      ],
+      "limits": "Không chẩn đoán nguy cơ té ngã qua checklist. Dụng cụ hỗ trợ và kế hoạch vận động cần đánh giá cá nhân.",
+      "sourceIds": [
+        "falls",
+        "ageing",
+        "activityGuide"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "older",
+      "pillar": "psych",
+      "id": "nghi-huu-va-ket-noi",
+      "title": "Nghỉ hưu và sức khỏe tinh thần: giữ kết nối, sở thích và cảm giác có ý nghĩa",
+      "summary": "Gợi ý xây một nhịp sống do chính người cao tuổi lựa chọn, không biến nghỉ hưu thành cô lập.",
+      "sections": [
+        {
+          "heading": "Kết nối là một phần của sức khỏe",
+          "body": "WHO nhấn mạnh môi trường xã hội hỗ trợ sức khỏe tinh thần ở tuổi cao niên. Một số người thích sinh hoạt cộng đồng, người khác cần thời gian riêng; cảm giác cô đơn không đồng nghĩa sống một mình. Hỏi điều người đó mong muốn thay vì giả định họ cần hoạt động liên tục.",
+          "sourceIds": [
+            "mentalOlder",
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo lịch có ý nghĩa",
+          "body": "Lập danh sách hoạt động từng yêu thích hoặc muốn thử: đọc, làm vườn, sinh hoạt câu lạc bộ, gặp bạn, học kỹ năng hoặc tình nguyện. Chọn một hoạt động dễ tiếp cận và một người đồng hành nếu muốn. Xem xét đi lại, chi phí và khả năng nghe nhìn để giảm rào cản.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Gia đình giữ liên hệ tôn trọng",
+          "body": "Thống nhất giờ gọi hoặc thăm phù hợp, lắng nghe điều họ muốn chia sẻ. Nếu người lớn tuổi muốn học điện thoại hoặc gọi video, hỗ trợ từng bước và không giữ mật khẩu hoặc tài khoản thay khi không cần. Tôn trọng quyền từ chối tham gia hoạt động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cảm xúc thay đổi kéo dài",
+          "body": "Nếu buồn bã, mất hứng thú, lo lắng hoặc khó sinh hoạt kéo dài, hỏi người đó muốn được hỗ trợ thế nào và khuyến khích tiếp cận chuyên gia. Không coi mọi thay đổi tâm trạng là hệ quả bình thường của tuổi tác. Khi có nguy cơ tự gây hại hoặc tình huống khẩn cấp, tìm hỗ trợ ngay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một hoạt động tự nguyện trong tuần và một cuộc trò chuyện với người tin cậy.",
+        "Xem lại rào cản di chuyển, chi phí hoặc khả năng nghe nhìn; cùng tìm cách điều chỉnh.",
+        "Sau hai tuần, hỏi người tham gia có muốn tiếp tục, đổi hoặc dừng hoạt động không."
+      ],
+      "limits": "Không dùng bài để chẩn đoán trầm cảm hoặc đánh giá sức khỏe tinh thần. Tôn trọng lựa chọn và tìm hỗ trợ chuyên môn khi cần.",
+      "sourceIds": [
+        "mentalOlder",
+        "social"
+      ],
+      "status": "draft"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "health",
+      "id": "ke-hoach-cham-soc-75-plus",
+      "title": "Tuổi 75+: chuẩn bị một kế hoạch chăm sóc tôn trọng khả năng và mong muốn cá nhân",
+      "summary": "Tổ chức thông tin và phối hợp với nhân viên y tế, tập trung vào chất lượng sống, không chỉ danh sách bệnh.",
+      "sections": [
+        {
+          "heading": "Điều gì quan trọng đối với chính người được chăm sóc?",
+          "body": "Hướng dẫn ICOPE của WHO nhấn mạnh đánh giá và chăm sóc lấy cá nhân làm trung tâm. Hai người cùng tuổi có thể rất khác nhau về khả năng sinh hoạt, sở thích và nhu cầu hỗ trợ. Bắt đầu bằng câu hỏi họ muốn duy trì hoạt động nào, điều gì làm họ khó chịu và ai được phép tham gia quyết định.",
+          "sourceIds": [
+            "icope",
+            "ageing"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị cuộc hẹn chăm sóc",
+          "body": "Với sự đồng ý của người được chăm sóc, tập hợp danh sách thuốc đang dùng, vấn đề mới xuất hiện, các cuộc hẹn và câu hỏi về khả năng di chuyển, ăn uống, nghe nhìn hoặc hỗ trợ sinh hoạt. Không lưu dữ liệu nhận dạng vào khu vực demo. Không tự đổi thuốc dựa trên danh sách hoặc kết quả tìm kiếm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân công hỗ trợ có giới hạn",
+          "body": "Cùng thống nhất ai giúp việc đi lại, ai hỗ trợ mua thực phẩm, ai liên hệ cơ sở y tế khi cần. Để người cao tuổi tự thực hiện phần họ muốn và có thể làm an toàn. Nếu nhiều người cùng chăm sóc, dùng một lịch đơn giản do gia đình tự quản, không truyền dữ liệu sức khỏe cho người không được phép.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận biết thay đổi và xem lại kế hoạch",
+          "body": "Khi có thay đổi đột ngột về ý thức, yếu liệt mới, khó thở nặng hoặc tình huống cấp cứu, tìm hỗ trợ y tế khẩn cấp. Với thay đổi từ từ về sinh hoạt, trao đổi chuyên gia để xem xét nhu cầu mới. Sau mỗi lần khám hoặc thay đổi hoàn cảnh, hỏi người được chăm sóc xem kế hoạch còn phù hợp không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết ba mục tiêu sinh hoạt do người cao tuổi lựa chọn.",
+        "Lập danh sách hỗ trợ, người liên hệ và thông tin cần mang tới buổi khám; giữ riêng tư.",
+        "Đặt lịch trao đổi lại kế hoạch sau một tháng hoặc khi có thay đổi đáng kể."
+      ],
+      "limits": "Không tự thực hiện đánh giá ICOPE thay nhân viên y tế, không chẩn đoán hoặc điều trị. Quyết định chăm sóc cần phù hợp quyền tự quyết, năng lực và hoàn cảnh của từng người.",
+      "sourceIds": [
+        "icope",
+        "ageing"
+      ],
+      "status": "draft"
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 93,
+    "unique": 104,
     "cells": 192,
     "applicable": 173,
-    "partial": 47,
-    "gaps": 126,
+    "partial": 58,
+    "gaps": 115,
     "notPriority": 19,
     "byStage": [
       {
@@ -31,42 +31,42 @@
       {
         "id": "toddler",
         "age": "1–2 tuổi",
-        "items": 9,
+        "items": 10,
         "applicable": 12,
-        "partial": 5,
-        "gaps": 7
+        "partial": 6,
+        "gaps": 6
       },
       {
         "id": "preschool",
         "age": "3–5 tuổi",
-        "items": 9,
+        "items": 10,
         "applicable": 13,
-        "partial": 6,
-        "gaps": 7
+        "partial": 7,
+        "gaps": 6
       },
       {
         "id": "school",
         "age": "6–10 tuổi",
-        "items": 9,
+        "items": 11,
         "applicable": 15,
-        "partial": 7,
-        "gaps": 8
+        "partial": 9,
+        "gaps": 6
       },
       {
         "id": "preteen",
         "age": "11–13 tuổi",
-        "items": 5,
+        "items": 6,
         "applicable": 16,
-        "partial": 3,
-        "gaps": 13
+        "partial": 4,
+        "gaps": 12
       },
       {
         "id": "teen",
         "age": "14–17 tuổi",
-        "items": 7,
+        "items": 8,
         "applicable": 16,
-        "partial": 5,
-        "gaps": 11
+        "partial": 6,
+        "gaps": 10
       },
       {
         "id": "adult",
@@ -79,37 +79,39 @@
       {
         "id": "early-adult",
         "age": "23–34 tuổi",
-        "items": 0,
+        "items": 1,
         "applicable": 16,
-        "partial": 0,
-        "gaps": 16
+        "partial": 1,
+        "gaps": 15
       },
       {
         "id": "midlife",
         "age": "35–59 tuổi",
-        "items": 0,
+        "items": 1,
         "applicable": 16,
-        "partial": 0,
-        "gaps": 16
+        "partial": 1,
+        "gaps": 15
       },
       {
         "id": "older",
         "age": "60–74 tuổi",
-        "items": 0,
+        "items": 2,
         "applicable": 16,
-        "partial": 0,
-        "gaps": 16
+        "partial": 2,
+        "gaps": 14
       },
       {
         "id": "later-life",
         "age": "75+ tuổi",
-        "items": 0,
+        "items": 1,
         "applicable": 16,
-        "partial": 0,
-        "gaps": 16
+        "partial": 1,
+        "gaps": 15
       }
     ],
-    "p0": 63
+    "p0": 52,
+    "baselineUnique": 93,
+    "newArticles": 11
   },
   "refs": [
     {
@@ -1227,6 +1229,138 @@
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-tu-chu-va-ket-noi"
+    },
+    {
+      "kind": "article",
+      "id": "chuan-bi-nha-tre-1-2",
+      "title": "Chọn nhà trẻ cho con 1–2 tuổi: từ khảo sát đến tuần đầu thích nghi",
+      "stage": "toddler",
+      "pillar": "schools",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chuan-bi-nha-tre-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "bua-an-mam-non-3-5",
+      "title": "Bữa ăn 3–5 tuổi: xây dựng nếp ăn đa dạng, vui vẻ và an toàn",
+      "stage": "preschool",
+      "pillar": "nutrition",
+      "originalStage": "preschool",
+      "sourceCount": 1,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-bua-an-mam-non-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "bua-an-di-hoc-6-10",
+      "title": "Ăn uống tuổi tiểu học: bữa sáng, bữa phụ và bữa ăn tại trường",
+      "stage": "school",
+      "pillar": "nutrition",
+      "originalStage": "school",
+      "sourceCount": 1,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-bua-an-di-hoc-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "chon-tieu-hoc-theo-nhu-cau",
+      "title": "Chọn trường tiểu học: so sánh sự phù hợp, không chạy theo danh tiếng",
+      "stage": "school",
+      "pillar": "schools",
+      "originalStage": "school",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chon-tieu-hoc-theo-nhu-cau"
+    },
+    {
+      "kind": "article",
+      "id": "chuyen-cap-thcs",
+      "title": "Chuyển cấp THCS 11–13 tuổi: chọn môi trường và thích nghi với nhịp học mới",
+      "stage": "preteen",
+      "pillar": "schools",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chuyen-cap-thcs"
+    },
+    {
+      "kind": "article",
+      "id": "du-an-hoc-tap-thoi-ai",
+      "title": "Học tập tuổi 14–17 trong thời đại AI: xây năng lực bằng một dự án thực tế",
+      "stage": "teen",
+      "pillar": "education",
+      "originalStage": "teen",
+      "sourceCount": 1,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-du-an-hoc-tap-thoi-ai"
+    },
+    {
+      "kind": "article",
+      "id": "an-uong-khi-di-lam",
+      "title": "Ăn uống khi đi làm tuổi 23–34: cân bằng giữa thời gian, chi phí và sức khỏe",
+      "stage": "early-adult",
+      "pillar": "nutrition",
+      "originalStage": "early-adult",
+      "sourceCount": 1,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-uong-khi-di-lam"
+    },
+    {
+      "kind": "article",
+      "id": "van-dong-va-nhip-song-trung-nien",
+      "title": "Tuổi 35–59: xây nhịp vận động, nghỉ ngơi và công việc bền vững",
+      "stage": "midlife",
+      "pillar": "routine",
+      "originalStage": "midlife",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-van-dong-va-nhip-song-trung-nien"
+    },
+    {
+      "kind": "article",
+      "id": "phong-te-nga-tuoi-60-74",
+      "title": "Tuổi 60–74: rà soát môi trường sống để giảm nguy cơ té ngã",
+      "stage": "older",
+      "pillar": "safety",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-phong-te-nga-tuoi-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "nghi-huu-va-ket-noi",
+      "title": "Nghỉ hưu và sức khỏe tinh thần: giữ kết nối, sở thích và cảm giác có ý nghĩa",
+      "stage": "older",
+      "pillar": "psych",
+      "originalStage": "older",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nghi-huu-va-ket-noi"
+    },
+    {
+      "kind": "article",
+      "id": "ke-hoach-cham-soc-75-plus",
+      "title": "Tuổi 75+: chuẩn bị một kế hoạch chăm sóc tôn trọng khả năng và mong muốn cá nhân",
+      "stage": "later-life",
+      "pillar": "health",
+      "originalStage": "later-life",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ke-hoach-cham-soc-75-plus"
     }
   ],
   "cells": [
@@ -1723,8 +1857,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Chọn nhà trẻ: an toàn, người chăm sóc và thích nghi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chuan-bi-nha-tre-1-2"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -1839,8 +1975,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa ăn đa dạng, nước, thói quen bàn ăn",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:bua-an-mam-non-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2030,8 +2168,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa sáng, bữa phụ, nước và bữa ăn tại trường",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:bua-an-di-hoc-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2104,8 +2244,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Chọn tiểu học, tuyến tuyển sinh, công khai học phí",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chon-tieu-hoc-theo-nhu-cau"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -2293,8 +2435,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "So sánh THCS, chương trình, tuyển sinh",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chuyen-cap-thcs"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -2465,8 +2609,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Phương pháp học, thi cử và học nghề",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:du-an-hoc-tap-thoi-ai"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2785,8 +2931,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa ăn cân bằng khi bận rộn",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-uong-khi-di-lam"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3005,8 +3153,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Vận động, ngủ, cân bằng công việc",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:van-dong-va-nhip-song-trung-nien"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3159,8 +3309,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Kết nối, nghỉ hưu, cô đơn và hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nghi-huu-va-ket-noi"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3247,8 +3399,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Phòng té ngã, môi trường nhà, tìm trợ giúp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:phong-te-nga-tuoi-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3324,8 +3478,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Đánh giá chức năng, phối hợp chăm sóc",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ke-hoach-cham-soc-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
