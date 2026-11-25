@@ -27,3 +27,25 @@ function cases(source,execute,check){
  h.clearAll.events.click();check(h.read("saved")===undefined&&h.read("history")===undefined&&h.read("historyEnabled")===undefined&&h.status.textContent.startsWith("Đã xóa"),"normal clear remains successful");
 }
 cases(source,(src,context)=>runInNewContext(src,context,{timeout:1000}),(ok,name)=>{assert.ok(ok,name);console.log("PASS reader privacy:",name);});
+
+
+// Sprint 03: selected-stage plan, local checklist progress, cross-tab/reset and invalid state.
+{
+ const prefix="mebe.reader.v1.",store=new Map([[prefix+"stage",JSON.stringify("so-sinh")],[prefix+"checklist",JSON.stringify({"so-sinh-0":true,"tap-di-0":true})]]);
+ const el=(dataset={})=>({dataset,hidden:true,disabled:true,checked:false,textContent:"",events:{},addEventListener(k,fn){this.events[k]=fn;}});
+ const options=[{value:"",textContent:"Chọn giai đoạn"},{value:"so-sinh",textContent:"Sơ sinh"},{value:"tap-di",textContent:"Tập đi"}];
+ const select={...el(),options,value:"",get selectedOptions(){return [options.find(o=>o.value===this.value)||options[0]];}};
+ const checks=[el({checklistKey:"so-sinh-0"}),el({checklistKey:"so-sinh-1"}),el({checklistKey:"tap-di-0"})];
+ const progress=[el(),el()],empty=el(),status=el(),reset=el({checklistReset:"so-sinh"}),clear=el();
+ const plans=["so-sinh","tap-di"].map((slug,i)=>({...el({journeyPlan:slug}),querySelectorAll(s){return s==="[data-checklist-key]"?checks.filter(x=>x.dataset.checklistKey.startsWith(slug+"-")):[]},querySelector(s){return s==="[data-journey-progress]"?progress[i]:null}}));
+ const nodes={"[data-journey-select]":[select],"[data-journey-plan]":plans,"[data-journey-plan-empty]":[empty],"[data-checklist-key]":checks,"[data-checklist-reset]":[reset],"[data-clear-reader]":[clear],"[data-local-status]":[status]};
+ const events={};
+ runInNewContext(source,{document:{querySelectorAll:s=>nodes[s]||[],querySelector:s=>nodes[s]?.[0]||null},localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)},location:{pathname:"/hanh-trinh"},window:{addEventListener:(k,fn)=>events[k]=fn},navigator:{}},{timeout:1000});
+ assert.equal(plans[0].hidden,false);assert.equal(plans[1].hidden,true);assert.equal(empty.hidden,true);assert.equal(progress[0].textContent,"1/2 việc đã đánh dấu");
+ checks[1].checked=true;checks[1].events.change();assert.equal(progress[0].textContent,"2/2 việc đã đánh dấu");
+ reset.events.click();assert.equal(progress[0].textContent,"0/2 việc đã đánh dấu");assert.equal(progress[1].textContent,"1/1 việc đã đánh dấu");
+ store.set(prefix+"stage",JSON.stringify("tap-di"));events.storage({key:prefix+"stage"});assert.equal(plans[0].hidden,true);assert.equal(plans[1].hidden,false);
+ store.set(prefix+"stage",JSON.stringify("unknown"));events.storage({key:prefix+"stage"});assert.ok(plans.every(p=>p.hidden));assert.equal(empty.hidden,false);
+ clear.events.click();assert.ok(!store.has(prefix+"stage")&&!store.has(prefix+"checklist"));assert.equal(progress[1].textContent,"0/1 việc đã đánh dấu");
+ console.log("PASS personal journey: selection, progress, reset, cross-tab, invalid stage, clear");
+}
