@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 171,
+    "unique": 187,
     "cells": 192,
     "applicable": 173,
-    "partial": 125,
-    "gaps": 48,
+    "partial": 141,
+    "gaps": 32,
     "notPriority": 19,
     "byStage": [
       {
@@ -55,26 +55,26 @@
       {
         "id": "preteen",
         "age": "11–13 tuổi",
-        "items": 11,
+        "items": 18,
         "applicable": 16,
-        "partial": 9,
-        "gaps": 7
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "teen",
         "age": "14–17 tuổi",
-        "items": 13,
+        "items": 18,
         "applicable": 16,
-        "partial": 11,
-        "gaps": 5
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "adult",
         "age": "18–22 tuổi",
-        "items": 15,
+        "items": 19,
         "applicable": 16,
-        "partial": 12,
-        "gaps": 4
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "early-adult",
@@ -111,7 +111,7 @@
     ],
     "p0": 0,
     "baselineUnique": 93,
-    "newArticles": 78
+    "newArticles": 94
   },
   "refs": [
     {
@@ -2165,6 +2165,198 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-quan-ly-thoi-gian-va-viec-nha-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "lap-luan-va-kiem-chung-11-13",
+      "title": "Tư duy 11–13 tuổi: từ ý kiến đến lập luận có bằng chứng",
+      "stage": "preteen",
+      "pillar": "thinking",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-lap-luan-va-kiem-chung-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "tinh-ban-va-ranh-gioi-11-13",
+      "title": "Tình bạn 11–13 tuổi: giao tiếp, ranh giới và cách từ chối áp lực",
+      "stage": "preteen",
+      "pillar": "relationships",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tinh-ban-va-ranh-gioi-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "so-thich-va-nang-khieu-11-13",
+      "title": "Năng khiếu 11–13 tuổi: duy trì sở thích khi lịch học thay đổi",
+      "stage": "preteen",
+      "pillar": "talents",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-so-thich-va-nang-khieu-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "tiet-kiem-va-quang-cao-11-13",
+      "title": "Tài chính 11–13 tuổi: tiết kiệm, so sánh giá và nhận diện quảng cáo",
+      "stage": "preteen",
+      "pillar": "finance",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tiet-kiem-va-quang-cao-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "kham-pha-nghe-11-13",
+      "title": "Khám phá nghề 11–13 tuổi: sở thích, kỹ năng và thế giới việc làm",
+      "stage": "preteen",
+      "pillar": "career",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-kham-pha-nghe-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-tre-em-va-trach-nhiem-so-11-13",
+      "title": "Quyền trẻ em và trách nhiệm trên mạng tuổi 11–13",
+      "stage": "preteen",
+      "pillar": "civic",
+      "originalStage": "preteen",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-tre-em-va-trach-nhiem-so-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "tu-quan-va-thich-nghi-thcs",
+      "title": "Kỹ năng sống 11–13 tuổi: tự quản việc học và thích nghi THCS",
+      "stage": "preteen",
+      "pillar": "life",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-quan-va-thich-nghi-thcs"
+    },
+    {
+      "kind": "article",
+      "id": "nghien-cuu-va-tu-duy-phan-bien-14-17",
+      "title": "Tư duy phản biện 14–17 tuổi: nghiên cứu, dữ liệu và sáng tạo",
+      "stage": "teen",
+      "pillar": "thinking",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nghien-cuu-va-tu-duy-phan-bien-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "portfolio-va-hoat-dong-cong-dong-14-17",
+      "title": "Năng khiếu 14–17 tuổi: hồ sơ dự án, sáng tạo và hoạt động cộng đồng",
+      "stage": "teen",
+      "pillar": "talents",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-portfolio-va-hoat-dong-cong-dong-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "huong-nghiep-va-thu-nghe-14-17",
+      "title": "Hướng nghiệp 14–17 tuổi: thử nghề, tìm kỹ năng và chọn lộ trình học",
+      "stage": "teen",
+      "pillar": "career",
+      "originalStage": "teen",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-huong-nghiep-va-thu-nghe-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-lao-dong-va-trach-nhiem-14-17",
+      "title": "Tuổi 14–17: quyền, trách nhiệm và lưu ý trước khi làm thêm",
+      "stage": "teen",
+      "pillar": "civic",
+      "originalStage": "teen",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-lao-dong-va-trach-nhiem-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "ra-quyet-dinh-va-tu-lap-14-17",
+      "title": "Kỹ năng sống 14–17 tuổi: quyết định, tự lập và lập kế hoạch",
+      "stage": "teen",
+      "pillar": "life",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ra-quyet-dinh-va-tu-lap-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "danh-gia-bang-chung-18-22",
+      "title": "Tư duy 18–22 tuổi: nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề",
+      "stage": "adult",
+      "pillar": "thinking",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-danh-gia-bang-chung-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "ai-hoc-tap-cong-viec-18-22",
+      "title": "AI tuổi 18–22: học tập, thực tập và bảo mật dữ liệu",
+      "stage": "adult",
+      "pillar": "digital",
+      "originalStage": "adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ai-hoc-tap-cong-viec-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "portfolio-va-so-thich-18-22",
+      "title": "Năng khiếu và portfolio 18–22 tuổi: dự án thật, sở thích và kết nối cộng đồng",
+      "stage": "adult",
+      "pillar": "talents",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-portfolio-va-so-thich-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "hop-dong-bhxh-va-thu-tuc-18-22",
+      "title": "Bước đầu đi làm 18–22 tuổi: hợp đồng, bảo hiểm và hồ sơ cá nhân",
+      "stage": "adult",
+      "pillar": "civic",
+      "originalStage": "adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hop-dong-bhxh-va-thu-tuc-18-22"
     }
   ],
   "cells": [
@@ -3308,8 +3500,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Lập luận, kiểm chứng, học qua dự án",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:lap-luan-va-kiem-chung-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3333,8 +3527,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tình bạn, giao tiếp, ranh giới",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tinh-ban-va-ranh-gioi-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3357,8 +3553,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Sở thích, nghệ thuật, thể thao",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:so-thich-va-nang-khieu-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3368,8 +3566,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tiết kiệm, mua sắm, quảng cáo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tiet-kiem-va-quang-cao-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3379,8 +3579,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Khám phá sở thích và nghề đa dạng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:kham-pha-nghe-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3390,8 +3592,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quyền trẻ em, trách nhiệm trên mạng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-tre-em-va-trach-nhiem-so-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3401,8 +3605,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Thích nghi chuyển cấp, tự quản lý việc học",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-quan-va-thich-nghi-thcs"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3503,8 +3709,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tư duy phản biện, nghiên cứu và sáng tạo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nghien-cuu-va-tu-duy-phan-bien-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3555,8 +3763,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Năng khiếu, hồ sơ dự án và hoạt động cộng đồng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:portfolio-va-hoat-dong-cong-dong-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3579,8 +3789,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hướng nghiệp, trải nghiệm nghề và kỹ năng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:huong-nghiep-va-thu-nghe-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3590,8 +3802,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quyền, trách nhiệm, việc làm phù hợp tuổi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-lao-dong-va-trach-nhiem-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3601,8 +3815,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Ra quyết định, tự lập, lập kế hoạch",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ra-quyet-dinh-va-tu-lap-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3704,8 +3920,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:danh-gia-bang-chung-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3715,8 +3933,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "AI trong học tập và công việc, bảo mật",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ai-hoc-tap-cong-viec-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3753,8 +3973,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Năng khiếu, portfolio và hoạt động cộng đồng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:portfolio-va-so-thich-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3790,8 +4012,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hợp đồng lao động, bảo hiểm, thủ tục",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hop-dong-bhxh-va-thu-tuc-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {

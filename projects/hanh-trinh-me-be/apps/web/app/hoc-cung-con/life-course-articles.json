@@ -331,6 +331,48 @@
       "url": "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
       "scope": "Căn cứ pháp lý về bảo vệ dữ liệu; không thay tư vấn pháp lý.",
       "checkedOn": "2026-11-25"
+    },
+    "youthFinance": {
+      "name": "CFPB — Building blocks of financial capability",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+      "scope": "Giáo dục tài chính, thói quen và quyết định theo tuổi.",
+      "checkedOn": "2026-11-25"
+    },
+    "careerYouth": {
+      "name": "OECD — Teenage career readiness",
+      "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+      "scope": "Khám phá, trải nghiệm và suy nghĩ về tương lai nghề nghiệp.",
+      "checkedOn": "2026-11-25"
+    },
+    "careerGuide": {
+      "name": "OECD — Career guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+      "scope": "Hướng nghiệp chủ động, tiếp xúc thế giới việc làm.",
+      "checkedOn": "2026-11-25"
+    },
+    "labour": {
+      "name": "Văn phòng Quốc hội — Bộ luật Lao động, VBHN 18/VBHN-VPQH",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+      "scope": "Tra cứu hợp đồng, lao động chưa thành niên, quyền và nghĩa vụ.",
+      "checkedOn": "2026-11-25"
+    },
+    "vssid": {
+      "name": "BHXH Việt Nam — 4 cách tra cứu quá trình tham gia BHXH",
+      "url": "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277",
+      "scope": "Kênh tra cứu chính thức; không đưa mã xác thực cho người khác.",
+      "checkedOn": "2026-11-25"
+    },
+    "aiEdu": {
+      "name": "UNESCO — Guidance for generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076",
+      "scope": "Sử dụng AI có trách nhiệm, bảo vệ dữ liệu và năng lực người học.",
+      "checkedOn": "2026-11-25"
+    },
+    "aiDecide": {
+      "name": "UNESCO — AI answers, you decide",
+      "url": "https://www.unesco.org/en/articles/ai-answers-you-decide",
+      "scope": "Đánh giá nguồn và giữ quyền quyết định trong môi trường AI.",
+      "checkedOn": "2026-11-25"
     }
   },
   "articles": [
@@ -4121,6 +4163,786 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "thinking",
+      "id": "lap-luan-va-kiem-chung-11-13",
+      "title": "Tư duy 11–13 tuổi: từ ý kiến đến lập luận có bằng chứng",
+      "summary": "Học đặt câu hỏi, tìm nguồn độc lập và sửa kết luận khi có bằng chứng mới.",
+      "sections": [
+        {
+          "heading": "Phân biệt dữ kiện và ý kiến",
+          "body": "Một thông tin được nhiều người chia sẻ không tự trở thành đúng. UNESCO nhấn mạnh năng lực đánh giá thông tin trong môi trường AI. Hãy chọn một nhận định dễ kiểm tra, phân biệt phần có thể quan sát, ý kiến cá nhân và phần chưa biết; không bắt trẻ đồng ý với người lớn.",
+          "sourceIds": [
+            "mil",
+            "aiDecide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử một ví dụ trong lớp",
+          "body": "Ví dụ lớp muốn giảm rác nhựa: hỏi loại rác nào xuất hiện nhiều, quan sát khu vực được phép và thống kê số lượng vật bỏ đi mà không ghi thông tin học sinh. So sánh với nguồn giáo dục môi trường, ghi những điều còn chưa chắc. Không suy ra nguyên nhân chỉ từ một lần đếm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đọc và phản biện nguồn",
+          "body": "Ghi ai công bố, mục đích, ngày cập nhật và dữ liệu dùng để hỗ trợ kết luận. Nếu hai bài viết mâu thuẫn, hỏi chúng đang nói về cùng nơi và thời điểm không. AI có thể gợi ý câu hỏi nhưng không tự chứng minh câu trả lời; kiểm tra nguồn độc lập.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trình bày kết luận có giới hạn",
+          "body": "Tập nói: em nghĩ thế này vì có bằng chứng này, nhưng còn thiếu điều kia. Mời bạn góp ý và sửa nhận định nếu có thông tin mới. Người lớn đánh giá cách lý giải và sự trung thực, không đánh giá trẻ bằng việc tranh luận thắng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một nhận định dễ kiểm tra.",
+        "Lập bảng nguồn–bằng chứng–điều chưa biết.",
+        "Trình bày kết luận ngắn và một câu hỏi tiếp theo."
+      ],
+      "limits": "Không dùng bài tập để đánh giá IQ hoặc thu thập dữ liệu cá nhân của học sinh.",
+      "sourceIds": [
+        "mil",
+        "aiDecide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "relationships",
+      "id": "tinh-ban-va-ranh-gioi-11-13",
+      "title": "Tình bạn 11–13 tuổi: giao tiếp, ranh giới và cách từ chối áp lực",
+      "summary": "Tôn trọng sự khác biệt, nhận diện quan hệ không an toàn và tìm hỗ trợ.",
+      "sections": [
+        {
+          "heading": "Tình bạn không cần giống hệt nhau",
+          "body": "Khi bước vào THCS, nhiều trẻ muốn có nhóm bạn và được công nhận. Người lớn có thể lắng nghe mà không vội lựa chọn bạn thay con. Một mâu thuẫn không tự chứng minh quan hệ xấu; quan tâm cách bạn bè tôn trọng nhau, hành vi lặp lại và cảm giác an toàn.",
+          "sourceIds": [
+            "positive",
+            "bullying"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tập nói rõ nhu cầu",
+          "body": "Dùng tình huống bạn muốn mượn đồ hoặc rủ làm điều mình không muốn. Tập nói: mình không thoải mái, mình muốn dừng, hoặc mình có thể tham gia việc khác. Không cần giải thích mọi chuyện riêng tư để được phép từ chối. Tôn trọng khi người khác nói không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi mâu thuẫn xảy ra",
+          "body": "Chọn lúc bình tĩnh và nơi an toàn để nói về hành vi cụ thể, không công kích cá nhân. Nếu có đe dọa, cô lập, phát tán nội dung riêng tư hoặc bắt nạt, không ép đối thoại trực tiếp. Lưu thông tin cần thiết và nhờ người lớn, nhà trường hoặc kênh bảo vệ trẻ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ kết nối với người lớn",
+          "body": "Thống nhất một người ở nhà và một người ở trường mà trẻ có thể tìm đến. Cha mẹ phản hồi bằng lắng nghe, không làm nhục hoặc công khai câu chuyện. Hỏi trẻ muốn được hỗ trợ thế nào, đồng thời can thiệp khi có nguy cơ gây hại.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập một câu từ chối và một câu xin hỗ trợ.",
+        "Chọn hai người đáng tin ở nhà và trường.",
+        "Thảo luận tình huống ranh giới trong nhóm bạn."
+      ],
+      "limits": "Không ép hòa giải với người bắt nạt hoặc giữ bí mật về nguy cơ xâm hại; cần người lớn bảo vệ.",
+      "sourceIds": [
+        "positive",
+        "bullying"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "talents",
+      "id": "so-thich-va-nang-khieu-11-13",
+      "title": "Năng khiếu 11–13 tuổi: duy trì sở thích khi lịch học thay đổi",
+      "summary": "Tạo cơ hội thử và luyện kỹ năng, không biến sở thích thành áp lực thành tích.",
+      "sections": [
+        {
+          "heading": "Sở thích có thể thay đổi",
+          "body": "Tuổi chuyển cấp có thể làm thời gian và nhóm bạn thay đổi. Hỏi trẻ muốn tiếp tục hoạt động nào, muốn thử gì và điều gì khiến khó tham gia. Không coi bỏ một môn là thất bại; trải nghiệm nhiều hoạt động có thể giúp hiểu bản thân mà chưa cần quyết định nghề.",
+          "sourceIds": [
+            "playHarvard",
+            "careerYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lập kế hoạch luyện tập vừa sức",
+          "body": "Ví dụ với vẽ, chọn một chủ đề và một kỹ thuật muốn thử; với thể thao, tập dưới hướng dẫn phù hợp, nghỉ khi đau hoặc mệt. Giữ thời gian ngủ, ăn và học. Không ép tập thêm vì thấy bạn đạt giải hoặc vì đã đóng học phí.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm cơ hội phù hợp Việt Nam",
+          "body": "Hỏi trường về câu lạc bộ, thư viện, nhà văn hóa, nhóm cộng đồng hoặc lớp có người hướng dẫn. Kiểm tra lịch, chi phí, an toàn, thiết bị và cách bảo vệ thông tin trẻ. Nếu không có điều kiện đóng phí, chọn dự án ở nhà hoặc hoạt động miễn phí phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi nhận quá trình",
+          "body": "Nếu trẻ muốn, lưu một sản phẩm và một nhận xét về điều đã học. Không công khai hình ảnh hoặc xếp hạng sở thích để cạnh tranh. Cuối tháng hỏi trẻ muốn giữ, đổi hay giảm hoạt động; bảo đảm vẫn còn thời gian tự do.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một sở thích và mục tiêu nhỏ trong tháng.",
+        "Khảo sát một hoạt động ở trường hoặc địa phương.",
+        "Tự nhận xét một tiến bộ, một điều muốn thử khác."
+      ],
+      "limits": "Không dự đoán năng khiếu bẩm sinh, kết quả thi hoặc nghề tương lai; hoạt động cần an toàn và tự nguyện.",
+      "sourceIds": [
+        "playHarvard",
+        "careerYouth"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "finance",
+      "id": "tiet-kiem-va-quang-cao-11-13",
+      "title": "Tài chính 11–13 tuổi: tiết kiệm, so sánh giá và nhận diện quảng cáo",
+      "summary": "Luyện quyết định bằng ngân sách giả định, không mở tài khoản hoặc đầu tư thật cho trẻ.",
+      "sections": [
+        {
+          "heading": "Tiền là công cụ lựa chọn",
+          "body": "CFPB mô tả năng lực tài chính trẻ em qua thói quen, kỹ năng tự điều chỉnh và quyết định. Dùng tình huống giả định hoặc khoản tiền tiêu vặt được gia đình thống nhất. Không yêu cầu trẻ trả chi phí thiết yếu hoặc so sánh hoàn cảnh tài chính với bạn.",
+          "sourceIds": [
+            "youthFinance",
+            "mil"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ví dụ lập kế hoạch",
+          "body": "Giả sử có 100.000 đồng trong một tuần, muốn mua sách giá 80.000 đồng và cần 30.000 đồng cho một việc đã thống nhất. Cùng cân nhắc trì hoãn mua sách, tiết kiệm thêm hoặc chọn phương án khác. Số tiền chỉ minh họa; không có một đáp án ngân sách đúng cho mọi trẻ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quảng cáo và chi phí thật",
+          "body": "Cùng đọc hai thông tin bán hàng giả lập, tìm giá, phí vận chuyển, điều kiện giảm giá và thời hạn. Hỏi vì sao có thông báo sắp hết hàng. Không bấm liên kết hoặc nhập thông tin thanh toán; nếu muốn mua, trao đổi với người lớn trước.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo thói quen xem lại",
+          "body": "Ghi quyết định, lý do và điều muốn làm khác. Khen cách suy nghĩ thay vì số tiền tích lũy. Nếu trẻ lỡ mua hoặc mất tiền, giúp xử lý an toàn, không làm nhục. Với lừa đảo, xin hỗ trợ và không chuyển thêm tiền.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập ngân sách giả định 100.000 đồng.",
+        "So sánh hai ưu đãi với tổng chi phí.",
+        "Đặt mục tiêu tiết kiệm nhỏ và xem lại sau một tuần."
+      ],
+      "limits": "Giáo dục tài chính, không khuyến nghị đầu tư, mở tín dụng hoặc giao dịch thực tế cho trẻ.",
+      "sourceIds": [
+        "youthFinance",
+        "mil"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "career",
+      "id": "kham-pha-nghe-11-13",
+      "title": "Khám phá nghề 11–13 tuổi: sở thích, kỹ năng và thế giới việc làm",
+      "summary": "Mở rộng hiểu biết về nghề bằng câu hỏi và trải nghiệm an toàn.",
+      "sections": [
+        {
+          "heading": "Khám phá trước chọn nghề",
+          "body": "OECD nhấn mạnh hướng nghiệp từ sớm thông qua tìm hiểu và trải nghiệm. Với tuổi 11–13, mục tiêu là biết công việc đa dạng và nhận ra điều mình thích, không chốt ngành hoặc buộc con tiếp nối nghề gia đình. Tránh định kiến giới về nghề.",
+          "sourceIds": [
+            "careerGuide",
+            "careerYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm hiểu một nghề quanh mình",
+          "body": "Hỏi người trưởng thành đáng tin về một ngày làm việc, nhiệm vụ khó, kỹ năng cần và điều họ học qua thời gian. Có thể là người thợ, giáo viên, nhân viên y tế, kỹ sư hoặc người làm dịch vụ. Không ghi âm hay đăng thông tin cá nhân khi chưa được đồng ý.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử một nhiệm vụ nhỏ",
+          "body": "Ví dụ tìm hiểu thiết kế bằng vẽ sơ đồ góc học, tìm hiểu kế toán qua bảng chi phí giả định, hoặc khoa học qua quan sát cây. Chỉ chọn hoạt động an toàn, phù hợp tuổi; không bố trí trẻ làm việc nguy hiểm hoặc lao động thay người lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi hồ sơ tò mò",
+          "body": "Sau mỗi trải nghiệm, hỏi mình thích nhiệm vụ nào, cần kỹ năng gì, có điều gì bất ngờ và muốn hỏi ai tiếp theo. Cha mẹ có thể chia sẻ các lựa chọn học khác nhau, không dựa vào dự báo AI thay cho trải nghiệm và sở thích của con.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn hai nghề khác nhau để tìm hiểu.",
+        "Viết ba câu hỏi phỏng vấn người đáng tin.",
+        "Thử một dự án giả lập an toàn."
+      ],
+      "limits": "Không xếp loại năng lực nghề nghiệp hoặc bảo đảm việc làm; không tổ chức lao động không phù hợp tuổi.",
+      "sourceIds": [
+        "careerGuide",
+        "careerYouth"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "civic",
+      "id": "quyen-tre-em-va-trach-nhiem-so-11-13",
+      "title": "Quyền trẻ em và trách nhiệm trên mạng tuổi 11–13",
+      "summary": "Hiểu quyền được bảo vệ, tôn trọng dữ liệu cá nhân và cách báo cáo nguy cơ.",
+      "sections": [
+        {
+          "heading": "Quyền và trách nhiệm trong môi trường số",
+          "body": "Luật Trẻ em và Luật Bảo vệ dữ liệu cá nhân là nguồn tra cứu tại Việt Nam. Trẻ có quyền được bảo vệ và cần học tôn trọng người khác; không biến trách nhiệm thành lý do bắt trẻ chấp nhận hành vi xâm hại. Điều khoản nền tảng cũng cần đọc đúng độ tuổi.",
+          "sourceIds": [
+            "childLaw",
+            "privacyLaw",
+            "cyber",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Trước khi đăng hoặc gửi",
+          "body": "Hỏi nội dung có chứa tên, ảnh, địa chỉ, vị trí hoặc câu chuyện riêng của ai không; nếu có, dừng và hỏi người lớn, tôn trọng sự đồng ý và quy định. Không chia sẻ ảnh của bạn vì trò đùa. Tập dùng dữ liệu giả khi học công nghệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có hành vi gây hại",
+          "body": "Nếu bị ép cung cấp thông tin, đe dọa hoặc phát tán nội dung, ưu tiên an toàn, báo người lớn tin cậy và dùng chức năng báo cáo. Không tự điều tra tài khoản lạ, không chuyển tiếp hình ảnh riêng tư. Khi trẻ có nguy cơ xâm hại, có thể liên hệ Tổng đài 111.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tra cứu và hỏi khi chưa rõ",
+          "body": "Người lớn có thể đọc văn bản hiện hành, quy tắc nhà trường và điều khoản dịch vụ rồi giải thích bằng ví dụ. Không yêu cầu trẻ tự xử lý tranh chấp pháp lý. Giữ thông tin sự việc riêng tư, liên hệ cơ quan có thẩm quyền khi cần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập kiểm tra thông tin riêng trong một bài đăng giả lập.",
+        "Chọn kênh báo cáo và người hỗ trợ.",
+        "Thảo luận một quy tắc ứng xử số của lớp."
+      ],
+      "limits": "Không phải ý kiến pháp lý; cần đối chiếu quy định hiện hành, bảo vệ trẻ và tìm hỗ trợ chính thức.",
+      "sourceIds": [
+        "childLaw",
+        "privacyLaw",
+        "cyber",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "life",
+      "id": "tu-quan-va-thich-nghi-thcs",
+      "title": "Kỹ năng sống 11–13 tuổi: tự quản việc học và thích nghi THCS",
+      "summary": "Xây hệ thống quản lý thời gian, đồ dùng và tìm trợ giúp khi lịch học đổi.",
+      "sections": [
+        {
+          "heading": "Thay đổi cần thời gian",
+          "body": "Chuyển cấp có thể khiến trẻ gặp nhiều giáo viên, môn học và nhóm bạn mới. Hãy hỏi điều gì chưa quen, không coi quên bài hoặc lúng túng là thiếu trách nhiệm. Kỹ năng tự điều chỉnh được luyện qua thực hành và hỗ trợ phù hợp.",
+          "sourceIds": [
+            "executive",
+            "positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo một nơi ghi việc",
+          "body": "Chọn sổ hoặc lịch đơn giản để ghi hạn bài, dụng cụ và cuộc hẹn. Buổi tối xem ba việc cần làm ngày mai, đặt đồ theo vị trí cố định. Nếu trẻ hay quên, dùng nhắc việc trực quan; cha mẹ giảm hỗ trợ khi con đã tự thực hiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tự quản cả việc ngoài học",
+          "body": "Thống nhất giờ nghỉ, việc nhà vừa sức, phương án đi lại và người có thể liên hệ. Nếu lịch học thêm quá dày, cùng xem việc nào có thể giảm. Dùng tình huống đổi giờ học để tập báo trước và tìm phương án an toàn thay vì tự giải quyết mọi thứ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhờ giúp là kỹ năng",
+          "body": "Tập nói cụ thể với giáo viên: em chưa hiểu phần này, em đã thử cách kia. Hỏi trẻ muốn bố mẹ hỗ trợ điều gì, không kiểm tra bí mật thiết bị hoặc làm bài thay. Nếu khó khăn kéo dài ở nhiều môi trường, tìm hỗ trợ giáo dục hoặc chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tạo một bảng hạn bài và đồ dùng.",
+        "Tập chuẩn bị ngày mai trong một khoảng ngắn.",
+        "Chọn người hỗ trợ khi thay đổi lịch hoặc gặp khó khăn."
+      ],
+      "limits": "Không áp đặt lịch giống nhau hoặc biến công cụ quản lý thành giám sát quá mức.",
+      "sourceIds": [
+        "executive",
+        "positive"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "thinking",
+      "id": "nghien-cuu-va-tu-duy-phan-bien-14-17",
+      "title": "Tư duy phản biện 14–17 tuổi: nghiên cứu, dữ liệu và sáng tạo",
+      "summary": "Tập phân biệt giả thuyết, bằng chứng, tương quan và kết luận.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ câu hỏi kiểm chứng được",
+          "body": "Năng lực thông tin gồm nhận ra giới hạn nguồn và cách lập luận. Ví dụ, thay vì hỏi điện thoại có tốt không, hỏi một ứng dụng cụ thể giúp hoàn thành nhiệm vụ gì trong bối cảnh nào. Xác định điều quan sát được và điều chỉ là suy đoán.",
+          "sourceIds": [
+            "mil",
+            "aiDecide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế khảo sát an toàn",
+          "body": "Chọn đề tài như mức độ sử dụng giấy trong một không gian được phép. Ghi dữ liệu tổng hợp, không thu tên hay dữ liệu sức khỏe. Đặt tiêu chí trước, xem xét yếu tố khác có thể ảnh hưởng và không tuyên bố quan hệ nhân quả từ một quan sát đơn giản.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá nguồn và AI",
+          "body": "Đọc nguồn gốc của số liệu, thời điểm, phạm vi và hạn chế. Nếu dùng AI gợi ý biểu đồ hoặc câu hỏi, kiểm chứng tài liệu thật, không chấp nhận trích dẫn không tìm thấy. Tuân thủ quy định của trường và không đưa thông tin người khác vào công cụ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trình bày kết quả có thể sửa",
+          "body": "Viết kết luận, nêu bằng chứng hỗ trợ, điều phản bác và giới hạn. Đề xuất một bước kiểm tra tiếp hoặc giải pháp thử nghiệm nhỏ. Khi bạn góp ý, xem đó là cơ hội sửa lập luận, không phải cuộc thi thắng thua.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết câu hỏi và giả thuyết cho một dự án nhỏ.",
+        "Lập bảng dữ liệu không định danh và nguồn tham khảo.",
+        "Trình bày kết luận kèm hai giới hạn."
+      ],
+      "limits": "Không thu dữ liệu nhạy cảm, thực hiện thí nghiệm nguy hiểm hoặc coi khảo sát lớp là nghiên cứu đại diện.",
+      "sourceIds": [
+        "mil",
+        "aiDecide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "talents",
+      "id": "portfolio-va-hoat-dong-cong-dong-14-17",
+      "title": "Năng khiếu 14–17 tuổi: hồ sơ dự án, sáng tạo và hoạt động cộng đồng",
+      "summary": "Ghi lại quá trình học và đóng góp thật thay vì tích lũy chứng nhận hình thức.",
+      "sections": [
+        {
+          "heading": "Hồ sơ phản ánh điều đã làm",
+          "body": "Một portfolio có thể gồm sản phẩm nghệ thuật, bài viết, mô hình, hoạt động thể thao hoặc dự án cộng đồng. Mục tiêu là ghi quá trình và kỹ năng thực tế; không cần tạo nhiều chứng chỉ hoặc chọn sở thích chỉ vì hồ sơ tuyển sinh.",
+          "sourceIds": [
+            "careerYouth",
+            "lifelong"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn dự án vừa sức",
+          "body": "Ví dụ tổ chức góc đọc trong lớp được giáo viên đồng ý, làm poster môi trường hoặc luyện một bản nhạc. Ghi mục tiêu, người hỗ trợ, công việc mình thực hiện, khó khăn và kết quả. Không tự tổ chức hoạt động nguy hiểm hoặc thu tiền cộng đồng khi chưa được phép.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ người tham gia",
+          "body": "Xin phép trước khi dùng ảnh, tên và sản phẩm của người khác. Khi dùng AI, ghi rõ phần hỗ trợ, không tạo thành tích giả. Nếu hoạt động có trẻ nhỏ hoặc nhóm dễ bị tổn thương, giữ phẩm giá, không đăng câu chuyện cá nhân để quảng bá thành tích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá chất lượng và cân bằng",
+          "body": "Chọn một vài sản phẩm thể hiện tiến bộ, viết điều học được và điều cần sửa. Hỏi giáo viên hoặc người hướng dẫn góp ý. Giữ thời gian nghỉ và lựa chọn dừng khi hoạt động không còn phù hợp; không dự đoán cơ hội tuyển sinh từ số chứng nhận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một dự án có đầu ra cụ thể.",
+        "Lưu nhật ký vai trò, nguồn và phản hồi.",
+        "Viết đoạn tự đánh giá ngắn, không đưa dữ liệu riêng."
+      ],
+      "limits": "Không cam kết điểm tuyển sinh hoặc thành tích; hoạt động cần giám sát và sự đồng ý phù hợp.",
+      "sourceIds": [
+        "careerYouth",
+        "lifelong"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "career",
+      "id": "huong-nghiep-va-thu-nghe-14-17",
+      "title": "Hướng nghiệp 14–17 tuổi: thử nghề, tìm kỹ năng và chọn lộ trình học",
+      "summary": "So sánh phương án bằng trải nghiệm và thông tin chính thức, không theo trào lưu.",
+      "sections": [
+        {
+          "heading": "Khám phá, trải nghiệm và suy ngẫm",
+          "body": "OECD nhấn mạnh học sinh cần tìm hiểu nhiều nghề, tiếp cận trải nghiệm và suy nghĩ về kế hoạch tương lai. Không dựa chỉ vào trắc nghiệm tính cách hoặc dự đoán nghề hot. Hỏi mình thích nhiệm vụ nào và có bằng chứng gì từ việc đã làm.",
+          "sourceIds": [
+            "careerYouth",
+            "careerGuide",
+            "admission"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đọc thông tin việc làm và đào tạo",
+          "body": "Tìm mô tả nhiệm vụ, yêu cầu học tập, môi trường làm và lộ trình ở nguồn tuyển dụng hoặc cơ sở đào tạo chính thức. So sánh ít nhất hai nghề; ghi phần chưa rõ như yêu cầu chứng chỉ hoặc cơ hội học tiếp. Không coi mức lương quảng cáo là thu nhập chắc chắn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử qua dự án và đối thoại",
+          "body": "Hỏi người làm nghề đáng tin về công việc, thử nhiệm vụ giả lập phù hợp tuổi hoặc tham gia ngày hội hướng nghiệp có giám sát. Không thực tập tại môi trường nguy hiểm, không giao tài liệu cá nhân cho người lạ. Tôn trọng lựa chọn khác nhau giữa học phổ thông và học nghề.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xây phương án chính và dự phòng",
+          "body": "So sánh điều kiện tuyển sinh đúng năm, chi phí, thời gian và hỗ trợ. Đặt một kỹ năng cần phát triển trong học kỳ và một lựa chọn dự phòng. Thảo luận với cha mẹ về điều kiện thực tế mà không ép chọn ngành theo kỳ vọng gia đình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn hai nghề, ghi nhiệm vụ và kỹ năng cần.",
+        "Hỏi một người làm nghề qua kênh an toàn.",
+        "Lập lộ trình chính và phương án dự phòng."
+      ],
+      "limits": "Không bảo đảm tuyển sinh, việc làm hoặc thu nhập; cần xác minh thông tin và bảo đảm an toàn cho người chưa thành niên.",
+      "sourceIds": [
+        "careerYouth",
+        "careerGuide",
+        "admission"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "civic",
+      "id": "quyen-lao-dong-va-trach-nhiem-14-17",
+      "title": "Tuổi 14–17: quyền, trách nhiệm và lưu ý trước khi làm thêm",
+      "summary": "Tra cứu quy định người lao động chưa thành niên tại Việt Nam và nhận diện nguy cơ.",
+      "sections": [
+        {
+          "heading": "Không áp dụng quy tắc người lớn cho mọi tuổi",
+          "body": "Bộ luật Lao động có quy định riêng về người lao động chưa thành niên. Nhóm 14–17 không có một điều kiện chung; cần xem tuổi, công việc, thời giờ, môi trường, hồ sơ và sự tham gia của người đại diện theo quy định. Không nhận việc chỉ dựa vào lời hứa trả lương.",
+          "sourceIds": [
+            "labour",
+            "childLaw",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra trước khi nhận việc",
+          "body": "Cùng người lớn đáng tin xác minh đơn vị, địa chỉ, nhiệm vụ, giờ, tiền công, cách thanh toán và điều kiện an toàn. Đọc quy định hiện hành về công việc và nơi làm được phép; nếu chưa rõ, hỏi cơ quan có thẩm quyền. Không đóng phí tuyển dụng bất thường hoặc giao giấy tờ gốc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ việc học và sức khỏe",
+          "body": "Không chọn công việc làm mất thời gian học, ngủ hoặc có nguy cơ gây hại. Nếu bị yêu cầu đổi nhiệm vụ, làm quá giờ hoặc giữ bí mật với gia đình, dừng và tìm hỗ trợ. Lưu thông tin giao dịch và trao đổi riêng với người tin cậy; không tự đối đầu người đe dọa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi phát sinh tranh chấp",
+          "body": "Ghi sự việc, thời điểm, nội dung đã thống nhất và chứng từ có sẵn. Liên hệ người đại diện, cơ quan lao động hoặc kênh bảo vệ trẻ phù hợp; trẻ có nguy cơ xâm hại có thể gọi 111. Không dùng bài này để kết luận một hợp đồng chắc chắn hợp pháp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Kiểm tra quy định theo tuổi trước một lời mời việc.",
+        "Liệt kê nhiệm vụ, giờ, tiền công và người phụ trách.",
+        "Lưu đầu mối hỗ trợ, không nộp phí hoặc giấy tờ vội."
+      ],
+      "limits": "Không tư vấn pháp lý cụ thể; cần đối chiếu văn bản hiện hành và hỏi cơ quan có thẩm quyền.",
+      "sourceIds": [
+        "labour",
+        "childLaw",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "life",
+      "id": "ra-quyet-dinh-va-tu-lap-14-17",
+      "title": "Kỹ năng sống 14–17 tuổi: quyết định, tự lập và lập kế hoạch",
+      "summary": "Tập lựa chọn có cân nhắc, quản lý việc cá nhân và biết xin trợ giúp.",
+      "sections": [
+        {
+          "heading": "Quyết định có thể học qua việc nhỏ",
+          "body": "Bắt đầu bằng lựa chọn vừa sức như lịch học, dự án, khoản chi giả định hoặc phương án đi lại có người lớn hỗ trợ. Xác định mục tiêu, các lựa chọn, nguy cơ và nguồn lực. Với quyết định ảnh hưởng an toàn hoặc pháp lý, cần người có trách nhiệm tham gia.",
+          "sourceIds": [
+            "executive",
+            "careerGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Dùng bảng lựa chọn",
+          "body": "Ví dụ có hai hoạt động cuối tuần, ghi thời gian đi lại, chi phí, sự an toàn, điều mình muốn và việc cần hoàn thành. Chọn phương án, nêu lý do và đặt cách xem lại. Không dùng điểm số tùy ý để che lấp rủi ro hoặc sự thiếu thông tin.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tập tự phục vụ thực tế",
+          "body": "Học quản lý đồ, giặt đồ phù hợp, chuẩn bị bữa ăn đơn giản dưới hướng dẫn an toàn và ghi hạn việc. Tập giao tiếp khi phải thay đổi lịch. Không giao nhiệm vụ nguy hiểm, nuôi người khác hoặc bắt trẻ tự giải quyết vấn đề vượt khả năng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm hỗ trợ khi kế hoạch không như dự định",
+          "body": "Nếu bị áp lực, lừa đảo, gặp nguy hiểm hoặc không thể hoàn thành, báo người tin cậy và điều chỉnh. Cùng cha mẹ xem lại mục tiêu định kỳ, tăng quyền tự chủ khi phù hợp. Xin giúp không phải thất bại; người lớn vẫn có trách nhiệm bảo vệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng hai phương án cho một việc trong tuần.",
+        "Chọn một kỹ năng tự phục vụ an toàn để tập.",
+        "Viết kế hoạch dự phòng và người có thể hỗ trợ."
+      ],
+      "limits": "Không giao quyền hoặc trách nhiệm vượt độ tuổi, không thay tư vấn an toàn/pháp lý.",
+      "sourceIds": [
+        "executive",
+        "careerGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "thinking",
+      "id": "danh-gia-bang-chung-18-22",
+      "title": "Tư duy 18–22 tuổi: nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề",
+      "summary": "Áp dụng tư duy có kiểm chứng trong học tập, việc làm và quyết định đời thường.",
+      "sections": [
+        {
+          "heading": "Câu hỏi và chất lượng bằng chứng",
+          "body": "Phân biệt một ý kiến, một quan sát và kết luận được hỗ trợ bằng nghiên cứu. Tìm nguồn gốc, thời điểm, phương pháp, phạm vi và lợi ích liên quan. Nhiều nguồn lặp lại cùng một bài không đồng nghĩa có bằng chứng độc lập.",
+          "sourceIds": [
+            "mil",
+            "aiEdu"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử quy trình giải quyết vấn đề",
+          "body": "Ví dụ nhóm học thường trễ hạn, xác định bước nào mất thời gian, thu thông tin tổng hợp được đồng ý và đặt giả thuyết. Thử chia nhiệm vụ hoặc đổi cách bàn giao trong thời gian ngắn; so sánh trước sau và ghi yếu tố khác có thể ảnh hưởng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng AI để hỗ trợ, không thay kiểm chứng",
+          "body": "Có thể nhờ AI gợi ý cách diễn đạt câu hỏi hoặc phương án, nhưng kiểm tra tài liệu gốc, số liệu và quyền sử dụng. Không đưa dữ liệu cá nhân, khách hàng hoặc thông tin mật vào công cụ. Ghi rõ phần hỗ trợ và chịu trách nhiệm về kết luận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ra quyết định có thể xem lại",
+          "body": "Viết phương án, lý do, điều chưa biết và tín hiệu cần đổi hướng. Nếu quyết định liên quan sức khỏe, pháp lý hoặc tài chính đáng kể, hỏi người có chuyên môn. Tôn trọng phản biện và sửa lập luận khi có thông tin tốt hơn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một vấn đề học tập có thể quan sát.",
+        "Lập bảng bằng chứng và giới hạn của hai nguồn.",
+        "Thử một thay đổi nhỏ và ghi kết quả."
+      ],
+      "limits": "Không thay nghiên cứu chuyên môn, không suy luận nhân quả từ dữ liệu yếu hoặc dùng thông tin cá nhân không được phép.",
+      "sourceIds": [
+        "mil",
+        "aiEdu"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "digital",
+      "id": "ai-hoc-tap-cong-viec-18-22",
+      "title": "AI tuổi 18–22: học tập, thực tập và bảo mật dữ liệu",
+      "summary": "Xây quy trình dùng AI có kiểm tra và giữ năng lực tự làm.",
+      "sections": [
+        {
+          "heading": "AI là công cụ, không phải người chịu trách nhiệm",
+          "body": "UNESCO nhấn mạnh quyền chủ động của người học và bảo vệ thông tin. Xác định nhiệm vụ AI được phép hỗ trợ: dàn ý, câu hỏi, ví dụ giả lập hay kiểm tra lỗi. Đọc chính sách trường hoặc nơi thực tập; không dùng AI để thay bài kiểm tra hoặc giả thành tích.",
+          "sourceIds": [
+            "aiEdu",
+            "mil",
+            "privacyLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo đầu vào an toàn",
+          "body": "Dùng dữ liệu giả, loại bỏ tên, số điện thoại, hồ sơ, mã truy cập và tài liệu công ty nếu chưa được phép. Không tải tệp nội bộ lên công cụ công cộng. Kiểm tra điều khoản, chính sách lưu dữ liệu và sử dụng đúng tài khoản được tổ chức phê duyệt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra sản phẩm đầu ra",
+          "body": "Ví dụ AI đề xuất đoạn mã, tự đọc, chạy kiểm thử trong môi trường mẫu, xem lỗi và giấy phép liên quan. Với bài viết, đối chiếu nguồn gốc từng số liệu, không tin link AI tự tạo. Nếu không thể giải thích, xem lại kiến thức nền trước khi sử dụng kết quả.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi nhật ký hỗ trợ và học tiếp",
+          "body": "Ghi nhiệm vụ, công cụ, phần mình thực hiện, kiểm thử và giới hạn. Nếu trường yêu cầu khai báo, thực hiện đúng; không cố che dấu việc dùng AI. Cuối tuần thử làm lại một nhiệm vụ không dùng công cụ để xác định kỹ năng còn cần rèn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một nhiệm vụ được phép dùng AI.",
+        "Thử với dữ liệu giả và kiểm tra đầu ra.",
+        "Ghi phần AI hỗ trợ và phần tự làm."
+      ],
+      "limits": "Không tư vấn pháp lý hoặc bảo mật toàn diện; tuân thủ chính sách tổ chức và quy định dữ liệu hiện hành.",
+      "sourceIds": [
+        "aiEdu",
+        "mil",
+        "privacyLaw"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "talents",
+      "id": "portfolio-va-so-thich-18-22",
+      "title": "Năng khiếu và portfolio 18–22 tuổi: dự án thật, sở thích và kết nối cộng đồng",
+      "summary": "Ghi sản phẩm có chất lượng, phản hồi và vai trò cá nhân.",
+      "sections": [
+        {
+          "heading": "Không cần biến mọi sở thích thành nghề",
+          "body": "Sở thích có thể phục vụ nghỉ ngơi, kết nối hoặc khám phá, không nhất thiết kiếm tiền. Nếu muốn xây portfolio học tập hoặc việc làm, chọn sản phẩm thể hiện kỹ năng thực tế và lý do mình muốn làm. Không chạy theo số dự án hay chứng chỉ.",
+          "sourceIds": [
+            "lifelong",
+            "careerGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tổ chức dự án nhỏ",
+          "body": "Ví dụ xây một trang giới thiệu bằng dữ liệu giả, vẽ bộ minh họa hoặc tham gia hoạt động do đơn vị đáng tin tổ chức. Xác định mục tiêu, thời gian, tiêu chí và vai trò; lưu phiên bản, nguồn và phản hồi. Không dùng dữ liệu của khách hàng hoặc người tham gia khi chưa được phép.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trình bày có bằng chứng",
+          "body": "Mỗi sản phẩm nên giải thích vấn đề, lựa chọn, điều đã thử và kết quả. Ghi phần AI hoặc thành viên khác hỗ trợ, xin quyền sử dụng tác phẩm. Không bịa số liệu tác động, không nhận thành tích của nhóm là công sức riêng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn cách duy trì phù hợp",
+          "body": "Dành thời gian cho học, làm, nghỉ và sở thích, cân nhắc phí tham gia. Nếu hoạt động không còn phù hợp, đổi hoặc dừng; không ép biến toàn bộ thời gian rảnh thành năng suất. Xin phản hồi từ người có chuyên môn khi muốn cải thiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một sản phẩm có thể hoàn thành trong tháng.",
+        "Viết mô tả vai trò và nguồn đã sử dụng.",
+        "Xin phản hồi và quyết định bước cải thiện."
+      ],
+      "limits": "Không cam kết công việc, thu nhập hoặc tuyển sinh; tôn trọng bản quyền, quyền riêng tư và sở thích tự nguyện.",
+      "sourceIds": [
+        "lifelong",
+        "careerGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "civic",
+      "id": "hop-dong-bhxh-va-thu-tuc-18-22",
+      "title": "Bước đầu đi làm 18–22 tuổi: hợp đồng, bảo hiểm và hồ sơ cá nhân",
+      "summary": "Kiểm tra điều kiện công việc, quyền lợi và kênh tra cứu chính thức tại Việt Nam.",
+      "sections": [
+        {
+          "heading": "Đọc điều kiện trước khi bắt đầu",
+          "body": "Bộ luật Lao động là căn cứ tra cứu hợp đồng, thời gian làm, tiền lương và quyền lợi. Trước khi ký, xác minh đơn vị, công việc, nơi làm, thử việc nếu có, cách trả lương và điều kiện chấm dứt. Không giả định mọi hợp đồng đều có cùng quyền lợi bảo hiểm.",
+          "sourceIds": [
+            "labour",
+            "bhxh",
+            "vssid"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra bảo hiểm theo trường hợp",
+          "body": "Hỏi nhân sự hoặc cơ quan BHXH về đối tượng tham gia, mức đóng và cách xác minh. Tra cứu quá trình tham gia qua ứng dụng VssID hoặc kênh chính thức; nếu thông tin thiếu, giữ hợp đồng, chứng từ và liên hệ đơn vị/cơ quan BHXH. Không gửi mã OTP cho người hỗ trợ lạ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ hồ sơ và giấy tờ an toàn",
+          "body": "Lưu bản hợp đồng, phụ lục, bảng lương hoặc chứng từ được cung cấp, ghi ngày nhận. Không giao bản gốc giấy tờ tùy thân cho người môi giới hoặc ký văn bản trống. Đọc kỹ khoản khấu trừ, phí hoặc cam kết đào tạo trước khi đồng ý.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi điều kiện khác thỏa thuận",
+          "body": "Ghi nhận nội dung, trao đổi với đầu mối có trách nhiệm và tìm tư vấn phù hợp khi có tranh chấp. Nếu gặp tin tuyển dụng yêu cầu phí hoặc chuyển tiền bất thường, dừng và xác minh. Không dùng lời khuyên trên mạng để kết luận quyền lợi mà chưa xem hồ sơ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Đọc các điều khoản chính của hợp đồng trước khi ký.",
+        "Tra cứu quá trình BHXH qua kênh chính thức nếu thuộc đối tượng.",
+        "Lưu hồ sơ và đầu mối hỏi quyền lợi."
+      ],
+      "limits": "Không tư vấn pháp lý cho hợp đồng cụ thể, không khẳng định mức hưởng hoặc đối tượng bảo hiểm khi chưa xem hồ sơ.",
+      "sourceIds": [
+        "labour",
+        "bhxh",
+        "vssid"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03B"
     }
   ]
 }
