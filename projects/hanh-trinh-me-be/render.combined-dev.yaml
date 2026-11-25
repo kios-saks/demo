@@ -1,0 +1,47 @@
+# DEV-only cutover. Adopt exactly the existing Web service; keep API unmanaged.
+# Secret values are resolved inside Render, never written into Git.
+# Initial sync must be manually reviewed; no production changes.
+services:
+  - type: web
+    name: hanh-trinh-me-be-web-jn5v
+    runtime: node
+    repo: https://github.com/kios-saks/demo
+    branch: feat/hanh-trinh-me-be-ecosystem
+    rootDir: projects/hanh-trinh-me-be
+    region: oregon
+    plan: free
+    autoDeployTrigger: checksPass
+    renderSubdomainPolicy: enabled
+    healthCheckPath: /api/health
+    buildCommand: npm install --no-audit --no-fund && npm run build:dev:combined
+    startCommand: npm run start:dev:combined
+    envVars:
+      - key: MEBE_COMBINED_DEV
+        value: "true"
+      - key: PORT
+        value: "10000"
+      - key: SUPABASE_DATABASE_URL
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-api-jn5v
+          envVarKey: SUPABASE_DATABASE_URL
+      - key: MEDIA_SUPABASE_URL
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-api-jn5v
+          envVarKey: MEDIA_SUPABASE_URL
+      - key: MEDIA_SUPABASE_SERVICE_KEY
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-api-jn5v
+          envVarKey: MEDIA_SUPABASE_SERVICE_KEY
+      - key: MEDIA_DEV_EDITOR_TOKEN
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-api-jn5v
+          envVarKey: MEDIA_DEV_EDITOR_TOKEN
+      - key: MEDIA_DEV_REVIEWER_TOKEN
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-api-jn5v
+          envVarKey: MEDIA_DEV_REVIEWER_TOKEN
