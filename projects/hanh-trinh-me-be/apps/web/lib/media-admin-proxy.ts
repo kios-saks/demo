@@ -1,3 +1,4 @@
+import {readBackend} from "./backend-reader";
 import {createHash} from "node:crypto";
 const security={"Cache-Control":"private, no-store, max-age=0","X-Robots-Tag":"noindex, nofollow, noarchive","X-Content-Type-Options":"nosniff","Referrer-Policy":"no-referrer","Content-Security-Policy":"default-src 'none'; sandbox","Vary":"Authorization"};
 const maxBody=3*1024*1024;
@@ -35,25 +36,10 @@ export async function mediaAdminProxy(request:Request,parts:string[]):Promise<Re
   }
   const endpoint=url.origin+"/v1/dev-media-admin/"+path;
   const read=request.method==="GET";
-  // Render Free cold starts can exceed the previous 40-second deadline.
-  // Only retry reads: a failed write response does not prove the write failed.
-  let res:Response|undefined;
-  for(let attempt=0;attempt<(read?3:1);attempt++){
-   try{
-    res=await fetch(endpoint,{method:request.method,headers:{authorization:auth,...(body?{"Content-Type":"application/json"}:{})},body,cache:"no-store",redirect:"error",signal:AbortSignal.timeout(read?35000:90000)} as RequestInit & {cache:"no-store"});
-    const transient=[502,503,504].includes(res.status)||(res.ok&&!(res.headers.get("content-type")||"").match(/^(application\/json|image\/(webp|svg\+xml|png|jpeg))(?:;|$)/i));
-    if(!read||!transient||attempt===2)break;
-    console.warn("MEDIA_ADMIN_UPSTREAM_RETRY",request.method,res.status,attempt+1);
-    await res.body?.cancel().catch(()=>{});
-    res=undefined;
-   }catch{
-    console.warn("MEDIA_ADMIN_UPSTREAM_TRANSPORT",request.method,attempt+1);
-    if(!read||attempt===2)return fail(503,"MEDIA_UNAVAILABLE");
-   }
-   await new Promise(resolve=>setTimeout(resolve,1500*(attempt+1)));
-  }
-  if(!res)return fail(503,"MEDIA_UNAVAILABLE");
-  if([502,503,504].includes(res.status))console.warn("MEDIA_ADMIN_UPSTREAM_STATUS",request.method,res.status);
+  // Never replay writes; a failed write response does not prove it failed.
+  const res=read
+   ?await readBackend(endpoint,{authorization:auth},{accept:parts[1]==="image"?/^image\/(webp|svg\+xml|png|jpeg)(?:;|$)/i:/^application\/json(?:;|$)/i,maxBytes:parts[1]==="image"?maxImage:maxBody})
+   :await fetch(endpoint,{method:request.method,headers:{authorization:auth,"Content-Type":"application/json"},body,cache:"no-store",redirect:"error",signal:AbortSignal.timeout(90000)});
   const mime=res.headers.get("content-type")?.split(";")[0]||"";
   if(res.ok&&parts[1]==="image"){
    const id=res.headers.get("x-media-asset")||"";

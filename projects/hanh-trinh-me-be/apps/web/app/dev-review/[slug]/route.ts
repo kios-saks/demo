@@ -1,6 +1,6 @@
 import {dynamicMediaEnabled,activeMedia,articleMediaUrl,catalogMediaUrl} from "../../../lib/dynamic-media";
 import {readingVisual} from "../../../lib/reading-visual";
-import {escapeHtml,htmlResponse,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
+import {escapeHtml,htmlResponse,connectionPending,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
 import {articleCover,coverAlt,coverCaption,inlineAsset,inlineLifestyle} from "../../../lib/editorial-media";
 import {inlineContextIllustration} from "../../../lib/contextual-illustrations";
 import guideDataset from "../../../../../packages/content/mock/stage-guides.json";
@@ -69,5 +69,5 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
      '<p><a href="/thu-vien">← Quay lại danh sách toàn bộ bài</a></p></article></div>';
    return htmlResponse(a.title,body);
- }catch{return htmlResponse("Chưa tải được bài",'<div class="warn">Bài viết hiện chưa tải được hoặc không tồn tại. <a href="/thu-vien">Trở về danh sách.</a></div>',503);}
+ }catch{return connectionPending(request);}
 }

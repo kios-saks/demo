@@ -1,3 +1,4 @@
+import {readBackend} from "./backend-reader";
 import {createHash} from "node:crypto";
 import {requirePreviewLogin,safeMediaPath} from "./dev-preview";
 
@@ -17,7 +18,7 @@ async function upstream(path:string){
  if(!origin||!token||token.length<24)throw Error("MEDIA_CONFIG");
  const url=new URL(origin);
  if(!["https:","http:"].includes(url.protocol)||url.username||url.password||url.search||url.hash)throw Error("MEDIA_ORIGIN");
- return fetch(url.origin+"/v1/dev-preview/"+path,{headers:{"x-preview-token":token},cache:"no-store",redirect:"error",signal:AbortSignal.timeout(25000)} as RequestInit & {cache:"no-store"});
+ return readBackend(url.origin+"/v1/dev-preview/"+path,{"x-preview-token":token},{accept:/^(application\/json|image\/(webp|svg\+xml|png|jpeg))(?:;|$)/i,maxBytes:2*1024*1024});
 }
 export async function activeMedia(slug:string):Promise<DynamicMedia[]>{
  if(!slugOk(slug))throw Error("Invalid slug");

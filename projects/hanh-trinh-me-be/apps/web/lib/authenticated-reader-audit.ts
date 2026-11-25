@@ -14,8 +14,9 @@ export async function auditAuthenticatedReader(){
  const auth="Basic "+Buffer.from("editor:"+token).toString("base64");
  const req=(path:string,authorized=true)=>new Request("https://reader-audit.invalid"+path,{headers:authorized?{authorization:auth}:{}});
  const slug="lam-quen-nhip-sinh-hoat-so-sinh";
- let step="CATALOG";
  const started=Date.now();
+ for(let attempt=1;attempt<=2;attempt++){
+ let step="CATALOG";
  try{
   const list=await listDevArticles();
   if(list.source!=="supabase"||list.articles.length!==72||new Set(list.articles.map(a=>a.slug)).size!==72||new Set(list.articles.map(a=>a.stage)).size!==12)throw Error("CATALOG");
@@ -43,5 +44,13 @@ export async function auditAuthenticatedReader(){
   const denied=await Promise.all([renderReaderLibrary(req("/dev-review",false)),renderArticle(req("/dev-review/"+slug,false),{params:Promise.resolve({slug})}),proxyMedia(req("/api/dev-media/"+slug+"/cover",false),slug,"cover")]);
   if(denied.some(r=>r.status!==404))throw Error("GUEST_DENIAL");
   console.log("DEV_AUTH_SMOKE_PASS",JSON.stringify({articles:72,stages:12,library:200,article:200,verifiedImages:images,guestDenials:3,elapsedMs:Date.now()-started}));
- }catch{console.error("DEV_AUTH_SMOKE_FAIL",JSON.stringify({step,elapsedMs:Date.now()-started}));}
+  return;
+ }catch{
+  if(attempt===1&&["CATALOG","LIBRARY","ARTICLE","IMAGE_COVER","IMAGE_INLINE"].includes(step)){
+   console.warn("DEV_AUTH_SMOKE_RETRY",JSON.stringify({step,attempt,elapsedMs:Date.now()-started}));
+   await new Promise(resolve=>setTimeout(resolve,5000));continue;
+  }
+  console.error("DEV_AUTH_SMOKE_FAIL",JSON.stringify({step,attempt,elapsedMs:Date.now()-started}));
+ }
+ }
 }

@@ -1,3 +1,4 @@
+import {readBackend} from "./backend-reader";
 import articles from "../../../packages/content/articles.json";
 import topics from "../../../packages/content/mock/topics.json";
 import sources from "../../../packages/content/mock/sources.json";
@@ -60,7 +61,8 @@ export function getWebRepository():KnowledgeRepository{
    const base=process.env.CONTENT_API_INTERNAL_URL;
    if(!base)throw new Error("WEB_CONTENT_PROVIDER=api requires CONTENT_API_INTERNAL_URL");
    const primary=new ApiKnowledgeRepository(base,{
-     publishedOnly:process.env.NODE_ENV==="production",timeoutMs:10000
+     publishedOnly:process.env.NODE_ENV==="production",timeoutMs:10000,
+     fetcher:((input,init)=>readBackend(String(input),init?.headers,{budgetMs:10000,attemptMs:5000})) as typeof fetch
    });
    const safeSnapshot=new PublicKnowledgeRepository(new MockKnowledgeRepository({
      ...articles,topics,sources,researchCards,seededAt:manifest.generatedAt

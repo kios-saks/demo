@@ -1,5 +1,5 @@
 import {dynamicMediaEnabled,articleMediaUrl,catalogMediaUrl} from "./dynamic-media";
-import {escapeHtml as e,htmlResponse,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
+import {escapeHtml as e,htmlResponse,connectionPending,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
 import {stageGroups,stageOptions,readerTopics,normalizeSearch} from "./reader-navigation";
 import {editorialHero,editorialHeroAlt,groupVisual,groupVisualAlt,stageVisual,articleCover,coverAlt} from "./editorial-media";
 import guidesData from "../../../packages/content/mock/stage-guides.json";
@@ -93,5 +93,5 @@ export async function renderReaderLibrary(request:Request,options:ReaderOptions=
    featured+(list.length?results:'<div class="warn"><b>Không có bài khớp bộ lọc.</b> Thử từ khóa khác hoặc xem <a href="/thu-vien">toàn bộ thư viện</a>.</div>')+
    (active?guideDetails(active):"")+notice;
   return htmlResponse(guide?stageName(active):"Thư viện kiến thức gia đình",body);
- }catch(error){console.warn("DEV_LIBRARY_RENDER_FAILED",error instanceof Error?error.name:"unknown");return htmlResponse("Chưa tải được thư viện",'<p>Chưa tải được thư viện. Vui lòng thử lại.</p>',503);}
+ }catch(error){console.warn("DEV_LIBRARY_RENDER_FAILED",error instanceof Error?error.name:"unknown");return connectionPending(request);}
 }
