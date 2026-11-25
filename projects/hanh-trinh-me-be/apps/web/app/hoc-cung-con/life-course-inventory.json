@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 187,
+    "unique": 203,
     "cells": 192,
     "applicable": 173,
-    "partial": 141,
-    "gaps": 32,
+    "partial": 157,
+    "gaps": 16,
     "notPriority": 19,
     "byStage": [
       {
@@ -79,18 +79,18 @@
       {
         "id": "early-adult",
         "age": "23–34 tuổi",
-        "items": 8,
+        "items": 16,
         "applicable": 16,
-        "partial": 8,
-        "gaps": 8
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "midlife",
         "age": "35–59 tuổi",
-        "items": 8,
+        "items": 16,
         "applicable": 16,
-        "partial": 8,
-        "gaps": 8
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "older",
@@ -111,7 +111,7 @@
     ],
     "p0": 0,
     "baselineUnique": 93,
-    "newArticles": 94
+    "newArticles": 110
   },
   "refs": [
     {
@@ -2357,6 +2357,198 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-hop-dong-bhxh-va-thu-tuc-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "ra-quyet-dinh-co-bang-chung-23-34",
+      "title": "Tư duy tuổi 23–34: ra quyết định bằng bằng chứng và phương án dự phòng",
+      "stage": "early-adult",
+      "pillar": "thinking",
+      "originalStage": "early-adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ra-quyet-dinh-co-bang-chung-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "ai-cong-viec-va-bao-mat-23-34",
+      "title": "AI trong công việc 23–34 tuổi: hiệu quả, kiểm thử và bảo vệ dữ liệu",
+      "stage": "early-adult",
+      "pillar": "digital",
+      "originalStage": "early-adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ai-cong-viec-va-bao-mat-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "quan-he-va-lua-chon-song-23-34",
+      "title": "Quan hệ tuổi 23–34: hôn nhân, sống riêng và kết nối tôn trọng",
+      "stage": "early-adult",
+      "pillar": "relationships",
+      "originalStage": "early-adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quan-he-va-lua-chon-song-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "so-thich-va-thoi-gian-rieng-23-34",
+      "title": "Sở thích tuổi 23–34: nghệ thuật, vận động và nghỉ ngơi giữa công việc",
+      "stage": "early-adult",
+      "pillar": "talents",
+      "originalStage": "early-adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-so-thich-va-thoi-gian-rieng-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "ngan-sach-no-va-du-phong-23-34",
+      "title": "Tài chính 23–34 tuổi: ngân sách, quỹ dự phòng, nợ và bảo hiểm",
+      "stage": "early-adult",
+      "pillar": "finance",
+      "originalStage": "early-adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ngan-sach-no-va-du-phong-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "phat-trien-nghe-va-thuong-luong-23-34",
+      "title": "Nghề nghiệp 23–34 tuổi: phát triển kỹ năng, chuyển việc và thương lượng",
+      "stage": "early-adult",
+      "pillar": "career",
+      "originalStage": "early-adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-phat-trien-nghe-va-thuong-luong-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "hop-dong-nha-o-bao-hiem-23-34",
+      "title": "Pháp luật đời sống 23–34 tuổi: hợp đồng, nhà ở, cư trú và bảo hiểm",
+      "stage": "early-adult",
+      "pillar": "civic",
+      "originalStage": "early-adult",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hop-dong-nha-o-bao-hiem-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "tu-quan-thoi-gian-va-cham-soc-23-34",
+      "title": "Kỹ năng sống 23–34 tuổi: quản lý thời gian, việc nhà và chăm sóc người thân",
+      "stage": "early-adult",
+      "pillar": "life",
+      "originalStage": "early-adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-quan-thoi-gian-va-cham-soc-23-34"
+    },
+    {
+      "kind": "article",
+      "id": "quyet-dinh-dai-han-35-59",
+      "title": "Tư duy tuổi 35–59: kiểm chứng thông tin và đánh giá quyết định dài hạn",
+      "stage": "midlife",
+      "pillar": "thinking",
+      "originalStage": "midlife",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyet-dinh-dai-han-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "ai-va-an-toan-so-35-59",
+      "title": "Công nghệ tuổi 35–59: thích nghi AI, bảo mật và chống lừa đảo",
+      "stage": "midlife",
+      "pillar": "digital",
+      "originalStage": "midlife",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ai-va-an-toan-so-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "gia-dinh-da-the-he-35-59",
+      "title": "Quan hệ tuổi 35–59: con trưởng thành, cha mẹ lớn tuổi và ranh giới giữa các thế hệ",
+      "stage": "midlife",
+      "pillar": "relationships",
+      "originalStage": "midlife",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-gia-dinh-da-the-he-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "so-thich-va-cong-dong-35-59",
+      "title": "Sở thích tuổi 35–59: sáng tạo, thể thao và tham gia cộng đồng",
+      "stage": "midlife",
+      "pillar": "talents",
+      "originalStage": "midlife",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-so-thich-va-cong-dong-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "ke-hoach-huu-tri-va-du-phong-35-59",
+      "title": "Tài chính tuổi 35–59: kế hoạch dài hạn, hưu trí và dự phòng gia đình",
+      "stage": "midlife",
+      "pillar": "finance",
+      "originalStage": "midlife",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ke-hoach-huu-tri-va-du-phong-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "chuyen-nghe-va-nang-ky-nang-35-59",
+      "title": "Nghề nghiệp tuổi 35–59: chuyển nghề, cập nhật kỹ năng và phát triển vai trò",
+      "stage": "midlife",
+      "pillar": "career",
+      "originalStage": "midlife",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chuyen-nghe-va-nang-ky-nang-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+      "title": "Pháp luật tuổi 35–59: lao động, bảo hiểm và quản lý hồ sơ tài sản",
+      "stage": "midlife",
+      "pillar": "civic",
+      "originalStage": "midlife",
+      "sourceCount": 5,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-loi-lao-dong-bao-hiem-tai-san-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "phan-chia-trach-nhiem-va-cham-soc-35-59",
+      "title": "Kỹ năng sống tuổi 35–59: phân chia trách nhiệm, nghỉ ngơi và chăm sóc người thân",
+      "stage": "midlife",
+      "pillar": "life",
+      "originalStage": "midlife",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-phan-chia-trach-nhiem-va-cham-soc-35-59"
     }
   ],
   "cells": [
@@ -4130,8 +4322,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Ra quyết định, kiểm chứng thông tin và thích nghi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ra-quyet-dinh-co-bang-chung-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4141,8 +4335,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "AI công việc, bảo mật, quyền riêng tư",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ai-cong-viec-va-bao-mat-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4152,8 +4348,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quan hệ, hôn nhân hoặc lựa chọn sống riêng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quan-he-va-lua-chon-song-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4176,8 +4374,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Sở thích, nghỉ ngơi, sáng tạo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:so-thich-va-thoi-gian-rieng-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4187,8 +4387,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Ngân sách, dự phòng, nợ và bảo hiểm",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ngan-sach-no-va-du-phong-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4198,8 +4400,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Phát triển nghề, chuyển nghề, thương lượng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:phat-trien-nghe-va-thuong-luong-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4209,8 +4413,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hợp đồng, nhà ở, bảo hiểm và thủ tục",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hop-dong-nha-o-bao-hiem-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4220,8 +4426,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tự quản lý, phân bổ thời gian, chăm sóc người thân",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-quan-thoi-gian-va-cham-soc-23-34"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4322,8 +4530,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Đánh giá quyết định dài hạn và bằng chứng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyet-dinh-dai-han-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4333,8 +4543,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Thích nghi AI, bảo mật và chống lừa đảo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ai-va-an-toan-so-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4344,8 +4556,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quan hệ gia đình, chăm sóc cha mẹ, con trưởng thành",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:gia-dinh-da-the-he-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4368,8 +4582,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Duy trì sở thích và hoạt động cộng đồng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:so-thich-va-cong-dong-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4379,8 +4595,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Kế hoạch dài hạn, hưu trí và dự phòng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ke-hoach-huu-tri-va-du-phong-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4390,8 +4608,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Chuyển nghề, phát triển kỹ năng, quản lý",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chuyen-nghe-va-nang-ky-nang-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4401,8 +4621,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quyền lợi lao động, bảo hiểm, tài sản",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4412,8 +4634,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Chăm sóc bản thân, phân chia trách nhiệm",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:phan-chia-trach-nhiem-va-cham-soc-35-59"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {

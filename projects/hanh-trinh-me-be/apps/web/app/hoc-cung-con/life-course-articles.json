@@ -373,6 +373,60 @@
       "url": "https://www.unesco.org/en/articles/ai-answers-you-decide",
       "scope": "Đánh giá nguồn và giữ quyền quyết định trong môi trường AI.",
       "checkedOn": "2026-11-25"
+    },
+    "adultFinance": {
+      "name": "CFPB — Your Money, Your Goals toolkit",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+      "scope": "Công cụ lập dòng tiền, mục tiêu, kế hoạch nợ; ví dụ giáo dục không áp dụng luật Mỹ tại Việt Nam.",
+      "checkedOn": "2026-11-25"
+    },
+    "adultCareer": {
+      "name": "OECD — Career guidance for adults in a changing world of work",
+      "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+      "scope": "Tìm hiểu việc làm, đào tạo và chuyển nghề.",
+      "checkedOn": "2026-11-25"
+    },
+    "skills2025": {
+      "name": "OECD — Skills Outlook 2025",
+      "url": "https://www.oecd.org/en/publications/2025/12/oecd-skills-outlook-2025_ac37c7d4.html",
+      "scope": "Kỹ năng, học tập người lớn và hướng nghiệp.",
+      "checkedOn": "2026-11-25"
+    },
+    "marriage": {
+      "name": "Chính phủ — Luật Hôn nhân và gia đình 52/2014/QH13",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=175351&pageid=27160",
+      "scope": "Căn cứ tra cứu quan hệ hôn nhân, nghĩa vụ, tài sản.",
+      "checkedOn": "2026-11-25"
+    },
+    "civil": {
+      "name": "Chính phủ — Bộ luật Dân sự 91/2015/QH13",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+      "scope": "Tra cứu giao dịch, hợp đồng, đại diện và tài sản.",
+      "checkedOn": "2026-11-25"
+    },
+    "housing": {
+      "name": "Văn phòng Quốc hội — Luật Nhà ở, VBHN 132/VBHN-VPQH",
+      "url": "https://vanban.chinhphu.vn/?docid=215257&pageid=27160",
+      "scope": "Tra cứu quy định nhà ở và giao dịch liên quan.",
+      "checkedOn": "2026-11-25"
+    },
+    "residence": {
+      "name": "Chính phủ — Luật Cư trú 68/2020/QH14",
+      "url": "https://vanban.chinhphu.vn/?docid=202609&pageid=27160",
+      "scope": "Tra cứu thủ tục và điều kiện cư trú.",
+      "checkedOn": "2026-11-25"
+    },
+    "employment": {
+      "name": "Chính phủ — Luật Việc làm 74/2025/QH15",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=214560&pageid=27160&typegroupid=3",
+      "scope": "Tra cứu việc làm, hỗ trợ và bảo hiểm thất nghiệp theo điều kiện.",
+      "checkedOn": "2026-11-25"
+    },
+    "healthInsurance": {
+      "name": "Chính phủ — Nghị định 188/2025/NĐ-CP",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=214515&pageid=27160&typegroupid=4",
+      "scope": "Hướng dẫn BHYT, cần đối chiếu văn bản hiện hành.",
+      "checkedOn": "2026-11-25"
     }
   },
   "articles": [
@@ -4943,6 +4997,804 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "thinking",
+      "id": "ra-quyet-dinh-co-bang-chung-23-34",
+      "title": "Tư duy tuổi 23–34: ra quyết định bằng bằng chứng và phương án dự phòng",
+      "summary": "Tách dữ kiện khỏi kỳ vọng khi chọn việc, nơi ở hoặc kế hoạch sống.",
+      "sections": [
+        {
+          "heading": "Đặt đúng câu hỏi",
+          "body": "Khi cân nhắc đổi công việc hoặc chuyển nhà, viết mục tiêu và điều kiện không thể đánh đổi. Phân biệt điều đã xác nhận, dự báo và sở thích. Năng lực thông tin trong thời đại AI giúp nhận diện nội dung thiếu căn cứ; một kết quả tìm kiếm không thay được bằng chứng.",
+          "sourceIds": [
+            "mil",
+            "aiDecide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "So sánh bằng cùng tiêu chí",
+          "body": "Ví dụ hai lời mời việc: ghi thu nhập thực nhận dự kiến, chi phí đi lại, giờ làm, trách nhiệm, khả năng học và điều chưa biết. Kiểm tra thông tin qua văn bản và người phụ trách. Không chỉ cộng điểm khi có một điều kiện bắt buộc chưa đáp ứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử thay đổi có thể đảo ngược",
+          "body": "Nếu còn băn khoăn về kỹ năng, thử một dự án mẫu ngoài giờ phù hợp hợp đồng thay vì nghỉ việc ngay. Đặt thời hạn và tiêu chí xem lại. Không giao thông tin mật cho AI; nếu công cụ gợi ý, đối chiếu nguồn độc lập và kiểm tra giả định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận phản hồi và cập nhật",
+          "body": "Ghi lý do chọn, phương án dự phòng nếu thu nhập hoặc lịch thay đổi. Hỏi người có trải nghiệm để tìm điểm mù, không giao quyết định cho họ. Với cam kết lớn về sức khỏe, pháp luật hoặc tài chính, nhờ chuyên gia kiểm tra trước khi ký.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết một mục tiêu và ba điều kiện bắt buộc.",
+        "So sánh hai phương án và điểm chưa rõ.",
+        "Đặt ngày xem lại và tín hiệu cần đổi hướng."
+      ],
+      "limits": "Không thay tư vấn tài chính, nghề nghiệp hoặc pháp lý cá nhân; không bảo đảm kết quả.",
+      "sourceIds": [
+        "mil",
+        "aiDecide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "digital",
+      "id": "ai-cong-viec-va-bao-mat-23-34",
+      "title": "AI trong công việc 23–34 tuổi: hiệu quả, kiểm thử và bảo vệ dữ liệu",
+      "summary": "Thiết kế quy trình hỗ trợ bằng AI mà vẫn giữ trách nhiệm cá nhân.",
+      "sections": [
+        {
+          "heading": "Chọn nhiệm vụ và quyền sử dụng",
+          "body": "Xác định AI được phép dùng để tóm tắt tài liệu công khai, tạo mẫu hoặc gợi ý phương án. Kiểm tra chính sách công ty, loại dữ liệu và công cụ phê duyệt trước khi nhập. Không coi có tài khoản AI là có quyền gửi mọi tài liệu nội bộ.",
+          "sourceIds": [
+            "aiEdu",
+            "mil",
+            "privacyLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế đầu vào tối thiểu",
+          "body": "Thử với dữ liệu giả, bỏ tên khách hàng, số định danh, mã truy cập và bí mật kinh doanh. Khi xử lý tài liệu hợp lệ, chỉ đưa phần cần thiết theo quyền được cấp; kiểm tra lưu trữ và quyền chia sẻ. Không dán khóa API hoặc thông tin đăng nhập vào cuộc trò chuyện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đo chất lượng bằng kiểm thử",
+          "body": "Ví dụ AI tạo mẫu báo cáo: kiểm tra số liệu với nguồn gốc, công thức bằng mẫu tính, và phần diễn giải bằng người phụ trách. Với mã, chạy kiểm thử, rà phụ thuộc, bảo mật và giấy phép. Ghi lỗi để cải thiện quy trình, không tự triển khai nội dung chưa duyệt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ kỹ năng và trách nhiệm",
+          "body": "Định kỳ làm lại một nhiệm vụ không dùng AI, xem kỹ năng nào cần học. Tài liệu đầu ra phải có người chịu trách nhiệm, nguồn và phiên bản; khai báo khi quy định yêu cầu. Nếu phát hiện dữ liệu bị gửi nhầm, báo bộ phận bảo mật theo quy trình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn nhiệm vụ ít rủi ro và dữ liệu mẫu.",
+        "Đặt tiêu chí đầu ra, kiểm tra độc lập.",
+        "Viết quy tắc dữ liệu được phép và cách báo sự cố."
+      ],
+      "limits": "Không phải đánh giá tuân thủ pháp lý hoặc kiểm toán bảo mật; tuân thủ chính sách tổ chức và luật hiện hành.",
+      "sourceIds": [
+        "aiEdu",
+        "mil",
+        "privacyLaw"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "relationships",
+      "id": "quan-he-va-lua-chon-song-23-34",
+      "title": "Quan hệ tuổi 23–34: hôn nhân, sống riêng và kết nối tôn trọng",
+      "summary": "Trao đổi về mong muốn, tiền bạc, việc nhà và ranh giới mà không áp đặt lộ trình.",
+      "sections": [
+        {
+          "heading": "Không có một cột mốc bắt buộc",
+          "body": "Kết nối có ý nghĩa quan trọng đối với sức khỏe, nhưng mỗi người có thể chọn kết hôn, sống riêng hoặc duy trì những quan hệ khác. Hỏi điều bản thân mong muốn, không quyết định vì áp lực tuổi tác hoặc lời so sánh. Quan hệ cần tự nguyện và an toàn.",
+          "sourceIds": [
+            "social",
+            "marriage"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nói rõ kỳ vọng trước cam kết",
+          "body": "Thảo luận nơi sống, công việc, chi phí, việc nhà, chăm sóc người thân và lựa chọn có con nếu liên quan. Tách nhu cầu, sở thích và điều chưa đồng thuận. Không bắt người kia cung cấp mật khẩu, tiền hoặc thông tin riêng để chứng minh tình cảm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xử lý khác biệt",
+          "body": "Chọn lúc bình tĩnh, nói về sự việc cụ thể và đề nghị có thể thực hiện. Khi bất đồng, cho phép dừng cuộc nói chuyện và hẹn lại. Nếu có kiểm soát, đe dọa hoặc bạo lực, ưu tiên an toàn, tìm người đáng tin và dịch vụ phù hợp thay vì cố hòa giải một mình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra cam kết pháp lý",
+          "body": "Khi có ý định kết hôn, mua tài sản chung hoặc ký thỏa thuận, đọc quy định Việt Nam và hỏi chuyên gia nếu cần. Thỏa thuận đời sống không tự thay mọi thủ tục pháp lý. Tôn trọng quyền quyết định riêng, giữ hồ sơ và không ký khi chưa hiểu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Liệt kê ba nhu cầu và giới hạn cá nhân.",
+        "Thảo luận một việc chung có thể phân chia rõ ràng.",
+        "Xác định nguồn hỗ trợ nếu có xung đột hoặc nguy cơ."
+      ],
+      "limits": "Không đánh giá quan hệ cụ thể hay tư vấn pháp lý hôn nhân; bạo lực và đe dọa cần ưu tiên hỗ trợ an toàn.",
+      "sourceIds": [
+        "social",
+        "marriage"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "talents",
+      "id": "so-thich-va-thoi-gian-rieng-23-34",
+      "title": "Sở thích tuổi 23–34: nghệ thuật, vận động và nghỉ ngơi giữa công việc",
+      "summary": "Xây thời gian cho điều mình thích mà không biến mọi hoạt động thành thu nhập.",
+      "sections": [
+        {
+          "heading": "Sở thích có giá trị riêng",
+          "body": "Học và tham gia hoạt động cộng đồng không chỉ để tăng năng suất. Chọn điều mang lại niềm vui, sự tò mò hoặc kết nối theo ý muốn, như vẽ, đọc, nấu ăn, âm nhạc hoặc thể thao. Không cần biến sở thích thành công việc thứ hai.",
+          "sourceIds": [
+            "lifelong",
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bắt đầu trong điều kiện thật",
+          "body": "Nếu đi làm xa hoặc làm ca, chọn hoạt động ngắn, dễ tiếp cận và phù hợp chi phí. Ví dụ đọc một truyện ở thư viện, tập nhạc một đoạn hoặc đi bộ ở nơi an toàn. Không mua thiết bị đắt tiền trước khi biết mình có thích và có thời gian không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm nhóm và giữ ranh giới",
+          "body": "Khảo sát câu lạc bộ, nhóm địa phương hoặc lớp phù hợp. Kiểm tra người tổ chức, phí, không gian và quyền sử dụng ảnh. Chia sẻ sản phẩm nếu muốn; không phải đáp ứng mọi lời mời, cuộc thi hoặc yêu cầu đăng bài quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Duy trì hoặc đổi hướng",
+          "body": "Sau vài tuần, hỏi hoạt động có làm mình dễ chịu và phù hợp thời gian không. Nếu lịch quá tải, giảm tần suất hoặc nghỉ. Với vận động, tuân thủ hướng dẫn an toàn và dừng khi có triệu chứng bất thường. Không dùng thành tích để đánh giá giá trị bản thân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn hai hoạt động muốn thử với chi phí giới hạn.",
+        "Dành một khoảng tự nguyện trong tuần.",
+        "Sau một tháng, quyết định duy trì hoặc đổi."
+      ],
+      "limits": "Không cam kết lợi ích điều trị hoặc thành tích; chọn hoạt động phù hợp sức khỏe và hoàn cảnh.",
+      "sourceIds": [
+        "lifelong",
+        "social"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "finance",
+      "id": "ngan-sach-no-va-du-phong-23-34",
+      "title": "Tài chính 23–34 tuổi: ngân sách, quỹ dự phòng, nợ và bảo hiểm",
+      "summary": "Xây dòng tiền thực tế và kiểm tra điều khoản trước quyết định lớn.",
+      "sections": [
+        {
+          "heading": "Ghi dòng tiền thực nhận",
+          "body": "Dùng một tháng để ghi thu nhập, chi thiết yếu, khoản linh hoạt và thời điểm trả hóa đơn. Tách tiền dự kiến khỏi tiền đã nhận. Ví dụ giả định thu 15 triệu, chi thiết yếu 9 triệu, trả nợ 2 triệu, còn 4 triệu trước các khoản khác; không mặc định tỷ lệ này phù hợp mọi người.",
+          "sourceIds": [
+            "adultFinance",
+            "emergencyFund",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Dự phòng theo rủi ro",
+          "body": "Xác định chi phí có thể phát sinh khi thất nghiệp, ốm hoặc sửa nhà. Đặt mục tiêu theo khả năng và nơi giữ tiền an toàn, dễ tiếp cận; không dùng toàn bộ dự phòng cho tài sản biến động. Nếu có nợ, ghi lãi, phí, hạn và điều kiện để tìm phương án trả phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đọc bảo hiểm và hợp đồng",
+          "body": "Phân biệt quyền lợi bảo hiểm xã hội, y tế và sản phẩm bảo hiểm thương mại theo điều kiện cụ thể. Đọc phạm vi, loại trừ, phí, thời hạn và điều kiện hủy, hỏi cơ quan hoặc doanh nghiệp qua kênh chính thức. Không mua vì lời hứa lợi nhuận chắc chắn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra trước cam kết",
+          "body": "Thử kịch bản thu nhập giảm hoặc chi phí tăng trước khi thuê nhà, vay hay mua tài sản lớn. Không cung cấp OTP hoặc chuyển tiền khi bị thúc ép. Nếu nợ khó quản lý, trao đổi bên cho vay và chuyên gia phù hợp; tránh vay mới chỉ để che khoản quá hạn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Ghi dòng tiền một tháng.",
+        "Liệt kê nợ, hạn, lãi và phí thực tế.",
+        "Đặt mục tiêu dự phòng và kiểm tra một hợp đồng bảo hiểm."
+      ],
+      "limits": "Ví dụ giáo dục, không đề xuất khoản vay, sản phẩm bảo hiểm hoặc đầu tư cá nhân; kiểm tra điều khoản và pháp luật Việt Nam.",
+      "sourceIds": [
+        "adultFinance",
+        "emergencyFund",
+        "bhxh"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "career",
+      "id": "phat-trien-nghe-va-thuong-luong-23-34",
+      "title": "Nghề nghiệp 23–34 tuổi: phát triển kỹ năng, chuyển việc và thương lượng",
+      "summary": "Đánh giá lựa chọn từ nhu cầu thực, bằng chứng năng lực và điều kiện làm việc.",
+      "sections": [
+        {
+          "heading": "Xác định hướng phát triển",
+          "body": "OECD xem hướng nghiệp người lớn là công cụ hỗ trợ thích nghi thị trường thay đổi. Bắt đầu từ nhiệm vụ muốn làm, kinh nghiệm đã có, nhu cầu tài chính và điều kiện sống. Không chọn chỉ vì tên nghề đang nổi hoặc dự báo AI thay thế nghề.",
+          "sourceIds": [
+            "adultCareer",
+            "skills2025",
+            "labour"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm bằng chứng năng lực",
+          "body": "Đọc mô tả công việc từ nhiều đơn vị, ghi kỹ năng lặp lại và phần còn thiếu. Xây sản phẩm mẫu không dùng dữ liệu công ty, xin phản hồi và cập nhật hồ sơ. So sánh mức đãi ngộ cùng quyền lợi, giờ làm và điều kiện; không coi số quảng cáo là mức chắc chắn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thương lượng dựa trên thông tin",
+          "body": "Khi trao đổi với quản lý hoặc nhà tuyển dụng, trình bày đóng góp cụ thể, nhiệm vụ mong muốn, điều kiện và câu hỏi. Hỏi về thử việc, mục tiêu đánh giá, lương, phụ cấp và quyền lợi bằng văn bản. Giữ thái độ chuyên nghiệp; không tiết lộ thông tin mật của công ty cũ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị chuyển việc an toàn",
+          "body": "Trước khi quyết định, xem hợp đồng hiện tại, thời gian bàn giao, dòng tiền và phương án nếu kế hoạch chậm. Xác minh nhà tuyển dụng, không trả phí bất thường. Đặt mục tiêu kỹ năng theo tháng và xem lại sau khi có phản hồi thực tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Đối chiếu ba mô tả việc với kỹ năng hiện có.",
+        "Chuẩn bị một sản phẩm và ví dụ đóng góp.",
+        "Viết câu hỏi thương lượng, kế hoạch dự phòng."
+      ],
+      "limits": "Không cam kết thăng chức, thu nhập hoặc việc làm; quyền lợi hợp đồng cần xem hồ sơ cụ thể.",
+      "sourceIds": [
+        "adultCareer",
+        "skills2025",
+        "labour"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "civic",
+      "id": "hop-dong-nha-o-bao-hiem-23-34",
+      "title": "Pháp luật đời sống 23–34 tuổi: hợp đồng, nhà ở, cư trú và bảo hiểm",
+      "summary": "Tra cứu nguồn Việt Nam trước khi ký, thanh toán hoặc thực hiện thủ tục.",
+      "sections": [
+        {
+          "heading": "Phân biệt các loại nghĩa vụ",
+          "body": "Bộ luật Dân sự, Luật Nhà ở, Luật Cư trú và Luật BHXH là các nguồn tra cứu khác nhau. Với thuê nhà hoặc giao dịch, xác định chủ thể, giấy tờ, nội dung và điều kiện. Không suy luận mọi mẫu hợp đồng trên mạng đều đúng với hoàn cảnh.",
+          "sourceIds": [
+            "civil",
+            "housing",
+            "residence",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi thuê hoặc chuyển chỗ ở",
+          "body": "Kiểm tra người có quyền cho thuê, địa chỉ, tiền cọc, phí, cách bàn giao và điều kiện chấm dứt; lưu chứng từ. Hỏi cơ quan có thẩm quyền về thủ tục cư trú theo trường hợp. Không chuyển tiền trước khi xác minh bên nhận hoặc giao giấy tờ không cần thiết.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyền lợi lao động và bảo hiểm",
+          "body": "Kiểm tra hợp đồng, quá trình tham gia BHXH và thông tin bảo hiểm qua kênh chính thức. Nếu có sai lệch, giữ hồ sơ và yêu cầu hướng dẫn. Phân biệt bảo hiểm bắt buộc theo đối tượng với sản phẩm thương mại; đọc điều khoản trước khi mua.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giải quyết vấn đề theo chứng cứ",
+          "body": "Ghi thời điểm, thông tin thỏa thuận, biên nhận và nội dung trao đổi. Hỏi cơ quan có thẩm quyền hoặc luật sư khi có tranh chấp đáng kể. Không đăng công khai giấy tờ chứa số định danh, không gửi tiền cho người tự xưng giải quyết nhanh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Kiểm tra danh tính và quyền của bên ký.",
+        "Lưu hợp đồng, chứng từ và đầu mối chính thức.",
+        "Tra cứu một thủ tục theo đúng địa phương và thời điểm."
+      ],
+      "limits": "Không kết luận hợp đồng hoặc thủ tục hợp pháp trong trường hợp cụ thể; cần kiểm tra văn bản hiện hành.",
+      "sourceIds": [
+        "civil",
+        "housing",
+        "residence",
+        "bhxh"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "early-adult",
+      "pillar": "life",
+      "id": "tu-quan-thoi-gian-va-cham-soc-23-34",
+      "title": "Kỹ năng sống 23–34 tuổi: quản lý thời gian, việc nhà và chăm sóc người thân",
+      "summary": "Tạo hệ thống đơn giản có chỗ cho nghỉ và phương án thay thế.",
+      "sections": [
+        {
+          "heading": "Lập bản đồ tuần thực tế",
+          "body": "Ghi các khối công việc, đi lại, ăn ngủ, việc nhà và chăm người thân. Đừng tính thời gian như thể luôn có đủ sức. Xác định việc bắt buộc, việc có thể giao hoặc giảm, và khoảng dành cho bản thân; trao đổi với người liên quan khi lịch không khả thi.",
+          "sourceIds": [
+            "workMental",
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chia việc theo trách nhiệm",
+          "body": "Ví dụ một gia đình cần mua thực phẩm, đưa người thân đi khám và dọn nhà. Thống nhất ai phụ trách từ đầu đến cuối, người dự phòng và lúc kiểm tra. Không mặc định một người phải nhắc mọi người hoặc gánh việc dựa vào giới tính.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng công cụ vừa đủ",
+          "body": "Một bảng tuần hoặc lịch giấy có thể giúp ghi hạn, danh sách mua và người phụ trách. Chỉ ghi dữ liệu cần thiết, giữ thông tin sức khỏe riêng. Đừng xây hệ thống phức tạp hơn công việc; nếu hay quên, đặt vật dụng tại vị trí thuận tiện và dùng nhắc đơn giản.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại khi quá tải",
+          "body": "Cuối tuần xem việc nào trễ vì thiếu thời gian, thiếu hỗ trợ hay yêu cầu thay đổi. Chọn giảm một việc hoặc xin trợ giúp cụ thể. Nếu căng thẳng hoặc mất ngủ kéo dài, tìm hỗ trợ chuyên môn, không coi chăm sóc bản thân là phần thưởng phải kiếm được.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Vẽ một tuần và đánh dấu khoảng nghỉ.",
+        "Thống nhất người phụ trách và dự phòng cho hai việc.",
+        "Chọn một việc có thể giảm hoặc chuyển giao."
+      ],
+      "limits": "Không thay tư vấn sức khỏe hoặc dịch vụ chăm sóc; phân công cần tự nguyện và phù hợp khả năng.",
+      "sourceIds": [
+        "workMental",
+        "social"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "thinking",
+      "id": "quyet-dinh-dai-han-35-59",
+      "title": "Tư duy tuổi 35–59: kiểm chứng thông tin và đánh giá quyết định dài hạn",
+      "summary": "Dùng kịch bản và tiêu chí minh bạch khi cân nhắc nghề, tài sản hay chăm sóc gia đình.",
+      "sections": [
+        {
+          "heading": "Nhận diện quyết định khó đảo ngược",
+          "body": "Các quyết định như chuyển nghề, mua nhà hay hỗ trợ người thân có thể kéo dài nhiều năm. Viết mục tiêu, người bị ảnh hưởng, điều kiện bắt buộc và thời điểm cần quyết định. Đừng chọn chỉ vì chi phí đã bỏ ra hoặc vì lời khuyên của người có vẻ thành công.",
+          "sourceIds": [
+            "mil",
+            "adultFinance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra nguồn và giả định",
+          "body": "Nếu ai đó nói một tài sản luôn tăng hoặc một khóa học đảm bảo việc làm, tìm tài liệu gốc, ngày, điều kiện và bằng chứng phản bác. Phân biệt dữ liệu với quảng cáo. Không coi AI hay bài viết lan truyền là nguồn xác nhận độc lập.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử ba kịch bản",
+          "body": "Ví dụ dự kiến thay việc: lập tình huống thu nhập không đổi, giảm trong vài tháng và phát sinh chi phí chăm người thân. Dùng số liệu cá nhân đã kiểm tra, ghi phần chưa biết. Với khoản lớn, xem khả năng trì hoãn hoặc thử phương án nhỏ trước.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đặt ngày xem lại và hỏi chuyên gia",
+          "body": "Ghi lý do quyết định, điều gì sẽ khiến cần đổi kế hoạch và ai được tham gia. Xin ý kiến độc lập khi liên quan pháp luật, tài chính hay sức khỏe. Không xem thay đổi quyết định sau thông tin mới là thất bại; đó là cách giảm rủi ro.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một quyết định dài hạn và các điều kiện bắt buộc.",
+        "Kiểm tra hai nguồn độc lập.",
+        "Lập ba kịch bản và thời điểm xem lại."
+      ],
+      "limits": "Không đưa quyết định đầu tư hoặc pháp lý cá nhân; cần chuyên gia khi rủi ro đáng kể.",
+      "sourceIds": [
+        "mil",
+        "adultFinance"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "digital",
+      "id": "ai-va-an-toan-so-35-59",
+      "title": "Công nghệ tuổi 35–59: thích nghi AI, bảo mật và chống lừa đảo",
+      "summary": "Học công cụ mới qua nhu cầu thực, không bỏ qua kiểm chứng và bảo vệ tài khoản.",
+      "sections": [
+        {
+          "heading": "Chọn kỹ năng từ công việc thật",
+          "body": "AI có thể hỗ trợ nhiều nhiệm vụ nhưng kết quả cần kiểm tra. Chọn một việc ít rủi ro như soạn mẫu văn bản công khai hoặc sắp xếp dữ liệu giả. Không cần học mọi công cụ cùng lúc; xác định quy định dữ liệu tại nơi làm trước khi sử dụng.",
+          "sourceIds": [
+            "mil",
+            "privacyLaw",
+            "scam"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra thông tin và giả mạo",
+          "body": "Nếu nhận được giọng nói, ảnh hoặc tin nhắn yêu cầu tiền gấp, xác minh qua số liên hệ đã biết hoặc kênh chính thức, không dựa vào hình ảnh và âm thanh. Không gửi mã OTP, không cài ứng dụng điều khiển thiết bị theo yêu cầu của người gọi lạ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thiết lập thói quen bảo mật",
+          "body": "Dùng mật khẩu riêng và xác thực bổ sung khi phù hợp, cập nhật thiết bị, kiểm tra quyền ứng dụng. Không đưa hồ sơ khách hàng, giấy tờ hoặc bí mật công ty vào AI công cộng. Nếu bị nghi lộ tài khoản, liên hệ dịch vụ chính thức, đổi thông tin truy cập và báo bộ phận liên quan.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học theo từng bước",
+          "body": "Ghi một nhiệm vụ, hướng dẫn, kết quả và lỗi. Thử lại bằng dữ liệu mẫu, kiểm tra với tài liệu gốc hoặc người có chuyên môn. Không mua khóa đắt vì lo bị AI thay thế; lựa chọn dựa trên kỹ năng cần dùng và khả năng áp dụng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Thực hành một nhiệm vụ AI bằng dữ liệu giả.",
+        "Kiểm tra quyền ứng dụng và bảo mật tài khoản.",
+        "Diễn tập xác minh yêu cầu chuyển tiền giả."
+      ],
+      "limits": "Không thay quy trình ứng cứu sự cố, kiểm toán bảo mật hoặc tư vấn pháp lý.",
+      "sourceIds": [
+        "mil",
+        "privacyLaw",
+        "scam"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "relationships",
+      "id": "gia-dinh-da-the-he-35-59",
+      "title": "Quan hệ tuổi 35–59: con trưởng thành, cha mẹ lớn tuổi và ranh giới giữa các thế hệ",
+      "summary": "Chia sẻ trách nhiệm và hỗ trợ mà vẫn tôn trọng lựa chọn mỗi người.",
+      "sections": [
+        {
+          "heading": "Nhận diện các nhu cầu khác nhau",
+          "body": "Gia đình nhiều thế hệ có thể cùng sống hoặc sống riêng, mỗi người có mong muốn, sức khỏe và hoàn cảnh khác nhau. Hỏi người lớn tuổi muốn được hỗ trợ thế nào, hỏi con trưởng thành cần gì, không quyết định thay họ chỉ vì quan hệ gia đình.",
+          "sourceIds": [
+            "social",
+            "mentalOlder",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thống nhất cách hỗ trợ",
+          "body": "Ví dụ cần đưa cha mẹ đi khám: hỏi lịch và sự đồng ý, phân công người đi cùng, người hỗ trợ chi phí nếu tự nguyện và người dự phòng. Với con trưởng thành, thống nhất hỗ trợ tài chính, thời gian và quyền riêng tư rõ ràng, không dùng hỗ trợ để kiểm soát.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giải quyết bất đồng tôn trọng",
+          "body": "Chọn một việc cụ thể, mô tả nhu cầu và giới hạn; để từng người nói và đề xuất lựa chọn. Nếu tranh luận căng thẳng, hẹn lại. Không ép một thành viên chịu trách nhiệm chăm sóc vì giới tính hay thứ bậc; khi có đe dọa, ưu tiên an toàn và tìm hỗ trợ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Duy trì kết nối tự nguyện",
+          "body": "Thống nhất cách gọi, thăm hoặc sinh hoạt chung mà mọi người chấp nhận. Hỏi lại khi hoàn cảnh thay đổi. Nếu gánh nặng chăm sóc ảnh hưởng sức khỏe, tìm người hỗ trợ, dịch vụ phù hợp hoặc chuyên gia; không coi việc xin nghỉ là bỏ rơi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi từng người muốn nhận và có thể cung cấp hỗ trợ gì.",
+        "Phân công một việc có người dự phòng.",
+        "Thống nhất ranh giới và lịch trao đổi lại."
+      ],
+      "limits": "Không đánh giá năng lực quyết định hoặc xử lý tranh chấp gia đình cụ thể; nguy cơ bạo lực cần hỗ trợ an toàn.",
+      "sourceIds": [
+        "social",
+        "mentalOlder",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "talents",
+      "id": "so-thich-va-cong-dong-35-59",
+      "title": "Sở thích tuổi 35–59: sáng tạo, thể thao và tham gia cộng đồng",
+      "summary": "Giữ hoạt động có ý nghĩa trong nhịp sống nhiều trách nhiệm.",
+      "sections": [
+        {
+          "heading": "Tìm điều mình muốn duy trì",
+          "body": "Sở thích có thể đem lại kết nối và cơ hội học, không nhất thiết là thành tích. Hỏi hoạt động nào từng yêu thích hoặc muốn thử, và rào cản như thời gian, chi phí hoặc di chuyển. Không mặc định chỉ người trẻ mới học nghệ thuật hoặc kỹ năng mới.",
+          "sourceIds": [
+            "lifelong",
+            "social",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn hoạt động dễ tiếp cận",
+          "body": "Ví dụ thư viện, nhóm đi bộ, làm vườn, học nhạc hoặc lớp cộng đồng. Xác minh đơn vị tổ chức, lịch, phí và an toàn. Nếu chăm người thân, sắp xếp thời gian nghỉ với người hỗ trợ; không phải tham gia tất cả buổi khi lịch không phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đặt mục tiêu theo quá trình",
+          "body": "Thử hoàn thành một sản phẩm nhỏ, một đoạn nhạc hoặc học kỹ thuật dưới hướng dẫn. Không ép mục tiêu thể lực hoặc mua thiết bị đắt. Với hoạt động thể thao, chọn mức phù hợp sức khỏe và dừng nếu có biểu hiện bất thường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn cách đóng góp tự nguyện",
+          "body": "Nếu muốn chia sẻ kỹ năng hoặc tham gia cộng đồng, xác định nhiệm vụ, thời lượng và người phụ trách. Tôn trọng dữ liệu và ảnh của người khác. Sau một tháng, hỏi điều mình học được và có muốn đổi hoạt động không; không biến sở thích thành nghĩa vụ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một sở thích và một khoảng thời gian thực tế.",
+        "Xác minh một nhóm hoặc lớp phù hợp.",
+        "Sau vài buổi, đánh giá mức hứng thú và khả năng duy trì."
+      ],
+      "limits": "Không cam kết tác dụng điều trị hoặc thành tích; điều chỉnh theo sức khỏe và lựa chọn.",
+      "sourceIds": [
+        "lifelong",
+        "social",
+        "activityGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "finance",
+      "id": "ke-hoach-huu-tri-va-du-phong-35-59",
+      "title": "Tài chính tuổi 35–59: kế hoạch dài hạn, hưu trí và dự phòng gia đình",
+      "summary": "Tách chi phí hiện tại, nghĩa vụ, mục tiêu dài hạn và thông tin quyền lợi cần xác minh.",
+      "sections": [
+        {
+          "heading": "Nhìn cả dòng tiền và nghĩa vụ",
+          "body": "Lập bảng thu thực nhận, chi thiết yếu, nợ, chi chăm người thân và khoản tiết kiệm. Đừng coi giá tài sản trên quảng cáo là tiền có sẵn. Tách mục tiêu ngắn hạn khỏi tiền dự phòng và mục tiêu sau nghỉ việc; không áp dụng một tỷ lệ tiết kiệm chung.",
+          "sourceIds": [
+            "adultFinance",
+            "emergencyFund",
+            "bhxh",
+            "vssid"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xây ba kịch bản dài hạn",
+          "body": "Giả định chi thiết yếu 12 triệu một tháng, sau đó thử trường hợp chi tăng hoặc thu nhập giảm. Con số minh họa không dự báo lạm phát, tuổi thọ hay lương hưu. Kiểm tra các khoản chi bất thường, khả năng hỗ trợ tự nguyện và nguồn tiền có thể tiếp cận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tra cứu quyền lợi và hợp đồng",
+          "body": "Kiểm tra thời gian tham gia BHXH qua kênh chính thức, hỏi cơ quan BHXH về điều kiện, mốc và hồ sơ áp dụng. Với bảo hiểm hoặc đầu tư thương mại, đọc phí, thanh khoản, loại trừ và rủi ro, không tin lợi nhuận chắc chắn. Xin tư vấn phù hợp trước quyết định lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chia sẻ kế hoạch có giới hạn",
+          "body": "Thảo luận với người liên quan về trách nhiệm chăm sóc, hỗ trợ và các khoản cam kết. Không đưa OTP hoặc quyền kiểm soát tài khoản cho người tư vấn. Xem lại mỗi khi đổi việc, sức khỏe hoặc hoàn cảnh gia đình; giữ hồ sơ riêng tư và có phương án dự phòng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng nghĩa vụ, mục tiêu và dòng tiền.",
+        "Tra cứu quá trình tham gia BHXH.",
+        "Thử kịch bản thu nhập giảm và chi phí tăng."
+      ],
+      "limits": "Ví dụ giáo dục, không dự báo quyền lợi hưu trí hoặc khuyến nghị sản phẩm tài chính; cần tư vấn cá nhân.",
+      "sourceIds": [
+        "adultFinance",
+        "emergencyFund",
+        "bhxh",
+        "vssid"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "career",
+      "id": "chuyen-nghe-va-nang-ky-nang-35-59",
+      "title": "Nghề nghiệp tuổi 35–59: chuyển nghề, cập nhật kỹ năng và phát triển vai trò",
+      "summary": "Đánh giá kinh nghiệm có thể chuyển đổi và thử phương án trước khi cam kết.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ thế mạnh hiện có",
+          "body": "OECD nhấn mạnh hướng nghiệp người lớn và cập nhật kỹ năng trong thị trường biến động. Ghi kinh nghiệm quản lý, chuyên môn, phối hợp hoặc phục vụ khách hàng; đối chiếu với nhiệm vụ muốn làm. Không coi tuổi là lý do chắc chắn mất cơ hội hoặc bảo đảm thăng chức.",
+          "sourceIds": [
+            "adultCareer",
+            "skills2025",
+            "employment"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khảo sát nhu cầu thật",
+          "body": "Đọc mô tả việc làm và hỏi người đang làm nghề về công việc hằng ngày. Ghi yêu cầu kỹ năng, điều kiện, đi lại, đào tạo và mức thu nhập được xác nhận. Không mua khóa học chỉ vì lời hứa tuyển dụng; kiểm tra cơ sở và giá trị chứng nhận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử nghiệm trước chuyển đổi",
+          "body": "Chọn một dự án mẫu, nhiệm vụ mới tại nơi làm hoặc lớp ngắn phù hợp quy định. Xin phản hồi, lưu bằng chứng không chứa dữ liệu mật. Nếu muốn chuyển việc, tính dòng tiền dự phòng, nghĩa vụ hợp đồng và thời gian học; tránh nghỉ vội khi chưa rõ phương án.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá vai trò và quyền lợi",
+          "body": "Trao đổi rõ mục tiêu, phạm vi công việc, tiêu chí đánh giá và điều kiện hỗ trợ. Khi gặp thất nghiệp hoặc cần đào tạo, tra cứu quy định và kênh việc làm chính thức theo trường hợp. Không nộp phí bất thường hoặc giao giấy tờ cho môi giới chưa xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng kỹ năng chuyển đổi và phần cần học.",
+        "Thử một nhiệm vụ mới có phản hồi.",
+        "Tạo kế hoạch chuyển đổi và dự phòng."
+      ],
+      "limits": "Không bảo đảm việc làm hay thu nhập, không xác định quyền lợi thất nghiệp khi chưa xem hồ sơ.",
+      "sourceIds": [
+        "adultCareer",
+        "skills2025",
+        "employment"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "civic",
+      "id": "quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+      "title": "Pháp luật tuổi 35–59: lao động, bảo hiểm và quản lý hồ sơ tài sản",
+      "summary": "Kiểm chứng quyền lợi và giấy tờ trước thay đổi công việc, nhà ở hoặc cam kết chung.",
+      "sections": [
+        {
+          "heading": "Tách quyền lợi và nguồn pháp luật",
+          "body": "Bộ luật Lao động, Luật BHXH, quy định BHYT và Bộ luật Dân sự áp dụng các vấn đề khác nhau. Xác định mình đang hỏi về hợp đồng, quá trình đóng, khám chữa bệnh hay tài sản; tìm văn bản hiện hành và cơ quan có thẩm quyền thay vì dùng một lời giải chung.",
+          "sourceIds": [
+            "labour",
+            "bhxh",
+            "civil",
+            "housing",
+            "healthInsurance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Rà soát hồ sơ định kỳ",
+          "body": "Lưu hợp đồng và phụ lục, thông tin đóng bảo hiểm, giấy tờ nhà ở và chứng từ liên quan; cập nhật khi đổi việc hoặc có sai lệch. Kiểm tra quyền lợi trên kênh chính thức, không giao thông tin định danh và mã xác thực cho người lạ. Giữ bản sao ở nơi bảo mật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giao dịch tài sản và cam kết",
+          "body": "Trước khi ký hoặc chuyển tiền, xác minh quyền của bên giao dịch, phạm vi tài sản, điều kiện, chi phí và giấy tờ. Với tài sản chung hoặc thỏa thuận đại diện, hỏi chuyên gia pháp lý về trường hợp cụ thể. Không ký giấy trống hoặc để người khác tự sử dụng chữ ký.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có tranh chấp hoặc thay đổi",
+          "body": "Ghi chứng cứ, ngày, nội dung trao đổi và các yêu cầu chính thức. Liên hệ cơ quan BHXH, cơ quan lao động, công chứng hoặc luật sư tùy vấn đề. Không coi thông tin mạng là kết luận pháp lý hoặc bỏ qua thời hạn vì lời hứa xử lý sau.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Liệt kê hồ sơ lao động, bảo hiểm và tài sản cần cập nhật.",
+        "Kiểm tra một quyền lợi qua nguồn chính thức.",
+        "Ghi đầu mối chuyên môn cho giao dịch lớn."
+      ],
+      "limits": "Không tư vấn pháp lý hoặc xác định quyền hưởng cụ thể; cần đối chiếu hồ sơ và văn bản còn hiệu lực.",
+      "sourceIds": [
+        "labour",
+        "bhxh",
+        "civil",
+        "housing",
+        "healthInsurance"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "midlife",
+      "pillar": "life",
+      "id": "phan-chia-trach-nhiem-va-cham-soc-35-59",
+      "title": "Kỹ năng sống tuổi 35–59: phân chia trách nhiệm, nghỉ ngơi và chăm sóc người thân",
+      "summary": "Xây hệ thống hỗ trợ thực tế, tránh phụ thuộc vào một người duy nhất.",
+      "sections": [
+        {
+          "heading": "Nhìn rõ khối lượng chăm sóc",
+          "body": "Ghi việc cần làm, thời gian, kỹ năng cần có và người đang phụ trách. Ví dụ chăm cha mẹ, đưa đón con, việc nhà và công việc có thể trùng nhau. Hỏi người được chăm về lựa chọn, không tự quyết mọi nhu cầu vì muốn làm nhanh.",
+          "sourceIds": [
+            "workMental",
+            "mentalOlder",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phân công và dự phòng",
+          "body": "Chia việc theo khả năng và sự đồng ý; xác định ai phụ trách hẹn khám, đi lại, mua đồ, chi phí và liên hệ khi có sự cố. Việc chuyên môn cần người được đào tạo; không tự nâng người hạn chế vận động hoặc thay thuốc khi chưa được hướng dẫn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ thời gian phục hồi",
+          "body": "Thống nhất khoảng nghỉ của từng người, tìm hỗ trợ cộng đồng hoặc dịch vụ phù hợp nếu có. Khi cần từ chối thêm việc, nói rõ giới hạn và phương án khác. Không coi người chăm phải hy sinh mọi nhu cầu cá nhân; trao đổi khi có căng thẳng kéo dài.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị cho thay đổi",
+          "body": "Lưu thông tin liên hệ và kế hoạch bàn giao ở nơi riêng tư, cập nhật khi tình trạng sức khỏe hoặc lịch công việc đổi. Hỏi lại người được chăm về mong muốn. Khi có nguy cơ cấp cứu, tìm trợ giúp chuyên nghiệp; không để quy trình gia đình thay đánh giá y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng trách nhiệm và người dự phòng.",
+        "Thống nhất một khoảng nghỉ thực sự.",
+        "Chuẩn bị đầu mối trợ giúp khi có thay đổi."
+      ],
+      "limits": "Không thay dịch vụ điều dưỡng, phục hồi chức năng hoặc tư vấn sức khỏe; tôn trọng quyền tự quyết.",
+      "sourceIds": [
+        "workMental",
+        "mentalOlder",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03C"
     }
   ]
 }
