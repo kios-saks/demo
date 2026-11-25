@@ -1,5 +1,5 @@
 # S04-AZ-01 — Đợt nội dung ưu tiên đầu tiên
-Ngày 25/11/2026. 10 bài draft mới; mỗi bài 4 phần, 3 thực hành, giới hạn áp dụng, nguồn theo phần và nguồn định hướng. Không coi đây là đã thẩm định chuyên môn.
+Ngày 25/11/2026. 11 bài draft mới; mỗi bài 4 phần, 3 thực hành, giới hạn áp dụng, nguồn theo phần và nguồn định hướng. Không coi đây là đã thẩm định chuyên môn.
 - Baseline: 93 nội dung. Sau bổ sung: 104 nội dung, 58/173 ô có bài liên quan, 115 ô trống, 52 ô trống P0; 19 ô chưa ưu tiên. Chỉ một phân loại chính mỗi bài; không nhân bản.
 - Nguồn được tra cứu công khai ngày 25/11/2026; phần source-based chỉ nêu nội dung tương ứng nguồn, editorial-practice là đề xuất của biên tập viên. Cần thẩm định claim, địa phương hóa và cập nhật nguồn trước công bố.
 - Không có danh sách trường được xác nhận, chưa thu thập hồ sơ trường cụ thể. Chỉ bổ sung hướng dẫn lựa chọn dựa trên thông tin công khai.

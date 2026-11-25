@@ -66,7 +66,8 @@ Chỉ thu thập dữ liệu cần thiết. Dữ liệu trẻ em/sức khỏe, l
 
 Quyết định mở rộng 25/11/2026: phục vụ mọi độ tuổi từ trước sinh đến tuổi cao niên. Giữ thương hiệu hiện tại; tên hệ sinh thái chưa quyết định. Bản đồ 12 chặng × 16 trụ cột là phân loại biên tập, không phải chuẩn phát triển. Không bắt buộc mọi chủ đề ở mọi tuổi; đối chiếu nhu cầu cụ thể. [WHO life-course framework](https://www.who.int/publications/i/item/9789240112575).
 - [x] Bản đồ tri thức vòng đời trong /hoc-cung-con: 12 chặng, 16 trụ cột, ưu tiên theo tuổi, liên kết thư viện cũ, hiển thị số bài liên quan hoặc cần biên tập (không giả dữ liệu).
-- [ ] Kiểm kê 72 bài hiện tại + 21 bài draft theo ma trận chặng/chủ đề; xác định bài trùng, khoảng trống, claim và nguồn.
+- [x] Kiểm kê metadata 72 bài hiện tại + 21 bài draft theo ma trận 192 ô; phân loại chính từng bài, xác định 173 ô áp dụng, 47 ô có draft, 126 ô trống ban đầu. [Ma trận và backlog](life-course-content-audit-2026-11-25.md).
+- [x] Đợt S04-AZ-01: 11 hướng dẫn draft mới, tổng 104 nội dung, 58/173 ô có draft, 115 ô trống (52 P0). [Báo cáo](life-course-batch-01-2026-11-25.md). Độ phủ chưa đồng nghĩa đủ chiều sâu hoặc thẩm định; đọc claim và kiểm tra trùng lặp chi tiết vẫn còn.
 - [ ] Biên tập theo từng chặng, ưu tiên dinh dưỡng, sinh hoạt, sức khỏe, tâm sinh lý, giáo dục, thích nghi, an toàn và trường học trước; tiếp theo năng lực số, tài chính, nghề nghiệp, pháp luật, năng khiếu và kỹ năng sống.
 - [ ] Danh mục trường học Việt Nam theo địa phương/cấp học/nhu cầu: hồ sơ pháp lý, chương trình, học phí, tuyển sinh, nguồn chính thức, kiểm định phù hợp cấp học, ngày cập nhật; không xếp hạng tuyệt đối, phân biệt nội dung quảng cáo và dữ liệu kiểm chứng. Bắt đầu một địa phương thí điểm sau khi xác định phạm vi; chưa đề cử trường cụ thể.
 - [ ] Xây dựng bộ lọc, so sánh, gợi ý theo lựa chọn phụ huynh; không thu thập vị trí chính xác hoặc dữ liệu trẻ em mặc định.
