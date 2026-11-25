@@ -1,0 +1,27 @@
+name: Family Demo Live QA
+on:
+  pull_request:
+    branches: ["feat/hanh-trinh-me-be-ecosystem"]
+    paths:
+      - ".github/workflows/mebe-family-live-qa.yml"
+      - ".github/scripts/mebe-family-live-qa.mjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-family-demo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install isolated Chromium
+        run: |
+          npm install --prefix /tmp/mebe-family-playwright --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
+          /tmp/mebe-family-playwright/node_modules/.bin/playwright install --with-deps chromium
+      - name: Browser acceptance on live Combined DEV (synthetic only)
+        env:
+          PLAYWRIGHT_MODULE: /tmp/mebe-family-playwright/node_modules/playwright/index.mjs
+        run: node .github/scripts/mebe-family-live-qa.mjs
