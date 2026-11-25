@@ -81,6 +81,31 @@ try{
  await page.goto(web+"/hanh-trinh");
  await page.locator("[data-journey-select]").selectOption("so-sinh");
  await page.locator("[data-journey-save]").click();
+ // Sprint 03: selected stage, checklist progress and responsive layout.
+ const plan=page.locator('[data-journey-plan="so-sinh"]');
+ await plan.waitFor({state:"visible"});
+ assert.equal(await page.locator("[data-journey-plan]:visible").count(),1);
+ assert.equal(await plan.locator("[data-save-slug]").count(),6);
+ const planChecks=plan.locator("[data-checklist-key]");
+ const total=await planChecks.count();
+ assert(total>0);
+ await planChecks.first().check();
+ assert.equal(await plan.locator("[data-journey-progress]").textContent(),"1/"+total+" việc đã đánh dấu");
+ const checkKey=await planChecks.first().getAttribute("data-checklist-key");
+ for(const peer of await page.locator('[data-checklist-key="'+checkKey+'"]').all())assert(await peer.isChecked(),"Duplicate checklist controls must stay synchronized");
+ await page.reload();
+ await plan.waitFor({state:"visible"});
+ assert(await planChecks.first().isChecked());
+ assert.equal(await plan.locator("[data-journey-progress]").textContent(),"1/"+total+" việc đã đánh dấu");
+ for(const width of [390,768,1024,1440]){
+  await page.setViewportSize({width,height:900});
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),"Journey horizontal overflow at "+width);
+ }
+ await plan.locator("[data-checklist-reset]").click();
+ assert.equal(await plan.locator("[data-journey-progress]").textContent(),"0/"+total+" việc đã đánh dấu");
+ assert(!(await planChecks.first().isChecked()));
+ await page.setViewportSize({width:390,height:844});
+ console.log("PASS personal journey browser: stage, checklist synchronization, progress, persistence, reset, four viewport widths");
  await page.locator("[data-history-opt-in]").check();
  await page.goto(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh");
  await page.locator("[data-share-article]").waitFor({state:"visible"});
