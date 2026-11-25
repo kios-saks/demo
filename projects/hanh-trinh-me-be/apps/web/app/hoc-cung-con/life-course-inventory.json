@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 143,
+    "unique": 156,
     "cells": 192,
     "applicable": 173,
-    "partial": 97,
-    "gaps": 76,
+    "partial": 110,
+    "gaps": 63,
     "notPriority": 19,
     "byStage": [
       {
@@ -95,23 +95,23 @@
       {
         "id": "older",
         "age": "60–74 tuổi",
-        "items": 2,
+        "items": 8,
         "applicable": 16,
-        "partial": 2,
-        "gaps": 14
+        "partial": 8,
+        "gaps": 8
       },
       {
         "id": "later-life",
         "age": "75+ tuổi",
-        "items": 1,
+        "items": 8,
         "applicable": 16,
-        "partial": 1,
-        "gaps": 15
+        "partial": 8,
+        "gaps": 8
       }
     ],
-    "p0": 13,
+    "p0": 0,
     "baselineUnique": 93,
-    "newArticles": 50
+    "newArticles": 63
   },
   "refs": [
     {
@@ -1829,6 +1829,162 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-an-toan-cong-viec-va-cham-soc-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "an-uong-va-nuoc-60-74",
+      "title": "Bữa ăn tuổi 60–74: đủ chất, dễ tiếp cận và phù hợp khẩu vị",
+      "stage": "older",
+      "pillar": "nutrition",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-uong-va-nuoc-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "kham-chu-dong-va-thuoc-60-74",
+      "title": "Khám chủ động 60–74 tuổi: rà soát thuốc, chức năng và kế hoạch theo dõi",
+      "stage": "older",
+      "pillar": "health",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-kham-chu-dong-va-thuoc-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "co-the-giac-quan-60-74",
+      "title": "Cơ thể tuổi 60–74: nghe, nhìn, vận động và phẩm giá",
+      "stage": "older",
+      "pillar": "body",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-co-the-giac-quan-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "nhip-song-va-van-dong-60-74",
+      "title": "Nhịp sinh hoạt tuổi 60–74: vận động, ngủ và duy trì hoạt động có ý nghĩa",
+      "stage": "older",
+      "pillar": "routine",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nhip-song-va-van-dong-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "hoc-ky-nang-moi-60-74",
+      "title": "Học tập tuổi 60–74: học kỹ năng mới theo nhu cầu và sở thích",
+      "stage": "older",
+      "pillar": "education",
+      "originalStage": "older",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hoc-ky-nang-moi-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "chon-lop-cong-dong-60-74",
+      "title": "Tìm lớp học cộng đồng tuổi 60–74: chương trình, hỗ trợ và an toàn giao dịch",
+      "stage": "older",
+      "pillar": "schools",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chon-lop-cong-dong-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "ho-tro-an-uong-75-plus",
+      "title": "Ăn uống tuổi 75+: tôn trọng khẩu vị, hỗ trợ nhai nuốt và phát hiện thiếu dinh dưỡng",
+      "stage": "later-life",
+      "pillar": "nutrition",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ho-tro-an-uong-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "cam-xuc-mat-mat-75-plus",
+      "title": "Tâm lý tuổi 75+: kết nối, mất mát và tôn trọng lựa chọn",
+      "stage": "later-life",
+      "pillar": "psych",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-cam-xuc-mat-mat-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "giac-quan-va-tu-quyet-75-plus",
+      "title": "Cơ thể tuổi 75+: giác quan, di chuyển và quyền tự quyết trong chăm sóc",
+      "stage": "later-life",
+      "pillar": "body",
+      "originalStage": "later-life",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-giac-quan-va-tu-quyet-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "nhip-sinh-hoat-ho-tro-75-plus",
+      "title": "Nhịp sinh hoạt tuổi 75+: nghỉ ngơi, vệ sinh và hỗ trợ hoạt động hằng ngày",
+      "stage": "later-life",
+      "pillar": "routine",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nhip-sinh-hoat-ho-tro-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "hoc-theo-so-thich-75-plus",
+      "title": "Học tập tuổi 75+: đọc, kể chuyện và tiếp cận thông tin theo sở thích",
+      "stage": "later-life",
+      "pillar": "education",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hoc-theo-so-thich-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "lop-hoc-de-tiep-can-75-plus",
+      "title": "Tìm lớp học và sinh hoạt cộng đồng dễ tiếp cận cho tuổi 75+",
+      "stage": "later-life",
+      "pillar": "schools",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-lop-hoc-de-tiep-can-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+      "title": "An toàn tuổi 75+: môi trường nhà, phòng té ngã và kế hoạch trợ giúp",
+      "stage": "later-life",
+      "pillar": "safety",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-toan-nha-va-ke-hoach-ho-tro-75-plus"
     }
   ],
   "cells": [
@@ -3833,8 +3989,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa ăn đủ chất, tiếp cận thực phẩm và nước",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-uong-va-nuoc-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3844,8 +4002,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Khám chủ động, quản lý thuốc với chuyên gia",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:kham-chu-dong-va-thuoc-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3868,8 +4028,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Thay đổi cơ thể, giác quan và phẩm giá",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:co-the-giac-quan-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3879,8 +4041,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Vận động phù hợp, giấc ngủ và sinh hoạt",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nhip-song-va-van-dong-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3890,8 +4054,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Học suốt đời, học kỹ năng mới",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hoc-ky-nang-moi-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3901,8 +4067,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Lớp cộng đồng và cơ sở đào tạo phù hợp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chon-lop-cong-dong-60-74"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -4013,8 +4181,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa ăn, nước, khả năng nhai nuốt và hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ho-tro-an-uong-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4037,8 +4207,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Tôn trọng cảm xúc, kết nối, mất mát",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:cam-xuc-mat-mat-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4048,8 +4220,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Giác quan, khả năng vận động, quyền tự quyết",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:giac-quan-va-tu-quyet-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4059,8 +4233,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Thói quen, hỗ trợ sinh hoạt và nghỉ ngơi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nhip-sinh-hoat-ho-tro-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4070,8 +4246,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Học theo sở thích, tiếp cận thông tin",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hoc-theo-so-thich-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4081,8 +4259,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Lớp cộng đồng dễ tiếp cận, hỗ trợ học",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:lop-hoc-de-tiep-can-75-plus"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -4125,8 +4305,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Phòng té ngã, an toàn nhà, kế hoạch hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {

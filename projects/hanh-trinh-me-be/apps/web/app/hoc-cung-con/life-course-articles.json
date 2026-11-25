@@ -219,6 +219,46 @@
       "name": "UNESCO — Community Learning Centres in Viet Nam",
       "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
       "scope": "Mô hình học tập cộng đồng; không phải danh sách cơ sở đang hoạt động."
+    },
+    "hearing": {
+      "name": "WHO — Deafness and hearing loss",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+      "scope": "Phòng ngừa, phát hiện và hỗ trợ nghe."
+    },
+    "eye": {
+      "name": "WHO — Blindness and vision impairment",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+      "scope": "Phát hiện và tiếp cận chăm sóc mắt."
+    },
+    "medSafety": {
+      "name": "WHO — Medication without harm",
+      "url": "https://www.who.int/publications/i/item/9789240062764/",
+      "scope": "An toàn thuốc, phối hợp khi dùng nhiều thuốc và chuyển tiếp chăm sóc."
+    },
+    "malnutrition": {
+      "name": "NHS — Malnutrition",
+      "url": "https://www.nhs.uk/conditions/malnutrition/",
+      "scope": "Nguy cơ thiếu dinh dưỡng, giảm cân không chủ ý, khó nuốt và đánh giá."
+    },
+    "eatingSupport": {
+      "name": "NHS — How to support someone you care for with eating",
+      "url": "https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-support-someone-you-care-for-with-eating/",
+      "scope": "Hỗ trợ ăn uống, dụng cụ và chuyển khám khi khó nuốt."
+    },
+    "olderLearning": {
+      "name": "UNESCO — Implementing effective reskilling and upskilling: learning programmes for older adults",
+      "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+      "scope": "Cơ hội học tập và kết nối cho người cao tuổi."
+    },
+    "ageFriendly": {
+      "name": "WHO — Healthy ageing and functional ability",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+      "scope": "Khả năng chức năng, môi trường và quyền duy trì hoạt động có ý nghĩa."
+    },
+    "communitySafety": {
+      "name": "Báo Chính phủ — Cảnh báo lừa đảo đối với người cao tuổi và trẻ em",
+      "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+      "scope": "Xác minh giao dịch, lưu bằng chứng và trình báo."
     }
   },
   "articles": [
@@ -2635,6 +2675,656 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
+    },
+    {
+      "stage": "older",
+      "pillar": "nutrition",
+      "id": "an-uong-va-nuoc-60-74",
+      "title": "Bữa ăn tuổi 60–74: đủ chất, dễ tiếp cận và phù hợp khẩu vị",
+      "summary": "Hỗ trợ ăn uống, mua thực phẩm và phát hiện khó khăn sớm.",
+      "sections": [
+        {
+          "heading": "Nhu cầu khác nhau, không mặc định ăn ít",
+          "body": "Tuổi cao hơn không có nghĩa tất cả đều cần giảm lượng thức ăn. Khả năng vận động, bệnh đang điều trị, khẩu vị và khả năng mua nấu ảnh hưởng bữa ăn. Giảm cân không chủ ý hoặc ăn uống kém kéo dài cần được đánh giá, không coi là tất yếu của tuổi tác.",
+          "sourceIds": [
+            "whoDiet",
+            "icope",
+            "malnutrition"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tổ chức bữa cơm quen thuộc",
+          "body": "Luân phiên nguồn đạm như cá, trứng, đậu hoặc thịt phù hợp; kết hợp cơm, rau, canh và trái cây theo nhu cầu. Hỏi người ăn về món yêu thích, khả năng nhai, kinh phí và cách mua. Sắp xếp nước uống dễ lấy, nhưng tuân theo hướng dẫn nếu bác sĩ đã giới hạn dịch.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giảm rào cản khi mua và nấu",
+          "body": "Nếu chợ xa hoặc đứng bếp lâu gây mệt, thống nhất phương án mua giúp, giao hàng từ nguồn tin cậy hoặc nấu chung theo mong muốn. Dùng dụng cụ dễ cầm, ánh sáng tốt và cất đồ vừa tầm. Không thay toàn bộ món ăn bằng sữa hoặc sản phẩm bổ sung khi chưa được tư vấn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện thay đổi đáng lo",
+          "body": "Ghi nhận ăn ít hơn, khó nhai, khó nuốt, ho khi ăn, giảm cân hoặc mệt kéo dài; đưa thông tin đến chuyên gia. Không tự thay kết cấu nếu nghi rối loạn nuốt. Người đang điều trị bệnh thận, tim mạch hay đái tháo đường cần kế hoạch ăn uống cá nhân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi người ăn về ba món muốn giữ trong thực đơn.",
+        "Kiểm tra chỗ mua thực phẩm, nước uống và dụng cụ nấu.",
+        "Ghi câu hỏi về ăn uống cho lần khám khi có lo lắng."
+      ],
+      "limits": "Không đưa lượng nước, khẩu phần, chế độ điều trị hay sản phẩm bổ sung chung cho mọi người.",
+      "sourceIds": [
+        "whoDiet",
+        "icope",
+        "malnutrition"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "older",
+      "pillar": "health",
+      "id": "kham-chu-dong-va-thuoc-60-74",
+      "title": "Khám chủ động 60–74 tuổi: rà soát thuốc, chức năng và kế hoạch theo dõi",
+      "summary": "Tổ chức thông tin chăm sóc để phối hợp an toàn giữa các cơ sở y tế.",
+      "sections": [
+        {
+          "heading": "Tập trung sức khỏe và chức năng",
+          "body": "Khung ICOPE của WHO hướng tới chăm sóc phù hợp khả năng và nhu cầu của từng người. Khi đi khám, hỏi về chức năng sinh hoạt, vận động, nghe nhìn và các bệnh đang điều trị. Không áp đặt cùng một gói xét nghiệm cho tất cả người cùng tuổi.",
+          "sourceIds": [
+            "icope",
+            "medSafety",
+            "ncd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Rà soát thuốc với người có chuyên môn",
+          "body": "Lập danh sách thuốc kê đơn, thuốc mua ngoài, thảo dược và thực phẩm bổ sung đang sử dụng; mang cả vỏ hoặc ảnh nhãn nếu cần. Hỏi bác sĩ hoặc dược sĩ mục đích, cách dùng và điều gì cần theo dõi. Không tự ngừng, tăng liều hay dùng chung thuốc của người khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sau mỗi lần khám",
+          "body": "Ghi kết luận, lịch hẹn và thay đổi thuốc được hướng dẫn; kiểm tra rằng các cơ sở đang chăm sóc biết những thuốc cần thiết. Nếu khó đọc chữ hoặc khó nhớ, nhờ người tin cậy hỗ trợ theo ý muốn. Không giao toàn bộ quyền quyết định cho người khác chỉ vì tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có triệu chứng mới",
+          "body": "Nếu chóng mặt, lú lẫn, té ngã hoặc triệu chứng xuất hiện sau thay đổi thuốc, liên hệ nhân viên y tế để đánh giá. Tình huống mất ý thức, yếu liệt mới, đau ngực hoặc khó thở nặng cần trợ giúp khẩn cấp. Không chờ lần tái khám định kỳ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chuẩn bị danh sách thuốc cập nhật và câu hỏi.",
+        "Thống nhất cách lưu lịch hẹn và thông tin liên hệ.",
+        "Hỏi chuyên gia về kiểm tra chức năng và kế hoạch phù hợp."
+      ],
+      "limits": "Không đề xuất dừng thuốc, chỉnh liều hoặc lịch tầm soát cá nhân; cần bác sĩ/dược sĩ đánh giá.",
+      "sourceIds": [
+        "icope",
+        "medSafety",
+        "ncd"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "older",
+      "pillar": "body",
+      "id": "co-the-giac-quan-60-74",
+      "title": "Cơ thể tuổi 60–74: nghe, nhìn, vận động và phẩm giá",
+      "summary": "Nhận diện rào cản và tìm phương án hỗ trợ thay vì xem tuổi tác là mất khả năng.",
+      "sections": [
+        {
+          "heading": "Khả năng chức năng là mục tiêu",
+          "body": "WHO xem lão hóa khỏe mạnh gắn với khả năng làm những điều có giá trị đối với mỗi người. Thay đổi nghe, nhìn hoặc di chuyển có thể ảnh hưởng sinh hoạt nhưng không phải ai cũng giống nhau. Hãy hỏi hoạt động nào người đó muốn duy trì và rào cản cụ thể là gì.",
+          "sourceIds": [
+            "ageFriendly",
+            "hearing",
+            "eye"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nghe nhìn trong sinh hoạt",
+          "body": "Nếu khó nghe khi phòng ồn, thử trò chuyện ở nơi yên, đứng đối diện và nói rõ, không quát. Tăng ánh sáng phù hợp khi đọc hoặc chuẩn bị đồ ăn. Khi nghe nhìn thay đổi, hẹn đánh giá chuyên môn; không tự mua dụng cụ hoặc dùng thuốc theo quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ quyền riêng tư khi hỗ trợ",
+          "body": "Hỏi trước khi giúp thay đồ, vệ sinh, dùng thiết bị hỗ trợ hoặc trao đổi thông tin sức khỏe. Người cao tuổi có quyền quyết định cách hỗ trợ, sở thích và quan hệ. Không nói thay khi họ có thể tự trả lời, không coi người lớn tuổi như trẻ nhỏ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần đánh giá",
+          "body": "Nếu khó di chuyển, nghe nhìn giảm hoặc cơ thể thay đổi ảnh hưởng hoạt động yêu thích, ghi lại tình huống và trao đổi chuyên gia. Giảm thị lực đột ngột hoặc triệu chứng cấp tính đáng lo cần chăm sóc kịp thời. Không mặc định vấn đề là do tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một hoạt động muốn tiếp tục và tìm rào cản.",
+        "Điều chỉnh ánh sáng hoặc không gian nói chuyện theo mong muốn.",
+        "Hẹn đánh giá nghe nhìn hoặc vận động nếu có lo ngại."
+      ],
+      "limits": "Không chẩn đoán suy giảm giác quan hay chỉ định dụng cụ hỗ trợ từ checklist.",
+      "sourceIds": [
+        "ageFriendly",
+        "hearing",
+        "eye"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "older",
+      "pillar": "routine",
+      "id": "nhip-song-va-van-dong-60-74",
+      "title": "Nhịp sinh hoạt tuổi 60–74: vận động, ngủ và duy trì hoạt động có ý nghĩa",
+      "summary": "Xây lịch phù hợp sở thích và khả năng, không ép theo mục tiêu thể lực chung.",
+      "sections": [
+        {
+          "heading": "Chọn hoạt động phù hợp khả năng",
+          "body": "Khuyến nghị vận động của WHO có xem xét tuổi và khả năng. Hỏi người cao tuổi thích đi bộ, làm vườn, tập cùng nhóm hay hoạt động nào khác. Chọn thời lượng vừa sức, môi trường an toàn và phương án nghỉ; không bắt đầu bằng mục tiêu của người khác.",
+          "sourceIds": [
+            "activityGuide",
+            "sleep",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo nhịp ngày dễ duy trì",
+          "body": "Chọn giờ thức và nghỉ tương đối ổn định, dành thời gian ăn, tiếp xúc ngoài trời phù hợp và sinh hoạt yêu thích. Nếu đã có kế hoạch điều trị hoặc phục hồi, ưu tiên hướng dẫn chuyên môn. Không dùng thuốc ngủ hoặc chất kích thích để ép theo lịch.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kết nối vận động và cộng đồng",
+          "body": "Có thể kết hợp đi chợ gần nhà, thăm bạn hoặc nhóm sinh hoạt khi phù hợp. Chọn tuyến dễ đi, mang đồ cần thiết và sắp xếp người hỗ trợ nếu muốn. Ngày thời tiết xấu có thể đổi sang hoạt động trong nhà đã được hướng dẫn an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh khi cơ thể thay đổi",
+          "body": "Nếu đau, chóng mặt, khó thở bất thường hoặc té ngã, dừng hoạt động và tìm hỗ trợ thích hợp. Khó ngủ hoặc buồn ngủ ảnh hưởng sinh hoạt kéo dài cần trao đổi chuyên gia. Mục tiêu là duy trì khả năng và chất lượng sống, không ép thành tích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một hoạt động dễ thực hiện trong tuần.",
+        "Sắp xếp khung nghỉ và đường đi an toàn.",
+        "Hỏi lại sau một tuần xem muốn điều chỉnh gì."
+      ],
+      "limits": "Không chỉ định cường độ hay bài tập cho người có bệnh nền hoặc hạn chế vận động; cần đánh giá cá nhân.",
+      "sourceIds": [
+        "activityGuide",
+        "sleep",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "older",
+      "pillar": "education",
+      "id": "hoc-ky-nang-moi-60-74",
+      "title": "Học tập tuổi 60–74: học kỹ năng mới theo nhu cầu và sở thích",
+      "summary": "Tổ chức học tập thực tế, có hỗ trợ phù hợp, không phân biệt tuổi.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ điều muốn làm được",
+          "body": "UNESCO ghi nhận nhiều hình thức học tập cho người lớn tuổi, từ nâng kỹ năng đến tham gia cộng đồng. Hãy chọn nhu cầu do chính người học quyết định: dùng điện thoại liên lạc, đọc sách, tìm hiểu lịch sử, học ngoại ngữ hoặc một nghề thủ công.",
+          "sourceIds": [
+            "olderLearning",
+            "lifelong"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chia việc thành bước dễ nhớ",
+          "body": "Ví dụ học gọi video: mở ứng dụng chính thức, chọn người quen, bắt đầu và kết thúc cuộc gọi. Thực hành bằng tài khoản của chính mình, có người hướng dẫn nếu muốn. Viết từng bước bằng chữ dễ đọc; lặp lại theo tốc độ thoải mái.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học cùng người khác",
+          "body": "Tìm bạn đồng hành, nhóm sở thích hoặc lớp phù hợp điều kiện đi lại và nghe nhìn. Người hỗ trợ nên làm mẫu, chờ người học tự thử và chỉ giúp phần cần thiết. Không cầm máy làm thay mọi lần hoặc giữ mật khẩu, mã xác thực của người học.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá bằng trải nghiệm",
+          "body": "Sau vài buổi, hỏi việc nào đã dễ hơn, phần nào cần hướng dẫn khác và muốn tiếp tục hay đổi chủ đề. Không dùng điểm số hoặc tốc độ để đánh giá giá trị của người học. Nếu hoạt động gây mệt hoặc khó tiếp cận, điều chỉnh không gian, thời gian hoặc phương pháp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một kỹ năng do người học tự quyết.",
+        "Chuẩn bị tờ hướng dẫn chữ dễ đọc và thực hành một bước.",
+        "Hỏi ý kiến người học trước khi chuyển sang bài mới."
+      ],
+      "limits": "Không bảo đảm tác dụng điều trị hay cải thiện nhận thức; việc học tùy sở thích và khả năng.",
+      "sourceIds": [
+        "olderLearning",
+        "lifelong"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "older",
+      "pillar": "schools",
+      "id": "chon-lop-cong-dong-60-74",
+      "title": "Tìm lớp học cộng đồng tuổi 60–74: chương trình, hỗ trợ và an toàn giao dịch",
+      "summary": "Khảo sát nơi học tại Việt Nam bằng dữ liệu chính thức và khả năng tham gia.",
+      "sections": [
+        {
+          "heading": "Xác định mục tiêu tham gia",
+          "body": "Lớp học có thể phục vụ sở thích, giao tiếp, kỹ năng số hoặc công việc. UNESCO mô tả mô hình trung tâm học tập cộng đồng tại Việt Nam; điều này không xác nhận lịch hoạt động của một cơ sở cụ thể. Chọn mục tiêu và mức độ cam kết theo mong muốn của người học.",
+          "sourceIds": [
+            "communityLearning",
+            "olderLearning",
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm thông tin chính thức",
+          "body": "Hỏi cơ quan địa phương, thư viện, nhà văn hóa, hội hoặc cơ sở đào tạo về lớp đang mở. Ghi tên đơn vị, địa chỉ, lịch, người hướng dẫn, mức phí và thông tin liên hệ. Xác minh từ kênh của tổ chức, không chỉ dựa vào bài đăng mạng xã hội hoặc người môi giới.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra môi trường học",
+          "body": "Hỏi về lối đi, chỗ ngồi, ánh sáng, âm thanh, tốc độ giảng và phương án nghỉ. Nếu lớp trực tuyến, xem có hỗ trợ kỹ thuật hay tài liệu chữ lớn không. Không mặc định người cao tuổi cần khóa riêng; hỏi họ muốn học với nhóm nào.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chi phí và giao dịch an toàn",
+          "body": "Hỏi rõ phí, điều kiện dừng, vật dụng cần mua và nơi đóng tiền. Không cung cấp mã OTP hay thông tin ngân hàng cho người tự xưng tư vấn lớp. Có thể thử một buổi trước khi đăng ký nếu cơ sở cho phép. Ghi ngày xác minh, hỏi lại khi thông tin thay đổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tìm hai cơ sở từ kênh địa phương chính thức.",
+        "Hỏi ba câu về giờ học, đi lại và hỗ trợ.",
+        "Kiểm tra phí và người nhận trước khi đăng ký."
+      ],
+      "limits": "Chưa có danh sách lớp cụ thể; kiểm chứng hoạt động, chi phí và điều kiện tại thời điểm đăng ký.",
+      "sourceIds": [
+        "communityLearning",
+        "olderLearning",
+        "communitySafety"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "nutrition",
+      "id": "ho-tro-an-uong-75-plus",
+      "title": "Ăn uống tuổi 75+: tôn trọng khẩu vị, hỗ trợ nhai nuốt và phát hiện thiếu dinh dưỡng",
+      "summary": "Giúp người được chăm duy trì sự thoải mái, chủ động và an toàn trong bữa ăn.",
+      "sections": [
+        {
+          "heading": "Bắt đầu bằng nhu cầu thực tế",
+          "body": "Khó tiếp cận thức ăn, giảm ngon miệng hoặc vấn đề nhai nuốt có thể ảnh hưởng dinh dưỡng. Không tự coi sụt cân là bình thường. Hỏi người ăn thích món gì, có thấy đau hoặc khó ăn không, có muốn hỗ trợ mua và nấu không.",
+          "sourceIds": [
+            "icope",
+            "malnutrition",
+            "eatingSupport"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bữa ăn có quyền lựa chọn",
+          "body": "Sắp xếp chỗ ngồi thoải mái, đủ ánh sáng, dụng cụ phù hợp và thời gian không vội. Mời người ăn chọn món, tự làm phần có thể làm an toàn. Nếu họ muốn ăn cùng người thân, sắp xếp bữa chung; không ép ăn hết hoặc nói về họ như không có mặt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi nghi khó nhai hoặc khó nuốt",
+          "body": "Ho khi ăn uống, thức ăn mắc lại hoặc khó nuốt cần trao đổi nhân viên y tế. Không tự pha đặc, xay loãng hoặc đổi kết cấu theo video, vì phương án cần đánh giá riêng. Chăm sóc răng miệng và dụng cụ hỗ trợ theo hướng dẫn chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi thay đổi và tìm trợ giúp",
+          "body": "Ghi thời điểm ăn kém, khó uống, sụt cân không chủ ý hoặc mệt, mang tới buổi khám. Tuân thủ hướng dẫn về lượng dịch nếu có bệnh nền. Khi hóc gây không thở được hoặc tình huống nghiêm trọng, gọi trợ giúp khẩn cấp và làm theo hướng dẫn chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi người ăn về món, dụng cụ và giờ họ thích.",
+        "Kiểm tra những rào cản khi mua, nấu hoặc ăn.",
+        "Liên hệ chuyên gia nếu có khó nuốt hoặc ăn kém kéo dài."
+      ],
+      "limits": "Không chỉ định kết cấu, lượng dịch, khẩu phần hay bổ sung dinh dưỡng; cần đánh giá nhai nuốt và sức khỏe riêng.",
+      "sourceIds": [
+        "icope",
+        "malnutrition",
+        "eatingSupport"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "psych",
+      "id": "cam-xuc-mat-mat-75-plus",
+      "title": "Tâm lý tuổi 75+: kết nối, mất mát và tôn trọng lựa chọn",
+      "summary": "Hỗ trợ người cao tuổi giữ tiếng nói của mình và tìm trợ giúp khi cần.",
+      "sections": [
+        {
+          "heading": "Lắng nghe thay vì đoán nhu cầu",
+          "body": "WHO nhấn mạnh môi trường xã hội hỗ trợ sức khỏe tinh thần người lớn tuổi. Một người có thể trải qua mất người thân, thay đổi nơi ở hoặc khả năng sinh hoạt; cảm xúc khác nhau theo cá nhân. Hỏi họ muốn được lắng nghe, ở cùng hay có không gian riêng.",
+          "sourceIds": [
+            "mentalOlder",
+            "social",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giữ hoạt động có ý nghĩa",
+          "body": "Có thể mời kể chuyện, nghe nhạc, trò chuyện với bạn hoặc tham gia sinh hoạt tín ngưỡng nếu họ muốn. Tìm cách hỗ trợ đi lại, nghe nhìn và thiết bị liên lạc. Không ép tham gia vì cho rằng người cao tuổi phải luôn vui hoặc bận rộn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đồng hành khi có mất mát",
+          "body": "Cho phép nhắc đến người đã mất nếu họ muốn, tôn trọng cách tưởng nhớ và lựa chọn sinh hoạt. Hỏi một việc cụ thể cần hỗ trợ như đi khám hoặc chuẩn bị bữa ăn. Không thúc ép phải vượt qua trong một thời hạn nhất định, không coi đau buồn là yếu đuối.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần giúp đỡ chuyên môn",
+          "body": "Nếu buồn bã, lo âu hoặc thay đổi hành vi kéo dài và ảnh hưởng cuộc sống, trao đổi nhân viên y tế. Lú lẫn đột ngột, không thể giữ an toàn hoặc nguy cơ tự gây hại cần trợ giúp khẩn cấp. Không tự kết luận sa sút trí tuệ hay trầm cảm dựa vào tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi một hoạt động hoặc người họ muốn liên hệ.",
+        "Sắp xếp hỗ trợ theo sự đồng ý và mong muốn.",
+        "Lưu đầu mối trợ giúp chuyên môn khi cần."
+      ],
+      "limits": "Không dùng bài để chẩn đoán đau buồn, sa sút trí tuệ hoặc bệnh tâm thần; triệu chứng đột ngột cần đánh giá kịp thời.",
+      "sourceIds": [
+        "mentalOlder",
+        "social",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "body",
+      "id": "giac-quan-va-tu-quyet-75-plus",
+      "title": "Cơ thể tuổi 75+: giác quan, di chuyển và quyền tự quyết trong chăm sóc",
+      "summary": "Giảm rào cản và hỗ trợ chức năng mà không tước quyền lựa chọn.",
+      "sections": [
+        {
+          "heading": "Không đánh đồng tuổi với năng lực",
+          "body": "Khả năng chức năng phụ thuộc cả sức khỏe và môi trường. Ở cùng độ tuổi, người này có thể tự đi chợ, người khác cần hỗ trợ. Hãy hỏi trực tiếp điều họ muốn làm, phần nào cần giúp và người nào được phép tham gia quyết định.",
+          "sourceIds": [
+            "icope",
+            "ageFriendly",
+            "hearing",
+            "eye"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh giao tiếp và không gian",
+          "body": "Nói từ phía trước, giảm tiếng ồn, dùng chữ dễ đọc, tăng ánh sáng phù hợp. Nếu người đó dùng kính, máy trợ thính hoặc dụng cụ di chuyển đã được chỉ định, sắp xếp để dễ lấy. Không tự điều chỉnh thiết bị hoặc dùng thuốc để xử lý khó nghe nhìn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hỗ trợ cơ thể có sự đồng ý",
+          "body": "Trước khi giúp tắm, mặc đồ, đi vệ sinh hoặc di chuyển, giải thích và hỏi cách họ muốn được giúp. Che chắn riêng tư và cho thời gian tự làm phần có thể. Khi cần hỗ trợ nâng đỡ, hỏi nhân viên phục hồi hoặc điều dưỡng về kỹ thuật phù hợp; không kéo hoặc nâng tùy tiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi thay đổi chức năng",
+          "body": "Nếu đột nhiên khó đi, yếu liệt, lú lẫn, giảm thị lực hoặc có triệu chứng nghiêm trọng, tìm chăm sóc ngay. Với thay đổi từ từ, ghi hoạt động bị ảnh hưởng và hẹn đánh giá. Không tự cho rằng mọi hạn chế đều không thể cải thiện vì tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi về cách hỗ trợ họ muốn và không muốn.",
+        "Rà soát nơi để kính, dụng cụ và thông tin liên hệ.",
+        "Ghi một thay đổi chức năng cần trao đổi với chuyên gia."
+      ],
+      "limits": "Không tự đánh giá năng lực quyết định, chẩn đoán hoặc chỉ định thiết bị; tôn trọng quyền tự quyết và tư vấn phù hợp.",
+      "sourceIds": [
+        "icope",
+        "ageFriendly",
+        "hearing",
+        "eye"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "routine",
+      "id": "nhip-sinh-hoat-ho-tro-75-plus",
+      "title": "Nhịp sinh hoạt tuổi 75+: nghỉ ngơi, vệ sinh và hỗ trợ hoạt động hằng ngày",
+      "summary": "Tạo lịch dễ chịu với người được chăm, có phương án khi nhu cầu thay đổi.",
+      "sections": [
+        {
+          "heading": "Lịch do người được chăm cùng quyết định",
+          "body": "Thảo luận giờ thức, ăn, vệ sinh, nghỉ và hoạt động mong muốn. Không biến lịch thành quy định buộc mọi người giống nhau. Khả năng vận động, thuốc, giấc ngủ và nhu cầu hỗ trợ khác nhau; nếu có kế hoạch chăm sóc chuyên môn, tích hợp vào lịch phù hợp.",
+          "sourceIds": [
+            "icope",
+            "activityGuide",
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Hỗ trợ tự phục vụ an toàn",
+          "body": "Đặt vật dụng thường dùng dễ lấy, chuẩn bị chỗ ngồi và ánh sáng tốt, cho đủ thời gian thực hiện. Hỏi trước khi giúp và làm phần họ cần, không làm thay toàn bộ. Khi khó đi lại hoặc đứng, nhờ chuyên gia hướng dẫn dụng cụ và hỗ trợ phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ hoạt động và nghỉ có ý nghĩa",
+          "body": "Dành thời gian cho trò chuyện, sở thích hoặc vận động đã được tư vấn, xen nghỉ khi cần. Nếu ngày nào cũng mệt, hỏi nguyên nhân, không bắt buộc tham gia lớp hoặc đi bộ. Bảo đảm không gian nghỉ thoải mái; tránh tự dùng thuốc ngủ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh khi có thay đổi",
+          "body": "Ghi lại nếu đột nhiên không làm được việc vốn làm, ngủ bất thường hoặc ăn uống giảm; báo người có chuyên môn khi cần. Phân công người hỗ trợ, tránh để một người chăm quá sức. Với triệu chứng nghiêm trọng, ưu tiên trợ giúp y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Cùng thống nhất ba mốc sinh hoạt mong muốn.",
+        "Rà soát phần việc cần hỗ trợ và người phụ trách.",
+        "Xem lại lịch khi có thay đổi sức khỏe hoặc sở thích."
+      ],
+      "limits": "Không thay kế hoạch điều dưỡng, phục hồi chức năng hoặc điều trị giấc ngủ; cần điều chỉnh theo từng người.",
+      "sourceIds": [
+        "icope",
+        "activityGuide",
+        "sleep"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "education",
+      "id": "hoc-theo-so-thich-75-plus",
+      "title": "Học tập tuổi 75+: đọc, kể chuyện và tiếp cận thông tin theo sở thích",
+      "summary": "Giữ cơ hội học suốt đời bằng phương pháp dễ tiếp cận và tự nguyện.",
+      "sections": [
+        {
+          "heading": "Học không có giới hạn tuổi bắt buộc",
+          "body": "Các hình thức học tập người lớn tuổi rất đa dạng. Chọn điều chính người học muốn biết, như nghe truyện, học dùng điện thoại, đọc tin hoặc thực hành sở thích. Không biến hoạt động thành bài kiểm tra trí nhớ hoặc bắt buộc để chứng minh còn minh mẫn.",
+          "sourceIds": [
+            "olderLearning",
+            "lifelong",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Làm tài liệu dễ tiếp cận",
+          "body": "Nếu muốn đọc, chọn chữ to, ánh sáng phù hợp hoặc bản audio có điều chỉnh âm lượng. Khi hướng dẫn thiết bị, chia thành bước nhỏ và viết bằng ngôn ngữ quen thuộc. Người hỗ trợ không làm thay nếu người học muốn tự thử; nhắc nhẹ khi được yêu cầu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng chủ đề gắn với cuộc sống",
+          "body": "Có thể cùng xem lịch sự kiện địa phương, học gọi cho người quen hoặc đọc sách yêu thích rồi trao đổi. Với tin tức trên mạng, kiểm tra nguồn và ngày; không chia sẻ thông tin tài khoản. Mỗi buổi có thể kết thúc sớm nếu người học mệt hoặc không hứng thú.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Để người học quyết định tiếp theo",
+          "body": "Hỏi muốn tiếp tục chủ đề nào, thích học một mình hay cùng nhóm. Ghi lại bước đã làm được nếu họ muốn, không so sánh với người khác. Nếu nghe nhìn hoặc nhận thức thay đổi đáng lo, tìm đánh giá chuyên môn thay vì dùng bài tập để tự chẩn đoán.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một chủ đề theo sở thích của người học.",
+        "Chuẩn bị tài liệu chữ lớn hoặc âm thanh phù hợp.",
+        "Hỏi ý kiến về tốc độ, thời gian và bước tiếp theo."
+      ],
+      "limits": "Không cam kết ngăn sa sút trí tuệ hoặc chữa bệnh bằng học tập; giữ hoạt động tự nguyện.",
+      "sourceIds": [
+        "olderLearning",
+        "lifelong",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "schools",
+      "id": "lop-hoc-de-tiep-can-75-plus",
+      "title": "Tìm lớp học và sinh hoạt cộng đồng dễ tiếp cận cho tuổi 75+",
+      "summary": "Xem xét môi trường, hỗ trợ và lựa chọn của người tham gia trước khi đăng ký.",
+      "sections": [
+        {
+          "heading": "Lựa chọn theo mong muốn",
+          "body": "Có thể là nhóm đọc, âm nhạc, sinh hoạt địa phương, lớp kỹ năng hoặc buổi học tại nhà. Hỏi người tham gia muốn học gì, có thích đi lớp hay học cùng người quen không. Không quyết định thay vì nghĩ mọi người cao tuổi đều cần chương trình giống nhau.",
+          "sourceIds": [
+            "communityLearning",
+            "olderLearning",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm nguồn đáng tin",
+          "body": "Hỏi nhà văn hóa, thư viện, cơ sở học tập cộng đồng hoặc đơn vị tổ chức chính thức về hoạt động hiện có. Ghi tên, thời gian, địa điểm, người phụ trách và điều kiện tham gia. Nguồn UNESCO mô tả mô hình học tập cộng đồng, không phải danh sách lớp đang mở.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khảo sát khả năng tiếp cận",
+          "body": "Hỏi về bậc thềm, lối đi, nhà vệ sinh, chỗ ngồi, phương tiện, âm thanh và khoảng nghỉ. Nếu cần người đi cùng, thống nhất ai hỗ trợ và cách về khi mệt. Với lớp trực tuyến, thử thiết bị và kết nối trước; không đưa mật khẩu hoặc quyền điều khiển máy cho người lạ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyết định linh hoạt",
+          "body": "Nếu có thể, thử một buổi và hỏi ý kiến sau đó, không ép tham gia tiếp. Xác minh chi phí và điều kiện dừng; chỉ cung cấp thông tin cần thiết. Ghi rõ những dữ liệu chưa xác minh, không gọi một lớp là uy tín chỉ từ đánh giá quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi người học muốn tham gia hình thức nào.",
+        "Xác minh địa chỉ, lịch và phí từ đơn vị tổ chức.",
+        "Kiểm tra đường đi, hỗ trợ nghe nhìn và phương án nghỉ."
+      ],
+      "limits": "Không đề cử cơ sở cụ thể khi chưa có hồ sơ; kiểm tra trực tiếp tính phù hợp và tình trạng hoạt động.",
+      "sourceIds": [
+        "communityLearning",
+        "olderLearning",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "safety",
+      "id": "an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+      "title": "An toàn tuổi 75+: môi trường nhà, phòng té ngã và kế hoạch trợ giúp",
+      "summary": "Rà soát nguy cơ thực tế cùng người cao tuổi và chuẩn bị cách liên hệ khi có sự cố.",
+      "sections": [
+        {
+          "heading": "Rà soát môi trường có sự đồng ý",
+          "body": "Té ngã có thể liên quan nhiều yếu tố, không chỉ sàn trơn. Cùng người ở nhà kiểm tra đường đi từ giường tới nhà vệ sinh, ánh sáng, dây điện, bậc cửa và đồ dùng khó với tới. Hỏi trước khi di chuyển đồ quen thuộc; tránh tạo rào cản mới bằng cách sửa nhà vội.",
+          "sourceIds": [
+            "falls",
+            "ageFriendly",
+            "icope"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm phương án hỗ trợ phù hợp",
+          "body": "Nếu cần tay vịn, dụng cụ đi lại hoặc trợ giúp tắm rửa, hỏi chuyên gia về thiết bị, lắp đặt và cách dùng phù hợp. Không tự thử nâng đỡ người đang ngã hoặc hạn chế vận động bằng sức mình. Ưu tiên phương án giữ khả năng tự chủ khi an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị kênh liên hệ",
+          "body": "Thống nhất cách gọi người hỗ trợ, đầu mối y tế, địa chỉ nhà và người có thể đến giúp. Đặt điện thoại hoặc chuông gọi ở vị trí dễ tiếp cận nếu người sử dụng đồng ý. Không dùng thiết bị giám sát xâm phạm quyền riêng tư để thay cho trao đổi và chăm sóc phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi sự cố xảy ra",
+          "body": "Nếu ngã gây đau nhiều, chấn thương, mất ý thức hoặc triệu chứng nghiêm trọng, gọi trợ giúp khẩn cấp; không tự di chuyển người nghi chấn thương nặng trừ khi cần tránh nguy hiểm tức thời. Sau lần ngã, trao đổi nhân viên y tế về nguyên nhân và kế hoạch phòng ngừa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Rà soát lối đi ban đêm cùng người sử dụng.",
+        "Chuẩn bị kênh gọi trợ giúp dễ sử dụng.",
+        "Hỏi chuyên gia sau lần ngã hoặc khi di chuyển khó."
+      ],
+      "limits": "Không thay đánh giá nguy cơ, hướng dẫn di chuyển hoặc sơ cứu chuyên nghiệp; mọi cải tạo cần phù hợp và có sự đồng ý.",
+      "sourceIds": [
+        "falls",
+        "ageFriendly",
+        "icope"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02D"
     }
   ]
 }
