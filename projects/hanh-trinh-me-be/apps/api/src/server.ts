@@ -5,6 +5,7 @@ import {buildApp} from "./app.js";
 import {createMediaService} from "./media-service.js";
 import {bootstrapMedia} from "./media-bootstrap.js";
 import {safeMediaFailure} from "./media-diagnostics.js";
+import {auditCmsWebProxy} from "./cms-web-auth-audit.js";
 
 loadLocalEnv();
 const repo=createKnowledgeRepository();
@@ -23,6 +24,7 @@ try{
      const status=await repo.inspect();
      // No database URLs, passwords or secrets in diagnostic logs.
      console.log("Database route:",status.mode,"primary:",status.primary,"secondary:",status.secondary||"none");
+     void auditCmsWebProxy();
      if(status.inSync===false)console.warn("Secondary database differs from primary; secondary is read-only");
    }catch(error){
      // Transient PostgreSQL warmup failures must not terminate a listening API.
