@@ -11,8 +11,8 @@
 | Giai đoạn | Phạm vi | Trạng thái |
 |---|---|---|
 | 1 | Nền tảng hệ sinh thái | Đã hoàn thành ở DEV |
-| 2 | Nghiệm thu tổng thể Web – API – Database | Ưu tiên hiện tại |
-| 3 | Hành trình cá nhân hóa | Kế tiếp |
+| 2 | Nghiệm thu tổng thể Web – API – Database | Combined DEV LIVE; QA-006 WAIVED; QA khác theo dõi riêng |
+| 3 | Hành trình cá nhân hóa | Đang thực hiện — ưu tiên hiện tại |
 | 4 | Không gian gia đình | Kế hoạch |
 | 5 | AI Assistant | Kế hoạch |
 | 6 | Ổn định hệ sinh thái, chuẩn bị Production | Kế hoạch |
@@ -29,13 +29,13 @@
 
 Baseline kiểm tra ngày 24/11/2026: 390 storage objects, 65/65 ảnh bìa mới kích hoạt, 17 revision thay thế còn pending. Không coi các bản thay thế là ảnh thiếu. 72 bài vẫn là draft; duyệt ảnh không đồng nghĩa thẩm định y khoa. CMS bulk inline UI là cải tiến tùy nhu cầu, không phải điều kiện bắt buộc để kết thúc sprint hình ảnh.
 
-## Giai đoạn 2 — Nghiệm thu tổng thể (ưu tiên hiện tại)
+## Giai đoạn 2 — Nghiệm thu tổng thể (QA còn lại theo dõi riêng)
 
 - [ ] Xác minh invitation/session, phân quyền và guest denial.
 - [ ] Kiểm tra đủ 12 chặng, 72 bài, tìm kiếm có/không dấu, điều hướng, đọc bài và liên kết nguồn.
 - [ ] Nghiệm thu responsive tại 390/768/1024/1440px, thiết bị thật, bàn phím/focus, accessibility, tỷ lệ ảnh và infographic.
 - [ ] Kiểm tra lựa chọn chặng, bookmark, checklist, lịch sử đọc opt-in, đặt lại và xóa dữ liệu cục bộ.
-- [ ] Kiểm tra API readiness, cold start, timeout, fallback có nhãn rõ ràng, tính nhất quán với Supabase.
+- [ ] Kiểm tra API readiness, timeout, fallback có nhãn rõ ràng, tính nhất quán với Supabase. Natural cold start Render Free được miễn theo quyết định chủ dự án; nghiệm thu readiness/availability Production vẫn bắt buộc.
 - [ ] Kiểm tra CMS role-gated, lịch sử phiên bản và rollback trên fixture riêng; không thay đổi ảnh thật khi kiểm thử.
 - [ ] Rà soát claim → nguồn, chất lượng nội dung, bản quyền/provenance ảnh; thẩm định chuyên môn là một cổng riêng.
 - [ ] Ghi nhận bằng chứng QA, lỗi, mức độ ưu tiên và kết quả kiểm thử lại.
@@ -91,7 +91,7 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - PR #1 giữ Draft; không tự merge hoặc phát hành Production.
 - Phân biệt đã triển khai, đã kiểm thử, đã nghiệm thu, và kế hoạch.
 
-**Sprint kế tiếp:** nghiệm thu tổng thể Web – API – Database, sau đó hoàn thiện module Hành trình của tôi. Roadmap này thay thế thứ tự ưu tiên cũ; các tài liệu lịch sử vẫn được giữ để tham chiếu.
+**Sprint 03 hiện tại:** hoàn thiện module Hành trình của tôi. Theo quyết định chủ dự án 25/11/2026, miễn kiểm thử Natural Cold Start trên Render Free (QA-006 CLOSED/WAIVED, không phải PASS) vì Production sẽ dùng gói trả phí. Các QA còn lại không bị miễn; giữ production gate, readiness và giám sát. Không tự nâng gói DEV. Roadmap này thay thế thứ tự ưu tiên cũ; các tài liệu lịch sử vẫn được giữ để tham chiếu.
 
 ## Tham chiếu
 
