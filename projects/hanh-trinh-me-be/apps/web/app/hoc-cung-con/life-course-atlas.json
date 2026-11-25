@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "status": "editorial-roadmap",
+  "source": {
+    "name": "WHO — Framework to implement a life course approach in practice",
+    "url": "https://www.who.int/publications/i/item/9789240112575"
+  },
+  "pillars": [
+    {
+      "id": "nutrition",
+      "title": "Dinh dưỡng",
+      "description": "Thực đơn, ăn uống, lựa chọn thực phẩm"
+    },
+    {
+      "id": "health",
+      "title": "Sức khỏe",
+      "description": "Phòng bệnh, chăm sóc, khám định kỳ và dấu hiệu cần hỗ trợ"
+    },
+    {
+      "id": "psych",
+      "title": "Tâm lý & cảm xúc",
+      "description": "Cảm xúc, hành vi, sức khỏe tinh thần"
+    },
+    {
+      "id": "body",
+      "title": "Sinh lý & cơ thể",
+      "description": "Phát triển, giới tính, ranh giới, sức khỏe sinh sản"
+    },
+    {
+      "id": "routine",
+      "title": "Sinh hoạt",
+      "description": "Giấc ngủ, vệ sinh, vận động, thói quen"
+    },
+    {
+      "id": "education",
+      "title": "Giáo dục & học tập",
+      "description": "Học cách học, chương trình, kiến thức nền"
+    },
+    {
+      "id": "schools",
+      "title": "Trường học & cơ sở đào tạo",
+      "description": "Tuyển sinh, học phí, chất lượng, khả năng tiếp cận"
+    },
+    {
+      "id": "thinking",
+      "title": "Tư duy",
+      "description": "Logic, sáng tạo, phản biện và giải quyết vấn đề"
+    },
+    {
+      "id": "digital",
+      "title": "Công nghệ & AI",
+      "description": "Năng lực số, quyền riêng tư, an toàn trực tuyến"
+    },
+    {
+      "id": "relationships",
+      "title": "Quan hệ xã hội",
+      "description": "Giao tiếp, bạn bè, gia đình, tình cảm"
+    },
+    {
+      "id": "safety",
+      "title": "An toàn",
+      "description": "Bảo vệ bản thân, nhận diện rủi ro, tìm trợ giúp"
+    },
+    {
+      "id": "talents",
+      "title": "Năng khiếu",
+      "description": "Nghệ thuật, thể thao, sở thích"
+    },
+    {
+      "id": "finance",
+      "title": "Tài chính",
+      "description": "Tiền bạc, chi tiêu, dự phòng và quản lý rủi ro"
+    },
+    {
+      "id": "career",
+      "title": "Nghề nghiệp",
+      "description": "Khám phá nghề, học suốt đời, thích nghi"
+    },
+    {
+      "id": "civic",
+      "title": "Pháp luật & xã hội",
+      "description": "Quyền, nghĩa vụ, thủ tục, dịch vụ"
+    },
+    {
+      "id": "life",
+      "title": "Kỹ năng sống",
+      "description": "Tự lập, trách nhiệm, ra quyết định"
+    }
+  ],
+  "stages": [
+    {
+      "id": "prenatal",
+      "age": "Trước khi sinh",
+      "title": "Chuẩn bị mang thai, thai kỳ và chuẩn bị đón bé",
+      "lessonAge": null,
+      "legacyStage": "chuan-bi-mang-thai",
+      "priorities": [
+        "Chăm sóc tiền thai và dinh dưỡng",
+        "Khám thai và chuẩn bị sinh",
+        "Sức khỏe tinh thần của cha mẹ",
+        "Quyền lợi thai sản và chi phí chuẩn bị"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "relationships",
+        "safety",
+        "finance",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "baby",
+      "age": "0–12 tháng",
+      "title": "Năm đầu đời",
+      "lessonAge": "baby",
+      "legacyStage": "so-sinh",
+      "priorities": [
+        "Bú, ăn dặm và an toàn thực phẩm",
+        "Ngủ và chăm sóc thường ngày",
+        "Tương tác, ngôn ngữ và mốc phát triển",
+        "Khám sức khỏe và tìm trợ giúp"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "thinking",
+        "relationships",
+        "safety",
+        "talents",
+        "life"
+      ]
+    },
+    {
+      "id": "toddler",
+      "age": "1–2 tuổi",
+      "title": "Tự chủ và khám phá",
+      "lessonAge": "toddler",
+      "legacyStage": "tap-di",
+      "priorities": [
+        "Ăn uống, vận động, vệ sinh",
+        "Ngôn ngữ và điều tiết cảm xúc",
+        "Nhà trẻ và thích nghi môi trường mới",
+        "An toàn trong nhà và ranh giới cơ thể"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "relationships",
+        "safety",
+        "talents",
+        "life"
+      ]
+    },
+    {
+      "id": "preschool",
+      "age": "3–5 tuổi",
+      "title": "Học qua chơi",
+      "lessonAge": "preschool",
+      "legacyStage": "mam-non",
+      "priorities": [
+        "Dinh dưỡng và thói quen",
+        "Tự phục vụ, chơi và giao tiếp",
+        "Chọn trường mầm non phù hợp",
+        "Sáng tạo, vận động và sử dụng màn hình cùng người lớn"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "life"
+      ]
+    },
+    {
+      "id": "school",
+      "age": "6–10 tuổi",
+      "title": "Học tập và tình bạn",
+      "lessonAge": "school",
+      "legacyStage": "tieu-hoc",
+      "priorities": [
+        "Bữa ăn, giấc ngủ và vận động",
+        "Tiểu học và phương pháp học",
+        "Tình bạn, phòng bắt nạt, thích nghi",
+        "Tiền tiêu vặt, công nghệ và năng khiếu"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "preteen",
+      "age": "11–13 tuổi",
+      "title": "Dậy thì và bản sắc",
+      "lessonAge": "preteen",
+      "legacyStage": "thieu-nien",
+      "priorities": [
+        "Dậy thì, dinh dưỡng, vệ sinh",
+        "Chuyển cấp THCS và áp lực bạn bè",
+        "Quyền riêng tư, AI và mạng xã hội",
+        "Tự học, tài chính cơ bản và sở thích"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "teen",
+      "age": "14–17 tuổi",
+      "title": "Định hướng tương lai",
+      "lessonAge": "teen",
+      "legacyStage": "thieu-nien",
+      "priorities": [
+        "Sức khỏe thể chất và tinh thần",
+        "THPT, học nghề và lựa chọn ngành",
+        "Quan hệ lành mạnh, đồng thuận",
+        "AI, dự án học tập, tài chính và định hướng nghề"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "adult",
+      "age": "18–22 tuổi",
+      "title": "Bước vào đời",
+      "lessonAge": "adult",
+      "legacyStage": "truong-thanh",
+      "priorities": [
+        "Đại học, cao đẳng, học nghề hoặc đi làm",
+        "Sức khỏe, tự lập và quan hệ",
+        "Quản lý tiền và an toàn số",
+        "Thực tập, nghề nghiệp và kỹ năng sống"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "early-adult",
+      "age": "23–34 tuổi",
+      "title": "Xây dựng cuộc sống",
+      "lessonAge": null,
+      "legacyStage": "truong-thanh",
+      "priorities": [
+        "Dinh dưỡng, sức khỏe và cân bằng công việc",
+        "Học thêm, nghề nghiệp, tài chính",
+        "Quan hệ, gia đình và lựa chọn sinh sản",
+        "Thủ tục, nhà ở, bảo hiểm và an toàn"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "midlife",
+      "age": "35–59 tuổi",
+      "title": "Trung niên và chuyển tiếp",
+      "lessonAge": null,
+      "legacyStage": null,
+      "priorities": [
+        "Sức khỏe định kỳ và thay đổi sinh lý",
+        "Chăm sóc tinh thần, quan hệ và trách nhiệm",
+        "Cập nhật kỹ năng, nghề nghiệp và công nghệ",
+        "Tài chính dài hạn, chăm sóc người thân"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "older",
+      "age": "60–74 tuổi",
+      "title": "Sống khỏe và chủ động",
+      "lessonAge": null,
+      "legacyStage": null,
+      "priorities": [
+        "Ăn uống, vận động và khám sức khỏe",
+        "Học suốt đời, an toàn số và chống lừa đảo",
+        "Hưu trí, quyền lợi và kết nối xã hội",
+        "Thích nghi với thay đổi và phòng ngừa té ngã"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    },
+    {
+      "id": "later-life",
+      "age": "75+ tuổi",
+      "title": "Chất lượng sống và phẩm giá",
+      "lessonAge": null,
+      "legacyStage": null,
+      "priorities": [
+        "Dinh dưỡng, vận động phù hợp và hỗ trợ sinh hoạt",
+        "Sức khỏe tinh thần, kết nối và tự chủ",
+        "Dịch vụ chăm sóc, quyền lợi và hỗ trợ người chăm sóc",
+        "Chuẩn bị quyết định chăm sóc và tài chính theo mong muốn cá nhân"
+      ],
+      "applicable": [
+        "nutrition",
+        "health",
+        "psych",
+        "body",
+        "routine",
+        "education",
+        "schools",
+        "thinking",
+        "digital",
+        "relationships",
+        "safety",
+        "talents",
+        "finance",
+        "career",
+        "civic",
+        "life"
+      ]
+    }
+  ],
+  "directory": {
+    "status": "planned",
+    "country": "Việt Nam",
+    "principle": "Phù hợp và có bằng chứng, không xếp hạng tuyệt đối; không dùng quảng cáo thay kiểm định.",
+    "fields": [
+      "Tên pháp lý, cấp học, địa chỉ và website",
+      "Giấy phép/công nhận và nguồn kiểm chứng phù hợp cấp học",
+      "Chương trình, phương pháp dạy và ngôn ngữ",
+      "Học phí, phí bổ sung, năm tuyển sinh và điều kiện nhập học",
+      "An toàn, hỗ trợ học sinh, tiếp cận và khoảng cách",
+      "Ngày kiểm tra nguồn, dữ liệu chưa rõ, quan hệ tài trợ"
+    ],
+    "sources": [
+      {
+        "name": "Bộ GD&ĐT – công khai cơ sở giáo dục",
+        "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/thong-tu-so-09-2024-tt-bgddt-ngay-03-thang-6-nam-2024-quy-dinh-ve-cong-khai-trong-hoat-dong-cua-cac-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-thay-the-thong-tu-so-36-2017-tt-bgddt-47.html"
+      },
+      {
+        "name": "Cổng kiểm định chất lượng giáo dục đại học",
+        "url": "https://kdcldh.moet.gov.vn/"
+      },
+      {
+        "name": "Cục Quản lý chất lượng – thông báo kiểm định",
+        "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/"
+      }
+    ]
+  }
+}

@@ -43,7 +43,7 @@ jobs:
       - name: Media CMS proxy access and checksum regression
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/media-admin-proxy.test.ts
       - name: Age learning catalog validation
-        run: node --test scripts/age-learning.test.mjs
+        run: node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs
       - name: Family demo protocol tests
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/family-demo.test.ts
       - name: API TypeScript

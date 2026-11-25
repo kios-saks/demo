@@ -14,7 +14,7 @@
 | 2 | Nghiệm thu tổng thể Web – API – Database | Combined DEV LIVE; QA-006 WAIVED; QA khác theo dõi riêng |
 | 3 | Hành trình cá nhân hóa | Đã nghiệm thu kỹ thuật DEV (S03-08) |
 | 4 | Không gian gia đình | Demo LIVE PASS — dừng mở rộng theo quyết định chủ dự án |
-| 4A | Học cùng con: kiến thức theo độ tuổi | Ưu tiên mới — đang triển khai |
+| 4A | Tri thức vòng đời A–Z: kiến thức theo độ tuổi | Ưu tiên mới — đang triển khai |
 | 5 | AI Assistant | Hoãn đến khi nền tảng kiến thức ổn định |
 | 6 | Ổn định hệ sinh thái, chuẩn bị Production | Kế hoạch |
 | 7 | Hoàn thiện Mobile App iOS/Android | Sau cùng |
@@ -62,7 +62,16 @@ Quyết định chủ dự án 25/11/2026: dừng phát triển mở rộng Khô
 
 Chỉ thu thập dữ liệu cần thiết. Dữ liệu trẻ em/sức khỏe, lịch tiêm, thuốc hoặc theo dõi y khoa cần đánh giá privacy/security/medical riêng trước khi triển khai.
 
-## Giai đoạn 4A — Học cùng con (ưu tiên mới)
+## Giai đoạn 4A — Tri thức vòng đời A–Z (ưu tiên mới)
+
+Quyết định mở rộng 25/11/2026: phục vụ mọi độ tuổi từ trước sinh đến tuổi cao niên. Giữ thương hiệu hiện tại; tên hệ sinh thái chưa quyết định. Bản đồ 12 chặng × 16 trụ cột là phân loại biên tập, không phải chuẩn phát triển. Không bắt buộc mọi chủ đề ở mọi tuổi; đối chiếu nhu cầu cụ thể. [WHO life-course framework](https://www.who.int/publications/i/item/9789240112575).
+- [x] Bản đồ tri thức vòng đời trong /hoc-cung-con: 12 chặng, 16 trụ cột, ưu tiên theo tuổi, liên kết thư viện cũ, hiển thị số bài liên quan hoặc cần biên tập (không giả dữ liệu).
+- [ ] Kiểm kê 72 bài hiện tại + 21 bài draft theo ma trận chặng/chủ đề; xác định bài trùng, khoảng trống, claim và nguồn.
+- [ ] Biên tập theo từng chặng, ưu tiên dinh dưỡng, sinh hoạt, sức khỏe, tâm sinh lý, giáo dục, thích nghi, an toàn và trường học trước; tiếp theo năng lực số, tài chính, nghề nghiệp, pháp luật, năng khiếu và kỹ năng sống.
+- [ ] Danh mục trường học Việt Nam theo địa phương/cấp học/nhu cầu: hồ sơ pháp lý, chương trình, học phí, tuyển sinh, nguồn chính thức, kiểm định phù hợp cấp học, ngày cập nhật; không xếp hạng tuyệt đối, phân biệt nội dung quảng cáo và dữ liệu kiểm chứng. Bắt đầu một địa phương thí điểm sau khi xác định phạm vi; chưa đề cử trường cụ thể.
+- [ ] Xây dựng bộ lọc, so sánh, gợi ý theo lựa chọn phụ huynh; không thu thập vị trí chính xác hoặc dữ liệu trẻ em mặc định.
+- [ ] Mở rộng người trưởng thành 23–34, trung niên 35–59, 60–74, 75+ với nội dung sức khỏe, quan hệ, học suốt đời, nghề nghiệp, tài chính, pháp luật và chất lượng sống; không trình bày tư vấn cá nhân hóa như chẩn đoán.
+- [ ] Mô hình API/CMS thống nhất cho bài viết, nguồn, phiên bản, trường học, freshness, review và publication gate. Chưa migration/deploy Production.
 - [x] Rà soát 72 bài hiện có: 6 bài/chặng, các chủ đề AI, tư duy phản biện, năng lực số, tài chính và định hướng nghề còn cần mở rộng.
 - [x] Xây dựng 7 nhóm tuổi 0–12 tháng, 1–2, 3–5, 6–10, 11–13, 14–17, 18–22; 5 trụ cột tâm lý/cảm xúc, cơ thể/sinh lý, giáo dục/kỹ năng, AI/công nghệ, tài chính/tự lập.
 - [x] Biên tập 21 bài học đầu tiên (3 bài mỗi nhóm tuổi), mỗi bài có mục tiêu, kiến thức, thực hành, câu hỏi và nguồn. Bản draft DEV, 14 nguồn được xác định, chưa chuyên gia thẩm định.
