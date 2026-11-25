@@ -28,3 +28,11 @@ test("deep draft articles: 4 sections, practical checklist, limitations, valid c
  assert(i.stats.unique>=156);assert(i.stats.gaps<=63);assert.equal(i.cells.filter(c=>c.status==="gap"&&c.priority==="P0").length,0);
  console.log("LIFE_COURSE_P0_DRAFT_COVERAGE_PASS: 52 new guides; 93/93 priority cells covered");
  });
+
+test("P1 batch closes 63 original gaps and all applicable lifecycle cells have draft coverage",()=>{
+ const p1=i.cells.filter(c=>c.priority==="P1");assert.equal(p1.length,80);assert(p1.every(c=>c.status==="partial-draft"&&c.refs.length>0));
+ const counts={"S04-AZ-03A":15,"S04-AZ-03B":16,"S04-AZ-03C":16,"S04-AZ-03D":16};const articles=b.articles.filter(a=>Object.hasOwn(counts,a.batch));assert.equal(articles.length,63);for(const [id,n] of Object.entries(counts))assert.equal(articles.filter(a=>a.batch===id).length,n);
+ assert.equal(new Set(articles.map(a=>a.stage+"--"+a.pillar)).size,63);for(const a of articles){const c=p1.find(c=>c.stage===a.stage&&c.pillar===a.pillar);assert(c?.refs.includes("article:"+a.id));assert.equal(a.status,"draft");}
+ assert(i.stats.unique>=219);assert.equal(i.stats.applicable,173);assert.equal(i.stats.partial,173);assert.equal(i.stats.gaps,0);assert.equal(i.stats.p0,0);assert.equal(i.stats.notPriority,19);assert(i.cells.filter(c=>c.applicable).every(c=>c.refs.length>0&&c.status==="partial-draft"));assert(i.refs.every(r=>r.status==="draft"));
+ console.log("LIFE_COURSE_P1_DRAFT_COVERAGE_PASS: 63 new guides; 80/80 P1, 173/173 applicable cells");
+});
