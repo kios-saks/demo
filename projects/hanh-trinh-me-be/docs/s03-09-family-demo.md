@@ -1,0 +1,8 @@
+# S03-09 — Family demo priority (owner decision)
+Owner deferred real Supabase Auth and database connection work. Do not request or configure keys now; do not enable API/Web/signup or perform new hosted changes. Keep prior schema/login intact and gated.
+## Browser sandbox
+/gia-dinh-demo only in exact Combined DEV, linked from Reader. Starts with Mẹ An (owner), Bố Minh (member), Bà Lan (viewer), Cô Mai (new persona needing simulated consent), and isolated Gia đình khác. No password/email inputs or real account creation. All synthetic data stays in sessionStorage per tab (or ephemeral React state if storage denied). Reset restores seed. No network to Auth or real family routes. Not a security boundary for real data; user can manipulate own browser fixture. Role and tenant policy reused from API. Switching personas represents different users/devices but is not real multi-device sync.
+## Protocol
+Existing v1 account/me, account/onboard, families list/create/get, journey PATCH with expected revision, members list/revoke, invitations create/accept/expiry/replay. Simulated session via /demo/session. Additional checklist and saved PATCH are explicitly demo-only proposed contracts, not live API. HTTP-like status 200/400/401/404/409 rendered in trace panel. Synthetic names only, no real data persistence.
+## QA
+Pure protocol tests plus isolated Chromium acceptance on same built Next.js code with exact simulated Render environment. Tests ordinary server returns 404, real signup endpoint disabled, 5 personas, consent, create, stage/checklist/saved, role change and isolation, invite/revoke, revision conflict, reload/reset, separate browser, 390/768/1024/1440 no overflow, no real API or Supabase calls. CI pending. No merge or deployment until CI success.
