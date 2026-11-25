@@ -2,6 +2,7 @@ import {randomUUID,randomBytes,createHash} from "node:crypto";
 import {canAccessFamily,type FamilyMembership,type FamilyRole} from "./family-access.js";
 export type Account = {id:string; displayName:string; consentVersion:"family-v1"};
 export type Family = {id:string; name:string; stage:string|null; revision:number};
+export type FamilyView = Family & {role:FamilyRole};
 type Invitation = {familyId:string; accountId:string; role:Exclude<FamilyRole,"owner">; expiresAt:number};
 export class FamilyError extends Error {
  constructor(readonly status:number,readonly code:string){super(code);}
@@ -28,6 +29,7 @@ export class FixtureFamilyService {
   if(!f||!canAccessFamily(id,familyId,this.memberships.get(familyId)?.get(id)??null,action))return fail(404,"NOT_FOUND");
   return f;
  }
+ private view(id:string,f:Family):FamilyView{return {...f,role:this.memberships.get(f.id)!.get(id)!.role};}
  onboard(id:string,name:unknown,consent:unknown):Account{
   if(consent!=="family-v1")return fail(400,"CONSENT_REQUIRED");
   const displayName=validName(name);
@@ -35,18 +37,18 @@ export class FixtureFamilyService {
   const a:Account={id,displayName,consentVersion:"family-v1"};this.accounts.set(id,a);return {...a};
  }
  me(id:string):Account{return {...this.account(id)};}
- create(id:string,name:unknown):Family{
+ create(id:string,name:unknown):FamilyView{
   this.account(id);const f:Family={id:randomUUID(),name:validName(name),stage:null,revision:0};
   this.families.set(f.id,f);
-  this.memberships.set(f.id,new Map([[id,{familyId:f.id,accountId:id,role:"owner",status:"active"}]]));return {...f};
+  this.memberships.set(f.id,new Map([[id,{familyId:f.id,accountId:id,role:"owner",status:"active"}]]));return this.view(id,f);
  }
- list(id:string):Family[]{this.account(id);return [...this.families.values()].filter(f=>canAccessFamily(id,f.id,this.memberships.get(f.id)?.get(id)??null,"read")).map(f=>({...f}));}
- get(id:string,familyId:string):Family{return {...this.access(id,familyId,"read")};}
- updateJourney(id:string,familyId:string,stage:unknown,revision:unknown):Family{
+ list(id:string):FamilyView[]{this.account(id);return [...this.families.values()].filter(f=>canAccessFamily(id,f.id,this.memberships.get(f.id)?.get(id)??null,"read")).map(f=>this.view(id,f));}
+ get(id:string,familyId:string):FamilyView{return this.view(id,this.access(id,familyId,"read"));}
+ updateJourney(id:string,familyId:string,stage:unknown,revision:unknown):FamilyView{
   const f=this.access(id,familyId,"writeJourney");
   if(stage!==null&&(typeof stage!=="string"||!this.validStages.has(stage)))return fail(400,"INVALID_STAGE");
   if(typeof revision!=="number"||!Number.isSafeInteger(revision)||revision!==f.revision)return fail(409,"REVISION_CONFLICT");
-  f.stage=stage as string|null;f.revision++;return {...f};
+  f.stage=stage as string|null;f.revision++;return this.view(id,f);
  }
  members(id:string,familyId:string):FamilyMembership[]{
   this.access(id,familyId,"manageMembers");return [...this.memberships.get(familyId)!.values()].map(m=>({...m}));
@@ -60,14 +62,14 @@ export class FixtureFamilyService {
   const token=randomBytes(32).toString("base64url"),expiresAt=this.now()+24*60*60*1000;
   this.invitations.set(digest(token),{familyId,accountId:target,role,expiresAt});return {token,expiresAt};
  }
- accept(id:string,token:unknown):Family{
+ accept(id:string,token:unknown):FamilyView{
   this.account(id);
   if(typeof token!=="string"||!/^[A-Za-z0-9_-]{43}$/.test(token))return fail(404,"NOT_FOUND");
   const key=digest(token),v=this.invitations.get(key);
   if(!v||v.accountId!==id||v.expiresAt<=this.now())return fail(404,"NOT_FOUND");
   const members=this.memberships.get(v.familyId),f=this.families.get(v.familyId);
   if(!members||!f||members.get(id)?.status==="active")return fail(404,"NOT_FOUND");
-  this.invitations.delete(key);members.set(id,{familyId:v.familyId,accountId:id,role:v.role,status:"active"});return {...f};
+  this.invitations.delete(key);members.set(id,{familyId:v.familyId,accountId:id,role:v.role,status:"active"});return this.view(id,f);
  }
  revoke(id:string,familyId:string,target:string):void{
   this.access(id,familyId,"manageMembers");
