@@ -214,6 +214,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          docker run -d --name mebe-api-ci --rm -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
-          trap 'docker logs mebe-api-ci || true; docker stop mebe-api-ci || true' EXIT
+          # Retain the stopped fixture container until its diagnostic logs are collected.
+          trap 'docker logs mebe-api-ci || true; docker inspect --format "{{.State.Status}} exit={{.State.ExitCode}}" mebe-api-ci || true; docker rm -f mebe-api-ci || true' EXIT
+          docker run -d --name mebe-api-ci -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
           node scripts/container-production-smoke.mjs
