@@ -69,7 +69,7 @@ all("[data-journey-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("
 all("[data-checklist-key]").forEach(el=>el.addEventListener("change",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
  if(el.checked)data[el.dataset.checklistKey]=true;else delete data[el.dataset.checklistKey];
- if(!set("checklist",data)){refreshChecks();announce("Không thể lưu checklist trên trình duyệt này.");}
+ const ok=set("checklist",data);refreshChecks();if(!ok)announce("Không thể lưu checklist trên trình duyệt này.");
 }));
 all("[data-checklist-reset]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
