@@ -427,6 +427,42 @@
       "url": "https://vanban.chinhphu.vn/?classid=1&docid=214515&pageid=27160&typegroupid=4",
       "scope": "Hướng dẫn BHYT, cần đối chiếu văn bản hiện hành.",
       "checkedOn": "2026-11-25"
+    },
+    "olderLaw": {
+      "name": "Văn phòng Quốc hội — Luật Người cao tuổi, VBHN 23/VBHN-VPQH",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=217080&pageid=27160",
+      "scope": "Tra cứu quyền, chăm sóc và tham gia xã hội của người cao tuổi.",
+      "checkedOn": "2026-11-25"
+    },
+    "pensionSocial": {
+      "name": "Chính phủ — Nghị định 176/2025/NĐ-CP về trợ cấp hưu trí xã hội",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=214435&pageid=27160&typegroupid=4",
+      "scope": "Tra cứu điều kiện, thủ tục và hướng dẫn trợ cấp hưu trí xã hội; kiểm tra văn bản hiện hành.",
+      "checkedOn": "2026-11-25"
+    },
+    "olderFraud": {
+      "name": "CFPB — Protecting older adults from fraud and financial exploitation",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud/",
+      "scope": "Nhận diện lợi dụng tài chính; nguyên tắc giáo dục, không sử dụng cơ chế pháp lý Hoa Kỳ tại Việt Nam.",
+      "checkedOn": "2026-11-25"
+    },
+    "financialSupport": {
+      "name": "CFPB — Planning for diminished capacity and illness",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness/",
+      "scope": "Chuẩn bị hỗ trợ tài chính có giới hạn, tôn trọng quyền chủ động; thủ tục đại diện phải theo luật Việt Nam.",
+      "checkedOn": "2026-11-25"
+    },
+    "olderICT": {
+      "name": "UNESCO — Digital learning for older adults",
+      "url": "https://www.uil.unesco.org/en/articles/new-online-course-helps-cities-advance-digital-learning-older-adults",
+      "scope": "Cơ hội tiếp cận thông tin, dịch vụ và học kỹ năng số.",
+      "checkedOn": "2026-11-25"
+    },
+    "medicalLaw": {
+      "name": "Văn phòng Quốc hội — Luật Khám bệnh, chữa bệnh, VBHN 26/VBHN-VPQH",
+      "url": "https://vanban.chinhphu.vn/?docid=217083&pageid=27160",
+      "scope": "Tra cứu quyền, nghĩa vụ và cơ chế quyết định chăm sóc theo pháp luật.",
+      "checkedOn": "2026-11-25"
     }
   },
   "articles": [
@@ -5795,6 +5831,814 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
+    },
+    {
+      "stage": "older",
+      "pillar": "thinking",
+      "id": "tu-duy-va-giai-quyet-van-de-60-74",
+      "title": "Tư duy tuổi 60–74: duy trì tò mò và giải quyết vấn đề đời thường",
+      "summary": "Luyện tìm thông tin, thử giải pháp và xem lại bằng trải nghiệm phù hợp sở thích.",
+      "sections": [
+        {
+          "heading": "Học từ nhu cầu thực tế",
+          "body": "Học suốt đời không dừng ở tuổi nghỉ hưu. Người học có thể tự chọn câu hỏi về cây trồng, lịch sử, cách dùng điện thoại hoặc dịch vụ công. Mục tiêu là có thêm hiểu biết và khả năng ra quyết định, không dùng bài tập để đo tuổi trí tuệ hoặc khả năng ghi nhớ.",
+          "sourceIds": [
+            "olderLearning",
+            "mil"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn một vấn đề cụ thể",
+          "body": "Ví dụ muốn tìm tuyến xe đến bệnh viện: ghi nơi đi, nơi đến, thời gian, khả năng đi bộ và người có thể hỗ trợ. Tra cứu thông tin từ đơn vị vận tải hoặc hỏi trực tiếp, so sánh phương án theo chi phí, độ an toàn và sự thuận tiện. Không dựa vào một câu trả lời tự động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm chứng trước khi hành động",
+          "body": "Nếu gặp lời quảng cáo về thuốc, đầu tư hoặc thông báo giả mạo, kiểm tra người công bố, ngày và kênh chính thức. Có thể nhờ người tin cậy tìm thông tin cùng, nhưng vẫn giữ quyền lựa chọn. Không chia sẻ hồ sơ cá nhân chỉ để nhờ giải thích một thông tin.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử và điều chỉnh",
+          "body": "Chọn phương án có thể thử an toàn, ghi điều thuận lợi và phần còn vướng. Nếu cách cũ không hiệu quả, đổi cách chứ không tự đánh giá mình kém. Với khó khăn nhận thức mới hoặc ảnh hưởng sinh hoạt, trao đổi chuyên gia thay vì dùng trò chơi làm chẩn đoán.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một câu hỏi đời thường muốn tìm hiểu.",
+        "So sánh hai nguồn và ghi điều chưa chắc.",
+        "Thử một giải pháp an toàn rồi xem lại."
+      ],
+      "limits": "Không cam kết cải thiện trí nhớ hoặc phòng bệnh; thay đổi nhận thức đáng lo cần đánh giá chuyên môn.",
+      "sourceIds": [
+        "olderLearning",
+        "mil"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "digital",
+      "id": "dien-thoai-va-an-toan-so-60-74",
+      "title": "Kỹ năng số 60–74 tuổi: điện thoại, thông tin chính thức và chống giả mạo",
+      "summary": "Tập dùng thiết bị theo nhu cầu, giữ quyền kiểm soát tài khoản và nhận diện lừa đảo.",
+      "sections": [
+        {
+          "heading": "Chọn chức năng cần dùng trước",
+          "body": "UNESCO ghi nhận rào cản tiếp cận công nghệ ở người lớn tuổi. Bắt đầu từ nhu cầu thật như gọi video, đọc tin, tra cứu lịch hẹn hoặc liên hệ người thân. Không cần cài nhiều ứng dụng cùng lúc; người hỗ trợ hướng dẫn từng bước, không làm thay mọi việc.",
+          "sourceIds": [
+            "olderICT",
+            "mil",
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết lập thiết bị dễ sử dụng",
+          "body": "Sắp xếp ứng dụng cần thiết, chữ và âm lượng phù hợp, cập nhật phần mềm. Chọn mật khẩu riêng và xác thực bổ sung nếu có thể; giữ phương án khôi phục an toàn. Không cho người khác giữ mật khẩu hoặc mã OTP chỉ vì họ quen công nghệ hơn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Cảnh giác tin nhắn yêu cầu tiền",
+          "body": "Nếu nhận cuộc gọi tự xưng ngân hàng, Công an hoặc người thân cần tiền gấp, dừng và gọi lại bằng số đã biết hoặc kênh chính thức. Không cài ứng dụng do người lạ gửi, không chia sẻ màn hình hay mã xác thực. Ảnh hoặc giọng nói có thể bị giả mạo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thực hành và xử lý sự cố",
+          "body": "Tập tìm một website chính thức bằng địa chỉ đã kiểm tra, lưu số hỗ trợ của ngân hàng. Nếu lỡ bấm hoặc chuyển tiền, ngừng thao tác, liên hệ ngân hàng và cơ quan Công an phù hợp; lưu thông tin cần thiết. Không trả tiền cho người hứa lấy lại tiền.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một chức năng và viết hướng dẫn chữ dễ đọc.",
+        "Thực hành xác minh một cuộc gọi giả lập.",
+        "Lưu đầu mối ngân hàng và người hỗ trợ đáng tin."
+      ],
+      "limits": "Không yêu cầu giao tài khoản hoặc dữ liệu riêng cho người hỗ trợ; không thay hướng dẫn xử lý sự cố của ngân hàng.",
+      "sourceIds": [
+        "olderICT",
+        "mil",
+        "communitySafety"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "relationships",
+      "id": "ket-noi-va-tu-chu-60-74",
+      "title": "Quan hệ tuổi 60–74: gia đình, bạn bè, cộng đồng và quyền tự chủ",
+      "summary": "Xây kết nối theo mong muốn, kể cả khi nghỉ hưu hoặc thay đổi nơi sống.",
+      "sections": [
+        {
+          "heading": "Hỏi điều người đó muốn",
+          "body": "Kết nối xã hội có vai trò đối với sức khỏe, nhưng sống riêng không tự đồng nghĩa cô đơn. Luật Người cao tuổi là nguồn tra cứu quyền và sự tham gia xã hội tại Việt Nam. Hỏi người lớn tuổi muốn gặp ai, sống ở đâu và cần gì, không mặc định phải ở cùng con cháu.",
+          "sourceIds": [
+            "social",
+            "olderLaw",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo cơ hội gặp gỡ phù hợp",
+          "body": "Có thể hẹn bạn cũ, tham gia nhóm đọc, đi bộ hoặc sinh hoạt địa phương nếu thích. Kiểm tra phương tiện, chi phí, nghe nhìn và giờ nghỉ. Nếu khó di chuyển, xem lựa chọn gọi điện hoặc gặp tại nhà theo sự đồng ý; không ép hoạt động vì lo người đó buồn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thỏa thuận hỗ trợ giữa các thế hệ",
+          "body": "Trao đổi việc đi khám, mua thực phẩm, hỗ trợ thiết bị hoặc giữ liên lạc. Người hỗ trợ hỏi trước khi thay đổi nhà cửa hoặc lịch sinh hoạt, không tự quyết việc tài chính và quan hệ. Tôn trọng quyền riêng tư của cả người cao tuổi và con cháu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có mâu thuẫn hoặc cô lập",
+          "body": "Nói về nhu cầu và hành vi cụ thể, cho phép mỗi người từ chối hoặc hẹn lại. Khi có kiểm soát, bạo lực hoặc lợi dụng, tìm người đáng tin và cơ quan hỗ trợ phù hợp. Nếu buồn bã hay cô đơn ảnh hưởng sinh hoạt, trao đổi chuyên gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi một người hoặc hoạt động muốn kết nối.",
+        "Thống nhất hình thức liên hệ phù hợp.",
+        "Chọn một nhu cầu hỗ trợ và một giới hạn riêng tư."
+      ],
+      "limits": "Không ép sống chung, hòa giải hoặc tham gia hoạt động; nguy cơ xâm hại cần tìm hỗ trợ.",
+      "sourceIds": [
+        "social",
+        "olderLaw",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "talents",
+      "id": "nghe-thuat-va-so-thich-60-74",
+      "title": "Sở thích tuổi 60–74: nghệ thuật, vận động và hoạt động cộng đồng",
+      "summary": "Duy trì niềm vui và kỹ năng với điều kiện tiếp cận phù hợp.",
+      "sections": [
+        {
+          "heading": "Chọn hoạt động có ý nghĩa",
+          "body": "WHO nêu nhóm nghệ thuật, giải trí, học tập và hoạt động cộng đồng trong các hướng hỗ trợ sức khỏe tinh thần người lớn tuổi. Người tham gia tự chọn điều thích như hát, làm vườn, vẽ, chơi cờ hoặc đi bộ; không cần chứng minh năng lực bằng thành tích.",
+          "sourceIds": [
+            "mentalOlder",
+            "olderLearning",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khảo sát điều kiện tham gia",
+          "body": "Tìm hoạt động gần nhà hoặc tại thư viện, nhà văn hóa, nhóm sở thích qua kênh chính thức. Hỏi lịch, phí, người hướng dẫn, chỗ ngồi và điều kiện đi lại. Nếu có bệnh nền hoặc khó vận động, chọn hoạt động phù hợp tư vấn chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh cách thực hành",
+          "body": "Ví dụ dùng giấy chữ lớn, nhạc với âm lượng dễ chịu, vật dụng dễ cầm hoặc chia hoạt động thành đoạn ngắn. Nếu muốn học kỹ thuật mới, tìm người làm mẫu và thực hành theo nhịp của mình. Không ép tập hoặc tiếp tục khi mệt, đau hay mất hứng thú.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chia sẻ sản phẩm khi muốn",
+          "body": "Có thể lưu tác phẩm, chia sẻ kinh nghiệm hoặc tham gia buổi trưng bày tự nguyện. Hỏi trước khi chụp ảnh hay đăng câu chuyện cá nhân. Cuối tháng tự quyết có tiếp tục, thử hoạt động khác hoặc nghỉ; không coi mọi sở thích phải trở thành thu nhập.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một hoạt động từng yêu thích.",
+        "Tìm phương án dễ tiếp cận và xác minh chi phí.",
+        "Sau vài buổi, hỏi muốn duy trì hay đổi."
+      ],
+      "limits": "Không cam kết tác dụng điều trị hoặc thành tích; vận động và hoạt động cần phù hợp sức khỏe.",
+      "sourceIds": [
+        "mentalOlder",
+        "olderLearning",
+        "activityGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "finance",
+      "id": "quan-ly-thu-nhap-huu-tri-60-74",
+      "title": "Tài chính tuổi 60–74: thu nhập hưu trí, chi phí và chống lừa đảo",
+      "summary": "Lập bảng dòng tiền, dự phòng và kiểm tra quyền lợi chính thức, giữ quyền chủ động.",
+      "sections": [
+        {
+          "heading": "Tách nguồn thu đã xác nhận",
+          "body": "Ghi lương hưu hoặc nguồn thu khác thực nhận, khoản hỗ trợ tự nguyện, chi phí thiết yếu và các kỳ thanh toán. Không tính quyền lợi chưa được cơ quan xác nhận là tiền chắc chắn. Hỏi cơ quan BHXH về điều kiện và hồ sơ phù hợp, không áp dụng một mức hưởng cho mọi người.",
+          "sourceIds": [
+            "adultFinance",
+            "bhxh",
+            "pensionSocial",
+            "olderFraud"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lập kế hoạch chi phí",
+          "body": "Ví dụ giả định thu 8 triệu mỗi tháng, chi thiết yếu 6 triệu, phần còn lại cần tính thuốc theo chỉ định, đi lại và dự phòng. Đây là tình huống luyện lập ngân sách, không phản ánh mức lương hưu thực tế. Ưu tiên khả năng tiếp cận tiền khi có việc khẩn cấp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phòng lừa đảo và lợi dụng",
+          "body": "Không chuyển tiền khi bị thúc ép, hứa lợi nhuận chắc chắn hoặc người gọi tự xưng cơ quan nhà nước. Xác minh độc lập, không gửi mã OTP. Nếu muốn nhờ quản lý tài chính, xác định phạm vi và quyền hạn hợp pháp, không giao toàn bộ tài khoản một cách tùy tiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại cùng người đáng tin nếu muốn",
+          "body": "Giữ chứng từ, thông tin hợp đồng và đầu mối hỗ trợ riêng tư. Có thể mời người tin cậy cùng xem một giao dịch lớn, không buộc họ quyết định thay. Nếu có nghi ngờ bị lợi dụng, liên hệ ngân hàng, cơ quan chức năng hoặc chuyên gia pháp lý phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng thu chi thực tế và khoản dự phòng.",
+        "Tra cứu quyền lợi qua cơ quan BHXH.",
+        "Thống nhất cách xác minh một yêu cầu chuyển tiền."
+      ],
+      "limits": "Không tư vấn đầu tư, không tính quyền lợi hưu trí cá nhân hoặc đưa mức hưởng chưa kiểm chứng.",
+      "sourceIds": [
+        "adultFinance",
+        "bhxh",
+        "pensionSocial",
+        "olderFraud"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "career",
+      "id": "viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+      "title": "Tuổi 60–74: lựa chọn việc làm, tình nguyện hoặc nghỉ ngơi",
+      "summary": "Đánh giá mong muốn, sức khỏe, điều kiện tham gia và quyền lợi trước cam kết.",
+      "sections": [
+        {
+          "heading": "Có nhiều lựa chọn sau nghỉ hưu",
+          "body": "Người cao tuổi có thể muốn tiếp tục làm việc, chia sẻ kinh nghiệm, tình nguyện, chăm sóc gia đình hoặc nghỉ ngơi. Luật Người cao tuổi là căn cứ tra cứu quyền tham gia hoạt động phù hợp. Không đo giá trị của một người bằng thu nhập hay mức độ bận rộn.",
+          "sourceIds": [
+            "olderLaw",
+            "adultCareer",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xác định điều kiện phù hợp",
+          "body": "Ghi nhiệm vụ muốn làm, thời gian, đi lại, khả năng nghỉ và điều kiện sức khỏe. Hỏi rõ công việc có yêu cầu nâng vật, làm ca dài hay tiếp xúc nguy cơ không. Với người có bệnh hoặc hạn chế vận động, trao đổi chuyên gia trước nhiệm vụ có rủi ro.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra đơn vị tổ chức",
+          "body": "Nếu nhận việc hoặc tham gia tình nguyện, xác minh địa chỉ, người phụ trách, nhiệm vụ, phí hoặc tiền công và cách dừng. Với công việc có hợp đồng, hỏi quyền lợi theo trường hợp. Không nộp phí tuyển dụng bất thường hoặc giao giấy tờ cho người lạ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử từng bước và giữ quyền từ chối",
+          "body": "Có thể thử thời lượng ngắn, xin phản hồi và xem hoạt động có phù hợp mong muốn không. Nếu mệt hoặc muốn nghỉ, trao đổi phương án thay đổi; không bắt buộc tiếp tục vì trách nhiệm xã hội. Chọn cách chia sẻ kinh nghiệm tự nguyện, không tiết lộ tài liệu mật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết điều mình muốn và giới hạn thời gian.",
+        "Xác minh một cơ hội phù hợp.",
+        "Thử tham gia ngắn hạn và tự quyết bước sau."
+      ],
+      "limits": "Không đề cử việc làm, bảo đảm thu nhập hay xác định quyền lợi lao động/hưu trí cá nhân.",
+      "sourceIds": [
+        "olderLaw",
+        "adultCareer",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "civic",
+      "id": "quyen-loi-huu-tri-bhyt-60-74",
+      "title": "Quyền lợi tuổi 60–74 tại Việt Nam: hưu trí, bảo hiểm và trợ giúp xã hội",
+      "summary": "Xác định đúng chế độ, điều kiện và cơ quan giải quyết bằng nguồn hiện hành.",
+      "sections": [
+        {
+          "heading": "Phân biệt các nhóm quyền lợi",
+          "body": "Luật BHXH, nghị định về trợ cấp hưu trí xã hội, Luật Người cao tuổi và quy định BHYT là nguồn tra cứu khác nhau. Tuổi 60–74 không tự động đủ điều kiện mọi chế độ. Cần xác định quá trình tham gia, tình trạng và điều kiện cụ thể trước khi yêu cầu.",
+          "sourceIds": [
+            "olderLaw",
+            "bhxh",
+            "pensionSocial",
+            "healthInsurance",
+            "vssid"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tra cứu hồ sơ và nơi tiếp nhận",
+          "body": "Kiểm tra dữ liệu BHXH qua VssID hoặc kênh chính thức; hỏi cơ quan BHXH về hồ sơ, kết quả và cách điều chỉnh sai lệch. Với trợ giúp xã hội, hỏi bộ phận phụ trách tại địa phương về điều kiện đang áp dụng. Không đưa mã xác thực cho người tự xưng cán bộ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra quyền lợi khám chữa bệnh",
+          "body": "Hỏi cơ sở y tế hoặc BHXH về thông tin thẻ, phạm vi và thủ tục theo trường hợp. Giữ giấy tờ, chứng từ và kết quả xử lý ở nơi an toàn. Không mặc định mọi dịch vụ được chi trả toàn bộ hoặc một mức chi trả áp dụng giống nhau.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ quyền chủ động và theo dõi",
+          "body": "Ghi ngày nộp, mã hồ sơ, nơi tiếp nhận và thông tin còn thiếu. Nếu muốn người thân hỗ trợ, xác định rõ việc được nhờ và giữ quyền quyết định. Khi có tranh chấp hoặc cần đại diện, hỏi cơ quan có thẩm quyền hoặc luật sư, không ký văn bản trống.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Liệt kê nguồn thu, giấy tờ BHXH và BHYT cần kiểm tra.",
+        "Hỏi cơ quan có thẩm quyền về từng quyền lợi.",
+        "Theo dõi hồ sơ và lưu kết quả chính thức."
+      ],
+      "limits": "Không khẳng định tuổi, mức tiền, điều kiện hưởng hoặc thủ tục cho từng cá nhân; cần kiểm tra văn bản hiện hành.",
+      "sourceIds": [
+        "olderLaw",
+        "bhxh",
+        "pensionSocial",
+        "healthInsurance",
+        "vssid"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "older",
+      "pillar": "life",
+      "id": "song-doc-lap-va-ke-hoach-ho-tro-60-74",
+      "title": "Kỹ năng sống tuổi 60–74: sinh hoạt độc lập và chuẩn bị hỗ trợ",
+      "summary": "Duy trì việc tự làm theo ý muốn, sắp xếp nhà ở và phương án khi cần giúp.",
+      "sections": [
+        {
+          "heading": "Xác định mục tiêu độc lập",
+          "body": "WHO định hướng lão hóa khỏe mạnh theo khả năng thực hiện việc có ý nghĩa. Hỏi người lớn tuổi muốn tự nấu ăn, đi chợ, gặp bạn hay quản lý lịch nào. Không mặc định tuổi cao cần làm thay tất cả; nhìn cả khả năng và rào cản môi trường.",
+          "sourceIds": [
+            "ageFriendly",
+            "icope",
+            "falls"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sắp xếp công cụ dễ tiếp cận",
+          "body": "Đặt đồ dùng thường xuyên ở nơi dễ lấy, ánh sáng phù hợp và lối đi thông thoáng. Có thể dùng danh sách giấy, lịch hoặc nhắc trên điện thoại nếu muốn. Với thiết bị hỗ trợ di chuyển, hỏi chuyên gia về cách chọn và sử dụng an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập phương án hỗ trợ tự nguyện",
+          "body": "Thống nhất ai có thể giúp mua đồ, đưa đi khám hoặc hỗ trợ khi có sự cố. Ghi số liên hệ và phương án thay thế, hỏi trước khi thay đổi sinh hoạt. Giữ quyền riêng tư, không dùng theo dõi vị trí hoặc camera như điều kiện bắt buộc để được sống riêng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại theo hoàn cảnh",
+          "body": "Nếu khả năng ăn uống, di chuyển hoặc tự chăm sóc thay đổi, trao đổi chuyên gia để đánh giá và điều chỉnh hỗ trợ. Khi có triệu chứng nghiêm trọng, tìm trợ giúp khẩn cấp. Kế hoạch cần phục vụ mong muốn của người sống, không chỉ sự thuận tiện của người chăm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn ba việc muốn tự làm và rào cản hiện có.",
+        "Thống nhất một kênh gọi trợ giúp.",
+        "Rà soát lại khi sức khỏe hoặc hoàn cảnh đổi."
+      ],
+      "limits": "Không thay đánh giá chức năng, thiết kế nhà chuyên môn hay kế hoạch chăm sóc cá nhân.",
+      "sourceIds": [
+        "ageFriendly",
+        "icope",
+        "falls"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "thinking",
+      "id": "tri-tue-va-so-thich-75-plus",
+      "title": "Tư duy tuổi 75+: trò chuyện, câu hỏi và hoạt động trí tuệ tự nguyện",
+      "summary": "Tạo cơ hội khám phá theo sở thích mà không biến thành bài kiểm tra trí nhớ.",
+      "sections": [
+        {
+          "heading": "Tôn trọng mục đích người học",
+          "body": "Học tập có thể diễn ra qua nghe chuyện, đọc, quan sát, hỏi và trao đổi. Hỏi người cao tuổi muốn tìm hiểu điều gì, không bắt phải làm trò chơi trí nhớ để chứng minh minh mẫn. Khả năng nghe, nhìn và tập trung có thể khác nhau theo ngày.",
+          "sourceIds": [
+            "olderLearning",
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo hoạt động theo sở thích",
+          "body": "Ví dụ chọn một bức ảnh phong cảnh hoặc món ăn quen thuộc, mời người đó kể điều họ biết nếu muốn. Có thể tìm bản đồ hoặc bài đọc từ nguồn đáng tin cùng nhau. Tránh ép nhớ tên, ngày tháng hoặc sửa từng chi tiết khiến người tham gia khó chịu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh môi trường",
+          "body": "Chọn nơi yên, ánh sáng phù hợp, tài liệu chữ rõ, cho đủ thời gian và nghỉ khi mệt. Nếu cần hỗ trợ thiết bị hoặc đọc, hỏi trước, không làm thay mọi bước. Tôn trọng quyền dừng hoặc đổi chủ đề; một cuộc trò chuyện ngắn cũng có giá trị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt học và chăm sóc y tế",
+          "body": "Không suy luận bệnh từ kết quả một trò chơi hay một lần quên. Nếu xuất hiện thay đổi nhận thức đột ngột, hành vi bất thường hoặc khó sinh hoạt mới, tìm đánh giá y tế phù hợp. Hoạt động học tập không thay kiểm tra chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi chủ đề người tham gia muốn trò chuyện.",
+        "Chuẩn bị tài liệu dễ tiếp cận.",
+        "Kết thúc khi người đó muốn và ghi điều muốn tìm hiểu tiếp."
+      ],
+      "limits": "Không cam kết phòng hoặc điều trị sa sút trí tuệ; không dùng hoạt động làm công cụ chẩn đoán.",
+      "sourceIds": [
+        "olderLearning",
+        "ageFriendly"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "digital",
+      "id": "lien-lac-so-va-bao-mat-75-plus",
+      "title": "Kỹ năng số tuổi 75+: liên lạc, thiết bị dễ dùng và bảo mật",
+      "summary": "Hỗ trợ tiếp cận dịch vụ và người thân mà không lấy quyền kiểm soát tài khoản.",
+      "sections": [
+        {
+          "heading": "Chọn mục tiêu do người dùng quyết định",
+          "body": "Hỏi họ muốn gọi video, nhận tin, xem ảnh hay tra cứu thông tin gì. Tập trung một chức năng dễ dùng, không cài thêm nếu không cần. Người hỗ trợ giải thích lựa chọn, hỏi sự đồng ý và tôn trọng việc họ muốn dùng điện thoại thường thay smartphone.",
+          "sourceIds": [
+            "olderICT",
+            "privacyLaw",
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế thao tác dễ tiếp cận",
+          "body": "Đặt số người thân và đầu mối hỗ trợ ở vị trí dễ tìm, điều chỉnh chữ và âm thanh theo sở thích. Viết hướng dẫn ngắn từng bước, thực hành bằng thiết bị thật dưới sự đồng ý. Không yêu cầu ghi mật khẩu lên nơi người lạ có thể thấy hoặc gửi mã OTP.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xác minh khi nhận yêu cầu bất thường",
+          "body": "Nếu có tin nhắn hoặc cuộc gọi yêu cầu tiền, giấy tờ hoặc cài ứng dụng, dừng và hỏi người tin cậy nếu muốn. Gọi lại qua số đã kiểm tra, không dựa vào giọng nói hoặc ảnh. Người hỗ trợ không tự chuyển tiền hoặc đăng nhập thay khi chưa có quyền hạn phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xử lý khi gặp khó khăn",
+          "body": "Nếu thiết bị bị mất hoặc nghi bị chiếm tài khoản, liên hệ nhà cung cấp và ngân hàng qua kênh chính thức, giữ thông tin cần thiết. Khi cần hỗ trợ lâu dài, thống nhất phạm vi, phương án khôi phục và quyền riêng tư. Không theo dõi bí mật hoặc buộc chia sẻ mọi thông tin.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một chức năng liên lạc dễ dùng.",
+        "Chuẩn bị hướng dẫn chữ lớn và số hỗ trợ chính thức.",
+        "Diễn tập dừng và xác minh yêu cầu chuyển tiền."
+      ],
+      "limits": "Không giao mật khẩu, mã xác thực hoặc quyền tài khoản tùy tiện; hỗ trợ theo sự đồng ý và pháp luật.",
+      "sourceIds": [
+        "olderICT",
+        "privacyLaw",
+        "communitySafety"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "relationships",
+      "id": "ket-noi-va-nguoi-cham-soc-75-plus",
+      "title": "Quan hệ tuổi 75+: kết nối với gia đình, cộng đồng và người chăm sóc",
+      "summary": "Xây quan hệ hỗ trợ có sự đồng ý, tôn trọng riêng tư và phẩm giá.",
+      "sections": [
+        {
+          "heading": "Lắng nghe nhu cầu kết nối",
+          "body": "Người cao tuổi có thể muốn trò chuyện nhiều, ít hoặc theo từng thời điểm. Hỏi ai họ muốn gặp, có thích thăm nhà hay gọi điện, và khi nào cần không gian riêng. Không coi việc sống riêng hoặc ít nói là bằng chứng không còn cần được tôn trọng.",
+          "sourceIds": [
+            "social",
+            "mentalOlder",
+            "olderLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thỏa thuận với người hỗ trợ",
+          "body": "Nếu có người chăm, trao đổi giờ đến, việc cần giúp, cách gọi khi có vấn đề và thông tin nào được chia sẻ. Giải thích trước khi hỗ trợ cơ thể hoặc chuyển đồ. Người được chăm vẫn được tham gia quyết định theo khả năng và quy định pháp luật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ quan hệ giữa các thế hệ",
+          "body": "Tạo cuộc trò chuyện hai chiều: hỏi chuyện họ quan tâm, chia sẻ hoạt động gia đình khi họ muốn, để họ lựa chọn vai trò. Không chỉ liên lạc để hỏi thuốc hoặc bệnh. Hỗ trợ nghe nhìn, di chuyển và thời gian nghỉ khi tổ chức cuộc gặp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện hành vi xâm hại",
+          "body": "Nếu có đe dọa, làm nhục, cô lập cưỡng ép hoặc lợi dụng, ưu tiên an toàn, lắng nghe và tìm hỗ trợ phù hợp. Không ép hòa giải với người có hành vi gây hại. Khi có lo ngại sức khỏe tinh thần hoặc nguy cơ cấp cứu, liên hệ nhân viên y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi người được chăm muốn kết nối với ai.",
+        "Thống nhất quy tắc riêng tư và cách hỗ trợ.",
+        "Lưu một đầu mối trợ giúp độc lập nếu có nguy cơ."
+      ],
+      "limits": "Không ép sống chung hoặc chia sẻ thông tin; không thay xử lý xâm hại và tư vấn chuyên môn.",
+      "sourceIds": [
+        "social",
+        "mentalOlder",
+        "olderLaw"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "talents",
+      "id": "nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+      "title": "Sở thích tuổi 75+: âm nhạc, nghệ thuật và hoạt động có hỗ trợ",
+      "summary": "Duy trì hoạt động có ý nghĩa theo sở thích và khả năng hiện tại.",
+      "sections": [
+        {
+          "heading": "Niềm vui hơn thành tích",
+          "body": "WHO đề cập hoạt động sáng tạo, giải trí và kết nối trong hỗ trợ sức khỏe tinh thần người lớn tuổi. Hỏi họ muốn nghe nhạc, hát, đọc, vẽ, làm vườn hoặc xem một hoạt động nào. Không chọn thay chỉ vì nghĩ một trò chơi tốt cho trí não.",
+          "sourceIds": [
+            "mentalOlder",
+            "ageFriendly",
+            "olderLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh dụng cụ và không gian",
+          "body": "Chọn ghế thoải mái, ánh sáng và âm lượng phù hợp; dùng dụng cụ dễ cầm nếu người tham gia muốn. Đặt vật dụng dễ lấy, tránh vật sắc, nóng hoặc nặng. Với hoạt động cần di chuyển hay vận động, hỏi chuyên gia nếu có hạn chế hoặc nguy cơ té ngã.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tham gia theo thời lượng tự chọn",
+          "body": "Có thể nghe một bài hát, tô một hình hoặc kể chuyện trong khoảng ngắn. Người hỗ trợ làm mẫu khi được yêu cầu, không sửa sản phẩm để hoàn hảo. Nếu mệt hoặc không còn hứng thú, dừng; không buộc hoàn thành để có ảnh hoặc thành tích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chia sẻ và giữ quyền riêng tư",
+          "body": "Nếu muốn, mời người thân cùng nghe hoặc xem sản phẩm. Xin đồng ý trước khi quay video, đăng ảnh hoặc kể chuyện riêng. Sau hoạt động, hỏi muốn lặp lại, đổi hay nghỉ. Không coi sự tham gia là điều kiện để được quan tâm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi một hoạt động người tham gia muốn thử.",
+        "Chuẩn bị môi trường và dụng cụ dễ tiếp cận.",
+        "Cho họ quyết định thời điểm kết thúc và lần tiếp theo."
+      ],
+      "limits": "Không cam kết tác dụng điều trị, cải thiện trí nhớ hay phục hồi chức năng; hoạt động cần tự nguyện, an toàn.",
+      "sourceIds": [
+        "mentalOlder",
+        "ageFriendly",
+        "olderLearning"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "finance",
+      "id": "ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
+      "title": "Tài chính tuổi 75+: chi tiêu, hỗ trợ có giới hạn và phòng lợi dụng",
+      "summary": "Giữ quyền quyết định, minh bạch giao dịch và tìm hỗ trợ đúng thẩm quyền.",
+      "sections": [
+        {
+          "heading": "Tôn trọng quyền sử dụng tiền",
+          "body": "Tuổi cao không tự động làm mất quyền quyết định tài chính. Hỏi người đó muốn tự thực hiện việc nào và cần hỗ trợ gì. Nếu cần đại diện hoặc ủy quyền, phải xác minh phạm vi và thủ tục theo pháp luật Việt Nam, không tự suy luận từ hướng dẫn nước ngoài.",
+          "sourceIds": [
+            "olderFraud",
+            "financialSupport",
+            "civil",
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tổ chức chi tiêu minh bạch",
+          "body": "Lập bảng khoản thiết yếu, hóa đơn, chi chăm sóc và khoản tự chọn nếu người đó đồng ý. Giữ chứng từ, tài sản và tiền của người được hỗ trợ tách biệt; trao đổi trước giao dịch lớn. Không dùng tiền của họ cho mục đích người chăm tự quyết.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện nguy cơ bị lợi dụng",
+          "body": "Cảnh giác yêu cầu ký giấy trống, chuyển tiền gấp, giao mật khẩu, đổi người nhận tiền hoặc người thân gây áp lực. Xác minh độc lập qua ngân hàng, cơ quan phù hợp; không công khai thông tin tài khoản. Không đối đầu một mình nếu có nguy cơ bị đe dọa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị hỗ trợ hợp pháp",
+          "body": "Trao đổi người đáng tin và chuyên gia pháp lý về quyền hạn, cách ghi nhận giao dịch và cách thay đổi hoặc dừng hỗ trợ. Nếu nghi lừa đảo, ngừng giao dịch và liên hệ ngân hàng/cơ quan chức năng. Giữ quyền riêng tư và ưu tiên an toàn của người cao tuổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi nhu cầu hỗ trợ tài chính và giới hạn.",
+        "Lưu chứng từ, xác minh một giao dịch trước khi thực hiện.",
+        "Tìm tư vấn pháp lý khi cần đại diện hoặc ủy quyền."
+      ],
+      "limits": "Không tư vấn tài chính hoặc lập ủy quyền thay người dùng; không xác định năng lực pháp lý từ tuổi hoặc bài đọc.",
+      "sourceIds": [
+        "olderFraud",
+        "financialSupport",
+        "civil",
+        "communitySafety"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "career",
+      "id": "hoat-dong-co-y-nghia-75-plus",
+      "title": "Tuổi 75+: hoạt động có ý nghĩa, chia sẻ kinh nghiệm và quyền nghỉ ngơi",
+      "summary": "Chọn vai trò tự nguyện, phù hợp sức khỏe, không đặt áp lực phải làm việc.",
+      "sections": [
+        {
+          "heading": "Quyền chọn tham gia hoặc nghỉ",
+          "body": "Người cao tuổi có thể muốn truyền kinh nghiệm, làm việc phù hợp, tham gia cộng đồng hoặc chỉ nghỉ ngơi. Luật Người cao tuổi là nguồn tra cứu quyền liên quan; không coi tham gia lao động là nghĩa vụ để chứng minh giá trị hoặc được gia đình hỗ trợ.",
+          "sourceIds": [
+            "olderLaw",
+            "ageFriendly",
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm vai trò vừa khả năng",
+          "body": "Hỏi họ muốn kể chuyện, hướng dẫn kỹ năng, đọc cùng cháu, giúp một nhóm hay làm việc khác. Xem thời gian, di chuyển, khả năng nghe nhìn và nhu cầu nghỉ. Nếu công việc có rủi ro, hỏi người có chuyên môn và đơn vị tổ chức trước khi tham gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xác định điều kiện rõ ràng",
+          "body": "Với hoạt động có người tổ chức, kiểm tra nhiệm vụ, người phụ trách, chi phí hoặc tiền công, bảo hiểm nếu liên quan và cách dừng. Không yêu cầu người cao tuổi đóng phí, ký hợp đồng hoặc cung cấp thông tin tài chính qua kênh chưa xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ khả năng thay đổi quyết định",
+          "body": "Có thể thử một buổi và hỏi sau đó có muốn tiếp tục không. Người thân hỗ trợ phương tiện hoặc dụng cụ nếu được đồng ý, không đăng ảnh hay tuyên dương công khai khi chưa xin phép. Nếu mệt hoặc muốn nghỉ, tôn trọng quyết định, không gây áp lực.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi vai trò hoặc hoạt động có ý nghĩa với họ.",
+        "Xác minh điều kiện và cách dừng nếu có tổ chức.",
+        "Đánh giá trải nghiệm theo ý kiến người tham gia."
+      ],
+      "limits": "Không đề cử việc làm, xác định khả năng lao động hoặc quyền lợi cụ thể; mọi hoạt động tự nguyện và an toàn.",
+      "sourceIds": [
+        "olderLaw",
+        "ageFriendly",
+        "mentalOlder"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "civic",
+      "id": "quyen-loi-dai-dien-va-cham-soc-75-plus",
+      "title": "Quyền lợi tuổi 75+ tại Việt Nam: đại diện, hỗ trợ xã hội và quyết định chăm sóc",
+      "summary": "Tra cứu pháp luật hiện hành, bảo vệ quyền tự quyết và tránh ký thay trái thẩm quyền.",
+      "sections": [
+        {
+          "heading": "Tuổi cao không tự quyết định năng lực pháp lý",
+          "body": "Luật Người cao tuổi, Bộ luật Dân sự và Luật Khám bệnh, chữa bệnh là các nguồn tra cứu về quyền, đại diện và quyết định chăm sóc. Không mặc định người thân được toàn quyền ký giấy tờ hoặc quyết định điều trị chỉ vì người cao tuổi cần hỗ trợ.",
+          "sourceIds": [
+            "olderLaw",
+            "civil",
+            "medicalLaw",
+            "pensionSocial",
+            "healthInsurance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra quyền lợi theo hồ sơ",
+          "body": "Hỏi cơ quan địa phương hoặc BHXH về trợ cấp hưu trí xã hội, bảo hiểm và dịch vụ phù hợp theo điều kiện hiện hành. Không khẳng định mọi người 75 tuổi trở lên đều có cùng mức hưởng. Ghi nơi tiếp nhận, giấy tờ và tình trạng; không giao mã xác thực cho người lạ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần hỗ trợ quyết định",
+          "body": "Hỏi người được chăm về mong muốn, ai được tham gia và cách nhận thông tin. Với ủy quyền, đại diện, giao dịch tài sản hoặc quyết định y tế, hỏi người có chuyên môn và cơ quan có thẩm quyền về căn cứ, phạm vi và thủ tục. Không dùng giấy tờ tự soạn như bảo đảm hợp pháp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ quyền lợi khi có vấn đề",
+          "body": "Giữ giấy tờ, chứng từ, nội dung trao đổi ở nơi riêng tư. Nếu nghi bị lợi dụng, đe dọa hoặc xâm hại, tìm hỗ trợ độc lập phù hợp, ưu tiên an toàn. Không ép ký hoặc ép sống chung; cần trao đổi chuyên môn khi phát sinh tranh chấp hoặc vấn đề năng lực.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập danh sách quyền lợi và nguồn tra cứu chính thức.",
+        "Hỏi về phạm vi hỗ trợ người cao tuổi mong muốn.",
+        "Tìm chuyên gia phù hợp khi cần đại diện hoặc quyết định pháp lý."
+      ],
+      "limits": "Không tư vấn pháp lý cá nhân, không xác định năng lực, đại diện hoặc mức trợ cấp khi chưa xem hồ sơ và văn bản hiện hành.",
+      "sourceIds": [
+        "olderLaw",
+        "civil",
+        "medicalLaw",
+        "pensionSocial",
+        "healthInsurance"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
+    },
+    {
+      "stage": "later-life",
+      "pillar": "life",
+      "id": "tu-chu-va-ke-hoach-cham-soc-75-plus",
+      "title": "Kỹ năng sống tuổi 75+: hỗ trợ tự chủ, kế hoạch chăm sóc và phẩm giá",
+      "summary": "Cùng xây phương án sinh hoạt và chăm sóc theo mong muốn, có người dự phòng.",
+      "sections": [
+        {
+          "heading": "Bắt đầu từ mong muốn người được chăm",
+          "body": "WHO định hướng chăm sóc lấy cá nhân và chức năng làm trung tâm. Hỏi người cao tuổi muốn tiếp tục việc nào, hỗ trợ gì, muốn sống ở đâu và ai được tham gia. Không chỉ lập lịch theo sự tiện lợi của người chăm, không mặc định mất quyền tự quyết vì tuổi.",
+          "sourceIds": [
+            "icope",
+            "ageFriendly",
+            "olderLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chia hỗ trợ thành việc cụ thể",
+          "body": "Ví dụ mua thực phẩm, vệ sinh, đi khám, hỗ trợ di chuyển hoặc liên lạc. Xác định phần người đó muốn tự làm, phần cần hỗ trợ và người phụ trách. Các thao tác chuyên môn cần được hướng dẫn; không tự điều chỉnh thuốc, thiết bị hoặc kết cấu thức ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ phẩm giá trong sinh hoạt",
+          "body": "Hỏi trước khi hỗ trợ tắm, thay đồ, dùng thiết bị hoặc chia sẻ hồ sơ. Che chắn, cho thời gian và tôn trọng sở thích, quyền từ chối trong phạm vi an toàn và pháp luật. Không dùng camera, khóa cửa hoặc giám sát bí mật làm phương án mặc định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị bàn giao và thay đổi",
+          "body": "Lưu đầu mối hỗ trợ, thông tin cần thiết và người dự phòng ở nơi riêng tư. Hỏi lại sau lần khám, thay đổi sức khỏe hoặc mong muốn. Nếu xuất hiện triệu chứng cấp tính, tìm trợ giúp y tế khẩn cấp; với thay đổi lâu dài, phối hợp chuyên gia để điều chỉnh kế hoạch.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi ba điều người được chăm muốn duy trì.",
+        "Phân công việc hỗ trợ có người dự phòng.",
+        "Xem lại kế hoạch theo ý kiến người được chăm và chuyên gia."
+      ],
+      "limits": "Không thay kế hoạch điều dưỡng, quyết định pháp lý hoặc đánh giá năng lực; chăm sóc phải phù hợp từng người.",
+      "sourceIds": [
+        "icope",
+        "ageFriendly",
+        "olderLaw"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03D"
     }
   ]
 }

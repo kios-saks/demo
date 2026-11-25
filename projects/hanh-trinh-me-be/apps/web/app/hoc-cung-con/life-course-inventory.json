@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 203,
+    "unique": 219,
     "cells": 192,
     "applicable": 173,
-    "partial": 157,
-    "gaps": 16,
+    "partial": 173,
+    "gaps": 0,
     "notPriority": 19,
     "byStage": [
       {
@@ -95,23 +95,23 @@
       {
         "id": "older",
         "age": "60–74 tuổi",
-        "items": 8,
+        "items": 16,
         "applicable": 16,
-        "partial": 8,
-        "gaps": 8
+        "partial": 16,
+        "gaps": 0
       },
       {
         "id": "later-life",
         "age": "75+ tuổi",
-        "items": 8,
+        "items": 16,
         "applicable": 16,
-        "partial": 8,
-        "gaps": 8
+        "partial": 16,
+        "gaps": 0
       }
     ],
     "p0": 0,
     "baselineUnique": 93,
-    "newArticles": 110
+    "newArticles": 126
   },
   "refs": [
     {
@@ -2549,6 +2549,198 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-phan-chia-trach-nhiem-va-cham-soc-35-59"
+    },
+    {
+      "kind": "article",
+      "id": "tu-duy-va-giai-quyet-van-de-60-74",
+      "title": "Tư duy tuổi 60–74: duy trì tò mò và giải quyết vấn đề đời thường",
+      "stage": "older",
+      "pillar": "thinking",
+      "originalStage": "older",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-duy-va-giai-quyet-van-de-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "dien-thoai-va-an-toan-so-60-74",
+      "title": "Kỹ năng số 60–74 tuổi: điện thoại, thông tin chính thức và chống giả mạo",
+      "stage": "older",
+      "pillar": "digital",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-dien-thoai-va-an-toan-so-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "ket-noi-va-tu-chu-60-74",
+      "title": "Quan hệ tuổi 60–74: gia đình, bạn bè, cộng đồng và quyền tự chủ",
+      "stage": "older",
+      "pillar": "relationships",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ket-noi-va-tu-chu-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "nghe-thuat-va-so-thich-60-74",
+      "title": "Sở thích tuổi 60–74: nghệ thuật, vận động và hoạt động cộng đồng",
+      "stage": "older",
+      "pillar": "talents",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nghe-thuat-va-so-thich-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "quan-ly-thu-nhap-huu-tri-60-74",
+      "title": "Tài chính tuổi 60–74: thu nhập hưu trí, chi phí và chống lừa đảo",
+      "stage": "older",
+      "pillar": "finance",
+      "originalStage": "older",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quan-ly-thu-nhap-huu-tri-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+      "title": "Tuổi 60–74: lựa chọn việc làm, tình nguyện hoặc nghỉ ngơi",
+      "stage": "older",
+      "pillar": "career",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-viec-lam-tinh-nguyen-nghi-ngoi-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-loi-huu-tri-bhyt-60-74",
+      "title": "Quyền lợi tuổi 60–74 tại Việt Nam: hưu trí, bảo hiểm và trợ giúp xã hội",
+      "stage": "older",
+      "pillar": "civic",
+      "originalStage": "older",
+      "sourceCount": 5,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-loi-huu-tri-bhyt-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "song-doc-lap-va-ke-hoach-ho-tro-60-74",
+      "title": "Kỹ năng sống tuổi 60–74: sinh hoạt độc lập và chuẩn bị hỗ trợ",
+      "stage": "older",
+      "pillar": "life",
+      "originalStage": "older",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-song-doc-lap-va-ke-hoach-ho-tro-60-74"
+    },
+    {
+      "kind": "article",
+      "id": "tri-tue-va-so-thich-75-plus",
+      "title": "Tư duy tuổi 75+: trò chuyện, câu hỏi và hoạt động trí tuệ tự nguyện",
+      "stage": "later-life",
+      "pillar": "thinking",
+      "originalStage": "later-life",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tri-tue-va-so-thich-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "lien-lac-so-va-bao-mat-75-plus",
+      "title": "Kỹ năng số tuổi 75+: liên lạc, thiết bị dễ dùng và bảo mật",
+      "stage": "later-life",
+      "pillar": "digital",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-lien-lac-so-va-bao-mat-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "ket-noi-va-nguoi-cham-soc-75-plus",
+      "title": "Quan hệ tuổi 75+: kết nối với gia đình, cộng đồng và người chăm sóc",
+      "stage": "later-life",
+      "pillar": "relationships",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ket-noi-va-nguoi-cham-soc-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+      "title": "Sở thích tuổi 75+: âm nhạc, nghệ thuật và hoạt động có hỗ trợ",
+      "stage": "later-life",
+      "pillar": "talents",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nghe-thuat-va-so-thich-co-ho-tro-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
+      "title": "Tài chính tuổi 75+: chi tiêu, hỗ trợ có giới hạn và phòng lợi dụng",
+      "stage": "later-life",
+      "pillar": "finance",
+      "originalStage": "later-life",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "hoat-dong-co-y-nghia-75-plus",
+      "title": "Tuổi 75+: hoạt động có ý nghĩa, chia sẻ kinh nghiệm và quyền nghỉ ngơi",
+      "stage": "later-life",
+      "pillar": "career",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hoat-dong-co-y-nghia-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-loi-dai-dien-va-cham-soc-75-plus",
+      "title": "Quyền lợi tuổi 75+ tại Việt Nam: đại diện, hỗ trợ xã hội và quyết định chăm sóc",
+      "stage": "later-life",
+      "pillar": "civic",
+      "originalStage": "later-life",
+      "sourceCount": 5,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-loi-dai-dien-va-cham-soc-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "tu-chu-va-ke-hoach-cham-soc-75-plus",
+      "title": "Kỹ năng sống tuổi 75+: hỗ trợ tự chủ, kế hoạch chăm sóc và phẩm giá",
+      "stage": "later-life",
+      "pillar": "life",
+      "originalStage": "later-life",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-chu-va-ke-hoach-cham-soc-75-plus"
     }
   ],
   "cells": [
@@ -4738,8 +4930,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Duy trì tò mò, giải quyết vấn đề đời thường",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-duy-va-giai-quyet-van-de-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4749,8 +4943,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Điện thoại, xác minh thông tin và an toàn số",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:dien-thoai-va-an-toan-so-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4760,8 +4956,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Bạn bè, gia đình, cộng đồng và tự chủ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ket-noi-va-tu-chu-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4784,8 +4982,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Nghệ thuật, sở thích và vận động phù hợp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nghe-thuat-va-so-thich-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4795,8 +4995,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Thu nhập hưu trí, chi phí và chống lừa đảo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quan-ly-thu-nhap-huu-tri-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4806,8 +5008,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Lựa chọn công việc, tình nguyện hoặc nghỉ ngơi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4817,8 +5021,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hưu trí, bảo hiểm, trợ giúp xã hội",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-loi-huu-tri-bhyt-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4828,8 +5034,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Sinh hoạt độc lập, kế hoạch hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:song-doc-lap-va-ke-hoach-ho-tro-60-74"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4930,8 +5138,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hoạt động trí tuệ phù hợp sở thích",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tri-tue-va-so-thich-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4941,8 +5151,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Liên lạc số, hỗ trợ thiết bị và bảo mật",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:lien-lac-so-va-bao-mat-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4952,8 +5164,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Kết nối xã hội, người chăm sóc, lựa chọn cá nhân",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ket-noi-va-nguoi-cham-soc-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4976,8 +5190,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Âm nhạc, nghệ thuật, sở thích có hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4987,8 +5203,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Chi tiêu, hỗ trợ tài chính và phòng lợi dụng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -4998,8 +5216,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hoạt động có ý nghĩa, lựa chọn tham gia",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hoat-dong-co-y-nghia-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -5009,8 +5229,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quyền lợi, đại diện và quyết định chăm sóc",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -5020,8 +5242,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Hỗ trợ tự chủ, kế hoạch chăm sóc và phẩm giá",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-chu-va-ke-hoach-cham-soc-75-plus"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     }
   ]
