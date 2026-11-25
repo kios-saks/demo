@@ -18,3 +18,13 @@ test("deep draft articles: 4 sections, practical checklist, limitations, valid c
  for(const x of b.articles){assert.equal(x.status,"draft");assert(x.sections.length>=4);assert(x.practice.length>=3);assert(x.limits.length>=40);assert(x.sourceIds.length>=1);assert(x.sections.some(s=>s.sourceIds.length>0));for(const s of x.sections){assert(s.body.length>=150);for(const id of s.sourceIds)assert(x.sourceIds.includes(id));}for(const id of x.sourceIds){assert(b.sources[id]);assert.equal(new URL(b.sources[id].url).protocol,"https:");}}
  console.log("LIFE_COURSE_INVENTORY_CONTENT_PASS");
 });
+
+ test("P0 batch closes all 52 original gaps with 93 covered priority cells",()=>{
+ const p0=i.cells.filter(c=>c.priority==="P0");assert.equal(p0.length,93);assert(p0.every(c=>c.status==="partial-draft"&&c.refs.length>0));assert.equal(i.stats.p0,0);
+ const batches={"S04-AZ-02A":14,"S04-AZ-02B":11,"S04-AZ-02C":14,"S04-AZ-02D":13};const articles=b.articles.filter(a=>Object.hasOwn(batches,a.batch));assert.equal(articles.length,52);
+ for(const [id,n] of Object.entries(batches))assert.equal(articles.filter(a=>a.batch===id).length,n);
+ assert.equal(new Set(articles.map(a=>a.stage+"--"+a.pillar)).size,52);
+ for(const a of articles){const c=p0.find(c=>c.stage===a.stage&&c.pillar===a.pillar);assert(c?.refs.includes("article:"+a.id));assert.equal(a.status,"draft");}
+ assert(i.stats.unique>=156);assert(i.stats.gaps<=63);assert.equal(i.cells.filter(c=>c.status==="gap"&&c.priority==="P0").length,0);
+ console.log("LIFE_COURSE_P0_DRAFT_COVERAGE_PASS: 52 new guides; 93/93 priority cells covered");
+ });
