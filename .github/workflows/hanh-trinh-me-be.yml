@@ -107,6 +107,10 @@ jobs:
         run: npm run db:seed
       - name: PostgreSQL integration and editorial concurrency tests
         run: npm run test:postgres
+      - name: Family PostgreSQL and RLS isolation (disposable fixture only)
+        env:
+          MEBE_FAMILY_DB_FIXTURE: "true"
+        run: npm exec -w @mebe/api -- tsx --test src/family-postgres.integration.ts
       - name: PostgreSQL-backed API smoke
         shell: bash
         run: |
