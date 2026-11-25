@@ -7,9 +7,9 @@ Owner: read/write shared journey, manage invitations/membership; member: read/wr
 - [x] Read current composition and establish role/tenant policy + fixture unit tests.
 - [x] Policy CI 45586442647 PASS; define verified identity interface (provider not wired).
 - [x] Isolated in-memory service + HTTP API for consent, onboarding, family create/list/get, invitation issuance/acceptance/expiry/replay protection, member revocation and journey stage revision. Fixture verifier injection only; real session revocation/provider integration pending.
-- [ ] Fixture HTTP assertions implemented; CI pending. Real DB atomic authorization, audit and export/delete still pending.
-- [ ] Web account + family UX; preserve guest reader/local-first and opt-in migration of local preferences. No child medical information or DOB collected by default.
-- [ ] Draft schema migration and test in isolated database only; review RLS/least privilege and rollback before owner approval of actual database changes.
+- [x] Fixture HTTP and PostgreSQL transactional authorization/RLS CI PASS; live DB, audit and export/delete pending.
+- [x] Web account and family screens implemented and build CI PASS; browser and live Auth acceptance pending. No default child DOB or health data.
+- [x] Draft schema and isolated PostgreSQL RLS tests PASS; hosted preflight and advisor baseline recorded. Migration approval and runtime activation remain pending.
 - [ ] CI and live DEV acceptance once approved. No production publishing.
 
 ## API contract (fixture-only)
@@ -36,3 +36,6 @@ Invites bound to existing recipient account, 24h expiry, stored as SHA256 digest
 - PostgresFamilyRepository implements all ten route operations; atomic create and invite redemption, advisory transaction lock for mutations by family, optimistic revision check, hash-only invite storage. Explicit tenant predicates plus RLS; no shared editorial DB owner credential.
 - CI fixture only: vanilla PostgreSQL 16, separate non-superuser login, emulated Data API roles, direct SQL RLS and HTTP tests; protected by exact local URL + CI flags. No live Supabase migration or runtime wiring. Supabase-specific advisors, role provisioning, auth/session lifecycle, rate limits, account export/delete, backup/restore and secure browser integration still required before enablement.
 - Policy reference: https://supabase.com/docs/guides/database/postgres/row-level-security. No SECURITY DEFINER helpers; only invoker actor helper.
+
+## Pre-migration status
+See [Supabase DEV preflight](s03-09-supabase-preflight.md). CI 45598482074 PASS; hosted security advisors 0 ERROR/0 WARN/17 INFO in existing private schema. No hosted family objects or Auth settings changed. HOLD until actual Auth settings are verified and migration approved.
