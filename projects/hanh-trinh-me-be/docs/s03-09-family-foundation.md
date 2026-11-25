@@ -1,0 +1,41 @@
+# S03-09 — Không gian gia đình và tài khoản
+Status: fixture-only account/family service and HTTP routes, explicitly injected into tests only. Live server does not register the routes; no live migration, auth provider configuration or deployment.
+Architecture: Fastify API buildApp composes repositories; keep family domain separate from editorial KnowledgeRepository and CMS credentials. Next.js reader remains anonymous on designated DEV; family endpoints require separately verified account identity. Production and Mobile unchanged.
+## Proposed access design (review before wiring)
+Owner: read/write shared journey, manage invitations/membership; member: read/write journey; viewer: read only. No access for anonymous, pending or revoked membership, wrong tenant, unknown action/role. Authorization is based on verified principal + current server-side membership scoped to exact family ID, never caller-supplied role. No family ownership transfer or last-owner removal in initial scope; account/membership creation transactional. The pure policy is only a foundation, not an authentication implementation.
+## Delivery sequence
+- [x] Read current composition and establish role/tenant policy + fixture unit tests.
+- [x] Policy CI 45586442647 PASS; define verified identity interface (provider not wired).
+- [x] Isolated in-memory service + HTTP API for consent, onboarding, family create/list/get, invitation issuance/acceptance/expiry/replay protection, member revocation and journey stage revision. Fixture verifier injection only; real session revocation/provider integration pending.
+- [x] Fixture HTTP and PostgreSQL transactional authorization/RLS CI PASS; live DB, audit and export/delete pending.
+- [x] Web account and family screens implemented and build CI PASS; browser and live Auth acceptance pending. No default child DOB or health data.
+- [x] Draft schema and isolated PostgreSQL RLS tests PASS; hosted preflight and advisor baseline recorded. Migration approval and runtime activation remain pending.
+- [ ] CI and live DEV acceptance once approved. No production publishing.
+
+## API contract (fixture-only)
+- POST /v1/account/onboard
+- GET /v1/account/me
+- POST/GET /v1/families
+- GET /v1/families/:familyId
+- PATCH /v1/families/:familyId/journey
+- GET /v1/families/:familyId/members
+- POST /v1/families/:familyId/invitations
+- POST /v1/family-invitations/accept
+- DELETE /v1/families/:familyId/members/:accountId
+Invites bound to existing recipient account, 24h expiry, stored as SHA256 digest, single use; this is separate from the removed Reader invite. No email delivery yet. Production needs verified provider sessions, durable storage, rate limits, secure same-origin Web session, privacy controls and transactional DB tests.
+
+## Auth + Web implementation (disabled by default)
+- Server-only Supabase Auth REST adapter, password signup/login, online GET /user verification (email confirmed, UUID, reject anonymous), logout. Uses publishable key only. Web cookie __Host-mebe_family: HttpOnly/Secure/SameSite=Strict, max 15 minutes; no localStorage or refresh token retained. JWT may remain valid until provider expiry; strict session revocation still requires live-session validation. No auth project settings changed.
+- Next.js pages /dang-nhap, /dang-ky, /gia-dinh and same-origin allowlisted API proxy; guest Reader unchanged. UX supports onboarding, family creation, list, stage, invite/accept/revoke. Provider not enabled until durable repository, security review and isolated QA.
+- Before enabling: configure verified email signup and redirect allowlist, SMTP/rate limits, short JWT lifetime, secure cookie/session tests, password reset, durable repository (transactions/tenant predicates/RLS), export/delete, privacy text. FAMILY_WEB_ENABLED=true must only be supplied after those gates; FAMILY_SUPABASE_URL and FAMILY_SUPABASE_PUBLISHABLE_KEY (not service-role) required. Existing Combined DEV env allowlist unchanged; no fixture service is wired into live startup. Web controls intentionally disabled until configured.
+- Reference: https://github.com/supabase/auth/blob/master/openapi.yaml and https://supabase.com/docs/guides/auth/sessions; confirmation redirect does not adopt browser fragment tokens; sign in after confirmation.
+
+## PostgreSQL and RLS draft
+- Prior CI ea836cf: 45597748101 5/5 PASS after fixing fetch typing and Docker shared Auth copy.
+- database/family-draft/schema.sql is explicitly NOT in automatic migrations. Five private tables, FORCE RLS, runtime NOLOGIN/NOBYPASSRLS role, no grants to public/anon/authenticated/service_role. Separate ownership relation avoids recursive RLS. Only dedicated API login may SET ROLE; actor set transaction-locally after provider verification. This is defense in depth, not protection from arbitrary SQL execution using trusted API credentials.
+- PostgresFamilyRepository implements all ten route operations; atomic create and invite redemption, advisory transaction lock for mutations by family, optimistic revision check, hash-only invite storage. Explicit tenant predicates plus RLS; no shared editorial DB owner credential.
+- CI fixture only: vanilla PostgreSQL 16, separate non-superuser login, emulated Data API roles, direct SQL RLS and HTTP tests; protected by exact local URL + CI flags. No live Supabase migration or runtime wiring. Supabase-specific advisors, role provisioning, auth/session lifecycle, rate limits, account export/delete, backup/restore and secure browser integration still required before enablement.
+- Policy reference: https://supabase.com/docs/guides/database/postgres/row-level-security. No SECURITY DEFINER helpers; only invoker actor helper.
+
+## Pre-migration status
+See [Supabase DEV preflight](s03-09-supabase-preflight.md). CI 45598482074 PASS; hosted security advisors 0 ERROR/0 WARN/17 INFO in existing private schema. No hosted family objects or Auth settings changed. HOLD until actual Auth settings are verified and migration approved.

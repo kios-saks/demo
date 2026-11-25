@@ -42,6 +42,8 @@ jobs:
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/dynamic-reader.test.ts
       - name: Media CMS proxy access and checksum regression
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/media-admin-proxy.test.ts
+      - name: Family demo protocol tests
+        run: npm exec -w @mebe/api -- tsx --test ../../scripts/family-demo.test.ts
       - name: API TypeScript
         run: npm exec -w @mebe/api -- tsc --noEmit
       - name: Mobile TypeScript
@@ -107,6 +109,10 @@ jobs:
         run: npm run db:seed
       - name: PostgreSQL integration and editorial concurrency tests
         run: npm run test:postgres
+      - name: Family PostgreSQL and RLS isolation (disposable fixture only)
+        env:
+          MEBE_FAMILY_DB_FIXTURE: "true"
+        run: npm exec -w @mebe/api -- tsx --test src/family-postgres.integration.ts
       - name: PostgreSQL-backed API smoke
         shell: bash
         run: |
@@ -199,6 +205,20 @@ jobs:
           trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
           CI_DEV_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
           CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/reader-browser-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+      - name: Family sandbox browser acceptance (synthetic only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          PORT=3000 npm run start -w @mebe/web > /tmp/mebe-demo-ordinary.log 2>&1 &
+          ordinary_pid=$!
+          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
+          demo_pid=$!
+          trap 'kill "$ordinary_pid" "$demo_pid" 2>/dev/null || true' EXIT
+          for i in $(seq 1 60); do
+            if curl -s -o /dev/null http://localhost:3000/gia-dinh-demo && curl -fsS -o /dev/null http://localhost:3001/gia-dinh-demo; then break; fi
+            sleep 1
+          done
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/family-demo-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest
@@ -214,6 +234,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          docker run -d --name mebe-api-ci --rm -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
-          trap 'docker logs mebe-api-ci || true; docker stop mebe-api-ci || true' EXIT
+          # Retain the stopped fixture container until its diagnostic logs are collected.
+          trap 'docker logs mebe-api-ci || true; docker inspect --format "{{.State.Status}} exit={{.State.ExitCode}}" mebe-api-ci || true; docker rm -f mebe-api-ci || true' EXIT
+          docker run -d --name mebe-api-ci -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
           node scripts/container-production-smoke.mjs

@@ -6,10 +6,18 @@ import {createMediaService} from "./media-service.js";
 import {bootstrapMedia} from "./media-bootstrap.js";
 import {safeMediaFailure} from "./media-diagnostics.js";
 import {auditCmsWebProxy} from "./cms-web-auth-audit.js";
+import {prepareFamilyRuntime} from "./family-runtime.js";
 
 loadLocalEnv();
 const repo=createKnowledgeRepository();
-const app=buildApp(repo,undefined,createMediaService());
+// Optional family failure must not interrupt the anonymous reader or CMS.
+let family:Awaited<ReturnType<typeof prepareFamilyRuntime>>=null;
+try{family=await prepareFamilyRuntime(process.env);}catch(e){
+ const c=e&&typeof e==="object"&&"code" in e?String(e.code):e instanceof Error&&/^FAMILY_[A-Z0-9_]{2,64}$/.test(e.message)?e.message:"UNKNOWN";
+ console.warn("FAMILY_RUNTIME_DISABLED",/^[A-Z0-9_]{2,80}$/.test(c)?c:"UNKNOWN");
+}
+const app=buildApp(repo,undefined,createMediaService(),family?.deps);
+if(family)app.addHook("onClose",()=>family!.close());
 try{
  // Bind HTTP before probing external PostgreSQL. Render Free cold starts must
  // not crash the process solely because the Shared Pooler is slow to respond.
