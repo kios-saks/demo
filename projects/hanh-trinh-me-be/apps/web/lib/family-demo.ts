@@ -83,7 +83,7 @@ export function demoRequest(state:DemoState,method:string,path:string,body:Recor
   }
   if(method==="DELETE"&&action==="members"&&parts.length===6){
    access(fid,"manageMembers");const m=s.members.find(m=>m.familyId===fid&&m.accountId===parts[5]);if(!m||m.role==="owner")return fail(404,"NOT_FOUND");
-   m.status="revoked";s.invites=s.invites.filter(i=>!(i.familyId===fid&&i.accountId===m.accountId));return reply({revoked:true});
+   s.members=s.members.map(x=>x===m?{...x,status:"revoked"}:x);s.invites=s.invites.filter(i=>!(i.familyId===fid&&i.accountId===m.accountId));return reply({revoked:true});
   }
   if(method==="PATCH"&&parts.length===5&&["journey","checklist","saved"].includes(action)){
    const f=access(fid,"writeJourney");
