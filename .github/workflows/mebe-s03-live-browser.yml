@@ -26,6 +26,4 @@ jobs:
           /tmp/mebe-live-browser/node_modules/.bin/playwright install --with-deps chromium
           cp projects/hanh-trinh-me-be/scripts/reader-live-browser-smoke.mjs /tmp/mebe-live-browser/
       - name: Read-only live browser acceptance
-        env:
-          DEV_READER_INVITE_TOKEN: ${{ secrets.DEV_READER_INVITE_TOKEN }}
         run: node /tmp/mebe-live-browser/reader-live-browser-smoke.mjs
