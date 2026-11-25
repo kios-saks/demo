@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 118,
+    "unique": 129,
     "cells": 192,
     "applicable": 173,
-    "partial": 72,
-    "gaps": 101,
+    "partial": 83,
+    "gaps": 90,
     "notPriority": 19,
     "byStage": [
       {
@@ -63,18 +63,18 @@
       {
         "id": "teen",
         "age": "14–17 tuổi",
-        "items": 8,
+        "items": 13,
         "applicable": 16,
-        "partial": 6,
-        "gaps": 10
+        "partial": 11,
+        "gaps": 5
       },
       {
         "id": "adult",
         "age": "18–22 tuổi",
-        "items": 9,
+        "items": 15,
         "applicable": 16,
-        "partial": 6,
-        "gaps": 10
+        "partial": 12,
+        "gaps": 4
       },
       {
         "id": "early-adult",
@@ -109,9 +109,9 @@
         "gaps": 15
       }
     ],
-    "p0": 38,
+    "p0": 27,
     "baselineUnique": 93,
-    "newArticles": 25
+    "newArticles": 36
   },
   "refs": [
     {
@@ -1529,6 +1529,138 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-bat-nat-va-lua-dao-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "an-uong-va-on-thi-14-17",
+      "title": "Ăn uống 14–17 tuổi: học tập, vận động và hình ảnh cơ thể",
+      "stage": "teen",
+      "pillar": "nutrition",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-uong-va-on-thi-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "tiep-can-y-te-tuoi-14-17",
+      "title": "Chăm sóc sức khỏe 14–17 tuổi: chủ động tiếp cận dịch vụ và hỏi đúng điều",
+      "stage": "teen",
+      "pillar": "health",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tiep-can-y-te-tuoi-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "nhip-song-on-thi-14-17",
+      "title": "Ngủ, học và nghỉ ở tuổi 14–17: xây lịch ôn thi không kiệt sức",
+      "stage": "teen",
+      "pillar": "routine",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nhip-song-on-thi-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "chon-thpt-hoc-nghe-14-17",
+      "title": "Sau THCS và THPT: tìm trường phổ thông, trung cấp và hướng học phù hợp",
+      "stage": "teen",
+      "pillar": "schools",
+      "originalStage": "teen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-chon-thpt-hoc-nghe-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "an-toan-mang-va-di-lai-14-17",
+      "title": "An toàn tuổi 14–17: đi lại, tin nhắn đe dọa và bảo vệ tài khoản",
+      "stage": "teen",
+      "pillar": "safety",
+      "originalStage": "teen",
+      "sourceCount": 4,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-toan-mang-va-di-lai-14-17"
+    },
+    {
+      "kind": "article",
+      "id": "bua-an-tu-lap-18-22",
+      "title": "Bữa ăn tự lập 18–22 tuổi: đi học, ở trọ và làm việc với ngân sách giới hạn",
+      "stage": "adult",
+      "pillar": "nutrition",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-bua-an-tu-lap-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "suc-khoe-sinh-san-tu-lap-18-22",
+      "title": "Sức khỏe sinh sản 18–22 tuổi: lựa chọn cá nhân, đồng thuận và chăm sóc phòng ngừa",
+      "stage": "adult",
+      "pillar": "body",
+      "originalStage": "adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-suc-khoe-sinh-san-tu-lap-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "ngu-va-lich-hoc-lam-18-22",
+      "title": "Nhịp sống 18–22 tuổi: ngủ đủ, vận động và cân bằng học–làm",
+      "stage": "adult",
+      "pillar": "routine",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ngu-va-lich-hoc-lam-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "hoc-dai-hoc-va-hoc-nghe-18-22",
+      "title": "Học ở tuổi 18–22: từ kiến thức nền đến năng lực tự học suốt đời",
+      "stage": "adult",
+      "pillar": "education",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-hoc-dai-hoc-va-hoc-nghe-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "so-sanh-dai-hoc-cao-dang-18-22",
+      "title": "Chọn đại học, cao đẳng hoặc học nghề: kiểm định, chương trình và tổng chi phí",
+      "stage": "adult",
+      "pillar": "schools",
+      "originalStage": "adult",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-so-sanh-dai-hoc-cao-dang-18-22"
+    },
+    {
+      "kind": "article",
+      "id": "an-toan-tu-lap-18-22",
+      "title": "An toàn khi sống tự lập 18–22 tuổi: đi lại, ở trọ và tránh lừa đảo",
+      "stage": "adult",
+      "pillar": "safety",
+      "originalStage": "adult",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-toan-tu-lap-18-22"
     }
   ],
   "cells": [
@@ -2746,8 +2878,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Dinh dưỡng, bữa ăn học tập, hình ảnh cơ thể",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-uong-va-on-thi-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2757,8 +2891,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Chăm sóc sức khỏe vị thành niên và tiếp cận hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tiep-can-y-te-tuoi-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2794,8 +2930,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Giấc ngủ, học tập, vận động, nghỉ ngơi",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nhip-song-on-thi-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2818,8 +2956,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "THPT, trung cấp, tuyển sinh, hướng đi sau phổ thông",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:chon-thpt-hoc-nghe-14-17"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -2868,8 +3008,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "An toàn số, giao thông, tìm trợ giúp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-toan-mang-va-di-lai-14-17"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2936,8 +3078,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Bữa ăn tự lập, ngân sách và an toàn thực phẩm",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:bua-an-tu-lap-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2974,8 +3118,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Sức khỏe sinh sản, cơ thể và lựa chọn cá nhân",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:suc-khoe-sinh-san-tu-lap-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2985,8 +3131,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Ngủ, vận động, lịch học/làm và nghỉ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ngu-va-lich-hoc-lam-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2996,8 +3144,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Đại học, nghề, học suốt đời",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:hoc-dai-hoc-va-hoc-nghe-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -3007,8 +3157,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "So sánh ngành học, kiểm định và chi phí",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:so-sanh-dai-hoc-cao-dang-18-22"
+      ],
       "acceptance": "Hướng dẫn lựa chọn + hồ sơ trường thực tế có nguồn chính thức và ngày cập nhật; không xếp hạng thiếu chứng cứ."
     },
     {
@@ -3054,8 +3206,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "An toàn đi lại, lừa đảo và tình huống khẩn cấp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-toan-tu-lap-18-22"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {

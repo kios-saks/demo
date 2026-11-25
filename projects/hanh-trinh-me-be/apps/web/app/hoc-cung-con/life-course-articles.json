@@ -154,6 +154,41 @@
       "name": "UNESCO — Recommendation on Adult Learning and Education",
       "url": "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
       "scope": "Học tập người lớn, cộng đồng và kỹ năng công dân."
+    },
+    "contraception": {
+      "name": "WHO Việt Nam — Family planning/contraception",
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/family-planning-contraception",
+      "scope": "Quyền lựa chọn và tránh thai phù hợp."
+    },
+    "sti": {
+      "name": "WHO — Sexually transmitted infections",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+      "scope": "Phòng ngừa, xét nghiệm và chăm sóc STI."
+    },
+    "condoms": {
+      "name": "WHO — Condoms",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+      "scope": "Bảo vệ khi sử dụng đúng và nhất quán."
+    },
+    "foodSafe": {
+      "name": "WHO — Five keys to safer food",
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "scope": "Vệ sinh, tách sống/chín, chế biến, bảo quản, nước/nguyên liệu an toàn."
+    },
+    "accredit": {
+      "name": "Cục Quản lý chất lượng — danh sách công nhận kiểm định, cập nhật 30/8/2026",
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+      "scope": "Cơ sở và chương trình được công nhận trong danh sách có ngày cập nhật."
+    },
+    "admission": {
+      "name": "Bộ GD&ĐT — Cổng thông tin tuyển sinh",
+      "url": "https://tuyensinh.moet.gov.vn/ts/",
+      "scope": "Tra cứu thông báo tuyển sinh và văn bản theo năm."
+    },
+    "scam": {
+      "name": "Bộ Công an — Cảnh giác trước các kịch bản lừa đảo 2026",
+      "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+      "scope": "Không cung cấp OTP, xác minh kênh chính thức; trình báo khi nghi lừa đảo."
     }
   },
   "articles": [
@@ -1352,6 +1387,542 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "teen",
+      "pillar": "nutrition",
+      "id": "an-uong-va-on-thi-14-17",
+      "title": "Ăn uống 14–17 tuổi: học tập, vận động và hình ảnh cơ thể",
+      "summary": "Duy trì bữa ăn dễ thực hiện khi lịch học dày, tránh ăn kiêng theo trào lưu.",
+      "sections": [
+        {
+          "heading": "Ưu tiên sức khỏe thay ngoại hình",
+          "body": "UNICEF nhấn mạnh chất lượng môi trường dinh dưỡng cho học sinh tuổi vị thành niên. Ăn đủ bữa và đa dạng, không lấy cân nặng của bạn bè làm mục tiêu. Nhu cầu thay đổi theo cơ thể, vận động, sức khỏe và điều kiện sống.",
+          "sourceIds": [
+            "nutritionYouth",
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lịch ăn khi ôn thi",
+          "body": "Nếu thường học đến muộn, chuẩn bị món ăn dự phòng dễ bảo quản như cơm với trứng, rau, trái cây phù hợp. Đặt thời gian nghỉ ăn thay vì bỏ bữa rồi ăn quá vội. Uống nước theo nhu cầu, không dùng nước tăng lực để thay giấc ngủ hay bữa ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tự lựa chọn món ngoài nhà",
+          "body": "Khi mua đồ ở căng tin, so sánh giá, độ đa dạng, điều kiện bảo quản và lượng đồ uống nhiều đường. Chọn vài phương án phù hợp túi tiền. Không chia thực phẩm thành 'tội lỗi' và 'được phép', không ép con báo cáo từng món ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm hỗ trợ khi ăn uống gây áp lực",
+          "body": "Nếu xuất hiện sợ ăn, bỏ bữa kéo dài, mệt hoặc thay đổi sức khỏe, hãy tìm người tin cậy và chuyên gia. Người lớn lắng nghe thay vì nhận xét ngoại hình; không tự chỉ định chế độ giảm cân, thuốc hoặc thực phẩm chức năng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập ba phương án bữa sáng hoặc trưa khi học bận.",
+        "Chọn nơi uống nước và nghỉ ăn thuận tiện.",
+        "Trao đổi riêng với người lớn nếu ăn uống trở thành nguồn căng thẳng."
+      ],
+      "limits": "Không dùng bài để tính calo, đặt cân nặng mục tiêu hoặc điều trị vấn đề ăn uống.",
+      "sourceIds": [
+        "nutritionYouth",
+        "whoDiet"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "health",
+      "id": "tiep-can-y-te-tuoi-14-17",
+      "title": "Chăm sóc sức khỏe 14–17 tuổi: chủ động tiếp cận dịch vụ và hỏi đúng điều",
+      "summary": "Trang bị kỹ năng mô tả triệu chứng, hỏi quyền riêng tư và tìm hỗ trợ đáng tin.",
+      "sections": [
+        {
+          "heading": "Tự chủ trong chăm sóc",
+          "body": "WHO xác định tuổi vị thành niên cần dịch vụ phù hợp nhiều nhu cầu sức khỏe. Học sinh có thể tự chuẩn bị câu hỏi về sức khỏe thể chất, sinh sản, tâm trạng và thói quen. Người chăm sóc giúp tiếp cận dịch vụ, không dùng khám bệnh như hình phạt.",
+          "sourceIds": [
+            "adolescent",
+            "well"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị thông tin cho bác sĩ",
+          "body": "Ghi lúc bắt đầu, tần suất, điều làm triệu chứng nặng hoặc nhẹ, ảnh hưởng đến sinh hoạt và thuốc đã dùng. Mang hồ sơ cần thiết; không cần công khai chuyện riêng cho cả gia đình hoặc lớp học. Hỏi trước cách bảo mật và giới hạn bảo mật trong tình huống cụ thể.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn nguồn và dịch vụ",
+          "body": "Hỏi trạm y tế, bệnh viện hoặc phòng khám có chuyên môn về vấn đề đang gặp. Kiểm tra nơi hành nghề chính thức, không chuyển tiền cho người bán thuốc qua tài khoản lạ. Nếu khó nói trực tiếp, viết câu hỏi trên giấy hoặc nhờ người tin cậy cùng đi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt cần khám và cấp cứu",
+          "body": "Vấn đề tái diễn hoặc ảnh hưởng học tập, ăn ngủ cần đánh giá phù hợp. Chấn thương nghiêm trọng, khó thở nặng, mất ý thức hoặc nguy cơ tự gây hại là tình huống cần trợ giúp khẩn cấp. Không dùng mạng xã hội để trì hoãn chăm sóc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Viết một mẫu mô tả vấn đề sức khỏe bằng thời gian và biểu hiện.",
+        "Lưu thông tin cơ sở y tế phù hợp gần nơi ở.",
+        "Tập hỏi về bảo mật và kế hoạch theo dõi sau khám."
+      ],
+      "limits": "Không đưa lịch xét nghiệm, chẩn đoán hoặc hướng dẫn điều trị; dịch vụ và quyền riêng tư phụ thuộc hoàn cảnh pháp lý.",
+      "sourceIds": [
+        "adolescent",
+        "well"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "routine",
+      "id": "nhip-song-on-thi-14-17",
+      "title": "Ngủ, học và nghỉ ở tuổi 14–17: xây lịch ôn thi không kiệt sức",
+      "summary": "Lập nhịp học có mục tiêu, thời gian ngủ và hoạt động phục hồi.",
+      "sections": [
+        {
+          "heading": "Giấc ngủ là phần của kế hoạch học",
+          "body": "Nhu cầu ngủ tuổi thiếu niên khác người lớn. Đặt giờ thức phù hợp lịch đi học rồi dành đủ thời gian nghỉ, thay vì thường xuyên học đến kiệt sức. Nếu ca học thêm khiến không còn thời gian nghỉ, xem xét lại số hoạt động và trao đổi với gia đình.",
+          "sourceIds": [
+            "sleep",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chia việc theo mục tiêu",
+          "body": "Ví dụ, buổi tối chỉ chọn một chủ đề cần hiểu, một bộ bài cần sửa và thời gian chuẩn bị cho ngày mai. Chia khối học thành khoảng phù hợp khả năng tập trung; giữa các khối đứng dậy, uống nước hoặc đi lại. Không đánh giá hiệu quả bằng số giờ ngồi bàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ vận động và thời gian riêng",
+          "body": "Chọn hoạt động dễ duy trì như đi bộ, chơi cầu lông hoặc việc nhà phù hợp. Tắt thông báo khi học, tránh dùng thiết bị đến khi quá buồn ngủ. Có thể nghỉ chủ động với bạn bè và sở thích, không coi mọi giải trí là lãng phí.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh khi lịch quá tải",
+          "body": "Một tuần thi có thể khác tuần bình thường, nhưng tránh biến thức khuya thành chiến lược lâu dài. Khi mất ngủ, buồn ngủ nghiêm trọng, mệt hoặc tâm trạng ảnh hưởng sinh hoạt, trao đổi người tin cậy và chuyên gia. Không tự dùng thuốc hoặc chất kích thích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Vẽ lịch một tuần gồm học, nghỉ, ăn và đi lại.",
+        "Chọn một nhiệm vụ ưu tiên mỗi buổi học.",
+        "Thử khung tắt thông báo và xem lại sau bảy ngày."
+      ],
+      "limits": "Không ép lịch ngủ giống nhau cho mọi học sinh; vấn đề kéo dài cần được đánh giá.",
+      "sourceIds": [
+        "sleep",
+        "activityGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "schools",
+      "id": "chon-thpt-hoc-nghe-14-17",
+      "title": "Sau THCS và THPT: tìm trường phổ thông, trung cấp và hướng học phù hợp",
+      "summary": "So sánh lộ trình bằng thông tin tuyển sinh, chương trình, chi phí và nhu cầu học sinh.",
+      "sections": [
+        {
+          "heading": "Mở rộng phương án",
+          "body": "Học tiếp phổ thông, học nghề hoặc kết hợp những lộ trình được phép là các lựa chọn cần tìm hiểu theo điều kiện cá nhân. Không gắn nhãn học nghề là thất bại hay trường danh tiếng là con đường duy nhất. Hỏi con muốn học gì và có trải nghiệm nào giúp kiểm chứng.",
+          "sourceIds": [
+            "schools",
+            "admission"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm chứng thông tin năm học",
+          "body": "Dùng thông báo của cơ quan giáo dục địa phương và website cơ sở đào tạo. Với tuyển sinh đại học sau phổ thông, tham khảo cổng Bộ GD&ĐT. Kiểm tra cấp học, chương trình, điều kiện tuyển, thời hạn, hồ sơ và học phí đúng năm. Quy định có thể thay đổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "So sánh cả hành trình",
+          "body": "Lập bảng cho mỗi lựa chọn: môn học hoặc nghề, địa điểm, thời gian, tổng chi phí, hỗ trợ học sinh, cơ hội thực hành và lộ trình học tiếp. Nếu trường nêu tỷ lệ việc làm, hỏi cách đo, kỳ khảo sát và nhóm học viên. Không tự coi quảng cáo là bảo đảm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trải nghiệm trước khi quyết định",
+          "body": "Đi ngày hội tuyển sinh hoặc buổi tư vấn chính thức, hỏi học sinh và người đang làm nghề, ghi nguồn thông tin. Thảo luận điều kiện bắt buộc và phương án dự phòng nếu không trúng tuyển. Tôn trọng lựa chọn của học sinh, không quyết định bằng áp lực gia đình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập ba lựa chọn có nguồn và ngày tra cứu.",
+        "Liệt kê chi phí học, đi lại và thiết bị cả khóa.",
+        "Hẹn một buổi tìm hiểu chương trình hoặc trải nghiệm nghề."
+      ],
+      "limits": "Chưa đề cử trường cụ thể; điều kiện tuyển sinh và học tiếp phải xác minh với cơ quan/cơ sở có thẩm quyền.",
+      "sourceIds": [
+        "schools",
+        "admission"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "teen",
+      "pillar": "safety",
+      "id": "an-toan-mang-va-di-lai-14-17",
+      "title": "An toàn tuổi 14–17: đi lại, tin nhắn đe dọa và bảo vệ tài khoản",
+      "summary": "Luyện phương án tự bảo vệ nhưng không giao toàn bộ trách nhiệm cho thanh thiếu niên.",
+      "sections": [
+        {
+          "heading": "Đi lại có kế hoạch",
+          "body": "Rủi ro giao thông cần được xem là vấn đề phòng ngừa. Chọn phương tiện và người điều khiển đủ điều kiện theo luật, sử dụng bảo hộ phù hợp, không đi cùng người lái đang mất tỉnh táo. Nếu lịch về muộn thay đổi, báo cho người tin cậy thay vì chấp nhận chuyến đi không an toàn.",
+          "sourceIds": [
+            "road",
+            "scam",
+            "cyber",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tài khoản và tin nhắn bất thường",
+          "body": "Khi có yêu cầu tiền, mã OTP hoặc cài ứng dụng, dừng và kiểm tra qua kênh chính thức. Không vì người gọi tự xưng cơ quan chức năng mà làm theo ngay. Chọn mật khẩu riêng, bật xác thực bổ sung khi phù hợp và không chia sẻ quyền truy cập thiết bị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bị đe dọa hoặc làm nhục",
+          "body": "Nếu bị tống tiền, bắt nạt hoặc ép chia sẻ ảnh, tránh tự gặp đối tượng và tìm người lớn đáng tin. Lưu thông tin cần thiết an toàn, không chuyển tiếp ảnh nhạy cảm, báo cáo nền tảng và cơ quan phù hợp. Trẻ có nguy cơ xâm hại có thể liên hệ 111.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kế hoạch tìm trợ giúp",
+          "body": "Lưu đầu mối gia đình, nhà trường và cơ quan hỗ trợ; thống nhất câu báo hiệu cần đón hoặc hỗ trợ. Khi nguy hiểm tức thời, ưu tiên rời tình huống nếu an toàn và gọi trợ giúp. Người lớn cần nghe và bảo vệ thay vì tịch thu thiết bị như phản ứng duy nhất.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Thống nhất phương án về nhà nếu kế hoạch thay đổi.",
+        "Diễn tập xác minh cuộc gọi lạ qua kênh chính thức.",
+        "Lưu đầu mối hỗ trợ và kiểm tra quyền riêng tư tài khoản."
+      ],
+      "limits": "Không tự đối đầu hoặc điều tra người đe dọa; cần người lớn/cơ quan chức năng khi có nguy cơ.",
+      "sourceIds": [
+        "road",
+        "scam",
+        "cyber",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "nutrition",
+      "id": "bua-an-tu-lap-18-22",
+      "title": "Bữa ăn tự lập 18–22 tuổi: đi học, ở trọ và làm việc với ngân sách giới hạn",
+      "summary": "Lập danh sách món, chi phí và phương án bảo quản an toàn.",
+      "sections": [
+        {
+          "heading": "Tổ chức bữa ăn từ điều kiện thật",
+          "body": "WHO nhấn mạnh chế độ đa dạng và an toàn. Khi ở trọ, xác định có bếp, tủ lạnh, nước sạch, giờ học/làm và ngân sách. Nếu không nấu được, lập danh sách nơi mua thức ăn đáng tin và món dễ kết hợp, thay vì buộc mình theo thực đơn lý tưởng.",
+          "sourceIds": [
+            "whoDiet",
+            "foodSafe"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Mua và chuẩn bị nguyên liệu",
+          "body": "Chọn cơm hoặc khoai, đậu, trứng, cá hoặc thịt, rau theo mùa và trái cây phù hợp. Lập kế hoạch hai hoặc ba ngày, kiểm tra phần ăn còn lại trước khi mua. Không bắt buộc ăn món đắt tiền để đủ chất; điều chỉnh theo nhu cầu và dị ứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "An toàn thực phẩm trong phòng trọ",
+          "body": "Rửa tay và dụng cụ, tách nguyên liệu sống khỏi thức ăn chín, nấu kỹ, bảo quản an toàn và chọn nước/nguyên liệu tin cậy. Nếu không có tủ lạnh phù hợp, mua lượng vừa dùng thay vì để đồ ăn dễ hỏng ngoài lâu. Không dùng mùi vị để bảo đảm mọi món còn an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi lịch học hoặc làm đảo lộn",
+          "body": "Chọn bữa dự phòng và thời điểm ăn thực tế. Nếu khó tiếp cận thực phẩm, hỏi trường, gia đình hoặc cộng đồng về hỗ trợ; không tự ép nhịn ăn để tiết kiệm. Khi đau bụng, nôn hoặc triệu chứng kéo dài, tìm đánh giá y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tính ngân sách ăn một tuần, không đặt mục tiêu calo.",
+        "Chọn ba món dễ làm và một món mua ngoài.",
+        "Kiểm tra điều kiện bảo quản và vệ sinh tại nơi ở."
+      ],
+      "limits": "Không dùng thực đơn ví dụ cho chế độ điều trị, dị ứng hoặc nhu cầu dinh dưỡng đặc biệt.",
+      "sourceIds": [
+        "whoDiet",
+        "foodSafe"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "body",
+      "id": "suc-khoe-sinh-san-tu-lap-18-22",
+      "title": "Sức khỏe sinh sản 18–22 tuổi: lựa chọn cá nhân, đồng thuận và chăm sóc phòng ngừa",
+      "summary": "Hiểu quyền quyết định cơ thể và tiếp cận tư vấn phù hợp, không kỳ thị.",
+      "sections": [
+        {
+          "heading": "Lựa chọn có thông tin",
+          "body": "Kế hoạch sinh sản thuộc quyền quyết định của mỗi người. WHO cung cấp thông tin về các phương pháp tránh thai; lựa chọn cần cân nhắc hiệu quả, tình trạng sức khỏe, khả năng tiếp cận và mong muốn. Không mặc định mọi người phải có quan hệ hoặc lập gia đình.",
+          "sourceIds": [
+            "contraception",
+            "sti",
+            "condoms"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đồng thuận và phòng ngừa",
+          "body": "Đồng thuận phải tự nguyện và có thể thay đổi. Bao cao su dùng đúng và nhất quán giúp giảm nguy cơ nhiều STI và mang thai ngoài ý muốn; các biện pháp tránh thai khác không nhất thiết bảo vệ STI. Hỏi nhân viên y tế về lựa chọn phù hợp, không mua thuốc chỉ theo lời quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị cuộc tư vấn",
+          "body": "Viết câu hỏi về phòng ngừa, xét nghiệm theo nguy cơ, kinh nguyệt hoặc triệu chứng, và các thuốc đang dùng. Tìm cơ sở có chuyên môn; hỏi chi phí, bảo mật và cách nhận kết quả. Không chia sẻ hồ sơ hoặc hình ảnh nhạy cảm với tài khoản chưa xác minh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có lo lắng hoặc bị ép buộc",
+          "body": "Nếu có triệu chứng, nghi phơi nhiễm, quan hệ không được đồng thuận hoặc lo mang thai ngoài ý muốn, tìm hỗ trợ y tế kịp thời. Không tự chẩn đoán từ hình ảnh hoặc dùng lại thuốc người khác. Người hỗ trợ cần tôn trọng quyết định và an toàn cá nhân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lưu thông tin một cơ sở tư vấn có chuyên môn.",
+        "Viết các câu hỏi về biện pháp phòng ngừa phù hợp.",
+        "Thực hành cách nói rõ ranh giới trong quan hệ."
+      ],
+      "limits": "Không kê thuốc, chỉ định xét nghiệm hoặc lựa chọn biện pháp tránh thai cá nhân; cần tư vấn chuyên môn.",
+      "sourceIds": [
+        "contraception",
+        "sti",
+        "condoms"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "routine",
+      "id": "ngu-va-lich-hoc-lam-18-22",
+      "title": "Nhịp sống 18–22 tuổi: ngủ đủ, vận động và cân bằng học–làm",
+      "summary": "Tạo một lịch tự quản có chỗ cho đi lại, nghỉ và thay đổi ca làm.",
+      "sections": [
+        {
+          "heading": "Xác định lịch thật trước tiên",
+          "body": "Nhu cầu ngủ không biến mất khi bắt đầu đại học hoặc đi làm. Ghi giờ bắt buộc, đi lại, học, việc nhà và khoảng nghỉ. Chọn khung ngủ tương đối ổn định nếu có thể; với ca làm thay đổi, cần kế hoạch linh hoạt và bảo đảm an toàn khi di chuyển.",
+          "sourceIds": [
+            "sleep",
+            "activityGuide"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch theo khối",
+          "body": "Đặt ba việc thiết yếu trong ngày, ưu tiên việc có thời hạn và dành thời gian dự phòng. Không chồng lịch học, làm và giải trí mà không có khoảng ăn nghỉ. Nếu ở cùng phòng, trao đổi giờ yên tĩnh, vệ sinh và sử dụng không gian chung.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Vận động vừa sức",
+          "body": "Tìm hoạt động phù hợp điều kiện như đi bộ giữa các điểm học, leo cầu thang khi an toàn, thể thao cùng bạn hoặc bài tập đã được hướng dẫn. Không bắt đầu bằng mục tiêu quá sức. Nếu bị thương hoặc có triệu chứng bất thường, dừng và hỏi chuyên gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi phải điều chỉnh",
+          "body": "Nếu mệt, ngủ kém hoặc không thể tập trung kéo dài, xem lịch có quá tải và tìm hỗ trợ phù hợp. Không dùng thuốc ngủ, chất kích thích hoặc nước tăng lực làm giải pháp mặc định. Khi buồn ngủ nghiêm trọng, không điều khiển phương tiện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Vẽ lịch bảy ngày bao gồm giờ đi lại và nghỉ.",
+        "Chọn một hoạt động vận động dễ duy trì.",
+        "Thống nhất giờ yên tĩnh nếu ở chung phòng."
+      ],
+      "limits": "Không phải kế hoạch điều trị rối loạn giấc ngủ hoặc chỉ định vận động.",
+      "sourceIds": [
+        "sleep",
+        "activityGuide"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "education",
+      "id": "hoc-dai-hoc-va-hoc-nghe-18-22",
+      "title": "Học ở tuổi 18–22: từ kiến thức nền đến năng lực tự học suốt đời",
+      "summary": "Tạo hệ thống học tập có sản phẩm và phản hồi, phù hợp đại học, nghề hoặc tự học.",
+      "sections": [
+        {
+          "heading": "Xây năng lực có thể chuyển đổi",
+          "body": "UNESCO xem học tập suốt đời là cơ hội phát triển nhiều dạng kỹ năng. Dù đang học đại học, cao đẳng, nghề hay tự học, hãy xác định điều cần làm được, không chỉ số chứng chỉ hoặc thời gian xem video. Chọn mục tiêu nhỏ có bằng chứng tiến bộ.",
+          "sourceIds": [
+            "lifelong",
+            "ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Học bằng một sản phẩm thật",
+          "body": "Ví dụ sinh viên kỹ thuật xây một mô hình nhỏ, học ngoại ngữ chuẩn bị bài trình bày, người học nghề ghi quy trình thực hành dưới giám sát. Xác định tiêu chí chất lượng, đọc tài liệu, thử làm và xin phản hồi. Không sao chép sản phẩm từ AI hoặc người khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tổ chức tài nguyên",
+          "body": "Dùng một nơi ghi nguồn, bài tập, câu hỏi và phiên bản. Chia mục tiêu dài thành tuần; nếu sử dụng AI, kiểm chứng nội dung, tuân thủ chính sách cơ sở học và không cung cấp dữ liệu mật. Học cách giải thích bằng lời mình trước khi nộp hoặc trình bày.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá và chọn bước kế tiếp",
+          "body": "Cuối tháng, so sánh sản phẩm với tiêu chí đã đặt, ghi điều chưa hiểu và xin góp ý người có chuyên môn. Nếu chọn khóa học mới, kiểm tra yêu cầu đầu vào, thời lượng, chi phí và bằng chứng chất lượng. Không mua liên tục nhiều khóa khi chưa thực hành.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một năng lực muốn cải thiện trong bốn tuần.",
+        "Đặt sản phẩm đầu ra và ba tiêu chí rõ ràng.",
+        "Tìm một người phản hồi, lưu bằng chứng tiến bộ."
+      ],
+      "limits": "Đây là cách tổ chức tự học đề xuất; không bảo đảm việc làm, bằng cấp hay kết quả thi.",
+      "sourceIds": [
+        "lifelong",
+        "ai"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "schools",
+      "id": "so-sanh-dai-hoc-cao-dang-18-22",
+      "title": "Chọn đại học, cao đẳng hoặc học nghề: kiểm định, chương trình và tổng chi phí",
+      "summary": "Tra cứu hồ sơ theo ngành và lộ trình thay vì chỉ nhìn tên trường.",
+      "sections": [
+        {
+          "heading": "Chọn ngành trước khi chọn danh tiếng",
+          "body": "Hỏi mình muốn làm việc gì, có thích hoạt động thực tế của ngành và cần nền tảng nào. So sánh các lộ trình có cấp bằng hoặc chứng chỉ phù hợp, kể cả học nghề. Một trường nổi tiếng chưa chắc mọi ngành phù hợp với mục tiêu cá nhân.",
+          "sourceIds": [
+            "accredit",
+            "admission",
+            "schools"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra kiểm định và tuyển sinh",
+          "body": "Cục Quản lý chất lượng có danh sách cơ sở/chương trình được công nhận cập nhật 30/8/2026; tra cứu đúng tên chương trình và phạm vi chứng nhận, kiểm tra tình trạng mới hơn nếu có. Dùng cổng Bộ và thông báo trường cho năm tuyển sinh cụ thể. Kiểm định cơ sở không đồng nghĩa mọi chương trình đã kiểm định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tính tổng chi phí",
+          "body": "Ghi học phí theo kỳ, lộ trình tăng nếu được công bố, nhà ở, đi lại, thiết bị, thực hành và khoản chưa biết. Đối chiếu học bổng, điều kiện duy trì và chính sách hoàn phí. Không coi lời hứa 'bao việc làm' là cam kết nếu không có văn bản và cách kiểm chứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử trước khi cam kết",
+          "body": "Đọc đề cương môn học, hỏi giảng viên, sinh viên hoặc cựu sinh viên, xem hoạt động thực hành và hỗ trợ học tập. So sánh ít nhất hai lựa chọn, lập phương án dự phòng. Lưu nguồn, ngày đọc và điều chưa xác minh; không dùng bảng xếp hạng tự tạo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập hồ sơ ba chương trình với link chính thức.",
+        "Kiểm tra phạm vi kiểm định và năm tuyển sinh.",
+        "Tính chi phí dự kiến toàn khóa và phương án dự phòng."
+      ],
+      "limits": "Không phải danh sách trường được đề cử; phải xác minh tình trạng công nhận và điều kiện thực tế tại thời điểm đăng ký.",
+      "sourceIds": [
+        "accredit",
+        "admission",
+        "schools"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
+    },
+    {
+      "stage": "adult",
+      "pillar": "safety",
+      "id": "an-toan-tu-lap-18-22",
+      "title": "An toàn khi sống tự lập 18–22 tuổi: đi lại, ở trọ và tránh lừa đảo",
+      "summary": "Biết kiểm tra nơi ở, hợp đồng và tình huống cần trợ giúp.",
+      "sections": [
+        {
+          "heading": "Lập kế hoạch đi lại và nơi ở",
+          "body": "Trước khi thuê phòng, kiểm tra lối thoát, khóa cửa, ánh sáng, cách liên hệ chủ nhà và quy định an toàn. Xác minh người cho thuê có thẩm quyền, đọc hợp đồng trước khi trả tiền. Khi đi muộn, chọn phương án an toàn và tránh lái xe khi không tỉnh táo.",
+          "sourceIds": [
+            "road",
+            "scam"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhận diện lời mời đáng ngờ",
+          "body": "Cảnh báo của Bộ Công an về việc nhẹ lương cao, mời đầu tư và giả danh là căn cứ cần lưu ý. Không chuyển khoản vì bị thúc ép, không đưa mã OTP, kiểm tra kênh tuyển dụng độc lập và không cài ứng dụng do người lạ gửi. Nếu đã giao dịch, liên hệ ngân hàng và cơ quan chức năng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tình huống ở trọ và quan hệ",
+          "body": "Thống nhất với người ở cùng về khóa, khách, thiết bị điện, chia phí và thông tin liên lạc. Không cho người lạ mượn giấy tờ, tài khoản hoặc SIM. Nếu thấy bị đe dọa, ưu tiên nơi an toàn, tìm người tin cậy hoặc cơ quan hỗ trợ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị khẩn cấp",
+          "body": "Lưu địa chỉ nơi ở, đầu mối quản lý, cơ sở y tế gần nhất và người có thể giúp. Tham gia lớp sơ cứu thực hành có người hướng dẫn, không thực hành kỹ thuật nguy hiểm từ video. Khi xảy ra cấp cứu, gọi hỗ trợ và làm theo hướng dẫn chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Rà soát lối thoát và khóa của nơi ở.",
+        "Xác minh một tin tuyển dụng qua website chính thức.",
+        "Lưu đầu mối hỗ trợ và thông tin nơi ở."
+      ],
+      "limits": "Không tự đối đầu người đe dọa hoặc xử lý cấp cứu ngoài khả năng; tham vấn cơ quan phù hợp.",
+      "sourceIds": [
+        "road",
+        "scam"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02B"
     }
   ]
 }
