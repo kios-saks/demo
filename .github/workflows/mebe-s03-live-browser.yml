@@ -10,7 +10,7 @@ permissions:
 jobs:
   live-browser:
     if: github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'qa/mebe-s03-live-browser'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
