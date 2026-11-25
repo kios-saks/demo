@@ -2,6 +2,7 @@ import {GET as renderArticle} from "../app/dev-review/[slug]/route";
 import {renderReaderLibrary} from "./reader-library";
 import {proxyMedia,dynamicMediaEnabled} from "./dynamic-media";
 import {listDevArticles} from "./dev-preview";
+import {openDevReader} from "./open-dev-reader";
 import {readBackend} from "./backend-reader";
 
 // Bounded, read-only smoke using the existing DEV server credential.
@@ -45,10 +46,12 @@ export async function auditAuthenticatedReader(){
    if(img.status!==200||!img.headers.get("x-media-asset")||!(img.headers.get("cache-control")||"").includes("no-store")||!(img.headers.get("content-type")||"").startsWith("image/"))throw Error("IMAGE");
    await img.arrayBuffer();images++;
   }
-  step="GUEST_DENIAL";
+  step=openDevReader()?"LINK_ACCESS":"GUEST_DENIAL";
   const denied=await Promise.all([renderReaderLibrary(req("/dev-review",false)),renderArticle(req("/dev-review/"+slug,false),{params:Promise.resolve({slug})}),proxyMedia(req("/api/dev-media/"+slug+"/cover",false),slug,"cover")]);
-  if(denied.some(r=>r.status!==404))throw Error("GUEST_DENIAL");
-  console.log("DEV_AUTH_SMOKE_PASS",JSON.stringify({articles:72,stages:12,library:200,article:200,verifiedImages:images,guestDenials:3,elapsedMs:Date.now()-started}));
+  const open=openDevReader();
+  if(denied.some(r=>r.status!==(open?200:404)))throw Error(step);
+  for(const response of denied)await response.body?.cancel();
+  console.log(open?"DEV_OPEN_READER_SMOKE_PASS":"DEV_AUTH_SMOKE_PASS",JSON.stringify({articles:72,stages:12,library:200,article:200,verifiedImages:images,guestDenials:open?0:3,linkAccessPass:open?3:0,elapsedMs:Date.now()-started}));
   return;
  }catch{
   if(attempt===1&&["WAKE_BACKEND","CATALOG","LIBRARY","ARTICLE","IMAGE_COVER","IMAGE_INLINE"].includes(step)){
