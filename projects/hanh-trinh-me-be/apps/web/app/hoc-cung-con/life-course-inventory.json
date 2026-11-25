@@ -5,52 +5,52 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 156,
+    "unique": 171,
     "cells": 192,
     "applicable": 173,
-    "partial": 110,
-    "gaps": 63,
+    "partial": 125,
+    "gaps": 48,
     "notPriority": 19,
     "byStage": [
       {
         "id": "prenatal",
         "age": "Trước khi sinh",
-        "items": 30,
+        "items": 32,
         "applicable": 10,
-        "partial": 8,
-        "gaps": 2
+        "partial": 10,
+        "gaps": 0
       },
       {
         "id": "baby",
         "age": "0–12 tháng",
-        "items": 16,
+        "items": 19,
         "applicable": 11,
-        "partial": 8,
-        "gaps": 3
+        "partial": 11,
+        "gaps": 0
       },
       {
         "id": "toddler",
         "age": "1–2 tuổi",
-        "items": 13,
+        "items": 16,
         "applicable": 12,
-        "partial": 9,
-        "gaps": 3
+        "partial": 12,
+        "gaps": 0
       },
       {
         "id": "preschool",
         "age": "3–5 tuổi",
-        "items": 13,
+        "items": 16,
         "applicable": 13,
-        "partial": 10,
-        "gaps": 3
+        "partial": 13,
+        "gaps": 0
       },
       {
         "id": "school",
         "age": "6–10 tuổi",
-        "items": 13,
+        "items": 17,
         "applicable": 15,
-        "partial": 11,
-        "gaps": 4
+        "partial": 15,
+        "gaps": 0
       },
       {
         "id": "preteen",
@@ -111,7 +111,7 @@
     ],
     "p0": 0,
     "baselineUnique": 93,
-    "newArticles": 63
+    "newArticles": 78
   },
   "refs": [
     {
@@ -1985,6 +1985,186 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-an-toan-nha-va-ke-hoach-ho-tro-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "ngan-sach-don-be",
+      "title": "Ngân sách đón bé: chuẩn bị chi phí thai sản và dự phòng",
+      "stage": "prenatal",
+      "pillar": "finance",
+      "originalStage": "prenatal",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ngan-sach-don-be"
+    },
+    {
+      "kind": "article",
+      "id": "thu-tuc-thai-san-khai-sinh",
+      "title": "Thủ tục đón bé tại Việt Nam: thai sản, khai sinh và bảo hiểm y tế",
+      "stage": "prenatal",
+      "pillar": "civic",
+      "originalStage": "prenatal",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-thu-tuc-thai-san-khai-sinh"
+    },
+    {
+      "kind": "article",
+      "id": "kham-pha-nguyen-nhan-ket-qua",
+      "title": "Năm đầu đời: khám phá nguyên nhân–kết quả qua chơi",
+      "stage": "baby",
+      "pillar": "thinking",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-kham-pha-nguyen-nhan-ket-qua"
+    },
+    {
+      "kind": "article",
+      "id": "am-thanh-va-chuyen-dong-nam-dau",
+      "title": "Âm thanh, nhịp điệu và chuyển động trong năm đầu đời",
+      "stage": "baby",
+      "pillar": "talents",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-am-thanh-va-chuyen-dong-nam-dau"
+    },
+    {
+      "kind": "article",
+      "id": "cham-soc-dap-ung-va-chuyen-tiep",
+      "title": "Thói quen chăm sóc năm đầu và chuẩn bị chuyển tiếp người chăm",
+      "stage": "baby",
+      "pillar": "life",
+      "originalStage": "baby",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-cham-soc-dap-ung-va-chuyen-tiep"
+    },
+    {
+      "kind": "article",
+      "id": "phan-loai-va-thu-lai-1-2",
+      "title": "Trò chơi tư duy 1–2 tuổi: phân loại, xếp và thử lại",
+      "stage": "toddler",
+      "pillar": "thinking",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-phan-loai-va-thu-lai-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "choi-canh-ban-va-xin-luot",
+      "title": "Quan hệ 1–2 tuổi: chơi cạnh bạn, xin lượt và chia sẻ từng bước",
+      "stage": "toddler",
+      "pillar": "relationships",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-choi-canh-ban-va-xin-luot"
+    },
+    {
+      "kind": "article",
+      "id": "am-nhac-tao-hinh-1-2",
+      "title": "Âm nhạc, vẽ và vận động tự do tuổi 1–2",
+      "stage": "toddler",
+      "pillar": "talents",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-am-nhac-tao-hinh-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "tinh-ban-va-lam-hoa-3-5",
+      "title": "Tình bạn tuổi 3–5: tập làm hòa, lắng nghe và hợp tác",
+      "stage": "preschool",
+      "pillar": "relationships",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tinh-ban-va-lam-hoa-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "nghe-thuat-va-trai-nghiem-3-5",
+      "title": "Khám phá năng khiếu 3–5 tuổi: nghệ thuật, vận động và trải nghiệm",
+      "stage": "preschool",
+      "pillar": "talents",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nghe-thuat-va-trai-nghiem-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "tu-phuc-vu-va-hop-tac-3-5",
+      "title": "Kỹ năng sống 3–5 tuổi: tự phục vụ, giữ đồ và hợp tác",
+      "stage": "preschool",
+      "pillar": "life",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-phuc-vu-va-hop-tac-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "an-toan-so-va-ai-6-10",
+      "title": "Kỹ năng số 6–10 tuổi: quảng cáo, quyền riêng tư và AI có người lớn đồng hành",
+      "stage": "school",
+      "pillar": "digital",
+      "originalStage": "school",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-toan-so-va-ai-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "so-thich-va-cau-lac-bo-6-10",
+      "title": "Khám phá sở thích 6–10 tuổi: câu lạc bộ, nghệ thuật và thể thao",
+      "stage": "school",
+      "pillar": "talents",
+      "originalStage": "school",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-so-thich-va-cau-lac-bo-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "quyen-hoc-tap-va-quy-tac-truong-6-10",
+      "title": "Quyền học tập và trách nhiệm tuổi tiểu học: hiểu quy tắc, biết tìm hỗ trợ",
+      "stage": "school",
+      "pillar": "civic",
+      "originalStage": "school",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quyen-hoc-tap-va-quy-tac-truong-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "quan-ly-thoi-gian-va-viec-nha-6-10",
+      "title": "Kỹ năng sống 6–10 tuổi: chuẩn bị đồ, việc nhà và quản lý thời gian",
+      "stage": "school",
+      "pillar": "life",
+      "originalStage": "school",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-quan-ly-thoi-gian-va-viec-nha-6-10"
     }
   ],
   "cells": [
@@ -2162,8 +2342,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Ngân sách thai sản, chi phí dự phòng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ngan-sach-don-be"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2184,8 +2366,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Thai sản, bảo hiểm, khai sinh: kiểm chứng quy định Việt Nam",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:thu-tuc-thai-san-khai-sinh"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2305,8 +2489,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Khám phá nguyên nhân-kết quả bằng vật an toàn",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:kham-pha-nguyen-nhan-ket-qua"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2354,8 +2540,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Âm thanh, vận động và khám phá cảm giác",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:am-thanh-va-chuyen-dong-nam-dau"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2398,8 +2586,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Thói quen chăm sóc đáp ứng và chuyển tiếp nhà trẻ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:cham-soc-dap-ung-va-chuyen-tiep"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2502,8 +2692,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Trò chơi phân loại, xếp hình, thử lại",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:phan-loai-va-thu-lai-1-2"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2524,8 +2716,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Chơi cạnh bạn, chia sẻ và xin lượt",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:choi-canh-ban-va-xin-luot"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2550,8 +2744,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Âm nhạc, vẽ và vận động tự do",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:am-nhac-tao-hinh-1-2"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2727,8 +2923,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tình bạn, làm hòa, giao tiếp tôn trọng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tinh-ban-va-lam-hoa-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2751,8 +2949,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Âm nhạc, tạo hình, vận động và trải nghiệm",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nghe-thuat-va-trai-nghiem-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2795,8 +2995,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Tự phục vụ, giữ gìn đồ dùng, hợp tác",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-phuc-vu-va-hop-tac-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2912,8 +3114,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "An toàn mạng, AI phù hợp tuổi, quảng cáo",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-toan-so-va-ai-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2949,8 +3153,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Khám phá sở thích, câu lạc bộ không áp lực",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:so-thich-va-cau-lac-bo-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2984,8 +3190,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Quyền học tập, trách nhiệm và quy tắc trường",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quyen-hoc-tap-va-quy-tac-truong-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2995,8 +3203,10 @@
       "applicable": true,
       "priority": "P1",
       "topic": "Việc nhà, tự chuẩn bị, quản lý thời gian",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:quan-ly-thoi-gian-va-viec-nha-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {

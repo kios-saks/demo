@@ -259,6 +259,78 @@
       "name": "Báo Chính phủ — Cảnh báo lừa đảo đối với người cao tuổi và trẻ em",
       "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
       "scope": "Xác minh giao dịch, lưu bằng chứng và trình báo."
+    },
+    "bhxh": {
+      "name": "Chính phủ — Luật Bảo hiểm xã hội 41/2024/QH15",
+      "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+      "scope": "Căn cứ tra cứu chế độ thai sản, hưu trí; kiểm tra văn bản hướng dẫn còn hiệu lực.",
+      "checkedOn": "2026-11-25"
+    },
+    "birth": {
+      "name": "Cổng Dịch vụ công — Liên thông khai sinh, thường trú, BHYT dưới 6 tuổi",
+      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh-lien-thong-chi-tiet.html?ma_thu_tuc=341602",
+      "scope": "Tra cứu quy trình, hồ sơ, nơi tiếp nhận; không khẳng định mức phí áp dụng toàn quốc.",
+      "checkedOn": "2026-11-25"
+    },
+    "emergencyFund": {
+      "name": "CFPB — An essential guide to building an emergency fund",
+      "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+      "scope": "Dòng tiền, dự phòng và mục tiêu tiết kiệm; nguyên tắc giáo dục, không phải quy định Việt Nam.",
+      "checkedOn": "2026-11-25"
+    },
+    "playHarvard": {
+      "name": "Harvard — Brain-Building Through Play",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+      "scope": "Chơi tương tác, chú ý, trí nhớ làm việc và tự điều chỉnh.",
+      "checkedOn": "2026-11-25"
+    },
+    "playVn": {
+      "name": "UNICEF Việt Nam — Trò chơi trong nhà hỗ trợ phát triển",
+      "url": "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+      "scope": "Hoạt động chơi theo độ tuổi, điều chỉnh phù hợp trẻ.",
+      "checkedOn": "2026-11-25"
+    },
+    "playInfant": {
+      "name": "UNICEF — Learning activities for babies and toddlers",
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+      "scope": "Gợi ý chơi, khám phá và việc nhỏ phù hợp tuổi.",
+      "checkedOn": "2026-11-25"
+    },
+    "executive": {
+      "name": "Harvard — Activities guide: executive function skills",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills/",
+      "scope": "Luyện chú ý, tự điều chỉnh qua tương tác và thực hành.",
+      "checkedOn": "2026-11-25"
+    },
+    "positive": {
+      "name": "UNICEF — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+      "scope": "Kết nối tôn trọng, chơi và kỷ luật tích cực.",
+      "checkedOn": "2026-11-25"
+    },
+    "childLaw": {
+      "name": "Chính phủ — Luật Trẻ em 102/2016/QH13",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=184566&pageid=27160",
+      "scope": "Căn cứ tra cứu quyền trẻ em và bảo vệ trẻ; xem văn bản hiện hành.",
+      "checkedOn": "2026-11-25"
+    },
+    "educationLaw": {
+      "name": "Văn phòng Quốc hội — Luật Giáo dục, VBHN 72/VBHN-VPQH (25/3/2026)",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=217346&pageid=27160",
+      "scope": "Căn cứ tra cứu hệ thống giáo dục, quyền và nghĩa vụ; đối chiếu văn bản hướng dẫn.",
+      "checkedOn": "2026-11-25"
+    },
+    "mil": {
+      "name": "UNESCO — Media and information literacy in the age of AI",
+      "url": "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+      "scope": "Năng lực kiểm chứng thông tin và hiểu AI có trách nhiệm.",
+      "checkedOn": "2026-11-25"
+    },
+    "privacyLaw": {
+      "name": "Chính phủ — Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15",
+      "url": "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+      "scope": "Căn cứ pháp lý về bảo vệ dữ liệu; không thay tư vấn pháp lý.",
+      "checkedOn": "2026-11-25"
     }
   },
   "articles": [
@@ -3325,6 +3397,730 @@
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
+    },
+    {
+      "stage": "prenatal",
+      "pillar": "finance",
+      "id": "ngan-sach-don-be",
+      "title": "Ngân sách đón bé: chuẩn bị chi phí thai sản và dự phòng",
+      "summary": "Lập ba kịch bản chi phí, không mua sắm theo danh sách quảng cáo.",
+      "sections": [
+        {
+          "heading": "Tách nhu cầu và dòng tiền",
+          "body": "Dự phòng giúp gia đình ứng phó khoản chi ngoài kế hoạch. Trước khi có bé, ghi thu nhập thực nhận và thời điểm nhận, các chi phí sinh hoạt phải trả, cùng chi phí dự kiến cho khám, sinh và chăm sóc. Đừng coi khoản thưởng hoặc tiền bảo hiểm chưa xác nhận là tiền đã có.",
+          "sourceIds": [
+            "emergencyFund",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Dự toán từ nơi cung cấp",
+          "body": "Hỏi bệnh viện về giá theo dịch vụ, khoản có thể phát sinh và phần được bảo hiểm chi trả theo trường hợp. Tách đồ dùng cần ngay khỏi món có thể mượn hoặc mua sau; ghi nguồn, ngày báo giá. Lập một cột chưa biết thay vì ghi 0 đồng. Không chọn cơ sở y tế chỉ vì chi phí thấp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ba kịch bản sau sinh",
+          "body": "Ví dụ giả định một tháng chi thiết yếu 10 triệu, dự kiến giảm thu nhập 4 triệu, thêm chi chăm bé 3 triệu: khoản chênh cần có phương án bù. Thử cả trường hợp trở lại làm muộn hoặc người chăm cần nghỉ thêm. Con số chỉ để luyện tính, không đại diện giá thị trường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thống nhất ưu tiên và quyền lợi",
+          "body": "Kiểm tra điều kiện hưởng thai sản qua cơ quan BHXH hoặc nơi làm việc, giữ hồ sơ riêng. Thống nhất ai phụ trách thanh toán, mức dự phòng có thể tích lũy và khi nào cần điều chỉnh kế hoạch. Tránh vay hoặc mua bảo hiểm chỉ dựa vào lời tư vấn chưa đọc hợp đồng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lập bảng thu chi 3 tháng trước và sau sinh.",
+        "Xin báo giá và xác minh quyền lợi BHXH theo trường hợp.",
+        "Chọn phương án dự phòng phù hợp dòng tiền."
+      ],
+      "limits": "Ví dụ giả định, không tư vấn đầu tư, bảo hiểm hoặc xác định mức hưởng thai sản cá nhân.",
+      "sourceIds": [
+        "emergencyFund",
+        "bhxh"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "prenatal",
+      "pillar": "civic",
+      "id": "thu-tuc-thai-san-khai-sinh",
+      "title": "Thủ tục đón bé tại Việt Nam: thai sản, khai sinh và bảo hiểm y tế",
+      "summary": "Chuẩn bị hồ sơ và đầu mối chính thức; không dựa vào hướng dẫn đã hết hiệu lực.",
+      "sections": [
+        {
+          "heading": "Phân biệt các nhóm thủ tục",
+          "body": "Luật BHXH là căn cứ tra cứu quyền lợi thai sản, còn Cổng Dịch vụ công có quy trình liên thông khai sinh, thường trú và BHYT trẻ dưới sáu tuổi. Mỗi thủ tục có đối tượng, điều kiện và nơi tiếp nhận khác nhau; không coi một giấy tờ là tự động đủ mọi quyền lợi.",
+          "sourceIds": [
+            "bhxh",
+            "birth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị từ trước sinh",
+          "body": "Hỏi bộ phận nhân sự hoặc cơ quan BHXH về quá trình tham gia, điều kiện và hồ sơ cần nộp. Kiểm tra họ tên trên giấy tờ và nơi liên hệ; hỏi bệnh viện về giấy chứng sinh và cách nhận. Chỉ lưu bản sao tại nơi bảo mật, không đưa số định danh vào công cụ AI công cộng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sau sinh: tra cứu đúng trường hợp",
+          "body": "Vào cổng dịch vụ công hoặc hỏi bộ phận tiếp nhận tại xã, phường để tìm thủ tục liên thông hiện hành. Xem thành phần hồ sơ, phương thức nộp, lệ phí nếu có, lịch trả và tình trạng xử lý. Trường hợp cha mẹ khác nơi cư trú hoặc giấy tờ có sai lệch cần hỏi cán bộ có thẩm quyền.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi đến khi có kết quả",
+          "body": "Ghi mã hồ sơ, đầu mối và ngày hẹn; đối chiếu thông tin trên kết quả khai sinh, đăng ký cư trú và thẻ BHYT. Nếu có sai sót, yêu cầu hướng dẫn điều chỉnh qua kênh chính thức. Không thanh toán cho người tự xưng xử lý nhanh qua tin nhắn hoặc chia sẻ mã xác thực.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Lưu link chính thức của BHXH và dịch vụ công.",
+        "Liệt kê giấy tờ cần xác minh trước sinh.",
+        "Lập bảng theo dõi từng thủ tục đến khi nhận kết quả."
+      ],
+      "limits": "Không khẳng định mức hưởng, thời hạn hay lệ phí; cần kiểm tra quy định hiện hành và hồ sơ cá nhân.",
+      "sourceIds": [
+        "bhxh",
+        "birth"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "baby",
+      "pillar": "thinking",
+      "id": "kham-pha-nguyen-nhan-ket-qua",
+      "title": "Năm đầu đời: khám phá nguyên nhân–kết quả qua chơi",
+      "summary": "Cho bé cơ hội quan sát, thử và phản hồi trong môi trường an toàn.",
+      "sections": [
+        {
+          "heading": "Tư duy bắt đầu bằng tương tác",
+          "body": "Hoạt động chơi qua lại giúp trẻ thực hành chú ý và khám phá môi trường. Với bé nhỏ, người lớn có thể phản hồi khi bé phát âm hoặc đưa tay, sau đó chờ bé tiếp tục. Không cần trò chơi có đáp án hoặc mục tiêu phát triển trí thông minh sớm.",
+          "sourceIds": [
+            "playHarvard",
+            "playInfant"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ví dụ đồ vật biến mất rồi xuất hiện",
+          "body": "Khi bé tỉnh và muốn chơi, dùng một đồ chơi phù hợp tuổi, che một phần bằng tay rồi đưa ra để bé quan sát. Người lớn giữ khăn và vật dụng ngoài vùng mặt bé; không để đồ mềm, dây hoặc vật nhỏ trong chỗ ngủ. Nếu bé không hứng thú, đổi hoạt động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo nhiều cách thử",
+          "body": "Với bé đã có khả năng cầm nắm phù hợp, đặt vật nhẹ, đủ lớn và an toàn trong tầm với dưới giám sát. Người chăm mô tả khi vật di chuyển, để bé thử lại thay vì ngay lập tức đưa vào tay. Không treo dây hoặc đồ vật ở nơi có nguy cơ mắc kẹt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh theo tín hiệu",
+          "body": "Một ngày bé có thể thích nhìn, ngày khác muốn nghỉ. Dừng nếu bé khó chịu và không ép kéo dài. Người chăm có thể ghi nhận điều bé tự làm được, không so sánh với video trên mạng. Nếu lo về khả năng đáp ứng hoặc mất kỹ năng, trao đổi bác sĩ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một đồ chơi an toàn phù hợp tuổi.",
+        "Thử tương tác quan sát–chờ–đáp lại.",
+        "Dừng khi bé mất hứng thú, ghi điều bé quan tâm."
+      ],
+      "limits": "Không phải bài kiểm tra nhận thức hay liệu pháp kích thích phát triển; luôn giám sát và chọn vật an toàn.",
+      "sourceIds": [
+        "playHarvard",
+        "playInfant"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "baby",
+      "pillar": "talents",
+      "id": "am-thanh-va-chuyen-dong-nam-dau",
+      "title": "Âm thanh, nhịp điệu và chuyển động trong năm đầu đời",
+      "summary": "Khám phá sở thích giác quan mà không đào tạo năng khiếu quá sớm.",
+      "sections": [
+        {
+          "heading": "Chơi theo tín hiệu, không thi năng khiếu",
+          "body": "Những tương tác đời thường như hát, trò chuyện và chuyển động nhẹ tạo cơ hội giao tiếp. Bé không cần được kiểm tra năng khiếu âm nhạc. Người chăm quan sát nét mặt, âm thanh và cử động rồi điều chỉnh để giữ trải nghiệm dễ chịu.",
+          "sourceIds": [
+            "playVn",
+            "ecd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Âm thanh từ sinh hoạt",
+          "body": "Hát câu ngắn bằng ngôn ngữ quen thuộc, dừng để bé ê a hoặc nhìn. Có thể tạo nhịp bằng vỗ tay nhẹ ở khoảng cách phù hợp. Tránh tiếng quá lớn, đồ vật sắc, hạt rời và dây; không đặt tai nghe hoặc loa sát tai bé.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuyển động và khám phá",
+          "body": "Khi bé tỉnh, chọn cách chơi phù hợp khả năng vận động và hướng dẫn an toàn đã được nhân viên y tế cung cấp. Đặt sách vải hoặc hình tương phản để quan sát. Không ép ngồi, đứng hoặc tập động tác vượt khả năng chỉ để quay video.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo nhịp chơi dễ chịu",
+          "body": "Bố mẹ và ông bà có thể luân phiên hát một bài quen thuộc, mô tả đồ vật hoặc lắc lư nhẹ khi bế đúng cách. Nếu bé quay đi, khóc hoặc mệt, kết thúc. Giữ không gian nghỉ yên tĩnh; tránh biến thiết bị phát âm thanh thành điều kiện để bé phải chơi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một bài hát ngắn gia đình yêu thích.",
+        "Thử phản hồi âm thanh của bé rồi chờ.",
+        "Kiểm tra đồ chơi và độ ồn trước khi chơi."
+      ],
+      "limits": "Không dự đoán năng khiếu hoặc tăng IQ; không thay đánh giá nghe và phát triển của chuyên gia.",
+      "sourceIds": [
+        "playVn",
+        "ecd"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "baby",
+      "pillar": "life",
+      "id": "cham-soc-dap-ung-va-chuyen-tiep",
+      "title": "Thói quen chăm sóc năm đầu và chuẩn bị chuyển tiếp người chăm",
+      "summary": "Bàn giao nhịp ăn, ngủ và tín hiệu của bé một cách nhất quán.",
+      "sections": [
+        {
+          "heading": "Nhịp sinh hoạt do nhu cầu dẫn dắt",
+          "body": "Chăm sóc đáp ứng nghĩa là quan sát và phản hồi nhu cầu, không áp đặt giờ cứng. Người chăm ghi lại tín hiệu đói, mệt và sở thích an ủi bằng mô tả đơn giản. Khi có nhiều người chăm, thống nhất nguyên tắc an toàn thay vì đòi mọi người làm giống hệt nhau.",
+          "sourceIds": [
+            "ecd",
+            "playInfant"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảng bàn giao tối thiểu",
+          "body": "Ghi lần ăn gần nhất, nhịp nghỉ, cách an ủi, dị ứng đã xác nhận và số liên hệ. Dùng giấy hoặc kênh riêng trong gia đình; không công khai thông tin sức khỏe hoặc ảnh bé. Với thuốc, chỉ thực hiện theo hướng dẫn chuyên môn, không truyền miệng liều lượng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Làm quen người chăm mới",
+          "body": "Nếu có kế hoạch gửi trẻ hoặc đổi người chăm, trao đổi về điều kiện an toàn, cách ăn ngủ và phản ứng của bé. Cho thời gian gặp gỡ khi có người quen nếu khả thi. Nói lời chào rõ ràng, giữ bàn giao ngắn gọn và trao đổi phản hồi; không ép bé thích nghi theo số ngày cố định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ hỗ trợ cho cả người lớn",
+          "body": "Sắp xếp người thay thế khi một người quá mệt, để họ nghỉ và ăn uống. Nếu người chăm mới có điều chưa rõ, khuyến khích hỏi trước khi thay đổi cách chăm. Khi bé có biểu hiện bất thường, báo người phụ trách và tìm trợ giúp y tế phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tạo bảng bàn giao một trang không có dữ liệu dư thừa.",
+        "Thống nhất cách liên hệ khi có sự cố.",
+        "Hẹn trao đổi sau vài lần chuyển tiếp."
+      ],
+      "limits": "Không thay thế quy trình chăm sóc y tế hoặc đánh giá nhà trẻ; nhịp sinh hoạt cần phù hợp từng bé.",
+      "sourceIds": [
+        "ecd",
+        "playInfant"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "thinking",
+      "id": "phan-loai-va-thu-lai-1-2",
+      "title": "Trò chơi tư duy 1–2 tuổi: phân loại, xếp và thử lại",
+      "summary": "Tập quan sát khác biệt, lựa chọn và giải quyết vấn đề bằng vật an toàn.",
+      "sections": [
+        {
+          "heading": "Trò chơi là cơ hội thử nghiệm",
+          "body": "Trẻ nhỏ học qua thao tác và phản hồi. Trò phân loại đơn giản có thể tạo cơ hội chú ý, nhớ và tự điều chỉnh; mục tiêu là khám phá chứ không thi đúng sai. Chọn một đặc điểm dễ nhìn như màu hoặc hình, không yêu cầu trẻ hiểu mọi quy tắc.",
+          "sourceIds": [
+            "playHarvard",
+            "playInfant"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phân loại bằng đồ có sẵn",
+          "body": "Dùng khăn lớn hai màu hoặc đồ chơi nguyên khối an toàn. Người lớn đặt một món vào giỏ, nói ngắn rồi mời trẻ thử. Nếu trẻ chọn cách khác, hỏi hoặc mô tả điều trẻ làm; không sửa liên tục. Tránh nắp chai, hạt, nam châm rời và đồ nhỏ có nguy cơ hóc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xếp, đổ và thử lại",
+          "body": "Với khối lớn phù hợp tuổi, thử xếp thấp rồi quan sát khi khối đổ. Người lớn làm mẫu cách đặt mặt rộng xuống, cho trẻ tự thử. Chọn nền chắc chắn, không xếp vật nặng trên cao. Nếu trẻ bực, giảm độ khó hoặc chuyển sang hoạt động khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá bằng hứng thú",
+          "body": "Quan sát trẻ có thử một cách khác, nhìn người lớn hoặc quay lại trò chơi không. Không ghi điểm IQ, không đặt mục tiêu xếp được bao nhiêu khối. Một trò ngắn lặp lại theo sở thích có ích hơn mua liên tục đồ chơi mới.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn hai giỏ và đồ vật lớn an toàn.",
+        "Thử phân loại một đặc điểm rồi đổi cách chơi.",
+        "Cho trẻ một lần thử lại trước khi hỗ trợ."
+      ],
+      "limits": "Không đánh giá năng lực trí tuệ qua trò chơi; mọi hoạt động cần phù hợp tuổi và có người lớn giám sát.",
+      "sourceIds": [
+        "playHarvard",
+        "playInfant"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "relationships",
+      "id": "choi-canh-ban-va-xin-luot",
+      "title": "Quan hệ 1–2 tuổi: chơi cạnh bạn, xin lượt và chia sẻ từng bước",
+      "summary": "Giúp trẻ tham gia nhóm mà không ép chia sẻ hoặc gắn nhãn ích kỷ.",
+      "sections": [
+        {
+          "heading": "Học giao tiếp từ tình huống nhỏ",
+          "body": "Trẻ tuổi này vẫn cần người lớn hỗ trợ khi chơi với bạn. Có thể thích chơi cạnh nhau hơn chơi chung; điều đó không tự chứng minh trẻ có khó khăn xã hội. Người lớn làm mẫu lời nói, giới hạn hành vi gây hại và tạo môi trường đủ đồ chơi phù hợp.",
+          "sourceIds": [
+            "positive",
+            "playInfant"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi hai trẻ muốn một món",
+          "body": "Đến gần, giữ an toàn, mô tả: cả hai đang muốn món này. Đưa lựa chọn đợi cùng người lớn hoặc thử món khác. Nếu có đánh, giật, chặn hành vi nhẹ nhàng và hỗ trợ trẻ bị đau. Không ép xin lỗi ngay khi trẻ chưa bình tĩnh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tập xin lượt",
+          "body": "Dùng trò lăn bóng lớn qua lại hoặc đặt đồ vào giỏ lần lượt. Nói tên người đến lượt, giữ thời gian chờ ngắn và điều chỉnh nếu trẻ khó chịu. Khi trẻ chủ động đưa đồ, phản hồi cụ thể thay vì khen trẻ ngoan hơn bạn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phối hợp gia đình và nơi chăm",
+          "body": "Hỏi người chăm về tình huống thường xảy ra, thống nhất lời nhắc đơn giản và cách xử lý an toàn. Nếu xung đột lặp lại, xem số trẻ, đồ chơi, giờ nghỉ và nhu cầu hỗ trợ. Không công khai video trẻ khóc hay tranh đồ để phán xét.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập trò lăn bóng lần lượt trong vài phút.",
+        "Chuẩn bị hai lựa chọn khi có tranh đồ.",
+        "Thống nhất một câu nhắc không bạo lực với người chăm."
+      ],
+      "limits": "Không chẩn đoán kỹ năng xã hội từ một tình huống; cần đánh giá nếu lo ngại kéo dài.",
+      "sourceIds": [
+        "positive",
+        "playInfant"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "talents",
+      "id": "am-nhac-tao-hinh-1-2",
+      "title": "Âm nhạc, vẽ và vận động tự do tuổi 1–2",
+      "summary": "Khuyến khích sở thích và biểu đạt bằng hoạt động phù hợp tuổi.",
+      "sections": [
+        {
+          "heading": "Trải nghiệm trước kết quả",
+          "body": "Chơi có thể hỗ trợ nhiều kỹ năng cùng lúc, từ chú ý đến tương tác. Ở tuổi tập đi, không cần chọn môn năng khiếu dài hạn. Hãy để trẻ thử âm nhạc, chuyển động và tạo dấu vẽ, quan sát điều trẻ thích mà không so sánh sản phẩm.",
+          "sourceIds": [
+            "playVn",
+            "playHarvard"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhịp điệu bằng cơ thể",
+          "body": "Hát đoạn ngắn, vỗ tay hoặc gõ nhịp nhẹ bằng vật an toàn, cho trẻ chọn làm theo hoặc nghe. Dọn khoảng sàn trống để nhún nhảy dưới giám sát. Không mở âm lượng lớn, không ép trẻ diễn trước người lạ hoặc quay lại nhiều lần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo hình đơn giản",
+          "body": "Chọn dụng cụ vẽ không độc, phù hợp độ tuổi và đủ lớn, trải giấy trên mặt chắc chắn. Làm mẫu một nét rồi để trẻ tự khám phá; người lớn giám sát để tránh đưa dụng cụ vào miệng. Dừng khi trẻ mệt hoặc chuyển sang việc khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tôn trọng sự thay đổi sở thích",
+          "body": "Trẻ có thể thích một bài hát hôm nay rồi bỏ qua ngày mai. Lưu sản phẩm nếu trẻ và gia đình muốn, không dùng làm hồ sơ đánh giá năng khiếu. Hạn chế mua khóa học dài khi chưa rõ điều kiện, an toàn và hứng thú của trẻ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Thử một bài hát và một trò chuyển động nhẹ.",
+        "Chuẩn bị giấy và dụng cụ phù hợp tuổi.",
+        "Để trẻ chọn hoạt động tiếp theo."
+      ],
+      "limits": "Không phải phương pháp phát hiện năng khiếu; lựa chọn và giám sát dụng cụ phù hợp.",
+      "sourceIds": [
+        "playVn",
+        "playHarvard"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "relationships",
+      "id": "tinh-ban-va-lam-hoa-3-5",
+      "title": "Tình bạn tuổi 3–5: tập làm hòa, lắng nghe và hợp tác",
+      "summary": "Dạy giao tiếp tôn trọng bằng tình huống cụ thể, không bắt trẻ chịu đựng hành vi gây hại.",
+      "sections": [
+        {
+          "heading": "Tình bạn là quá trình học",
+          "body": "Trẻ mầm non có thể thay đổi bạn chơi và gặp xung đột khi muốn cùng món đồ. Người lớn giúp gọi tên cảm xúc và hướng dẫn lời nói, không gắn nhãn tính cách theo một hành vi. Điều quan trọng là trẻ được an toàn và có cơ hội sửa tình huống.",
+          "sourceIds": [
+            "positive",
+            "playHarvard"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi trẻ tranh lượt chơi",
+          "body": "Mô tả việc xảy ra bằng câu ngắn, nghe từng trẻ và đưa lựa chọn phù hợp: chờ lượt, cùng chơi hoặc chọn đồ khác. Nếu một trẻ làm đau bạn, dừng hành vi và chăm sóc trẻ bị đau. Khi bình tĩnh, mời trẻ nghĩ cách sửa, không ép ôm hoặc xin lỗi ngay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trò chơi hợp tác",
+          "body": "Cùng xây một mô hình bằng khối lớn, mỗi trẻ chọn một phần; người lớn giúp phân lượt và khuyến khích hỏi ý bạn. Có thể kể chuyện hai nhân vật muốn chơi khác nhau rồi hỏi giải pháp. Tránh biến hoạt động thành thi đua ai tốt hơn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi xung đột kéo dài",
+          "body": "Hỏi giáo viên về bối cảnh, thời điểm và cách hỗ trợ. Nếu trẻ thường bị làm đau, sợ đến lớp hoặc bị cô lập, phối hợp nhà trường để bảo đảm an toàn. Đừng yêu cầu trẻ tự chịu đựng vì muốn con mạnh mẽ; tìm hỗ trợ chuyên môn khi cần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tập câu xin lượt và câu từ chối lịch sự.",
+        "Chơi một hoạt động hợp tác thay vì đối kháng.",
+        "Trao đổi với giáo viên về một tình huống cụ thể."
+      ],
+      "limits": "Không buộc trẻ thân thiết hoặc hòa giải khi chưa an toàn; người lớn chịu trách nhiệm bảo vệ.",
+      "sourceIds": [
+        "positive",
+        "playHarvard"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "talents",
+      "id": "nghe-thuat-va-trai-nghiem-3-5",
+      "title": "Khám phá năng khiếu 3–5 tuổi: nghệ thuật, vận động và trải nghiệm",
+      "summary": "Tạo cơ hội thử nhiều hoạt động mà không gắn nhãn tài năng.",
+      "sections": [
+        {
+          "heading": "Khám phá không phải tuyển chọn",
+          "body": "Các trò chơi và hoạt động sáng tạo giúp trẻ trải nghiệm, luyện chú ý và giao tiếp. Trẻ có thể thích vẽ, hát, nhảy hoặc xây dựng, nhưng không cần chọn môn chính sớm. Quan sát niềm vui và sự chủ động hơn vẻ đẹp của sản phẩm.",
+          "sourceIds": [
+            "playVn",
+            "playHarvard"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Góc sáng tạo ít chi phí",
+          "body": "Chuẩn bị giấy, bút phù hợp tuổi, hộp bìa sạch hoặc khối lớn an toàn. Đặt một chủ đề mở như làm ngôi nhà hoặc kể chuyện bằng hình. Cho trẻ lựa chọn và mô tả ý tưởng, không sửa tranh cho giống mẫu người lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử vận động và âm nhạc",
+          "body": "Chọn trò đi theo nhịp, tung bóng mềm hoặc nhảy trong khoảng trống an toàn. Nếu có lớp ngoại khóa, hỏi giáo viên về phương pháp, giám sát, thời gian nghỉ và cách trẻ có thể từ chối. Không ép học nhiều lớp chỉ vì bạn bè tham gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại sự phù hợp",
+          "body": "Sau vài buổi, hỏi trẻ thích phần nào và có muốn thử tiếp không. Xem lịch còn thời gian ngủ, chơi tự do và sinh hoạt gia đình không; điều chỉnh nếu trẻ mệt. Không dự đoán thành công nghề nghiệp hoặc đánh giá IQ từ kết quả lớp năng khiếu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chuẩn bị một góc sáng tạo bằng đồ an toàn.",
+        "Thử hai hoạt động khác nhau trong tuần.",
+        "Hỏi trẻ muốn tiếp tục hay thay đổi."
+      ],
+      "limits": "Không bảo đảm phát hiện năng khiếu hoặc thành tích; tôn trọng sự lựa chọn và an toàn.",
+      "sourceIds": [
+        "playVn",
+        "playHarvard"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "life",
+      "id": "tu-phuc-vu-va-hop-tac-3-5",
+      "title": "Kỹ năng sống 3–5 tuổi: tự phục vụ, giữ đồ và hợp tác",
+      "summary": "Xây khả năng tự làm từng bước trong sinh hoạt, không sử dụng việc nhà làm hình phạt.",
+      "sections": [
+        {
+          "heading": "Chọn việc vừa sức",
+          "body": "Trẻ có thể tham gia một phần việc trong ngày như cất dép, đưa khăn, sắp đồ chơi hoặc chọn áo. Người lớn vẫn chịu trách nhiệm an toàn. Mục tiêu là giúp trẻ tham gia và hiểu trình tự, không buộc trẻ hoàn thành toàn bộ việc của người lớn.",
+          "sourceIds": [
+            "playInfant",
+            "positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Làm mẫu và giảm hỗ trợ",
+          "body": "Ví dụ, với việc cất ba lô, đặt móc ở độ cao an toàn, chỉ từng bước, để trẻ thử và hỗ trợ phần khó. Dùng hình đơn giản để nhắc nếu trẻ chưa đọc. Không thúc giục liên tục hoặc lấy thời gian hoàn thành làm thước đo ngoan.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hợp tác trong gia đình",
+          "body": "Mời trẻ chọn một việc nhỏ trước bữa ăn như đưa khăn giấy; người lớn xử lý dao, bếp và vật nóng. Sau khi xong, nói rõ việc đó giúp cả nhà thế nào. Nếu trẻ không muốn, xem có quá khó, đang mệt hay cần lựa chọn khác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuyển kỹ năng sang trường",
+          "body": "Hỏi giáo viên trẻ cần tự chuẩn bị những gì, tập ở nhà theo cách nhẹ nhàng. Giữ đồ dùng có nhãn phù hợp, tránh ghi thông tin cá nhân quá nhiều bên ngoài. Khi trẻ gặp khó khăn, điều chỉnh môi trường và tìm hỗ trợ thay vì phạt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một việc tự phục vụ và chia thành ba bước.",
+        "Đặt đồ ở nơi trẻ có thể lấy an toàn.",
+        "Hỏi trẻ muốn giúp việc nào, hỗ trợ khi cần."
+      ],
+      "limits": "Không giao việc nguy hiểm, không dùng lao động hoặc trách nhiệm người lớn để rèn trẻ.",
+      "sourceIds": [
+        "playInfant",
+        "positive"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "school",
+      "pillar": "digital",
+      "id": "an-toan-so-va-ai-6-10",
+      "title": "Kỹ năng số 6–10 tuổi: quảng cáo, quyền riêng tư và AI có người lớn đồng hành",
+      "summary": "Học cách dừng, hỏi và kiểm chứng trước khi tin hoặc bấm.",
+      "sections": [
+        {
+          "heading": "Công nghệ phục vụ nhu cầu học",
+          "body": "UNESCO coi năng lực thông tin trong thời đại AI là khả năng đánh giá nội dung và giữ quyền quyết định. Với trẻ tiểu học, ưu tiên hoạt động cùng người lớn; không cần tài khoản AI riêng. Kiểm tra giới hạn tuổi của dịch vụ và quy định nhà trường.",
+          "sourceIds": [
+            "digital",
+            "mil",
+            "privacyLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quảng cáo và đường dẫn",
+          "body": "Cùng xem một nội dung phù hợp tuổi, tìm dấu hiệu quảng cáo, lời mời mua hàng hoặc yêu cầu bấm liên kết. Thực hành quy tắc dừng và hỏi người lớn nếu có yêu cầu tên, ảnh, địa chỉ, mã xác thực hoặc thanh toán. Không thực hành bằng trang lừa đảo thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI có thể nói sai",
+          "body": "Người lớn chuẩn bị câu trả lời giả lập về một con vật hoặc hiện tượng dễ kiểm tra. Cùng trẻ so sánh với sách hoặc nguồn giáo dục, chỉ ra chỗ chưa chắc. Không cung cấp ảnh, thông tin định danh hoặc bài làm riêng của người khác cho công cụ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thỏa thuận gia đình",
+          "body": "Chọn thời gian, thiết bị và cách báo cáo khi trẻ gặp nội dung khó chịu. Người lớn không nên trách mắng khi trẻ kể việc đã bấm nhầm; hỗ trợ đóng nội dung, bảo vệ tài khoản và giải thích cách làm tiếp. Kiểm tra cài đặt mua hàng và quyền riêng tư phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Tìm một quảng cáo mẫu và chỉ dấu hiệu nhận biết.",
+        "Thử kiểm chứng một câu trả lời AI giả lập.",
+        "Thống nhất người trẻ có thể hỏi khi gặp nội dung lạ."
+      ],
+      "limits": "Không yêu cầu trẻ dùng dịch vụ không phù hợp tuổi hoặc cung cấp dữ liệu thật; phụ huynh chịu trách nhiệm giám sát.",
+      "sourceIds": [
+        "digital",
+        "mil",
+        "privacyLaw"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "school",
+      "pillar": "talents",
+      "id": "so-thich-va-cau-lac-bo-6-10",
+      "title": "Khám phá sở thích 6–10 tuổi: câu lạc bộ, nghệ thuật và thể thao",
+      "summary": "Chọn hoạt động có trải nghiệm, an toàn và thời gian nghỉ thay vì theo thành tích.",
+      "sections": [
+        {
+          "heading": "Mở nhiều cửa thay vì chọn một nhãn",
+          "body": "Trẻ có thể thích đá bóng, đọc, vẽ, âm nhạc, làm mô hình hoặc hoạt động cộng đồng. Hỏi trẻ muốn thử gì và cho cơ hội tiếp cận phù hợp điều kiện. Thành tích sớm không phải dự đoán chắc chắn nghề tương lai; không ép chọn vì mong muốn của cha mẹ.",
+          "sourceIds": [
+            "playHarvard",
+            "positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử trước khi đăng ký dài hạn",
+          "body": "Tìm hoạt động tại trường hoặc nơi tổ chức chính thức; hỏi lịch, chi phí, người hướng dẫn, trang bị và cách xử lý khi trẻ mệt hay bị bắt nạt. Nếu có thể, thử một buổi và hỏi con điều thấy vui, khó hoặc muốn đổi. Không chọn chỉ vì quảng cáo huy chương.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ nhịp học–chơi",
+          "body": "Lập lịch có chỗ cho bữa ăn, đi lại, ngủ và thời gian tự do. Nếu tham gia nhiều lớp, cùng trẻ cân nhắc bỏ bớt hoạt động không còn phù hợp. Với thể thao, ưu tiên hướng dẫn và bảo hộ, không tập khi có chấn thương hoặc khó chịu bất thường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi lại quá trình tự nguyện",
+          "body": "Có thể lưu tranh, câu chuyện hoặc ảnh sản phẩm nếu trẻ đồng ý; không đăng hình riêng tư để cạnh tranh. Hỏi trẻ đã học điều gì, muốn thử tiếp hay nghỉ. Đánh giá bằng trải nghiệm và sự phát triển kỹ năng, không chỉ giải thưởng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi trẻ chọn hai sở thích muốn thử.",
+        "So sánh lịch, phí và an toàn của hai hoạt động.",
+        "Sau vài buổi, cùng quyết định tiếp tục hay dừng."
+      ],
+      "limits": "Không xếp hạng tài năng, đề cử cơ sở chưa kiểm chứng hoặc cam kết kết quả.",
+      "sourceIds": [
+        "playHarvard",
+        "positive"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "school",
+      "pillar": "civic",
+      "id": "quyen-hoc-tap-va-quy-tac-truong-6-10",
+      "title": "Quyền học tập và trách nhiệm tuổi tiểu học: hiểu quy tắc, biết tìm hỗ trợ",
+      "summary": "Hướng dẫn cha mẹ và trẻ trao đổi về quyền, quy định trường và bảo vệ trẻ.",
+      "sections": [
+        {
+          "heading": "Giải thích quyền bằng tình huống",
+          "body": "Luật Trẻ em và Luật Giáo dục là căn cứ tra cứu quyền học tập, bảo vệ và các nghĩa vụ liên quan. Với trẻ nhỏ, nói dễ hiểu: con có thể hỏi khi chưa hiểu, cần được an toàn và tôn trọng người khác. Không biến học quyền thành việc bắt trẻ học thuộc điều luật.",
+          "sourceIds": [
+            "childLaw",
+            "educationLaw",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quy tắc có lý do",
+          "body": "Cùng đọc nội quy trường về giờ vào lớp, đồ dùng, giữ vệ sinh và hành vi an toàn. Hỏi quy tắc giúp ai và cần làm gì khi gặp khó khăn. Trách nhiệm không có nghĩa trẻ phải chấp nhận bị làm nhục, đánh hoặc bị ép giữ bí mật về hành vi gây hại.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có vấn đề tại trường",
+          "body": "Ghi sự việc bằng thời điểm, người liên quan và điều trẻ kể; giữ thông tin riêng tư. Trao đổi giáo viên hoặc nhà trường theo kênh chính thức. Nếu trẻ có nguy cơ bị xâm hại, ưu tiên an toàn và liên hệ người có trách nhiệm hoặc Tổng đài 111.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thực hành tham gia cộng đồng",
+          "body": "Cho trẻ tham gia lựa chọn quy tắc ở nhà như cất đồ, chờ lượt nói và giữ không gian chung. Người lớn làm mẫu tôn trọng quyền riêng tư và chịu trách nhiệm về hành vi của mình. Khi có tranh chấp pháp lý, hỏi cơ quan có thẩm quyền thay vì suy luận từ bài đọc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Đọc một nội quy và giải thích lý do của nó.",
+        "Chọn hai người trẻ có thể nhờ giúp.",
+        "Tập mô tả một sự việc mà không đổ lỗi."
+      ],
+      "limits": "Bài giáo dục công dân, không giải thích kết quả pháp lý cụ thể; đối chiếu luật và nội quy đang áp dụng.",
+      "sourceIds": [
+        "childLaw",
+        "educationLaw",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
+    },
+    {
+      "stage": "school",
+      "pillar": "life",
+      "id": "quan-ly-thoi-gian-va-viec-nha-6-10",
+      "title": "Kỹ năng sống 6–10 tuổi: chuẩn bị đồ, việc nhà và quản lý thời gian",
+      "summary": "Rèn trách nhiệm bằng nhiệm vụ vừa sức và công cụ trực quan.",
+      "sections": [
+        {
+          "heading": "Bắt đầu bằng một chuỗi việc",
+          "body": "Kỹ năng tự quản có thể được luyện qua hoạt động hằng ngày. Ví dụ chuẩn bị ba lô gồm xem lịch học, chọn sách và đặt ở chỗ cố định. Người lớn làm mẫu, giúp tạo bảng nhắc, sau đó giảm hỗ trợ theo khả năng; không so sánh tốc độ với bạn.",
+          "sourceIds": [
+            "executive",
+            "positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Việc nhà phù hợp tuổi",
+          "body": "Chọn việc như gấp khăn, dọn đồ chơi hoặc xếp bát không dễ vỡ dưới hướng dẫn. Không giao bếp nóng, hóa chất hoặc việc nặng vượt khả năng. Nói rõ mục đích và cho lựa chọn; không dùng việc nhà để trừng phạt hoặc thay trách nhiệm người lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lịch có thời gian nghỉ",
+          "body": "Dùng bảng ngày với vài mốc: học, ăn, chơi, chuẩn bị và ngủ. Hỏi trẻ việc nào cần làm trước, có gì vướng; để khoảng dự phòng thay vì lấp hết giờ. Nếu bài tập quá nhiều, trao đổi giáo viên thay vì lấy hết thời gian chơi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận xét quá trình, không dán nhãn",
+          "body": "Cuối tuần cùng xem nhiệm vụ nào đã dễ hơn và nhắc việc nào còn cần hỗ trợ. Nếu trẻ quên, điều chỉnh bảng hoặc vị trí đồ, không gọi trẻ lười. Với khó khăn kéo dài ảnh hưởng học và sinh hoạt, tìm hỗ trợ phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Làm bảng ba bước chuẩn bị cặp sách.",
+        "Chọn một việc nhà an toàn trẻ muốn thử.",
+        "Xem lại lịch cùng trẻ cuối tuần."
+      ],
+      "limits": "Không thay đánh giá phát triển hoặc giao việc quá sức; trẻ cần thời gian nghỉ và vui chơi.",
+      "sourceIds": [
+        "executive",
+        "positive"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-03A"
     }
   ]
 }
