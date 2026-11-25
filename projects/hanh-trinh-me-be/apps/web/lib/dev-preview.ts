@@ -1,5 +1,6 @@
 import {readBackend} from "./backend-reader";
 import {timingSafeEqual} from "node:crypto";
+import {openDevReader} from "./open-dev-reader";
 import {hasReaderSession} from "./reader-invite";
 import type {Article,ArticleSummary} from "../../../packages/data/src/contracts";
 import contentSnapshot from "../../../packages/content/articles.json";
@@ -15,10 +16,11 @@ const securityHeaders={
  "X-Frame-Options":"DENY",
  "Content-Security-Policy":"default-src 'none'; script-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'"
 };
-/** Private read-only reader: invited session or server-side legacy credential, without a browser auth challenge. */
+/** Read-only link access on the designated Combined DEV; all other environments retain the existing credential gate. */
 export function requirePreviewLogin(request:Request):Response|null{
  const secret=process.env.DEV_CONTENT_PREVIEW_TOKEN;
  if(!secret||secret.length<24)return new Response("Not found",{status:404,headers:securityHeaders});
+ if(openDevReader()&&["GET","HEAD"].includes(request.method))return null;
  if(hasReaderSession(request))return null;
  const expected=Buffer.from("Basic "+Buffer.from("editor:"+secret).toString("base64"));
  const actual=Buffer.from(request.headers.get("authorization")||"");

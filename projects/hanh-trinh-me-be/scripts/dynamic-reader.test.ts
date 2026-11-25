@@ -1,5 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import {openDevReader} from "../apps/web/lib/open-dev-reader";
+import {requirePreviewLogin} from "../apps/web/lib/dev-preview";
+import {mediaAdminProxy} from "../apps/web/lib/media-admin-proxy";
 import {createHash} from "node:crypto";
 import {GET as article} from "../apps/web/app/dev-review/[slug]/route";
 import {proxyMedia,articleMediaUrl} from "../apps/web/lib/dynamic-media";
@@ -54,6 +57,28 @@ test("dynamic rendering of every article, access control, current revision and n
   const refreshed=await article(request("/dev-review/"+slug),{params:Promise.resolve({slug})});assert.ok((await refreshed.text()).includes(articleMediaUrl(slug,"cover",2)));
   assert.equal((await proxyMedia(request("/api/dev-media/catalog/editorial-hero.svg"),"catalog","editorial-hero.svg")).status,200);
   assert.equal((await proxyMedia(request("/api/dev-media/catalog/editorial-hero.svg",false),"catalog","editorial-hero.svg")).status,404);
+  const modeKeys=["MEBE_COMBINED_DEV","RENDER","RENDER_SERVICE_ID"] as const;
+  const oldMode=modeKeys.map(k=>process.env[k]);
+  try {
+   process.env.MEBE_COMBINED_DEV="true";process.env.RENDER="true";process.env.RENDER_SERVICE_ID="srv-other";
+   assert.equal(openDevReader(),false);
+   assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);
+   process.env.RENDER_SERVICE_ID="srv-dc19cibl550s73drji5g";
+   assert.equal(openDevReader(),true);
+   assert.equal(requirePreviewLogin(request("/dev-review",false)),null);
+   assert.equal(requirePreviewLogin(new Request("http://localhost/dev-review",{method:"POST"}))?.status,404);
+   const openList=await renderReaderLibrary(request("/dev-review",false));
+   assert.equal(openList.status,200);assert.match(openList.headers.get("x-robots-tag")||"",/noindex/);
+   const openArticle=await article(request("/dev-review/"+slug,false),{params:Promise.resolve({slug})});
+   assert.equal(openArticle.status,200);assert.match(await openArticle.text(),/Chưa được thẩm định y khoa/);
+   assert.equal((await proxyMedia(request(articleMediaUrl(slug,"cover"),false),slug,"cover")).status,200);
+   assert.equal((await mediaAdminProxy(request("/api/media-admin/session",false),["session"])).status,404);
+   process.env.MEBE_COMBINED_DEV="false";assert.equal(openDevReader(),false);
+   assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);
+   process.env.MEBE_COMBINED_DEV="true";process.env.RENDER="false";assert.equal(openDevReader(),false);
+   assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);
+   console.log("DEV_LINK_ACCESS_SCOPED_PASS");
+  }finally{modeKeys.forEach((k,i)=>{if(oldMode[i]===undefined)delete process.env[k];else process.env[k]=oldMode[i];});}
   console.log("DYNAMIC_READER_72_ARTICLES_144_SLOTS_VERIFIED");
  }finally{globalThis.fetch=fetchOld;keys.forEach((k,i)=>{if(old[i]===undefined)delete process.env[k];else process.env[k]=old[i];});}
 });
