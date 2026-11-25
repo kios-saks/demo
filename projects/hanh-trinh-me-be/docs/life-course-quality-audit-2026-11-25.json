@@ -1,7 +1,7 @@
 {
   "version": 1,
   "asOf": "2026-11-25",
-  "method": "Full-text automated baseline: whitespace tokens in Vietnamese (not linguistic word counts), body only; exact normalized paragraphs >=25 tokens; title token Jaccard >=0.35 and >=3 shared tokens within stage. Lexical flags are review candidates, not semantic duplicate proof. URL syntax and registry only; no network or expert review. Practice/limits legacy heading heuristic, not quality judgement.",
+  "method": "Full-text automated baseline: whitespace tokens in Vietnamese (not linguistic word counts), body only; exact normalized paragraphs >=25 tokens; title token Jaccard >=0.35 and >=3 shared tokens within stage. Lexical flags are review candidates, not semantic duplicate proof. HTTPS shape and registry only; no network or expert review. Practice/limits legacy heading heuristic, not quality judgement.",
   "stats": {
     "items": 219,
     "byKind": {
@@ -33,10 +33,10 @@
         "long": 0
       }
     },
-    "sourceUrls": 0,
-    "sourceRefs": 0,
-    "invalidSources": 523,
-    "withoutSources": 219,
+    "sourceUrls": 131,
+    "sourceRefs": 523,
+    "invalidSources": 0,
+    "withoutSources": 0,
     "withoutSectionSources": 93,
     "withoutPractice": 0,
     "withoutLimits": 21,
@@ -140,9 +140,12 @@
       "bodyTokens": 1018,
       "bodyChars": 4543,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -160,9 +163,14 @@
       "bodyTokens": 1089,
       "bodyChars": 4931,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant",
+        "https://www.nhs.uk/pregnancy/keeping-well/medicines"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -180,9 +188,12 @@
       "bodyTokens": 1041,
       "bodyChars": 4629,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -200,9 +211,12 @@
       "bodyTokens": 1039,
       "bodyChars": 4598,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -220,9 +234,12 @@
       "bodyTokens": 1000,
       "bodyChars": 4397,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -240,9 +257,12 @@
       "bodyTokens": 986,
       "bodyChars": 4398,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -260,9 +280,12 @@
       "bodyTokens": 995,
       "bodyChars": 4416,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.who.int/publications-detail-redirect/9789240045989"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -280,9 +303,12 @@
       "bodyTokens": 968,
       "bodyChars": 4320,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.who.int/publications-detail-redirect/9789240045989"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -300,9 +326,12 @@
       "bodyTokens": 995,
       "bodyChars": 4389,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -320,9 +349,12 @@
       "bodyTokens": 961,
       "bodyChars": 4312,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -340,9 +372,12 @@
       "bodyTokens": 994,
       "bodyChars": 4401,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -360,9 +395,12 @@
       "bodyTokens": 976,
       "bodyChars": 4344,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -380,9 +418,13 @@
       "bodyTokens": 976,
       "bodyChars": 4322,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789241514064",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.cdc.gov/act-early/milestones/6-months.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -400,9 +442,13 @@
       "bodyTokens": 990,
       "bodyChars": 4391,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.cdc.gov/act-early/milestones/6-months.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -420,9 +466,12 @@
       "bodyTokens": 955,
       "bodyChars": 4279,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -440,9 +489,13 @@
       "bodyTokens": 945,
       "bodyChars": 4265,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789241514064",
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -460,9 +513,13 @@
       "bodyTokens": 958,
       "bodyChars": 4267,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789241514064",
+        "https://www.cdc.gov/act-early/milestones/4-years.html",
+        "https://www.unicef.org/parenting/child-care/science-of-play"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -480,9 +537,12 @@
       "bodyTokens": 950,
       "bodyChars": 4220,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/4-years.html",
+        "https://www.unicef.org/parenting/child-care/science-of-play"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -500,9 +560,12 @@
       "bodyTokens": 942,
       "bodyChars": 4144,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+        "https://www.cdc.gov/healthy-schools/sleep"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -520,9 +583,12 @@
       "bodyTokens": 939,
       "bodyChars": 4167,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+        "https://www.cdc.gov/healthy-schools/sleep"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -540,9 +606,12 @@
       "bodyTokens": 1001,
       "bodyChars": 4428,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -560,9 +629,12 @@
       "bodyTokens": 996,
       "bodyChars": 4395,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -580,9 +652,12 @@
       "bodyTokens": 986,
       "bodyChars": 4439,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/europe/publications/i/item/9789240014886",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -600,9 +675,12 @@
       "bodyTokens": 946,
       "bodyChars": 4294,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/europe/publications/i/item/9789240014886",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -620,9 +698,12 @@
       "bodyTokens": 1178,
       "bodyChars": 5409,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -640,9 +721,12 @@
       "bodyTokens": 1211,
       "bodyChars": 5466,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -660,9 +744,12 @@
       "bodyTokens": 1181,
       "bodyChars": 5337,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -680,9 +767,12 @@
       "bodyTokens": 1174,
       "bodyChars": 5315,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -700,9 +790,13 @@
       "bodyTokens": 1175,
       "bodyChars": 5256,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -720,9 +814,13 @@
       "bodyTokens": 1171,
       "bodyChars": 5272,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -740,9 +838,12 @@
       "bodyTokens": 1200,
       "bodyChars": 5400,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -760,9 +861,12 @@
       "bodyTokens": 1188,
       "bodyChars": 5313,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -780,9 +884,13 @@
       "bodyTokens": 1129,
       "bodyChars": 5046,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -800,9 +908,12 @@
       "bodyTokens": 1157,
       "bodyChars": 5189,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -820,9 +931,12 @@
       "bodyTokens": 1138,
       "bodyChars": 5096,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -840,9 +954,12 @@
       "bodyTokens": 1130,
       "bodyChars": 5063,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -860,9 +977,13 @@
       "bodyTokens": 1157,
       "bodyChars": 5158,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -880,9 +1001,12 @@
       "bodyTokens": 1143,
       "bodyChars": 5165,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -900,9 +1024,12 @@
       "bodyTokens": 1144,
       "bodyChars": 5102,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -920,9 +1047,13 @@
       "bodyTokens": 1146,
       "bodyChars": 5096,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -940,9 +1071,12 @@
       "bodyTokens": 1148,
       "bodyChars": 5147,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.who.int/publications-detail-redirect/9789240045989"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -960,9 +1094,13 @@
       "bodyTokens": 1212,
       "bodyChars": 5491,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs",
+        "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -980,9 +1118,12 @@
       "bodyTokens": 1153,
       "bodyChars": 5092,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.cdc.gov/hearher/maternal-warning-signs"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1000,9 +1141,13 @@
       "bodyTokens": 1181,
       "bodyChars": 5192,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/publications-detail-redirect/9789240045989",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1020,9 +1165,12 @@
       "bodyTokens": 1183,
       "bodyChars": 5321,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1040,9 +1188,12 @@
       "bodyTokens": 1171,
       "bodyChars": 5177,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+        "https://www.cdc.gov/act-early/milestones/2-months.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1060,9 +1211,12 @@
       "bodyTokens": 1173,
       "bodyChars": 5198,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1080,9 +1234,12 @@
       "bodyTokens": 1147,
       "bodyChars": 5158,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/2-months.html",
+        "https://www.unicef.org/parenting/child-development/baby-tips"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1100,9 +1257,13 @@
       "bodyTokens": 1243,
       "bodyChars": 5490,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/publications-detail-redirect/9789240081864",
+        "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1120,9 +1281,13 @@
       "bodyTokens": 1204,
       "bodyChars": 5361,
       "sections": 10,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely",
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid",
+        "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1140,9 +1305,13 @@
       "bodyTokens": 1180,
       "bodyChars": 5252,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/6-months.html",
+        "https://www.cdc.gov/act-early/milestones/1-year.html",
+        "https://www.unicef.org/parenting/child-development/baby-tips"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1160,9 +1329,12 @@
       "bodyTokens": 1159,
       "bodyChars": 5240,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sudden-infant-death/sleep-safely",
+        "https://www.cdc.gov/act-early/milestones/6-months.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1180,9 +1352,12 @@
       "bodyTokens": 1163,
       "bodyChars": 5229,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.unicef.org/parenting/child-development/baby-tips"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1200,9 +1375,13 @@
       "bodyTokens": 1146,
       "bodyChars": 5138,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications-detail-redirect/9789240081864",
+        "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1220,9 +1399,12 @@
       "bodyTokens": 1133,
       "bodyChars": 5113,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+        "https://www.cdc.gov/act-early/milestones/2-years.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1240,9 +1422,12 @@
       "bodyTokens": 1141,
       "bodyChars": 5118,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-development/baby-tips",
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1260,9 +1445,12 @@
       "bodyTokens": 1128,
       "bodyChars": 5108,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+        "https://www.cdc.gov/act-early/milestones/4-years.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1280,9 +1468,12 @@
       "bodyTokens": 1142,
       "bodyChars": 5089,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/4-years.html",
+        "https://www.cdc.gov/act-early/milestones/5-years.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1300,9 +1491,12 @@
       "bodyTokens": 1138,
       "bodyChars": 5084,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+        "https://www.cdc.gov/act-early/milestones/4-years.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1320,9 +1514,12 @@
       "bodyTokens": 1131,
       "bodyChars": 5120,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+        "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1340,9 +1537,12 @@
       "bodyTokens": 1134,
       "bodyChars": 5076,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+        "https://www.cdc.gov/healthy-schools/sleep"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1360,9 +1560,12 @@
       "bodyTokens": 1127,
       "bodyChars": 5075,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/healthy-schools/sleep",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1380,9 +1583,12 @@
       "bodyTokens": 1130,
       "bodyChars": 5102,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1400,9 +1606,12 @@
       "bodyTokens": 1171,
       "bodyChars": 5202,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-care/bullying",
+        "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1420,9 +1629,12 @@
       "bodyTokens": 1210,
       "bodyChars": 5392,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1440,9 +1652,12 @@
       "bodyTokens": 1228,
       "bodyChars": 5454,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1460,9 +1675,12 @@
       "bodyTokens": 1207,
       "bodyChars": 5364,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1480,9 +1698,13 @@
       "bodyTokens": 1184,
       "bodyChars": 5271,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+        "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1500,9 +1722,12 @@
       "bodyTokens": 1186,
       "bodyChars": 5381,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/reports/parenting-adolescents",
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1520,9 +1745,12 @@
       "bodyTokens": 1165,
       "bodyChars": 5280,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/europe/publications/i/item/9789240014886",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1540,9 +1768,12 @@
       "bodyTokens": 1136,
       "bodyChars": 5187,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1560,9 +1791,13 @@
       "bodyTokens": 1189,
       "bodyChars": 5355,
       "sections": 12,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+        "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+        "https://www.unicef.org/reports/parenting-adolescents"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": false,
@@ -1580,9 +1815,12 @@
       "bodyTokens": 124,
       "bodyChars": 529,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/key-concept/serve-and-return",
+        "https://www.unicef.org/vietnam/parenting-hub"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1600,9 +1838,12 @@
       "bodyTokens": 112,
       "bodyChars": 486,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://www.unicef.org/vietnam/parenting-hub"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1620,9 +1861,12 @@
       "bodyTokens": 96,
       "bodyChars": 414,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/key-concept/serve-and-return",
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1640,9 +1884,12 @@
       "bodyTokens": 108,
       "bodyChars": 481,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/parenting-hub",
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1660,9 +1907,12 @@
       "bodyTokens": 89,
       "bodyChars": 389,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1680,9 +1930,11 @@
       "bodyTokens": 108,
       "bodyChars": 483,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/parenting-hub"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1700,9 +1952,12 @@
       "bodyTokens": 85,
       "bodyChars": 378,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1720,9 +1975,12 @@
       "bodyTokens": 96,
       "bodyChars": 424,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/parenting-hub",
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1740,9 +1998,12 @@
       "bodyTokens": 103,
       "bodyChars": 468,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/digital-parenting",
+        "https://www.unicef.org/vietnam/parenting-ai-age"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1760,9 +2021,12 @@
       "bodyTokens": 104,
       "bodyChars": 465,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/mental-health-conversation-starters-610-years",
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1780,9 +2044,12 @@
       "bodyTokens": 106,
       "bodyChars": 474,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/communication-information/priorities/media-information-literacy",
+        "https://www.unicef.org/vietnam/digital-parenting"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1800,9 +2067,11 @@
       "bodyTokens": 99,
       "bodyChars": 441,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1820,9 +2089,12 @@
       "bodyTokens": 119,
       "bodyChars": 532,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+        "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1840,9 +2112,12 @@
       "bodyTokens": 104,
       "bodyChars": 458,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+        "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1860,9 +2135,13 @@
       "bodyTokens": 104,
       "bodyChars": 457,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682",
+        "https://www.unicef.org/vietnam/parenting-ai-age",
+        "https://www.unesco.org/en/communication-information/priorities/media-information-literacy"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1880,9 +2159,12 @@
       "bodyTokens": 119,
       "bodyChars": 528,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development",
+        "https://www.unicef.org/vietnam/digital-parenting"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1900,9 +2182,12 @@
       "bodyTokens": 112,
       "bodyChars": 496,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682",
+        "https://www.unesco.org/en/communication-information/priorities/media-information-literacy"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1920,9 +2205,12 @@
       "bodyTokens": 109,
       "bodyChars": 481,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn",
+        "https://www.unesco.org/en/communication-information/priorities/media-information-literacy"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1940,9 +2228,12 @@
       "bodyTokens": 106,
       "bodyChars": 478,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/building-core-skills-youth",
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1960,9 +2251,11 @@
       "bodyTokens": 106,
       "bodyChars": 482,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -1980,9 +2273,12 @@
       "bodyTokens": 115,
       "bodyChars": 508,
       "sections": 3,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/building-core-skills-youth",
+        "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+      ],
       "practice": true,
       "limits": false,
       "hasSectionSources": false,
@@ -2000,9 +2296,12 @@
       "bodyTokens": 309,
       "bodyChars": 1375,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+        "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2020,9 +2319,11 @@
       "bodyTokens": 288,
       "bodyChars": 1301,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2040,9 +2341,11 @@
       "bodyTokens": 258,
       "bodyChars": 1170,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2060,9 +2363,12 @@
       "bodyTokens": 259,
       "bodyChars": 1184,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+        "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2080,9 +2386,12 @@
       "bodyTokens": 248,
       "bodyChars": 1115,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+        "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2100,9 +2409,11 @@
       "bodyTokens": 246,
       "bodyChars": 1117,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2120,9 +2431,11 @@
       "bodyTokens": 251,
       "bodyChars": 1114,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2140,9 +2453,12 @@
       "bodyTokens": 230,
       "bodyChars": 1053,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2160,9 +2476,13 @@
       "bodyTokens": 246,
       "bodyChars": 1102,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/falls",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/ageing-and-health",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2180,9 +2500,12 @@
       "bodyTokens": 225,
       "bodyChars": 1039,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2200,9 +2523,12 @@
       "bodyTokens": 261,
       "bodyChars": 1156,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/ageing-and-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2220,9 +2546,11 @@
       "bodyTokens": 219,
       "bodyChars": 962,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/97892400020986"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2240,9 +2568,13 @@
       "bodyTokens": 205,
       "bodyChars": 930,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240085336",
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/en/news-room/fact-sheets/detail/oral-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2260,9 +2592,12 @@
       "bodyTokens": 203,
       "bodyChars": 904,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/act-early/milestones/2-years.html",
+        "https://www.who.int/publications/i/item/97892400020986"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2280,9 +2615,12 @@
       "bodyTokens": 188,
       "bodyChars": 848,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789241550536",
+        "https://www.cdc.gov/sleep/about"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2300,9 +2638,13 @@
       "bodyTokens": 206,
       "bodyChars": 936,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240085336",
+        "https://www.who.int/en/news-room/fact-sheets/detail/oral-health",
+        "https://www.who.int/publications/i/item/9789240105201"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2320,9 +2662,12 @@
       "bodyTokens": 200,
       "bodyChars": 924,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789241550536",
+        "https://www.cdc.gov/sleep/about"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2340,9 +2685,13 @@
       "bodyTokens": 218,
       "bodyChars": 967,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/drowning",
+        "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2360,9 +2709,13 @@
       "bodyTokens": 205,
       "bodyChars": 920,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240085336",
+        "https://www.who.int/publications/i/item/9789240105201",
+        "https://www.who.int/en/news-room/fact-sheets/detail/oral-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2380,9 +2733,13 @@
       "bodyTokens": 211,
       "bodyChars": 960,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240085336",
+        "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2400,9 +2757,12 @@
       "bodyTokens": 199,
       "bodyChars": 903,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2420,9 +2780,12 @@
       "bodyTokens": 192,
       "bodyChars": 859,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240085336",
+        "https://www.who.int/health-topics/adolescent-health"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2440,9 +2803,13 @@
       "bodyTokens": 191,
       "bodyChars": 856,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sleep/about",
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://www.unicef.org/vietnam/digital-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2460,9 +2827,12 @@
       "bodyTokens": 205,
       "bodyChars": 893,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961",
+        "https://www.unicef.org/vietnam/digital-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2480,9 +2850,13 @@
       "bodyTokens": 201,
       "bodyChars": 906,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/how-talk-your-children-about-bullying",
+        "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2500,9 +2874,12 @@
       "bodyTokens": 195,
       "bodyChars": 887,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2520,9 +2897,12 @@
       "bodyTokens": 210,
       "bodyChars": 966,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/adolescent-health",
+        "https://www.who.int/publications/i/item/9789240085336"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2540,9 +2920,12 @@
       "bodyTokens": 208,
       "bodyChars": 961,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sleep/about",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2560,9 +2943,12 @@
       "bodyTokens": 218,
       "bodyChars": 1006,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+        "https://tuyensinh.moet.gov.vn/ts"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2580,9 +2966,14 @@
       "bodyTokens": 225,
       "bodyChars": 1006,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+        "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+        "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2600,9 +2991,12 @@
       "bodyTokens": 211,
       "bodyChars": 931,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2620,9 +3014,13 @@
       "bodyTokens": 219,
       "bodyChars": 1018,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/family-planning-contraception",
+        "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+        "https://www.who.int/news-room/fact-sheets/detail/condoms"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2640,9 +3038,12 @@
       "bodyTokens": 205,
       "bodyChars": 943,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sleep/about",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2660,9 +3061,12 @@
       "bodyTokens": 213,
       "bodyChars": 984,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2680,9 +3084,13 @@
       "bodyTokens": 224,
       "bodyChars": 1024,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+        "https://tuyensinh.moet.gov.vn/ts",
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2700,9 +3108,12 @@
       "bodyTokens": 220,
       "bodyChars": 979,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+        "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2720,9 +3131,12 @@
       "bodyTokens": 219,
       "bodyChars": 990,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2740,9 +3154,11 @@
       "bodyTokens": 224,
       "bodyChars": 1002,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 1,
-      "sourceUrls": [],
+      "sourceCount": 1,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2760,9 +3176,12 @@
       "bodyTokens": 218,
       "bodyChars": 1012,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/vietnam/news/fact-sheets/detail/family-planning-contraception",
+        "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2780,9 +3199,12 @@
       "bodyTokens": 215,
       "bodyChars": 986,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.cdc.gov/sleep/about",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2800,9 +3222,12 @@
       "bodyTokens": 215,
       "bodyChars": 974,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2820,9 +3245,13 @@
       "bodyTokens": 221,
       "bodyChars": 1019,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2840,9 +3269,13 @@
       "bodyTokens": 216,
       "bodyChars": 966,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/occupational-health",
+        "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+        "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2860,9 +3293,12 @@
       "bodyTokens": 213,
       "bodyChars": 966,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2880,9 +3316,12 @@
       "bodyTokens": 206,
       "bodyChars": 926,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases",
+        "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2900,9 +3339,13 @@
       "bodyTokens": 209,
       "bodyChars": 944,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2920,9 +3363,13 @@
       "bodyTokens": 210,
       "bodyChars": 990,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/menopause",
+        "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+        "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2940,9 +3387,12 @@
       "bodyTokens": 216,
       "bodyChars": 982,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2960,9 +3410,13 @@
       "bodyTokens": 217,
       "bodyChars": 984,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+        "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -2980,9 +3434,13 @@
       "bodyTokens": 199,
       "bodyChars": 901,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/health-topics/occupational-health",
+        "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+        "https://www.who.int/news-room/fact-sheets/detail/falls"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3000,9 +3458,13 @@
       "bodyTokens": 223,
       "bodyChars": 1003,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.nhs.uk/conditions/malnutrition"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3020,9 +3482,13 @@
       "bodyTokens": 212,
       "bodyChars": 975,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/publications/i/item/9789240062764",
+        "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3040,9 +3506,13 @@
       "bodyTokens": 215,
       "bodyChars": 977,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+        "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3060,9 +3530,13 @@
       "bodyTokens": 206,
       "bodyChars": 947,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://www.cdc.gov/sleep/about",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3080,9 +3554,12 @@
       "bodyTokens": 206,
       "bodyChars": 951,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3100,9 +3577,13 @@
       "bodyTokens": 220,
       "bodyChars": 979,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3120,9 +3601,13 @@
       "bodyTokens": 205,
       "bodyChars": 924,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.nhs.uk/conditions/malnutrition",
+        "https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-support-someone-you-care-for-with-eating"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3140,9 +3625,13 @@
       "bodyTokens": 216,
       "bodyChars": 964,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3160,9 +3649,14 @@
       "bodyTokens": 212,
       "bodyChars": 957,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+        "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3180,9 +3674,13 @@
       "bodyTokens": 201,
       "bodyChars": 937,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/publications/i/item/9789240015128",
+        "https://www.cdc.gov/sleep/about"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3200,9 +3698,13 @@
       "bodyTokens": 210,
       "bodyChars": 980,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3220,9 +3722,13 @@
       "bodyTokens": 216,
       "bodyChars": 988,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3240,9 +3746,13 @@
       "bodyTokens": 224,
       "bodyChars": 1010,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/falls",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3260,9 +3770,12 @@
       "bodyTokens": 234,
       "bodyChars": 1055,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3280,9 +3793,12 @@
       "bodyTokens": 238,
       "bodyChars": 1050,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh-lien-thong-chi-tiet.html?ma_thu_tuc=341602"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3300,9 +3816,12 @@
       "bodyTokens": 220,
       "bodyChars": 951,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3320,9 +3839,12 @@
       "bodyTokens": 201,
       "bodyChars": 901,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+        "https://www.who.int/publications/i/item/97892400020986"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3340,9 +3862,12 @@
       "bodyTokens": 222,
       "bodyChars": 1004,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/publications/i/item/97892400020986",
+        "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3360,9 +3885,12 @@
       "bodyTokens": 206,
       "bodyChars": 923,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3380,9 +3908,12 @@
       "bodyTokens": 202,
       "bodyChars": 890,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+        "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3400,9 +3931,12 @@
       "bodyTokens": 197,
       "bodyChars": 875,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3420,9 +3954,12 @@
       "bodyTokens": 211,
       "bodyChars": 930,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3440,9 +3977,12 @@
       "bodyTokens": 195,
       "bodyChars": 890,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3460,9 +4000,12 @@
       "bodyTokens": 200,
       "bodyChars": 890,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3480,9 +4023,13 @@
       "bodyTokens": 214,
       "bodyChars": 980,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/vietnam/digital-parenting",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3500,9 +4047,12 @@
       "bodyTokens": 210,
       "bodyChars": 952,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3520,9 +4070,13 @@
       "bodyTokens": 223,
       "bodyChars": 985,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=1&docid=184566&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=0&docid=217346&pageid=27160",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3540,9 +4094,12 @@
       "bodyTokens": 200,
       "bodyChars": 895,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3560,9 +4117,12 @@
       "bodyTokens": 220,
       "bodyChars": 998,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://www.unesco.org/en/articles/ai-answers-you-decide"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3580,9 +4140,12 @@
       "bodyTokens": 213,
       "bodyChars": 973,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+        "https://www.unicef.org/vietnam/how-talk-your-children-about-bullying"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3600,9 +4163,12 @@
       "bodyTokens": 208,
       "bodyChars": 927,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+        "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3620,9 +4186,12 @@
       "bodyTokens": 206,
       "bodyChars": 941,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3640,9 +4209,12 @@
       "bodyTokens": 209,
       "bodyChars": 938,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+        "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3660,9 +4232,14 @@
       "bodyTokens": 215,
       "bodyChars": 949,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=1&docid=184566&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160",
+        "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3680,9 +4257,12 @@
       "bodyTokens": 207,
       "bodyChars": 914,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills",
+        "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3700,9 +4280,12 @@
       "bodyTokens": 204,
       "bodyChars": 920,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://www.unesco.org/en/articles/ai-answers-you-decide"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3720,9 +4303,12 @@
       "bodyTokens": 208,
       "bodyChars": 958,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3740,9 +4326,13 @@
       "bodyTokens": 215,
       "bodyChars": 978,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+        "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+        "https://tuyensinh.moet.gov.vn/ts"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3760,9 +4350,13 @@
       "bodyTokens": 227,
       "bodyChars": 1025,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=184566&pageid=27160",
+        "https://tongdai111.vn/sites/gioi-thieu"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3780,9 +4374,12 @@
       "bodyTokens": 210,
       "bodyChars": 943,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills",
+        "https://www.oecd.org/en/topics/sub-issues/career-guidance.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3800,9 +4397,12 @@
       "bodyTokens": 198,
       "bodyChars": 904,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3820,9 +4420,13 @@
       "bodyTokens": 214,
       "bodyChars": 970,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3840,9 +4444,12 @@
       "bodyTokens": 206,
       "bodyChars": 951,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.oecd.org/en/topics/sub-issues/career-guidance.html"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3860,9 +4467,13 @@
       "bodyTokens": 217,
       "bodyChars": 986,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3880,9 +4491,12 @@
       "bodyTokens": 212,
       "bodyChars": 963,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://www.unesco.org/en/articles/ai-answers-you-decide"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3900,9 +4514,13 @@
       "bodyTokens": 217,
       "bodyChars": 979,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3920,9 +4538,12 @@
       "bodyTokens": 214,
       "bodyChars": 970,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://vanban.chinhphu.vn?classid=1&docid=175351&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3940,9 +4561,12 @@
       "bodyTokens": 205,
       "bodyChars": 924,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3960,9 +4584,13 @@
       "bodyTokens": 226,
       "bodyChars": 1015,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit",
+        "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -3980,9 +4608,13 @@
       "bodyTokens": 215,
       "bodyChars": 976,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+        "https://www.oecd.org/en/publications/2025/12/oecd-skills-outlook-2025_ac37c7d4.html",
+        "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4000,9 +4632,14 @@
       "bodyTokens": 203,
       "bodyChars": 944,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+        "https://vanban.chinhphu.vn?docid=215257&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=202609&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4020,9 +4657,12 @@
       "bodyTokens": 210,
       "bodyChars": 969,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4040,9 +4680,12 @@
       "bodyTokens": 208,
       "bodyChars": 945,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4060,9 +4703,13 @@
       "bodyTokens": 217,
       "bodyChars": 963,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160",
+        "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4080,9 +4727,13 @@
       "bodyTokens": 212,
       "bodyChars": 963,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4100,9 +4751,13 @@
       "bodyTokens": 203,
       "bodyChars": 935,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4120,9 +4775,14 @@
       "bodyTokens": 218,
       "bodyChars": 1000,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit",
+        "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4140,9 +4800,13 @@
       "bodyTokens": 215,
       "bodyChars": 991,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+        "https://www.oecd.org/en/publications/2025/12/oecd-skills-outlook-2025_ac37c7d4.html",
+        "https://vanban.chinhphu.vn?classid=1&docid=214560&pageid=27160&typegroupid=3"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4160,9 +4824,15 @@
       "bodyTokens": 221,
       "bodyChars": 991,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 5,
-      "sourceUrls": [],
+      "sourceCount": 5,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+        "https://vanban.chinhphu.vn?docid=215257&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=214515&pageid=27160&typegroupid=4"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4180,9 +4850,13 @@
       "bodyTokens": 211,
       "bodyChars": 951,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4200,9 +4874,12 @@
       "bodyTokens": 228,
       "bodyChars": 1021,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4220,9 +4897,13 @@
       "bodyTokens": 212,
       "bodyChars": 966,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/new-online-course-helps-cities-advance-digital-learning-older-adults",
+        "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+        "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4240,9 +4921,13 @@
       "bodyTokens": 218,
       "bodyChars": 971,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4260,9 +4945,13 @@
       "bodyTokens": 205,
       "bodyChars": 957,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4280,9 +4969,14 @@
       "bodyTokens": 223,
       "bodyChars": 1016,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=214435&pageid=27160&typegroupid=4",
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4300,9 +4994,13 @@
       "bodyTokens": 212,
       "bodyChars": 990,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+        "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4320,9 +5018,15 @@
       "bodyTokens": 217,
       "bodyChars": 957,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 5,
-      "sourceUrls": [],
+      "sourceCount": 5,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+        "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=214435&pageid=27160&typegroupid=4",
+        "https://vanban.chinhphu.vn?classid=1&docid=214515&pageid=27160&typegroupid=4",
+        "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4340,9 +5044,13 @@
       "bodyTokens": 211,
       "bodyChars": 958,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/news-room/fact-sheets/detail/falls"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4360,9 +5068,12 @@
       "bodyTokens": 204,
       "bodyChars": 929,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 2,
-      "sourceUrls": [],
+      "sourceCount": 2,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4380,9 +5091,13 @@
       "bodyTokens": 221,
       "bodyChars": 1006,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.uil.unesco.org/en/articles/new-online-course-helps-cities-advance-digital-learning-older-adults",
+        "https://vanban.chinhphu.vn?docid=214590&pageid=27160",
+        "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4400,9 +5115,13 @@
       "bodyTokens": 208,
       "bodyChars": 940,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4420,9 +5139,13 @@
       "bodyTokens": 199,
       "bodyChars": 915,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4440,9 +5163,14 @@
       "bodyTokens": 214,
       "bodyChars": 981,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 4,
-      "sourceUrls": [],
+      "sourceCount": 4,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud",
+        "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness",
+        "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+        "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4460,9 +5188,13 @@
       "bodyTokens": 206,
       "bodyChars": 962,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4480,9 +5212,15 @@
       "bodyTokens": 225,
       "bodyChars": 1012,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 5,
-      "sourceUrls": [],
+      "sourceCount": 5,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+        "https://vanban.chinhphu.vn?docid=217083&pageid=27160",
+        "https://vanban.chinhphu.vn?classid=1&docid=214435&pageid=27160&typegroupid=4",
+        "https://vanban.chinhphu.vn?classid=1&docid=214515&pageid=27160&typegroupid=4"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4500,9 +5238,13 @@
       "bodyTokens": 217,
       "bodyChars": 990,
       "sections": 4,
-      "sourceCount": 0,
-      "invalidSources": 3,
-      "sourceUrls": [],
+      "sourceCount": 3,
+      "invalidSources": 0,
+      "sourceUrls": [
+        "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+        "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+        "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160"
+      ],
       "practice": true,
       "limits": true,
       "hasSectionSources": true,
@@ -4513,7 +5255,1712 @@
       "sharedParagraphs": 0
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://www.who.int/health-topics/infant-nutrition/promoting-healthy-pregnancy",
+      "names": [
+        "WHO – Promoting healthy pregnancy / antenatal care"
+      ],
+      "refs": [
+        "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+        "legacy:hen-tu-van-tien-thai",
+        "legacy:nhat-ky-thai-ky",
+        "legacy:dong-hanh-khi-mang-thai",
+        "legacy:tui-do-di-sinh",
+        "legacy:ke-hoach-ho-tro-sau-sinh",
+        "legacy:axit-folic-truoc-khi-mang-thai",
+        "legacy:kham-suc-khoe-tien-thai",
+        "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
+        "legacy:ke-hoach-ho-tro-tien-thai",
+        "legacy:lich-kham-thai-ba-thang-dau",
+        "legacy:om-nghen-va-an-uong-dau-thai-ky",
+        "legacy:suc-khoe-tinh-than-ba-thang-dau",
+        "legacy:kham-thai-ba-thang-giua",
+        "legacy:sang-loc-tieu-duong-thai-ky",
+        "legacy:van-dong-an-toan-khi-mang-thai",
+        "legacy:chat-luong-giac-ngu-ba-thang-giua",
+        "legacy:ke-hoach-sinh-an-toan",
+        "legacy:thai-may-va-theo-doi-thai-cuoi-ky"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/hearher/maternal-warning-signs",
+      "names": [
+        "CDC – Urgent Maternal Warning Signs and Symptoms"
+      ],
+      "refs": [
+        "legacy:lan-kham-thai-dau-tien",
+        "legacy:cam-xuc-dau-thai-ky",
+        "legacy:nhat-ky-thai-ky",
+        "legacy:dong-hanh-khi-mang-thai",
+        "legacy:nguoi-me-cung-can-duoc-cham-soc",
+        "legacy:chia-viec-trong-gia-dinh",
+        "legacy:lich-kham-thai-ba-thang-dau",
+        "legacy:om-nghen-va-an-uong-dau-thai-ky",
+        "legacy:suc-khoe-tinh-than-ba-thang-dau",
+        "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
+        "legacy:kham-thai-ba-thang-giua",
+        "legacy:van-dong-an-toan-khi-mang-thai",
+        "legacy:ke-hoach-sinh-an-toan",
+        "legacy:dau-hieu-can-di-vien-cuoi-thai-ky",
+        "legacy:thai-may-va-theo-doi-thai-cuoi-ky",
+        "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+        "legacy:dau-hieu-canh-bao-sau-sinh",
+        "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+        "legacy:tam-trang-sau-sinh-va-tram-cam"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+      "names": [
+        "WHO — Healthy ageing and functional ability"
+      ],
+      "refs": [
+        "article:co-the-giac-quan-60-74",
+        "article:nhip-song-va-van-dong-60-74",
+        "article:cam-xuc-mat-mat-75-plus",
+        "article:giac-quan-va-tu-quyet-75-plus",
+        "article:hoc-theo-so-thich-75-plus",
+        "article:lop-hoc-de-tiep-can-75-plus",
+        "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+        "article:gia-dinh-da-the-he-35-59",
+        "article:phan-chia-trach-nhiem-va-cham-soc-35-59",
+        "article:ket-noi-va-tu-chu-60-74",
+        "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+        "article:song-doc-lap-va-ke-hoach-ho-tro-60-74",
+        "article:tri-tue-va-so-thich-75-plus",
+        "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+        "article:hoat-dong-co-y-nghia-75-plus",
+        "article:tu-chu-va-ke-hoach-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay",
+      "names": [
+        "Harvard — Brain-Building Through Play"
+      ],
+      "refs": [
+        "lesson:kham-pha-giac-quan",
+        "lesson:thoi-quen-doc-cung-be",
+        "lesson:tu-chu-tung-buoc",
+        "lesson:choi-tu-duy",
+        "lesson:cam-xuc-va-ban-be",
+        "article:kham-pha-nguyen-nhan-ket-qua",
+        "article:phan-loai-va-thu-lai-1-2",
+        "article:am-nhac-tao-hinh-1-2",
+        "article:tinh-ban-va-lam-hoa-3-5",
+        "article:nghe-thuat-va-trai-nghiem-3-5",
+        "article:so-thich-va-cau-lac-bo-6-10",
+        "article:so-thich-va-nang-khieu-11-13"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+      "names": [
+        "UNESCO — Media and information literacy in the age of AI"
+      ],
+      "refs": [
+        "article:an-toan-so-va-ai-6-10",
+        "article:lap-luan-va-kiem-chung-11-13",
+        "article:tiet-kiem-va-quang-cao-11-13",
+        "article:nghien-cuu-va-tu-duy-phan-bien-14-17",
+        "article:danh-gia-bang-chung-18-22",
+        "article:ai-hoc-tap-cong-viec-18-22",
+        "article:ra-quyet-dinh-co-bang-chung-23-34",
+        "article:ai-cong-viec-va-bao-mat-23-34",
+        "article:quyet-dinh-dai-han-35-59",
+        "article:ai-va-an-toan-so-35-59",
+        "article:tu-duy-va-giai-quyet-van-de-60-74",
+        "article:dien-thoai-va-an-toan-so-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+      "names": [
+        "UNESCO — Recommendation on Adult Learning and Education"
+      ],
+      "refs": [
+        "article:hoc-dai-hoc-va-hoc-nghe-18-22",
+        "article:hoc-nang-cao-ky-nang-23-34",
+        "article:chon-chuong-trinh-dao-tao-23-34",
+        "article:hoc-suot-doi-35-59",
+        "article:chon-khoa-dao-tao-lai-35-59",
+        "article:hoc-ky-nang-moi-60-74",
+        "article:hoc-theo-so-thich-75-plus",
+        "article:portfolio-va-hoat-dong-cong-dong-14-17",
+        "article:portfolio-va-so-thich-18-22",
+        "article:so-thich-va-thoi-gian-rieng-23-34",
+        "article:so-thich-va-cong-dong-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+      "names": [
+        "WHO – WHO recommendations on maternal and newborn care for a positive postnatal experience"
+      ],
+      "refs": [
+        "legacy:tui-do-di-sinh",
+        "legacy:ke-hoach-ho-tro-sau-sinh",
+        "legacy:nguoi-me-cung-can-duoc-cham-soc",
+        "legacy:chia-viec-trong-gia-dinh",
+        "legacy:ke-hoach-sinh-an-toan",
+        "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+        "legacy:dau-hieu-canh-bao-sau-sinh",
+        "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+        "legacy:tam-trang-sau-sinh-va-tram-cam",
+        "legacy:ho-tro-bu-me-va-khi-kho-khan"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240015128",
+      "names": [
+        "WHO — Guidelines on physical activity and sedentary behaviour"
+      ],
+      "refs": [
+        "article:van-dong-va-nhip-song-trung-nien",
+        "article:phong-te-nga-tuoi-60-74",
+        "article:ngu-van-dong-man-hinh-11-13",
+        "article:nhip-song-on-thi-14-17",
+        "article:ngu-va-lich-hoc-lam-18-22",
+        "article:lich-lam-viec-va-giac-ngu-23-34",
+        "article:nhip-song-va-van-dong-60-74",
+        "article:nhip-sinh-hoat-ho-tro-75-plus",
+        "article:so-thich-va-cong-dong-35-59",
+        "article:nghe-thuat-va-so-thich-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+      "names": [
+        "WHO — Social connection"
+      ],
+      "refs": [
+        "article:nghi-huu-va-ket-noi",
+        "article:chuyen-tiep-va-cham-nguoi-than-35-59",
+        "article:cam-xuc-mat-mat-75-plus",
+        "article:quan-he-va-lua-chon-song-23-34",
+        "article:so-thich-va-thoi-gian-rieng-23-34",
+        "article:tu-quan-thoi-gian-va-cham-soc-23-34",
+        "article:gia-dinh-da-the-he-35-59",
+        "article:so-thich-va-cong-dong-35-59",
+        "article:ket-noi-va-tu-chu-60-74",
+        "article:ket-noi-va-nguoi-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments",
+      "names": [
+        "NHS – Your antenatal care and appointments"
+      ],
+      "refs": [
+        "legacy:lan-kham-thai-dau-tien",
+        "legacy:cam-xuc-dau-thai-ky",
+        "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
+        "legacy:lich-kham-thai-ba-thang-dau",
+        "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
+        "legacy:kham-thai-ba-thang-giua",
+        "legacy:sang-loc-tieu-duong-thai-ky",
+        "legacy:chat-luong-giac-ngu-ba-thang-giua",
+        "legacy:dau-hieu-can-di-vien-cuoi-thai-ky"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+      "names": [
+        "WHO — Mental health of older adults"
+      ],
+      "refs": [
+        "article:nghi-huu-va-ket-noi",
+        "article:chuyen-tiep-va-cham-nguoi-than-35-59",
+        "article:cam-xuc-mat-mat-75-plus",
+        "article:gia-dinh-da-the-he-35-59",
+        "article:phan-chia-trach-nhiem-va-cham-soc-35-59",
+        "article:nghe-thuat-va-so-thich-60-74",
+        "article:ket-noi-va-nguoi-cham-soc-75-plus",
+        "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+        "article:hoat-dong-co-y-nghia-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+      "names": [
+        "WHO — ICOPE: person-centred assessment and pathways in primary care, 2nd ed."
+      ],
+      "refs": [
+        "article:ke-hoach-cham-soc-75-plus",
+        "article:an-uong-va-nuoc-60-74",
+        "article:kham-chu-dong-va-thuoc-60-74",
+        "article:ho-tro-an-uong-75-plus",
+        "article:giac-quan-va-tu-quyet-75-plus",
+        "article:nhip-sinh-hoat-ho-tro-75-plus",
+        "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+        "article:song-doc-lap-va-ke-hoach-ho-tro-60-74",
+        "article:tu-chu-va-ke-hoach-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=211199&pageid=27160",
+      "names": [
+        "Chính phủ — Luật Bảo hiểm xã hội 41/2024/QH15"
+      ],
+      "refs": [
+        "article:ngan-sach-don-be",
+        "article:thu-tuc-thai-san-khai-sinh",
+        "article:hop-dong-bhxh-va-thu-tuc-18-22",
+        "article:ngan-sach-no-va-du-phong-23-34",
+        "article:hop-dong-nha-o-bao-hiem-23-34",
+        "article:ke-hoach-huu-tri-va-du-phong-35-59",
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+        "article:quan-ly-thu-nhap-huu-tri-60-74",
+        "article:quyen-loi-huu-tri-bhyt-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "names": [
+        "WHO — Healthy diet"
+      ],
+      "refs": [
+        "article:bua-an-mam-non-3-5",
+        "article:bua-an-di-hoc-6-10",
+        "article:an-uong-khi-di-lam",
+        "article:dinh-duong-day-thi-11-13",
+        "article:an-uong-va-on-thi-14-17",
+        "article:bua-an-tu-lap-18-22",
+        "article:bua-an-trung-nien-35-59",
+        "article:an-uong-va-nuoc-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/sleep/about",
+      "names": [
+        "CDC — About Sleep"
+      ],
+      "refs": [
+        "article:nhip-sinh-hoat-1-2",
+        "article:ngu-choi-tu-phuc-vu-3-5",
+        "article:ngu-van-dong-man-hinh-11-13",
+        "article:nhip-song-on-thi-14-17",
+        "article:ngu-va-lich-hoc-lam-18-22",
+        "article:lich-lam-viec-va-giac-ngu-23-34",
+        "article:nhip-song-va-van-dong-60-74",
+        "article:nhip-sinh-hoat-ho-tro-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+      "names": [
+        "UNESCO — Implementing effective reskilling and upskilling: learning programmes for older adults"
+      ],
+      "refs": [
+        "article:hoc-ky-nang-moi-60-74",
+        "article:chon-lop-cong-dong-60-74",
+        "article:hoc-theo-so-thich-75-plus",
+        "article:lop-hoc-de-tiep-can-75-plus",
+        "article:tu-duy-va-giai-quyet-van-de-60-74",
+        "article:nghe-thuat-va-so-thich-60-74",
+        "article:tri-tue-va-so-thich-75-plus",
+        "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+      "names": [
+        "WHO – Caring for a newborn"
+      ],
+      "refs": [
+        "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+        "legacy:nhung-cau-hoi-khi-cham-be",
+        "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+        "legacy:ho-tro-bu-me-va-khi-kho-khan",
+        "legacy:ngu-an-toan-cho-tre-so-sinh",
+        "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
+        "legacy:bu-me-hoan-toan-sau-sinh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/adolescent-mental-health",
+      "names": [
+        "WHO – Mental health of adolescents"
+      ],
+      "refs": [
+        "legacy:noi-chuyen-ve-day-thi",
+        "legacy:an-toan-so-cung-con",
+        "legacy:suc-khoe-tinh-than-tuoi-thieu-nien",
+        "legacy:noi-chuyen-day-thi-tinh-duc-an-toan",
+        "legacy:giao-tiep-voi-con-tuoi-teen",
+        "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+        "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+      "names": [
+        "UNICEF – 11 tips for communicating with your teen"
+      ],
+      "refs": [
+        "legacy:noi-chuyen-ve-day-thi",
+        "legacy:an-toan-so-cung-con",
+        "legacy:noi-chuyen-day-thi-tinh-duc-an-toan",
+        "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+        "legacy:giao-tiep-voi-con-tuoi-teen",
+        "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+        "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills",
+      "names": [
+        "Harvard — Activities Guide: Executive Function",
+        "Harvard — Activities guide: executive function skills"
+      ],
+      "refs": [
+        "lesson:cam-xuc-va-gioi-han",
+        "lesson:tu-chu-tung-buoc",
+        "lesson:choi-tu-duy",
+        "lesson:hoc-khong-so-sai",
+        "article:quan-ly-thoi-gian-va-viec-nha-6-10",
+        "article:tu-quan-va-thich-nghi-thcs",
+        "article:ra-quyet-dinh-va-tu-lap-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://tongdai111.vn/sites/gioi-thieu",
+      "names": [
+        "Tổng đài quốc gia bảo vệ trẻ em — 111"
+      ],
+      "refs": [
+        "article:an-toan-mam-non-co-the-nuoc",
+        "article:co-the-thay-doi-6-10",
+        "article:bat-nat-va-lua-dao-11-13",
+        "article:an-toan-mang-va-di-lai-14-17",
+        "article:quyen-hoc-tap-va-quy-tac-truong-6-10",
+        "article:quyen-tre-em-va-trach-nhiem-so-11-13",
+        "article:quyen-lao-dong-va-trach-nhiem-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+      "names": [
+        "UNICEF — Positive parenting"
+      ],
+      "refs": [
+        "article:choi-canh-ban-va-xin-luot",
+        "article:tinh-ban-va-lam-hoa-3-5",
+        "article:tu-phuc-vu-va-hop-tac-3-5",
+        "article:so-thich-va-cau-lac-bo-6-10",
+        "article:quan-ly-thoi-gian-va-viec-nha-6-10",
+        "article:tinh-ban-va-ranh-gioi-11-13",
+        "article:tu-quan-va-thich-nghi-thcs"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217080&pageid=27160",
+      "names": [
+        "Văn phòng Quốc hội — Luật Người cao tuổi, VBHN 23/VBHN-VPQH"
+      ],
+      "refs": [
+        "article:ket-noi-va-tu-chu-60-74",
+        "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+        "article:quyen-loi-huu-tri-bhyt-60-74",
+        "article:ket-noi-va-nguoi-cham-soc-75-plus",
+        "article:hoat-dong-co-y-nghia-75-plus",
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus",
+        "article:tu-chu-va-ke-hoach-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+      "names": [
+        "WHO – Infant and young child feeding (2026)"
+      ],
+      "refs": [
+        "legacy:choi-va-tuong-tac-voi-be",
+        "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+        "legacy:ho-tro-bu-me-va-khi-kho-khan",
+        "legacy:bu-me-hoan-toan-sau-sinh",
+        "legacy:an-dam-khi-nao-bat-dau",
+        "legacy:con-an-va-tu-lap-khi-tap-di"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "names": [
+        "CDC – Milestones by 2 Years",
+        "CDC — Milestones by 2 Years"
+      ],
+      "refs": [
+        "legacy:khi-con-noi-khong",
+        "legacy:goc-choi-kham-pha-an-toan",
+        "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+        "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+        "article:kham-phat-trien-rang-1-2",
+        "article:van-dong-ngon-ngu-va-ve-sinh-1-2"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/reports/parenting-adolescents",
+      "names": [
+        "UNICEF – Parenting of Adolescents"
+      ],
+      "refs": [
+        "legacy:dong-hanh-khi-con-tu-lap",
+        "legacy:giu-ket-noi-gia-dinh",
+        "legacy:ke-hoach-ho-tro-tien-thai",
+        "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+        "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+        "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/digital-parenting",
+      "names": [
+        "UNICEF Việt Nam — Digital parenting"
+      ],
+      "refs": [
+        "lesson:con-va-cong-nghe",
+        "lesson:kiem-chung-thong-tin",
+        "lesson:quan-he-va-dong-thuan",
+        "article:ngu-van-dong-man-hinh-11-13",
+        "article:tu-hoc-va-ghi-chu-thcs",
+        "article:an-toan-so-va-ai-6-10"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-cong-khai/thong-bao/quy-dinh-cong-khai-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-8.html",
+      "names": [
+        "Bộ GD&ĐT — Thông tư 09/2024/TT-BGDĐT về công khai trong hoạt động cơ sở giáo dục"
+      ],
+      "refs": [
+        "article:chuan-bi-nha-tre-1-2",
+        "article:chon-tieu-hoc-theo-nhu-cau",
+        "article:chuyen-cap-thcs",
+        "article:chon-thpt-hoc-nghe-14-17",
+        "article:so-sanh-dai-hoc-cao-dang-18-22",
+        "article:chon-chuong-trinh-dao-tao-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240085336",
+      "names": [
+        "WHO — Scheduled child and adolescent well-care visits"
+      ],
+      "refs": [
+        "article:kham-phat-trien-rang-1-2",
+        "article:rang-thi-luc-suc-khoe-3-5",
+        "article:suc-khoe-hoc-duong-6-10",
+        "article:co-the-thay-doi-6-10",
+        "article:kham-suc-khoe-11-13",
+        "article:tiep-can-y-te-tuoi-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=214590&pageid=27160",
+      "names": [
+        "Chính phủ — Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15"
+      ],
+      "refs": [
+        "article:an-toan-so-va-ai-6-10",
+        "article:quyen-tre-em-va-trach-nhiem-so-11-13",
+        "article:ai-hoc-tap-cong-viec-18-22",
+        "article:ai-cong-viec-va-bao-mat-23-34",
+        "article:ai-va-an-toan-so-35-59",
+        "article:lien-lac-so-va-bao-mat-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+      "names": [
+        "WHO – Corporal punishment of children and health"
+      ],
+      "refs": [
+        "legacy:khi-con-noi-khong",
+        "legacy:goc-choi-kham-pha-an-toan",
+        "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+        "legacy:an-toan-trong-nha-khi-tre-tap-di",
+        "legacy:giao-tiep-gioi-han-khong-don-roi"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "names": [
+        "CDC – Milestones by 4 Years"
+      ],
+      "refs": [
+        "legacy:hoc-thong-qua-choi",
+        "legacy:chuan-bi-ngay-dau-di-hoc",
+        "legacy:hoc-qua-choi-ba-den-sau-tuoi",
+        "legacy:moc-phat-trien-tuoi-bon-va-nam",
+        "legacy:lam-quen-truong-mam-non"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+      "names": [
+        "UNICEF – Positive parenting tips for children aged 6–10"
+      ],
+      "refs": [
+        "legacy:dong-hanh-viec-hoc",
+        "legacy:tinh-ban-dau-doi",
+        "legacy:thoi-quen-hoc-tap-tieu-hoc",
+        "legacy:giac-ngu-hoc-sinh-tieu-hoc",
+        "legacy:van-dong-cho-tre-tieu-hoc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/parenting-hub",
+      "names": [
+        "UNICEF Việt Nam — Kiến thức nuôi dạy con"
+      ],
+      "refs": [
+        "lesson:dap-lai-tin-hieu",
+        "lesson:kham-pha-giac-quan",
+        "lesson:cam-xuc-va-gioi-han",
+        "lesson:ranh-gioi-co-the",
+        "lesson:cam-xuc-va-ban-be"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961",
+      "names": [
+        "UNESCO — AI competency framework for students"
+      ],
+      "refs": [
+        "article:du-an-hoc-tap-thoi-ai",
+        "article:tu-hoc-va-ghi-chu-thcs",
+        "article:hoc-dai-hoc-va-hoc-nghe-18-22",
+        "article:hoc-nang-cao-ky-nang-23-34",
+        "article:hoc-suot-doi-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+      "names": [
+        "WHO — Road traffic injuries"
+      ],
+      "refs": [
+        "article:an-toan-mam-non-co-the-nuoc",
+        "article:an-toan-mang-va-di-lai-14-17",
+        "article:an-toan-tu-lap-18-22",
+        "article:an-toan-lao-dong-va-lua-dao-23-34",
+        "article:an-toan-cong-viec-va-cham-soc-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+      "names": [
+        "UNICEF — Learning activities for babies and toddlers"
+      ],
+      "refs": [
+        "article:kham-pha-nguyen-nhan-ket-qua",
+        "article:cham-soc-dap-ung-va-chuyen-tiep",
+        "article:phan-loai-va-thu-lai-1-2",
+        "article:choi-canh-ban-va-xin-luot",
+        "article:tu-phuc-vu-va-hop-tac-3-5"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+      "names": [
+        "CDC – Folic Acid: Facts for Clinicians"
+      ],
+      "refs": [
+        "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+        "legacy:hen-tu-van-tien-thai",
+        "legacy:axit-folic-truoc-khi-mang-thai",
+        "legacy:kham-suc-khoe-tien-thai"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely",
+      "names": [
+        "CDC – Providing Care for Babies to Sleep Safely"
+      ],
+      "refs": [
+        "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+        "legacy:nhung-cau-hoi-khi-cham-be",
+        "legacy:ngu-an-toan-cho-tre-so-sinh",
+        "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "names": [
+        "CDC – Milestones by 6 Months"
+      ],
+      "refs": [
+        "legacy:choi-va-tuong-tac-voi-be",
+        "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+        "legacy:moc-phat-trien-sau-thang-thu-sau",
+        "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/healthy-schools/sleep",
+      "names": [
+        "CDC – Sleep and Health"
+      ],
+      "refs": [
+        "legacy:dong-hanh-viec-hoc",
+        "legacy:tinh-ban-dau-doi",
+        "legacy:thoi-quen-hoc-tap-tieu-hoc",
+        "legacy:giac-ngu-hoc-sinh-tieu-hoc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-development/baby-tips",
+      "names": [
+        "UNICEF – Parenting tips for the first two years of life"
+      ],
+      "refs": [
+        "legacy:theo-doi-phat-trien-hai-thang-dau",
+        "legacy:moc-phat-trien-sau-thang-thu-sau",
+        "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+        "legacy:an-toan-trong-nha-khi-tre-tap-di"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/communication-information/priorities/media-information-literacy",
+      "names": [
+        "UNESCO — Media and Information Literacy"
+      ],
+      "refs": [
+        "lesson:kiem-chung-thong-tin",
+        "lesson:ai-co-the-sai",
+        "lesson:du-an-ai-co-trach-nhiem",
+        "lesson:ngan-sach-va-lua-chon"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn",
+      "names": [
+        "CFPB — Building blocks of financial capability"
+      ],
+      "refs": [
+        "lesson:tien-tieu-vat",
+        "lesson:ngan-sach-va-lua-chon",
+        "lesson:tai-chinh-tu-lap",
+        "article:tiet-kiem-va-quang-cao-11-13"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "names": [
+        "WHO — Falls"
+      ],
+      "refs": [
+        "article:phong-te-nga-tuoi-60-74",
+        "article:an-toan-cong-viec-va-cham-soc-35-59",
+        "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+        "article:song-doc-lap-va-ke-hoach-ho-tro-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/97892400020986",
+      "names": [
+        "WHO — Improving early childhood development"
+      ],
+      "refs": [
+        "article:gan-bo-va-dap-ung-nam-dau",
+        "article:van-dong-ngon-ngu-va-ve-sinh-1-2",
+        "article:am-thanh-va-chuyen-dong-nam-dau",
+        "article:cham-soc-dap-ung-va-chuyen-tiep"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+      "names": [
+        "Bộ Công an — Cảnh giác trước các kịch bản lừa đảo 2026"
+      ],
+      "refs": [
+        "article:an-toan-mang-va-di-lai-14-17",
+        "article:an-toan-tu-lap-18-22",
+        "article:an-toan-lao-dong-va-lua-dao-23-34",
+        "article:ai-va-an-toan-so-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/noncommunicable-diseases",
+      "names": [
+        "WHO — Noncommunicable diseases"
+      ],
+      "refs": [
+        "article:kham-chu-dong-23-34",
+        "article:bua-an-trung-nien-35-59",
+        "article:kham-theo-nguy-co-35-59",
+        "article:kham-chu-dong-va-thuoc-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+      "names": [
+        "WHO — Mental health at work"
+      ],
+      "refs": [
+        "article:cang-thang-va-kiet-suc-23-34",
+        "article:chuyen-tiep-va-cham-nguoi-than-35-59",
+        "article:tu-quan-thoi-gian-va-cham-soc-23-34",
+        "article:phan-chia-trach-nhiem-va-cham-soc-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+      "names": [
+        "Báo Chính phủ — Cảnh báo lừa đảo đối với người cao tuổi và trẻ em"
+      ],
+      "refs": [
+        "article:chon-lop-cong-dong-60-74",
+        "article:dien-thoai-va-an-toan-so-60-74",
+        "article:lien-lac-so-va-bao-mat-75-plus",
+        "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+      "names": [
+        "OECD — Teenage career readiness"
+      ],
+      "refs": [
+        "article:so-thich-va-nang-khieu-11-13",
+        "article:kham-pha-nghe-11-13",
+        "article:portfolio-va-hoat-dong-cong-dong-14-17",
+        "article:huong-nghiep-va-thu-nghe-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+      "names": [
+        "OECD — Career guidance"
+      ],
+      "refs": [
+        "article:kham-pha-nghe-11-13",
+        "article:huong-nghiep-va-thu-nghe-14-17",
+        "article:ra-quyet-dinh-va-tu-lap-14-17",
+        "article:portfolio-va-so-thich-18-22"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217002&pageid=27160",
+      "names": [
+        "Văn phòng Quốc hội — Bộ luật Lao động, VBHN 18/VBHN-VPQH"
+      ],
+      "refs": [
+        "article:quyen-lao-dong-va-trach-nhiem-14-17",
+        "article:hop-dong-bhxh-va-thu-tuc-18-22",
+        "article:phat-trien-nghe-va-thuong-luong-23-34",
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit",
+      "names": [
+        "CFPB — Your Money, Your Goals toolkit"
+      ],
+      "refs": [
+        "article:ngan-sach-no-va-du-phong-23-34",
+        "article:quyet-dinh-dai-han-35-59",
+        "article:ke-hoach-huu-tri-va-du-phong-35-59",
+        "article:quan-ly-thu-nhap-huu-tri-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+      "names": [
+        "Chính phủ — Bộ luật Dân sự 91/2015/QH13"
+      ],
+      "refs": [
+        "article:hop-dong-nha-o-bao-hiem-23-34",
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+        "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241514064",
+      "names": [
+        "WHO – Nurturing care for early childhood development"
+      ],
+      "refs": [
+        "legacy:choi-va-tuong-tac-voi-be",
+        "legacy:goc-choi-kham-pha-an-toan",
+        "legacy:hoc-thong-qua-choi"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/europe/publications/i/item/9789240014886",
+      "names": [
+        "WHO – WHO guidelines on physical activity and sedentary behaviour: at a glance"
+      ],
+      "refs": [
+        "legacy:dong-hanh-khi-con-tu-lap",
+        "legacy:giu-ket-noi-gia-dinh",
+        "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-development/how-babies-learn-through-play",
+      "names": [
+        "UNICEF – How babies learn through play"
+      ],
+      "refs": [
+        "legacy:hoc-qua-choi-ba-den-sau-tuoi",
+        "legacy:lam-quen-truong-mam-non",
+        "legacy:giao-tiep-gioi-han-khong-don-roi"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/mental-health/when-help-your-teen-find-mental-health-support",
+      "names": [
+        "UNICEF – When to help your teen find mental health support"
+      ],
+      "refs": [
+        "legacy:suc-khoe-tinh-than-tuoi-thieu-nien",
+        "legacy:giao-tiep-voi-con-tuoi-teen",
+        "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682",
+      "names": [
+        "UNESCO — AI competency framework for students"
+      ],
+      "refs": [
+        "lesson:ai-co-the-sai",
+        "lesson:du-an-ai-co-trach-nhiem",
+        "lesson:tu-lap-va-nghe-nghiep"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/news/tin-tuc-su-kien/bo-giao-duc-va-dao-tao-thong-tin-tom-tat-ve-viec-ban-hanh-thong-tu-09-2024-tt-bgddt-ngay-3-6-2024-quy-dinh-cong-khai-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-quoc-dan-116.html",
+      "names": [
+        "Bộ GD&ĐT — Thông tin tóm tắt Thông tư 09/2024"
+      ],
+      "refs": [
+        "article:chuan-bi-nha-tre-1-2",
+        "article:chon-tieu-hoc-theo-nhu-cau",
+        "article:chuyen-cap-thcs"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/oral-health",
+      "names": [
+        "WHO — Oral health"
+      ],
+      "refs": [
+        "article:kham-phat-trien-rang-1-2",
+        "article:rang-thi-luc-suc-khoe-3-5",
+        "article:suc-khoe-hoc-duong-6-10"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+      "names": [
+        "UNICEF Việt Nam — Cyberbullying"
+      ],
+      "refs": [
+        "article:bat-nat-va-lua-dao-11-13",
+        "article:an-toan-mang-va-di-lai-14-17",
+        "article:quyen-tre-em-va-trach-nhiem-so-11-13"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://tuyensinh.moet.gov.vn/ts",
+      "names": [
+        "Bộ GD&ĐT — Cổng thông tin tuyển sinh"
+      ],
+      "refs": [
+        "article:chon-thpt-hoc-nghe-14-17",
+        "article:so-sanh-dai-hoc-cao-dang-18-22",
+        "article:huong-nghiep-va-thu-nghe-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+      "names": [
+        "WHO — Sexually transmitted infections"
+      ],
+      "refs": [
+        "article:suc-khoe-sinh-san-tu-lap-18-22",
+        "article:sinh-san-va-quyet-dinh-gia-dinh-23-34",
+        "article:sinh-ly-va-man-kinh-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-8-2026-94.html",
+      "names": [
+        "Cục Quản lý chất lượng — danh sách công nhận kiểm định, cập nhật 30/8/2026"
+      ],
+      "refs": [
+        "article:so-sanh-dai-hoc-cao-dang-18-22",
+        "article:chon-chuong-trinh-dao-tao-23-34",
+        "article:chon-khoa-dao-tao-lai-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+      "names": [
+        "UNESCO — Community Learning Centres in Viet Nam"
+      ],
+      "refs": [
+        "article:chon-khoa-dao-tao-lai-35-59",
+        "article:chon-lop-cong-dong-60-74",
+        "article:lop-hoc-de-tiep-can-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund",
+      "names": [
+        "CFPB — An essential guide to building an emergency fund"
+      ],
+      "refs": [
+        "article:ngan-sach-don-be",
+        "article:ngan-sach-no-va-du-phong-23-34",
+        "article:ke-hoach-huu-tri-va-du-phong-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+      "names": [
+        "UNICEF Việt Nam — Trò chơi trong nhà hỗ trợ phát triển"
+      ],
+      "refs": [
+        "article:am-thanh-va-chuyen-dong-nam-dau",
+        "article:am-nhac-tao-hinh-1-2",
+        "article:nghe-thuat-va-trai-nghiem-3-5"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=184566&pageid=27160",
+      "names": [
+        "Chính phủ — Luật Trẻ em 102/2016/QH13"
+      ],
+      "refs": [
+        "article:quyen-hoc-tap-va-quy-tac-truong-6-10",
+        "article:quyen-tre-em-va-trach-nhiem-so-11-13",
+        "article:quyen-lao-dong-va-trach-nhiem-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-answers-you-decide",
+      "names": [
+        "UNESCO — AI answers, you decide"
+      ],
+      "refs": [
+        "article:lap-luan-va-kiem-chung-11-13",
+        "article:nghien-cuu-va-tu-duy-phan-bien-14-17",
+        "article:ra-quyet-dinh-co-bang-chung-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=67076",
+      "names": [
+        "UNESCO — Guidance for generative AI in education and research"
+      ],
+      "refs": [
+        "article:danh-gia-bang-chung-18-22",
+        "article:ai-hoc-tap-cong-viec-18-22",
+        "article:ai-cong-viec-va-bao-mat-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277",
+      "names": [
+        "BHXH Việt Nam — 4 cách tra cứu quá trình tham gia BHXH"
+      ],
+      "refs": [
+        "article:hop-dong-bhxh-va-thu-tuc-18-22",
+        "article:ke-hoach-huu-tri-va-du-phong-35-59",
+        "article:quyen-loi-huu-tri-bhyt-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+      "names": [
+        "OECD — Career guidance for adults in a changing world of work"
+      ],
+      "refs": [
+        "article:phat-trien-nghe-va-thuong-luong-23-34",
+        "article:chuyen-nghe-va-nang-ky-nang-35-59",
+        "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214515&pageid=27160&typegroupid=4",
+      "names": [
+        "Chính phủ — Nghị định 188/2025/NĐ-CP"
+      ],
+      "refs": [
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+        "article:quyen-loi-huu-tri-bhyt-60-74",
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214435&pageid=27160&typegroupid=4",
+      "names": [
+        "Chính phủ — Nghị định 176/2025/NĐ-CP về trợ cấp hưu trí xã hội"
+      ],
+      "refs": [
+        "article:quan-ly-thu-nhap-huu-tri-60-74",
+        "article:quyen-loi-huu-tri-bhyt-60-74",
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/science-of-play",
+      "names": [
+        "UNICEF – The science of play"
+      ],
+      "refs": [
+        "legacy:hoc-thong-qua-choi",
+        "legacy:chuan-bi-ngay-dau-di-hoc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "names": [
+        "CDC – Milestones by 2 Months"
+      ],
+      "refs": [
+        "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
+        "legacy:theo-doi-phat-trien-hai-thang-dau"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications-detail-redirect/9789240081864",
+      "names": [
+        "WHO – Guideline for complementary feeding of infants and young children 6–23 months"
+      ],
+      "refs": [
+        "legacy:an-dam-khi-nao-bat-dau",
+        "legacy:con-an-va-tu-lap-khi-tap-di"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods",
+      "names": [
+        "NHS – Your baby's first solid foods"
+      ],
+      "refs": [
+        "legacy:an-dam-khi-nao-bat-dau",
+        "legacy:an-toan-chong-sac-khi-an-dam"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely",
+      "names": [
+        "NHS – Preparing food safely for babies"
+      ],
+      "refs": [
+        "legacy:an-toan-chong-sac-khi-an-dam",
+        "legacy:con-an-va-tu-lap-khi-tap-di"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/key-concept/serve-and-return",
+      "names": [
+        "Harvard Center on the Developing Child — Serve and Return"
+      ],
+      "refs": [
+        "lesson:dap-lai-tin-hieu",
+        "lesson:thoi-quen-doc-cung-be"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+      "names": [
+        "UNICEF Việt Nam — Parenting in the AI age"
+      ],
+      "refs": [
+        "lesson:con-va-cong-nghe",
+        "lesson:ai-co-the-sai"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+      "names": [
+        "UNICEF Việt Nam — Trò chuyện về sức khỏe tinh thần 11–13 tuổi"
+      ],
+      "refs": [
+        "lesson:day-thi-thay-doi",
+        "lesson:ban-be-va-ap-luc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development",
+      "names": [
+        "WHO — Adolescent health and development"
+      ],
+      "refs": [
+        "lesson:day-thi-thay-doi",
+        "lesson:quan-he-va-dong-thuan"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+      "names": [
+        "WHO — Mental health of adolescents"
+      ],
+      "refs": [
+        "lesson:ban-be-va-ap-luc",
+        "lesson:tu-chu-va-ket-noi"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/building-core-skills-youth",
+      "names": [
+        "Harvard — Building the Core Skills Youth Need for Life"
+      ],
+      "refs": [
+        "lesson:tu-lap-va-nghe-nghiep",
+        "lesson:tu-chu-va-ket-noi"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/ageing-and-health",
+      "names": [
+        "WHO Việt Nam — Ageing and health"
+      ],
+      "refs": [
+        "article:phong-te-nga-tuoi-60-74",
+        "article:ke-hoach-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241550536",
+      "names": [
+        "WHO — Activity, sedentary behaviour and sleep under 5"
+      ],
+      "refs": [
+        "article:nhip-sinh-hoat-1-2",
+        "article:ngu-choi-tu-phuc-vu-3-5"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240105201",
+      "names": [
+        "WHO — Vision and hearing screening for school-age children"
+      ],
+      "refs": [
+        "article:rang-thi-luc-suc-khoe-3-5",
+        "article:suc-khoe-hoc-duong-6-10"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+      "names": [
+        "WHO — Menstrual health"
+      ],
+      "refs": [
+        "article:co-the-thay-doi-6-10",
+        "article:sinh-ly-va-man-kinh-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+      "names": [
+        "UNICEF — Nutrition in middle childhood and adolescence"
+      ],
+      "refs": [
+        "article:dinh-duong-day-thi-11-13",
+        "article:an-uong-va-on-thi-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/health-topics/adolescent-health",
+      "names": [
+        "WHO — Adolescent health"
+      ],
+      "refs": [
+        "article:kham-suc-khoe-11-13",
+        "article:tiep-can-y-te-tuoi-14-17"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/how-talk-your-children-about-bullying",
+      "names": [
+        "UNICEF Việt Nam — How to talk to your children about bullying"
+      ],
+      "refs": [
+        "article:bat-nat-va-lua-dao-11-13",
+        "article:tinh-ban-va-ranh-gioi-11-13"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/family-planning-contraception",
+      "names": [
+        "WHO Việt Nam — Family planning/contraception"
+      ],
+      "refs": [
+        "article:suc-khoe-sinh-san-tu-lap-18-22",
+        "article:sinh-san-va-quyet-dinh-gia-dinh-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension",
+      "names": [
+        "WHO Việt Nam — Hypertension"
+      ],
+      "refs": [
+        "article:kham-chu-dong-23-34",
+        "article:kham-theo-nguy-co-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/health-topics/occupational-health",
+      "names": [
+        "WHO — Occupational health"
+      ],
+      "refs": [
+        "article:an-toan-lao-dong-va-lua-dao-23-34",
+        "article:an-toan-cong-viec-va-cham-soc-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/malnutrition",
+      "names": [
+        "NHS — Malnutrition"
+      ],
+      "refs": [
+        "article:an-uong-va-nuoc-60-74",
+        "article:ho-tro-an-uong-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+      "names": [
+        "WHO — Deafness and hearing loss"
+      ],
+      "refs": [
+        "article:co-the-giac-quan-60-74",
+        "article:giac-quan-va-tu-quyet-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+      "names": [
+        "WHO — Blindness and vision impairment"
+      ],
+      "refs": [
+        "article:co-the-giac-quan-60-74",
+        "article:giac-quan-va-tu-quyet-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/2025/12/oecd-skills-outlook-2025_ac37c7d4.html",
+      "names": [
+        "OECD — Skills Outlook 2025"
+      ],
+      "refs": [
+        "article:phat-trien-nghe-va-thuong-luong-23-34",
+        "article:chuyen-nghe-va-nang-ky-nang-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=215257&pageid=27160",
+      "names": [
+        "Văn phòng Quốc hội — Luật Nhà ở, VBHN 132/VBHN-VPQH"
+      ],
+      "refs": [
+        "article:hop-dong-nha-o-bao-hiem-23-34",
+        "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.uil.unesco.org/en/articles/new-online-course-helps-cities-advance-digital-learning-older-adults",
+      "names": [
+        "UNESCO — Digital learning for older adults"
+      ],
+      "refs": [
+        "article:dien-thoai-va-an-toan-so-60-74",
+        "article:lien-lac-so-va-bao-mat-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud",
+      "names": [
+        "CFPB — Protecting older adults from fraud and financial exploitation"
+      ],
+      "refs": [
+        "article:quan-ly-thu-nhap-huu-tri-60-74",
+        "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant",
+      "names": [
+        "NHS – Trying to get pregnant"
+      ],
+      "refs": [
+        "legacy:hen-tu-van-tien-thai"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines",
+      "names": [
+        "NHS – Medicines in pregnancy"
+      ],
+      "refs": [
+        "legacy:hen-tu-van-tien-thai"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/index.html",
+      "names": [
+        "CDC – Developmental milestones"
+      ],
+      "refs": [
+        "legacy:moc-phat-trien-khong-phai-cuoc-dua"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness",
+      "names": [
+        "NHS – Vomiting and morning sickness"
+      ],
+      "refs": [
+        "legacy:om-nghen-va-an-uong-dau-thai-ky"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery",
+      "names": [
+        "NHS – Recovery after a caesarean section"
+      ],
+      "refs": [
+        "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid",
+      "names": [
+        "NHS – Food and drinks to avoid during weaning"
+      ],
+      "refs": [
+        "legacy:an-toan-chong-sac-khi-an-dam"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "names": [
+        "CDC – Milestones by 1 Year"
+      ],
+      "refs": [
+        "legacy:moc-phat-trien-sau-thang-thu-sau"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+      "names": [
+        "CDC – Milestones by 5 Years"
+      ],
+      "refs": [
+        "legacy:moc-phat-trien-tuoi-bon-va-nam"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/health-topics/noncommunicable-diseases/physical-activity",
+      "names": [
+        "WHO – Physical activity"
+      ],
+      "refs": [
+        "legacy:van-dong-cho-tre-tieu-hoc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/bullying",
+      "names": [
+        "UNICEF – Bullying: What is it and how to stop it"
+      ],
+      "refs": [
+        "legacy:phong-chong-bat-nat-o-truong"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying",
+      "names": [
+        "UNICEF – How to talk to your child's school about bullying"
+      ],
+      "refs": [
+        "legacy:phong-chong-bat-nat-o-truong"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/parenting/child-care/what-to-do-if-your-child-is-experiencing-cyberbullying",
+      "names": [
+        "UNICEF – How to talk to your child about cyberbullying"
+      ],
+      "refs": [
+        "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-610-years",
+      "names": [
+        "UNICEF Việt Nam — Trò chuyện về sức khỏe tinh thần 6–10 tuổi"
+      ],
+      "refs": [
+        "lesson:hoc-khong-so-sai"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "names": [
+        "WHO — Physical activity"
+      ],
+      "refs": [
+        "article:van-dong-va-nhip-song-trung-nien"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "names": [
+        "WHO — Drowning"
+      ],
+      "refs": [
+        "article:an-toan-mam-non-co-the-nuoc"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "names": [
+        "WHO — Five keys to safer food"
+      ],
+      "refs": [
+        "article:bua-an-tu-lap-18-22"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+      "names": [
+        "WHO — Condoms"
+      ],
+      "refs": [
+        "article:suc-khoe-sinh-san-tu-lap-18-22"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+      "names": [
+        "WHO — Menopause"
+      ],
+      "refs": [
+        "article:sinh-ly-va-man-kinh-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240062764",
+      "names": [
+        "WHO — Medication without harm"
+      ],
+      "refs": [
+        "article:kham-chu-dong-va-thuoc-60-74"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-support-someone-you-care-for-with-eating",
+      "names": [
+        "NHS — How to support someone you care for with eating"
+      ],
+      "refs": [
+        "article:ho-tro-an-uong-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh-lien-thong-chi-tiet.html?ma_thu_tuc=341602",
+      "names": [
+        "Cổng Dịch vụ công — Liên thông khai sinh, thường trú, BHYT dưới 6 tuổi"
+      ],
+      "refs": [
+        "article:thu-tuc-thai-san-khai-sinh"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=0&docid=217346&pageid=27160",
+      "names": [
+        "Văn phòng Quốc hội — Luật Giáo dục, VBHN 72/VBHN-VPQH (25/3/2026)"
+      ],
+      "refs": [
+        "article:quyen-hoc-tap-va-quy-tac-truong-6-10"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=175351&pageid=27160",
+      "names": [
+        "Chính phủ — Luật Hôn nhân và gia đình 52/2014/QH13"
+      ],
+      "refs": [
+        "article:quan-he-va-lua-chon-song-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=202609&pageid=27160",
+      "names": [
+        "Chính phủ — Luật Cư trú 68/2020/QH14"
+      ],
+      "refs": [
+        "article:hop-dong-nha-o-bao-hiem-23-34"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?classid=1&docid=214560&pageid=27160&typegroupid=3",
+      "names": [
+        "Chính phủ — Luật Việc làm 74/2025/QH15"
+      ],
+      "refs": [
+        "article:chuyen-nghe-va-nang-ky-nang-35-59"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness",
+      "names": [
+        "CFPB — Planning for diminished capacity and illness"
+      ],
+      "refs": [
+        "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
+      ],
+      "status": "pending-content-verification"
+    },
+    {
+      "url": "https://vanban.chinhphu.vn?docid=217083&pageid=27160",
+      "names": [
+        "Văn phòng Quốc hội — Luật Khám bệnh, chữa bệnh, VBHN 26/VBHN-VPQH"
+      ],
+      "refs": [
+        "article:quyen-loi-dai-dien-va-cham-soc-75-plus"
+      ],
+      "status": "pending-content-verification"
+    }
+  ],
   "repeatedParagraphs": [
     {
       "excerpt": "thống nhất một thay đổi nhỏ phù hợp điều kiện nhà mình sau đó quan sát phản ứng và điều chỉnh có thể ghi lại câu hỏi điều đã thử điều chưa hiệu quả để trao đổi ",

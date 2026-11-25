@@ -1,13 +1,13 @@
 # S04-AZ-04 — Full-text baseline audit (219 nội dung)
-Ngày 25/11/2026; snapshot commit 1d313880e5f49be698d6f614202018043ce24504.
-Full-text automated baseline: whitespace tokens in Vietnamese (not linguistic word counts), body only; exact normalized paragraphs >=25 tokens; title token Jaccard >=0.35 and >=3 shared tokens within stage. Lexical flags are review candidates, not semantic duplicate proof. URL syntax and registry only; no network or expert review. Practice/limits legacy heading heuristic, not quality judgement.
+Ngày 25/11/2026; snapshot nội dung 1d31388.
+Full-text automated baseline: whitespace tokens in Vietnamese (not linguistic word counts), body only; exact normalized paragraphs >=25 tokens; title token Jaccard >=0.35 and >=3 shared tokens within stage. Lexical flags are review candidates, not semantic duplicate proof. HTTPS shape and registry only; no network or expert review. Practice/limits legacy heading heuristic, not quality judgement.
 
 ## Kết quả
 - items: 219
-- sourceUrls: 0
-- sourceRefs: 0
-- invalidSources: 523
-- withoutSources: 219
+- sourceUrls: 131
+- sourceRefs: 523
+- invalidSources: 0
+- withoutSources: 0
 - withoutSectionSources: 93
 - withoutPractice: 0
 - withoutLimits: 21
@@ -64,9 +64,9 @@ Các đoạn trùng được chuẩn hóa dấu câu/chữ hoa; kiểm tra thủ
 - 0.36: Kế hoạch hỗ trợ gia đình trước khi có con ↔ Lập kế hoạch sinh linh hoạt cho gia đình (legacy:ke-hoach-ho-tro-tien-thai, legacy:ke-hoach-sinh-an-toan)
 
 ## Nguồn và giới hạn
-Chỉ kiểm tra cú pháp HTTPS, liên kết registry và trùng URL đã loại tham số tracking. Chưa kiểm tra HTTP, tính hiện hành hoặc mức hỗ trợ từng luận điểm. Các nguồn xếp theo số bài sử dụng trong JSON để ưu tiên xác minh.
+Chỉ kiểm tra hình thức HTTPS, liên kết registry và trùng URL đã loại tham số tracking. Chưa kiểm tra HTTP, tính hiện hành hoặc mức hỗ trợ từng luận điểm. Các nguồn xếp theo số bài sử dụng trong JSON để ưu tiên xác minh.
 
 ## Tài liệu làm việc
 - `life-course-quality-audit-2026-11-25.json`: mỗi bài có chỉ số, nguồn, cờ rủi ro; từng URL có danh sách bài; đoạn lặp và cặp cần duyệt.
-- `scripts/audit-life-course-quality.mjs`: chạy lại thống kê (không kết nối mạng).
+- `scripts/audit-life-course-quality.mjs`: chạy lại thống kê (không kết nối mạng). Dùng --write để tạo snapshot current riêng, không ghi đè baseline.
 - Không thay đổi dữ liệu hiện tại hoặc trạng thái draft. Không tự kết luận trùng ngữ nghĩa từ điểm số.
