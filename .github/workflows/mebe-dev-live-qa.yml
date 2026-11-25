@@ -1,0 +1,42 @@
+name: Mother & Baby - DEV Live QA
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '.github/workflows/mebe-dev-live-qa.yml'
+      - 'projects/hanh-trinh-me-be/scripts/qa-dev-live.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mebe-dev-live-qa
+  cancel-in-progress: false
+jobs:
+  live-public-smoke:
+    if: >-
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == 'kios-saks/demo' &&
+       github.head_ref == 'feat/hanh-trinh-me-be-ecosystem') ||
+      (github.event_name == 'workflow_dispatch' &&
+       github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem')
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Record initial HTTP health and latency
+        shell: bash
+        run: |
+          for endpoint in             https://hanh-trinh-me-be-api-jn5v.onrender.com/health/ready             https://hanh-trinh-me-be-web-jn5v.onrender.com/api/health; do
+            echo "Initial probe: $endpoint"
+            curl --silent --show-error --connect-timeout 15 --max-time 90 --output /dev/null --write-out 'HTTP %{http_code}; total %{time_total}s; DNS %{time_namelookup}s\n' "$endpoint" || true
+          done
+      - name: Read-only live HTTP smoke
+        run: node scripts/qa-dev-live.mjs
