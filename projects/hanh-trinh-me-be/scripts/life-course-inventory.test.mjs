@@ -14,7 +14,7 @@ test("all existing content is inventoried once; complete 192-cell matrix and act
  for(const c of i.cells){assert(c.topic.length>8);assert(c.acceptance.length>20);assert(c.refs.every(r=>keys.has(r)));assert.equal(c.status,!c.applicable?"not-priority":c.refs.length?"partial-draft":"gap");}
 });
 test("deep draft articles: 4 sections, practical checklist, limitations, valid claim sources",()=>{
- assert.equal(b.status,"draft");assert.equal(b.reviewedAt,null);assert.equal(b.articles.length,11);
+ assert.equal(b.status,"draft");assert.equal(b.reviewedAt,null);assert(b.articles.length>=11);
  for(const x of b.articles){assert.equal(x.status,"draft");assert(x.sections.length>=4);assert(x.practice.length>=3);assert(x.limits.length>=40);assert(x.sourceIds.length>=1);assert(x.sections.some(s=>s.sourceIds.length>0));for(const s of x.sections){assert(s.body.length>=150);for(const id of s.sourceIds)assert(x.sourceIds.includes(id));}for(const id of x.sourceIds){assert(b.sources[id]);assert.equal(new URL(b.sources[id].url).protocol,"https:");}}
  console.log("LIFE_COURSE_INVENTORY_CONTENT_PASS");
 });

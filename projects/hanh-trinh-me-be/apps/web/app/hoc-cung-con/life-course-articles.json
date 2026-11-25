@@ -69,6 +69,91 @@
       "name": "UNESCO — AI competency framework for students",
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66961&trk=article-ssr-frontend-pulse_little-text-block",
       "scope": "Năng lực AI, trách nhiệm, giá trị và kỹ năng của người học."
+    },
+    "ecd": {
+      "name": "WHO — Improving early childhood development",
+      "url": "https://www.who.int/publications/i/item/97892400020986/",
+      "scope": "Chăm sóc đáp ứng, học sớm, hỗ trợ sức khỏe tinh thần người chăm sóc."
+    },
+    "well": {
+      "name": "WHO — Scheduled child and adolescent well-care visits",
+      "url": "https://www.who.int/publications/i/item/9789240085336",
+      "scope": "Khám định kỳ hỗ trợ sức khỏe và phát triển."
+    },
+    "milestone": {
+      "name": "CDC — Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "scope": "Mốc quan sát và trao đổi khi lo ngại phát triển."
+    },
+    "under5": {
+      "name": "WHO — Activity, sedentary behaviour and sleep under 5",
+      "url": "https://www.who.int/publications/i/item/9789241550536",
+      "scope": "Vận động, ít vận động và ngủ theo tuổi."
+    },
+    "oral": {
+      "name": "WHO — Oral health",
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/oral-health",
+      "scope": "Vệ sinh răng với fluoride và phòng sâu răng."
+    },
+    "vision": {
+      "name": "WHO — Vision and hearing screening for school-age children",
+      "url": "https://www.who.int/publications/i/item/9789240105201",
+      "scope": "Sàng lọc thị lực/thính lực học đường."
+    },
+    "sleep": {
+      "name": "CDC — About Sleep",
+      "url": "https://www.cdc.gov/sleep/about/",
+      "scope": "Nhu cầu ngủ và thói quen theo tuổi."
+    },
+    "nutritionYouth": {
+      "name": "UNICEF — Nutrition in middle childhood and adolescence",
+      "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+      "scope": "Dinh dưỡng và môi trường học đường."
+    },
+    "adolescent": {
+      "name": "WHO — Adolescent health",
+      "url": "https://www.who.int/health-topics/adolescent-health/",
+      "scope": "Sức khỏe tuổi vị thành niên và tiếp cận dịch vụ."
+    },
+    "menstrual": {
+      "name": "WHO — Menstrual health",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+      "scope": "Hiểu kinh nguyệt và chăm sóc có phẩm giá."
+    },
+    "water": {
+      "name": "WHO — Drowning",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "scope": "Giám sát và phòng đuối nước."
+    },
+    "road": {
+      "name": "WHO — Road traffic injuries",
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/road-traffic-injuries",
+      "scope": "Phòng chấn thương giao thông."
+    },
+    "child111": {
+      "name": "Tổng đài quốc gia bảo vệ trẻ em — 111",
+      "url": "https://tongdai111.vn/sites/gioi-thieu",
+      "scope": "Tiếp nhận thông tin và hỗ trợ khi trẻ có nguy cơ xâm hại."
+    },
+    "bullying": {
+      "name": "UNICEF Việt Nam — How to talk to your children about bullying",
+      "url": "https://www.unicef.org/vietnam/how-talk-your-children-about-bullying",
+      "scope": "Nhận diện và phối hợp xử lý bắt nạt."
+    },
+    "cyber": {
+      "name": "UNICEF Việt Nam — Cyberbullying",
+      "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+      "scope": "Bảo vệ, báo cáo và giữ bằng chứng phù hợp."
+    },
+    "digital": {
+      "name": "UNICEF Việt Nam — Digital parenting",
+      "url": "https://www.unicef.org/vietnam/digital-parenting",
+      "scope": "Đồng hành an toàn trên môi trường số."
+    },
+    "lifelong": {
+      "name": "UNESCO — Recommendation on Adult Learning and Education",
+      "url": "https://www.uil.unesco.org/en/adult-education/unesco-recommendation",
+      "scope": "Học tập người lớn, cộng đồng và kỹ năng công dân."
     }
   },
   "articles": [
@@ -583,6 +668,690 @@
         "ageing"
       ],
       "status": "draft"
+    },
+    {
+      "stage": "baby",
+      "pillar": "psych",
+      "id": "gan-bo-va-dap-ung-nam-dau",
+      "title": "Gắn bó năm đầu đời: đáp lại tín hiệu, dỗ dành và chăm sóc người chăm bé",
+      "summary": "Tạo cảm giác an toàn qua tương tác thường ngày, không áp đặt giờ giấc hay kỳ vọng bé luôn vui.",
+      "sections": [
+        {
+          "heading": "Hiểu tín hiệu của bé",
+          "body": "WHO đặt chăm sóc đáp ứng và cơ hội học sớm vào nền tảng phát triển. Bé giao tiếp bằng nhìn, cử động, âm thanh và khóc. Hãy quan sát tín hiệu trong bối cảnh ăn, ngủ, nhiệt độ và môi trường, thay vì suy diễn rằng bé đang cố tình đòi hỏi.",
+          "sourceIds": [
+            "ecd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Một vòng tương tác ngắn",
+          "body": "Khi bé tỉnh, người chăm gọi tên vật bé chú ý, đợi phản hồi rồi đáp lại. Nếu bé quay đi, căng người hoặc khó chịu, giảm kích thích. Bố, mẹ và ông bà có thể dùng giọng nói quen thuộc; không cần đồ chơi đắt tiền hoặc chương trình kích thích trí não.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi bé khóc và người lớn mệt",
+          "body": "Kiểm tra nhu cầu cơ bản, nhẹ nhàng dỗ và đổi người chăm khi có thể. Nếu quá căng thẳng, đặt bé nằm ngửa ở nơi ngủ an toàn, nhờ người khác hỗ trợ; tuyệt đối không lắc bé. Khó thở, tím tái, li bì hoặc khó đánh thức cần trợ giúp y tế ngay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thống nhất cách chăm trong nhà",
+          "body": "Chọn một thời điểm ít bận để trao đổi về điều bé thích, cách bàn giao và khoảng nghỉ của mỗi người. Đừng so sánh bé với con hàng xóm. Khi một người chăm mất ngủ hoặc buồn bã kéo dài, hỗ trợ họ tiếp cận nhân viên y tế thay vì chỉ yêu cầu cố gắng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Ghi ba tín hiệu thường gặp và phản ứng phù hợp của người lớn.",
+        "Chọn một khoảng tương tác ngắn mỗi ngày khi bé tỉnh.",
+        "Thống nhất người hỗ trợ khi người chăm quá mệt."
+      ],
+      "limits": "Không chẩn đoán gắn bó hay bệnh qua tiếng khóc; nếu bé có biểu hiện bất thường, cần khám trực tiếp.",
+      "sourceIds": [
+        "ecd"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "health",
+      "id": "kham-phat-trien-rang-1-2",
+      "title": "Khám sức khỏe 1–2 tuổi: theo dõi phát triển, răng và câu hỏi cần chuẩn bị",
+      "summary": "Một sổ quan sát hữu ích hơn danh sách mốc để thi đua.",
+      "sections": [
+        {
+          "heading": "Mốc là tín hiệu quan sát",
+          "body": "CDC mô tả mốc hai tuổi như những kỹ năng thường gặp, không phải phép chấm điểm. Hãy quan sát cách trẻ giao tiếp, chơi, di chuyển và tự phục vụ trong sinh hoạt quen thuộc. Nếu trẻ mất kỹ năng đã có hoặc gia đình lo lắng, trao đổi bác sĩ, không tự kết luận bệnh.",
+          "sourceIds": [
+            "well",
+            "milestone",
+            "oral"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị một cuộc khám",
+          "body": "Mang sổ tiêm chủng, thông tin tăng trưởng và câu hỏi về ăn, ngủ, vận động. Ghi tình huống cụ thể, ví dụ trẻ thường không phản ứng khi được gọi trong phòng yên, thay vì nhãn 'chậm'. Hỏi lịch khám và tiêm phù hợp tại cơ sở y tế địa phương.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Răng miệng mỗi ngày",
+          "body": "Đánh răng sáng tối có người lớn hỗ trợ, dùng kem fluoride lượng phù hợp tuổi theo tư vấn nha khoa. Tập cho trẻ ngồi vững, dùng bàn chải riêng; hạn chế nhấm nháp đồ ngọt kéo dài. Nếu đau răng, sưng hoặc khó ăn, đưa trẻ đi khám.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phối hợp với người trông trẻ",
+          "body": "Thống nhất ai theo dõi lịch hẹn, ai đưa trẻ đi khám, thông tin dị ứng nào cần báo cho nơi chăm sóc. Đừng chia sẻ hồ sơ sức khỏe công khai. Khi có triệu chứng cấp tính đáng lo, không đợi đến lần khám định kỳ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Ghi một ví dụ trẻ làm được và một điều còn lo.",
+        "Kiểm tra bàn chải, sổ tiêm và thông tin liên hệ cơ sở khám.",
+        "Viết ba câu hỏi mang đến buổi hẹn."
+      ],
+      "limits": "Không dùng danh sách này thay sàng lọc hoặc lịch tiêm chủng chính thức tại Việt Nam.",
+      "sourceIds": [
+        "well",
+        "milestone",
+        "oral"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "body",
+      "id": "van-dong-ngon-ngu-va-ve-sinh-1-2",
+      "title": "Cơ thể 1–2 tuổi: vận động, ngôn ngữ và tập chăm sóc bản thân",
+      "summary": "Phát triển qua sinh hoạt hằng ngày, bảo vệ quyền riêng tư và không ép đạt mốc.",
+      "sections": [
+        {
+          "heading": "Cơ thể học qua trải nghiệm",
+          "body": "Ở cuối năm thứ hai, nhiều trẻ đã kết hợp lời nói và hành động trong trò chơi. Khả năng từng trẻ khác nhau. Chú ý sự tiến bộ trong những môi trường quen thuộc, không so sánh số từ hay khả năng chạy với một trẻ khác.",
+          "sourceIds": [
+            "milestone",
+            "ecd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo cơ hội di chuyển an toàn",
+          "body": "Dọn một lối chơi trên mặt sàn, đặt vài vật nhẹ để trẻ mang, xếp hoặc đưa cho người lớn. Người chăm làm mẫu chậm, chờ trẻ thử và hỗ trợ khi cần. Không kéo tay hoặc ép trẻ thực hiện động tác vượt khả năng; tránh đồ nhỏ dễ hóc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ngôn ngữ khi chăm cơ thể",
+          "body": "Khi thay đồ hoặc rửa tay, gọi tên hành động và bộ phận cơ thể bằng từ đúng, đơn giản. Báo trước việc sắp làm, cho trẻ chọn khăn hoặc áo nếu có thể. Việc vệ sinh cần thiết vẫn do người lớn đảm bảo, nhưng giữ riêng tư và tôn trọng phản ứng của con.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần trao đổi thêm",
+          "body": "Nếu trẻ ít phản ứng với âm thanh, mất kỹ năng, khó vận động hoặc có điều khiến người chăm lo lắng, ghi lại tình huống và hẹn khám. Không dùng video trên mạng để tự chẩn đoán hoặc mua khóa trị liệu khi chưa được đánh giá.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn một trò đưa–nhận đồ vật an toàn.",
+        "Tập nói tên hành động khi rửa tay hoặc thay áo.",
+        "Ghi câu hỏi về phát triển cần trao đổi với bác sĩ."
+      ],
+      "limits": "Mốc phát triển không phải tiêu chuẩn buộc mọi trẻ đạt cùng ngày; trẻ có khó khăn cần đánh giá cá nhân.",
+      "sourceIds": [
+        "milestone",
+        "ecd"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "toddler",
+      "pillar": "routine",
+      "id": "nhip-sinh-hoat-1-2",
+      "title": "Nhịp sinh hoạt 1–2 tuổi: ngủ, rửa tay và tự phục vụ",
+      "summary": "Tổ chức ngày có nhịp dễ đoán nhưng vẫn linh hoạt theo trẻ.",
+      "sections": [
+        {
+          "heading": "Nhịp đều thay vì giờ cứng",
+          "body": "WHO khuyến khích cân bằng vận động, ngủ và thời gian ít vận động ở trẻ dưới năm tuổi. Thay vì đặt lịch từng phút, chọn các mốc thức dậy, ăn, chơi, nghỉ tương đối ổn định. Điều chỉnh khi trẻ ốm, đổi nơi ở hoặc vừa bắt đầu nhà trẻ.",
+          "sourceIds": [
+            "under5",
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xây nghi thức trước khi ngủ",
+          "body": "Giảm hoạt động náo nhiệt, chuẩn bị vệ sinh, đọc một cuốn sách ngắn rồi chuyển sang giờ nghỉ. Người lớn thống nhất cách đáp lại khi trẻ thức. Không dùng thuốc hoặc sản phẩm hỗ trợ ngủ cho trẻ nếu chưa được nhân viên y tế hướng dẫn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tập vệ sinh bằng việc nhỏ",
+          "body": "Đặt ghế đứng chắc chắn tại bồn rửa và luôn giám sát. Làm mẫu rửa tay, cho trẻ đưa khăn hoặc cất áo. Chờ dấu hiệu sẵn sàng trước khi tập dùng bô, tránh phạt khi trẻ chưa làm được hoặc gặp sự cố.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kết nối lịch nhà và nhà trẻ",
+          "body": "Hỏi giáo viên về giờ ăn ngủ, cách trẻ thích nghi, rồi điều chỉnh lịch ở nhà dần dần. Nếu trẻ ngáy kèm khó thở, mất ngủ kéo dài hoặc mệt bất thường, trao đổi bác sĩ thay vì chỉ tăng giờ nằm giường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn hai mốc sinh hoạt cố định tương đối.",
+        "Thực hiện nghi thức ngủ ngắn trong một tuần.",
+        "Cho trẻ tự làm một bước rửa tay dưới giám sát."
+      ],
+      "limits": "Nhu cầu ngủ thay đổi theo cá nhân; không áp dụng lịch cứng, không tự dùng thuốc ngủ.",
+      "sourceIds": [
+        "under5",
+        "sleep"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "health",
+      "id": "rang-thi-luc-suc-khoe-3-5",
+      "title": "Sức khỏe mầm non 3–5 tuổi: răng, mắt, tai và theo dõi hằng ngày",
+      "summary": "Giúp bố mẹ phát hiện nhu cầu khám mà không biến quan sát thành chẩn đoán.",
+      "sections": [
+        {
+          "heading": "Khám chủ động",
+          "body": "Khung khám định kỳ WHO nhấn mạnh theo dõi sức khỏe và phát triển. Trước buổi khám, hỏi giáo viên xem trẻ có khó tham gia hoạt động, nghe hướng dẫn hay nhìn vật ở xa không. Ghi lại tình huống và thời gian xuất hiện, không tự gắn nhãn trẻ thiếu tập trung.",
+          "sourceIds": [
+            "well",
+            "oral",
+            "vision"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giữ thói quen răng miệng",
+          "body": "Người lớn hỗ trợ trẻ đánh răng hai lần mỗi ngày bằng kem fluoride phù hợp tuổi, hướng dẫn nhổ kem và cất bàn chải sạch. Hạn chế đồ ngọt ăn rải rác. Đau, sưng hoặc răng đổi màu cần trao đổi nha sĩ; không tự chữa bằng mẹo dân gian.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quan sát mắt và tai",
+          "body": "Ví dụ trẻ thường nheo mắt, ngồi sát tranh, nghiêng đầu khi nghe hoặc cần nhắc lại nhiều lần. Có thể trao đổi với trường về sàng lọc và cơ sở khám. Không thử đo thị lực bằng bảng tự in để kết luận cần kính; kiểm tra chuyên môn là bước quyết định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập hồ sơ tối thiểu",
+          "body": "Giữ sổ khám, tiêm, dị ứng đã xác nhận và số liên hệ cần thiết ở nơi an toàn. Chỉ cung cấp cho giáo viên thông tin thực sự cần chăm sóc trẻ. Khi có triệu chứng đột ngột hoặc nghiêm trọng, tìm trợ giúp kịp thời.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Thống nhất người hỗ trợ đánh răng buổi tối.",
+        "Hỏi giáo viên một nhận xét cụ thể về nghe nhìn.",
+        "Chuẩn bị hồ sơ và câu hỏi cho lần khám tới."
+      ],
+      "limits": "Không thay thế khám nhi, nha khoa hoặc sàng lọc thị lực/thính lực; không áp đặt lịch xét nghiệm.",
+      "sourceIds": [
+        "well",
+        "oral",
+        "vision"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "routine",
+      "id": "ngu-choi-tu-phuc-vu-3-5",
+      "title": "Một ngày tuổi mầm non: ngủ, vận động, vệ sinh và tự phục vụ",
+      "summary": "Tạo nhịp sống hỗ trợ phát triển thay vì lấp kín ngày bằng lớp học.",
+      "sections": [
+        {
+          "heading": "Dành chỗ cho chơi và nghỉ",
+          "body": "Khuyến nghị WHO cho trẻ dưới năm tuổi xem vận động và ngủ là các phần bổ sung nhau. Trẻ cần khoảng chơi thực tế, nghỉ và tương tác. Cùng trường thống nhất lịch phù hợp, giữ thời gian tự chơi không cần người lớn điều khiển liên tục.",
+          "sourceIds": [
+            "under5",
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nếp tối đơn giản",
+          "body": "Chuẩn bị quần áo, rửa tay, đánh răng và chọn truyện; báo trước khi chuyển hoạt động. Nếu ngày học có ngủ trưa, theo dõi ảnh hưởng đến giờ ngủ tối và trao đổi giáo viên. Không phạt trẻ vì chưa ngủ ngay hoặc dùng thiết bị làm điều kiện duy nhất để ngủ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tự phục vụ từng bước",
+          "body": "Gắn hình minh họa trên vị trí cất dép, khăn và ba lô. Trẻ có thể tập tự mặc phần áo dễ, lau bàn bằng khăn và chọn đồ chơi cất trước. Người lớn hỗ trợ phần nguy hiểm hoặc khó, không yêu cầu trẻ hoàn hảo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ngày bận và ngày nghỉ",
+          "body": "Một lịch minh họa gồm thức dậy, ăn sáng, đến trường, chơi ngoài trời, ăn tối, trò chuyện và nghỉ. Ngày nghỉ vẫn dành thời gian vận động và ngủ, không cần giống ngày học. Nếu giấc ngủ hoặc sức khỏe ảnh hưởng sinh hoạt kéo dài, hỏi chuyên gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Cùng trẻ vẽ lịch bốn mốc trong ngày.",
+        "Chọn một việc tự phục vụ vừa sức.",
+        "Dành một khoảng chơi chủ động, không dùng màn hình để thay mọi hoạt động."
+      ],
+      "limits": "Lịch chỉ là ví dụ; điều chỉnh theo nhu cầu ngủ, sức khỏe và điều kiện gia đình.",
+      "sourceIds": [
+        "under5",
+        "sleep"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preschool",
+      "pillar": "safety",
+      "id": "an-toan-mam-non-co-the-nuoc",
+      "title": "An toàn 3–5 tuổi: cơ thể, đường phố, ao hồ và người trợ giúp",
+      "summary": "Dạy trẻ kỹ năng đơn giản trong khi người lớn chịu trách nhiệm bảo vệ.",
+      "sections": [
+        {
+          "heading": "An toàn bắt đầu từ môi trường",
+          "body": "WHO lưu ý trẻ nhỏ dễ gặp nguy cơ đuối nước. Người lớn phải giám sát sát sao quanh nước, che chắn nơi có nguy cơ và bố trí người trông rõ ràng. Biết bơi không thay thế giám sát; không giao trẻ lớn trách nhiệm bảo vệ trẻ nhỏ gần nước.",
+          "sourceIds": [
+            "water",
+            "road",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực hành khi đi đường",
+          "body": "Ở ngõ, bãi xe và cổng trường, người lớn nắm tay trẻ, dừng lại trước khi qua đường và quan sát xe. Dùng trang bị bảo vệ phù hợp và tuân thủ quy định giao thông. Tập tình huống bằng mô hình hoặc nơi an toàn, không cho trẻ thử một mình ngoài đường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ranh giới cơ thể và tìm người giúp",
+          "body": "Không ép ôm hôn. Giải thích rằng trẻ có thể nói nếu thấy khó chịu và kể cho người lớn tin cậy kể cả khi bị yêu cầu giữ bí mật. Người lớn lắng nghe, đảm bảo an toàn và không đổ lỗi. Khi có nguy cơ xâm hại, có thể liên hệ Tổng đài 111 tại Việt Nam.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phối hợp nơi chăm sóc",
+          "body": "Hỏi trường về bàn giao trẻ, giám sát ngoài trời, xử lý thương tích và đầu mối phản ánh. Thống nhất ai được phép đón trẻ. Khi xảy ra sự cố nghiêm trọng, ưu tiên đưa trẻ tới nơi an toàn và trợ giúp chuyên môn, không đăng thông tin riêng lên mạng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Rà soát thùng nước, ao hồ và lối xe quanh nhà.",
+        "Tập dừng–quan sát–nắm tay ở khu vực an toàn.",
+        "Chọn hai người lớn tin cậy và lưu số 111."
+      ],
+      "limits": "Kỹ năng của trẻ không thay trách nhiệm giám sát, bảo vệ và cấp cứu của người lớn.",
+      "sourceIds": [
+        "water",
+        "road",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "school",
+      "pillar": "health",
+      "id": "suc-khoe-hoc-duong-6-10",
+      "title": "Sức khỏe học đường 6–10 tuổi: răng, thị lực, thính lực và khám định kỳ",
+      "summary": "Phối hợp gia đình–nhà trường để trẻ học và chơi thoải mái.",
+      "sections": [
+        {
+          "heading": "Quan sát trong bối cảnh học",
+          "body": "WHO có hướng dẫn sàng lọc mắt và tai cho trẻ tuổi học đường. Hỏi trẻ có nhìn rõ bảng, nghe cô giáo hoặc đau khi nhai không. Hành vi tránh đọc, đau đầu hay hỏi lại có nhiều nguyên nhân; không kết luận thiếu cố gắng khi chưa hiểu khó khăn.",
+          "sourceIds": [
+            "well",
+            "vision",
+            "oral"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nếp chăm sóc tại nhà",
+          "body": "Nhắc trẻ đánh răng sáng tối, duy trì bữa ăn và giờ nghỉ phù hợp. Cho trẻ quyền báo khi cơ thể khó chịu. Chọn tư thế đọc và ánh sáng dễ chịu; nếu nghi vấn về mắt hoặc tai, sắp xếp khám thay vì tự mua kính, nhỏ thuốc hoặc thử các bài tập chữa bệnh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phối hợp với y tế học đường",
+          "body": "Hỏi trường về chương trình sàng lọc, cách thông báo kết quả và nơi giới thiệu khám tiếp. Chuẩn bị lịch sử sức khỏe và câu hỏi cho bác sĩ; giữ bản ghi kết quả riêng tư. Việc sàng lọc không phải chẩn đoán cuối cùng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đi khám khi cần",
+          "body": "Nếu trẻ có triệu chứng bất thường kéo dài, ảnh hưởng học tập hoặc vui chơi, liên hệ cơ sở y tế. Đau dữ dội, chấn thương mắt hoặc giảm thị lực đột ngột cần được đánh giá sớm. Không chờ đến đợt khám trường nếu vấn đề cấp tính.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Hỏi trẻ về một khó khăn khi học và một khó khăn khi chơi.",
+        "Tra cứu lịch khám sức khỏe của trường và thông tin liên hệ.",
+        "Lưu kết quả khám ở nơi riêng tư, ghi câu hỏi cần theo dõi."
+      ],
+      "limits": "Không quy định lịch khám giống nhau cho mọi trẻ và không chẩn đoán qua biểu hiện học tập.",
+      "sourceIds": [
+        "well",
+        "vision",
+        "oral"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "school",
+      "pillar": "body",
+      "id": "co-the-thay-doi-6-10",
+      "title": "Cơ thể 6–10 tuổi: vệ sinh, quyền riêng tư và chuẩn bị trước dậy thì",
+      "summary": "Giải thích thay đổi cơ thể tự nhiên bằng từ chính xác, phù hợp tuổi.",
+      "sections": [
+        {
+          "heading": "Trò chuyện trước khi thay đổi xảy ra",
+          "body": "WHO nhấn mạnh chuẩn bị kiến thức kinh nguyệt trước lần đầu. Có thể nói cơ thể mỗi người phát triển khác nhau; một số thay đổi như chiều cao, da, mùi cơ thể hoặc kinh nguyệt đến vào thời điểm khác nhau. Dùng lời bình thường, không trêu chọc.",
+          "sourceIds": [
+            "well",
+            "menstrual",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thói quen vệ sinh riêng",
+          "body": "Chuẩn bị đồ thay, khăn và vật dụng phù hợp; hướng dẫn trẻ tắm, thay quần áo và tìm người giúp khi chưa biết làm. Có thể đặt túi vệ sinh trong ba lô nếu cần, trao đổi với trường về nơi riêng tư. Không yêu cầu trẻ kể chuyện cơ thể trước lớp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tôn trọng ranh giới",
+          "body": "Dạy trẻ hỏi trước khi chạm người khác và có quyền nói khi thấy khó chịu. Khi chăm sóc y tế hoặc vệ sinh cần thiết, người lớn giải thích và đảm bảo riêng tư. Nếu có hành vi xâm phạm, ưu tiên an toàn và tìm người lớn hoặc Tổng đài 111, không đổ lỗi cho trẻ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi trẻ hỏi hoặc lo lắng",
+          "body": "Trả lời ngắn, đúng câu hỏi; nếu chưa biết, cùng tìm nguồn đáng tin hoặc hỏi bác sĩ. Các dấu hiệu phát triển quá sớm, đau hoặc lo lắng đáng kể cần đánh giá chuyên môn, không dùng mạng xã hội để xác định trẻ có bất thường không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chuẩn bị một cuộc trò chuyện riêng, hỏi trẻ muốn biết gì.",
+        "Cùng trẻ chọn vật dụng vệ sinh phù hợp.",
+        "Tập nói với người lớn tin cậy khi thấy không an toàn."
+      ],
+      "limits": "Không xác định dậy thì sớm/muộn hoặc bệnh từ bài đọc; tôn trọng sự riêng tư của trẻ.",
+      "sourceIds": [
+        "well",
+        "menstrual",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "nutrition",
+      "id": "dinh-duong-day-thi-11-13",
+      "title": "Dinh dưỡng 11–13 tuổi: bữa ăn, tăng trưởng và hình ảnh cơ thể",
+      "summary": "Xây dựng môi trường ăn uống lành mạnh trong giai đoạn cơ thể thay đổi.",
+      "sections": [
+        {
+          "heading": "Nhu cầu thay đổi",
+          "body": "UNICEF xem dinh dưỡng tuổi học đường và vị thành niên là một phần của sức khỏe phát triển. Gia đình có thể ưu tiên ăn đủ bữa, luân phiên nhóm thực phẩm và nước uống; nhu cầu thực tế khác nhau theo tăng trưởng, vận động và sức khỏe.",
+          "sourceIds": [
+            "nutritionYouth",
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực đơn thuận tiện",
+          "body": "Ví dụ bữa sáng bánh mì trứng và trái cây, bữa trưa cơm cá, rau, bữa phụ sữa chua phù hợp, bữa tối đậu hoặc thịt và canh. Chọn món theo ngân sách và dung nạp. Không ấn định khẩu phần hoặc ép trẻ ăn để đạt cân nặng trên mạng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nói về cơ thể không kỳ thị",
+          "body": "Tránh nhận xét tăng cân, hình dáng hoặc so sánh với bạn. Nếu trẻ muốn ăn kiêng vì quảng cáo hoặc nội dung mạng, hỏi điều khiến trẻ lo và cùng đánh giá nguồn. Không tự bổ sung vi chất, thuốc hay thực phẩm chức năng theo lời quảng cáo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện nhu cầu hỗ trợ",
+          "body": "Khi trẻ thường bỏ bữa, ăn uống gây căng thẳng, mệt kéo dài hoặc thay đổi cân nặng đáng kể, trao đổi chuyên gia. Hỏi trường về bữa ăn và nơi uống nước; với dị ứng, bệnh nền hoặc nhu cầu đặc biệt cần hướng dẫn cá nhân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Cùng trẻ chọn ba bữa phụ vừa túi tiền.",
+        "Thảo luận một quảng cáo về ngoại hình và kiểm tra nguồn.",
+        "Chuẩn bị câu hỏi dinh dưỡng cho lần khám nếu có lo ngại."
+      ],
+      "limits": "Không cung cấp chế độ giảm cân, liều bổ sung hoặc đánh giá tăng trưởng cá nhân.",
+      "sourceIds": [
+        "nutritionYouth",
+        "whoDiet"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "health",
+      "id": "kham-suc-khoe-11-13",
+      "title": "Khám sức khỏe 11–13 tuổi: khi nào hỏi bác sĩ và chuẩn bị câu hỏi",
+      "summary": "Giúp trẻ chủ động nói về sức khỏe, dậy thì và khó khăn học đường.",
+      "sections": [
+        {
+          "heading": "Khám định kỳ và quyền được hỏi",
+          "body": "WHO hướng tới tiếp cận chăm sóc phù hợp trẻ vị thành niên. Thay vì chỉ đi khám khi ốm, gia đình hỏi cơ sở y tế lịch theo dõi phù hợp. Cho trẻ cơ hội nêu câu hỏi về cơ thể, giấc ngủ, đau, tâm trạng hoặc khó khăn học tập.",
+          "sourceIds": [
+            "well",
+            "adolescent"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị trước buổi khám",
+          "body": "Ghi triệu chứng, thời gian, mức ảnh hưởng đến sinh hoạt, thuốc đang dùng và câu hỏi. Không chụp hoặc chia sẻ dữ liệu nhạy cảm vào ứng dụng. Hỏi nhân viên y tế về cách trao đổi riêng với trẻ theo quy định và hoàn cảnh.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kết nối y tế học đường",
+          "body": "Nếu có sàng lọc tại trường, tìm hiểu kết quả, cách theo dõi và nơi khám tiếp. Khi trẻ né tránh giờ học vì đau, sợ hoặc mệt, hỏi nguyên nhân, không quy về lười biếng. Trao đổi với giáo viên ở phạm vi cần thiết.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi vấn đề ảnh hưởng cuộc sống",
+          "body": "Khó chịu kéo dài, giảm tham gia hoạt động, rối loạn giấc ngủ nghiêm trọng hoặc lo lắng sức khỏe cần đánh giá phù hợp. Tình huống cấp cứu, nguy cơ tự gây hại hay bị xâm hại cần trợ giúp ngay; không chờ lịch định kỳ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Cho trẻ viết một câu hỏi riêng muốn hỏi bác sĩ.",
+        "Kiểm tra đầu mối y tế học đường.",
+        "Thống nhất kế hoạch theo dõi sau buổi khám."
+      ],
+      "limits": "Bài không quy định xét nghiệm hoặc lịch tiêm cho từng trẻ; không thay tư vấn chuyên môn.",
+      "sourceIds": [
+        "well",
+        "adolescent"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "routine",
+      "id": "ngu-van-dong-man-hinh-11-13",
+      "title": "Nhịp sống 11–13 tuổi: ngủ, học, vận động và màn hình",
+      "summary": "Tạo lịch học mới có thời gian nghỉ và khả năng điều chỉnh.",
+      "sections": [
+        {
+          "heading": "Giấc ngủ và nhịp học",
+          "body": "Nhu cầu ngủ thay đổi theo tuổi; lịch học dày có thể làm giờ nghỉ bị thu hẹp. Cùng trẻ xem giờ dậy, thời gian đi học và các hoạt động bắt buộc. Chọn giờ đi ngủ đủ sớm thay vì thêm giờ học chỉ vì bạn bè cũng học nhiều.",
+          "sourceIds": [
+            "sleep",
+            "activityGuide",
+            "digital"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sắp xếp hoạt động sau trường",
+          "body": "Cho trẻ khoảng nghỉ, bữa ăn và vận động phù hợp trước khi tiếp tục nhiệm vụ học tập. Chia bài thành các khối nhỏ có mục tiêu, không dùng lịch kín mọi phút. Giữ một khoảng thời gian không có nhiệm vụ để trẻ tự chọn hoạt động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thỏa thuận thiết bị",
+          "body": "Gia đình thống nhất nơi sạc, lúc cần tắt thông báo và cách dùng thiết bị cho học hoặc giải trí. Người lớn cũng thực hiện quy tắc hợp lý. Hỏi trẻ điều gì khiến khó rời màn hình; tránh giám sát bí mật thay đối thoại.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá sau một tuần",
+          "body": "Cùng trẻ xem lại mức tỉnh táo, hứng thú, nhiệm vụ còn vướng và thời gian chơi. Điều chỉnh từng thay đổi nhỏ. Nếu ngủ kéo dài khó khăn, ngáy bất thường hoặc buồn ngủ ảnh hưởng sinh hoạt, tìm tư vấn y tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Vẽ lịch một ngày thực tế với giờ ngủ và đi lại.",
+        "Chọn khung không thông báo khi học.",
+        "Thống nhất một hoạt động vận động hoặc giải trí offline."
+      ],
+      "limits": "Không dùng lịch để ép ngủ hay tước quyền nghỉ ngơi; vấn đề ngủ dai dẳng cần đánh giá.",
+      "sourceIds": [
+        "sleep",
+        "activityGuide",
+        "digital"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "education",
+      "id": "tu-hoc-va-ghi-chu-thcs",
+      "title": "Tự học 11–13 tuổi: ghi chú, ôn tập và chuyển cấp THCS",
+      "summary": "Rèn một hệ thống tự học nhỏ, phù hợp nhiều môn và không chạy theo điểm số.",
+      "sections": [
+        {
+          "heading": "Nền tảng học độc lập",
+          "body": "Mục tiêu là hiểu, tự giải thích và biết hỏi khi chưa hiểu. Khung năng lực UNESCO về AI nhấn mạnh học sinh cần kỹ năng và trách nhiệm khi dùng công cụ; việc học không thể giao toàn bộ cho phần mềm. Tập chọn mục tiêu cụ thể cho mỗi buổi.",
+          "sourceIds": [
+            "ai",
+            "digital"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Một quy trình ghi chú",
+          "body": "Khi học một bài khoa học, viết câu hỏi chính, ba ý quan trọng và một ví dụ bằng lời của mình. Đóng vở rồi thử giải thích; mở lại để kiểm tra. Với toán, làm một bài tương tự và ghi vì sao sai, thay vì chép lại đáp án.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lịch ôn linh hoạt",
+          "body": "Dùng một cuốn sổ hoặc lịch đơn giản để ghi hạn bài, việc hôm nay và ngày xem lại. Chia nội dung khó thành các bước; hỏi giáo viên khi chưa hiểu. Không mua khóa học chỉ vì quảng cáo kết quả nhanh hoặc dùng AI giải thay toàn bộ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Cha mẹ đồng hành bằng câu hỏi",
+          "body": "Hỏi con đã hiểu gì, mắc ở đâu và cần hỗ trợ gì. Có thể dành thời gian xem lại cùng con, rồi giảm hỗ trợ khi con tự quản lý được. Nếu khó khăn kéo dài ở nhiều môn hoặc gây căng thẳng, phối hợp giáo viên để tìm hỗ trợ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Thử mẫu ghi chú câu hỏi–ý chính–ví dụ trong ba buổi.",
+        "Chọn một bài cũ để tự giải thích không nhìn vở.",
+        "Cuối tuần xem lại lịch học và điều chỉnh một việc."
+      ],
+      "limits": "Phương pháp là gợi ý biên tập, không phải chuẩn bắt buộc hoặc chương trình UNESCO chính thức.",
+      "sourceIds": [
+        "ai",
+        "digital"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
+    },
+    {
+      "stage": "preteen",
+      "pillar": "safety",
+      "id": "bat-nat-va-lua-dao-11-13",
+      "title": "An toàn 11–13 tuổi: bắt nạt, tin nhắn lạ và tìm người hỗ trợ",
+      "summary": "Tập phản ứng an toàn và giữ niềm tin giữa trẻ với người lớn.",
+      "sections": [
+        {
+          "heading": "Nhận biết bắt nạt",
+          "body": "Hành vi làm nhục, đe dọa, cô lập hay phát tán nội dung gây hại cần được quan tâm. UNICEF hướng dẫn người lớn trò chuyện và hỗ trợ trẻ báo cáo. Đừng yêu cầu trẻ tự xử lý hoặc chứng minh mình mạnh mẽ bằng việc đối đầu.",
+          "sourceIds": [
+            "bullying",
+            "cyber",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tình huống tin nhắn lạ",
+          "body": "Nếu tài khoản lạ xin mã xác thực, địa chỉ, ảnh riêng hoặc tiền, dừng trao đổi và hỏi người lớn. Không mở tệp hay liên kết lạ. Với tài khoản bị chiếm quyền, dùng kênh hỗ trợ chính thức; không trả tiền cho người hứa lấy lại tài khoản.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi bị bắt nạt trực tuyến",
+          "body": "Lưu thông tin cần thiết một cách riêng tư nếu an toàn, chặn hoặc báo cáo tài khoản, nói với người lớn. Không lan truyền hình ảnh nhạy cảm để làm bằng chứng. Người lớn phối hợp nhà trường hoặc cơ quan phù hợp, có thể liên hệ 111 nếu trẻ có nguy cơ bị xâm hại.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tập đường đi tìm trợ giúp",
+          "body": "Chọn một người ở nhà, một người ở trường và một kênh hỗ trợ ngoài gia đình. Tập câu: Con gặp việc này và cần giúp. Khi có đe dọa tức thời, ưu tiên nơi an toàn, không gặp người lạ hoặc tự thương lượng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        }
+      ],
+      "practice": [
+        "Chọn ba người hoặc kênh trợ giúp.",
+        "Diễn tập từ chối yêu cầu mã OTP hoặc thông tin riêng.",
+        "Kiểm tra cách chặn và báo cáo trên nền tảng đang dùng."
+      ],
+      "limits": "Không đổ trách nhiệm bảo vệ lên trẻ; nguy cơ xâm hại hoặc đe dọa cần người lớn và cơ quan hỗ trợ.",
+      "sourceIds": [
+        "bullying",
+        "cyber",
+        "child111"
+      ],
+      "status": "draft",
+      "batch": "S04-AZ-02A"
     }
   ]
 }

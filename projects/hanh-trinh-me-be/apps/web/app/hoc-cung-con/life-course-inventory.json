@@ -5,11 +5,11 @@
   "stats": {
     "legacy": 72,
     "lessons": 21,
-    "unique": 104,
+    "unique": 118,
     "cells": 192,
     "applicable": 173,
-    "partial": 58,
-    "gaps": 115,
+    "partial": 72,
+    "gaps": 101,
     "notPriority": 19,
     "byStage": [
       {
@@ -23,42 +23,42 @@
       {
         "id": "baby",
         "age": "0–12 tháng",
-        "items": 15,
+        "items": 16,
         "applicable": 11,
-        "partial": 7,
-        "gaps": 4
+        "partial": 8,
+        "gaps": 3
       },
       {
         "id": "toddler",
         "age": "1–2 tuổi",
-        "items": 10,
+        "items": 13,
         "applicable": 12,
-        "partial": 6,
-        "gaps": 6
+        "partial": 9,
+        "gaps": 3
       },
       {
         "id": "preschool",
         "age": "3–5 tuổi",
-        "items": 10,
+        "items": 13,
         "applicable": 13,
-        "partial": 7,
-        "gaps": 6
+        "partial": 10,
+        "gaps": 3
       },
       {
         "id": "school",
         "age": "6–10 tuổi",
-        "items": 11,
+        "items": 13,
         "applicable": 15,
-        "partial": 9,
-        "gaps": 6
+        "partial": 11,
+        "gaps": 4
       },
       {
         "id": "preteen",
         "age": "11–13 tuổi",
-        "items": 6,
+        "items": 11,
         "applicable": 16,
-        "partial": 4,
-        "gaps": 12
+        "partial": 9,
+        "gaps": 7
       },
       {
         "id": "teen",
@@ -109,9 +109,9 @@
         "gaps": 15
       }
     ],
-    "p0": 52,
+    "p0": 38,
     "baselineUnique": 93,
-    "newArticles": 11
+    "newArticles": 25
   },
   "refs": [
     {
@@ -1361,6 +1361,174 @@
       "sectionCount": 4,
       "status": "draft",
       "href": "/hoc-cung-con#az-ke-hoach-cham-soc-75-plus"
+    },
+    {
+      "kind": "article",
+      "id": "gan-bo-va-dap-ung-nam-dau",
+      "title": "Gắn bó năm đầu đời: đáp lại tín hiệu, dỗ dành và chăm sóc người chăm bé",
+      "stage": "baby",
+      "pillar": "psych",
+      "originalStage": "baby",
+      "sourceCount": 1,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-gan-bo-va-dap-ung-nam-dau"
+    },
+    {
+      "kind": "article",
+      "id": "kham-phat-trien-rang-1-2",
+      "title": "Khám sức khỏe 1–2 tuổi: theo dõi phát triển, răng và câu hỏi cần chuẩn bị",
+      "stage": "toddler",
+      "pillar": "health",
+      "originalStage": "toddler",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-kham-phat-trien-rang-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "van-dong-ngon-ngu-va-ve-sinh-1-2",
+      "title": "Cơ thể 1–2 tuổi: vận động, ngôn ngữ và tập chăm sóc bản thân",
+      "stage": "toddler",
+      "pillar": "body",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-van-dong-ngon-ngu-va-ve-sinh-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "nhip-sinh-hoat-1-2",
+      "title": "Nhịp sinh hoạt 1–2 tuổi: ngủ, rửa tay và tự phục vụ",
+      "stage": "toddler",
+      "pillar": "routine",
+      "originalStage": "toddler",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-nhip-sinh-hoat-1-2"
+    },
+    {
+      "kind": "article",
+      "id": "rang-thi-luc-suc-khoe-3-5",
+      "title": "Sức khỏe mầm non 3–5 tuổi: răng, mắt, tai và theo dõi hằng ngày",
+      "stage": "preschool",
+      "pillar": "health",
+      "originalStage": "preschool",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-rang-thi-luc-suc-khoe-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "ngu-choi-tu-phuc-vu-3-5",
+      "title": "Một ngày tuổi mầm non: ngủ, vận động, vệ sinh và tự phục vụ",
+      "stage": "preschool",
+      "pillar": "routine",
+      "originalStage": "preschool",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ngu-choi-tu-phuc-vu-3-5"
+    },
+    {
+      "kind": "article",
+      "id": "an-toan-mam-non-co-the-nuoc",
+      "title": "An toàn 3–5 tuổi: cơ thể, đường phố, ao hồ và người trợ giúp",
+      "stage": "preschool",
+      "pillar": "safety",
+      "originalStage": "preschool",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-an-toan-mam-non-co-the-nuoc"
+    },
+    {
+      "kind": "article",
+      "id": "suc-khoe-hoc-duong-6-10",
+      "title": "Sức khỏe học đường 6–10 tuổi: răng, thị lực, thính lực và khám định kỳ",
+      "stage": "school",
+      "pillar": "health",
+      "originalStage": "school",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-suc-khoe-hoc-duong-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "co-the-thay-doi-6-10",
+      "title": "Cơ thể 6–10 tuổi: vệ sinh, quyền riêng tư và chuẩn bị trước dậy thì",
+      "stage": "school",
+      "pillar": "body",
+      "originalStage": "school",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-co-the-thay-doi-6-10"
+    },
+    {
+      "kind": "article",
+      "id": "dinh-duong-day-thi-11-13",
+      "title": "Dinh dưỡng 11–13 tuổi: bữa ăn, tăng trưởng và hình ảnh cơ thể",
+      "stage": "preteen",
+      "pillar": "nutrition",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-dinh-duong-day-thi-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "kham-suc-khoe-11-13",
+      "title": "Khám sức khỏe 11–13 tuổi: khi nào hỏi bác sĩ và chuẩn bị câu hỏi",
+      "stage": "preteen",
+      "pillar": "health",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-kham-suc-khoe-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "ngu-van-dong-man-hinh-11-13",
+      "title": "Nhịp sống 11–13 tuổi: ngủ, học, vận động và màn hình",
+      "stage": "preteen",
+      "pillar": "routine",
+      "originalStage": "preteen",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-ngu-van-dong-man-hinh-11-13"
+    },
+    {
+      "kind": "article",
+      "id": "tu-hoc-va-ghi-chu-thcs",
+      "title": "Tự học 11–13 tuổi: ghi chú, ôn tập và chuyển cấp THCS",
+      "stage": "preteen",
+      "pillar": "education",
+      "originalStage": "preteen",
+      "sourceCount": 2,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-tu-hoc-va-ghi-chu-thcs"
+    },
+    {
+      "kind": "article",
+      "id": "bat-nat-va-lua-dao-11-13",
+      "title": "An toàn 11–13 tuổi: bắt nạt, tin nhắn lạ và tìm người hỗ trợ",
+      "stage": "preteen",
+      "pillar": "safety",
+      "originalStage": "preteen",
+      "sourceCount": 3,
+      "sectionCount": 4,
+      "status": "draft",
+      "href": "/hoc-cung-con#az-bat-nat-va-lua-dao-11-13"
     }
   ],
   "cells": [
@@ -1612,8 +1780,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Gắn bó, đáp lại tín hiệu, khóc và hỗ trợ người chăm sóc",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:gan-bo-va-dap-ung-nam-dau"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -1796,8 +1966,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Theo dõi phát triển, răng miệng, khám khi có lo lắng",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:kham-phat-trien-rang-1-2"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -1822,8 +1994,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Ngôn ngữ, vận động, vệ sinh và ranh giới cơ thể",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:van-dong-ngon-ngu-va-ve-sinh-1-2"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -1833,8 +2007,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Giấc ngủ, vệ sinh, tập tự phục vụ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:nhip-sinh-hoat-1-2"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -1988,8 +2164,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Răng miệng, thị lực, theo dõi sức khỏe",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:rang-thi-luc-suc-khoe-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2026,8 +2204,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Ngủ, vận động, tự chăm sóc",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ngu-choi-tu-phuc-vu-3-5"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2102,8 +2282,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "An toàn cơ thể, đường phố, nước, tìm trợ giúp",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:an-toan-mam-non-co-the-nuoc"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2181,8 +2363,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Khám định kỳ, răng, thị lực, sức khỏe học đường",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:suc-khoe-hoc-duong-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2205,8 +2389,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Thay đổi cơ thể, vệ sinh và ranh giới",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:co-the-thay-doi-6-10"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2364,8 +2550,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Dinh dưỡng tuổi dậy thì và hình ảnh cơ thể",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:dinh-duong-day-thi-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2375,8 +2563,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Khám khi có lo lắng, sức khỏe học đường",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:kham-suc-khoe-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2413,8 +2603,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Giấc ngủ, lịch học, vận động và màn hình",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:ngu-van-dong-man-hinh-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2424,8 +2616,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Chuyển cấp THCS, ghi chú, tự học",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:tu-hoc-va-ghi-chu-thcs"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
@@ -2484,8 +2678,10 @@
       "applicable": true,
       "priority": "P0",
       "topic": "Phòng bắt nạt, lừa đảo và tìm người hỗ trợ",
-      "status": "gap",
-      "refs": [],
+      "status": "partial-draft",
+      "refs": [
+        "article:bat-nat-va-lua-dao-11-13"
+      ],
       "acceptance": "Bài tổng quan chuyên sâu + tình huống/hoạt động thực hành + giới hạn áp dụng + nguồn theo claim; rà soát chuyên môn trước công bố."
     },
     {
