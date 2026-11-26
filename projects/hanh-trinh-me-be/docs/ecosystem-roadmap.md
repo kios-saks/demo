@@ -151,4 +151,5 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] S04-AZ-04J: 16/16 revision tuổi 75+; tổng 219/219, 0 chờ; [báo cáo](life-course-batch-04j-2026-11-26.md). Biên tập Draft hoàn tất, chưa nghiệm thu chuyên môn/CI.
 - [x] S04-AZ-04: 219/219 có revision; [tổng kết và bàn giao](life-course-editorial-completion-2026-11-26.md). Không đồng nghĩa publication-ready.
 - [x] Content Pipeline Recovery: nghiệm thu kỹ thuật DEV 222b182, CI 4/4, Supabase 72 bài/92 nguồn, bảo toàn CMS, Render LIVE, CMS/Open Reader smoke PASS, [219/219 UI PASS](https://github.com/kios-saks/demo/actions/runs/45756170970). [Báo cáo](content-pipeline-recovery-2026-11-26.md). Không mở Production.
-- [ ] Reader experience polish: bỏ nhãn nội bộ, giữ giới hạn chuyên môn và quyền; CI/deployment/kiểm thử UI chưa nghiệm thu.
+- [x] Reader experience polish: nghiệm thu kỹ thuật DEV `16b8762`, Render LIVE, CMS/Open Reader smoke PASS, [219/219 post-deploy PASS](https://github.com/kios-saks/demo/actions/runs/45765933955); không mở Production. [Báo cáo](reader-experience-polish-2026-11-26.md).
+- [x] Lưu [sitemap, sơ đồ tri thức A–Z, luồng người đọc và kiến trúc Web](web-sitemap-and-architecture-2026-11-26.md) theo baseline đã nghiệm thu.
