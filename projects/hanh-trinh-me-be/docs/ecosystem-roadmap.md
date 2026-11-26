@@ -153,3 +153,8 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] Content Pipeline Recovery: nghiệm thu kỹ thuật DEV 222b182, CI 4/4, Supabase 72 bài/92 nguồn, bảo toàn CMS, Render LIVE, CMS/Open Reader smoke PASS, [219/219 UI PASS](https://github.com/kios-saks/demo/actions/runs/45756170970). [Báo cáo](content-pipeline-recovery-2026-11-26.md). Không mở Production.
 - [x] Reader experience polish: nghiệm thu kỹ thuật DEV `16b8762`, Render LIVE, CMS/Open Reader smoke PASS, [219/219 post-deploy PASS](https://github.com/kios-saks/demo/actions/runs/45765933955); không mở Production. [Báo cáo](reader-experience-polish-2026-11-26.md).
 - [x] Lưu [sitemap, sơ đồ tri thức A–Z, luồng người đọc và kiến trúc Web](web-sitemap-and-architecture-2026-11-26.md) theo baseline đã nghiệm thu.
+
+## Sprint UX Redesign V2 — đề xuất (26/11/2026)
+
+- [x] Lập [UI/UX Audit V2](ux-redesign-v2/README.md), [sitemap V2](ux-redesign-v2/sitemap-v2.md), [10 wireframe Desktop/Mobile](ux-redesign-v2/wireframes.md) và [roadmap/checklist UX-01–UX-10](ux-redesign-v2/sprint-roadmap.md).
+- [ ] Chủ dự án review thiết kế và chốt phạm vi. Sprint đang PLANNED, chưa sửa app, 0/10 triển khai. Không thay đổi quyết định tạm dừng mở rộng gia đình/AI hoặc mở Production.
