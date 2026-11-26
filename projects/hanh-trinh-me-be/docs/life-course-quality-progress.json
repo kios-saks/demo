@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04H",
+  "batch": "S04-AZ-04I",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -917,16 +917,18 @@
       "stage": "older",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:nghi-huu-va-ket-noi",
       "stage": "older",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:ke-hoach-cham-soc-75-plus",
@@ -1292,48 +1294,54 @@
       "stage": "older",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:kham-chu-dong-va-thuoc-60-74",
       "stage": "older",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:co-the-giac-quan-60-74",
       "stage": "older",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:nhip-song-va-van-dong-60-74",
       "stage": "older",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:hoc-ky-nang-moi-60-74",
       "stage": "older",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:chon-lop-cong-dong-60-74",
       "stage": "older",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:ho-tro-an-uong-75-plus",
@@ -1816,64 +1824,72 @@
       "stage": "older",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:dien-thoai-va-an-toan-so-60-74",
       "stage": "older",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:ket-noi-va-tu-chu-60-74",
       "stage": "older",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:nghe-thuat-va-so-thich-60-74",
       "stage": "older",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:quan-ly-thu-nhap-huu-tri-60-74",
       "stage": "older",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74",
       "stage": "older",
       "pillar": "career",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:quyen-loi-huu-tri-bhyt-60-74",
       "stage": "older",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:song-doc-lap-va-ke-hoach-ho-tro-60-74",
       "stage": "older",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04I"
     },
     {
       "key": "article:tri-tue-va-so-thich-75-plus",
@@ -6422,5 +6438,342 @@
       "https://baohiemxahoi.gov.vn/tintuc/Pages/cai-cach-chinh-sach-bhxh.aspx?CateID=0&ItemID=25803&OtItem=date"
     ],
     "note": "Không ghi đè số cộng dồn vì cách đếm ledger cũ chưa khớp; cần reconcile."
+  },
+  "revisions04i": [
+    {
+      "key": "article:phong-te-nga-tuoi-60-74",
+      "stage": "older",
+      "title": "Tuổi 60–74: rà soát môi trường sống để giảm nguy cơ té ngã",
+      "before": 246,
+      "after": 584,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+          "status": "opened",
+          "scope": "Nguy cơ ngã, môi trường, thuốc, thăng bằng và phòng ngừa."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghi-huu-va-ket-noi",
+      "stage": "older",
+      "title": "Nghỉ hưu và sức khỏe tinh thần: giữ kết nối, sở thích và cảm giác có ý nghĩa",
+      "before": 225,
+      "after": 571,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Kết nối, hoạt động có ý nghĩa, chống định kiến và bạo hành."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-uong-va-nuoc-60-74",
+      "stage": "older",
+      "title": "Bữa ăn tuổi 60–74: đủ chất, dễ tiếp cận và phù hợp khẩu vị",
+      "before": 223,
+      "after": 567,
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/conditions/malnutrition/",
+          "status": "opened",
+          "scope": "Giảm cân ngoài ý muốn và đánh giá dinh dưỡng."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+          "status": "opened",
+          "scope": "Đa dạng thực phẩm, rau quả và chất xơ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-chu-dong-va-thuoc-60-74",
+      "stage": "older",
+      "title": "Khám chủ động 60–74 tuổi: rà soát thuốc, chức năng và kế hoạch theo dõi",
+      "before": 212,
+      "after": 557,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+          "status": "opened-overview",
+          "scope": "Trang giới thiệu 155 trang, chưa đọc PDF."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+          "status": "opened",
+          "scope": "Bệnh mạn tính, nguy cơ, phát hiện và điều trị."
+        },
+        {
+          "url": "https://www.who.int/initiatives/medication-without-harm",
+          "status": "opened",
+          "scope": "An toàn ở nhiều khâu sử dụng thuốc."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:co-the-giac-quan-60-74",
+      "stage": "older",
+      "title": "Cơ thể tuổi 60–74: nghe, nhìn, vận động và phẩm giá",
+      "before": 215,
+      "after": 568,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+          "status": "opened",
+          "scope": "Nguyên nhân và ảnh hưởng giao tiếp."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+          "status": "opened",
+          "scope": "Nguyên nhân thị lực và chăm sóc mắt."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-song-va-van-dong-60-74",
+      "stage": "older",
+      "title": "Nhịp sinh hoạt tuổi 60–74: vận động, ngủ và duy trì hoạt động có ý nghĩa",
+      "before": 206,
+      "after": 546,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+          "status": "opened",
+          "scope": "Vận động, giảm ít vận động; không kê bài tập."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "60 tuổi ≥7 giờ; 61–64: 7–9; ≥65: 7–8 giờ/ngày."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-ky-nang-moi-60-74",
+      "stage": "older",
+      "title": "Học tập tuổi 60–74: học kỹ năng mới theo nhu cầu và sở thích",
+      "before": 206,
+      "after": 556,
+      "sourceChecks": [
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 08/04/2026, học tập bao trùm; chưa đọc toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-lop-cong-dong-60-74",
+      "stage": "older",
+      "title": "Tìm lớp học cộng đồng tuổi 60–74: chương trình, hỗ trợ và an toàn giao dịch",
+      "before": 220,
+      "after": 568,
+      "sourceChecks": [
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 08/04/2026, học tập bao trùm; chưa đọc toàn văn."
+        },
+        {
+          "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+          "status": "opened",
+          "scope": "Mô hình Việt Nam, không phải lịch lớp hiện hành."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-duy-va-giai-quyet-van-de-60-74",
+      "stage": "older",
+      "title": "Tư duy tuổi 60–74: duy trì tò mò và giải quyết vấn đề đời thường",
+      "before": 228,
+      "after": 581,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+          "status": "opened",
+          "scope": "Dấu hiệu nhận thức ảnh hưởng sinh hoạt; không chẩn đoán."
+        },
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened-overview",
+          "scope": "Kiểm chứng thông tin, AI và an toàn số."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:dien-thoai-va-an-toan-so-60-74",
+      "stage": "older",
+      "title": "Kỹ năng số 60–74 tuổi: điện thoại, thông tin chính thức và chống giả mạo",
+      "before": 212,
+      "after": 562,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened-overview",
+          "scope": "Kiểm chứng thông tin, AI và an toàn số."
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+          "status": "opened",
+          "scope": "Giả mạo, thúc ép giao dịch, lừa đảo công nghệ cao."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ket-noi-va-tu-chu-60-74",
+      "stage": "older",
+      "title": "Quan hệ tuổi 60–74: gia đình, bạn bè, cộng đồng và quyền tự chủ",
+      "before": 218,
+      "after": 566,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Kết nối, hoạt động có ý nghĩa, chống định kiến và bạo hành."
+        },
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng và tương tác môi trường."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghe-thuat-va-so-thich-60-74",
+      "stage": "older",
+      "title": "Sở thích tuổi 60–74: nghệ thuật, vận động và hoạt động cộng đồng",
+      "before": 205,
+      "after": 555,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Kết nối, hoạt động có ý nghĩa, chống định kiến và bạo hành."
+        },
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 08/04/2026, học tập bao trùm; chưa đọc toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quan-ly-thu-nhap-huu-tri-60-74",
+      "stage": "older",
+      "title": "Tài chính tuổi 60–74: thu nhập hưu trí, chi phí và chống lừa đảo",
+      "before": 223,
+      "after": 573,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud/",
+          "status": "opened-overview",
+          "scope": "Đầu mối giáo dục, không áp luật Hoa Kỳ."
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+          "status": "opened-overview",
+          "scope": "Biểu mẫu thu nhập, tiết kiệm, mục tiêu; không áp luật Hoa Kỳ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:viec-lam-tinh-nguyen-nghi-ngoi-60-74",
+      "stage": "older",
+      "title": "Tuổi 60–74: lựa chọn việc làm, tình nguyện hoặc nghỉ ngơi",
+      "before": 212,
+      "after": 555,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng và tương tác môi trường."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=0&docid=217080&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata văn bản hợp nhất 26/02/2026; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-huu-tri-bhyt-60-74",
+      "stage": "older",
+      "title": "Quyền lợi tuổi 60–74 tại Việt Nam: hưu trí, bảo hiểm và trợ giúp xã hội",
+      "before": 216,
+      "after": 554,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata hiệu lực 01/07/2025; chưa đọc PDF, rà sửa đổi."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=1&docid=214435&pageid=27160&typegroupid=4",
+          "status": "opened-overview",
+          "scope": "Metadata trợ cấp hưu trí xã hội hiệu lực 01/07/2025; chưa đọc PDF."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=1&docid=214515&pageid=27160&typegroupid=4",
+          "status": "opened-overview",
+          "scope": "Metadata hướng dẫn BHYT hiệu lực 15/08/2025; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:song-doc-lap-va-ke-hoach-ho-tro-60-74",
+      "stage": "older",
+      "title": "Kỹ năng sống tuổi 60–74: sinh hoạt độc lập và chuẩn bị hỗ trợ",
+      "before": 211,
+      "after": 559,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng và tương tác môi trường."
+        },
+        {
+          "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+          "status": "opened-overview",
+          "scope": "Trang giới thiệu 155 trang, chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "sourceReview04i": {
+    "baseline": 131,
+    "previousReported": {
+      "baseline": 131,
+      "attempted": 66,
+      "remaining": 65,
+      "additional": 65
+    },
+    "priorRecomputed": {
+      "attempted": 67,
+      "additional": 71
+    },
+    "recomputed": {
+      "baseline": 131,
+      "attempted": 75,
+      "remaining": 56,
+      "additional": 76
+    },
+    "note": "Phép union URL bỏ / cuối đã kiểm tra từ 12 ledger trước và 24 URL mở trong lượt xác minh ban đầu. Giữ số lịch sử 04G/04H vì chênh lệch phương pháp; số recomputed là đếm kỹ thuật, không phải xác minh claim. Hai URL cache miss không tính là đã mở."
   }
 }

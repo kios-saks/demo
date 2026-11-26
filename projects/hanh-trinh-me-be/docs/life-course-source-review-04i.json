@@ -1,0 +1,340 @@
+[
+  {
+    "id": "falls",
+    "key": "falls",
+    "name": "WHO — Falls",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+    "scope": "Nguy cơ ngã, môi trường, thuốc, thăng bằng và phòng ngừa.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/falls"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "mentalOlder",
+    "key": "mental",
+    "name": "WHO — Mental health of older adults",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+    "scope": "Kết nối, hoạt động có ý nghĩa, chống định kiến và bạo hành.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "ageFriendly",
+    "key": "ability",
+    "name": "WHO — Healthy ageing and functional ability",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+    "scope": "Khả năng chức năng và tương tác môi trường.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04i_dementia",
+    "key": "dementia",
+    "name": "WHO — Dementia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "scope": "Dấu hiệu nhận thức ảnh hưởng sinh hoạt; không chẩn đoán.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "activity",
+    "key": "move",
+    "name": "WHO — Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "scope": "Vận động, giảm ít vận động; không kê bài tập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "malnutrition",
+    "key": "nutrition",
+    "name": "NHS — Malnutrition",
+    "url": "https://www.nhs.uk/conditions/malnutrition/",
+    "scope": "Giảm cân ngoài ý muốn và đánh giá dinh dưỡng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/conditions/malnutrition"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "whoDiet",
+    "key": "diet",
+    "name": "WHO — Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm, rau quả và chất xơ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "sleep",
+    "key": "sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "60 tuổi ≥7 giờ; 61–64: 7–9; ≥65: 7–8 giờ/ngày.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "hearing",
+    "key": "hearing",
+    "name": "WHO — Deafness and hearing loss",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+    "scope": "Nguyên nhân và ảnh hưởng giao tiếp.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "eye",
+    "key": "eye",
+    "name": "WHO — Blindness and vision impairment",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+    "scope": "Nguyên nhân thị lực và chăm sóc mắt.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "icope",
+    "key": "icope",
+    "name": "WHO — ICOPE 2nd edition",
+    "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+    "scope": "Trang giới thiệu 155 trang, chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/southeastasia/publications/i/item/9789240103726"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "olderLearning",
+    "key": "learn",
+    "name": "UNESCO UIL — Learning programmes for older adults",
+    "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+    "scope": "Giới thiệu báo cáo 08/04/2026, học tập bao trùm; chưa đọc toàn văn.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "communityLearning",
+    "key": "clc",
+    "name": "UNESCO UIL — Community Learning Centres in Viet Nam",
+    "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+    "scope": "Mô hình Việt Nam, không phải lịch lớp hiện hành.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04f_mil",
+    "key": "mil",
+    "name": "UNESCO — Media and Information Literacy",
+    "url": "https://www.unesco.org/en/media-information-literacy",
+    "scope": "Kiểm chứng thông tin, AI và an toàn số.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04g_nist",
+    "key": "ai",
+    "name": "NIST — AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "scope": "Trang tổng quan, chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": false
+  },
+  {
+    "id": "olderFraud",
+    "key": "fraud",
+    "name": "CFPB — Protecting Older Adults from Fraud and Financial Exploitation",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud/",
+    "scope": "Đầu mối giáo dục, không áp luật Hoa Kỳ.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "adultFinance",
+    "key": "finance",
+    "name": "CFPB — Your Money, Your Goals toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "scope": "Biểu mẫu thu nhập, tiết kiệm, mục tiêu; không áp luật Hoa Kỳ.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "bhxh",
+    "key": "bhxh",
+    "name": "Chính phủ — Luật BHXH 41/2024/QH15",
+    "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+    "scope": "Metadata hiệu lực 01/07/2025; chưa đọc PDF, rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "pensionSocial",
+    "key": "pension",
+    "name": "Chính phủ — Nghị định 176/2025/NĐ-CP",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=214435&pageid=27160&typegroupid=4",
+    "scope": "Metadata trợ cấp hưu trí xã hội hiệu lực 01/07/2025; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "olderLaw",
+    "key": "law",
+    "name": "Chính phủ — VBHN 23/VBHN-VPQH Luật Người cao tuổi",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217080&pageid=27160",
+    "scope": "Metadata văn bản hợp nhất 26/02/2026; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "healthInsurance",
+    "key": "bhyt",
+    "name": "Chính phủ — Nghị định 188/2025/NĐ-CP",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=214515&pageid=27160&typegroupid=4",
+    "scope": "Metadata hướng dẫn BHYT hiệu lực 15/08/2025; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04g_ncd",
+    "key": "ncd",
+    "name": "WHO — Noncommunicable diseases",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+    "scope": "Bệnh mạn tính, nguy cơ, phát hiện và điều trị.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04i_med",
+    "key": "med",
+    "name": "WHO — Medication Without Harm",
+    "url": "https://www.who.int/initiatives/medication-without-harm",
+    "scope": "An toàn ở nhiều khâu sử dụng thuốc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "communitySafety",
+    "key": "scam",
+    "name": "Báo Chính phủ — Khuyến cáo Công an Phú Thọ 22/06/2026",
+    "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+    "scope": "Giả mạo, thúc ép giao dịch, lừa đảo công nghệ cao.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "mil",
+    "name": "UNESCO — MIL in the age of AI",
+    "url": "https://www.unesco.org/en/artificial-intelligence/mil-age-ai",
+    "scope": "Cache miss; thay bằng trang UNESCO MIL đã mở.",
+    "status": "unavailable",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "usedInNewSections": false
+  },
+  {
+    "id": "vssid",
+    "name": "BHXH Việt Nam — 4 cách tra cứu quá trình tham gia BHXH",
+    "url": "https://baohiemxahoi.gov.vn/tintuc/pages/linh-vuc-bao-hiem-xa-hoi.aspx?CateID=168&ItemID=27277",
+    "scope": "Cache miss, không gắn claim mới.",
+    "status": "unavailable",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "usedInNewSections": false
+  }
+]

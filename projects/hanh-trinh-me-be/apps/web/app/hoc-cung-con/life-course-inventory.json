@@ -1334,7 +1334,7 @@
       "pillar": "safety",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-phong-te-nga-tuoi-60-74"
     },
@@ -1346,7 +1346,7 @@
       "pillar": "psych",
       "originalStage": "older",
       "sourceCount": 2,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-nghi-huu-va-ket-noi"
     },
@@ -1838,7 +1838,7 @@
       "pillar": "nutrition",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-an-uong-va-nuoc-60-74"
     },
@@ -1849,8 +1849,8 @@
       "stage": "older",
       "pillar": "health",
       "originalStage": "older",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 5,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-kham-chu-dong-va-thuoc-60-74"
     },
@@ -1862,7 +1862,7 @@
       "pillar": "body",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-co-the-giac-quan-60-74"
     },
@@ -1873,8 +1873,8 @@
       "stage": "older",
       "pillar": "routine",
       "originalStage": "older",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-nhip-song-va-van-dong-60-74"
     },
@@ -1886,7 +1886,7 @@
       "pillar": "education",
       "originalStage": "older",
       "sourceCount": 2,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-hoc-ky-nang-moi-60-74"
     },
@@ -1898,7 +1898,7 @@
       "pillar": "schools",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-chon-lop-cong-dong-60-74"
     },
@@ -2557,8 +2557,8 @@
       "stage": "older",
       "pillar": "thinking",
       "originalStage": "older",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-tu-duy-va-giai-quyet-van-de-60-74"
     },
@@ -2569,8 +2569,8 @@
       "stage": "older",
       "pillar": "digital",
       "originalStage": "older",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-dien-thoai-va-an-toan-so-60-74"
     },
@@ -2581,8 +2581,8 @@
       "stage": "older",
       "pillar": "relationships",
       "originalStage": "older",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-ket-noi-va-tu-chu-60-74"
     },
@@ -2594,7 +2594,7 @@
       "pillar": "talents",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-nghe-thuat-va-so-thich-60-74"
     },
@@ -2606,7 +2606,7 @@
       "pillar": "finance",
       "originalStage": "older",
       "sourceCount": 4,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-quan-ly-thu-nhap-huu-tri-60-74"
     },
@@ -2618,7 +2618,7 @@
       "pillar": "career",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-viec-lam-tinh-nguyen-nghi-ngoi-60-74"
     },
@@ -2630,7 +2630,7 @@
       "pillar": "civic",
       "originalStage": "older",
       "sourceCount": 5,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-quyen-loi-huu-tri-bhyt-60-74"
     },
@@ -2642,7 +2642,7 @@
       "pillar": "life",
       "originalStage": "older",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-song-doc-lap-va-ke-hoach-ho-tro-60-74"
     },

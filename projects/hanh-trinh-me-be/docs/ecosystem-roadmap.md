@@ -147,4 +147,6 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] S04-AZ-04G: 16/16 revision tuổi 23–34; tổng 171/219, 48 chờ; [báo cáo](life-course-batch-04g-2026-11-26.md). Draft, chưa thẩm định/CI.
 
 - [x] S04-AZ-04H: 16/16 revision tuổi 35–59; tổng 187/219, 32 chờ; [báo cáo](life-course-batch-04h-2026-11-26.md). Draft, chưa thẩm định/CI.
+- [x] S04-AZ-04I: 16/16 revision tuổi 60–74; tổng 203/219, 16 chờ; [báo cáo](life-course-batch-04i-2026-11-26.md). Draft, chưa thẩm định/CI.
+- [ ] S04-AZ-04J: 16 nội dung 75+ tuổi.
 - [ ] Content Pipeline Recovery: QA-CONTENT-01/02/03 vẫn mở, không hạ gate.

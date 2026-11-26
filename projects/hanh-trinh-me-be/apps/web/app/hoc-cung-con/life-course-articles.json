@@ -937,6 +937,18 @@
       "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
       "scope": "Kết quả tìm kiếm: giả danh, OTP, link độc hại; chưa mở toàn văn.",
       "checkedOn": "2026-11-26"
+    },
+    "q04i_dementia": {
+      "name": "WHO — Dementia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "scope": "Dấu hiệu nhận thức ảnh hưởng sinh hoạt; không chẩn đoán.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04i_med": {
+      "name": "WHO — Medication Without Harm",
+      "url": "https://www.who.int/initiatives/medication-without-harm",
+      "scope": "An toàn ở nhiều khâu sử dụng thuốc.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1589,12 +1601,42 @@
           "body": "Không tự quy nguyên nhân cho tuổi già. Hẹn trao đổi với nhân viên y tế về lần ngã, chóng mặt, thị lực, thuốc đang dùng và khả năng di chuyển. Không tự ngưng thuốc. Nếu ngã gây chấn thương nghiêm trọng, mất ý thức, đau nhiều hoặc có triệu chứng cấp tính, tìm trợ giúp khẩn cấp.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nguy cơ không chỉ nằm ở sàn nhà",
+          "body": "WHO ghi nhận khả năng thăng bằng, thị lực, bệnh đang mắc, tác dụng thuốc và môi trường thiếu an toàn đều có thể góp phần vào té ngã. Nếu gần đây thấy bước chân thiếu chắc chắn, ghi lại thời điểm, việc đang làm, cảm giác trước đó và những thuốc mới được kê để trao đổi với bác sĩ. Không tự cho rằng nguyên nhân là tuổi cao, cũng không tự ngừng thuốc hoặc hạn chế đi lại hoàn toàn vì sợ ngã.",
+          "sourceIds": [
+            "falls"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khảo sát đường đi theo từng nhiệm vụ",
+          "body": "Quan sát đường từ giường tới nhà vệ sinh, từ bếp tới cửa và lối ra nơi để xe trong điều kiện sinh hoạt thường ngày, không cố tái tạo tình huống nguy hiểm. Ghi vị trí có thảm xô lệch, nền trơn khi trời mưa, công tắc khó với hoặc đồ dùng đặt quá cao. Sắp xếp theo thứ tự việc dễ sửa và việc cần người có chuyên môn; hỏi chủ nhà trước khi lắp tay vịn hoặc thay thiết bị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Vận động và dụng cụ hỗ trợ",
+          "body": "Các biện pháp dự phòng ngã có thể phối hợp cải thiện môi trường với rèn sức mạnh, thăng bằng và đánh giá cá nhân. Hỏi người làm phục hồi chức năng cách lựa chọn và sử dụng gậy hoặc khung đi nếu cần; không mượn dụng cụ của người khác rồi tự thử trên cầu thang. Nếu có lần suýt ngã, hãy ghi cả tình huống đó. Không ép người thân tham gia một bài tập thử thăng bằng không phù hợp.",
+          "sourceIds": [
+            "falls"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị trước khi sự cố xảy ra",
+          "body": "Để điện thoại hoặc phương tiện gọi trợ giúp ở nơi người sử dụng có thể tiếp cận, thống nhất đầu mối gần nhà theo ý muốn. Nếu ngã kèm mất ý thức, nghi chấn thương đầu, cổ hoặc hông, đau dữ dội hay không thể đứng lên, tìm cấp cứu; không cố kéo người dậy. Sau lần ngã, hỏi nhân viên y tế về nguyên nhân và kế hoạch phòng lần sau. Không biến việc báo tin thành điều kiện phải chịu giám sát liên tục.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Rà soát lối đi từ giường đến nhà vệ sinh vào buổi tối.",
         "Chọn ba thay đổi an toàn có sự đồng ý của người cao tuổi.",
-        "Chuẩn bị danh sách câu hỏi và người liên hệ nếu có tình huống cần trợ giúp."
+        "Chuẩn bị danh sách câu hỏi và người liên hệ nếu có tình huống cần trợ giúp.",
+        "Rà hai tuyến đi thường dùng ban ngày và buổi tối.",
+        "Ghi lần ngã hoặc suýt ngã để chuẩn bị cho cuộc hẹn."
       ],
       "limits": "Không chẩn đoán nguy cơ té ngã qua checklist. Dụng cụ hỗ trợ và kế hoạch vận động cần đánh giá cá nhân.",
       "sourceIds": [
@@ -1637,12 +1679,42 @@
           "body": "Nếu buồn bã, mất hứng thú, lo lắng hoặc khó sinh hoạt kéo dài, hỏi người đó muốn được hỗ trợ thế nào và khuyến khích tiếp cận chuyên gia. Không coi mọi thay đổi tâm trạng là hệ quả bình thường của tuổi tác. Khi có nguy cơ tự gây hại hoặc tình huống khẩn cấp, tìm hỗ trợ ngay.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuyển tiếp vai trò sau nghỉ hưu",
+          "body": "WHO coi hoạt động xã hội có ý nghĩa và giảm cô lập là một phần hỗ trợ sức khỏe tâm thần người lớn tuổi. Khi công việc kết thúc, lịch trong ngày, quan hệ đồng nghiệp và cảm giác đóng góp có thể thay đổi. Hỏi bản thân muốn giữ phần nào từ công việc cũ, phần nào muốn dành cho gia đình hoặc mình. Không cần lập lịch kín tuần ngay; có thể thử một nhịp sinh hoạt mới rồi xem có thực sự phù hợp hay không.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phân biệt ở một mình với cảm giác cô đơn",
+          "body": "Có người muốn buổi sáng đọc báo yên tĩnh, người khác mong gặp bạn thường xuyên hơn. Thử hỏi cụ thể: cuộc trò chuyện gần đây nào khiến mình thấy được lắng nghe, thời điểm nào cảm thấy thiếu người chia sẻ? Nếu bạn cũ sống xa, hẹn gọi điện theo giờ hai bên thích hoặc gặp ở nơi dễ đi lại. Đừng sử dụng số lần con cháu đến thăm như thước đo duy nhất của tình cảm hoặc sức khỏe tinh thần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo nhịp tuần với quyền lựa chọn",
+          "body": "Lập lịch mẫu gồm một hoạt động cá nhân, một hoạt động gặp người khác và một khoảng trống dành cho việc tự chọn. Ví dụ sáng thứ ba đọc sách tại thư viện, chiều thứ sáu gặp bạn ở quán gần nhà nếu cả hai muốn. Nếu nghe không rõ hoặc ngại đi xa, đổi địa điểm thay vì tự trách. Khi nhóm hoạt động không phù hợp sở thích hay tài chính, có thể rời nhóm mà không phải giải thích dài dòng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi mất hứng thú hoặc đau buồn kéo dài",
+          "body": "WHO lưu ý những biến cố như mất người thân, giảm thu nhập, hạn chế chức năng và cô lập có thể ảnh hưởng tâm lý. Nếu buồn bã hoặc mất hứng thú kéo dài, ảnh hưởng ăn ngủ và sinh hoạt, hãy trao đổi chuyên gia sức khỏe tâm thần hoặc nhân viên y tế. Khi không thể giữ an toàn hoặc có ý định tự hại, cần tìm trợ giúp khẩn cấp và người tin cậy ở cùng. Không tự chẩn đoán qua bài đọc.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một hoạt động tự nguyện trong tuần và một cuộc trò chuyện với người tin cậy.",
         "Xem lại rào cản di chuyển, chi phí hoặc khả năng nghe nhìn; cùng tìm cách điều chỉnh.",
-        "Sau hai tuần, hỏi người tham gia có muốn tiếp tục, đổi hoặc dừng hoạt động không."
+        "Sau hai tuần, hỏi người tham gia có muốn tiếp tục, đổi hoặc dừng hoạt động không.",
+        "Lập lịch tuần có thời gian riêng, gặp gỡ và khoảng trống tự chọn.",
+        "Xác định một người có thể lắng nghe khi cần."
       ],
       "limits": "Không dùng bài để chẩn đoán trầm cảm hoặc đánh giá sức khỏe tinh thần. Tôn trọng lựa chọn và tìm hỗ trợ chuyên môn khi cần.",
       "sourceIds": [
@@ -4882,12 +4954,42 @@
           "body": "Ghi nhận ăn ít hơn, khó nhai, khó nuốt, ho khi ăn, giảm cân hoặc mệt kéo dài; đưa thông tin đến chuyên gia. Không tự thay kết cấu nếu nghi rối loạn nuốt. Người đang điều trị bệnh thận, tim mạch hay đái tháo đường cần kế hoạch ăn uống cá nhân.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đa dạng món ăn trong điều kiện gia đình",
+          "body": "WHO khuyến khích chế độ ăn đa dạng và thực phẩm giàu chất xơ như rau quả, đậu và ngũ cốc phù hợp. Bữa cơm có thể gồm cơm, cá hoặc đậu phụ, rau theo mùa và trái cây dễ ăn. Người ăn ít hoặc có bệnh nền cần lựa chọn theo nhu cầu thực tế, không bắt buộc đạt cùng lượng với người khác. Nếu đang theo chế độ điều trị, hỏi chuyên gia trước khi thay đổi nhiều món hoặc bỏ nhóm thực phẩm.",
+          "sourceIds": [
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quan sát ăn uống thay vì chỉ nhìn cân nặng",
+          "body": "NHS lưu ý giảm cân ngoài ý muốn, nhất là trong vài tháng, là dấu hiệu cần được đánh giá dinh dưỡng. Ghi sự thay đổi khẩu vị, quần áo rộng hơn, bữa ăn bỏ dở và khó khăn khi mua thực phẩm. Người thân có thể hỏi lý do thay vì buộc ăn hết phần. Nếu có đau răng, khó nuốt hoặc giảm cân kéo dài, hẹn khám để tìm nguyên nhân; không tự dùng sữa dinh dưỡng hoặc thuốc kích thích ăn.",
+          "sourceIds": [
+            "malnutrition"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nước uống và khả năng tiếp cận",
+          "body": "Đặt nước ở vị trí dễ lấy, dùng cốc dễ cầm nếu phù hợp và chọn thời điểm uống gắn với sinh hoạt như sau khi thức dậy hoặc khi nghỉ giữa việc nhà. Hỏi bác sĩ về kế hoạch dịch nếu có bệnh tim, thận hoặc chỉ định hạn chế nước. Không ép uống theo số lít chung hoặc bỏ qua chỉ định vì lời quảng cáo thanh lọc. Khi khó nuốt, không tự pha chất làm đặc hoặc đổi cách uống mà chưa được hướng dẫn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tổ chức mua và nấu vừa sức",
+          "body": "Với người sống một mình, thử lập danh sách món có thể nấu lượng vừa đủ hoặc chia phần bảo quản an toàn, ghi ngày chuẩn bị và tránh để đồ dễ hỏng lâu ở nhiệt độ phòng. Hỏi hàng xóm hoặc con cháu hỗ trợ đi chợ nếu mong muốn; thống nhất món và tiền trước. Nếu đứng lâu gây mệt, sắp xếp chỗ chuẩn bị thuận tiện hoặc chọn nguồn thức ăn đáng tin, không biến việc hỗ trợ thành mất quyền lựa chọn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi người ăn về ba món muốn giữ trong thực đơn.",
         "Kiểm tra chỗ mua thực phẩm, nước uống và dụng cụ nấu.",
-        "Ghi câu hỏi về ăn uống cho lần khám khi có lo lắng."
+        "Ghi câu hỏi về ăn uống cho lần khám khi có lo lắng.",
+        "Ghi một tuần về khẩu vị, cân nặng và khó khăn khi ăn.",
+        "Lập ba bữa theo sở thích và câu hỏi về dịch nếu đang điều trị."
       ],
       "limits": "Không đưa lượng nước, khẩu phần, chế độ điều trị hay sản phẩm bổ sung chung cho mọi người.",
       "sourceIds": [
@@ -4932,18 +5034,52 @@
           "body": "Nếu chóng mặt, lú lẫn, té ngã hoặc triệu chứng xuất hiện sau thay đổi thuốc, liên hệ nhân viên y tế để đánh giá. Tình huống mất ý thức, yếu liệt mới, đau ngực hoặc khó thở nặng cần trợ giúp khẩn cấp. Không chờ lần tái khám định kỳ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chăm sóc bệnh mạn tính theo nguy cơ",
+          "body": "WHO xác định bệnh tim mạch, ung thư, đái tháo đường và bệnh hô hấp mạn là các nhóm bệnh không lây quan trọng; phát hiện và điều trị có vai trò thiết yếu. Thay vì mua gói khám giống bạn bè, mang tiền sử, kết quả cũ, thuốc đang dùng và các câu hỏi đến cơ sở y tế. Hỏi những kiểm tra hoặc sàng lọc nào phù hợp với nguy cơ, tiền sử và khả năng tham gia điều trị; không tự đặt lịch xét nghiệm hàng loạt.",
+          "sourceIds": [
+            "q04g_ncd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Danh sách thuốc dùng chung cho các lần khám",
+          "body": "An toàn thuốc liên quan cả kê đơn, cấp phát, sử dụng và theo dõi. Dùng một danh sách có tên thuốc, hàm lượng theo nhãn, cách dùng theo đơn, người kê và ngày cập nhật; ghi cả thực phẩm bổ sung. Khi có đơn mới, hỏi thuốc nào tiếp tục và thuốc nào thay thế, không mặc định mọi đơn đều cộng dồn. Nếu không hiểu cách xử trí khi quên liều, hỏi bác sĩ hoặc dược sĩ thay vì tự uống gấp đôi.",
+          "sourceIds": [
+            "q04i_med"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đặt mục tiêu chức năng trong buổi khám",
+          "body": "Ấn bản ICOPE của WHO giới thiệu cách tiếp cận chăm sóc lấy người cao tuổi làm trung tâm. Có thể nói với bác sĩ rằng mục tiêu của mình là tự đi chợ, đọc sách hoặc đi thăm bạn; mô tả việc nào gần đây khó hơn. Ghi câu hỏi về nghe, nhìn, trí nhớ, vận động và ăn uống cùng các bệnh nền. Đây là chuẩn bị cho trao đổi, không phải bộ công cụ sàng lọc ICOPE hay thay thế đánh giá lâm sàng.",
+          "sourceIds": [
+            "icope"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi chuyển viện hoặc xuất viện",
+          "body": "Trước khi về, xin hướng dẫn bằng chữ dễ đọc về thuốc, hẹn tái khám, kết quả đang chờ và dấu hiệu cần liên hệ sớm. Nếu nhiều người hỗ trợ, chỉ chia sẻ phần được đồng ý và cần cho chăm sóc. Khi đau ngực nặng, yếu liệt đột ngột, khó thở nghiêm trọng hay lú lẫn cấp tính, tìm cấp cứu ngay thay vì đợi lịch hẹn. Không trì hoãn tình huống khẩn vì chưa tìm được đầy đủ giấy tờ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chuẩn bị danh sách thuốc cập nhật và câu hỏi.",
         "Thống nhất cách lưu lịch hẹn và thông tin liên hệ.",
-        "Hỏi chuyên gia về kiểm tra chức năng và kế hoạch phù hợp."
+        "Hỏi chuyên gia về kiểm tra chức năng và kế hoạch phù hợp.",
+        "Cập nhật danh sách thuốc, người kê và ngày thay đổi.",
+        "Chuẩn bị ba mục tiêu chức năng hoặc câu hỏi bệnh mạn trước khi khám."
       ],
       "limits": "Không đề xuất dừng thuốc, chỉnh liều hoặc lịch tầm soát cá nhân; cần bác sĩ/dược sĩ đánh giá.",
       "sourceIds": [
         "icope",
         "medSafety",
-        "ncd"
+        "ncd",
+        "q04g_ncd",
+        "q04i_med"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -4982,12 +5118,42 @@
           "body": "Nếu khó di chuyển, nghe nhìn giảm hoặc cơ thể thay đổi ảnh hưởng hoạt động yêu thích, ghi lại tình huống và trao đổi chuyên gia. Giảm thị lực đột ngột hoặc triệu chứng cấp tính đáng lo cần chăm sóc kịp thời. Không mặc định vấn đề là do tuổi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nghe kém không chỉ là vấn đề âm lượng",
+          "body": "WHO mô tả suy giảm thính lực có nhiều nguyên nhân và có thể ảnh hưởng giao tiếp, tham gia xã hội. Khi thường phải yêu cầu nhắc lại lời nói hoặc không theo kịp cuộc trò chuyện, ghi lại hoàn cảnh như nơi đông người, khi nghe điện thoại hay lúc xem tivi. Hẹn đánh giá thay vì tự chọn máy trợ thính chỉ theo quảng cáo. Nếu thính lực giảm đột ngột, cần tìm chăm sóc y tế sớm; không tự đưa vật vào tai.",
+          "sourceIds": [
+            "hearing"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảo vệ khả năng nhìn",
+          "body": "WHO nêu nhiều nguyên nhân giảm thị lực, gồm tật khúc xạ, đục thủy tinh thể, bệnh võng mạc đái tháo đường và glaucoma. Không suy đoán nguyên nhân dựa vào tuổi hoặc tự mua thuốc nhỏ mắt. Nếu đọc nhãn thuốc, đi lại ban tối hay nấu ăn khó hơn, ghi những thay đổi để trao đổi bác sĩ mắt. Khi thị lực giảm đột ngột hoặc có triệu chứng nghiêm trọng, tìm hỗ trợ khẩn; điều chỉnh ánh sáng chỉ giúp sinh hoạt chứ không điều trị bệnh.",
+          "sourceIds": [
+            "eye"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh không gian bằng cách hỏi người sử dụng",
+          "body": "Thử đặt đèn đọc ở vị trí giảm chói, tạo tương phản dễ nhận biết trên đồ dùng và dùng nhãn chữ đủ lớn theo sở thích. Khi nói chuyện, tắt nguồn ồn không cần thiết, quay mặt về người nghe và hỏi họ muốn người đối thoại nói thế nào. Không nói chuyện với con cháu thay cho người cao tuổi khi họ có thể tự trả lời. Kiểm tra một thay đổi tại một thời điểm để biết cách nào thật sự giúp ích.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sức khỏe riêng tư và sự gần gũi",
+          "body": "Tuổi tác không làm mất quyền về cơ thể, quan hệ, tình dục hoặc quyết định chăm sóc. Nếu có thay đổi chức năng tình dục, đau, khó chịu hoặc ảnh hưởng từ bệnh và thuốc, có thể trao đổi riêng với bác sĩ. Người hỗ trợ hỏi trước khi chạm vào cơ thể hoặc vào phòng riêng; không đưa hình ảnh, hồ sơ hay thông tin nhạy cảm lên nhóm gia đình khi chưa có đồng ý. Tôn trọng quyền từ chối, kể cả trong quan hệ lâu năm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một hoạt động muốn tiếp tục và tìm rào cản.",
         "Điều chỉnh ánh sáng hoặc không gian nói chuyện theo mong muốn.",
-        "Hẹn đánh giá nghe nhìn hoặc vận động nếu có lo ngại."
+        "Hẹn đánh giá nghe nhìn hoặc vận động nếu có lo ngại.",
+        "Ghi hai tình huống nghe hoặc nhìn ảnh hưởng sinh hoạt.",
+        "Thử cải thiện ánh sáng hay độ rõ hội thoại theo ý người dùng."
       ],
       "limits": "Không chẩn đoán suy giảm giác quan hay chỉ định dụng cụ hỗ trợ từ checklist.",
       "sourceIds": [
@@ -5032,18 +5198,49 @@
           "body": "Nếu đau, chóng mặt, khó thở bất thường hoặc té ngã, dừng hoạt động và tìm hỗ trợ thích hợp. Khó ngủ hoặc buồn ngủ ảnh hưởng sinh hoạt kéo dài cần trao đổi chuyên gia. Mục tiêu là duy trì khả năng và chất lượng sống, không ép thành tích.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt hoạt động hằng ngày và tập luyện",
+          "body": "WHO khuyến nghị hoạt động thể chất và giảm thời gian ít vận động theo tuổi, tình trạng sức khỏe và khả năng. Đi lại trong nhà, đi chợ hoặc làm vườn phù hợp đều có thể góp phần vào nhịp hoạt động. Đối với người có bệnh mạn, mới phẫu thuật hoặc từng ngã, hỏi chuyên gia về sức mạnh và thăng bằng phù hợp trước khi tăng mức vận động. Không dùng số bước trên đồng hồ để ép mình hoàn thành mục tiêu bất chấp triệu chứng.",
+          "sourceIds": [
+            "activity"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lập lịch vận động có lựa chọn dự phòng",
+          "body": "Chọn một tuyến bằng phẳng, có chỗ nghỉ và phù hợp giờ thời tiết dễ chịu; chuẩn bị phương án trong nhà khi trời mưa hoặc nắng nóng. Có thể đi cùng bạn nếu muốn, thống nhất trước tốc độ và quyền dừng nghỉ. Ghi hoạt động đã làm và cảm giác sau đó, không so với người khác. Khi có đau ngực, ngất hoặc khó thở nặng, dừng và tìm trợ giúp khẩn; không cố hoàn tất quãng đường về nhà một mình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhu cầu ngủ thay đổi qua nhóm tuổi",
+          "body": "CDC đưa mốc tham khảo từ bảy giờ mỗi ngày ở tuổi 60, bảy đến chín giờ cho 61–64 và bảy đến tám giờ từ 65 tuổi. Mốc này không thay đánh giá chất lượng ngủ; ghi việc thức giấc, buồn ngủ ban ngày và mức tỉnh táo khi làm việc. Nếu ngáy kèm ngưng thở được người khác nhận thấy, khó ngủ hoặc buồn ngủ kéo dài, trao đổi nhân viên y tế. Không tự mua thuốc ngủ.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Một ngày có nhịp nhưng không bị ép theo lịch",
+          "body": "Chia ngày thành các khung việc cần làm, hoạt động thích và thời gian nghỉ. Ví dụ sáng chuẩn bị bữa ăn, trưa nghỉ ở nơi dễ chịu, chiều gặp bạn nếu thời tiết phù hợp. Khi đau mỏi hoặc lịch khám đổi, có thể điều chỉnh kế hoạch mà không coi đó là thất bại. Nếu có triệu chứng khiến sinh hoạt ngày càng bị giới hạn, mang ghi chép đến buổi khám để tìm nguyên nhân; không tự cho rằng đó chỉ là tuổi tác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một hoạt động dễ thực hiện trong tuần.",
         "Sắp xếp khung nghỉ và đường đi an toàn.",
-        "Hỏi lại sau một tuần xem muốn điều chỉnh gì."
+        "Hỏi lại sau một tuần xem muốn điều chỉnh gì.",
+        "Lập hai lịch vận động phù hợp ngày thường và ngày thời tiết xấu.",
+        "Ghi bảy ngày về ngủ, hoạt động và mức thoải mái."
       ],
       "limits": "Không chỉ định cường độ hay bài tập cho người có bệnh nền hoặc hạn chế vận động; cần đánh giá cá nhân.",
       "sourceIds": [
         "activityGuide",
         "sleep",
-        "ageFriendly"
+        "ageFriendly",
+        "activity"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -5081,12 +5278,42 @@
           "body": "Sau vài buổi, hỏi việc nào đã dễ hơn, phần nào cần hướng dẫn khác và muốn tiếp tục hay đổi chủ đề. Không dùng điểm số hoặc tốc độ để đánh giá giá trị của người học. Nếu hoạt động gây mệt hoặc khó tiếp cận, điều chỉnh không gian, thời gian hoặc phương pháp.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học theo đầu ra do người học chọn",
+          "body": "Trang giới thiệu báo cáo UNESCO năm 2026 nhấn mạnh việc tiếp cận học tập phù hợp với nhu cầu đa dạng của người cao tuổi. Thay vì chọn một khóa chỉ vì được khuyên, ghi một việc bản thân muốn làm như đọc tài liệu điện tử hoặc gửi ảnh cho bạn. Xác định kết quả cụ thể: tự mở đúng ứng dụng, tìm người muốn liên hệ và hoàn tất thao tác. Việc học phục vụ mong muốn, không nhằm chứng minh mình còn trẻ.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực hành bằng đồ thật nhưng không lộ dữ liệu",
+          "body": "Ví dụ học gửi ảnh: chọn một ảnh phong cảnh không chứa thông tin riêng tư, mở cuộc trò chuyện thử với người đã đồng ý, xác nhận người nhận rồi gửi. Người hướng dẫn có thể làm mẫu một lượt, sau đó chờ người học tự thực hiện. Nếu gặp lỗi, cùng tìm đúng nút thay vì giật điện thoại làm thay. Ghi lại hình biểu tượng hoặc tên nút trên một tờ giấy; không ghi mật khẩu hay mã OTP trong tài liệu học.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Điều chỉnh phương pháp học theo giác quan",
+          "body": "Nếu khó đọc, dùng chữ lớn và tương phản phù hợp; nếu khó nghe, chọn chỗ yên và tài liệu có phụ đề nếu có. Chia bài thành một nhiệm vụ và nghỉ khi muốn, hẹn lần sau ôn lại trước khi thêm tính năng. Không dùng tốc độ thao tác làm thước đo trí nhớ hoặc phẩm giá. Nếu một khó khăn mới xuất hiện ảnh hưởng nhiều sinh hoạt quen thuộc, có thể trao đổi chuyên gia thay vì coi mọi vấn đề là thiếu cố gắng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lưu sản phẩm và quyền tiếp tục",
+          "body": "UNESCO trình bày học tập như cơ hội tham gia xã hội, nghề nghiệp hoặc hoạt động tự nguyện. Sau một buổi, tự đánh giá mình có thực hiện được việc mong muốn không, phần nào cần hướng dẫn khác và có muốn học tiếp không. Nếu thích học làm thủ công hơn sử dụng điện thoại, có thể đổi mục tiêu. Lưu một sản phẩm do mình thực hiện, nhận phản hồi nếu muốn; không cần công khai ảnh, điểm số hay kết quả cho người thân.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một kỹ năng do người học tự quyết.",
         "Chuẩn bị tờ hướng dẫn chữ dễ đọc và thực hành một bước.",
-        "Hỏi ý kiến người học trước khi chuyển sang bài mới."
+        "Hỏi ý kiến người học trước khi chuyển sang bài mới.",
+        "Chọn đầu ra và chuẩn bị hướng dẫn chữ dễ đọc.",
+        "Thực hành tự làm, ghi bước cần hỗ trợ mà không ghi mật khẩu."
       ],
       "limits": "Không bảo đảm tác dụng điều trị hay cải thiện nhận thức; việc học tùy sở thích và khả năng.",
       "sourceIds": [
@@ -5130,12 +5357,42 @@
           "body": "Hỏi rõ phí, điều kiện dừng, vật dụng cần mua và nơi đóng tiền. Không cung cấp mã OTP hay thông tin ngân hàng cho người tự xưng tư vấn lớp. Có thể thử một buổi trước khi đăng ký nếu cơ sở cho phép. Ghi ngày xác minh, hỏi lại khi thông tin thay đổi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm địa chỉ học tập từ nguồn địa phương",
+          "body": "UNESCO mô tả mô hình trung tâm học tập cộng đồng tại Việt Nam với các nội dung đọc viết, kỹ năng và phát triển cộng đồng. Thông tin mô hình không xác nhận lớp nào đang mở hiện nay. Người muốn học có thể hỏi bộ phận địa phương, thư viện hoặc đơn vị tổ chức về tên chương trình, người phụ trách và lịch cụ thể. Ghi ngày nhận thông tin và xác minh độc lập nếu lớp chỉ được quảng cáo trên một tài khoản mạng xã hội.",
+          "sourceIds": [
+            "communityLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "So sánh hai lựa chọn bằng nhu cầu thật",
+          "body": "Tạo bảng nhỏ gồm khoảng cách, giờ học, tổng phí, chỗ ngồi, điều kiện nghe nhìn và khả năng nghỉ giữa buổi. Ví dụ một lớp gần nhà có thể thuận tiện hơn lớp học trực tuyến nếu người học muốn gặp gỡ; người khác lại thích tài liệu tự học vì lịch linh hoạt. Hỏi trước về việc tham gia thử và phương án học bù nếu có lịch khám. Không coi lớp nhiều chứng chỉ hoặc đông người chắc chắn có chất lượng cao hơn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử môi trường học không áp đặt",
+          "body": "Trang giới thiệu nghiên cứu của UNESCO nhấn mạnh các rào cản tham gia và nhu cầu đa dạng. Trước buổi học, hỏi người tham gia có cần chỗ ngồi phù hợp, tài liệu chữ lớn hay hỗ trợ thiết bị không. Đừng tự công khai tình trạng sức khỏe với giáo viên trước cả lớp; chỉ chia sẻ thông tin cần thiết khi người học đồng ý. Sau buổi đầu, hỏi họ có cảm thấy được tôn trọng, theo kịp và muốn tiếp tục không.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Rà soát phí và điều kiện dừng",
+          "body": "Giả định lớp thu 300 nghìn đồng mỗi tháng, tiền vật liệu 100 nghìn và chi phí đi lại 200 nghìn: tổng ví dụ là 600 nghìn, không phải giá thị trường. Hỏi đơn vị nhận tiền, chứng từ, hoàn phí và yêu cầu mua thêm sản phẩm. Nếu người tư vấn thúc giục cài ứng dụng điều khiển điện thoại hoặc chuyển tiền vào tài khoản không rõ, dừng giao dịch. Không cần cung cấp hồ sơ tài chính để hỏi lịch lớp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Tìm hai cơ sở từ kênh địa phương chính thức.",
         "Hỏi ba câu về giờ học, đi lại và hỗ trợ.",
-        "Kiểm tra phí và người nhận trước khi đăng ký."
+        "Kiểm tra phí và người nhận trước khi đăng ký.",
+        "So sánh hai lớp về nhu cầu, điều kiện tiếp cận và chi phí.",
+        "Thử một buổi hoặc xác minh trước khi đóng phí dài hạn."
       ],
       "limits": "Chưa có danh sách lớp cụ thể; kiểm chứng hoạt động, chi phí và điều kiện tại thời điểm đăng ký.",
       "sourceIds": [
@@ -9380,17 +9637,49 @@
           "body": "Chọn phương án có thể thử an toàn, ghi điều thuận lợi và phần còn vướng. Nếu cách cũ không hiệu quả, đổi cách chứ không tự đánh giá mình kém. Với khó khăn nhận thức mới hoặc ảnh hưởng sinh hoạt, trao đổi chuyên gia thay vì dùng trò chơi làm chẩn đoán.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận ra thay đổi trí nhớ cần đánh giá",
+          "body": "WHO mô tả sa sút trí tuệ có thể biểu hiện bằng khó thực hiện việc quen, lạc ở nơi quen thuộc, khó theo cuộc trò chuyện hoặc ra quyết định. Quên một việc riêng lẻ không đủ để kết luận bệnh. Nếu thay đổi mới xuất hiện, tăng dần và ảnh hưởng sinh hoạt, ghi ví dụ, thời điểm và tác động rồi hẹn đánh giá y tế. Không tự dùng bài kiểm tra trên mạng để chẩn đoán; lú lẫn đột ngột cần đánh giá khẩn cấp.",
+          "sourceIds": [
+            "q04i_dementia"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế công cụ hỗ trợ cho việc hằng ngày",
+          "body": "Để chìa khóa ở nơi nhất quán, dùng lịch giấy rõ ràng hoặc danh sách việc theo sở thích. Ví dụ khi cần đi khám, ghi ngày, địa chỉ, phương tiện, giấy tờ cần mang và người muốn liên hệ khi có trục trặc. Thử tự thực hiện một phần việc trong điều kiện an toàn rồi điều chỉnh danh sách. Không giấu đồ hoặc thay lịch để kiểm tra người thân nhớ đến đâu; công cụ giúp giảm rào cản, không đo năng lực nhận thức.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra thông tin bằng hai đường độc lập",
+          "body": "UNESCO nhấn mạnh năng lực tương tác có phê phán với thông tin và công nghệ số. Khi nghe tin về một loại thuốc hoặc thay đổi quyền lợi, ghi rõ nội dung cần xác minh và người công bố. Tìm tài liệu từ cơ quan có trách nhiệm, hỏi người chuyên môn nếu vẫn không rõ. Hai tài khoản cùng sao chép một bài không phải hai nguồn độc lập. Nếu AI đưa ra tên tài liệu, mở và đọc trang gốc trước khi tin.",
+          "sourceIds": [
+            "q04f_mil"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giải quyết vấn đề không đánh đổi sự an toàn",
+          "body": "Khi muốn đổi đường đi hoặc sửa thiết bị, liệt kê lựa chọn, thời gian, chi phí và điều kiện phải dừng. Ví dụ nếu tuyến xe mới yêu cầu đi bộ xa trên đường trơn, chọn phương án khác hoặc đi cùng người tin cậy nếu muốn. Sau thử nghiệm, ghi điều đã hiệu quả; không đánh giá bản thân qua một sai sót. Khi người thân có khó khăn nhận thức, hỗ trợ theo mong muốn và tìm đánh giá chuyên môn nếu có nguy cơ mất an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một câu hỏi đời thường muốn tìm hiểu.",
         "So sánh hai nguồn và ghi điều chưa chắc.",
-        "Thử một giải pháp an toàn rồi xem lại."
+        "Thử một giải pháp an toàn rồi xem lại.",
+        "Ghi ví dụ thay đổi trí nhớ hoặc chức năng nếu có.",
+        "Chọn một việc đời thường và kiểm chứng qua hai nguồn độc lập."
       ],
       "limits": "Không cam kết cải thiện trí nhớ hoặc phòng bệnh; thay đổi nhận thức đáng lo cần đánh giá chuyên môn.",
       "sourceIds": [
         "olderLearning",
-        "mil"
+        "mil",
+        "q04i_dementia",
+        "q04f_mil"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -9429,18 +9718,49 @@
           "body": "Tập tìm một website chính thức bằng địa chỉ đã kiểm tra, lưu số hỗ trợ của ngân hàng. Nếu lỡ bấm hoặc chuyển tiền, ngừng thao tác, liên hệ ngân hàng và cơ quan Công an phù hợp; lưu thông tin cần thiết. Không trả tiền cho người hứa lấy lại tiền.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng AI như công cụ hỗ trợ, không như chuyên gia",
+          "body": "UNESCO đặt AI trong các thách thức của năng lực truyền thông và thông tin. Thử hỏi AI cách trình bày một danh sách mua hàng hoặc gợi ý câu hỏi khi đi khám; sử dụng dữ liệu giả và kiểm tra xem câu trả lời có hợp lý không. AI có thể tạo tên nguồn hoặc thông tin sai. Không đưa mã định danh, ảnh giấy tờ, đơn thuốc, mật khẩu hoặc số tài khoản vào công cụ chưa biết cách bảo vệ dữ liệu.",
+          "sourceIds": [
+            "q04f_mil"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhận diện yêu cầu chuyển tiền giả mạo",
+          "body": "Báo Chính phủ ngày 22/06/2026 đăng khuyến cáo về lừa đảo trực tuyến, trong đó có trang giả mạo và chiêu thúc ép đặt cọc. Khi có cuộc gọi tự xưng con cháu, công an hoặc nhân viên ngân hàng yêu cầu tiền gấp, ngắt liên lạc và gọi số đã biết trước. Không mở đường dẫn hoặc cài ứng dụng theo hướng dẫn bất ngờ. Hình ảnh, giọng nói và video quen thuộc không đủ để xác nhận người đang liên lạc.",
+          "sourceIds": [
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực hành bảo mật bằng tài khoản của mình",
+          "body": "Tăng cỡ chữ nếu cần, đặt khóa màn hình và bật phương thức xác thực phù hợp cho các tài khoản quan trọng. Ghi nơi tìm số hỗ trợ chính thức, không ghi mã xác thực hoặc mật khẩu trên tờ giấy để cạnh điện thoại. Người hướng dẫn làm mẫu trên tài khoản thử; không tự giữ quyền truy cập ngân hàng của người học. Thống nhất cách gọi lại người thân khi có việc khẩn, tập nhận diện một tin nhắn giả mà không sử dụng đường dẫn thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi đã nhấn nhầm hoặc chuyển tiền",
+          "body": "Dừng tương tác với người liên hệ, không chuyển thêm tiền với lời hứa lấy lại khoản đã mất. Gọi ngân hàng qua kênh chính thức càng sớm càng tốt nếu có nguy cơ tài khoản hoặc giao dịch bị ảnh hưởng. Lưu thông tin giao dịch, thời gian, tài khoản liên hệ để trình báo cơ quan chức năng; không đăng hồ sơ cá nhân công khai. Nhờ người tin cậy hỗ trợ thiết bị nếu muốn, giữ quyền quyết định và không đổ lỗi cho người bị lừa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một chức năng và viết hướng dẫn chữ dễ đọc.",
         "Thực hành xác minh một cuộc gọi giả lập.",
-        "Lưu đầu mối ngân hàng và người hỗ trợ đáng tin."
+        "Lưu đầu mối ngân hàng và người hỗ trợ đáng tin.",
+        "Dùng AI trên dữ liệu giả, kiểm tra bằng nguồn thật.",
+        "Diễn tập xác minh cuộc gọi bất thường và lưu đầu mối ngân hàng."
       ],
       "limits": "Không yêu cầu giao tài khoản hoặc dữ liệu riêng cho người hỗ trợ; không thay hướng dẫn xử lý sự cố của ngân hàng.",
       "sourceIds": [
         "olderICT",
         "mil",
-        "communitySafety"
+        "communitySafety",
+        "q04f_mil"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -9479,18 +9799,49 @@
           "body": "Nói về nhu cầu và hành vi cụ thể, cho phép mỗi người từ chối hoặc hẹn lại. Khi có kiểm soát, bạo lực hoặc lợi dụng, tìm người đáng tin và cơ quan hỗ trợ phù hợp. Nếu buồn bã hay cô đơn ảnh hưởng sinh hoạt, trao đổi chuyên gia.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thỏa thuận liên lạc theo nhu cầu hai bên",
+          "body": "WHO xem xây dựng và duy trì quan hệ là một thành phần của khả năng chức năng trong lão hóa khỏe mạnh. Người sống riêng có thể vẫn có mạng lưới tốt nếu họ được lựa chọn cách kết nối. Hỏi muốn gọi điện, gặp trực tiếp hay tham gia nhóm nào, thời điểm nào phù hợp. Con cháu cũng có thể nói rõ lịch làm và giới hạn của mình. Không dùng việc trả lời cuộc gọi ngay lập tức như một nghĩa vụ chứng minh tình cảm.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sống riêng hay sống chung là quyết định có nhiều yếu tố",
+          "body": "Cùng cân nhắc không gian riêng, đi lại, chi phí, mức hỗ trợ mong muốn và các phương án khi sức khỏe thay đổi. Nếu muốn thử sống gần gia đình, thảo luận trước về việc nhà, giờ thăm và quyền sử dụng không gian chung. Đặt ngày xem lại thỏa thuận. Không tự chuyển đồ, quyết định nơi ở hoặc giữ giấy tờ của người lớn tuổi khi chưa có đồng ý hoặc căn cứ pháp lý phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hỗ trợ tài chính không đồng nghĩa quyền kiểm soát",
+          "body": "Khi gia đình góp tiền chăm sóc, ghi rõ khoản nào là quà, khoản nào hoàn trả và người nào chịu chi phí đã thống nhất. Không đòi hỏi sao kê toàn bộ tài khoản hoặc mật khẩu như điều kiện hỗ trợ. Nếu người cao tuổi muốn nhờ một việc như thanh toán hóa đơn, xác định phạm vi và cách xác nhận. Giao dịch tài sản lớn cần tư vấn độc lập khi chưa rõ quyền hạn; không gây áp lực bằng tình cảm hay danh nghĩa hiếu thảo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ứng xử khi có cô lập hoặc lợi dụng",
+          "body": "WHO nêu chống định kiến tuổi tác, bạo hành và hỗ trợ người chăm là các hướng bảo vệ sức khỏe tâm thần. Nếu có dấu hiệu bị đe dọa, ép chuyển tiền, cấm gặp bạn hoặc bị kiểm soát quá mức, tìm người đáng tin hoặc cơ quan hỗ trợ thích hợp. Không ép hòa giải trong tình huống không an toàn. Khi người được hỗ trợ muốn được lắng nghe riêng, tạo điều kiện để họ nói mà không bị người khác trả lời thay.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Hỏi một người hoặc hoạt động muốn kết nối.",
         "Thống nhất hình thức liên hệ phù hợp.",
-        "Chọn một nhu cầu hỗ trợ và một giới hạn riêng tư."
+        "Chọn một nhu cầu hỗ trợ và một giới hạn riêng tư.",
+        "Thống nhất lịch kết nối tự nguyện và giới hạn riêng tư.",
+        "Xác định đầu mối độc lập có thể liên hệ khi bị gây áp lực."
       ],
       "limits": "Không ép sống chung, hòa giải hoặc tham gia hoạt động; nguy cơ xâm hại cần tìm hỗ trợ.",
       "sourceIds": [
         "social",
         "olderLaw",
-        "ageFriendly"
+        "ageFriendly",
+        "mentalOlder"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -9529,12 +9880,42 @@
           "body": "Có thể lưu tác phẩm, chia sẻ kinh nghiệm hoặc tham gia buổi trưng bày tự nguyện. Hỏi trước khi chụp ảnh hay đăng câu chuyện cá nhân. Cuối tháng tự quyết có tiếp tục, thử hoạt động khác hoặc nghỉ; không coi mọi sở thích phải trở thành thu nhập.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn niềm vui thay vì mục tiêu thành tích",
+          "body": "WHO nêu nhóm nghệ thuật, giáo dục, giải trí và tình nguyện trong các hướng hỗ trợ kết nối và sức khỏe tinh thần. Chọn một hoạt động thực sự muốn làm, như hát, vẽ, trồng cây hoặc kể chuyện địa phương. Có thể tham gia ở nhà hay nhóm nếu thích. Không xem sở thích là phương pháp chữa bệnh hoặc yêu cầu phải đạt một số giờ, sản phẩm hay lượt xem nhất định. Điều quan trọng là trải nghiệm có phù hợp và đáng giá với mình không.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo góc sáng tạo dễ sử dụng",
+          "body": "Sắp xếp bàn, ghế, ánh sáng và dụng cụ phù hợp khả năng; cất vật sắc hoặc nặng ở vị trí an toàn. Nếu vẽ lâu gây mỏi, thử chia thành các đoạn ngắn hoặc dùng dụng cụ dễ cầm. Với âm nhạc, chọn mức âm lượng dễ chịu và hỏi chuyên gia khi có vấn đề về nghe. Khi học cùng người khác, đề nghị cách hướng dẫn mong muốn thay vì buộc theo một tốc độ chung hoặc chịu nhận xét làm mình khó chịu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ câu chuyện gia đình bằng sự đồng ý",
+          "body": "Nếu muốn ghi lại ký ức, chọn một sự kiện, ghi điều nhớ được và điều chưa chắc; có thể hỏi người liên quan nếu họ đồng ý. Không biến khác biệt ký ức thành tranh cãi ai đúng hoặc bài kiểm tra trí nhớ. Khi số hóa ảnh cũ, hỏi trước người xuất hiện trong ảnh nếu định công khai, lưu bản riêng an toàn. Người kể có quyền chọn phần không chia sẻ và quyết định có tiếp tục dự án hay không.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm cách đóng góp phù hợp sở thích",
+          "body": "Trang giới thiệu nghiên cứu UNESCO năm 2026 nêu học tập có thể hỗ trợ tham gia cộng đồng và phát triển bản thân. Nếu thích chia sẻ kỹ năng, thử một buổi hướng dẫn nhỏ hoặc tham gia triển lãm tự nguyện; không nhất thiết biến sở thích thành dịch vụ bán hàng. Hỏi trước điều kiện chi phí, đi lại và quyền sử dụng tác phẩm. Sau vài tuần tự quyết giữ, đổi hoặc dừng hoạt động theo sức khỏe và sở thích thực tế.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một hoạt động từng yêu thích.",
         "Tìm phương án dễ tiếp cận và xác minh chi phí.",
-        "Sau vài buổi, hỏi muốn duy trì hay đổi."
+        "Sau vài buổi, hỏi muốn duy trì hay đổi.",
+        "Tạo góc thực hành thuận tiện, chọn một sản phẩm tự nguyện.",
+        "Hỏi quyền chia sẻ trước khi ghi âm, chụp hoặc đăng ký ức."
       ],
       "limits": "Không cam kết tác dụng điều trị hoặc thành tích; vận động và hoạt động cần phù hợp sức khỏe.",
       "sourceIds": [
@@ -9580,12 +9961,42 @@
           "body": "Giữ chứng từ, thông tin hợp đồng và đầu mối hỗ trợ riêng tư. Có thể mời người tin cậy cùng xem một giao dịch lớn, không buộc họ quyết định thay. Nếu có nghi ngờ bị lợi dụng, liên hệ ngân hàng, cơ quan chức năng hoặc chuyên gia pháp lý phù hợp.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập dòng tiền theo ngày nhận và ngày phải trả",
+          "body": "Bộ công cụ CFPB có các biểu mẫu theo dõi thu nhập, tiết kiệm và mục tiêu tài chính. Dùng nguyên tắc giáo dục này với số tiền thực nhận ở Việt Nam: ghi ngày nhận lương hưu hoặc nguồn thu khác, ngày trả điện nước, tiền thuê, thuốc và chi phí đi lại. Tách khoản thu không chắc khỏi tiền đã có. Chọn cách ghi bằng sổ hoặc bảng tính theo sở thích, không chia sẻ dữ liệu tài khoản vào mẫu trực tuyến không rõ.",
+          "sourceIds": [
+            "adultFinance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử kịch bản phát sinh và chi phí chăm sóc",
+          "body": "Ví dụ giả định thu nhập 8 triệu đồng mỗi tháng, chi thường xuyên 6,5 triệu, còn 1,5 triệu trước chi bất ngờ. Nếu phát sinh khoản khám 3 triệu thì cần nguồn dự phòng hoặc thay đổi kế hoạch, không mặc nhiên vay nóng hay rút hết tiền dài hạn. Xem thêm kịch bản cần hỗ trợ đi lại hoặc chăm sóc tại nhà. Các con số chỉ minh họa dòng tiền, không phải mức lương hưu, chi phí điều trị hoặc lời khuyên đầu tư.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ quyền kiểm soát tiền của chính mình",
+          "body": "CFPB giới thiệu tài nguyên phòng chống lừa đảo và lợi dụng tài chính ở người cao tuổi, gồm chuẩn bị trước khi cần hỗ trợ. Nếu muốn người thân xem cùng hóa đơn hoặc hợp đồng, quy định phạm vi và cách xác nhận; không giao tài khoản toàn quyền nếu chưa hiểu hậu quả pháp lý. Đối với khoản đầu tư được hứa lợi nhuận chắc chắn, dừng và kiểm chứng độc lập. Không áp dụng trực tiếp cơ chế pháp lý Hoa Kỳ vào Việt Nam.",
+          "sourceIds": [
+            "olderFraud"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị hồ sơ hưu trí và việc khẩn",
+          "body": "Lưu thông tin cơ quan BHXH, ngân hàng và hợp đồng ở nơi an toàn, tách khỏi mã PIN hoặc mật khẩu. Hỏi cơ quan BHXH về quyền lợi thực tế theo hồ sơ và quy định đang áp dụng; không tính khoản chưa xác nhận vào ngân sách. Nếu nghi bị lừa hoặc ép ký, dừng giao dịch, liên hệ ngân hàng và cơ quan có thẩm quyền khi phù hợp. Người được hỗ trợ có quyền quyết định ai được xem thông tin của họ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập bảng thu chi thực tế và khoản dự phòng.",
         "Tra cứu quyền lợi qua cơ quan BHXH.",
-        "Thống nhất cách xác minh một yêu cầu chuyển tiền."
+        "Thống nhất cách xác minh một yêu cầu chuyển tiền.",
+        "Lập dòng tiền theo lịch nhận và chi, thêm một kịch bản phát sinh.",
+        "Ghi phạm vi hỗ trợ tài chính và kênh xác minh giao dịch."
       ],
       "limits": "Không tư vấn đầu tư, không tính quyền lợi hưu trí cá nhân hoặc đưa mức hưởng chưa kiểm chứng.",
       "sourceIds": [
@@ -9631,12 +10042,42 @@
           "body": "Có thể thử thời lượng ngắn, xin phản hồi và xem hoạt động có phù hợp mong muốn không. Nếu mệt hoặc muốn nghỉ, trao đổi phương án thay đổi; không bắt buộc tiếp tục vì trách nhiệm xã hội. Chọn cách chia sẻ kinh nghiệm tự nguyện, không tiết lộ tài liệu mật.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn vai trò theo điều bản thân coi trọng",
+          "body": "WHO đưa khả năng đóng góp xã hội vào khái niệm lão hóa khỏe mạnh, cùng với đáp ứng nhu cầu và duy trì quan hệ. Đóng góp không bắt buộc phải có thu nhập: có thể hướng dẫn nghề, tham gia cộng đồng hoặc dành thời gian cho bản thân. Ghi điều muốn làm, điều không muốn nhận và lý do. Nếu gia đình cần hỗ trợ chăm cháu, hãy trao đổi thời gian và trách nhiệm tự nguyện, không coi nghỉ hưu đồng nghĩa luôn sẵn sàng.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Rà điều kiện công việc trước khi cam kết",
+          "body": "Hỏi rõ nhiệm vụ, lịch, thời lượng đứng hoặc di chuyển, khả năng nghỉ và người phụ trách khi có sự cố. Ví dụ một vai trò hướng dẫn nghề tại chỗ có thể khác công việc giao hàng ngoài đường hoặc trực ca khuya. Nếu nhiệm vụ có nguy cơ sức khỏe, hỏi người có chuyên môn về điều kiện phù hợp trước khi thử. Với hợp đồng, hỏi cách trả công, quyền lợi và điều kiện dừng bằng văn bản, không ký chỉ vì lời hứa miệng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn hoạt động tình nguyện có trách nhiệm",
+          "body": "Xác minh tên tổ chức, địa điểm, cách bảo vệ người tham gia, công việc được giao và những khoản chi mình phải chịu. Nếu chia sẻ kinh nghiệm nghề nghiệp, không dùng hồ sơ khách hàng hoặc tài liệu mật của đơn vị cũ. Có thể thử một buổi phù hợp và từ chối nhiệm vụ ngoài phạm vi. Khi bị ép đóng phí, tuyển thêm người hoặc mua sản phẩm mới được tham gia, dừng và kiểm tra độc lập.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tra cứu quyền lợi mà không tự suy diễn",
+          "body": "Cổng Chính phủ công bố văn bản hợp nhất Luật Người cao tuổi số 23/VBHN-VPQH ngày 26/02/2026. Đây là đầu mối tra cứu chứ không kết luận quyền lợi lao động hoặc điều kiện hưởng hưu trí của từng người. Nếu có dự định làm việc lại, hỏi cơ quan có thẩm quyền hoặc người tư vấn về hợp đồng và ảnh hưởng đến quyền lợi theo hồ sơ. Không buộc phải tiếp tục hoạt động vì tuổi hoặc danh nghĩa đóng góp.",
+          "sourceIds": [
+            "olderLaw"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Viết điều mình muốn và giới hạn thời gian.",
         "Xác minh một cơ hội phù hợp.",
-        "Thử tham gia ngắn hạn và tự quyết bước sau."
+        "Thử tham gia ngắn hạn và tự quyết bước sau.",
+        "Ghi điều muốn làm, điều kiện sức khỏe và giới hạn thời gian.",
+        "So sánh hoạt động thử với nghỉ ngơi, xác minh điều kiện trước khi nhận."
       ],
       "limits": "Không đề cử việc làm, bảo đảm thu nhập hay xác định quyền lợi lao động/hưu trí cá nhân.",
       "sourceIds": [
@@ -9683,12 +10124,44 @@
           "body": "Ghi ngày nộp, mã hồ sơ, nơi tiếp nhận và thông tin còn thiếu. Nếu muốn người thân hỗ trợ, xác định rõ việc được nhờ và giữ quyền quyết định. Khi có tranh chấp hoặc cần đại diện, hỏi cơ quan có thẩm quyền hoặc luật sư, không ký văn bản trống.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt lương hưu và trợ cấp hưu trí xã hội",
+          "body": "Cổng Chính phủ ghi Nghị định 176/2025/NĐ-CP hướng dẫn một số điều của Luật BHXH về trợ cấp hưu trí xã hội, hiệu lực từ 01/07/2025. Luật BHXH cũng là đầu mối tra cứu nhưng không nên đồng nhất hai nhóm quyền lợi. Chuẩn bị thông tin tuổi, quá trình tham gia, tình trạng và quyền lợi đang nhận để hỏi cơ quan có thẩm quyền. Không suy ra đủ điều kiện, mức tiền hoặc tuổi hưởng chỉ từ tiêu đề văn bản.",
+          "sourceIds": [
+            "pensionSocial"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lưu và kiểm tra thông tin về quá trình tham gia",
+          "body": "Trang công bố Luật BHXH 41/2024/QH15 ghi hiệu lực 01/07/2025; cần đối chiếu quy định sửa đổi và hướng dẫn tại thời điểm giải quyết hồ sơ. Ghi các giai đoạn làm việc, giấy tờ đã có và chỗ thông tin chưa khớp. Liên hệ cơ quan BHXH qua kênh chính thức để hỏi cách xử lý, giữ giấy hẹn và kết quả. Không nộp phí cho tài khoản tự xưng cán bộ hoặc giao mã xác thực để được hỗ trợ.",
+          "sourceIds": [
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra BHYT theo tình huống thực tế",
+          "body": "Trang công bố Nghị định 188/2025/NĐ-CP ghi ngày hiệu lực 15/08/2025 và nội dung hướng dẫn Luật BHYT. Chưa thể suy ra mức chi trả cụ thể từ trang này. Khi đi khám theo kế hoạch, hỏi cơ sở y tế hoặc cơ quan BHXH về thông tin thẻ, thủ tục và khoản có thể phát sinh; mang giấy tờ cần thiết theo hướng dẫn. Trong cấp cứu, ưu tiên chăm sóc khẩn cấp, không chờ xác minh mọi thông tin bảo hiểm.",
+          "sourceIds": [
+            "healthInsurance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhờ hỗ trợ hồ sơ nhưng giữ quyền quyết định",
+          "body": "Nếu muốn con cháu giúp, ghi việc cụ thể như đặt lịch, đọc giấy tờ hoặc cùng đến cơ quan tiếp nhận. Hỏi trước yêu cầu đại diện, giấy tờ và phạm vi được phép thực hiện khi không thể trực tiếp làm; không ký biểu mẫu còn trống. Lưu ngày nộp, đầu mối, mã hồ sơ và kết quả; khi thông tin mâu thuẫn, hỏi cơ quan có trách nhiệm giải thích bằng kênh chính thức. Bài chỉ hướng dẫn chuẩn bị, không tư vấn pháp lý cá nhân.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Liệt kê nguồn thu, giấy tờ BHXH và BHYT cần kiểm tra.",
         "Hỏi cơ quan có thẩm quyền về từng quyền lợi.",
-        "Theo dõi hồ sơ và lưu kết quả chính thức."
+        "Theo dõi hồ sơ và lưu kết quả chính thức.",
+        "Tách ba câu hỏi về lương hưu, trợ cấp xã hội và BHYT theo hồ sơ.",
+        "Lập bảng ngày nộp, nơi xử lý, giấy tờ thiếu và kết quả."
       ],
       "limits": "Không khẳng định tuổi, mức tiền, điều kiện hưởng hoặc thủ tục cho từng cá nhân; cần kiểm tra văn bản hiện hành.",
       "sourceIds": [
@@ -9735,12 +10208,42 @@
           "body": "Nếu khả năng ăn uống, di chuyển hoặc tự chăm sóc thay đổi, trao đổi chuyên gia để đánh giá và điều chỉnh hỗ trợ. Khi có triệu chứng nghiêm trọng, tìm trợ giúp khẩn cấp. Kế hoạch cần phục vụ mong muốn của người sống, không chỉ sự thuận tiện của người chăm.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đặt mục tiêu độc lập theo việc có ý nghĩa",
+          "body": "WHO nhấn mạnh khả năng chức năng là kết quả tương tác giữa năng lực của mỗi người và môi trường. Thay vì hỏi có thể sống một mình hay không bằng một câu chung, chọn việc muốn làm như nấu bữa sáng, đi mua đồ hoặc tham gia sinh hoạt. Ghi việc tự làm được, điều gì cần công cụ hỗ trợ và việc nào muốn nhờ người khác. Không tự đánh giá quyền tự chủ chỉ dựa vào tuổi hoặc tình trạng một bệnh.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế nhà theo lối đi thực tế",
+          "body": "Cùng quan sát bếp, phòng ngủ và nơi tắm; hỏi người sống ở đó về vật dụng khó lấy, công tắc khó tìm và việc nào tốn sức. Ưu tiên thay đổi đơn giản có sự đồng ý, như cất vật thường dùng vừa tầm hoặc cải thiện chiếu sáng. Với tay vịn, thiết bị điện hoặc dụng cụ đi lại, tìm người có chuyên môn để lắp đặt hoặc hướng dẫn. Không dùng thiết bị chưa kiểm tra thay cho trợ giúp khi cần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập phương án hỗ trợ theo mức độ cần thiết",
+          "body": "Trang giới thiệu ICOPE của WHO hướng đến chăm sóc theo nhu cầu từng người. Có thể chuẩn bị bảng việc muốn tự thực hiện, việc muốn có người giúp và tình huống cần gọi chuyên môn. Ví dụ nhờ mua đồ khi trời mưa nhưng tự chọn món và ngân sách. Ghi ai có thể hỗ trợ theo sự đồng ý của các bên; không tự gắn camera, định vị hoặc chia sẻ lịch cá nhân chỉ vì người thân muốn yên tâm.",
+          "sourceIds": [
+            "icope"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Diễn tập tình huống mất điện hoặc không gọi được",
+          "body": "Lưu số người tin cậy, địa chỉ nhà và cách liên hệ cấp cứu ở nơi dễ tiếp cận; thỏa thuận phương án khác nếu điện thoại hết pin. Thử kiểm tra khả năng mở cửa hoặc gọi người giúp trong điều kiện an toàn, không tạo sự cố giả gây nguy hiểm. Nếu nhu cầu ăn uống, vận động hoặc trí nhớ thay đổi đáng kể, hẹn đánh giá y tế và xem lại kế hoạch với người sống. Không xem việc cần hỗ trợ là thất bại của sự độc lập.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn ba việc muốn tự làm và rào cản hiện có.",
         "Thống nhất một kênh gọi trợ giúp.",
-        "Rà soát lại khi sức khỏe hoặc hoàn cảnh đổi."
+        "Rà soát lại khi sức khỏe hoặc hoàn cảnh đổi.",
+        "Lập bảng việc tự làm, việc muốn nhờ và việc cần chuyên môn.",
+        "Kiểm tra phương án gọi trợ giúp và thay đổi môi trường được đồng ý."
       ],
       "limits": "Không thay đánh giá chức năng, thiết kế nhà chuyên môn hay kế hoạch chăm sóc cá nhân.",
       "sourceIds": [
