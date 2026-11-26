@@ -625,8 +625,8 @@
       "stage": "toddler",
       "pillar": "psych",
       "originalStage": "tap-di",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/khi-con-noi-khong"
     },
@@ -637,8 +637,8 @@
       "stage": "toddler",
       "pillar": "safety",
       "originalStage": "tap-di",
-      "sourceCount": 3,
-      "sectionCount": 12,
+      "sourceCount": 5,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/goc-choi-kham-pha-an-toan"
     },
@@ -650,7 +650,7 @@
       "pillar": "education",
       "originalStage": "tap-di",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/giao-tiep-voi-tre-tu-mot-den-ba-tuoi"
     },
@@ -661,8 +661,8 @@
       "stage": "toddler",
       "pillar": "nutrition",
       "originalStage": "tap-di",
-      "sourceCount": 3,
-      "sectionCount": 12,
+      "sourceCount": 6,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/con-an-va-tu-lap-khi-tap-di"
     },
@@ -673,8 +673,8 @@
       "stage": "toddler",
       "pillar": "psych",
       "originalStage": "tap-di",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/cam-xuc-an-va-khung-hoang-tuoi-len-hai"
     },
@@ -685,8 +685,8 @@
       "stage": "toddler",
       "pillar": "safety",
       "originalStage": "tap-di",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/an-toan-trong-nha-khi-tre-tap-di"
     },

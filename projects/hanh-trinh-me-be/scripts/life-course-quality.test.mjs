@@ -15,10 +15,14 @@ test("quality baseline and editorial batch preserve inventory and draft gates",(
  test("04B revision coverage: every queued item in first two stages edited, no publication",()=>{
  const legacy=read("../packages/content/articles.json"),lessons=read("../apps/web/app/hoc-cung-con/learning-catalog.json");const rows=p.targetedRevisions;assert.equal(rows.length,48);assert.equal(new Set(rows.map(x=>x.key)).size,48);assert.equal(p.items.filter(x=>["prenatal","baby"].includes(x.stage)&&x.status==="queued").length,0);
  for(const e of rows){const [kind,id]=e.key.split(":");const x=kind==="legacy"?legacy.articles.find(y=>y.slug===id):kind==="lesson"?lessons.lessons.find(y=>y.id===id):b.articles.find(y=>y.id===id);assert(x);assert.equal(x.status,"draft");assert.equal(e.expertReviewed,false);assert(e.sourceChecks.length>0);if(kind==="legacy")assert(x.sections.some(y=>y.heading===e.addedSection));if(kind==="article")assert(x.sections.length>=7);assert(p.items.some(y=>y.key===e.key&&y.status==="revised-draft"));}
- assert.equal(p.items.filter(x=>x.status==="queued").length,168);console.log("LIFE_COURSE_04B_REVISION_PASS: 48 revised drafts, 51 first-stage items edited");
+ assert.equal(p.items.filter(x=>["prenatal","baby"].includes(x.stage)&&x.status==="queued").length,0);console.log("LIFE_COURSE_04B_REVISION_PASS: 48 revised drafts, 51 first-stage items edited");
  });
 
 test("infant safe sleep references are distinct from general sleep advice",()=>{
  assert.equal(b.sources.infantSafeSleep04b.url,"https://www.cdc.gov/sudden-infant-death/sleep-safely/");assert.equal(b.sources.sleep.url,"https://www.cdc.gov/sleep/about/");
  for(const id of ["gan-bo-va-dap-ung-nam-dau","cham-soc-dap-ung-va-chuyen-tiep"]){const x=b.articles.find(a=>a.id===id);assert(x.sourceIds.includes("infantSafeSleep04b"));assert(!x.sourceIds.includes("sleep"));assert(x.sections.some(s=>s.sourceIds.includes("infantSafeSleep04b")));}
 });
+
+ test("04C1 preserves legacy IDs, sources and inventory counts",()=>{
+ const legacy=read("../packages/content/articles.json"); const rows=p.revisions04c; assert.equal(rows.length,6); assert.equal(new Set(rows.map(x=>x.key)).size,6); for(const e of rows){const id=e.key.split(":")[1]; const x=legacy.articles.find(y=>y.slug===id); const ref=i.refs.find(y=>y.kind==="legacy"&&y.id===id); assert(x&&ref);assert.equal(x.status,"draft");assert.equal(e.expertReviewed,false);assert(x.sections.some(s=>s.heading===e.addedSection));for(const h of e.removedSharedSections)assert(!x.sections.some(s=>s.heading===h));for(const s of e.sourceChecks)assert(x.sources.some(y=>y.url.replace(/\/$/,"")===s.url.replace(/\/$/,"")));assert.equal(ref.sourceCount,x.sources.length);assert.equal(ref.sectionCount,x.sections.length);assert(p.items.some(y=>y.key===e.key&&y.batch==="S04-AZ-04C1"&&y.status==="revised-draft"));}assert.equal(p.items.length,219);assert.equal(p.items.filter(x=>x.status==="queued").length,219-p.items.filter(x=>["revised-draft","expanded-draft"].includes(x.status)).length); console.log("LIFE_COURSE_04C1_REVISION_PASS: 6 toddler legacy articles");
+ });

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04B2",
+  "batch": "S04-AZ-04C1",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -134,16 +134,18 @@
       "stage": "toddler",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:goc-choi-kham-pha-an-toan",
       "stage": "toddler",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:hoc-thong-qua-choi",
@@ -466,32 +468,36 @@
       "stage": "toddler",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:con-an-va-tu-lap-khi-tap-di",
       "stage": "toddler",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
       "stage": "toddler",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:an-toan-trong-nha-khi-tre-tap-di",
       "stage": "toddler",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C1"
     },
     {
       "key": "legacy:hoc-qua-choi-ba-den-sau-tuoi",
@@ -1838,9 +1844,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 32,
-    "remaining": 99,
-    "additional": 11
+    "attempted": 33,
+    "remaining": 98,
+    "additional": 16
   },
   "targetedRevisions": [
     {
@@ -3036,5 +3042,175 @@
       ],
       "expertReviewed": false
     }
-  ]
+  ],
+  "revisions04c": [
+    {
+      "key": "legacy:khi-con-noi-khong",
+      "stage": "toddler",
+      "title": "Khi con bắt đầu nói “không”",
+      "before": 954,
+      "after": 920,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Ba mức lựa chọn: tự quyết, cùng quyết, không thương lượng",
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/vietnam/vi/nh%E1%BB%AFng-c%C3%A2u-chuy%E1%BB%87n/%C3%A1p-d%E1%BB%A5ng-k%E1%BB%B7-lu%E1%BA%ADt-t%C3%ADch-c%E1%BB%B1c-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-tr%E1%BA%BB-em",
+          "status": "opened",
+          "scope": "Kỷ luật tích cực không bạo lực; kỳ vọng rõ ràng và nhất quán."
+        },
+        {
+          "url": "https://www.cdc.gov/parenting-toddlers/noticing-and-naming/emotion-coaching.html",
+          "status": "opened",
+          "scope": "Đảm bảo an toàn khi trẻ quá tải, kết nối và gọi tên cảm xúc khi có thể tương tác; giữ giới hạn hành vi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:goc-choi-kham-pha-an-toan",
+      "stage": "toddler",
+      "title": "Thiết kế góc chơi khám phá an toàn",
+      "before": 944,
+      "after": 900,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Bố trí góc chơi theo hoạt động, không theo số đồ chơi",
+      "sourceChecks": [
+        {
+          "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/home-safety-heres-how.aspx",
+          "status": "opened",
+          "scope": "Rà nguy cơ tầm trẻ, ổ điện, dây rèm, cầu thang, thuốc và hóa chất."
+        },
+        {
+          "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+          "status": "opened",
+          "scope": "Nguy cơ vật nhỏ, pin cúc áo và thực phẩm; ăn ngồi, giám sát, dấu hiệu tắc đường thở."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Mốc 2 tuổi, mở rộng lời trẻ, ăn đáp ứng, hoạt động chơi; mất kỹ năng hoặc lo ngại cần trao đổi bác sĩ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
+      "stage": "toddler",
+      "title": "Phát triển ngôn ngữ 1–3 tuổi: trò chuyện thế nào?",
+      "before": 1159,
+      "after": 1133,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Trò chuyện qua ba việc quen thuộc và ghi nhận giao tiếp",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Mốc 2 tuổi, mở rộng lời trẻ, ăn đáp ứng, hoạt động chơi; mất kỹ năng hoặc lo ngại cần trao đổi bác sĩ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:con-an-va-tu-lap-khi-tap-di",
+      "stage": "toddler",
+      "title": "Bữa ăn 1–3 tuổi: khuyến khích tự lập không ép",
+      "before": 1144,
+      "after": 1140,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Một bữa cơm gia đình: chuẩn bị, ngồi ăn, kết thúc",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-1-2-years.html",
+          "status": "opened",
+          "scope": "Đa dạng thức ăn, tránh ép ăn, vận động và nhịp sinh hoạt; lưu ý phạm vi 1–2 tuổi."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Mốc 2 tuổi, mở rộng lời trẻ, ăn đáp ứng, hoạt động chơi; mất kỹ năng hoặc lo ngại cần trao đổi bác sĩ."
+        },
+        {
+          "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+          "status": "opened",
+          "scope": "Nguy cơ vật nhỏ, pin cúc áo và thực phẩm; ăn ngồi, giám sát, dấu hiệu tắc đường thở."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cam-xuc-an-va-khung-hoang-tuoi-len-hai",
+      "stage": "toddler",
+      "title": "Trẻ hay ăn vạ: thiết lập giới hạn không bạo lực",
+      "before": 1130,
+      "after": 1111,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Trước, trong và sau cơn bùng nổ cảm xúc",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/parenting-toddlers/noticing-and-naming/emotion-coaching.html",
+          "status": "opened",
+          "scope": "Đảm bảo an toàn khi trẻ quá tải, kết nối và gọi tên cảm xúc khi có thể tương tác; giữ giới hạn hành vi."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/vi/nh%E1%BB%AFng-c%C3%A2u-chuy%E1%BB%87n/%C3%A1p-d%E1%BB%A5ng-k%E1%BB%B7-lu%E1%BA%ADt-t%C3%ADch-c%E1%BB%B1c-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-tr%E1%BA%BB-em",
+          "status": "opened",
+          "scope": "Kỷ luật tích cực không bạo lực; kỳ vọng rõ ràng và nhất quán."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-trong-nha-khi-tre-tap-di",
+      "stage": "toddler",
+      "title": "An toàn khi con bắt đầu chạy, leo trèo và khám phá",
+      "before": 1140,
+      "after": 1120,
+      "removedSharedSections": [
+        "Kết nối với chặng 1–3 tuổi: khám phá và thể hiện bản thân",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Rà nhà theo đường đi của trẻ và giao ca người chăm",
+      "sourceChecks": [
+        {
+          "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/home-safety-heres-how.aspx",
+          "status": "opened",
+          "scope": "Rà nguy cơ tầm trẻ, ổ điện, dây rèm, cầu thang, thuốc và hóa chất."
+        },
+        {
+          "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+          "status": "opened",
+          "scope": "Nguy cơ vật nhỏ, pin cúc áo và thực phẩm; ăn ngồi, giám sát, dấu hiệu tắc đường thở."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "sourceReview04c": {
+    "baseline": 131,
+    "attempted": 33,
+    "remaining": 98,
+    "additional": 16,
+    "previousReported": {
+      "baseline": 131,
+      "attempted": 32,
+      "remaining": 99,
+      "additional": 11
+    },
+    "note": "Union exact baseline identifiers in 04A/B/C ledgers; additional URLs deduplicated by trailing slash; not claim verification."
+  }
 }
