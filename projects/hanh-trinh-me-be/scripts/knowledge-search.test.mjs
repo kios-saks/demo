@@ -53,6 +53,12 @@ test("UX02 candidate relevance benchmark (30 fixed human-authored query/ID pairs
 test("UX02 synonym, one edit, no results, strict filters",()=>{
  assert(run("tri tue nhan tao").some(x=>x.key==="lesson:ai-co-the-sai"));
  assert(run("tham tu thong tinn").slice(0,3).some(x=>x.key==="lesson:kiem-chung-thong-tin"));
+ // Short typo must have exact title context; a lone short typo is not expanded.
+ const sample={key:"lesson:fixture",kind:"lesson",stage:"school",pillar:"thinking",fields:{title:"tham tu thong tin",meta:"",body:""}};
+ assert.equal(searchKnowledge([sample],{q:"tinn"}).length,0);
+ assert.equal(searchKnowledge([sample],{q:"thong tinn"}).length,0);
+ assert.equal(searchKnowledge([sample],{q:"tham tu thong tinn"})[0]?.key,sample.key);
+ assert.equal(searchKnowledge([sample],{q:"tham tu thong tixx"}).length,0);
  assert.equal(run("zzzxxyyqqq").length,0);assert.equal(run("!!!").length,0);
  for(const kind of ["legacy","lesson","article"])assert.equal(run("",{kind}).length,({legacy:72,lesson:21,article:126})[kind]);
  const f=rows.find(x=>x.kind==="article");assert(run("",{stage:f.stage,topic:f.pillar,kind:f.kind}).every(x=>x.stage===f.stage&&x.pillar===f.pillar&&x.kind===f.kind));

@@ -34,3 +34,19 @@ jobs:
       - run: node scripts/qa-dev-live.mjs
       - run: node scripts/qa-dev-life-course-live.mjs
       - run: node scripts/knowledge-hub-browser-smoke.mjs
+      - name: UX-02 live search acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const url = 'https://hanh-trinh-me-be-web-jn5v.onrender.com/tim-kiem';
+          const res = await fetch(url,{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV search probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-unified-search="v2"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX02_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX02_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-02 Search Browser Smoke
+        if: env.MEBE_UX02_LIVE == 'true'
+        run: node scripts/knowledge-search-browser-smoke.mjs

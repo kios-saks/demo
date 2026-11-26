@@ -41,9 +41,14 @@ function matchScore(fields,q){
  if(all(title))return 750;
  if(all(title+" "+meta))return 500+tokens.filter(t=>phrase(title,t)).length/Math.max(1,tokens.length)*100;
  if(all(title+" "+meta+" "+body))return 250+tokens.filter(t=>phrase(title+" "+meta,t)).length/Math.max(1,tokens.length)*100;
- // Fuzzy: at most one missing token, length >= 5, one edit/transposition against title only.
+ // Fuzzy: one missing token, one edit against title. Short words require >=2 other exact title tokens.
  const missing=tokens.filter(t=>!phrase(title+" "+meta,t));
- if(missing.length===1&&missing[0].length>=5&&words(title).some(t=>t.length>=4&&oneEdit(missing[0],t)))return 100;
+ if(missing.length===1){
+  const token=missing[0],rest=tokens.filter(t=>t!==token),titleHits=rest.filter(t=>phrase(title,t)).length;
+  const long=token.length>=5&&words(title).some(t=>t.length>=4&&oneEdit(token,t));
+  const short=token.length===4&&rest.length>=2&&titleHits===rest.length&&words(title).some(t=>t.length>=3&&oneEdit(token,t));
+  if(long||short)return 100+titleHits/Math.max(1,rest.length)*30;
+ }
  return 0;
 }
 export function searchKnowledge(index,filters={}){
