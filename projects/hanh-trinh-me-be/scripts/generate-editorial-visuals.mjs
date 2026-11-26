@@ -121,6 +121,8 @@ const transcripts={};
 for(const a of d.articles){
  if(!a.media?.inline?.length)continue;
  const c=allInfo.get(a.slug);assert(c,"Missing infographic "+a.slug);
+ assert(a.media.inline.some(v=>v.sourceUrl===c.sourceUrl),"Editorial infographic source mismatch: "+a.slug);
+ assert(a.sources.some(s=>s.url===c.sourceUrl),"Editorial infographic source not in article: "+a.slug);
  const count=c.points.length,height=count===4?1320:1100;
  const titleLines=lines(c.title,28);assert(titleLines.length<=3,a.slug);
  let body=rect(0,0,720,height,0,"#faf9f5")+rect(28,28,664,12,6,"#285b46");

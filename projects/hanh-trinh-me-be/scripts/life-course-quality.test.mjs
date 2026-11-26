@@ -71,3 +71,15 @@ test("Content Pipeline Recovery preserves 72 legacy depth and central source reg
  assert.equal(new Set(recovery.sourceRegistryAdditions.flatMap(e=>e.articles)).size,53);
  console.log("CONTENT_PIPELINE_RECOVERY_DATA_PASS");
 });
+
+test("All three curated infographics retain exact article source, original asset, and transcript",()=>{
+ const g=read("../packages/content/articles.json"),curated=read("../packages/content/mock/editorial-curated-infographics.json");
+ assert.equal(Object.keys(curated).length,3);
+ for(const [slug,c] of Object.entries(curated)){
+  const a=g.articles.find(x=>x.slug===slug);assert(a);
+  assert(a.sources.some(s=>s.url===c.sourceUrl),"Curated source missing "+slug);
+  assert(a.media?.inline?.some(v=>v.src===c.src&&v.sourceUrl===c.sourceUrl),"Curated original asset/source mismatch "+slug);
+  assert(c.points.length>=3&&c.points.every(p=>p.length>0));
+ }
+ console.log("CONTENT_CURATED_INFOGRAPHIC_SOURCE_PASS");
+});

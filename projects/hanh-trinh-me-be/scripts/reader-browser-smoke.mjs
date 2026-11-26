@@ -155,6 +155,9 @@ try{
    }
    if(a.media?.inline?.length){
      assert(await page.locator(".infographic-figure img").count()>0,"Missing infographic "+a.slug);
+     const editorial=page.locator('.infographic-figure img[src="/media/editorial-infographic-'+a.slug+'.svg"]');
+     assert.equal(await editorial.count(),1,"Missing portrait editorial infographic "+a.slug);
+     assert(await page.locator(".infographic-figure .infographic-transcript").first().isVisible(),"Missing readable source-linked transcript "+a.slug);
    }else{
      const card=page.locator(".reading-visual-svg");
      assert.equal(await card.count(),1,"Missing excerpt visual "+a.slug);

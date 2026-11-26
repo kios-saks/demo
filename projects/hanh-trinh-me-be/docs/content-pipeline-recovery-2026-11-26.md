@@ -32,3 +32,6 @@ Run [45746734666](https://github.com/kios-saks/demo/actions/runs/45746734666), t
 - [x] Added regression test; existing 219 suite remains in workflow.
 - [ ] Full Node/CI, browser, Combined DEV acceptance. Do not close QA before CI.
 - [ ] Deployment branch reconciliation: Combined DEV tracks feat/hanh-trinh-me-be-ecosystem, autoDeployTrigger checksPass; fix is on feat/mebe-s04-age-learning. No merge, branch change, database writes or deploy until CI verified and compatible handoff. PR #1 stays Draft. Production gate untouched.
+
+## Follow-up: curated registry root cause
+- The reader fallback was triggered because the maternal warning infographic registry retained the previous CDC path ending in /, while the revised article cites /index.html. Update only registry sourceUrl to the exact article source; retain original SVG, curated points and portrait image. Add generator exact-source guard, three-curated-entry regression, and browser assertions for all 27 portrait infographics and transcripts. The generic object-fit fix stays in place for legitimate fallback assets. Both commits require final CI before Combined DEV.
