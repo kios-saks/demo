@@ -1,11 +1,13 @@
 name: Mother & Baby - DEV Post-deploy Content QA
 on:
   workflow_dispatch:
+  push:
+    branches: ['qa/mebe-postdeploy-222b182']
 permissions:
   contents: read
 jobs:
   live-life-course:
-    if: github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem'
+    if: github.ref == 'refs/heads/qa/mebe-postdeploy-222b182'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     defaults:
@@ -15,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          ref: 222b182aa3d3cfc18e3cae7c48e8bc96e2ed98b1
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
