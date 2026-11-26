@@ -27,6 +27,8 @@ Dependency: none; gate kỹ thuật UX-01 đã đạt, mở dependency UX-02–0
 - [ ] AC02.3: filter age/topic/kind hợp lệ, clear, URL + browser history, empty/error khác nhau, không lộ raw data/token/nhạy cảm, không log query cá nhân. Evidence: unit/integration + live test.
 Dependency: UX-01.
 
+**UX-02 candidate:** [audit và triển khai](ux-02-implementation.md). AC02.1/2/3 còn mở; benchmark candidate cần owner/content review, CI và post-deploy thực tế.
+
 ### UX-03 · P0 · Homepage
 - [ ] AC03.1: ở 390×844, search và lối chọn nhóm tuổi nhận biết không cần cuộn quá một viewport; không hero quá cao, không pop-up/ép đăng nhập; có đường đến A–Z và tìm kiếm chính.
 - [ ] AC03.2: chưa chọn sở thích → gợi ý chung; đã chọn → gợi ý liên quan và tiếp tục đọc nếu opt-in. Không tạo bài giả/trending nếu không có số liệu.

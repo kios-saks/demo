@@ -1,3 +1,5 @@
+import {openDevReader} from "./open-dev-reader";
+import {renderUnifiedSearch} from "./knowledge-search-render";
 import {familyDemoEnabled} from "./family-demo-config";
 import {dynamicMediaEnabled,articleMediaUrl,catalogMediaUrl} from "./dynamic-media";
 import {escapeHtml as e,htmlResponse,connectionPending,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
@@ -76,6 +78,7 @@ function personal(articles:ArticleSummary[],mode:string){
 }
 type ReaderOptions={mode?:"home"|"library"|"search"|"saved"|"journey"|"stage";stage?:string};
 export async function renderReaderLibrary(request:Request,options:ReaderOptions={}):Promise<Response>{
+ if(options.mode==="search"&&openDevReader())return renderUnifiedSearch(request);
  const denied=requirePreviewLogin(request);if(denied)return denied;
  try{
   const params=new URL(request.url).searchParams;
