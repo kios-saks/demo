@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04D",
+  "batch": "S04-AZ-04E",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -582,32 +582,36 @@
       "stage": "teen",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "legacy:noi-chuyen-day-thi-tinh-duc-an-toan",
       "stage": "teen",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
       "stage": "teen",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "legacy:giao-tiep-voi-con-tuoi-teen",
       "stage": "teen",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi",
@@ -781,24 +785,27 @@
       "stage": "teen",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "lesson:du-an-ai-co-trach-nhiem",
       "stage": "teen",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "lesson:ngan-sach-va-lua-chon",
       "stage": "teen",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "lesson:tu-lap-va-nghe-nghiep",
@@ -874,8 +881,9 @@
       "stage": "teen",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:an-uong-khi-di-lam",
@@ -1048,40 +1056,45 @@
       "stage": "teen",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:tiep-can-y-te-tuoi-14-17",
       "stage": "teen",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:nhip-song-on-thi-14-17",
       "stage": "teen",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:chon-thpt-hoc-nghe-14-17",
       "stage": "teen",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:an-toan-mang-va-di-lai-14-17",
       "stage": "teen",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:bua-an-tu-lap-18-22",
@@ -1547,40 +1560,45 @@
       "stage": "teen",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:portfolio-va-hoat-dong-cong-dong-14-17",
       "stage": "teen",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:huong-nghiep-va-thu-nghe-14-17",
       "stage": "teen",
       "pillar": "career",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:quyen-lao-dong-va-trach-nhiem-14-17",
       "stage": "teen",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:ra-quyet-dinh-va-tu-lap-14-17",
       "stage": "teen",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04E"
     },
     {
       "key": "article:danh-gia-bang-chung-18-22",
@@ -1905,9 +1923,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 55,
-    "remaining": 76,
-    "additional": 40
+    "attempted": 57,
+    "remaining": 74,
+    "additional": 46
   },
   "targetedRevisions": [
     {
@@ -4723,6 +4741,483 @@
           "url": "https://www.unicef.org/vietnam/parenting-ai-age",
           "status": "opened",
           "scope": "AI có giới hạn, quyền riêng tư, đồng hành và tránh lệ thuộc."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "revisions04e": [
+    {
+      "key": "legacy:suc-khoe-tinh-than-tuoi-thieu-nien",
+      "stage": "teen",
+      "title": "Sức khỏe tinh thần 12–17 tuổi: dấu hiệu cần hỗ trợ",
+      "before": 1210,
+      "after": 1281,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+          "status": "opened",
+          "scope": "Yếu tố bảo vệ, khó khăn tâm lý, phòng ngừa và hỗ trợ."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+          "status": "opened",
+          "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 12–17 tuổi: tôn trọng, đối thoại, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Ba mức hỗ trợ: lắng nghe, hẹn khám và bảo vệ khẩn"
+    },
+    {
+      "key": "legacy:noi-chuyen-day-thi-tinh-duc-an-toan",
+      "stage": "teen",
+      "title": "Nói chuyện về dậy thì và ranh giới cá nhân",
+      "before": 1228,
+      "after": 1385,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "status": "opened",
+          "scope": "Giáo dục khoa học tăng dần theo tuổi, sức khỏe, đồng thuận và phòng ngừa."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+          "status": "opened",
+          "scope": "STI có thể không triệu chứng; xét nghiệm và điều trị chuyên môn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+          "status": "opened",
+          "scope": "Giảm nguy cơ nhiều STI và mang thai ngoài ý muốn khi dùng đúng, nhất quán."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+          "status": "opened",
+          "scope": "Trợ giúp khi có nguy cơ mang thai ngoài ý muốn hoặc biện pháp thất bại; hỏi cơ sở y tế sớm."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 12–17 tuổi: tôn trọng, đối thoại, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Sức khỏe sinh sản, đồng thuận và tìm dịch vụ y tế"
+    },
+    {
+      "key": "legacy:an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+      "stage": "teen",
+      "title": "An toàn số và bắt nạt trực tuyến ở tuổi teen",
+      "before": 1204,
+      "after": 1255,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+          "status": "opened",
+          "scope": "Hỗ trợ, báo cáo bắt nạt, không làm hại thêm."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+          "status": "opened",
+          "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 12–17 tuổi: tôn trọng, đối thoại, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Ứng phó với giả mạo, tống ép và tổn thương trên mạng"
+    },
+    {
+      "key": "legacy:giao-tiep-voi-con-tuoi-teen",
+      "stage": "teen",
+      "title": "11 nguyên tắc gợi ý để trò chuyện với con tuổi teen",
+      "before": 1184,
+      "after": 1199,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+          "status": "opened",
+          "scope": "Lắng nghe, câu hỏi mở và phản hồi không phán xét."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+          "status": "opened",
+          "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+          "status": "opened",
+          "scope": "Yếu tố bảo vệ, khó khăn tâm lý, phòng ngừa và hỗ trợ."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 12–17 tuổi: tôn trọng, đối thoại, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Đàm phán quyền tự chủ và giữ kênh trò chuyện"
+    },
+    {
+      "key": "lesson:quan-he-va-dong-thuan",
+      "stage": "teen",
+      "title": "Quan hệ lành mạnh, đồng thuận và ranh giới",
+      "before": 119,
+      "after": 258,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "status": "opened",
+          "scope": "Giáo dục khoa học tăng dần theo tuổi, sức khỏe, đồng thuận và phòng ngừa."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+          "status": "opened",
+          "scope": "STI có thể không triệu chứng; xét nghiệm và điều trị chuyên môn."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:du-an-ai-co-trach-nhiem",
+      "stage": "teen",
+      "title": "Dự án học tập có AI và tư duy phản biện",
+      "before": 112,
+      "after": 221,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "status": "opened-overview",
+          "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ngan-sach-va-lua-chon",
+      "stage": "teen",
+      "title": "Ngân sách, lừa đảo và quyết định mua sắm",
+      "before": 108,
+      "after": 220,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+          "status": "opened",
+          "scope": "13–21 tuổi phát triển quyết định và thói quen tài chính."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:du-an-hoc-tap-thoi-ai",
+      "stage": "teen",
+      "title": "Học tập tuổi 14–17 trong thời đại AI: xây năng lực bằng một dự án thực tế",
+      "before": 246,
+      "after": 609,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "status": "opened-overview",
+          "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Chiến lược tự điều chỉnh học tập."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-uong-va-on-thi-14-17",
+      "stage": "teen",
+      "title": "Ăn uống 14–17 tuổi: học tập, vận động và hình ảnh cơ thể",
+      "before": 195,
+      "after": 561,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+          "status": "opened",
+          "scope": "Dinh dưỡng 5–19 tuổi, tăng trưởng và môi trường ăn uống."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "13–17 tuổi ngủ 8–10 giờ/24h, thói quen ngủ."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+          "status": "opened",
+          "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tiep-can-y-te-tuoi-14-17",
+      "stage": "teen",
+      "title": "Chăm sóc sức khỏe 14–17 tuổi: chủ động tiếp cận dịch vụ và hỏi đúng điều",
+      "before": 210,
+      "after": 578,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+          "status": "opened",
+          "scope": "Sức khỏe vị thành niên, HPV, HIV, phòng ngừa tai nạn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+          "status": "opened",
+          "scope": "STI có thể không triệu chứng; xét nghiệm và điều trị chuyên môn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+          "status": "opened",
+          "scope": "Trợ giúp khi có nguy cơ mang thai ngoài ý muốn hoặc biện pháp thất bại; hỏi cơ sở y tế sớm."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+          "status": "opened",
+          "scope": "Yếu tố bảo vệ, khó khăn tâm lý, phòng ngừa và hỗ trợ."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-song-on-thi-14-17",
+      "stage": "teen",
+      "title": "Ngủ, học và nghỉ ở tuổi 14–17: xây lịch ôn thi không kiệt sức",
+      "before": 208,
+      "after": 564,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "13–17 tuổi ngủ 8–10 giờ/24h, thói quen ngủ."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Chiến lược tự điều chỉnh học tập."
+        },
+        {
+          "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+          "status": "opened",
+          "scope": "Vận động 5–17 tuổi; điều chỉnh khả năng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-thpt-hoc-nghe-14-17",
+      "stage": "teen",
+      "title": "Sau THCS và THPT: tìm trường phổ thông, trung cấp và hướng học phù hợp",
+      "before": 217,
+      "after": 559,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=1&docid=212363&orggroupid=4&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata quy chế tuyển sinh gốc 30/12/2024, hiệu lực ghi 14/02/2025; chưa rà sửa đổi."
+        },
+        {
+          "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+          "status": "opened-overview",
+          "scope": "Dashboard hướng nghiệp; chưa phân tích dữ liệu từng nước."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-mang-va-di-lai-14-17",
+      "stage": "teen",
+      "title": "An toàn tuổi 14–17: đi lại, tin nhắn đe dọa và bảo vệ tài khoản",
+      "before": 225,
+      "after": 583,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+          "status": "opened",
+          "scope": "Phòng ngừa chấn thương giao thông."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata văn bản 23/03/2026; không kết luận tuổi/giấy phép cụ thể."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+          "status": "opened",
+          "scope": "Hỗ trợ, báo cáo bắt nạt, không làm hại thêm."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghien-cuu-va-tu-duy-phan-bien-14-17",
+      "stage": "teen",
+      "title": "Tư duy phản biện 14–17 tuổi: nghiên cứu, dữ liệu và sáng tạo",
+      "before": 204,
+      "after": 547,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "status": "opened-overview",
+          "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Chiến lược tự điều chỉnh học tập."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:portfolio-va-hoat-dong-cong-dong-14-17",
+      "stage": "teen",
+      "title": "Năng khiếu 14–17 tuổi: hồ sơ dự án, sáng tạo và hoạt động cộng đồng",
+      "before": 208,
+      "after": 567,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "status": "opened-overview",
+          "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành."
+        },
+        {
+          "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+          "status": "opened-overview",
+          "scope": "Dashboard hướng nghiệp; chưa phân tích dữ liệu từng nước."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "13–17 tuổi ngủ 8–10 giờ/24h, thói quen ngủ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:huong-nghiep-va-thu-nghe-14-17",
+      "stage": "teen",
+      "title": "Hướng nghiệp 14–17 tuổi: thử nghề, tìm kỹ năng và chọn lộ trình học",
+      "before": 215,
+      "after": 580,
+      "sourceChecks": [
+        {
+          "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+          "status": "opened-overview",
+          "scope": "Dashboard hướng nghiệp; chưa phân tích dữ liệu từng nước."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "status": "opened-overview",
+          "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-lao-dong-va-trach-nhiem-14-17",
+      "stage": "teen",
+      "title": "Tuổi 14–17: quyền, trách nhiệm và lưu ý trước khi làm thêm",
+      "before": 226,
+      "after": 592,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata văn bản 12/02/2026; chưa đọc PDF hoặc rà sửa đổi."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ra-quyet-dinh-va-tu-lap-14-17",
+      "stage": "teen",
+      "title": "Kỹ năng sống 14–17 tuổi: quyết định, tự lập và lập kế hoạch",
+      "before": 210,
+      "after": 566,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+          "status": "opened",
+          "scope": "13–21 tuổi phát triển quyết định và thói quen tài chính."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+          "status": "opened",
+          "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
         }
       ],
       "expertReviewed": false

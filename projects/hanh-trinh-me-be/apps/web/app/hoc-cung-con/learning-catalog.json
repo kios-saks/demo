@@ -213,6 +213,14 @@
     "q04d_unesco": {
       "name": "UNESCO — AI competency framework for students",
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+    },
+    "q04e_sti": {
+      "name": "WHO — Sexually transmitted infections",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+    },
+    "q04e_child111": {
+      "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+      "url": "https://tongdai111.vn/sites/gioi-thieu"
     }
   },
   "lessons": [
@@ -475,12 +483,15 @@
       "category": "body",
       "title": "Quan hệ lành mạnh, đồng thuận và ranh giới",
       "goal": "Hiểu quyền quyết định cơ thể, tôn trọng sự lựa chọn và tìm hỗ trợ.",
-      "knowledge": "Giáo dục về quan hệ và sức khỏe sinh sản cần chính xác, phù hợp phát triển, không kỳ thị. Đồng thuận phải tự nguyện, có thể thay đổi và không đến từ ép buộc. Không gửi hình ảnh riêng tư của người khác; tìm người lớn đáng tin khi có đe dọa hoặc bị xâm phạm.",
-      "practice": "Thảo luận tình huống một người bị thúc ép chia sẻ ảnh riêng: quyền từ chối, rời tình huống, không tự đổ lỗi và tìm hỗ trợ. Câu hỏi về sức khỏe sinh sản nên được giải đáp từ dịch vụ y tế phù hợp.",
-      "reflection": "Con có phân biệt được tôn trọng với kiểm soát, và biết nơi tìm trợ giúp không?",
+      "knowledge": "Giáo dục về quan hệ và sức khỏe sinh sản cần chính xác, phù hợp phát triển, không kỳ thị. Đồng thuận phải tự nguyện, có thể thay đổi và không đến từ ép buộc. Không gửi hình ảnh riêng tư của người khác; tìm người lớn đáng tin khi có đe dọa hoặc bị xâm phạm. Một mối quan hệ tôn trọng cho phép cả hai giữ bạn bè, thời gian riêng và nói không. Kiểm soát mật khẩu, đe dọa chia tay để ép buộc hoặc phát tán ảnh là dấu hiệu cần quan tâm. Đồng thuận không thay các điều kiện bảo vệ người chưa thành niên theo luật.",
+      "practice": "Thảo luận tình huống một người bị thúc ép chia sẻ ảnh riêng: quyền từ chối, rời tình huống, không tự đổ lỗi và tìm hỗ trợ. Câu hỏi về sức khỏe sinh sản nên được giải đáp từ dịch vụ y tế phù hợp. Dùng tình huống hư cấu một người yêu yêu cầu mật khẩu để chứng minh tình cảm. Thử câu từ chối, tìm người hỗ trợ và chọn phương án an toàn. Với câu hỏi mang thai hay STI, tìm dịch vụ y tế đáng tin, không dựa vào lời đồn. Nếu bị đe dọa, không tự gặp đối tượng.",
+      "reflection": "Con có phân biệt được tôn trọng với kiểm soát, và biết nơi tìm trợ giúp không? Em có thể nhận diện một hành vi kiểm soát và kể với người tin cậy? Không yêu cầu kể trải nghiệm riêng trước nhóm.",
       "sourceIds": [
         "who",
-        "digital"
+        "digital",
+        "q04d_cse",
+        "q04e_sti",
+        "q04e_child111"
       ],
       "status": "draft"
     },
@@ -490,12 +501,14 @@
       "category": "modern",
       "title": "Dự án học tập có AI và tư duy phản biện",
       "goal": "Thực hành nghiên cứu, đánh giá nguồn và khai báo hỗ trợ AI.",
-      "knowledge": "AI có thể hỗ trợ tạo dàn ý hoặc gợi ý câu hỏi nhưng người học vẫn chịu trách nhiệm kiểm chứng và sản phẩm cuối. Không dùng AI để nộp bài thay mình; kiểm tra quy định giáo viên, bảo mật thông tin và ghi rõ phần hỗ trợ.",
-      "practice": "Chọn một đề tài môi trường địa phương. Đặt câu hỏi, đọc hai nguồn độc lập, so sánh với gợi ý AI phù hợp tuổi, viết kết luận riêng và ghi chú cách kiểm chứng. Nếu AI đưa nguồn không tồn tại, loại bỏ.",
-      "reflection": "Có thể giải thích kết luận mà không dựa vào AI không? Nguồn nào còn cần kiểm tra?",
+      "knowledge": "AI có thể hỗ trợ tạo dàn ý hoặc gợi ý câu hỏi nhưng người học vẫn chịu trách nhiệm kiểm chứng và sản phẩm cuối. Không dùng AI để nộp bài thay mình; kiểm tra quy định giáo viên, bảo mật thông tin và ghi rõ phần hỗ trợ. Khung UNESCO phân biệt hiểu, áp dụng và sáng tạo, chú trọng vai trò con người và đạo đức. Không đánh giá năng lực bằng số lượng công cụ.",
+      "practice": "Chọn một đề tài môi trường địa phương. Đặt câu hỏi, đọc hai nguồn độc lập, so sánh với gợi ý AI phù hợp tuổi, viết kết luận riêng và ghi chú cách kiểm chứng. Nếu AI đưa nguồn không tồn tại, loại bỏ. Tạo nhật ký gồm câu hỏi, nguồn thật, gợi ý AI, lỗi phát hiện và phần tự sửa. Dùng số liệu giả lập khi thử bảng tính, kiểm tra phép tính bằng tay, không nhập thông tin lớp. Nếu trường không cho AI, thực hiện hoàn toàn ngoại tuyến. Trình bày bằng lời của mình và ghi rõ trợ giúp.",
+      "reflection": "Có thể giải thích kết luận mà không dựa vào AI không? Nguồn nào còn cần kiểm tra? Nếu công cụ biến mất, em còn giải thích phương pháp được không? Nêu một giới hạn của sản phẩm.",
       "sourceIds": [
         "ai",
-        "media"
+        "media",
+        "q04d_unesco",
+        "parentingAI"
       ],
       "status": "draft"
     },
@@ -505,12 +518,13 @@
       "category": "finance",
       "title": "Ngân sách, lừa đảo và quyết định mua sắm",
       "goal": "Nhận biết áp lực mua hàng, chi phí và thông tin không đáng tin.",
-      "knowledge": "Học tài chính ở tuổi teen có thể bắt đầu từ kế hoạch chi tiêu và so sánh tổng chi phí. Tuyên bố lợi nhuận chắc chắn hoặc thúc ép chuyển tiền cần được xem xét thận trọng. Không khuyến khích đầu cơ hay vay tiền để học đầu tư.",
-      "practice": "Với ngân sách giả định 500.000 đồng, phân bổ cho đi lại, học tập, sở thích và dự phòng. So sánh hai ưu đãi giả định, kiểm tra điều kiện, chi phí ẩn và dấu hiệu thúc ép.",
-      "reflection": "Nếu một khoản chi tăng lên, con sẽ điều chỉnh gì? Làm sao kiểm tra người gửi yêu cầu tiền?",
+      "knowledge": "Học tài chính ở tuổi teen có thể bắt đầu từ kế hoạch chi tiêu và so sánh tổng chi phí. Tuyên bố lợi nhuận chắc chắn hoặc thúc ép chuyển tiền cần được xem xét thận trọng. Không khuyến khích đầu cơ hay vay tiền để học đầu tư. CFPB coi tuổi 13–21 là giai đoạn củng cố kiến thức và quyết định tài chính. Học phân biệt tiền có sẵn với thu nhập kỳ vọng; không dùng khoản vay hay giao dịch đầu cơ để luyện.",
+      "practice": "Với ngân sách giả định 500.000 đồng, phân bổ cho đi lại, học tập, sở thích và dự phòng. So sánh hai ưu đãi giả định, kiểm tra điều kiện, chi phí ẩn và dấu hiệu thúc ép. Giả định 500.000 đồng: đi lại 150.000, học 120.000, dự phòng 100.000, còn 130.000 cho lựa chọn khác. Nếu chi đi lại tăng 50.000, còn 80.000; xem mục nào có thể hoãn. Đọc tổng giá và điều kiện ưu đãi giả lập, không nhập OTP hay thanh toán thật.",
+      "reflection": "Nếu một khoản chi tăng lên, con sẽ điều chỉnh gì? Làm sao kiểm tra người gửi yêu cầu tiền? Em có thể giải thích lựa chọn và lý do không tin lời hứa lãi chắc chắn? Gia đình không phải công khai thu nhập.",
       "sourceIds": [
         "finance",
-        "media"
+        "media",
+        "parentingAI"
       ],
       "status": "draft"
     },

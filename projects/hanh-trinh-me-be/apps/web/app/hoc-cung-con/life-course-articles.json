@@ -721,6 +721,36 @@
       "url": "https://vanban.chinhphu.vn/?docid=216387&pageid=27160",
       "scope": "Metadata nghị định hướng dẫn bảo vệ dữ liệu, hiệu lực ghi 01/01/2026; chưa đọc PDF.",
       "checkedOn": "2026-11-26"
+    },
+    "q04e_talk": {
+      "name": "UNICEF Việt Nam — Mental health conversation starters 14–18 years",
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+      "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04e_ec": {
+      "name": "WHO — Emergency contraception",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+      "scope": "Trợ giúp khi có nguy cơ mang thai ngoài ý muốn hoặc biện pháp thất bại; hỏi cơ sở y tế sớm.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04e_school": {
+      "name": "Chính phủ — Thông tư 30/2024/TT-BGDĐT",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=212363&orggroupid=4&pageid=27160",
+      "scope": "Metadata quy chế tuyển sinh gốc 30/12/2024, hiệu lực ghi 14/02/2025; chưa rà sửa đổi.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04e_road": {
+      "name": "WHO — Road traffic injuries",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+      "scope": "Phòng ngừa chấn thương giao thông.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04e_traffic": {
+      "name": "Chính phủ — VBHN 55/VBHN-VPQH Luật Trật tự, an toàn giao thông đường bộ",
+      "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+      "scope": "Metadata văn bản 23/03/2026; không kết luận tuổi/giấy phép cụ thể.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1135,16 +1165,51 @@
           "body": "Chấm theo câu hỏi rõ ràng, nguồn kiểm chứng được, giải pháp khả thi và khả năng giải thích; không chấm theo độ bóng bẩy của bài thuyết trình. Sau phản hồi, chọn một điểm sửa và một kỹ năng muốn học tiếp. Người lớn có thể hỗ trợ thiết bị hoặc thời gian nhưng không làm thay.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Từ hiểu đến áp dụng và sáng tạo",
+          "body": "Trang giới thiệu UNESCO nêu 12 năng lực AI trong bốn chiều: lấy con người làm trung tâm, đạo đức, kỹ thuật và ứng dụng, thiết kế hệ thống; ba mức hiểu, áp dụng, sáng tạo. Đây là khung tham khảo, chưa phải giáo trình chính thức của dự án. Học sinh có thể giải thích vì sao cần công cụ, lỗi nào có thể xảy ra và khi nào làm thủ công tốt hơn. Tuân thủ tuổi sử dụng, quy định trường và yêu cầu giám sát; không lách điều khoản.",
+          "sourceIds": [
+            "q04d_unesco"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Dự án giấy trong lớp: xác định tiêu chí trước",
+          "body": "Ví dụ giả định nhóm muốn giảm giấy bỏ đi. Xin phép giáo viên, chỉ đếm số tờ trong khu vực được phép trong các ngày tương đương, không chụp bài có tên. Ghi cách đếm và điều kiện thay đổi, chọn biện pháp thử như dùng mặt giấy còn trống. So sánh trước sau, không tuyên bố hiệu quả nhân quả nếu chưa loại trừ khác biệt về lịch học. Nhóm có thể dùng bảng giấy hoặc bảng tính, không bắt buộc phải dùng AI.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhật ký AI và kiểm tra bằng chứng",
+          "body": "Trước khi dùng công cụ, tự viết câu hỏi và phương án. Ghi phần AI gợi ý, nguồn nào đã mở thật, lỗi nào sửa và quyết định cuối. Nếu AI đưa một số liệu không có nguồn, loại bỏ hoặc ghi chưa xác minh. Không gửi dữ liệu nhận dạng, ảnh bạn bè, đề thi riêng hoặc tài liệu không được phép. UNICEF lưu ý rủi ro dữ liệu và lệ thuộc; công cụ không chịu trách nhiệm thay người học. Khi không được phép sử dụng, ghi rõ dự án làm không có AI.",
+          "sourceIds": [
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đánh giá và phản hồi thực chất",
+          "body": "Dùng tiêu chí: câu hỏi rõ, phương pháp có thể giải thích, dữ liệu hợp lệ, kết luận có giới hạn và đóng góp trung thực của thành viên. Mỗi bạn trình bày một quyết định và một điểm cần sửa. EEF nhấn mạnh lập kế hoạch, theo dõi và đánh giá trong nhiệm vụ học. Không đánh giá chỉ qua hình thức slide hay văn phong AI. Nếu kết quả chưa như mong muốn, ghi bài học và bước tiếp theo thay vì sửa số liệu cho đẹp.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Tuần 1: chọn vấn đề, xác định câu hỏi và nguồn. Tuần 2: khảo sát không thu dữ liệu cá nhân, xây giải pháp.",
         "Tuần 3: làm sản phẩm nhỏ; kiểm tra thông tin AI nếu được dùng.",
-        "Tuần 4: trình bày, ghi nguồn, tự nhận xét một điều học được và một điều cần sửa."
+        "Tuần 4: trình bày, ghi nguồn, tự nhận xét một điều học được và một điều cần sửa.",
+        "Lập nhật ký nguồn và trợ giúp AI hoặc ghi rõ không dùng.",
+        "Trình bày một lỗi phát hiện và cách sửa bằng bằng chứng."
       ],
       "limits": "Đây là dự án gợi ý do biên tập đề xuất, không phải chương trình chính thức của UNESCO; tuân thủ chính sách của trường và điều kiện độ tuổi công cụ.",
       "sourceIds": [
-        "ai"
+        "ai",
+        "q04d_unesco",
+        "q04c4_ai",
+        "q04c4_eef"
       ],
       "status": "draft"
     },
@@ -2532,17 +2597,51 @@
           "body": "Nếu xuất hiện sợ ăn, bỏ bữa kéo dài, mệt hoặc thay đổi sức khỏe, hãy tìm người tin cậy và chuyên gia. Người lớn lắng nghe thay vì nhận xét ngoại hình; không tự chỉ định chế độ giảm cân, thuốc hoặc thực phẩm chức năng.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tăng trưởng không dừng trong mùa thi",
+          "body": "UNICEF xem 5–19 tuổi là giai đoạn quan trọng của dinh dưỡng và phát triển. Thực đơn nên đa dạng, đủ nhu cầu cá nhân và phù hợp điều kiện, không lấy cân nặng trên mạng làm chuẩn. Với gia đình Việt Nam có thể luân phiên cơm, bún, khoai, đậu, trứng, cá, thịt, rau, quả và nguồn canxi phù hợp. Nếu có kinh nguyệt hoặc lo thiếu máu, hỏi nhân viên y tế về đánh giá thay vì tự bổ sung. Không đưa liều, mục tiêu cân nặng hay khẩu phần điều trị.",
+          "sourceIds": [
+            "nutritionYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị bữa ăn theo thời khóa biểu",
+          "body": "Xem giờ rời nhà, giờ ăn trưa và lúc học thêm. Chuẩn bị món sáng từ tối hôm trước, mang nước và món phụ theo quy định trường và điều kiện bảo quản. Ví dụ một ngày về muộn có thể ăn bữa chính trước ca học rồi nghỉ ăn nhẹ khi cần, thay vì nhịn đến đêm. Nếu phải ăn ngoài, hỏi độ an toàn, dị ứng và tổng chi phí. Không dùng nước tăng lực hoặc cà phê để cố kéo dài giờ học; ngủ là phần của kế hoạch.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đối thoại về quảng cáo ngoại hình",
+          "body": "Hình ảnh trên mạng có thể được chỉnh sửa, chọn góc hoặc do AI tạo. Khi con muốn ăn kiêng, bỏ bữa hoặc mua sản phẩm tăng cơ vì bạn bè, hỏi điều con đang lo; tránh bình luận cân nặng hay khen gầy. Không bắt con ghi từng miếng ăn, không sử dụng ứng dụng tính calo như điều kiện được ăn. Với trẻ có bệnh nền hoặc nhu cầu thể thao đặc biệt, ưu tiên đánh giá chuyên môn thay vì áp chế độ của người trưởng thành.",
+          "sourceIds": [
+            "q04e_talk"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi cần hỗ trợ",
+          "body": "Nếu ăn uống gây căng thẳng dai dẳng, trẻ thường bỏ bữa, mệt, chóng mặt, đau bụng hoặc có thay đổi sức khỏe đáng lo, nói chuyện với bác sĩ hoặc chuyên gia phù hợp. Không tự chẩn đoán từ ảnh, BMI người lớn hoặc AI. Nếu ngất, khó thở hoặc triệu chứng nghiêm trọng, tìm chăm sóc khẩn. Gia đình có thể thống nhất ba lựa chọn bữa sáng và cách bảo quản món phụ; xem điều nào thuận tiện sau một tuần, không đánh giá bằng cân nặng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập ba phương án bữa sáng hoặc trưa khi học bận.",
         "Chọn nơi uống nước và nghỉ ăn thuận tiện.",
-        "Trao đổi riêng với người lớn nếu ăn uống trở thành nguồn căng thẳng."
+        "Trao đổi riêng với người lớn nếu ăn uống trở thành nguồn căng thẳng.",
+        "Kiểm tra thời gian ăn thực tế trong ba ngày học.",
+        "Chọn một quảng cáo giả lập và phân biệt lời hứa với bằng chứng."
       ],
       "limits": "Không dùng bài để tính calo, đặt cân nặng mục tiêu hoặc điều trị vấn đề ăn uống.",
       "sourceIds": [
         "nutritionYouth",
-        "whoDiet"
+        "whoDiet",
+        "sleep",
+        "q04e_talk"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -2580,17 +2679,56 @@
           "body": "Vấn đề tái diễn hoặc ảnh hưởng học tập, ăn ngủ cần đánh giá phù hợp. Chấn thương nghiêm trọng, khó thở nặng, mất ý thức hoặc nguy cơ tự gây hại là tình huống cần trợ giúp khẩn cấp. Không dùng mạng xã hội để trì hoãn chăm sóc.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chủ động hỏi về sức khỏe toàn diện",
+          "body": "WHO đề cập nhiều nhu cầu ở tuổi vị thành niên từ bệnh truyền nhiễm, sức khỏe sinh sản đến sức khỏe tinh thần và phòng ngừa tai nạn. Trước khám, chọn câu hỏi về đau, mụn, kinh nguyệt, ngủ, tâm trạng, tiêm chủng hoặc vấn đề con muốn nói. Hỏi cơ sở y tế tại Việt Nam về lịch phù hợp, ví dụ tình trạng tiêm HPV, không suy từ khuyến nghị toàn cầu thành phác đồ cá nhân. Không buộc mọi trẻ thực hiện cùng gói xét nghiệm.",
+          "sourceIds": [
+            "q04d_health"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sức khỏe sinh sản: tìm người đủ chuyên môn",
+          "body": "Nếu lo có thai, nguy cơ STI, bị ép buộc hoặc xuất hiện triệu chứng bất thường, liên hệ cơ sở y tế sớm. STI có thể không có triệu chứng; bác sĩ sẽ cân nhắc xét nghiệm theo hoàn cảnh. Một số phương án dự phòng sau nguy cơ có giới hạn thời gian, không chờ đến khi triệu chứng xuất hiện. Không tự kê kháng sinh, hormone hoặc mua thuốc từ tài khoản lạ. Hỏi cơ sở về quyền riêng tư và yêu cầu người đại diện theo tuổi; không hứa bảo mật tuyệt đối.",
+          "sourceIds": [
+            "sti",
+            "q04e_ec"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ghi thông tin hữu ích thay vì gửi ảnh riêng",
+          "body": "Dùng ghi chú riêng gồm thời điểm bắt đầu, mức ảnh hưởng, điều đã thử, thuốc và dị ứng. Mang sổ khám, kết quả nếu có; hỏi trước có thể trao đổi một phần với bác sĩ riêng hay không. Không đăng kết quả xét nghiệm, ảnh cơ thể hoặc thông tin trường lên nhóm mạng hay AI. Nếu cần tư vấn trực tuyến, chọn kênh chuyên môn có danh tính và quy trình rõ, hỏi cách quản lý dữ liệu. AI không thay thăm khám.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sau buổi khám và tình huống khẩn",
+          "body": "Ghi hướng dẫn, lịch tái khám, người hỗ trợ và dấu hiệu cần liên hệ sớm. Nếu con có khó khăn tâm lý, cho con tham gia chọn nơi hỗ trợ và tránh kỳ thị; WHO khuyến khích tiếp cận sớm. Nếu khó thở nghiêm trọng, mất ý thức, chấn thương nặng hoặc nguy cơ tự hại tức thời, ở bên và tìm cấp cứu ngay. Nếu nghi xâm hại, ưu tiên an toàn, tìm chăm sóc y tế và đầu mối bảo vệ. Không đợi kỳ thi kết thúc mới xử lý nguy cơ.",
+          "sourceIds": [
+            "q04d_mental",
+            "child111"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Viết một mẫu mô tả vấn đề sức khỏe bằng thời gian và biểu hiện.",
         "Lưu thông tin cơ sở y tế phù hợp gần nơi ở.",
-        "Tập hỏi về bảo mật và kế hoạch theo dõi sau khám."
+        "Tập hỏi về bảo mật và kế hoạch theo dõi sau khám.",
+        "Chuẩn bị câu hỏi riêng muốn hỏi nhân viên y tế.",
+        "Ghi đầu mối tái khám và cách liên hệ khi cần hỗ trợ."
       ],
       "limits": "Không đưa lịch xét nghiệm, chẩn đoán hoặc hướng dẫn điều trị; dịch vụ và quyền riêng tư phụ thuộc hoàn cảnh pháp lý.",
       "sourceIds": [
         "adolescent",
-        "well"
+        "well",
+        "q04d_health",
+        "sti",
+        "q04e_ec",
+        "q04d_mental",
+        "child111"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -2628,17 +2766,51 @@
           "body": "Một tuần thi có thể khác tuần bình thường, nhưng tránh biến thức khuya thành chiến lược lâu dài. Khi mất ngủ, buồn ngủ nghiêm trọng, mệt hoặc tâm trạng ảnh hưởng sinh hoạt, trao đổi người tin cậy và chuyên gia. Không tự dùng thuốc hoặc chất kích thích.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tính ngược từ giờ phải thức dậy",
+          "body": "CDC khuyến nghị 13–17 tuổi ngủ 8–10 giờ mỗi ngày. Nếu cần dậy 6 giờ sáng, ví dụ ngủ 9 giờ thì cần ngủ khoảng 21 giờ tối hôm trước; tính cả thời gian vào giấc, không bắt mọi trẻ theo giờ này. Theo dõi mức tỉnh táo, thức giấc và khả năng tập trung. Tránh dùng caffeine muộn và tắt thiết bị trước giờ ngủ khi phù hợp. Nếu khó ngủ dai dẳng, hỏi bác sĩ thay vì tự dùng thuốc.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lịch ôn thi theo đầu ra",
+          "body": "Ví dụ tối có ba môn, chọn một mục tiêu khó, một bài cần sửa và một phần đọc lại; xếp thứ tự theo hạn và mức chưa hiểu. Mỗi khoảng học có kết quả cụ thể như giải thích được một công thức hoặc tự làm một bài. Dừng để nghỉ khi khả năng tập trung giảm, không bắt buộc học theo một số phút duy nhất. EEF nhấn mạnh việc tự theo dõi và điều chỉnh cách học; ghi điều cần hỏi giáo viên thay vì thức cả đêm.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giữ vận động, ăn và thời gian kết nối",
+          "body": "WHO khuyến nghị nhóm 5–17 vận động vừa đến mạnh trung bình ít nhất 60 phút mỗi ngày trong tuần, điều chỉnh theo sức khỏe và khả năng. Có thể tích lũy qua đi bộ, chơi thể thao, nhảy hoặc hoạt động phù hợp; không biến thành nhiệm vụ ép cân. Bố trí bữa ăn, khoảng nghỉ và hoạt động con thích trước khi nhận thêm lịch học. Nếu trời nóng, mưa hoặc nơi chơi không an toàn, chọn cách vận động khác phù hợp.",
+          "sourceIds": [
+            "q04c4_move"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử điều chỉnh trong một tuần",
+          "body": "Ghi giờ ngủ, việc đã hiểu, cảm giác mệt và hoạt động nghỉ bằng vài dòng. Chọn một việc bỏ bớt, ví dụ tắt thông báo lúc học hoặc chuyển bài chưa gấp sang hôm sau. Nếu lịch học thêm chiếm hết giờ nghỉ, cùng gia đình trao đổi với giáo viên. Nếu con thường xuyên không thể ngủ, buồn ngủ nặng, lo âu hoặc mất hứng thú kéo dài, tìm hỗ trợ chuyên môn. Khi nguy cơ tự hại hoặc tình trạng cấp tính, tìm trợ giúp khẩn; không xem đó là chuyện thi cử bình thường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Vẽ lịch một tuần gồm học, nghỉ, ăn và đi lại.",
         "Chọn một nhiệm vụ ưu tiên mỗi buổi học.",
-        "Thử khung tắt thông báo và xem lại sau bảy ngày."
+        "Thử khung tắt thông báo và xem lại sau bảy ngày.",
+        "Tính giờ ngủ dự kiến từ giờ dậy thực tế.",
+        "Chọn ba mục tiêu ôn tập có thể tự kiểm tra và một khoảng nghỉ."
       ],
       "limits": "Không ép lịch ngủ giống nhau cho mọi học sinh; vấn đề kéo dài cần được đánh giá.",
       "sourceIds": [
         "sleep",
-        "activityGuide"
+        "activityGuide",
+        "q04c4_eef",
+        "q04c4_move"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -2676,17 +2848,49 @@
           "body": "Đi ngày hội tuyển sinh hoặc buổi tư vấn chính thức, hỏi học sinh và người đang làm nghề, ghi nguồn thông tin. Thảo luận điều kiện bắt buộc và phương án dự phòng nếu không trúng tuyển. Tôn trọng lựa chọn của học sinh, không quyết định bằng áp lực gia đình.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tra cứu đúng năm và đúng lộ trình",
+          "body": "Trang Chính phủ công bố Thông tư 30/2024/TT-BGDĐT về tuyển sinh THCS và THPT, ban hành 30/12/2024, hiệu lực ghi 14/02/2025. Đây là metadata quy chế gốc, chưa rà toàn văn và sửa đổi, nên không dùng để khẳng định thủ tục năm học hiện tại. Kiểm tra kế hoạch tuyển sinh do địa phương và trường công bố đúng năm; với học nghề, tra cơ sở đào tạo và điều kiện học tiếp cụ thể. Không coi quảng cáo tư vấn là văn bản chính thức.",
+          "sourceIds": [
+            "q04e_school"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảng lựa chọn có cột chưa xác minh",
+          "body": "Ghi mỗi lộ trình về chương trình, thời gian, chi phí, hỗ trợ, địa điểm, thực hành và điều kiện học tiếp. Ví dụ giả định một chương trình có phí 1,8 triệu/tháng trong 9 tháng và khoản đầu năm 1,2 triệu, tổng tạm tính 17,4 triệu, chưa tính đi lại và tài liệu. So cùng kỳ và ghi khoản chưa biết, không điền 0. Hỏi văn bằng được cấp, điều kiện chuyển tiếp và cơ quan xác nhận; không dựa vào lời hứa việc làm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trải nghiệm và quyền lựa chọn",
+          "body": "Tìm ngày hội hướng nghiệp hoặc buổi giới thiệu chính thức, hỏi học sinh đang học và người hướng dẫn về nhiệm vụ thật, khó khăn và cơ hội thực hành. Dashboard OECD là nguồn tham khảo về chuẩn bị nghề, không xếp hạng trường Việt Nam. Không định kiến học nghề kém hơn phổ thông hoặc chọn trường theo số người đăng ký. Thảo luận con muốn học điều gì, điều kiện gia đình đáp ứng và lựa chọn dự phòng.",
+          "sourceIds": [
+            "careerYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra hồ sơ và tránh lừa đảo",
+          "body": "Lưu đường dẫn nguồn, ngày đọc, hạn hồ sơ, người liên hệ, phương thức nộp và khoản phí xác nhận. Không gửi CCCD, ảnh giấy tờ hoặc tiền cọc qua tài khoản cá nhân không xác minh. Nếu thông tin hai nguồn khác nhau, hỏi cơ quan quản lý và trường bằng kênh chính thức. Trước quyết định, đi thử tuyến và xem thời gian ngủ, nghỉ; không chốt vì quảng cáo sắp hết suất. Bài không đề cử trường cụ thể hoặc bảo đảm trúng tuyển.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập ba lựa chọn có nguồn và ngày tra cứu.",
         "Liệt kê chi phí học, đi lại và thiết bị cả khóa.",
-        "Hẹn một buổi tìm hiểu chương trình hoặc trải nghiệm nghề."
+        "Hẹn một buổi tìm hiểu chương trình hoặc trải nghiệm nghề.",
+        "Lập hồ sơ hai lộ trình cùng năm học và nguồn chính thức.",
+        "Viết phương án dự phòng nếu điều kiện tuyển sinh thay đổi."
       ],
       "limits": "Chưa đề cử trường cụ thể; điều kiện tuyển sinh và học tiếp phải xác minh với cơ quan/cơ sở có thẩm quyền.",
       "sourceIds": [
         "schools",
-        "admission"
+        "admission",
+        "q04e_school",
+        "careerYouth"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -2726,19 +2930,53 @@
           "body": "Lưu đầu mối gia đình, nhà trường và cơ quan hỗ trợ; thống nhất câu báo hiệu cần đón hoặc hỗ trợ. Khi nguy hiểm tức thời, ưu tiên rời tình huống nếu an toàn và gọi trợ giúp. Người lớn cần nghe và bảo vệ thay vì tịch thu thiết bị như phản ứng duy nhất.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đi lại phù hợp luật và năng lực",
+          "body": "WHO nhấn mạnh phòng ngừa chấn thương giao thông qua tốc độ an toàn, bảo hộ, tránh mất tập trung và người lái đủ tỉnh táo. Tại Việt Nam, trang công bố VBHN 55/VBHN-VPQH ngày 23/03/2026 là đầu mối Luật Trật tự, an toàn giao thông đường bộ; chưa đọc PDF hoặc rà sửa đổi nên bài không nêu tuổi lái từng phương tiện hay điều kiện giấy phép. Cùng người lớn xác minh phương tiện hợp pháp, bảo hộ, tuyến đi và cách về nếu lịch đổi.",
+          "sourceIds": [
+            "q04e_road",
+            "q04e_traffic"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch khi không thể về đúng giờ",
+          "body": "Trước khi đi, thống nhất người đón, nơi chờ an toàn và số liên hệ. Nếu người lái không tỉnh táo, không có trang bị phù hợp hoặc yêu cầu đi nơi khác, từ chối và liên hệ phương án dự phòng. Không chia sẻ vị trí công khai hoặc đăng lịch di chuyển dài hạn. Nếu xảy ra tai nạn nghiêm trọng, tìm trợ giúp khẩn và bảo đảm an toàn tại chỗ; không tự di chuyển người bị thương khi không có nguy cơ tức thời và chưa được hướng dẫn phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ tài khoản và tiền",
+          "body": "Tình huống giả lập: người tự nhận nhà trường gửi link cập nhật học phí, yêu cầu mã OTP. Dừng, gọi đầu mối chính thức đã lưu, không dùng số hoặc link trong tin nhắn. Bật xác thực phù hợp, dùng mật khẩu riêng, cập nhật thiết bị; nếu đã bị lộ thông tin, nhờ người lớn bảo vệ tài khoản, ngân hàng hoặc nền tảng qua kênh chính thức. Không trả phí cho người hứa lấy lại tiền. Không thử với đối tượng thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi bị ép gặp hoặc gửi ảnh",
+          "body": "UNICEF khuyến nghị tìm người tin cậy và báo cáo bắt nạt số. Nếu bị đe dọa, không tự gặp, không gửi thêm ảnh, ưu tiên nơi an toàn. Giữ thông tin tối thiểu nếu an toàn, không lưu chuyển tiếp ảnh nhạy cảm của người chưa thành niên. Người lớn hỗ trợ báo cáo và bảo vệ; 111 là đầu mối bảo vệ trẻ em, trường hợp khẩn gọi cơ quan phù hợp. Sau sự cố, kiểm tra an toàn và lịch theo dõi, không đổ lỗi cho trẻ.",
+          "sourceIds": [
+            "cyber",
+            "child111"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Thống nhất phương án về nhà nếu kế hoạch thay đổi.",
         "Diễn tập xác minh cuộc gọi lạ qua kênh chính thức.",
-        "Lưu đầu mối hỗ trợ và kiểm tra quyền riêng tư tài khoản."
+        "Lưu đầu mối hỗ trợ và kiểm tra quyền riêng tư tài khoản.",
+        "Xác minh phương án đi lại với người lớn và nguồn luật hiện hành.",
+        "Diễn tập xác minh một yêu cầu chuyển tiền hư cấu."
       ],
       "limits": "Không tự đối đầu hoặc điều tra người đe dọa; cần người lớn/cơ quan chức năng khi có nguy cơ.",
       "sourceIds": [
         "road",
         "scam",
         "cyber",
-        "child111"
+        "child111",
+        "q04e_road",
+        "q04e_traffic"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -6218,17 +6456,51 @@
           "body": "Viết kết luận, nêu bằng chứng hỗ trợ, điều phản bác và giới hạn. Đề xuất một bước kiểm tra tiếp hoặc giải pháp thử nghiệm nhỏ. Khi bạn góp ý, xem đó là cơ hội sửa lập luận, không phải cuộc thi thắng thua.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Câu hỏi, biến và giới hạn",
+          "body": "Ví dụ muốn biết tờ giấy dùng một mặt có thể giảm lãng phí không, xác định đơn vị là số tờ trong một khu vực được phép trong một tuần. Ghi tiêu chí trước khi thu, giữ cách đo ổn định, xem lịch học hay sự kiện có làm dữ liệu thay đổi. Không thu tên, điểm hoặc sức khỏe người khác. Một quan sát không chứng minh nguyên nhân; nếu có thay đổi, nêu các giải thích khác và điều cần kiểm tra thêm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm tra dữ liệu bằng một ví dụ số",
+          "body": "Giả định tuần A có 50 tờ giấy bỏ, tuần B 40 tờ, giảm 10 tờ hay 20% so với A. Nhưng nếu số tiết học tuần B ít hơn, tỷ lệ trên mỗi tiết có thể khác. Ghi mẫu số và đơn vị, không bỏ giá trị không thuận lợi, không biến số giả định thành kết quả thật. Biểu đồ có trục rõ, không cắt trục gây hiểu nhầm. Nếu thiếu dữ liệu, ghi thiếu thay vì tự điền bằng AI.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nguồn gốc và kiểm chứng công cụ",
+          "body": "UNESCO khuyến khích phán đoán có trách nhiệm khi dùng AI. Kiểm tra tác giả, tổ chức, ngày, dữ liệu và nguồn gốc của trích dẫn. Hai bài sao chép cùng thông cáo không phải hai bằng chứng độc lập. Dùng AI phù hợp tuổi để gợi ý phản biện nếu được phép; kiểm tra phép tính và mở nguồn thật, không nộp trích dẫn do máy tạo mà chưa xác minh. Không đưa dữ liệu thật của học sinh vào dịch vụ; dùng mô hình hư cấu.",
+          "sourceIds": [
+            "q04d_unesco",
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kết luận có khả năng sửa đổi",
+          "body": "Viết kết luận theo dạng: điều quan sát được, cách đo, bằng chứng hỗ trợ, hạn chế và bước kiểm tra tiếp. Nếu dữ liệu không hỗ trợ giả thuyết, ghi kết quả đó trung thực. Cho bạn góp ý phương pháp, không tranh luận công kích. Có thể lưu phiên bản trước sau và lý do sửa để thể hiện quá trình; không thổi phồng ý nghĩa, không lấy kết quả nhỏ suy ra mọi trường. EEF nhấn mạnh tự đánh giá quá trình học.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Viết câu hỏi và giả thuyết cho một dự án nhỏ.",
         "Lập bảng dữ liệu không định danh và nguồn tham khảo.",
-        "Trình bày kết luận kèm hai giới hạn."
+        "Trình bày kết luận kèm hai giới hạn.",
+        "Tính một tỷ lệ từ dữ liệu giả lập và ghi mẫu số.",
+        "Viết hạn chế và một phương án kiểm tra tiếp."
       ],
       "limits": "Không thu dữ liệu nhạy cảm, thực hiện thí nghiệm nguy hiểm hoặc coi khảo sát lớp là nghiên cứu đại diện.",
       "sourceIds": [
         "mil",
-        "aiDecide"
+        "aiDecide",
+        "q04d_unesco",
+        "q04c4_ai",
+        "q04c4_eef"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -6266,17 +6538,52 @@
           "body": "Chọn một vài sản phẩm thể hiện tiến bộ, viết điều học được và điều cần sửa. Hỏi giáo viên hoặc người hướng dẫn góp ý. Giữ thời gian nghỉ và lựa chọn dừng khi hoạt động không còn phù hợp; không dự đoán cơ hội tuyển sinh từ số chứng nhận.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một sản phẩm có hồ sơ quá trình",
+          "body": "Chọn một dự án vừa sức, ví dụ poster phân loại giấy, bản nhạc, bài viết hoặc mô hình. Ghi câu hỏi, mục tiêu, vai trò của mình, vật liệu, thời gian và điều chưa làm được. Lưu một bản nháp và bản sửa để thể hiện tiến bộ. Không tạo nhiều chứng nhận chỉ để lấp hồ sơ; nếu dự án nhóm, nêu rõ đóng góp của từng người với sự đồng ý. Một sản phẩm nhỏ trung thực có thể có giá trị học tập dù không có giải thưởng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hoạt động cộng đồng có trách nhiệm",
+          "body": "Nếu muốn mở góc đọc sách, xin phép trường, thống nhất người phụ trách, khu vực an toàn, đồ dùng và cách đánh giá nhu cầu. Không tự thu tiền hoặc tổ chức sự kiện nguy hiểm. Ví dụ giả định nhóm có 200 nghìn cho nhãn và bìa, ghi từng khoản và nhờ giáo viên xác nhận; không đăng thông tin người nhận hỗ trợ để gây chú ý. Không chụp hoặc kể chuyện riêng của trẻ khác nếu không có sự đồng ý phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI và tác quyền trong hồ sơ",
+          "body": "UNESCO đề cao đạo đức và thiết kế có trách nhiệm. Nếu dùng AI gợi ý bố cục, ghi phần công cụ hỗ trợ, kiểm chứng nội dung và thể hiện đóng góp thật. Không giả chứng chỉ, không ghép ảnh tham gia sự kiện, không dùng tác phẩm bạn bè như của mình. Kiểm tra quyền sử dụng ảnh, nhạc và dữ liệu; nếu không rõ, dùng tài nguyên tự làm hoặc được phép. Không nhập hồ sơ cá nhân, ảnh riêng hoặc thông tin người tham gia vào công cụ.",
+          "sourceIds": [
+            "q04d_unesco",
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phản hồi và cân bằng với học tập",
+          "body": "Hỏi người hướng dẫn một điểm tốt và một điểm cần sửa, tự ghi mình muốn học gì tiếp. Chọn vài sản phẩm đại diện thay vì gom mọi thứ; xem lại thời gian ngủ và nghỉ. Nếu hoạt động tạo áp lực, có thể giảm hoặc dừng, không coi đó là thất bại. OECD cung cấp góc nhìn hướng nghiệp qua trải nghiệm, không bảo đảm hồ sơ tuyển sinh. Khi nộp hồ sơ, xác minh yêu cầu đúng năm và không khai thành tích chưa có.",
+          "sourceIds": [
+            "careerYouth",
+            "sleep"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một dự án có đầu ra cụ thể.",
         "Lưu nhật ký vai trò, nguồn và phản hồi.",
-        "Viết đoạn tự đánh giá ngắn, không đưa dữ liệu riêng."
+        "Viết đoạn tự đánh giá ngắn, không đưa dữ liệu riêng.",
+        "Tạo một trang hồ sơ dự án gồm vai trò và bằng chứng.",
+        "Kiểm tra quyền sử dụng và đồng ý trước khi đưa sản phẩm vào portfolio."
       ],
       "limits": "Không cam kết điểm tuyển sinh hoặc thành tích; hoạt động cần giám sát và sự đồng ý phù hợp.",
       "sourceIds": [
         "careerYouth",
-        "lifelong"
+        "lifelong",
+        "q04d_unesco",
+        "q04c4_ai",
+        "sleep"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -6315,18 +6622,49 @@
           "body": "So sánh điều kiện tuyển sinh đúng năm, chi phí, thời gian và hỗ trợ. Đặt một kỹ năng cần phát triển trong học kỳ và một lựa chọn dự phòng. Thảo luận với cha mẹ về điều kiện thực tế mà không ép chọn ngành theo kỳ vọng gia đình.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khám phá nghề qua nhiệm vụ thay vì tên nghề",
+          "body": "Dashboard OECD về chuẩn bị nghề nghiệp của thanh thiếu niên là đầu mối dữ liệu, không phải công cụ dự đoán cá nhân. Chọn hai nghề khác nhau, ví dụ kỹ thuật viên và thiết kế, rồi so nhiệm vụ thường ngày, kỹ năng, môi trường, thời gian học và điều kiện sức khỏe. Hỏi điều mình thích trong nhiệm vụ, không chỉ tên nghề hoặc mức lương trên mạng. Không phân nghề theo giới, không ép chọn một con đường vì điểm số.",
+          "sourceIds": [
+            "careerYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phỏng vấn và thử nhiệm vụ an toàn",
+          "body": "Mời người làm nghề đáng tin nói về một ngày, vấn đề khó, kỹ năng cần luyện và công nghệ thay đổi công việc ra sao. Xin phép trước khi ghi chú hoặc tham quan; không yêu cầu dữ liệu khách hàng hay thông tin nội bộ. Thử mô phỏng như lập kế hoạch chi phí, phác giao diện hoặc phân tích dữ liệu hư cấu; không bố trí lao động nguy hiểm, làm thay người lớn hoặc tự đến nơi chưa được xác minh. Sau thử, ghi việc mình thích, không thích và điều cần học.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI thay đổi công việc nhưng không quyết định tương lai",
+          "body": "Cùng người hướng dẫn xem nhiệm vụ nào có thể tự động hóa và nhiệm vụ nào cần con người kiểm chứng, giao tiếp hoặc chịu trách nhiệm. Khung UNESCO khuyến khích năng lực AI có đạo đức, kỹ thuật và tư duy lấy con người làm trung tâm. Không dự báo một nghề chắc chắn biến mất, không coi câu trả lời AI về lương là bằng chứng. Nếu đọc tin tuyển dụng, ghi thời điểm, yêu cầu và phạm vi; mức lương quảng cáo không phải thu nhập đảm bảo.",
+          "sourceIds": [
+            "q04d_unesco"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lộ trình chính và dự phòng",
+          "body": "So hai phương án học theo điều kiện đầu vào, thời gian, chi phí, địa điểm, văn bằng và cơ hội học tiếp từ nguồn chính thức đúng năm. Ghi phần chưa xác minh, hỏi người tư vấn tại trường và gia đình. Chọn một kỹ năng có thể luyện trong học kỳ, ví dụ viết báo cáo hoặc làm mô hình; hẹn tự xem lại khi có trải nghiệm mới. Không dùng trắc nghiệm hoặc AI làm quyết định cuối, không đóng phí khóa học vì hứa chắc việc làm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn hai nghề, ghi nhiệm vụ và kỹ năng cần.",
         "Hỏi một người làm nghề qua kênh an toàn.",
-        "Lập lộ trình chính và phương án dự phòng."
+        "Lập lộ trình chính và phương án dự phòng.",
+        "So sánh hai nghề bằng mô tả nhiệm vụ và nguồn có ngày.",
+        "Thử một dự án giả lập và ghi điều muốn học tiếp."
       ],
       "limits": "Không bảo đảm tuyển sinh, việc làm hoặc thu nhập; cần xác minh thông tin và bảo đảm an toàn cho người chưa thành niên.",
       "sourceIds": [
         "careerYouth",
         "careerGuide",
-        "admission"
+        "admission",
+        "q04d_unesco"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -6365,12 +6703,42 @@
           "body": "Ghi sự việc, thời điểm, nội dung đã thống nhất và chứng từ có sẵn. Liên hệ người đại diện, cơ quan lao động hoặc kênh bảo vệ trẻ phù hợp; trẻ có nguy cơ xâm hại có thể gọi 111. Không dùng bài này để kết luận một hợp đồng chắc chắn hợp pháp.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tra cứu điều kiện theo tuổi và nhiệm vụ",
+          "body": "Cổng Chính phủ công bố VBHN 18/VBHN-VPQH Bộ luật Lao động ngày 12/02/2026. Đã mở trang metadata, chưa đọc PDF và rà sửa đổi; không nêu thời giờ làm việc, danh mục nghề, điều kiện hợp đồng hoặc độ tuổi cụ thể như kết luận pháp lý. Nhóm 14–17 có thể chịu quy định khác nhau tùy tuổi, nhiệm vụ, nơi làm và người đại diện. Trước khi nhận việc, cùng người lớn tra văn bản và hỏi cơ quan quản lý có thẩm quyền.",
+          "sourceIds": [
+            "labour"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra đề nghị làm thêm bằng tình huống giả lập",
+          "body": "Ví dụ một tài khoản hứa trả 300 nghìn cho một buổi, yêu cầu đóng 100 nghìn phí nhận việc và gửi ảnh giấy tờ. Dừng, xác minh đơn vị, địa chỉ, người phụ trách, nhiệm vụ, thời gian, tiền công và điều kiện an toàn qua kênh chính thức. Không coi lời nhắn là hợp đồng hợp lệ, không chuyển phí hoặc giao giấy tờ gốc cho người lạ. Nếu người tuyển yêu cầu giấu gia đình hoặc đi nơi chưa xác minh, không nhận và báo người tin cậy.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ học tập, nghỉ ngơi và cơ thể",
+          "body": "Việc làm không nên thay thế học, nghỉ hoặc đặt người chưa thành niên vào nguy hiểm. Không tự nhận công việc liên quan máy móc, hóa chất, giao thông hay môi trường không đủ điều kiện an toàn. Nếu nhiệm vụ thay đổi, bị ép làm quá sức, quấy rối hoặc giữ tiền công, rời nơi không an toàn nếu có thể và tìm người có trách nhiệm. Không dùng AI soạn hồ sơ chứa thông tin cá nhân hoặc khai sai tuổi để được nhận. Cần đánh giá pháp lý cụ thể thay vì đoán.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi nhận và tìm hỗ trợ",
+          "body": "Lưu thông tin giao dịch có sẵn, thỏa thuận và thời điểm ở nơi riêng tư; không đăng dữ liệu cá nhân để trả đũa. Nhờ người đại diện hoặc người tin cậy liên hệ cơ quan lao động hoặc kênh hỗ trợ có thẩm quyền. 111 tiếp nhận vấn đề bảo vệ trẻ em, nguy hiểm tức thời cần trợ giúp khẩn. Không tự đối chất người đe dọa. Mục tiêu bài là nhận biết nguy cơ và biết hỏi đúng nơi, không xác nhận một việc làm cụ thể hợp pháp.",
+          "sourceIds": [
+            "child111"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Kiểm tra quy định theo tuổi trước một lời mời việc.",
         "Liệt kê nhiệm vụ, giờ, tiền công và người phụ trách.",
-        "Lưu đầu mối hỗ trợ, không nộp phí hoặc giấy tờ vội."
+        "Lưu đầu mối hỗ trợ, không nộp phí hoặc giấy tờ vội.",
+        "Tạo bảng câu hỏi kiểm tra một đề nghị làm thêm giả định.",
+        "Xác định người lớn và cơ quan có thể hỏi trước khi nhận việc."
       ],
       "limits": "Không tư vấn pháp lý cụ thể; cần đối chiếu văn bản hiện hành và hỏi cơ quan có thẩm quyền.",
       "sourceIds": [
@@ -6414,17 +6782,49 @@
           "body": "Nếu bị áp lực, lừa đảo, gặp nguy hiểm hoặc không thể hoàn thành, báo người tin cậy và điều chỉnh. Cùng cha mẹ xem lại mục tiêu định kỳ, tăng quyền tự chủ khi phù hợp. Xin giúp không phải thất bại; người lớn vẫn có trách nhiệm bảo vệ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyết định theo mục tiêu và rủi ro",
+          "body": "Ví dụ có buổi sinh hoạt câu lạc bộ trùng thời gian ôn bài. Ghi mục tiêu mỗi việc, hạn, chi phí, đi lại, điều con muốn và nguy cơ. Nếu không có phương án về nhà an toàn hoặc yêu cầu pháp lý chưa rõ, không dùng điểm số sở thích để bù rủi ro. Chọn giải pháp có thể thử và sửa, ví dụ đổi buổi hoặc hỏi giáo viên. Người lớn tham gia khi quyết định vượt khả năng hoặc ảnh hưởng an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quản lý tiền và thời gian thực tế",
+          "body": "Dùng lịch có giờ học, nghỉ, ăn, vận động và việc nhà. Với khoản chi giả định, ghi tiền có sẵn, chi bắt buộc và dự phòng; không vay để mua vì áp lực bạn bè. CFPB coi tự quản và quyết định là nền tảng năng lực tài chính. Nếu một hoạt động phát sinh chi phí, xem lại lựa chọn và trao đổi với gia đình thay vì giấu. Không yêu cầu trẻ trả chi phí thiết yếu hoặc đảm nhận trách nhiệm của người trưởng thành.",
+          "sourceIds": [
+            "youthFinance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tự phục vụ có giới hạn an toàn",
+          "body": "Tập chuẩn bị đồ, giặt và cất quần áo, chuẩn bị món đơn giản dưới hướng dẫn phù hợp. Chia việc thành bước, biết lúc nào cần hỗ trợ với thiết bị, nguồn nhiệt, điện hoặc hóa chất. Không giao chăm em một mình thay trách nhiệm người lớn. Nếu dùng ứng dụng nhắc việc hay AI để lên kế hoạch, dùng dữ liệu giả hoặc tối thiểu; không đưa lịch riêng, địa chỉ và giấy tờ vào dịch vụ không cần thiết. Người lớn làm mẫu và giảm hỗ trợ dần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi kế hoạch thay đổi",
+          "body": "Tập báo người tin cậy nếu lỡ chuyến xe, bị áp lực hoặc không hoàn thành việc; chọn nơi an toàn, không cố che lỗi. UNICEF khuyến khích đối thoại với trẻ 14–18 đang phát triển nhu cầu tự chủ. Cuối tuần hỏi con điều gì có thể tự làm, phần nào cần giúp và giới hạn nào cần thay đổi. Nếu căng thẳng dai dẳng hoặc có nguy cơ bị hại, ưu tiên hỗ trợ chuyên môn. Tự lập không đồng nghĩa tự giải quyết mọi chuyện.",
+          "sourceIds": [
+            "q04e_talk"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập bảng hai phương án cho một việc trong tuần.",
         "Chọn một kỹ năng tự phục vụ an toàn để tập.",
-        "Viết kế hoạch dự phòng và người có thể hỗ trợ."
+        "Viết kế hoạch dự phòng và người có thể hỗ trợ.",
+        "Lập bảng hai lựa chọn có cột rủi ro và phương án dự phòng.",
+        "Thử một việc tự phục vụ an toàn và xem lại cuối tuần."
       ],
       "limits": "Không giao quyền hoặc trách nhiệm vượt độ tuổi, không thay tư vấn an toàn/pháp lý.",
       "sourceIds": [
         "executive",
-        "careerGuide"
+        "careerGuide",
+        "youthFinance",
+        "q04e_talk"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"

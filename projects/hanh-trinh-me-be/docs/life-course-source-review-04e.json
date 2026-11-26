@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q04e_cse",
+    "name": "WHO — Comprehensive sexuality education",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+    "scope": "Giáo dục khoa học tăng dần theo tuổi, sức khỏe, đồng thuận và phòng ngừa.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_mental",
+    "name": "WHO — Mental health of adolescents",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "scope": "Yếu tố bảo vệ, khó khăn tâm lý, phòng ngừa và hỗ trợ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+    ]
+  },
+  {
+    "id": "q04e_sti",
+    "name": "WHO — Sexually transmitted infections",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+    "scope": "STI có thể không triệu chứng; xét nghiệm và điều trị chuyên môn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+    ]
+  },
+  {
+    "id": "q04e_condom",
+    "name": "WHO — Condoms",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+    "scope": "Giảm nguy cơ nhiều STI và mang thai ngoài ý muốn khi dùng đúng, nhất quán.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/condoms"
+    ]
+  },
+  {
+    "id": "q04e_ec",
+    "name": "WHO — Emergency contraception",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "scope": "Trợ giúp khi có nguy cơ mang thai ngoài ý muốn hoặc biện pháp thất bại; hỏi cơ sở y tế sớm.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_talk",
+    "name": "UNICEF Việt Nam — Mental health conversation starters 14–18 years",
+    "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+    "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_teen",
+    "name": "UNICEF — 11 tips for communicating with your teen",
+    "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+    "scope": "Lắng nghe, câu hỏi mở và phản hồi không phán xét.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+    ]
+  },
+  {
+    "id": "q04e_ai",
+    "name": "UNICEF Việt Nam — Parenting in the AI age",
+    "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+    "scope": "Dữ liệu, lệ thuộc, nội dung sai và đồng hành.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/parenting-ai-age"
+    ]
+  },
+  {
+    "id": "q04e_unesco",
+    "name": "UNESCO — AI competency framework for students",
+    "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+    "scope": "12 năng lực, bốn chiều, ba mức; trang giới thiệu, chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "13–17 tuổi ngủ 8–10 giờ/24h, thói quen ngủ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04e_nutrition",
+    "name": "UNICEF — Nutrition in middle childhood and adolescence",
+    "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+    "scope": "Dinh dưỡng 5–19 tuổi, tăng trưởng và môi trường ăn uống.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/nutrition/middle-childhood-and-adolescence"
+    ]
+  },
+  {
+    "id": "q04e_health",
+    "name": "WHO — Adolescent and young adult health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+    "scope": "Sức khỏe vị thành niên, HPV, HIV, phòng ngừa tai nạn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_finance",
+    "name": "CFPB — Building blocks of financial capability",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+    "scope": "13–21 tuổi phát triển quyết định và thói quen tài chính.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn"
+    ]
+  },
+  {
+    "id": "q04e_career",
+    "name": "OECD — Teenage career readiness",
+    "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+    "scope": "Dashboard hướng nghiệp; chưa phân tích dữ liệu từng nước.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html"
+    ]
+  },
+  {
+    "id": "q04e_eef",
+    "name": "EEF — Metacognition and self-regulation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+    "scope": "Chiến lược tự điều chỉnh học tập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_cyber",
+    "name": "UNICEF Việt Nam — Cyberbullying",
+    "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+    "scope": "Hỗ trợ, báo cáo bắt nạt, không làm hại thêm.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it"
+    ]
+  },
+  {
+    "id": "q04e_child111",
+    "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+    "url": "https://tongdai111.vn/sites/gioi-thieu",
+    "scope": "Đầu mối hỗ trợ bảo vệ trẻ; không thay dịch vụ cấp cứu.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://tongdai111.vn/sites/gioi-thieu"
+    ]
+  },
+  {
+    "id": "q04e_road",
+    "name": "WHO — Road traffic injuries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+    "scope": "Phòng ngừa chấn thương giao thông.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_move",
+    "name": "WHO Europe — Physical activity",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "scope": "Vận động 5–17 tuổi; điều chỉnh khả năng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_labour",
+    "name": "Chính phủ — VBHN 18/VBHN-VPQH Bộ luật Lao động",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+    "scope": "Metadata văn bản 12/02/2026; chưa đọc PDF hoặc rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_traffic",
+    "name": "Chính phủ — VBHN 55/VBHN-VPQH Luật Trật tự, an toàn giao thông đường bộ",
+    "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+    "scope": "Metadata văn bản 23/03/2026; không kết luận tuổi/giấy phép cụ thể.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04e_school",
+    "name": "Chính phủ — Thông tư 30/2024/TT-BGDĐT",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=212363&orggroupid=4&pageid=27160",
+    "scope": "Metadata quy chế tuyển sinh gốc 30/12/2024, hiệu lực ghi 14/02/2025; chưa rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  }
+]
