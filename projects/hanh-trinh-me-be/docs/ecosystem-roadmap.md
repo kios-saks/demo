@@ -142,4 +142,6 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 
 - [x] S04-AZ-04E: 18/18 revision tuổi 14–17; tổng 136/219, 83 chờ; [báo cáo](life-course-batch-04e-2026-11-26.md). Draft, chưa thẩm định/CI.
 
-- [ ] S04-AZ-04F: tiếp tục 19 nội dung tuổi 18–22; chuyển tiếp học tập, nghề nghiệp, sức khỏe, quan hệ và tài chính.
+- [x] S04-AZ-04F: 19/19 revision tuổi 18–22; tổng 155/219, 64 chờ; [báo cáo](life-course-batch-04f-2026-11-26.md). Draft, chưa thẩm định/CI.
+
+- [ ] S04-AZ-04G: 16 nội dung tuổi 23–34; sức khỏe, gia đình, công việc, tài chính, kỹ năng sống.

@@ -221,6 +221,34 @@
     "q04e_child111": {
       "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
       "url": "https://tongdai111.vn/sites/gioi-thieu"
+    },
+    "q04f_life": {
+      "name": "UNESCO — Lifelong learning",
+      "url": "https://www.unesco.org/en/lifelong-learning"
+    },
+    "q04f_career": {
+      "name": "OECD — Career guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html"
+    },
+    "q04f_ai": {
+      "name": "UNESCO — Guidance for generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research"
+    },
+    "q04f_finance": {
+      "name": "CFPB — Your Money, Your Goals toolkit",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/"
+    },
+    "q04f_scam": {
+      "name": "Bộ Công an — Nâng cao cảnh giác trước 25 kịch bản lừa đảo trên không gian mạng năm 2026",
+      "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+    },
+    "q04f_mental": {
+      "name": "WHO — Mental disorders",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders"
+    },
+    "q04f_violence": {
+      "name": "WHO — Violence against women",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women"
     }
   },
   "lessons": [
@@ -534,12 +562,15 @@
       "category": "skills",
       "title": "Tự lập: thử nghề, học suốt đời và lập kế hoạch",
       "goal": "Xây dựng lộ trình học và trải nghiệm thực tế thay vì chọn nghề theo trào lưu.",
-      "knowledge": "Năng lực lập kế hoạch, tự điều chỉnh và thích nghi tiếp tục được rèn luyện qua trải nghiệm. Định hướng nghề nên dựa trên giá trị, kỹ năng, cơ hội thực tế và phản hồi, không chỉ dự đoán nghề nào sẽ biến mất vì AI.",
-      "practice": "Chọn hai nghề để tìm hiểu yêu cầu tuyển dụng, phỏng vấn người làm nghề và thử một dự án nhỏ. Đặt mục tiêu học trong bốn tuần, kiểm tra kết quả mỗi tuần; điều chỉnh khi có bằng chứng mới.",
-      "reflection": "Điều gì mình thích làm, điều gì cần học thêm, và có bằng chứng nào cho lựa chọn?",
+      "knowledge": "Năng lực lập kế hoạch, tự điều chỉnh và thích nghi tiếp tục được rèn luyện qua trải nghiệm. Định hướng nghề nên dựa trên giá trị, kỹ năng, cơ hội thực tế và phản hồi, không chỉ dự đoán nghề nào sẽ biến mất vì AI. Phân biệt tên nghề với nhiệm vụ và năng lực. Hướng nghiệp là quyết định có thể điều chỉnh, không phải dự báo chắc chắn.",
+      "practice": "Chọn hai nghề để tìm hiểu yêu cầu tuyển dụng, phỏng vấn người làm nghề và thử một dự án nhỏ. Đặt mục tiêu học trong bốn tuần, kiểm tra kết quả mỗi tuần; điều chỉnh khi có bằng chứng mới. Chọn hai mô tả công việc đã xác minh, ghi ba nhiệm vụ, hai kỹ năng chung, một điểm chưa rõ. Soạn CV một trang từ dự án thật, tập giải thích một quyết định và nhận phản hồi. Không thêm thành tích AI bịa, không gửi CCCD cho người tuyển lạ.",
+      "reflection": "Điều gì mình thích làm, điều gì cần học thêm, và có bằng chứng nào cho lựa chọn? Kỹ năng nào có bằng chứng? Kỹ năng nào cần luyện bốn tuần? Nêu phương án dự phòng.",
       "sourceIds": [
         "life",
-        "ai"
+        "ai",
+        "q04f_life",
+        "q04f_career",
+        "q04f_ai"
       ],
       "status": "draft"
     },
@@ -549,11 +580,13 @@
       "category": "finance",
       "title": "Tài chính tự lập: thu nhập, chi phí và dự phòng",
       "goal": "Thực hành kế hoạch sống khi bắt đầu học hoặc làm xa nhà.",
-      "knowledge": "Tách chi phí thiết yếu, khoản linh hoạt và dự phòng; xem xét nghĩa vụ trước khi cam kết trả góp hoặc vay. Hiểu rằng rủi ro và khả năng chi trả khác nhau giữa mỗi người. Đây là bài tập giáo dục, không phải tư vấn đầu tư.",
-      "practice": "Dùng bảng ngân sách giả lập tháng đầu đi làm: tiền nhà, ăn, đi lại, học, dự phòng. Thử kịch bản thu nhập giảm và phát sinh chi phí. Đọc điều khoản trước khi ký hợp đồng tài chính.",
-      "reflection": "Khoản nào có thể điều chỉnh, khoản nào bắt buộc? Ai có thể giúp kiểm tra điều khoản?",
+      "knowledge": "Tách chi phí thiết yếu, khoản linh hoạt và dự phòng; xem xét nghĩa vụ trước khi cam kết trả góp hoặc vay. Hiểu rằng rủi ro và khả năng chi trả khác nhau giữa mỗi người. Đây là bài tập giáo dục, không phải tư vấn đầu tư. Tách tiền đã nhận và khoản kỳ vọng, chi thường xuyên và chi một lần. CFPB có công cụ theo dõi thu nhập, hóa đơn; không áp luật tín dụng Mỹ cho Việt Nam.",
+      "practice": "Dùng bảng ngân sách giả lập tháng đầu đi làm: tiền nhà, ăn, đi lại, học, dự phòng. Thử kịch bản thu nhập giảm và phát sinh chi phí. Đọc điều khoản trước khi ký hợp đồng tài chính. Giả định thu 7 triệu, thuê 2,2 triệu, ăn 1,8 triệu, đi lại 600 nghìn, học 500 nghìn, dự phòng 900 nghìn, còn 1 triệu. Nếu phát sinh 800 nghìn, còn 200 nghìn; nếu thu giảm thêm 1 triệu, thiếu 800 nghìn. Xem chi nào hoãn, không vay vì bị thúc ép.",
+      "reflection": "Khoản nào có thể điều chỉnh, khoản nào bắt buộc? Ai có thể giúp kiểm tra điều khoản? Đã tính cọc và tổng phí trả góp chưa? Dùng kịch bản giấy, không giao dịch thật.",
       "sourceIds": [
-        "finance"
+        "finance",
+        "q04f_finance",
+        "q04f_scam"
       ],
       "status": "draft"
     },
@@ -563,12 +596,14 @@
       "category": "psych",
       "title": "Tự chủ, ranh giới và kết nối với gia đình",
       "goal": "Duy trì quan hệ tôn trọng khi con bắt đầu tự quyết định.",
-      "knowledge": "Bước vào đời có thể đi kèm thay đổi học tập, công việc, quan hệ và nơi sống. Tự lập không nhất thiết cắt đứt kết nối; trao đổi về kỳ vọng, hỗ trợ và giới hạn giúp giảm hiểu lầm. Khi căng thẳng ảnh hưởng sinh hoạt, tìm hỗ trợ thích hợp.",
-      "practice": "Thống nhất cách liên lạc và hỗ trợ tài chính hoặc tinh thần mà cả hai bên chấp nhận. Tập nói rõ nhu cầu bằng câu bắt đầu từ bản thân, lắng nghe khác biệt và xem lại thỏa thuận sau một tháng.",
-      "reflection": "Mình muốn tự quyết việc gì, cần hỗ trợ việc gì, và giới hạn nào cần được tôn trọng?",
+      "knowledge": "Bước vào đời có thể đi kèm thay đổi học tập, công việc, quan hệ và nơi sống. Tự lập không nhất thiết cắt đứt kết nối; trao đổi về kỳ vọng, hỗ trợ và giới hạn giúp giảm hiểu lầm. Khi căng thẳng ảnh hưởng sinh hoạt, tìm hỗ trợ thích hợp. Quyền tự quyết đi cùng hỗ trợ tự nguyện; không cần chia sẻ mật khẩu hoặc vị trí để chứng minh lòng tin.",
+      "practice": "Thống nhất cách liên lạc và hỗ trợ tài chính hoặc tinh thần mà cả hai bên chấp nhận. Tập nói rõ nhu cầu bằng câu bắt đầu từ bản thân, lắng nghe khác biệt và xem lại thỏa thuận sau một tháng. Viết ba nhóm: việc tự quyết, việc cùng bàn vì dùng nguồn lực chung, việc muốn hỏi chuyên môn. Thử nói về lịch gọi và tiền hỗ trợ không đòi từ bỏ riêng tư. Nếu bị đe dọa, bỏ qua đối thoại và tìm hỗ trợ.",
+      "reflection": "Mình muốn tự quyết việc gì, cần hỗ trợ việc gì, và giới hạn nào cần được tôn trọng? Thỏa thuận có thể sửa không? Ai đáng tin ngoài gia đình nếu cần giúp?",
       "sourceIds": [
         "life",
-        "mental"
+        "mental",
+        "q04f_mental",
+        "q04f_violence"
       ],
       "status": "draft"
     }

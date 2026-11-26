@@ -751,6 +751,60 @@
       "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
       "scope": "Metadata văn bản 23/03/2026; không kết luận tuổi/giấy phép cụ thể.",
       "checkedOn": "2026-11-26"
+    },
+    "q04f_food": {
+      "name": "WHO — Promoting safe food-handling behaviours",
+      "url": "https://www.who.int/activities/promoting-safe-food-handling",
+      "scope": "Năm nguyên tắc an toàn thực phẩm trên trang HTML; chưa đọc PDF.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_contra": {
+      "name": "WHO — Family planning/contraception methods",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+      "scope": "Lựa chọn tránh thai, khác biệt giữa các biện pháp.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_violence": {
+      "name": "WHO — Violence against women",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+      "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_life": {
+      "name": "UNESCO — Lifelong learning",
+      "url": "https://www.unesco.org/en/lifelong-learning",
+      "scope": "Học suốt đời và cập nhật kỹ năng.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_ai": {
+      "name": "UNESCO — Guidance for generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_accredit": {
+      "name": "Cục Quản lý chất lượng — Kiểm định chất lượng giáo dục",
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/",
+      "scope": "Danh mục thông báo; không xác nhận chương trình cụ thể.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_accreditNew": {
+      "name": "Cục Quản lý chất lượng — danh sách cập nhật 30/9/2026",
+      "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-9-2026-95.html",
+      "scope": "Tìm thấy thông báo; mở trang cache miss, chưa đọc danh sách.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_mil": {
+      "name": "UNESCO — Media and Information Literacy",
+      "url": "https://www.unesco.org/en/media-information-literacy",
+      "scope": "Đánh giá thông tin có phê phán.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04f_vssid": {
+      "name": "BHXH Việt Nam — Cách xử lý khi VssID hiển thị thiếu năm đóng BHXH",
+      "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/bao-hiem-y-te-hocsinh-sinhvien.aspx?CateID=0&ItemID=25803&OtItem=date",
+      "scope": "Quá trình tham gia, liên hệ nhân sự và BHXH.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -3014,17 +3068,49 @@
           "body": "Chọn bữa dự phòng và thời điểm ăn thực tế. Nếu khó tiếp cận thực phẩm, hỏi trường, gia đình hoặc cộng đồng về hỗ trợ; không tự ép nhịn ăn để tiết kiệm. Khi đau bụng, nôn hoặc triệu chứng kéo dài, tìm đánh giá y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ngân sách bữa ăn theo tuần",
+          "body": "Ví dụ giả định dành 420 nghìn đồng cho bảy ngày, trung bình 60 nghìn/ngày, không phải giá thị trường hay khẩu phần khuyến nghị. Ghi món có thể nấu, mua ngoài, gia vị và phần đã có. Nếu không có bếp hoặc tủ lạnh, chọn bữa mua ở nơi đáng tin; không mua nhiều đồ dễ hỏng vì giảm giá. Khi ngân sách thiếu, tìm hỗ trợ từ trường hoặc gia đình thay vì bỏ bữa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Luân phiên nhóm thực phẩm",
+          "body": "WHO nhấn mạnh đa dạng thực phẩm, hạn chế đường tự do và muối. Chọn cơm hoặc khoai cùng trứng, cá hoặc đậu, rau theo mùa và trái cây khi có thể. Ngày học/làm muộn chuẩn bị món dự phòng dễ bảo quản và nước. Không món đơn lẻ nào bảo đảm đủ chất cho tất cả; hỏi chuyên gia nếu có bệnh nền, dị ứng hoặc lo thiếu chất, không tự mua viên bổ sung.",
+          "sourceIds": [
+            "q04c4_diet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Năm điểm kiểm tra bếp ở trọ",
+          "body": "WHO nêu giữ sạch, tách sống chín, nấu kỹ, bảo quản ở nhiệt độ an toàn, dùng nước và nguyên liệu an toàn. Rửa tay, tránh nước thịt sống tiếp xúc món chín. Không có cách giữ lạnh thì mua lượng vừa dùng, tránh để món dễ hỏng ngoài lâu. Không dựa vào mùi để kết luận an toàn. Kiểm tra quy định phòng trọ về bếp, điện và lối thoát.",
+          "sourceIds": [
+            "q04f_food"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh lịch thực tế",
+          "body": "Ghi ba ngày về thời điểm ăn, món thuận tiện, phần bỏ đi và chi phí, không đếm calo để kiểm soát ngoại hình. Nếu thường mệt, đau bụng hoặc ăn uống gây căng thẳng, hỏi nhân viên y tế. Nôn kéo dài, mất nước nghiêm trọng, ngất hoặc đau dữ dội cần đánh giá kịp thời. Không dùng nước tăng lực, thuốc hay thực phẩm chức năng để bù bữa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Tính ngân sách ăn một tuần, không đặt mục tiêu calo.",
         "Chọn ba món dễ làm và một món mua ngoài.",
-        "Kiểm tra điều kiện bảo quản và vệ sinh tại nơi ở."
+        "Kiểm tra điều kiện bảo quản và vệ sinh tại nơi ở.",
+        "Lập ngân sách ăn giả định theo tuần.",
+        "Kiểm tra chỗ bảo quản và ba bữa dự phòng."
       ],
       "limits": "Không dùng thực đơn ví dụ cho chế độ điều trị, dị ứng hoặc nhu cầu dinh dưỡng đặc biệt.",
       "sourceIds": [
         "whoDiet",
-        "foodSafe"
+        "foodSafe",
+        "q04c4_diet",
+        "q04f_food"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -3063,18 +3149,55 @@
           "body": "Nếu có triệu chứng, nghi phơi nhiễm, quan hệ không được đồng thuận hoặc lo mang thai ngoài ý muốn, tìm hỗ trợ y tế kịp thời. Không tự chẩn đoán từ hình ảnh hoặc dùng lại thuốc người khác. Người hỗ trợ cần tôn trọng quyết định và an toàn cá nhân.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lựa chọn tránh thai có thông tin",
+          "body": "WHO trình bày các nhóm như bao cao su, thuốc tránh thai, dụng cụ tử cung, que cấy và phương pháp khác. Không có một lựa chọn phù hợp mọi người; cân nhắc hiệu quả, sức khỏe, mong muốn, thuận tiện và khả năng tiếp cận. Bao cao su dùng đúng và nhất quán giảm nguy cơ mang thai ngoài ý muốn và nhiều STI, phương pháp khác không mặc nhiên bảo vệ STI. Hỏi cơ sở y tế, không mua thuốc vì quảng cáo.",
+          "sourceIds": [
+            "q04f_contra",
+            "condoms"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "STI và tình huống cần tư vấn sớm",
+          "body": "Nhiều STI không có triệu chứng, nên không đánh giá nguy cơ qua ngoại hình. Nếu lo phơi nhiễm, có triệu chứng hoặc bạn tình thông báo kết quả, tìm tư vấn xét nghiệm và dự phòng. WHO nêu tránh thai khẩn cấp trong vòng 5 ngày tùy phương pháp, càng sớm càng hiệu quả; không đợi đủ năm ngày. Nguy cơ HIV hoặc xâm hại cũng cần chăm sóc ngay vì một số dự phòng phụ thuộc thời gian. Không tự kê thuốc.",
+          "sourceIds": [
+            "sti",
+            "q04e_ec"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đồng thuận và an toàn trong tình yêu",
+          "body": "Mọi tiếp xúc phải tự nguyện, có thể từ chối hoặc dừng bất kỳ lúc nào. Đã đồng ý trước, đang yêu hoặc nhận hỗ trợ tài chính không tạo nghĩa vụ. Đe dọa, kiểm soát tránh thai hoặc ép gửi ảnh riêng là dấu hiệu cần hỗ trợ. Nếu nguy hiểm, đến nơi an toàn, tìm người tin cậy và chăm sóc y tế, không ép đối chất. WHO mô tả bạo lực bạn tình có hậu quả sức khỏe.",
+          "sourceIds": [
+            "q04f_violence"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị cuộc khám riêng tư",
+          "body": "Ghi thời điểm triệu chứng hoặc nguy cơ, thuốc, dị ứng và câu hỏi về kinh nguyệt, tránh thai, xét nghiệm hoặc tiêm chủng. Tìm cơ sở chuyên môn, hỏi bảo mật, chi phí và mốc nhận kết quả. Không đưa ảnh cơ thể hoặc hồ sơ vào AI. Chảy máu nghiêm trọng, đau dữ dội, ngất hoặc nguy hiểm tức thời cần cấp cứu. Không kỳ thị người chưa hoặc đã có quan hệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lưu thông tin một cơ sở tư vấn có chuyên môn.",
         "Viết các câu hỏi về biện pháp phòng ngừa phù hợp.",
-        "Thực hành cách nói rõ ranh giới trong quan hệ."
+        "Thực hành cách nói rõ ranh giới trong quan hệ.",
+        "Viết câu hỏi tư vấn về dự phòng.",
+        "Xác định người tin cậy nếu bị ép buộc."
       ],
       "limits": "Không kê thuốc, chỉ định xét nghiệm hoặc lựa chọn biện pháp tránh thai cá nhân; cần tư vấn chuyên môn.",
       "sourceIds": [
         "contraception",
         "sti",
-        "condoms"
+        "condoms",
+        "q04f_contra",
+        "q04e_ec",
+        "q04f_violence"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -3112,17 +3235,48 @@
           "body": "Nếu mệt, ngủ kém hoặc không thể tập trung kéo dài, xem lịch có quá tải và tìm hỗ trợ phù hợp. Không dùng thuốc ngủ, chất kích thích hoặc nước tăng lực làm giải pháp mặc định. Khi buồn ngủ nghiêm trọng, không điều khiển phương tiện.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tính lịch ngủ từ giờ thức",
+          "body": "CDC khuyến nghị tuổi 18–60 ngủ ít nhất 7 giờ/ngày. Nếu dậy 6 giờ, để ngủ 8 giờ cần thực sự ngủ khoảng 22 giờ hôm trước, tính thêm thời gian vào giấc. Đây là ví dụ, không phải giờ bắt buộc. Với ca làm, ghi giờ đi lại và khoảng ngủ thực tế, thống nhất ánh sáng và tiếng ồn với người ở chung. Không lái xe khi buồn ngủ nghiêm trọng.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lịch có phần đệm",
+          "body": "Tách giờ bắt buộc, giờ linh hoạt và khoảng nghỉ. Chọn ba kết quả quan trọng mỗi ngày, không chỉ đếm giờ ngồi. Ví dụ nộp bài cuối tuần và làm ca tối: lên lịch từng phần trước ca, ghi điều cần hỏi giảng viên. Khi phát sinh, giảm việc không thiết yếu thay vì cắt ngủ hay bữa ăn. Không áp lịch năng suất người khác cho mình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Vận động và hồi phục",
+          "body": "WHO lấy ít nhất 150 phút vận động vừa/tuần làm mốc cho người trưởng thành. Chọn đi bộ nhanh, đạp xe an toàn hoặc hoạt động phù hợp khả năng, tăng dần. Không biến mục tiêu phút thành áp lực, không tập qua đau. Người có bệnh hoặc hạn chế vận động cần điều chỉnh theo chuyên môn. Giữ thời gian nghỉ và kết nối xã hội.",
+          "sourceIds": [
+            "activity"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Theo dõi thay vì dùng thuốc",
+          "body": "Trong một tuần ghi giờ ngủ, tỉnh táo, lịch ca và caffeine. Chọn một thay đổi như chuẩn bị đồ trước hoặc tắt thông báo lúc nghỉ. Nếu vẫn khó ngủ, ngáy kèm khó thở hoặc mệt ảnh hưởng học làm, hỏi bác sĩ. Không tự dùng thuốc ngủ, chất kích thích hay nước tăng lực để kéo dài giờ làm. Khi mất ý thức, khó thở nghiêm trọng hoặc đau ngực, tìm trợ giúp khẩn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Vẽ lịch bảy ngày bao gồm giờ đi lại và nghỉ.",
         "Chọn một hoạt động vận động dễ duy trì.",
-        "Thống nhất giờ yên tĩnh nếu ở chung phòng."
+        "Thống nhất giờ yên tĩnh nếu ở chung phòng.",
+        "Tính giờ ngủ từ lịch học/làm.",
+        "Thử một điều chỉnh và ghi mức tỉnh táo."
       ],
       "limits": "Không phải kế hoạch điều trị rối loạn giấc ngủ hoặc chỉ định vận động.",
       "sourceIds": [
         "sleep",
-        "activityGuide"
+        "activityGuide",
+        "activity"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -3160,17 +3314,52 @@
           "body": "Cuối tháng, so sánh sản phẩm với tiêu chí đã đặt, ghi điều chưa hiểu và xin góp ý người có chuyên môn. Nếu chọn khóa học mới, kiểm tra yêu cầu đầu vào, thời lượng, chi phí và bằng chứng chất lượng. Không mua liên tục nhiều khóa khi chưa thực hành.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học theo năng lực cần dùng",
+          "body": "UNESCO nhấn mạnh học suốt đời và cập nhật kỹ năng. Chọn nhiệm vụ thật: đọc tài liệu kỹ thuật, viết báo cáo, giao tiếp ngoại ngữ hoặc thực hành nghề có giám sát. Đặt tiêu chí có thể kiểm tra như giải thích quyết định hoặc tạo sản phẩm hoạt động, không chỉ xem xong video. Không chạy theo chứng chỉ nếu chưa biết kỹ năng cần dùng.",
+          "sourceIds": [
+            "q04f_life"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chu kỳ bốn tuần",
+          "body": "Tuần một xác định nền tảng và câu hỏi; tuần hai làm sản phẩm nhỏ; tuần ba xin phản hồi; tuần bốn sửa và tự trình bày. Mỗi buổi chọn kết quả cụ thể, ghi khó khăn. EEF nghiên cứu tự điều chỉnh trong phổ thông; vận dụng kế hoạch–theo dõi–đánh giá cho người lớn là đề xuất biên tập, không khẳng định hiệu quả giống nghiên cứu. Giữ điều kiện an toàn khi học nghề.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "AI và quyền sở hữu sản phẩm",
+          "body": "Kiểm tra quy định trường và môn trước khi dùng AI. Tự làm phần chính, dùng trợ giúp được phép để hỏi gợi ý hoặc kiểm tra; đọc nguồn thật và tự giải thích. Không gửi đề thi riêng, thông tin người khác hoặc tài liệu thực tập. Ghi trợ giúp và phiên bản, trích dẫn đúng yêu cầu. Nếu không được phép, làm không dùng AI, không tìm cách né phát hiện.",
+          "sourceIds": [
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn khóa học và phản hồi",
+          "body": "Trước khi trả phí, xem đề cương, yêu cầu đầu vào, người dạy, thực hành, tổng chi phí và hoàn phí. Hỏi chứng chỉ được công nhận ở đâu, không tin hứa chắc việc làm. Cuối tháng đối chiếu sản phẩm với tiêu chí, xác định điều chưa hiểu và xin góp ý. Nếu lịch quá tải hoặc khó khăn kéo dài, tìm hỗ trợ học tập thay vì mua thêm khóa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một năng lực muốn cải thiện trong bốn tuần.",
         "Đặt sản phẩm đầu ra và ba tiêu chí rõ ràng.",
-        "Tìm một người phản hồi, lưu bằng chứng tiến bộ."
+        "Tìm một người phản hồi, lưu bằng chứng tiến bộ.",
+        "Đặt sản phẩm nhỏ trong bốn tuần.",
+        "Ghi phần tự làm, nguồn và phản hồi."
       ],
       "limits": "Đây là cách tổ chức tự học đề xuất; không bảo đảm việc làm, bằng cấp hay kết quả thi.",
       "sourceIds": [
         "lifelong",
-        "ai"
+        "ai",
+        "q04f_life",
+        "q04c4_eef",
+        "q04f_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -3194,8 +3383,10 @@
         },
         {
           "heading": "Kiểm tra kiểm định và tuyển sinh",
-          "body": "Cục Quản lý chất lượng có danh sách cơ sở/chương trình được công nhận cập nhật 30/8/2026; tra cứu đúng tên chương trình và phạm vi chứng nhận, kiểm tra tình trạng mới hơn nếu có. Dùng cổng Bộ và thông báo trường cho năm tuyển sinh cụ thể. Kiểm định cơ sở không đồng nghĩa mọi chương trình đã kiểm định.",
-          "sourceIds": [],
+          "body": "Tra cứu danh mục kiểm định của Cục Quản lý chất lượng và thông báo tuyển sinh đúng năm. Kiểm tra đúng tên cơ sở hoặc chương trình, phạm vi và tình trạng công nhận; kiểm định cơ sở không đồng nghĩa mọi chương trình đã kiểm định. Chưa xác nhận danh sách mới nhất hay tình trạng trường cụ thể.",
+          "sourceIds": [
+            "q04f_accredit"
+          ],
           "kind": "editorial-practice"
         },
         {
@@ -3209,18 +3400,52 @@
           "body": "Đọc đề cương môn học, hỏi giảng viên, sinh viên hoặc cựu sinh viên, xem hoạt động thực hành và hỗ trợ học tập. So sánh ít nhất hai lựa chọn, lập phương án dự phòng. Lưu nguồn, ngày đọc và điều chưa xác minh; không dùng bảng xếp hạng tự tạo.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Mục tiêu trước bảng so sánh",
+          "body": "Chọn hai lộ trình có thể đáp ứng mục tiêu nghề, ghi chương trình, hình thức, thời lượng, thực hành, hỗ trợ và học tiếp. Đọc mô tả môn, hỏi sinh viên và giảng viên bằng câu cụ thể. Tách ý kiến khỏi bằng chứng, không coi xếp hạng hay điểm tuyển sinh là thước đo duy nhất. Cần xác minh văn bằng và lộ trình theo từng trường hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm định đúng phạm vi và ngày",
+          "body": "Cục Quản lý chất lượng có trang thông báo kiểm định. Kết quả tìm kiếm cho thấy thông báo cập nhật 30/9/2026, nhưng chưa mở được danh sách; không xác nhận đây là mới nhất hoặc trường nào được công nhận. Kiểm tra đúng tên cơ sở, chương trình, đơn vị kiểm định, phạm vi, thời hạn và thông tin mới hơn. Kiểm định cơ sở không tự chứng minh mọi chương trình đạt. Điều kiện tuyển sinh tra đúng năm.",
+          "sourceIds": [
+            "q04f_accredit",
+            "q04f_accreditNew"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tổng chi phí cùng kỳ",
+          "body": "Giả định học phí 14 triệu/kỳ, hai kỳ/năm, nhà 2 triệu/tháng trong 10 tháng, sinh hoạt 3 triệu/tháng trong 10 tháng, thiết bị 4 triệu: 82 triệu đồng trước phí đi lại và khoản chưa rõ. Không dùng làm giá thị trường. So cùng khoảng thời gian, ghi khoản chưa xác minh, điều kiện duy trì học bổng và hoàn phí.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyết định và dự phòng",
+          "body": "Lưu URL, ngày đọc, đầu mối, hạn hồ sơ, phương thức nộp và chứng từ. Nếu điều kiện học tiếp hoặc chỉ tiêu chưa rõ, hỏi trường và cơ quan quản lý trước đặt cọc. Đi thử tuyến, xem chỗ ở và hỗ trợ sức khỏe/học tập. Không gửi giấy tờ hay tiền qua tài khoản lạ. OECD là nguồn tham khảo hướng nghiệp, không xếp hạng trường cho cá nhân.",
+          "sourceIds": [
+            "careerGuide"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập hồ sơ ba chương trình với link chính thức.",
         "Kiểm tra phạm vi kiểm định và năm tuyển sinh.",
-        "Tính chi phí dự kiến toàn khóa và phương án dự phòng."
+        "Tính chi phí dự kiến toàn khóa và phương án dự phòng.",
+        "Lập bảng hai lộ trình có nguồn và ngày.",
+        "Tính chi phí cùng kỳ, đánh dấu chưa xác minh."
       ],
       "limits": "Không phải danh sách trường được đề cử; phải xác minh tình trạng công nhận và điều kiện thực tế tại thời điểm đăng ký.",
       "sourceIds": [
         "accredit",
         "admission",
-        "schools"
+        "schools",
+        "q04f_accredit",
+        "q04f_accreditNew",
+        "careerGuide"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -3258,17 +3483,48 @@
           "body": "Lưu địa chỉ nơi ở, đầu mối quản lý, cơ sở y tế gần nhất và người có thể giúp. Tham gia lớp sơ cứu thực hành có người hướng dẫn, không thực hành kỹ thuật nguy hiểm từ video. Khi xảy ra cấp cứu, gọi hỗ trợ và làm theo hướng dẫn chuyên môn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khảo sát phòng trước khi chuyển tiền",
+          "body": "Gặp người cho thuê qua kênh xác minh, hỏi căn cứ cho thuê, giá, cọc, phí, hoàn cọc, thời hạn và quy định khách. Quan sát lối thoát, cửa, điện, thiết bị nấu và chữa cháy; không thuê chỉ vì rẻ nếu không an toàn. Đọc hợp đồng, giữ chứng từ, không chuyển tiền giữ chỗ khi chưa xác minh. Bài không xác nhận tiêu chuẩn pháp lý một căn phòng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đi lại và phương án về muộn",
+          "body": "WHO nhấn mạnh bảo hộ, tốc độ an toàn, tránh rượu và mất tập trung. Chọn phương tiện phù hợp luật và năng lực, không đi cùng người lái không tỉnh táo. Ca muộn cần tuyến, điểm chờ và phương án dự phòng; không chia sẻ vị trí công khai. Khi tai nạn nghiêm trọng, gọi trợ giúp và làm theo hướng dẫn chuyên môn.",
+          "sourceIds": [
+            "q04e_road"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tin tuyển dụng và giao dịch đáng ngờ",
+          "body": "Kết quả tìm kiếm cảnh báo năm 2026 của Bộ Công an đề cập việc nhẹ lương cao, giả mạo AI, OTP và liên kết lạ; chưa mở được toàn văn. Xác minh bên liên quan qua kênh độc lập, không cài ứng dụng lạ, chuyển phí bất thường, gửi OTP hoặc giấy tờ gốc cho môi giới. Nếu đã chuyển tiền, liên hệ ngân hàng và cơ quan phù hợp sớm, không trả phí lấy lại tiền.",
+          "sourceIds": [
+            "scam"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch hỗ trợ nơi ở",
+          "body": "Lưu địa chỉ phòng, người quản lý, người tin cậy và cơ sở y tế riêng tư. Thỏa thuận người ở cùng về khóa, khách, phí và báo nguy cơ; không trao quyền truy cập tài khoản. Nếu bị đe dọa hoặc bạo lực, rời nơi nguy hiểm nếu an toàn, tìm hỗ trợ, không đối đầu. Cấp cứu y tế gọi 115 hoặc đến cơ sở cấp cứu; học sơ cứu thực hành tại nơi đủ năng lực.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Rà soát lối thoát và khóa của nơi ở.",
         "Xác minh một tin tuyển dụng qua website chính thức.",
-        "Lưu đầu mối hỗ trợ và thông tin nơi ở."
+        "Lưu đầu mối hỗ trợ và thông tin nơi ở.",
+        "Kiểm tra lối thoát và phí trước thuê.",
+        "Diễn tập xác minh tin tuyển dụng giả lập."
       ],
       "limits": "Không tự đối đầu người đe dọa hoặc xử lý cấp cứu ngoài khả năng; tham vấn cơ quan phù hợp.",
       "sourceIds": [
         "road",
-        "scam"
+        "scam",
+        "q04e_road"
       ],
       "status": "draft",
       "batch": "S04-AZ-02B"
@@ -6862,17 +7118,48 @@
           "body": "Viết phương án, lý do, điều chưa biết và tín hiệu cần đổi hướng. Nếu quyết định liên quan sức khỏe, pháp lý hoặc tài chính đáng kể, hỏi người có chuyên môn. Tôn trọng phản biện và sửa lập luận khi có thông tin tốt hơn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Câu hỏi và phép đo",
+          "body": "Ví dụ nhóm thực tập hay trễ hạn: xác định số nhiệm vụ đúng hạn trong tuần. Ghi tiêu chí trước khi thử đổi cách bàn giao, giữ dữ liệu tổng hợp không tên. Nếu có nhiệm vụ khó hoặc lịch nghỉ khác, ghi yếu tố gây nhiễu. Một quan sát trước–sau không chứng minh nguyên nhân. Chỉ thu dữ liệu được phép, không biến ví dụ thành báo cáo thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Mẫu số và so sánh công bằng",
+          "body": "Giả định tuần A hoàn thành 8/10 việc đúng hạn (80%), tuần B 9/15 (60%). Số việc đúng hạn tăng nhưng tỷ lệ giảm. Xem độ khó, số người và hạn khác nhau trước kết luận. Ghi mẫu số, thời điểm và phần thiếu, không chọn riêng dữ liệu thuận lợi. Với sức khỏe, tài chính hoặc pháp lý, tìm người đủ chuyên môn khi quyết định có rủi ro.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nguồn độc lập và AI",
+          "body": "UNESCO nhấn mạnh năng lực tiếp cận thông tin có phê phán. Tìm nguồn gốc số liệu, tác giả, phương pháp, thời điểm và xung đột lợi ích. Hai bài sao chép cùng thông cáo không là hai bằng chứng độc lập. AI có thể gợi ý giả thuyết nhưng phải mở nguồn thật, kiểm phép tính, không tạo dữ liệu thiếu. Không đưa dữ liệu nội bộ hoặc khách hàng vào công cụ chưa được phép.",
+          "sourceIds": [
+            "q04f_mil",
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyết định có điều kiện xem lại",
+          "body": "Viết nhận định, bằng chứng, phương án, rủi ro, phần chưa biết và tín hiệu đổi hướng. Thử mẫu bàn giao một tuần, xin phản hồi, so cùng tiêu chí; nếu kết quả xấu, ghi trung thực. Không dùng một chỉ số thay mọi mục tiêu. Trình bày dễ hiểu, cho người khác góp ý, lưu bản sửa. Nếu ảnh hưởng an toàn hoặc quyền lợi, xác minh chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một vấn đề học tập có thể quan sát.",
         "Lập bảng bằng chứng và giới hạn của hai nguồn.",
-        "Thử một thay đổi nhỏ và ghi kết quả."
+        "Thử một thay đổi nhỏ và ghi kết quả.",
+        "Tính tỷ lệ với dữ liệu giả lập.",
+        "Viết giả thuyết, hạn chế và điều kiện đổi quyết định."
       ],
       "limits": "Không thay nghiên cứu chuyên môn, không suy luận nhân quả từ dữ liệu yếu hoặc dùng thông tin cá nhân không được phép.",
       "sourceIds": [
         "mil",
-        "aiEdu"
+        "aiEdu",
+        "q04f_mil",
+        "q04f_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -6911,18 +7198,50 @@
           "body": "Ghi nhiệm vụ, công cụ, phần mình thực hiện, kiểm thử và giới hạn. Nếu trường yêu cầu khai báo, thực hiện đúng; không cố che dấu việc dùng AI. Cuối tuần thử làm lại một nhiệm vụ không dùng công cụ để xác định kỹ năng còn cần rèn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân loại nhiệm vụ theo quyền sử dụng",
+          "body": "UNESCO nhấn mạnh vai trò con người và bảo vệ dữ liệu. Hỏi trường hoặc nơi thực tập cho phép nhiệm vụ nào, dữ liệu nào được nhập, có cần khai báo không. Luyện bằng ví dụ giả hoặc tài liệu công khai được phép; không dùng tài khoản cá nhân để lách chính sách. Trang UNESCO đã đọc ở mức tổng quan, chưa đọc PDF.",
+          "sourceIds": [
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quy trình làm việc có kiểm soát",
+          "body": "Ví dụ viết chương trình tổng chi phí: tự xác định đầu vào, dùng AI gợi ý với dữ liệu giả, đọc từng bước, kiểm thử giá trị rỗng, âm hoặc lớn, so với tính tay. Không chạy mã lạ trên thiết bị chứa bí mật. Với bài viết, mở nguồn thật, kiểm số liệu và trích dẫn. Nếu không hiểu, học nền tảng trước, không giao sản phẩm chưa kiểm chứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ bí mật và dữ liệu",
+          "body": "Không nhập CCCD, tài khoản, mật khẩu, OTP, hồ sơ y tế, CV người khác hoặc mã nguồn nội bộ chưa được phép. Xóa tên chưa chắc loại bỏ khả năng nhận dạng qua ngữ cảnh. Ưu tiên dữ liệu tổng hợp hoặc hư cấu, công cụ tổ chức phê duyệt; hỏi người phụ trách về lưu trữ, quyền sử dụng. Không nhờ chatbot kết luận điều khoản bảo mật hay sở hữu trí tuệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhật ký và bàn giao",
+          "body": "Ghi mục tiêu, nguồn, phần AI hỗ trợ, lỗi phát hiện, phép kiểm, phần tự sửa và người chịu trách nhiệm. Khai báo trung thực khi yêu cầu; không giả kinh nghiệm, chứng chỉ hoặc bài làm. Mỗi tuần thử một nhiệm vụ không dùng công cụ để thấy kỹ năng cần học. Năng lực kiểm chứng quan trọng hơn tốc độ tạo nội dung.",
+          "sourceIds": [
+            "q04f_mil"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một nhiệm vụ được phép dùng AI.",
         "Thử với dữ liệu giả và kiểm tra đầu ra.",
-        "Ghi phần AI hỗ trợ và phần tự làm."
+        "Ghi phần AI hỗ trợ và phần tự làm.",
+        "Tạo nhật ký AI cho nhiệm vụ giả lập.",
+        "Rà dữ liệu nhạy cảm trước gửi công cụ."
       ],
       "limits": "Không tư vấn pháp lý hoặc bảo mật toàn diện; tuân thủ chính sách tổ chức và quy định dữ liệu hiện hành.",
       "sourceIds": [
         "aiEdu",
         "mil",
-        "privacyLaw"
+        "privacyLaw",
+        "q04f_ai",
+        "q04f_mil"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -6960,17 +7279,50 @@
           "body": "Dành thời gian cho học, làm, nghỉ và sở thích, cân nhắc phí tham gia. Nếu hoạt động không còn phù hợp, đổi hoặc dừng; không ép biến toàn bộ thời gian rảnh thành năng suất. Xin phản hồi từ người có chuyên môn khi muốn cải thiện.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Portfolio có bằng chứng",
+          "body": "Chọn hai hoặc ba sản phẩm thật thể hiện kỹ năng muốn phát triển: bài viết, mô hình, thiết kế hoặc dự án nghề. Ghi vấn đề, vai trò, công cụ, phương pháp, kết quả kiểm tra được và giới hạn. Ví dụ web dùng dữ liệu giả: ghi chức năng, kiểm thử và lỗi còn lại; không tự tạo số người dùng hoặc doanh thu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "CV và phỏng vấn dựa trên chuyện thật",
+          "body": "Từ một dự án viết câu ngắn về nhiệm vụ, hành động và kết quả có bằng chứng. Dự án nhóm nói rõ phần mình, không nhận hết thành tích. Tập giải thích quyết định trong vài phút và điều sẽ cải thiện. AI có thể gợi ý bố cục CV nhưng không bịa kinh nghiệm, chứng chỉ hoặc số liệu; kiểm tra mô tả công việc thật.",
+          "sourceIds": [
+            "careerGuide",
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyền sử dụng sản phẩm",
+          "body": "Trước khi đưa ảnh, mã nguồn hoặc thông tin người khác vào hồ sơ, kiểm tra quyền chia sẻ. Dự án thực tập có thể chứa bí mật; thay bằng minh họa hư cấu hoặc xin phép phù hợp. Không đăng thông tin cá nhân người tham gia hoạt động cộng đồng. Ghi trợ giúp AI và tài liệu ngoài, không tạo lời giới thiệu giả.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sở thích không bắt buộc kiếm tiền",
+          "body": "UNESCO đề cao học suốt đời; có thể học vì tò mò, nghỉ ngơi hoặc kết nối. Giữ thời gian nghỉ và chọn hoạt động phù hợp ngân sách. Cuối tháng hỏi muốn duy trì điều gì, sản phẩm nào cần sửa, ai có thể góp ý. Không mua chứng chỉ vì hứa chắc tuyển dụng. Khi xin việc, đọc yêu cầu thật và lập kế hoạch học phần chưa có.",
+          "sourceIds": [
+            "q04f_life"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một sản phẩm có thể hoàn thành trong tháng.",
         "Viết mô tả vai trò và nguồn đã sử dụng.",
-        "Xin phản hồi và quyết định bước cải thiện."
+        "Xin phản hồi và quyết định bước cải thiện.",
+        "Viết case study từ sản phẩm thật hoặc mô phỏng ghi rõ.",
+        "Tập trả lời về đóng góp và lỗi đã sửa."
       ],
       "limits": "Không cam kết công việc, thu nhập hoặc tuyển sinh; tôn trọng bản quyền, quyền riêng tư và sở thích tự nguyện.",
       "sourceIds": [
         "lifelong",
-        "careerGuide"
+        "careerGuide",
+        "q04f_ai",
+        "q04f_life"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -7009,18 +7361,50 @@
           "body": "Ghi nhận nội dung, trao đổi với đầu mối có trách nhiệm và tìm tư vấn phù hợp khi có tranh chấp. Nếu gặp tin tuyển dụng yêu cầu phí hoặc chuyển tiền bất thường, dừng và xác minh. Không dùng lời khuyên trên mạng để kết luận quyền lợi mà chưa xem hồ sơ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đầu mối pháp lý và giới hạn",
+          "body": "Cổng Chính phủ công bố VBHN 18/VBHN-VPQH Bộ luật Lao động và Luật BHXH 41/2024/QH15, trang ghi luật BHXH hiệu lực 01/07/2025. Chưa đọc PDF, rà hợp nhất và hướng dẫn; không suy ra đối tượng, tỷ lệ đóng, mức hưởng hoặc thời hạn thử việc cụ thể. Đối chiếu văn bản hiện hành theo loại hợp đồng và hồ sơ với nhân sự, BHXH hoặc người tư vấn.",
+          "sourceIds": [
+            "labour",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Checklist trước khi ký",
+          "body": "Ghi đơn vị, nơi làm, nhiệm vụ, thời giờ, lương, khấu trừ, thử việc nếu có, kết thúc và bảo hiểm. Hỏi lương trước khấu trừ, thực nhận, thời điểm trả và thưởng. Giả định đề nghị 8 triệu trước khấu trừ không đồng nghĩa nhận đủ 8 triệu; cần bảng giải thích thực tế, không suy tỷ lệ từ ví dụ. Không ký văn bản trống hoặc giao giấy tờ gốc cho môi giới.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đối chiếu BHXH qua kênh chính thức",
+          "body": "BHXH Việt Nam hướng dẫn xem VssID ở quản lý cá nhân, quá trình tham gia, chi tiết BHXH. Nếu thiếu thời gian, giữ hợp đồng, chứng từ, ghi mốc cần xác minh, hỏi nhân sự hoặc cơ quan BHXH. Dữ liệu thiếu có nhiều nguyên nhân, không kết luận mất quyền lợi hoặc đơn vị vi phạm. Không gửi CCCD, mã BHXH hay OTP qua nhóm công khai.",
+          "sourceIds": [
+            "q04f_vssid"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi điều kiện khác thỏa thuận",
+          "body": "Ghi sự kiện, trao đổi bằng văn bản, giữ hợp đồng và bảng lương riêng. Khi tranh chấp hoặc tuyển dụng giả, dừng giao dịch bất thường, hỏi cơ quan có thẩm quyền và hỗ trợ pháp lý. Không đưa hợp đồng có dữ liệu cá nhân vào AI công cộng để kết luận quyền lợi. Nếu nguy cơ bạo lực hoặc bị giữ trái ý, tìm trợ giúp. Bài chỉ hướng dẫn chuẩn bị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Đọc các điều khoản chính của hợp đồng trước khi ký.",
         "Tra cứu quá trình BHXH qua kênh chính thức nếu thuộc đối tượng.",
-        "Lưu hồ sơ và đầu mối hỏi quyền lợi."
+        "Lưu hồ sơ và đầu mối hỏi quyền lợi.",
+        "Lập câu hỏi về lương thực nhận, thử việc và bảo hiểm.",
+        "Đối chiếu quá trình tham gia qua kênh BHXH chính thức."
       ],
       "limits": "Không tư vấn pháp lý cho hợp đồng cụ thể, không khẳng định mức hưởng hoặc đối tượng bảo hiểm khi chưa xem hồ sơ.",
       "sourceIds": [
         "labour",
         "bhxh",
-        "vssid"
+        "vssid",
+        "q04f_vssid"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"

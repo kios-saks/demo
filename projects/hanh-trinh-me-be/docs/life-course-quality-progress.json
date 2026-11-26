@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04E",
+  "batch": "S04-AZ-04F",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -206,16 +206,18 @@
       "stage": "adult",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "legacy:giu-ket-noi-gia-dinh",
       "stage": "adult",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "legacy:axit-folic-truoc-khi-mang-thai",
@@ -618,32 +620,36 @@
       "stage": "adult",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh",
       "stage": "adult",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
       "stage": "adult",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
       "stage": "adult",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "lesson:dap-lai-tin-hieu",
@@ -812,24 +818,27 @@
       "stage": "adult",
       "pillar": "career",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "lesson:tai-chinh-tu-lap",
       "stage": "adult",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "lesson:tu-chu-va-ket-noi",
       "stage": "adult",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:chuan-bi-nha-tre-1-2",
@@ -1101,48 +1110,54 @@
       "stage": "adult",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:suc-khoe-sinh-san-tu-lap-18-22",
       "stage": "adult",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:ngu-va-lich-hoc-lam-18-22",
       "stage": "adult",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:hoc-dai-hoc-va-hoc-nghe-18-22",
       "stage": "adult",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:so-sanh-dai-hoc-cao-dang-18-22",
       "stage": "adult",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:an-toan-tu-lap-18-22",
       "stage": "adult",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:kham-chu-dong-23-34",
@@ -1605,32 +1620,36 @@
       "stage": "adult",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:ai-hoc-tap-cong-viec-18-22",
       "stage": "adult",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:portfolio-va-so-thich-18-22",
       "stage": "adult",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:hop-dong-bhxh-va-thu-tuc-18-22",
       "stage": "adult",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04F"
     },
     {
       "key": "article:ra-quyet-dinh-co-bang-chung-23-34",
@@ -1923,9 +1942,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 57,
-    "remaining": 74,
-    "additional": 46
+    "attempted": 61,
+    "remaining": 70,
+    "additional": 58
   },
   "targetedRevisions": [
     {
@@ -5218,6 +5237,483 @@
           "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
           "status": "opened",
           "scope": "Tự chủ, giao tiếp, dấu hiệu khó khăn và tự hại."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "revisions04f": [
+    {
+      "key": "legacy:dong-hanh-khi-con-tu-lap",
+      "stage": "adult",
+      "title": "Khi con bắt đầu tự lập",
+      "before": 986,
+      "after": 958,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời và cập nhật kỹ năng."
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+          "status": "opened",
+          "scope": "Theo dõi thu chi, hóa đơn và quyết định nợ; ví dụ VN tự biên tập."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+          "status": "opened",
+          "scope": "Khó khăn tâm thần và chăm sóc chuyên môn."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Chuyển giao trách nhiệm thay vì quyết định hộ"
+    },
+    {
+      "key": "legacy:giu-ket-noi-gia-dinh",
+      "stage": "adult",
+      "title": "Giữ kết nối gia đình khi con đã lớn",
+      "before": 945,
+      "after": 904,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+          "status": "opened",
+          "scope": "Khó khăn tâm thần và chăm sóc chuyên môn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+          "status": "opened",
+          "scope": "Dấu hiệu dai dẳng và tìm hỗ trợ."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Nhịp kết nối tự nguyện khi sống xa"
+    },
+    {
+      "key": "legacy:ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+      "stage": "adult",
+      "title": "Lập kế hoạch tự lập sau 18 tuổi",
+      "before": 1185,
+      "after": 1156,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+          "status": "opened",
+          "scope": "Theo dõi thu chi, hóa đơn và quyết định nợ; ví dụ VN tự biên tập."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+          "status": "opened",
+          "scope": "Phòng ngừa tai nạn."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Kế hoạch 30 ngày: nhà ở, tiền, giấy tờ và dự phòng"
+    },
+    {
+      "key": "legacy:thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+      "stage": "adult",
+      "title": "Thói quen sức khỏe khi bước vào tuổi trưởng thành",
+      "before": 1164,
+      "after": 1133,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "18–60 tuổi ngủ ít nhất 7 giờ/ngày."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+          "status": "opened",
+          "scope": "Mốc ít nhất 150 phút vận động vừa/tuần ở người trưởng thành."
+        },
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+          "status": "opened",
+          "scope": "Đa dạng thực phẩm, hạn chế đường và muối."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+          "status": "opened",
+          "scope": "Dấu hiệu dai dẳng và tìm hỗ trợ."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Từ lịch học và làm đến kế hoạch phòng ngừa"
+    },
+    {
+      "key": "legacy:quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+      "stage": "adult",
+      "title": "Thiết lập ranh giới lành mạnh giữa cha mẹ và con trưởng thành",
+      "before": 1137,
+      "after": 1109,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+          "status": "opened",
+          "scope": "Theo dõi thu chi, hóa đơn và quyết định nợ; ví dụ VN tự biên tập."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+          "status": "opened",
+          "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Thỏa thuận khi ở chung hoặc nhận hỗ trợ"
+    },
+    {
+      "key": "legacy:quan-he-tinh-than-va-ho-tro-khi-truong-thanh",
+      "stage": "adult",
+      "title": "Duy trì sức khỏe tinh thần và các mối quan hệ khi lớn lên",
+      "before": 1189,
+      "after": 1171,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+          "status": "opened",
+          "scope": "Dấu hiệu dai dẳng và tìm hỗ trợ."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+          "status": "opened",
+          "scope": "Khó khăn tâm thần và chăm sóc chuyên môn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+          "status": "opened",
+          "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng Từ 18 tuổi: tự lập và giữ kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Tình yêu, cô đơn và mạng lưới hỗ trợ độc lập"
+    },
+    {
+      "key": "lesson:tu-lap-va-nghe-nghiep",
+      "stage": "adult",
+      "title": "Tự lập: thử nghề, học suốt đời và lập kế hoạch",
+      "before": 106,
+      "after": 201,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời và cập nhật kỹ năng."
+        },
+        {
+          "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+          "status": "opened-overview",
+          "scope": "Đầu mối chủ đề, không dự báo cá nhân."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tai-chinh-tu-lap",
+      "stage": "adult",
+      "title": "Tài chính tự lập: thu nhập, chi phí và dự phòng",
+      "before": 106,
+      "after": 209,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+          "status": "opened",
+          "scope": "Theo dõi thu chi, hóa đơn và quyết định nợ; ví dụ VN tự biên tập."
+        },
+        {
+          "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+          "status": "search-only",
+          "scope": "Kết quả tìm kiếm cảnh báo giả mạo, tuyển dụng, OTP; mở trang lỗi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tu-chu-va-ket-noi",
+      "stage": "adult",
+      "title": "Tự chủ, ranh giới và kết nối với gia đình",
+      "before": 115,
+      "after": 199,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+          "status": "opened",
+          "scope": "Khó khăn tâm thần và chăm sóc chuyên môn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+          "status": "opened",
+          "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-tu-lap-18-22",
+      "stage": "adult",
+      "title": "Bữa ăn tự lập 18–22 tuổi: đi học, ở trọ và làm việc với ngân sách giới hạn",
+      "before": 209,
+      "after": 504,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+          "status": "opened",
+          "scope": "Đa dạng thực phẩm, hạn chế đường và muối."
+        },
+        {
+          "url": "https://www.who.int/activities/promoting-safe-food-handling",
+          "status": "opened",
+          "scope": "Năm nguyên tắc an toàn thực phẩm trên trang HTML; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:suc-khoe-sinh-san-tu-lap-18-22",
+      "stage": "adult",
+      "title": "Sức khỏe sinh sản 18–22 tuổi: lựa chọn cá nhân, đồng thuận và chăm sóc phòng ngừa",
+      "before": 219,
+      "after": 544,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+          "status": "opened",
+          "scope": "Lựa chọn tránh thai, khác biệt giữa các biện pháp."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+          "status": "opened",
+          "scope": "Giảm nguy cơ STI và mang thai ngoài ý muốn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+          "status": "opened",
+          "scope": "STI có thể không triệu chứng."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+          "status": "opened",
+          "scope": "Trong vòng 5 ngày tùy phương pháp, càng sớm càng tốt."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+          "status": "opened",
+          "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ngu-va-lich-hoc-lam-18-22",
+      "stage": "adult",
+      "title": "Nhịp sống 18–22 tuổi: ngủ đủ, vận động và cân bằng học–làm",
+      "before": 205,
+      "after": 490,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "18–60 tuổi ngủ ít nhất 7 giờ/ngày."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+          "status": "opened",
+          "scope": "Mốc ít nhất 150 phút vận động vừa/tuần ở người trưởng thành."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-dai-hoc-va-hoc-nghe-18-22",
+      "stage": "adult",
+      "title": "Học ở tuổi 18–22: từ kiến thức nền đến năng lực tự học suốt đời",
+      "before": 213,
+      "after": 503,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời và cập nhật kỹ năng."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Tự điều chỉnh trong phổ thông; áp dụng cho người lớn là đề xuất."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-sanh-dai-hoc-cao-dang-18-22",
+      "stage": "adult",
+      "title": "Chọn đại học, cao đẳng hoặc học nghề: kiểm định, chương trình và tổng chi phí",
+      "before": 221,
+      "after": 503,
+      "sourceChecks": [
+        {
+          "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/",
+          "status": "opened-overview",
+          "scope": "Danh mục thông báo; không xác nhận chương trình cụ thể."
+        },
+        {
+          "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-9-2026-95.html",
+          "status": "search-only",
+          "scope": "Tìm thấy thông báo; mở trang cache miss, chưa đọc danh sách."
+        },
+        {
+          "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+          "status": "opened-overview",
+          "scope": "Đầu mối chủ đề, không dự báo cá nhân."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-tu-lap-18-22",
+      "stage": "adult",
+      "title": "An toàn khi sống tự lập 18–22 tuổi: đi lại, ở trọ và tránh lừa đảo",
+      "before": 220,
+      "after": 513,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+          "status": "opened",
+          "scope": "Phòng ngừa tai nạn."
+        },
+        {
+          "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+          "status": "search-only",
+          "scope": "Kết quả tìm kiếm cảnh báo giả mạo, tuyển dụng, OTP; mở trang lỗi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:danh-gia-bang-chung-18-22",
+      "stage": "adult",
+      "title": "Tư duy 18–22 tuổi: nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề",
+      "before": 198,
+      "after": 486,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened",
+          "scope": "Đánh giá thông tin có phê phán."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ai-hoc-tap-cong-viec-18-22",
+      "stage": "adult",
+      "title": "AI tuổi 18–22: học tập, thực tập và bảo mật dữ liệu",
+      "before": 214,
+      "after": 492,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened",
+          "scope": "Đánh giá thông tin có phê phán."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:portfolio-va-so-thich-18-22",
+      "stage": "adult",
+      "title": "Năng khiếu và portfolio 18–22 tuổi: dự án thật, sở thích và kết nối cộng đồng",
+      "before": 206,
+      "after": 477,
+      "sourceChecks": [
+        {
+          "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+          "status": "opened-overview",
+          "scope": "Đầu mối chủ đề, không dự báo cá nhân."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "status": "opened-overview",
+          "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời và cập nhật kỹ năng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hop-dong-bhxh-va-thu-tuc-18-22",
+      "stage": "adult",
+      "title": "Bước đầu đi làm 18–22 tuổi: hợp đồng, bảo hiểm và hồ sơ cá nhân",
+      "before": 216,
+      "after": 504,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata, chưa đọc PDF/rà sửa đổi."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata ban hành 29/06/2024, hiệu lực 01/07/2025; chưa đọc PDF."
+        },
+        {
+          "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/bao-hiem-y-te-hocsinh-sinhvien.aspx?CateID=0&ItemID=25803&OtItem=date",
+          "status": "opened",
+          "scope": "Quá trình tham gia, liên hệ nhân sự và BHXH."
         }
       ],
       "expertReviewed": false
