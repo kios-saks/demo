@@ -25,19 +25,33 @@ await check("API health and readiness",async()=>{
  const h=await json(api,"/health");assert.equal(h.ok,true);
  const ready=await json(api,"/health/ready");assert.equal(ready.ok,true);
 });
-await check("Web health",async()=>{assert.equal((await json(web,"/api/health")).ok,true);});
+await check("Combined DEV Web and loopback API readiness",async()=>{const h=await json(web,"/api/health");assert.equal(h.ok,true);assert.equal(h.mode,"combined-dev");assert.equal(h.backend,"ready");});
 await check("Public API has 12 stages",async()=>{assert.equal((await json(api,"/v1/stages")).data.length,12);});
 await check("Public API hides draft corpus",async()=>{
  const v=await json(api,"/v1/articles");assert.equal(v.meta.total,0);assert.deepEqual(v.data,[]);
  await denied(api,"/v1/articles?status=draft",[403]);await denied(api,"/v1/articles/"+knownDraft,[404]);
 });
-await check("Guest cannot read DEV preview or media administration",async()=>{
+await check("Guest cannot access raw preview API or media administration",async()=>{
  await denied(api,"/v1/dev-preview/articles");await denied(api,"/v1/dev-preview/articles/"+knownDraft);
  await denied(api,"/v1/dev-media-admin/session");await denied(web,"/api/media-admin/session");
- await denied(web,"/dev-review");await denied(web,"/bai-viet/"+knownDraft);
 });
-await check("Web public home and stage",async()=>{
- for(const path of ["/","/so-sinh"]){const r=await request(web,path);assert.equal(r.status,200);const html=await r.text();assert.ok(!html.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"Unexpected draft title");}
+// Owner-approved link access applies ONLY to this exact Combined DEV service.
+// This pre-deploy check accepts the currently live DEV revision, not the candidate build.
+// Production gate remains tested independently by web-api-integration.
+await check("Combined DEV link reader and noindex protection",async()=>{
+ const health=await json(web,"/api/health");assert.equal(health.mode,"combined-dev");assert.equal(health.backend,"ready");
+ for(const path of ["/dev-review","/bai-viet/"+knownDraft,"/","/so-sinh"]){
+  const r=await request(web,path);assert.equal(r.status,200,"DEV reader "+path);
+  assert.match(r.headers.get("x-robots-tag")||"",/noindex/i,"DEV noindex "+path);
+  assert.match(r.headers.get("x-robots-tag")||"",/nofollow/i,"DEV nofollow "+path);
+  const html=await r.text();
+  assert.ok(html.includes("Hành Trình Mẹ & Bé"),"Missing DEV reader "+path);
+  if(path==="/bai-viet/"+knownDraft){
+   assert.ok(html.includes('data-current-article="'+knownDraft+'"'),"Wrong article");
+   assert.ok(html.includes('data-media-source="supabase"'),"Live Supabase reader media required");
+   assert.ok(html.includes('id="article-sources"'),"Missing article sources");
+  }
+ }
 });
 const token=process.env.MEBE_QA_PREVIEW_TOKEN;
 if(!token){skipped++;console.log("SKIP authenticated read-only preview (MEBE_QA_PREVIEW_TOKEN not provided)");}

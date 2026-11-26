@@ -150,4 +150,4 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] S04-AZ-04I: 16/16 revision tuổi 60–74; tổng 203/219, 16 chờ; [báo cáo](life-course-batch-04i-2026-11-26.md). Draft, chưa thẩm định/CI.
 - [x] S04-AZ-04J: 16/16 revision tuổi 75+; tổng 219/219, 0 chờ; [báo cáo](life-course-batch-04j-2026-11-26.md). Biên tập Draft hoàn tất, chưa nghiệm thu chuyên môn/CI.
 - [x] S04-AZ-04: 219/219 có revision; [tổng kết và bàn giao](life-course-editorial-completion-2026-11-26.md). Không đồng nghĩa publication-ready.
-- [ ] Content Pipeline Recovery: bản sửa QA-CONTENT-01/02/03 và Reader image containment đã chuẩn bị; kiểm tra dữ liệu trực tiếp đạt; CI/browser/Combined DEV chưa nghiệm thu. [Báo cáo](content-pipeline-recovery-2026-11-26.md). Không hạ gate.
+- [ ] Content Pipeline Recovery: QA-CONTENT-01/02/03 và Reader regression PASS CI 6783c44 (5/5); Supabase DEV 72/72 bài, 92/92 nguồn, bảo toàn CMS; branch DEV fast-forward 37 commits. Live QA chính sách cũ FAIL, cập nhật test theo DEV link access; chờ deploy/smoke mới và 219 UI. [Báo cáo](content-pipeline-recovery-2026-11-26.md). Không hạ gate.

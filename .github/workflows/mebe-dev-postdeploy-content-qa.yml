@@ -1,0 +1,25 @@
+name: Mother & Baby - DEV Post-deploy Content QA
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-life-course:
+    if: github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser test dependency
+        run: npm install --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/qa-dev-live.mjs
+      - run: node scripts/qa-dev-life-course-live.mjs
