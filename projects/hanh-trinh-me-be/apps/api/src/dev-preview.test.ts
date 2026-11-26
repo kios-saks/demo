@@ -14,6 +14,13 @@ test("private dev preview returns all 72 draft articles with authenticated read-
    assert.equal((await api.inject("/v1/dev-preview/articles")).statusCode,404);
    assert.equal((await api.inject({url:"/v1/dev-preview/articles",headers:{"x-preview-token":"bad"}})).statusCode,404);
    const headers={"x-preview-token":token};
+   assert.equal((await api.inject("/v1/dev-preview/search-corpus")).statusCode,404);
+   assert.equal((await api.inject({url:"/v1/dev-preview/search-corpus",headers:{"x-preview-token":"bad"}})).statusCode,404);
+   const corpus=await api.inject({url:"/v1/dev-preview/search-corpus",headers});
+   assert.equal(corpus.statusCode,200);assert.equal(corpus.json().data.length,72);
+   assert(corpus.json().data.every((a:any)=>a.status==="draft"&&a.sections.length>0&&a.sections.every((s:any)=>s.paragraphs.length>0)&&!a.sources&&!a.media&&!a.revision));
+   assert.equal((await api.inject({url:"/v1/dev-preview/search-corpus?q=private-test",headers})).statusCode,400);
+   assert.equal((await api.inject({method:"POST",url:"/v1/dev-preview/search-corpus",headers})).statusCode,404);
    const first=await api.inject({url:"/v1/dev-preview/articles?page=1&limit=50",headers});
    const second=await api.inject({url:"/v1/dev-preview/articles?page=2&limit=50",headers});
    assert.equal(first.statusCode,200);

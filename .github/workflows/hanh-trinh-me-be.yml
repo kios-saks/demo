@@ -215,11 +215,13 @@ jobs:
           set -euo pipefail
           PORT=3000 npm run start -w @mebe/web > /tmp/mebe-demo-ordinary.log 2>&1 &
           ordinary_pid=$!
-          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
+          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
+          demo_api_pid=$!
+          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
           demo_pid=$!
-          trap 'kill "$ordinary_pid" "$demo_pid" 2>/dev/null || true' EXIT
+          trap 'kill "$ordinary_pid" "$demo_pid" "$demo_api_pid" 2>/dev/null || true' EXIT
           for i in $(seq 1 60); do
-            if curl -s -o /dev/null http://localhost:3000/gia-dinh-demo && curl -fsS -o /dev/null http://localhost:3001/gia-dinh-demo; then break; fi
+            if curl -s -o /dev/null http://localhost:3000/gia-dinh-demo && curl -fsS -o /dev/null http://localhost:3001/gia-dinh-demo && curl -fsS -o /dev/null http://127.0.0.1:4000/health/ready; then break; fi
             sleep 1
           done
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/family-demo-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }

@@ -68,6 +68,16 @@ export function buildApp(repository:KnowledgeRepository=createKnowledgeRepositor
     const expected=Buffer.from(secret,"utf8"),actual=Buffer.from(value,"utf8");
     return actual.length===expected.length&&timingSafeEqual(actual,expected);
   };
+  app.get("/v1/dev-preview/search-corpus",async(req,reply)=>{
+    if(!previewAuthorized(req.headers["x-preview-token"]))return reply.code(404).send({error:"NOT_FOUND"});
+    reply.header("Cache-Control","private, no-store");reply.header("X-Robots-Tag","noindex, nofollow");
+    try{
+      if(Object.keys(req.query as object).length||!repository.listPreviewSearchArticles)return reply.code(400).send({error:"INVALID_SEARCH_CORPUS_REQUEST"});
+      const data=await repository.listPreviewSearchArticles();
+      if(data.length!==72||new Set(data.map(a=>a.slug)).size!==72||data.some(a=>a.status!=="draft"||!Array.isArray(a.sections)||!a.sections.length||a.sections.some(s=>typeof s.heading!=="string"||!Array.isArray(s.paragraphs)||!s.paragraphs.length||s.paragraphs.some(p=>typeof p!=="string"))))throw Error("Invalid corpus");
+      return {data:data.map(({slug,stage,title,summary,status,tags,sections})=>({slug,stage,title,summary,status,tags,sections:sections.map(({heading,paragraphs})=>({heading,paragraphs}))}))};
+    }catch{return reply.code(503).send({error:"SEARCH_CORPUS_UNAVAILABLE"});}
+  });
   app.get<{Querystring:{q?:string;stage?:string;page?:string;limit?:string}}>(
     "/v1/dev-preview/articles",async(req,reply)=>{
       if(!previewAuthorized(req.headers["x-preview-token"]))

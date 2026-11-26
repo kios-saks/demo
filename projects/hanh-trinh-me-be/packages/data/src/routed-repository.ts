@@ -69,6 +69,7 @@ export class RoutedEditorialRepository implements ManagedEditorialRepository {
  listStages():Promise<Stage[]>{return this.source.listStages();}
  getStage(slug:string):Promise<Stage|null>{return this.source.getStage(slug);}
  listArticles(query?:ArticleQuery):Promise<Page<ArticleSummary>>{return this.source.listArticles(query);}
+ listPreviewSearchArticles(){if(!this.source.listPreviewSearchArticles)throw Error("Preview search unsupported");return this.source.listPreviewSearchArticles();}
  getArticle(slug:string):Promise<Article|null>{return this.source.getArticle(slug);}
  listTopics(stageSlug?:string):Promise<Topic[]>{return this.source.listTopics(stageSlug);}
  listSources(stageSlug?:string):Promise<SourceReference[]>{return this.source.listSources(stageSlug);}

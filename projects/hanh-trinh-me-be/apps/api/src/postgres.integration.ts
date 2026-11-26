@@ -48,6 +48,8 @@ test("real PostgreSQL migrations, idempotent imports, interface parity and edito
    const original=await repo.getEditorialArticle("lam-quen-nhip-sinh-hoat-so-sinh");
    assert(original);assert.equal(original.revision,1);
    assert.equal((await repo.listEditorialArticles()).length,72);
+   const corpus=await repo.listPreviewSearchArticles();assert.equal(corpus.length,72);assert(corpus.every(a=>a.status==="draft"&&a.sections.length>0));
+   assert.deepEqual(corpus.find(a=>a.slug===original.article.slug)?.sections,original.article.sections);
    const app=buildApp(repo,keys);
    try{
      const health=await app.inject("/health");

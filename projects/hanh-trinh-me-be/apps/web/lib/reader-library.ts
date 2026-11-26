@@ -32,7 +32,7 @@ function stageGroupsHtml(){
  '<div class="stage-links">'+g.stages.map(([slug,title])=>'<a data-stage-link="'+e(slug)+'" href="'+stageHref(slug)+'">'+e(title)+' <span aria-hidden="true">→</span></a>').join("")+'</div></details>').join("")+'</div>';
 }
 function searchForm(q="",stage="",withStage=false){
- return '<form class="search" role="search" method="get" action="/tim-kiem"><label class="sr-only" for="library-search">Tìm kiếm kiến thức</label><input id="library-search" name="q" type="search" placeholder="Bạn muốn tìm hiểu điều gì?" value="'+e(q)+'" maxlength="120" autocomplete="off">'+
+ return '<form class="search" role="search" '+(openDevReader()?'method="post" action="/api/dev-search" data-private-search':'method="get" action="/tim-kiem"')+'><label class="sr-only" for="library-search">Tìm kiếm kiến thức</label><input id="library-search" name="q" type="search" placeholder="Bạn muốn tìm hiểu điều gì?" value="'+e(q)+'" maxlength="120" autocomplete="off">'+
  (withStage?'<label class="sr-only" for="stage-select">Lọc giai đoạn</label><select id="stage-select" name="stage"><option value="">Tất cả giai đoạn</option>'+stageOptions.map(([slug,title])=>'<option value="'+e(slug)+'"'+(stage===slug?' selected':'')+'>'+e(title)+'</option>').join("")+'</select>':'')+
  '<button type="submit">Tìm kiếm</button></form>';
 }

@@ -1,5 +1,5 @@
 import type {
- Article, ArticleQuery, ArticleSummary, EditorialOverview, KnowledgeRepository,
+ Article, ArticleQuery, ArticleSummary, PreviewSearchArticle, EditorialOverview, KnowledgeRepository,
  MockContentDataset, Page, ResearchCard, ResearchQuery, SourceReference, Stage, Topic
 } from "./contracts.js";
 
@@ -57,6 +57,9 @@ export class MockKnowledgeRepository implements KnowledgeRepository {
    ).sort((a,b)=>a.order-b.order);
    const selected=articles.slice((page-1)*limit,page*limit).map(({sections,sources,...summary})=>summary);
    return {data:clone(selected),meta:{total:articles.length,page,limit}};
+ }
+ async listPreviewSearchArticles():Promise<PreviewSearchArticle[]>{
+   return clone(this.seed.articles.slice(0,73).map(({slug,stage,title,summary,status,tags,sections})=>({slug,stage,title,summary,status,tags,sections})));
  }
  async getArticle(slug:string):Promise<Article|null>{return clone(this.seed.articles.find(a=>a.slug===slug)||null);}
  async listTopics(stageSlug?:string):Promise<Topic[]>{return clone(this.seed.topics.filter(t=>!stageSlug||t.stageSlugs.includes(stageSlug)).sort((a,b)=>a.order-b.order));}

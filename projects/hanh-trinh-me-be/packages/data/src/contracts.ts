@@ -7,6 +7,8 @@ export interface ArticleMediaAsset {src:string;alt:string;caption:string;credit:
 export interface ArticleMedia {cover?:ArticleMediaAsset;inline?:Array<ArticleMediaAsset&{afterSection:number;points?:string[]}>;highlights?:string[]}
 export interface Article {slug:string;stage:string;title:string;summary:string;readMinutes:number;order:number;status:EditorialStatus;lastReviewed:string|null;tags:string[];sections:ArticleSection[];sources:ArticleSource[];media?:ArticleMedia}
 export type ArticleSummary=Omit<Article,"sections"|"sources">;
+/** Internal preview projection; no sources, media, revisions or credentials. */
+export type PreviewSearchArticle=Pick<Article,"slug"|"stage"|"title"|"summary"|"status"|"tags"|"sections">;
 export interface Topic {id:string;slug:string;title:string;stageSlugs:string[];order:number;editorialStatus:EditorialStatus}
 export interface SourceReference {id:string;publisher:string;title:string;url:string;publicationYear:string;topic:string;stageSlugs:string[];accessedAt:string;referenceType:string;language:string;status:string;usage:string;clinicalApproval:boolean;notice:string}
 export interface ResearchCard {id:string;stageSlug:string;topicId:string;title:string;summary:string;readerQuestion:string;practicePrompt:string;sourceIds:string[];status:EditorialStatus;createdAt:string;reviewedAt:string|null;reviewer:string|null;originalSummary:boolean;medicalApproval:boolean}
@@ -20,6 +22,7 @@ export interface KnowledgeRepository {
  listStages():Promise<Stage[]>;
  getStage(slug:string):Promise<Stage|null>;
  listArticles(query?:ArticleQuery):Promise<Page<ArticleSummary>>;
+ listPreviewSearchArticles?():Promise<PreviewSearchArticle[]>;
  getArticle(slug:string):Promise<Article|null>;
  listTopics(stageSlug?:string):Promise<Topic[]>;
  listSources(stageSlug?:string):Promise<SourceReference[]>;

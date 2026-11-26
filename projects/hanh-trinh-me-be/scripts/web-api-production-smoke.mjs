@@ -50,6 +50,8 @@ assert.equal(guest.status,404,"Guests cannot view draft library");
 assert.equal(guest.headers.get("www-authenticate"),null,"Guests must never receive a Basic auth popup");
 const bad=await fetch(web+"/dev-review",{headers:{authorization:"Basic "+Buffer.from("editor:bad").toString("base64")}});
 assert.equal(bad.status,404,"Wrong credentials cannot view library");
+assert.equal((await fetch(api+"/v1/dev-preview/search-corpus")).status,404);
+assert.equal((await fetch(web+"/api/dev-search",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded",origin:web},body:"q=synthetic-test"})).status,404);
 const publicDraftApi=await fetch(api+"/v1/dev-preview/articles");
 assert.equal(publicDraftApi.status,404,"Direct backend preview requires a secret");
 const apiDraft=await fetch(api+"/v1/dev-preview/articles?page=1&limit=50",{headers:{"x-preview-token":ciToken}});

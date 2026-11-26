@@ -68,4 +68,28 @@ test("UX02 synonym, one edit, no results, strict filters",()=>{
  const refreshed=createSearchIndex(inv,atlas,altered,a,l);assert.equal(searchKnowledge(refreshed,{q:"Unique updated live title 987"})[0].title,"Unique updated live title 987");
  assert.throws(()=>createSearchIndex(inv,atlas,legacy.slice(1),a,l));
  console.log("UX02_FILTERS_PASS");
+ const sentinel="zzbodyonlysentinel";const modified=legacy.map((x,i)=>i===0?{...x,sections:[...x.sections,{heading:"Body-only",paragraphs:[sentinel]}]}:x);
+ const full=createSearchIndex(inv,atlas,modified,a,l);assert.equal(full.filter(x=>x.kind==="legacy"&&x.fields.body.length>0).length,72);
+ assert.equal(searchKnowledge(full,{q:sentinel})[0]?.key,"legacy:"+legacy[0].slug);
+ assert.equal(searchKnowledge(rows,{q:sentinel}).length,0);
+ assert.throws(()=>createSearchIndex(inv,atlas,legacy.map((x,i)=>i===0?{...x,sections:[]}:x),a,l));
+ console.log("UX02_LEGACY_FULLTEXT_PASS 72");
+});
+
+test("UX02 behavior review: intent queries with stage and content filters",()=>{
+ const intent=[
+ ["cách khám sức khỏe tiền thai","legacy:kham-suc-khoe-tien-thai",{kind:"legacy"}],
+ ["axit folic truoc mang thai la gi","legacy:axit-folic-truoc-khi-mang-thai",{kind:"legacy"}],
+ ["dậy thì hiểu thay đổi cơ thể","lesson:day-thi-thay-doi",{kind:"lesson"}],
+ ["tham tu thong tinn","lesson:kiem-chung-thong-tin",{kind:"lesson"}],
+ ["tiền tiêu vặt là gì","lesson:tien-tieu-vat",{kind:"lesson"}],
+ ["ai co the sai","lesson:ai-co-the-sai",{kind:"lesson"}],
+ ["chọn trường tiểu học","article:chon-tieu-hoc-theo-nhu-cau",{kind:"article"}],
+ ["giảm nguy cơ té ngã","article:phong-te-nga-tuoi-60-74",{stage:"older"}],
+ ["an uong khi di lam","article:an-uong-khi-di-lam",{kind:"article"}],
+ ["nghi huu va suc khoe tinh than","article:nghi-huu-va-ket-noi",{kind:"article"}]
+ ];
+ const misses=intent.filter(([q,id,filters])=>!run(q,filters).slice(0,3).some(x=>x.key===id)).map(([q,id])=>({q,id}));
+ console.log("UX02_INTENT_TOP3",JSON.stringify({total:intent.length,passed:intent.length-misses.length,misses}));assert(misses.length<=1);
+ assert.equal(run("zzzxxyyqqq").length,0);
 });

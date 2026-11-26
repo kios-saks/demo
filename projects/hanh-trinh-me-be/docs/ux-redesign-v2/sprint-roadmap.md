@@ -27,7 +27,7 @@ Dependency: none; gate kỹ thuật UX-01 đã đạt, mở dependency UX-02–0
 - [ ] AC02.3: filter age/topic/kind hợp lệ, clear, URL + browser history, empty/error khác nhau, không lộ raw data/token/nhạy cảm, không log query cá nhân. Evidence: unit/integration + live test.
 Dependency: UX-01.
 
-**UX-02 LIVE — acceptance in progress (26/11/2026):** [audit và triển khai](ux-02-implementation.md). App `8afea7e` LIVE, CI ứng dụng 5/5 PASS, benchmark kỹ thuật 30/30 Top 3 và 219/219 exact title. [Post-deploy QA 45780120961](https://github.com/kios-saks/demo/actions/runs/45780120961) đang chạy ở lần kiểm tra này. AC02.1 chờ xác nhận 219 LIVE search và phạm vi legacy metadata; AC02.2 chờ owner/content review bộ truy vấn; AC02.3 chờ kiểm thử lỗi upstream và xác minh không ghi query cá nhân tại hạ tầng. Không đóng UX-02 khi thiếu bằng chứng; 1/10 nghiệm thu toàn sprint.
+**UX-02 LIVE baseline PASS — full-text/privacy upgrade candidate (26/11/2026):** [audit và triển khai](ux-02-implementation.md). App `8afea7e` LIVE, CI ứng dụng 5/5 PASS, benchmark kỹ thuật 30/30 Top 3 và 219/219 exact title. [Post-deploy QA 45780120961](https://github.com/kios-saks/demo/actions/runs/45780120961) PASS (219 LIVE search). Candidate bổ sung corpus 72 legacy full-text qua một query DB, private POST/fragment, test upstream và intent. AC02.1/2/3 mở đến khi candidate CI/LIVE PASS; owner/content review độc lập và legacy GET access logs vẫn là giới hạn. Không đóng UX-02 khi thiếu bằng chứng; 1/10 nghiệm thu toàn sprint.
 
 ### UX-03 · P0 · Homepage
 - [ ] AC03.1: ở 390×844, search và lối chọn nhóm tuổi nhận biết không cần cuộn quá một viewport; không hero quá cao, không pop-up/ép đăng nhập; có đường đến A–Z và tìm kiếm chính.

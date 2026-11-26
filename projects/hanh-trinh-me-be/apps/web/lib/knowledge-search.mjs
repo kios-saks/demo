@@ -18,8 +18,9 @@ export function createSearchIndex(inventory,atlas,legacy,articles,lessons){
  return entries.map(entry=>{
   const item=payload.get(entry.key),stage=atlas.stages.find(s=>s.id===entry.stage),pillar=atlas.pillars.find(p=>p.id===entry.pillar);
   const originalStage=entry.kind==="legacy"?item.stage:"";
-  // Legacy is sourced only from the current live list. Never join a snapshot body to live metadata.
-  const body=entry.kind==="lesson"?[item.knowledge,item.practice,item.reflection]:entry.kind==="article"?[(item.sections||[]).flatMap(s=>[s.heading,s.body]),item.practice,item.limits]:[];
+  // Metadata and body must come from the same live corpus projection.
+  if(entry.kind==="legacy"&&(!Array.isArray(item.sections)||!item.sections.length||item.sections.some(s=>typeof s.heading!=="string"||!Array.isArray(s.paragraphs)||!s.paragraphs.length||s.paragraphs.some(p=>typeof p!=="string"))))throw Error("Incomplete legacy body");
+  const body=entry.kind==="lesson"?[item.knowledge,item.practice,item.reflection]:entry.kind==="article"?[(item.sections||[]).flatMap(s=>[s.heading,s.body]),item.practice,item.limits]:item.sections.flatMap(s=>[s.heading,s.paragraphs]);
   return {...entry,originalStage,stageLabel:stage.age+" · "+stage.title,topicLabel:pillar.title,
    fields:{title:normalizeKnowledge(entry.title),meta:normalizeParts([entry.summary,item.tags||[],pillar.title,stage.age,stage.title]),body:normalizeParts(body)}};
  });
@@ -55,6 +56,8 @@ export function searchKnowledge(index,filters={}){
  const raw=String(filters.q||"").trim(),q=normalizeKnowledge(raw);
  if(raw&&!q)return [];
  const variants=new Set([q]);
+ const concise=q.replace(/^(lam sao de|lam the nao de|cach|toi muon tim hieu ve) /,"").replace(/ (nhu the nao|la gi|can lam gi)$/,"").trim();
+ if(concise&&concise!==q)variants.add(concise);
  for(const group of synonyms)for(const from of group)if(phrase(q,from))for(const to of group)if(to!==from)variants.add((" "+q+" ").replace(" "+from+" "," "+to+" ").trim());
  const matches=[];
  for(const row of index){

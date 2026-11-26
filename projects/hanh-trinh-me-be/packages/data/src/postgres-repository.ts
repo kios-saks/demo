@@ -1,6 +1,6 @@
 import type {Pool,PoolClient} from "pg";
 import type {
- Article,ArticleQuery,ArticleSummary,EditorialOverview,KnowledgeRepository,Page,
+ Article,ArticleQuery,ArticleSummary,PreviewSearchArticle,EditorialOverview,KnowledgeRepository,Page,
  ResearchCard,ResearchQuery,SourceReference,Stage,Topic
 } from "./contracts.js";
 import type {
@@ -76,6 +76,11 @@ export class PostgresEditorialRepository implements EditorialRepository {
      ORDER BY sort_order,slug LIMIT $${limitIdx} OFFSET $${offsetIdx}`,[...parameters,limit,(page-1)*limit]);
    return {data:rows.rows.map(({payload})=>{const {sections,sources,...summary}=payload;return json(summary);}),
      meta:{total:Number(count.rows[0].total),page,limit}};
+ }
+ async listPreviewSearchArticles():Promise<PreviewSearchArticle[]>{
+   // One bounded query against the canonical primary; 73rd row signals inventory drift.
+   const r=await this.pool.query<{payload:Article}>("SELECT payload FROM knowledge_articles ORDER BY sort_order,slug LIMIT 73");
+   return r.rows.map(({payload:{slug,stage,title,summary,status,tags,sections}})=>json({slug,stage,title,summary,status,tags,sections}));
  }
  async getArticle(slug:string):Promise<Article|null>{
    const r=await this.pool.query<{payload:Article}>("SELECT payload FROM knowledge_articles WHERE slug=$1",[slug]);
