@@ -55,3 +55,7 @@ Audit: existing /tim-kiem in designated Combined DEV rewrites to reader-library 
 
 ## Final owner review and privacy audit
 - [40-fixture owner review and privacy audit](ux-02-final-review.md): owner decisions pending; synthetic DEV canary added to existing trusted workflow. Render app/build logs visible, request logs unavailable in current view; direct HTTP probe DNS failed. Do not close AC02.2 or AC02.3 based on missing log matches or self-review. No app change or deployment required.
+
+## Owner approval / privacy audit completed
+- Owner approved all 40 benchmark fixtures as Regression Benchmark V1 on 26/11/2026; AC02.2 CLOSED. See [approved benchmark and synthetic audit](ux-02-final-review.md).
+- QA commit 1c2d968 CI 5/5 PASS; LIVE run 45788595455 (job 139801597243) confirms full-text search and UX02_PRIVACY_CANARY_HTTP_PASS. Synthetic GET and POST both 200, request IDs recorded. Render exact-window application and request log filters returned zero; no positive request-log visibility, so absence of platform logging remains unverified. AC02.3 OPEN; 2/3 AC CLOSED. No scope waiver, no app/infrastructure changes, no Production authorization.
