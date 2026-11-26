@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04G",
+  "batch": "S04-AZ-04H",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -908,8 +908,9 @@
       "stage": "midlife",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:phong-te-nga-tuoi-60-74",
@@ -1228,56 +1229,63 @@
       "stage": "midlife",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:kham-theo-nguy-co-35-59",
       "stage": "midlife",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:chuyen-tiep-va-cham-nguoi-than-35-59",
       "stage": "midlife",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:sinh-ly-va-man-kinh-35-59",
       "stage": "midlife",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:hoc-suot-doi-35-59",
       "stage": "midlife",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:chon-khoa-dao-tao-lai-35-59",
       "stage": "midlife",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:an-toan-cong-viec-va-cham-soc-35-59",
       "stage": "midlife",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:an-uong-va-nuoc-60-74",
@@ -1736,64 +1744,72 @@
       "stage": "midlife",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:ai-va-an-toan-so-35-59",
       "stage": "midlife",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:gia-dinh-da-the-he-35-59",
       "stage": "midlife",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:so-thich-va-cong-dong-35-59",
       "stage": "midlife",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:ke-hoach-huu-tri-va-du-phong-35-59",
       "stage": "midlife",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:chuyen-nghe-va-nang-ky-nang-35-59",
       "stage": "midlife",
       "pillar": "career",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
       "stage": "midlife",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:phan-chia-trach-nhiem-va-cham-soc-35-59",
       "stage": "midlife",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04H"
     },
     {
       "key": "article:tu-duy-va-giai-quyet-van-de-60-74",
@@ -6091,5 +6107,320 @@
       ],
       "expertReviewed": false
     }
-  ]
+  ],
+  "revisions04h": [
+    {
+      "key": "article:van-dong-va-nhip-song-trung-nien",
+      "stage": "midlife",
+      "title": "Tuổi 35–59: xây nhịp vận động, nghỉ ngơi và công việc bền vững",
+      "before": 230,
+      "after": 554,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+          "status": "opened",
+          "scope": "Khuyến nghị vận động và giảm ít vận động."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "18–60 tuổi ít nhất 7 giờ/ngày; chất lượng ngủ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-trung-nien-35-59",
+      "stage": "midlife",
+      "title": "Dinh dưỡng tuổi 35–59: ăn cân bằng trong bữa cơm gia đình và khi có bệnh nền",
+      "before": 213,
+      "after": 525,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+          "status": "opened",
+          "scope": "Đa dạng thực phẩm, natri và lưu ý muối thay thế chứa kali."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-theo-nguy-co-35-59",
+      "stage": "midlife",
+      "title": "Khám sức khỏe tuổi 35–59: dự phòng bệnh mạn tính và theo dõi có kế hoạch",
+      "before": 206,
+      "after": 525,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+          "status": "opened",
+          "scope": "Tăng huyết áp thường không triệu chứng; đo và dấu hiệu cần chăm sóc ngay."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuyen-tiep-va-cham-nguoi-than-35-59",
+      "stage": "midlife",
+      "title": "Tâm lý trung niên: áp lực công việc, thay đổi gia đình và gánh nặng chăm sóc",
+      "before": 209,
+      "after": 552,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+          "status": "opened",
+          "scope": "Khối lượng quá mức, quyền kiểm soát và hỗ trợ."
+        },
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+          "status": "opened",
+          "scope": "Chất lượng, chức năng, cấu trúc quan hệ; cô đơn và cô lập."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:sinh-ly-va-man-kinh-35-59",
+      "stage": "midlife",
+      "title": "Thay đổi sinh lý tuổi 35–59: tiền mãn kinh, sức khỏe tình dục và cơ thể",
+      "before": 210,
+      "after": 554,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+          "status": "opened",
+          "scope": "Mãn kinh tự nhiên, tiền mãn kinh và khả năng mang thai."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-suot-doi-35-59",
+      "stage": "midlife",
+      "title": "Học suốt đời tuổi 35–59: cập nhật kỹ năng và thích nghi thay đổi công việc",
+      "before": 216,
+      "after": 542,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng."
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+          "status": "opened",
+          "scope": "Tóm tắt điều hành báo cáo 2021; không suy ra thị trường Việt Nam."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-khoa-dao-tao-lai-35-59",
+      "stage": "midlife",
+      "title": "Chọn khóa đào tạo lại tuổi 35–59: chất lượng, đầu ra và khả năng học thực tế",
+      "before": 217,
+      "after": 549,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng."
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+          "status": "opened",
+          "scope": "Tóm tắt điều hành báo cáo 2021; không suy ra thị trường Việt Nam."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-cong-viec-va-cham-soc-35-59",
+      "stage": "midlife",
+      "title": "An toàn tuổi 35–59: lao động, đi lại và chăm sóc người thân",
+      "before": 199,
+      "after": 535,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/health-topics/occupational-health",
+          "status": "opened-overview",
+          "scope": "Tổng quan sức khỏe nghề nghiệp; không thay quy trình an toàn cụ thể."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyet-dinh-dai-han-35-59",
+      "stage": "midlife",
+      "title": "Tư duy tuổi 35–59: kiểm chứng thông tin và đánh giá quyết định dài hạn",
+      "before": 208,
+      "after": 537,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan chương trình năng lực thông tin; chưa đọc tài liệu chi tiết."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ai-va-an-toan-so-35-59",
+      "stage": "midlife",
+      "title": "Công nghệ tuổi 35–59: thích nghi AI, bảo mật và chống lừa đảo",
+      "before": 217,
+      "after": 570,
+      "sourceChecks": [
+        {
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "status": "opened-overview",
+          "scope": "Khung tự nguyện về độ tin cậy AI, trang tổng quan; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+          "status": "search-only",
+          "scope": "Kết quả tìm kiếm: giả danh, OTP, link độc hại; chưa mở toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:gia-dinh-da-the-he-35-59",
+      "stage": "midlife",
+      "title": "Quan hệ tuổi 35–59: con trưởng thành, cha mẹ lớn tuổi và ranh giới giữa các thế hệ",
+      "before": 212,
+      "after": 548,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+          "status": "opened",
+          "scope": "Chất lượng, chức năng, cấu trúc quan hệ; cô đơn và cô lập."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-cong-dong-35-59",
+      "stage": "midlife",
+      "title": "Sở thích tuổi 35–59: sáng tạo, thể thao và tham gia cộng đồng",
+      "before": 203,
+      "after": 531,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+          "status": "opened",
+          "scope": "Chất lượng, chức năng, cấu trúc quan hệ; cô đơn và cô lập."
+        },
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ke-hoach-huu-tri-va-du-phong-35-59",
+      "stage": "midlife",
+      "title": "Tài chính tuổi 35–59: kế hoạch dài hạn, hưu trí và dự phòng gia đình",
+      "before": 218,
+      "after": 545,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+          "status": "opened",
+          "scope": "Quỹ dự phòng cho chi phí bất ngờ; không áp luật Mỹ cho Việt Nam."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=1&docid=211199&pageid=27160&typegroupid=3",
+          "status": "opened-overview",
+          "scope": "Metadata luật gốc, hiệu lực 01/07/2025; chưa đọc PDF hoặc rà sửa đổi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuyen-nghe-va-nang-ky-nang-35-59",
+      "stage": "midlife",
+      "title": "Nghề nghiệp tuổi 35–59: chuyển nghề, cập nhật kỹ năng và phát triển vai trò",
+      "before": 215,
+      "after": 558,
+      "sourceChecks": [
+        {
+          "url": "https://www.unesco.org/en/lifelong-learning",
+          "status": "opened",
+          "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng."
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+          "status": "opened",
+          "scope": "Tóm tắt điều hành báo cáo 2021; không suy ra thị trường Việt Nam."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-lao-dong-bao-hiem-tai-san-35-59",
+      "stage": "midlife",
+      "title": "Pháp luật tuổi 35–59: lao động, bảo hiểm và quản lý hồ sơ tài sản",
+      "before": 221,
+      "after": 561,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217002&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Metadata văn bản hợp nhất 12/02/2026; chưa đọc PDF hoặc rà sửa đổi."
+        },
+        {
+          "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/cai-cach-chinh-sach-bhxh.aspx?CateID=0&ItemID=25803&OtItem=date",
+          "status": "search-only",
+          "scope": "Kết quả tìm kiếm có hướng dẫn tra cứu, mở trang timeout."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phan-chia-trach-nhiem-va-cham-soc-35-59",
+      "stage": "midlife",
+      "title": "Kỹ năng sống tuổi 35–59: phân chia trách nhiệm, nghỉ ngơi và chăm sóc người thân",
+      "before": 211,
+      "after": 544,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+          "status": "opened",
+          "scope": "Khối lượng quá mức, quyền kiểm soát và hỗ trợ."
+        },
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+          "status": "opened",
+          "scope": "Chất lượng, chức năng, cấu trúc quan hệ; cô đơn và cô lập."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "sourceReview04h": {
+    "baseline": 131,
+    "previousReported": {
+      "baseline": 131,
+      "attempted": 66,
+      "remaining": 65,
+      "additional": 65
+    },
+    "priorRecomputed": {
+      "attempted": 66,
+      "additional": 67
+    },
+    "newBaselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/menopause"
+    ],
+    "newAdditional": [
+      "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+      "https://vanban.chinhphu.vn/?classid=1&docid=211199&pageid=27160&typegroupid=3",
+      "https://vanban.chinhphu.vn/?classid=2629&docid=217002&pageid=27160",
+      "https://baohiemxahoi.gov.vn/tintuc/Pages/cai-cach-chinh-sach-bhxh.aspx?CateID=0&ItemID=25803&OtItem=date"
+    ],
+    "note": "Không ghi đè số cộng dồn vì cách đếm ledger cũ chưa khớp; cần reconcile."
+  }
 }

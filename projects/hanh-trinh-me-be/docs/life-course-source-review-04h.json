@@ -1,0 +1,175 @@
+[
+  {
+    "id": "q04h_move",
+    "name": "WHO — Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "scope": "Khuyến nghị vận động và giảm ít vận động.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    ]
+  },
+  {
+    "id": "q04h_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "18–60 tuổi ít nhất 7 giờ/ngày; chất lượng ngủ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04h_diet",
+    "name": "WHO — Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm, natri và lưu ý muối thay thế chứa kali.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    ]
+  },
+  {
+    "id": "q04h_bp",
+    "name": "WHO — Hypertension",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+    "scope": "Tăng huyết áp thường không triệu chứng; đo và dấu hiệu cần chăm sóc ngay.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_meno",
+    "name": "WHO — Menopause",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+    "scope": "Mãn kinh tự nhiên, tiền mãn kinh và khả năng mang thai.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/menopause"
+    ]
+  },
+  {
+    "id": "q04h_work",
+    "name": "WHO — Mental health at work",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+    "scope": "Khối lượng quá mức, quyền kiểm soát và hỗ trợ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work"
+    ]
+  },
+  {
+    "id": "q04h_social",
+    "name": "WHO — Social connection",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+    "scope": "Chất lượng, chức năng, cấu trúc quan hệ; cô đơn và cô lập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+    ]
+  },
+  {
+    "id": "q04h_learn",
+    "name": "UNESCO — Lifelong learning",
+    "url": "https://www.unesco.org/en/lifelong-learning",
+    "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_career",
+    "name": "OECD — Career Guidance for Adults in a Changing World of Work",
+    "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+    "scope": "Tóm tắt điều hành báo cáo 2021; không suy ra thị trường Việt Nam.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html"
+    ]
+  },
+  {
+    "id": "q04h_mil",
+    "name": "UNESCO — Media and Information Literacy",
+    "url": "https://www.unesco.org/en/media-information-literacy",
+    "scope": "Trang tổng quan chương trình năng lực thông tin; chưa đọc tài liệu chi tiết.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_ai",
+    "name": "NIST — AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "scope": "Khung tự nguyện về độ tin cậy AI, trang tổng quan; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_fund",
+    "name": "CFPB — Emergency fund",
+    "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "scope": "Quỹ dự phòng cho chi phí bất ngờ; không áp luật Mỹ cho Việt Nam.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund"
+    ]
+  },
+  {
+    "id": "q04h_safety",
+    "name": "WHO — Occupational health",
+    "url": "https://www.who.int/health-topics/occupational-health",
+    "scope": "Tổng quan sức khỏe nghề nghiệp; không thay quy trình an toàn cụ thể.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/health-topics/occupational-health"
+    ]
+  },
+  {
+    "id": "q04h_bhxh",
+    "name": "Chính phủ — Luật BHXH 41/2024/QH15",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=211199&pageid=27160&typegroupid=3",
+    "scope": "Metadata luật gốc, hiệu lực 01/07/2025; chưa đọc PDF hoặc rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_labor",
+    "name": "Chính phủ — VBHN 18/VBHN-VPQH Bộ luật Lao động",
+    "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217002&pageid=27160",
+    "scope": "Metadata văn bản hợp nhất 12/02/2026; chưa đọc PDF hoặc rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_vssid",
+    "name": "BHXH Việt Nam — Cách xử lý khi VssID hiển thị thiếu năm đóng BHXH",
+    "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/cai-cach-chinh-sach-bhxh.aspx?CateID=0&ItemID=25803&OtItem=date",
+    "scope": "Kết quả tìm kiếm có hướng dẫn tra cứu, mở trang timeout.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04h_scam",
+    "name": "Bộ Công an — 25 kịch bản lừa đảo năm 2026",
+    "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+    "scope": "Kết quả tìm kiếm: giả danh, OTP, link độc hại; chưa mở toàn văn.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+    ]
+  }
+]
