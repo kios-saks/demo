@@ -24,5 +24,23 @@ jobs:
       - name: Install isolated browser test dependency
         run: npm install --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
       - run: npx playwright install --with-deps chromium
+      - name: Require the updated reader experience before testing
+        shell: bash
+        run: |
+          set -euo pipefail
+          origin=https://hanh-trinh-me-be-web-jn5v.onrender.com
+          for attempt in $(seq 1 18); do
+            if curl -fsS --max-time 20 "$origin/" -o /tmp/mebe-home.html &&
+               curl -fsS --max-time 20 "$origin/hoc-cung-con" -o /tmp/mebe-learning.html &&
+               grep -Fq 'Khám phá tri thức A–Z' /tmp/mebe-home.html &&
+               grep -Fq 'Bài học và hoạt động thực hành' /tmp/mebe-learning.html &&
+               ! grep -Fq 'href="/gia-dinh-demo"' /tmp/mebe-home.html; then
+              echo "READER_POLISH_READY"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Expected reader revision is not serving; refusing to test the previous revision"
+          exit 1
       - run: node scripts/qa-dev-live.mjs
       - run: node scripts/qa-dev-life-course-live.mjs
