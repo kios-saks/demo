@@ -1,3 +1,4 @@
+import {familyDemoEnabled} from "./family-demo-config";
 import {dynamicMediaEnabled,articleMediaUrl,catalogMediaUrl} from "./dynamic-media";
 import {escapeHtml as e,htmlResponse,connectionPending,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
 import {stageGroups,stageOptions,readerTopics,normalizeSearch} from "./reader-navigation";
@@ -42,11 +43,11 @@ function journeyPicker(){
 }
 function home(articles:ArticleSummary[]){
  const featured=stageGroups.map(g=>articles.find(a=>a.stage===g.image&&featuredSlugs.has(a.slug))||articles.find(a=>a.stage===g.image)).filter((a):a is ArticleSummary=>Boolean(a)).slice(0,6);
- return '<section class="hero-visual home-hero"><div class="hero"><span class="eyebrow">ĐỒNG HÀNH CÙNG GIA ĐÌNH</span><h1>Mỗi chặng lớn lên, <em>mình cùng hiểu hơn.</em></h1><p>Kiến thức từ khi chuẩn bị mang thai đến lúc con trưởng thành. Tìm đúng chủ đề, đúng giai đoạn, theo nhịp riêng của gia đình.</p><div class="search-zone">'+searchForm()+'</div><a class="primary-action" href="#cac-giai-doan">Khám phá hành trình →</a></div>'+image(editorialHero,editorialHeroAlt,"home-hero-image",true)+'</section>'+
+ return '<section class="hero-visual home-hero"><div class="hero"><span class="eyebrow">ĐỒNG HÀNH CÙNG GIA ĐÌNH</span><h1>Mỗi chặng lớn lên, <em>mình cùng hiểu hơn.</em></h1><p>Kiến thức từ khi chuẩn bị mang thai, nuôi dạy con đến chăm sóc bản thân và người thân qua từng chặng đời. Tìm đúng chủ đề, đúng giai đoạn, theo nhịp riêng của gia đình.</p><div class="search-zone">'+searchForm()+'</div><a class="primary-action" href="#cac-giai-doan">Khám phá hành trình →</a></div>'+image(editorialHero,editorialHeroAlt,"home-hero-image",true)+'</section>'+
  journeyPicker()+'<section class="home-section" id="cac-giai-doan"><div class="section-head"><div><span class="eyebrow">CHỌN ĐIỂM BẮT ĐẦU</span><h2>Khám phá theo hành trình</h2><p>6 nhóm lớn, 12 chặng chi tiết để bạn tìm đúng nội dung.</p></div><a class="text-link" href="/thu-vien">Xem toàn bộ thư viện →</a></div>'+stageGroupsHtml()+'</section>'+
  '<section class="home-section topic-panel"><h2>Bạn đang quan tâm điều gì?</h2>'+topicChips()+'</section>'+
  '<section class="home-section"><div class="section-head"><div><span class="eyebrow">ĐỌC VÀ HIỂU HƠN</span><h2>Kiến thức hữu ích</h2><p>Những bài viết được chọn từ các chặng của gia đình.</p></div><a class="text-link" href="/thu-vien">Tất cả bài viết →</a></div><div class="list">'+featured.map(itemCard).join("")+'</div></section>'+
- '<section class="home-section ecosystem-links"><a href="/hanh-trinh"><strong>Hành trình và checklist</strong><span>Chọn chặng và xem việc cần chuẩn bị →</span></a><a href="/da-luu"><strong>Kho kiến thức của tôi</strong><span>Mở những bài đã lưu →</span></a><a href="/nguon-tham-khao"><strong>Nguồn tham khảo</strong><span>Đối chiếu tài liệu gốc →</span></a></section>'+notice;
+ '<section class="home-section ecosystem-links"><a href="/hanh-trinh"><strong>Hành trình và checklist</strong><span>Chọn chặng và xem việc cần chuẩn bị →</span></a><a href="/da-luu"><strong>Kho kiến thức của tôi</strong><span>Mở những bài đã lưu →</span></a><a href="/nguon-tham-khao"><strong>Nguồn tham khảo</strong><span>Đối chiếu tài liệu gốc →</span></a>'+(familyDemoEnabled()?'<a href="/hoc-cung-con"><strong>Khám phá tri thức A–Z</strong><span>Kiến thức và kỹ năng cho mọi độ tuổi →</span></a>':'')+'</section>'+notice;
 }
 function guideDetails(slug:string){
  const guide=guides.find(g=>g.slug===slug);if(!guide)return "";
@@ -91,7 +92,7 @@ export async function renderReaderLibrary(request:Request,options:ReaderOptions=
   const list=articles.filter(a=>(!active||a.stage===active)&&(!norm||norm.split(" ").every(word=>normalizeSearch([a.title,a.summary,stageName(a.stage),...a.tags].join(" ")).includes(word))));
   const guide=guides.find(g=>g.slug===active);
   const isCatalog=!active&&!q&&mode==="library";
-  const hero=isCatalog?'<section class="hero-visual catalog-hero"><div class="hero"><span class="eyebrow">THƯ VIỆN KIẾN THỨC</span><h1>Khám phá theo hành trình của gia đình</h1><p>'+articles.length+' bài biên tập · '+articles.length+' bài chuyên sâu · '+guides.length+' giai đoạn</p></div>'+image(editorialHero,editorialHeroAlt,"catalog-image",true)+'</section>':
+  const hero=isCatalog?'<section class="hero-visual catalog-hero"><div class="hero"><span class="eyebrow">THƯ VIỆN KIẾN THỨC</span><h1>Khám phá theo hành trình của gia đình</h1><p>'+articles.length+' bài chuyên sâu · '+guides.length+' giai đoạn</p></div>'+image(editorialHero,editorialHeroAlt,"catalog-image",true)+'</section>':
    '<section class="compact-head'+(guide?' editorial-stage-head':'')+'"><div><nav class="reading-breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a> / <a href="/thu-vien">Thư viện</a></nav><h1>'+e(guide?stageName(active):"Tìm kiếm kiến thức")+'</h1>'+(guide?'<p>'+e(guide.overview)+'</p>':'<p>Tìm theo chủ đề hoặc giai đoạn, có dấu hoặc không dấu.</p>')+'</div>'+(guide?image(stageVisual(active),"Tranh minh họa giai đoạn "+stageName(active),"editorial-stage-image",true):"")+'</section>';
   const deepCards=isCatalog?list.filter(a=>featuredSlugs.has(a.slug)):[];
   const featured=deepCards.length?'<section class="article-section"><h2>Bài chuyên sâu tiêu biểu</h2><div class="list">'+deepCards.map(itemCard).join("")+'</div></section>':"";

@@ -66,7 +66,8 @@ assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-cover-[a-z0-9-]+\
 assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-group-[a-z0-9-]+\.svg|lifestyle-group-[a-z0-9-]+\.webp)/g)||[]).size,6,"Six separate group illustrations");
 assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
 assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="home-stage-groups stage-tile-grid"'),"Search must appear before 12 stage options");
-assert(overviewHtml.includes("72 bài biên tập"),"Dev library displays curated content count");
+assert(!overviewHtml.includes("72 bài biên tập"),"Reader does not duplicate the editorial count");
+assert(!overviewHtml.includes("Gia đình mẫu"),"Synthetic family tools are not advertised to readers");
 assert(overviewHtml.includes("72 bài chuyên sâu"),"DEV highlights the full long-form knowledge base");
 assert(overviewHtml.includes("Bài chuyên sâu tiêu biểu"),"DEV contains a curated highlighted reading shelf");
 assert(overviewHtml.includes("CHUYÊN SÂU"),"Reader presents article category");
@@ -94,6 +95,7 @@ assert((detailBody.match(/<section id="part-/g)||[]).length>=10,"Expanded articl
 assert.equal(detailDev.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
 assert(detailBody.includes("Chưa được thẩm định y khoa"));
 assert(!detailBody.includes("Nội dung dev"));
+assert(!/Minh họa DEV|Tranh minh họa ngữ cảnh DEV|đang biên tập, chưa thẩm định/.test(detailBody),"Reader captions must use public-facing copy");
 const newInfographic=await fetch(web+"/dev-review/hen-tu-van-tien-thai",{headers});
 assert.equal(newInfographic.status,200,"Source-linked infographic article must be visible to editor");
 const infographicHtml=await newInfographic.text();

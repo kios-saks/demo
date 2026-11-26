@@ -10,6 +10,6 @@
   const target=new URL(link.href,location.href);
   if(target.origin!==location.origin||target.pathname===location.pathname&&target.search===location.search&&target.hash)return;
   if(!status){status=document.createElement("p");status.setAttribute("role","status");status.setAttribute("aria-live","polite");status.className="warn";document.getElementById("dev-main")?.prepend(status);}
-  status.hidden=false;status.textContent="Đang kết nối và tải dữ liệu… Backend có thể cần thêm thời gian để khởi động.";
+  status.hidden=false;status.textContent="Đang tải nội dung…";
  });
 })();

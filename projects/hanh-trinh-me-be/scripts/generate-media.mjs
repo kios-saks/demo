@@ -86,7 +86,7 @@ function svgFor(a,i){
  '<g transform="translate('+(941+left)+' 345) scale(1.02)">'+motif+'</g>'+
  circles+
  '<rect x="78" y="605" width="148" height="8" rx="4" fill="'+accent+'" opacity=".39"/>'+
- '<text x="78" y="645" fill="#785e6e" font-size="18" font-family="Arial,sans-serif">Minh họa nguyên bản • Nội dung đang biên tập</text>'+
+ '<text x="78" y="645" fill="#785e6e" font-size="18" font-family="Arial,sans-serif">Minh họa nguyên bản • Hành Trình Mẹ &amp; Bé</text>'+
  '</svg>\n';
 }
 const expected=new Set();

@@ -23,6 +23,9 @@ try{
  await page.locator("[data-life-stage]").first().waitFor();
  assert.equal(await page.locator("[data-life-stage]").count(),12);
  assert.match(await page.locator("[data-life-coverage]").innerText(),/219/);
+ assert.ok(!(await page.locator("body").innerText()).includes("Bản biên tập DEV"),"No internal workflow wording");
+ assert.equal(await page.locator('nav a[href="/gia-dinh-demo"]').count(),0,"Synthetic family hidden from navigation");
+ assert.match(await page.locator(".learn-note").innerText(),/chưa được thẩm định chuyên môn/i);
  same(await page.locator("[data-learning-lesson]").evaluateAll(xs=>xs.map(x=>x.dataset.learningLesson)),lessons.lessons.map(x=>x.id),"21 lesson ids");
  for(const l of lessons.lessons){
   const node=page.locator('[data-learning-lesson="'+l.id+'"]');
@@ -37,7 +40,8 @@ try{
   const expected=inv.refs.filter(x=>x.stage===stage.id);
   const href=x=>x.kind==="legacy"?x.href:x.kind==="article"?"#az-"+x.id:"#lesson-"+x.id;
   const links=await page.locator("[data-life-refs] a").evaluateAll(xs=>xs.map(x=>x.getAttribute("href")));
-  same(links,expected.map(href),"Stage references "+stage.id);seenRefs.push(...expected.map(x=>x.kind+":"+x.id));
+  same(links,expected.map(href),"Stage references "+stage.id);
+  assert.ok(!/\bdraft\b|cần rà soát|nhóm cần biên tập|không hiển thị bài giả/i.test(await page.locator("[data-life-coverage], [data-life-refs], .life-pillars").allTextContents().then(x=>x.join(" "))),"No internal workflow labels "+stage.id);seenRefs.push(...expected.map(x=>x.kind+":"+x.id));
   const articles=bundle.articles.filter(x=>x.stage===stage.id);
   same(await page.locator("[data-life-article]").evaluateAll(xs=>xs.map(x=>x.dataset.lifeArticle)),articles.map(x=>x.id),"Stage articles "+stage.id);
   for(const a of articles){
@@ -61,6 +65,8 @@ try{
   for(const s of a.sections)assert.ok(html.includes(esc(s.heading)),"Legacy heading "+a.slug);
   assert.ok(html.includes(esc(a.sections.at(-1).paragraphs.at(-1))),"Legacy revised body "+a.slug);
   assert.ok(html.includes('id="article-sources"'),"Legacy sources "+a.slug);
+  assert.ok(!/Minh họa DEV|Tranh minh họa ngữ cảnh DEV|đang biên tập, chưa thẩm định/.test(html),"Reader caption copy "+a.slug);
+  assert.ok(html.includes("Chưa được thẩm định y khoa"),"Medical limitation retained "+a.slug);
  }));
  assert.equal(legacy.length,72);
  console.log("DEV_LIFE_COURSE_219_PASS",JSON.stringify({legacy:72,lessons:21,articles:126,refs:219,stages:12}));
