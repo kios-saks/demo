@@ -9,7 +9,8 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: mebe-dev-live-qa
+  # Separate workflow queue: shared pending slots can cancel an unstarted Live QA run.
+  group: mebe-dev-live-http-qa
   cancel-in-progress: false
 jobs:
   live-public-smoke:
