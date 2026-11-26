@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: IN PROGRESS · UX-01 và UX-02 CLOSED trong phạm vi DEV, 2/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01–UX-03 CLOSED trong phạm vi DEV, 3/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -30,12 +30,12 @@ Dependency: UX-01.
 **UX-02 CLOSED — Combined DEV-only acceptance (26/11/2026):** App `3b4c52f` LIVE; CI `1c2d968` 5/5 PASS; [QA 45788595455](https://github.com/kios-saks/demo/actions/runs/45788595455) PASS 219 refs, 72 legacy full-text, privatePost:true, synthetic GET/POST HTTP 200. AC02.1 CLOSED; AC02.2 CLOSED (40 approved fixtures V1, Top 3 40/40, exact title 219/219); AC02.3 CLOSED trong phạm vi Combined DEV theo quyết định chủ dự án, giữ URL cũ. Strict privacy hạ tầng chưa xác minh: PRB-UX02-PRIVACY OPEN/BLOCKING trước Production. Authenticated preview SKIP thiếu token, không đổi thành PASS. [Final review](ux-02-final-review.md). Sprint 2/10 CLOSED, UX-03 tiếp theo. Production gate CLOSED; PR #1 Draft.
 
 ### UX-03 · P0 · Homepage
-- [ ] AC03.1: ở 390×844, search và lối chọn nhóm tuổi nhận biết không cần cuộn quá một viewport; không hero quá cao, không pop-up/ép đăng nhập; có đường đến A–Z và tìm kiếm chính.
-- [ ] AC03.2: chưa chọn sở thích → gợi ý chung; đã chọn → gợi ý liên quan và tiếp tục đọc nếu opt-in. Không tạo bài giả/trending nếu không có số liệu.
-- [ ] AC03.3: 5 nhiệm vụ phổ biến (ăn dặm, dậy thì, AI, tài chính, tuổi già) có đường đến bài ≤3 thao tác chính từ home qua search/chọn nhóm; đo UX-10. Evidence: desktop/mobile browser flows.
+- [x] AC03.1: ở 390×844, search và lối chọn nhóm tuổi nhận biết không cần cuộn quá một viewport; không hero quá cao, không pop-up/ép đăng nhập; có đường đến A–Z và tìm kiếm chính.
+- [x] AC03.2: chưa chọn sở thích → gợi ý chung; đã chọn → gợi ý liên quan và tiếp tục đọc nếu opt-in. Không tạo bài giả/trending nếu không có số liệu.
+- [x] AC03.3: 5 nhiệm vụ phổ biến (ăn dặm, dậy thì, AI, tài chính, tuổi già) có đường đến bài ≤3 thao tác chính từ home qua search/chọn nhóm; đo UX-10. Evidence: desktop/mobile browser flows.
 Dependency: UX-01/02/04.
 
-**UX-03 candidate (26/11/2026):** [audit / implementation / acceptance plan](ux-03-implementation.md). Search-first, 6 life-course groups, actual corpus recommendations, explicit local opt-in and legacy history, 5 task paths. AC03.1–3 OPEN pending CI and LIVE QA; UX-10 human study still required. Production gate and PRB-UX02-PRIVACY unchanged.
+**UX-03 CLOSED — Combined DEV technical acceptance (26/11/2026):** [audit / implementation / final acceptance](ux-03-implementation.md). App `68f3d01` LIVE; CI `edaf716` 5/5 PASS. [LIVE QA 45798534809](https://github.com/kios-saks/demo/actions/runs/45798534809): AC03.1 search bottom 307.16px, age bottom 706.59px ≤ visible 783px at 390×844, 4 widths, no overflow/modal; AC03.2 real general/personalized recommendations, explicit opt-in, legacy recent history, reset/clear PASS; AC03.3 10/10 browser task flows at 390/1440, 2 principal actions each. UX03_HOMEPAGE_BROWSER_PASS and UX01/02 regressions PASS. UX-10 human usability study remains required; A–Z history expansion remains UX-07/08. Authenticated preview SKIP missing token. Sprint 3/10 CLOSED; UX-04 next. Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
 ### UX-04 · P0 · Shell & navigation
 - [ ] AC04.1: 4 đích Trang chủ/Khám phá/Hành trình/Cá nhân cùng tên, order, active state trên mọi reader route, desktop/mobile; nguồn footer, CMS/demo không quảng bá.
