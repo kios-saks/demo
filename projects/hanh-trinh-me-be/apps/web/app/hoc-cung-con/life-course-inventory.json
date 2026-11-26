@@ -1357,8 +1357,8 @@
       "stage": "later-life",
       "pillar": "health",
       "originalStage": "later-life",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-ke-hoach-cham-soc-75-plus"
     },
@@ -1909,8 +1909,8 @@
       "stage": "later-life",
       "pillar": "nutrition",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-ho-tro-an-uong-75-plus"
     },
@@ -1921,8 +1921,8 @@
       "stage": "later-life",
       "pillar": "psych",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-cam-xuc-mat-mat-75-plus"
     },
@@ -1933,8 +1933,8 @@
       "stage": "later-life",
       "pillar": "body",
       "originalStage": "later-life",
-      "sourceCount": 4,
-      "sectionCount": 4,
+      "sourceCount": 6,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-giac-quan-va-tu-quyet-75-plus"
     },
@@ -1945,8 +1945,8 @@
       "stage": "later-life",
       "pillar": "routine",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 6,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-nhip-sinh-hoat-ho-tro-75-plus"
     },
@@ -1958,7 +1958,7 @@
       "pillar": "education",
       "originalStage": "later-life",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-hoc-theo-so-thich-75-plus"
     },
@@ -1970,7 +1970,7 @@
       "pillar": "schools",
       "originalStage": "later-life",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-lop-hoc-de-tiep-can-75-plus"
     },
@@ -1981,8 +1981,8 @@
       "stage": "later-life",
       "pillar": "safety",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-an-toan-nha-va-ke-hoach-ho-tro-75-plus"
     },
@@ -2653,8 +2653,8 @@
       "stage": "later-life",
       "pillar": "thinking",
       "originalStage": "later-life",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-tri-tue-va-so-thich-75-plus"
     },
@@ -2665,8 +2665,8 @@
       "stage": "later-life",
       "pillar": "digital",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 5,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-lien-lac-so-va-bao-mat-75-plus"
     },
@@ -2677,8 +2677,8 @@
       "stage": "later-life",
       "pillar": "relationships",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-ket-noi-va-nguoi-cham-soc-75-plus"
     },
@@ -2690,7 +2690,7 @@
       "pillar": "talents",
       "originalStage": "later-life",
       "sourceCount": 3,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-nghe-thuat-va-so-thich-co-ho-tro-75-plus"
     },
@@ -2702,7 +2702,7 @@
       "pillar": "finance",
       "originalStage": "later-life",
       "sourceCount": 4,
-      "sectionCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-ho-tro-tai-chinh-va-phong-loi-dung-75-plus"
     },
@@ -2713,8 +2713,8 @@
       "stage": "later-life",
       "pillar": "career",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-hoat-dong-co-y-nghia-75-plus"
     },
@@ -2725,8 +2725,8 @@
       "stage": "later-life",
       "pillar": "civic",
       "originalStage": "later-life",
-      "sourceCount": 5,
-      "sectionCount": 4,
+      "sourceCount": 8,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-quyen-loi-dai-dien-va-cham-soc-75-plus"
     },
@@ -2737,8 +2737,8 @@
       "stage": "later-life",
       "pillar": "life",
       "originalStage": "later-life",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 5,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-tu-chu-va-ke-hoach-cham-soc-75-plus"
     }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04I",
+  "batch": "S04-AZ-04J",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -935,8 +935,9 @@
       "stage": "later-life",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:gan-bo-va-dap-ung-nam-dau",
@@ -1348,56 +1349,63 @@
       "stage": "later-life",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:cam-xuc-mat-mat-75-plus",
       "stage": "later-life",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:giac-quan-va-tu-quyet-75-plus",
       "stage": "later-life",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:nhip-sinh-hoat-ho-tro-75-plus",
       "stage": "later-life",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:hoc-theo-so-thich-75-plus",
       "stage": "later-life",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:lop-hoc-de-tiep-can-75-plus",
       "stage": "later-life",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
       "stage": "later-life",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:ngan-sach-don-be",
@@ -1896,64 +1904,72 @@
       "stage": "later-life",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:lien-lac-so-va-bao-mat-75-plus",
       "stage": "later-life",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:ket-noi-va-nguoi-cham-soc-75-plus",
       "stage": "later-life",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus",
       "stage": "later-life",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
       "stage": "later-life",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:hoat-dong-co-y-nghia-75-plus",
       "stage": "later-life",
       "pillar": "career",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:quyen-loi-dai-dien-va-cham-soc-75-plus",
       "stage": "later-life",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     },
     {
       "key": "article:tu-chu-va-ke-hoach-cham-soc-75-plus",
       "stage": "later-life",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04J"
     }
   ],
   "upgraded": [
@@ -6775,5 +6791,364 @@
       "additional": 76
     },
     "note": "Phép union URL bỏ / cuối đã kiểm tra từ 12 ledger trước và 24 URL mở trong lượt xác minh ban đầu. Giữ số lịch sử 04G/04H vì chênh lệch phương pháp; số recomputed là đếm kỹ thuật, không phải xác minh claim. Hai URL cache miss không tính là đã mở."
+  },
+  "revisions04j": [
+    {
+      "key": "article:ke-hoach-cham-soc-75-plus",
+      "stage": "later-life",
+      "title": "Tuổi 75+: chuẩn bị một kế hoạch chăm sóc tôn trọng khả năng và mong muốn cá nhân",
+      "before": 261,
+      "after": 636,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+          "status": "opened-overview",
+          "scope": "Trang giới thiệu: suy giảm năng lực nội tại, nhu cầu xã hội, kế hoạch cá nhân; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+          "status": "opened",
+          "scope": "Chất lượng sống, giảm đau khổ thể chất/tâm lý/xã hội/tâm linh và tiếp cận sớm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ho-tro-an-uong-75-plus",
+      "stage": "later-life",
+      "title": "Ăn uống tuổi 75+: tôn trọng khẩu vị, hỗ trợ nhai nuốt và phát hiện thiếu dinh dưỡng",
+      "before": 205,
+      "after": 569,
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/conditions/malnutrition/",
+          "status": "opened",
+          "scope": "Sụt cân không chủ ý, ăn kém, yếu và mệt; cần đánh giá."
+        },
+        {
+          "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+          "status": "opened",
+          "scope": "Ho/sặc, giọng ướt, thức ăn mắc, sụt cân và nhiễm trùng hô hấp."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:cam-xuc-mat-mat-75-plus",
+      "stage": "later-life",
+      "title": "Tâm lý tuổi 75+: kết nối, mất mát và tôn trọng lựa chọn",
+      "before": 216,
+      "after": 575,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+          "status": "opened",
+          "scope": "Chất lượng sống, giảm đau khổ thể chất/tâm lý/xã hội/tâm linh và tiếp cận sớm."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Môi trường hỗ trợ, kết nối, hỗ trợ người chăm và sức khỏe tinh thần."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:giac-quan-va-tu-quyet-75-plus",
+      "stage": "later-life",
+      "title": "Cơ thể tuổi 75+: giác quan, di chuyển và quyền tự quyết trong chăm sóc",
+      "before": 212,
+      "after": 574,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+          "status": "opened",
+          "scope": "Mục tiêu chức năng và độc lập; điều chỉnh môi trường, hỗ trợ chuyên môn."
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf",
+          "status": "opened-excerpt",
+          "scope": "Đọc text Điều 3, 9–15 trang 4, 10–11; screenshot trang 4 cache miss, chưa rà toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-sinh-hoat-ho-tro-75-plus",
+      "stage": "later-life",
+      "title": "Nhịp sinh hoạt tuổi 75+: nghỉ ngơi, vệ sinh và hỗ trợ hoạt động hằng ngày",
+      "before": 201,
+      "after": 558,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng, môi trường và quyền lựa chọn."
+        },
+        {
+          "url": "https://www.nhs.uk/conditions/pressure-sores/",
+          "status": "opened",
+          "scope": "Nguy cơ khi ít di chuyển; dấu hiệu đổi màu da, đau, thay đổi nhiệt/độ cứng."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+          "status": "opened",
+          "scope": "Mục tiêu chức năng và độc lập; điều chỉnh môi trường, hỗ trợ chuyên môn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoc-theo-so-thich-75-plus",
+      "stage": "later-life",
+      "title": "Học tập tuổi 75+: đọc, kể chuyện và tiếp cận thông tin theo sở thích",
+      "before": 210,
+      "after": 559,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng, môi trường và quyền lựa chọn."
+        },
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 2026, học tập và tham gia cộng đồng; chưa đọc toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lop-hoc-de-tiep-can-75-plus",
+      "stage": "later-life",
+      "title": "Tìm lớp học và sinh hoạt cộng đồng dễ tiếp cận cho tuổi 75+",
+      "before": 216,
+      "after": 574,
+      "sourceChecks": [
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 2026, học tập và tham gia cộng đồng; chưa đọc toàn văn."
+        },
+        {
+          "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+          "status": "opened",
+          "scope": "Mô hình học tập cộng đồng, không xác nhận lịch lớp hiện tại."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-nha-va-ke-hoach-ho-tro-75-plus",
+      "stage": "later-life",
+      "title": "An toàn tuổi 75+: môi trường nhà, phòng té ngã và kế hoạch trợ giúp",
+      "before": 224,
+      "after": 574,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+          "status": "opened",
+          "scope": "Yếu tố nguy cơ môi trường, vận động, thị giác và nhận thức."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+          "status": "opened",
+          "scope": "Mục tiêu chức năng và độc lập; điều chỉnh môi trường, hỗ trợ chuyên môn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tri-tue-va-so-thich-75-plus",
+      "stage": "later-life",
+      "title": "Tư duy tuổi 75+: trò chuyện, câu hỏi và hoạt động trí tuệ tự nguyện",
+      "before": 204,
+      "after": 562,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+          "status": "opened",
+          "scope": "Dấu hiệu nhận thức và chức năng, đa dạng biểu hiện."
+        },
+        {
+          "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+          "status": "opened-overview",
+          "scope": "Giới thiệu báo cáo 2026, học tập và tham gia cộng đồng; chưa đọc toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:lien-lac-so-va-bao-mat-75-plus",
+      "stage": "later-life",
+      "title": "Kỹ năng số tuổi 75+: liên lạc, thiết bị dễ dùng và bảo mật",
+      "before": 221,
+      "after": 593,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng, môi trường và quyền lựa chọn."
+        },
+        {
+          "url": "https://www.unesco.org/en/media-information-literacy",
+          "status": "opened-overview",
+          "scope": "Tổng quan năng lực thông tin, truyền thông và AI."
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+          "status": "opened",
+          "scope": "Khuyến cáo xác minh giao dịch và phòng lừa đảo."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ket-noi-va-nguoi-cham-soc-75-plus",
+      "stage": "later-life",
+      "title": "Quan hệ tuổi 75+: kết nối với gia đình, cộng đồng và người chăm sóc",
+      "before": 208,
+      "after": 559,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+          "status": "opened",
+          "scope": "Bạo hành thể chất, tinh thần, tài chính, tình dục và bỏ bê."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Môi trường hỗ trợ, kết nối, hỗ trợ người chăm và sức khỏe tinh thần."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nghe-thuat-va-so-thich-co-ho-tro-75-plus",
+      "stage": "later-life",
+      "title": "Sở thích tuổi 75+: âm nhạc, nghệ thuật và hoạt động có hỗ trợ",
+      "before": 199,
+      "after": 548,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng, môi trường và quyền lựa chọn."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+          "status": "opened",
+          "scope": "Môi trường hỗ trợ, kết nối, hỗ trợ người chăm và sức khỏe tinh thần."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:ho-tro-tai-chinh-va-phong-loi-dung-75-plus",
+      "stage": "later-life",
+      "title": "Tài chính tuổi 75+: chi tiêu, hỗ trợ có giới hạn và phòng lợi dụng",
+      "before": 213,
+      "after": 572,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud/",
+          "status": "opened-overview",
+          "scope": "Danh mục tài liệu phòng lợi dụng và người liên hệ tin cậy; không áp luật Hoa Kỳ."
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness/",
+          "status": "opened",
+          "scope": "Lập kế hoạch hỗ trợ tài chính khi sức khỏe thay đổi; không áp luật Hoa Kỳ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:hoat-dong-co-y-nghia-75-plus",
+      "stage": "later-life",
+      "title": "Tuổi 75+: hoạt động có ý nghĩa, chia sẻ kinh nghiệm và quyền nghỉ ngơi",
+      "before": 206,
+      "after": 560,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+          "status": "opened",
+          "scope": "Khả năng chức năng, môi trường và quyền lựa chọn."
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/23-vbhn-vpqh.pdf",
+          "status": "opened-excerpt",
+          "scope": "Đọc text Điều 3 trang 1–2: quyền sống riêng/chung, tham gia, nghỉ ngơi; không rà toàn văn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-loi-dai-dien-va-cham-soc-75-plus",
+      "stage": "later-life",
+      "title": "Quyền lợi tuổi 75+ tại Việt Nam: đại diện, hỗ trợ xã hội và quyết định chăm sóc",
+      "before": 225,
+      "after": 607,
+      "sourceChecks": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/23-vbhn-vpqh.pdf",
+          "status": "opened-excerpt",
+          "scope": "Đọc text Điều 3 trang 1–2: quyền sống riêng/chung, tham gia, nghỉ ngơi; không rà toàn văn."
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf",
+          "status": "opened-excerpt",
+          "scope": "Đọc text Điều 3, 9–15 trang 4, 10–11; screenshot trang 4 cache miss, chưa rà toàn văn."
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/176nd.signed.pdf",
+          "status": "opened-excerpt",
+          "scope": "Đọc ảnh trang 1–2, Điều 2–4 về điều kiện, mức và trình tự; chưa rà toàn bộ sửa đổi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:tu-chu-va-ke-hoach-cham-soc-75-plus",
+      "stage": "later-life",
+      "title": "Kỹ năng sống tuổi 75+: hỗ trợ tự chủ, kế hoạch chăm sóc và phẩm giá",
+      "before": 217,
+      "after": 602,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+          "status": "opened",
+          "scope": "Chất lượng sống, giảm đau khổ thể chất/tâm lý/xã hội/tâm linh và tiếp cận sớm."
+        },
+        {
+          "url": "https://syt.dongnai.gov.vn/vi/van-ban/detail/V-v-trien-khai-Quyet-dinh-so-183-QD-BYT-ngay-25-01-2022-cua-Bo-Y-te-ve-viec-ban-hanh-Huong-dan-cham-6942/",
+          "status": "opened-overview",
+          "scope": "Trang công bố công văn 1064/SYT-NV; chưa đọc PDF hướng dẫn kèm theo hoặc rà thay thế."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "sourceReview04j": {
+    "previousRecomputed": {
+      "baseline": 131,
+      "attempted": 75,
+      "remaining": 56,
+      "additional": 76
+    },
+    "openedInBatch": 24,
+    "baselineMatches": [
+      "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+      "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+      "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "https://www.nhs.uk/conditions/malnutrition",
+      "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+      "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+      "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud",
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness",
+      "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+    ],
+    "note": "Ledger 04J ghi nguồn truy cập và trích đoạn PDF riêng; chưa tính union cộng dồn với toàn bộ ledger lịch sử, giữ số 04I. Không đồng nghĩa thẩm định claim."
   }
 }

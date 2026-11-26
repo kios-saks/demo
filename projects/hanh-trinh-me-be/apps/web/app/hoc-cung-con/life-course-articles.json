@@ -949,6 +949,60 @@
       "url": "https://www.who.int/initiatives/medication-without-harm",
       "scope": "An toàn ở nhiều khâu sử dụng thuốc.",
       "checkedOn": "2026-11-26"
+    },
+    "q04j_palliative": {
+      "name": "WHO — Palliative care",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+      "scope": "Chất lượng sống, giảm đau khổ thể chất/tâm lý/xã hội/tâm linh và tiếp cận sớm.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_palliativeVN": {
+      "name": "Sở Y tế Đồng Nai — Triển khai Quyết định 183/QĐ-BYT 25/01/2022",
+      "url": "https://syt.dongnai.gov.vn/vi/van-ban/detail/V-v-trien-khai-Quyet-dinh-so-183-QD-BYT-ngay-25-01-2022-cua-Bo-Y-te-ve-viec-ban-hanh-Huong-dan-cham-6942/",
+      "scope": "Trang công bố công văn 1064/SYT-NV; chưa đọc PDF hướng dẫn kèm theo hoặc rà thay thế.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_swallow": {
+      "name": "NHS — Dysphagia",
+      "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+      "scope": "Ho/sặc, giọng ướt, thức ăn mắc, sụt cân và nhiễm trùng hô hấp.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_pressure": {
+      "name": "NHS — Pressure ulcers",
+      "url": "https://www.nhs.uk/conditions/pressure-sores/",
+      "scope": "Nguy cơ khi ít di chuyển; dấu hiệu đổi màu da, đau, thay đổi nhiệt/độ cứng.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_rehab": {
+      "name": "WHO — Rehabilitation",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+      "scope": "Mục tiêu chức năng và độc lập; điều chỉnh môi trường, hỗ trợ chuyên môn.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_abuse": {
+      "name": "WHO — Abuse of older people",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+      "scope": "Bạo hành thể chất, tinh thần, tài chính, tình dục và bỏ bê.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_lawPDF": {
+      "name": "VBHN 23/VBHN-VPQH — bản PDF Luật Người cao tuổi",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/23-vbhn-vpqh.pdf",
+      "scope": "Đọc text Điều 3 trang 1–2: quyền sống riêng/chung, tham gia, nghỉ ngơi; không rà toàn văn.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_medicalPDF": {
+      "name": "VBHN 26/VBHN-VPQH — bản PDF Luật Khám bệnh, chữa bệnh",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf",
+      "scope": "Đọc text Điều 3, 9–15 trang 4, 10–11; screenshot trang 4 cache miss, chưa rà toàn văn.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04j_pensionPDF": {
+      "name": "Nghị định 176/2025/NĐ-CP — PDF chính thức",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/176nd.signed.pdf",
+      "scope": "Đọc ảnh trang 1–2, Điều 2–4 về điều kiện, mức và trình tự; chưa rà toàn bộ sửa đổi.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1756,17 +1810,48 @@
           "body": "Khi có thay đổi đột ngột về ý thức, yếu liệt mới, khó thở nặng hoặc tình huống cấp cứu, tìm hỗ trợ y tế khẩn cấp. Với thay đổi từ từ về sinh hoạt, trao đổi chuyên gia để xem xét nhu cầu mới. Sau mỗi lần khám hoặc thay đổi hoàn cảnh, hỏi người được chăm sóc xem kế hoạch còn phù hợp không.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xây kế hoạch từ chức năng thực tế",
+          "body": "Trang giới thiệu ICOPE của WHO mô tả cách nhân viên y tế phát hiện suy giảm năng lực, xác định nhu cầu hỗ trợ xã hội và xây kế hoạch cá nhân. Gia đình có thể chuẩn bị thông tin về việc đi lại, ăn uống, nghe nhìn, trí nhớ, thuốc và điều người được chăm muốn duy trì. Ghi ví dụ cụ thể như gần đây khó tự mặc áo hay đi từ giường tới cửa, thay vì chỉ ghi yếu. Không tự dùng danh sách này để kết luận mức phụ thuộc hoặc thay thế đánh giá lão khoa.",
+          "sourceIds": [
+            "icope"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Một hồ sơ chăm sóc dùng khi chuyển ca",
+          "body": "Chuẩn bị tờ thông tin gồm mục tiêu chăm sóc, đơn thuốc hiện hành, dị ứng đã biết, đầu mối chuyên môn, lịch hẹn và phần việc cần hỗ trợ. Ghi ngày cập nhật và người chịu trách nhiệm xác minh. Khi người nhà thay ca hoặc từ bệnh viện về, hỏi rõ thuốc nào đã thay, thao tác nào cần được hướng dẫn và dấu hiệu cần liên hệ. Không chia sẻ hồ sơ qua nhóm công khai; để người được chăm biết ai có quyền xem.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi cần chăm sóc giảm nhẹ",
+          "body": "WHO định nghĩa chăm sóc giảm nhẹ nhằm cải thiện chất lượng sống của người có bệnh đe dọa tính mạng và gia đình, giải quyết đau khổ về thể chất, tâm lý, xã hội và tâm linh. Có thể hỏi đội ngũ điều trị từ sớm về kiểm soát triệu chứng và hỗ trợ tại nhà; không phải chờ những ngày cuối. Tuổi 75 trở lên tự nó không phải chỉ định chăm sóc giảm nhẹ. Không tự ngừng điều trị bệnh hoặc điều chỉnh thuốc vì nghe rằng đã đến giai đoạn giảm nhẹ.",
+          "sourceIds": [
+            "q04j_palliative"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuẩn bị cuộc trao đổi với cơ sở điều trị",
+          "body": "Hỏi người bệnh điều gì quan trọng nhất, muốn được giải thích bằng cách nào, ai có thể tham gia buổi trao đổi và nhu cầu tín ngưỡng nếu có. Với bệnh nặng, hỏi về mục tiêu điều trị, phương án hỗ trợ triệu chứng, chi phí dự kiến, đầu mối ngoài giờ và việc cần làm nếu tình trạng xấu đi. Ghi câu trả lời theo hướng dẫn của bác sĩ, không coi cuộc trao đổi gia đình là y lệnh hoặc văn bản đại diện hợp pháp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Viết ba mục tiêu sinh hoạt do người cao tuổi lựa chọn.",
         "Lập danh sách hỗ trợ, người liên hệ và thông tin cần mang tới buổi khám; giữ riêng tư.",
-        "Đặt lịch trao đổi lại kế hoạch sau một tháng hoặc khi có thay đổi đáng kể."
+        "Đặt lịch trao đổi lại kế hoạch sau một tháng hoặc khi có thay đổi đáng kể.",
+        "Chuẩn bị một tờ bàn giao chăm sóc có ngày cập nhật và phạm vi chia sẻ.",
+        "Hỏi đội ngũ điều trị về hỗ trợ triệu chứng, chức năng và đầu mối ngoài giờ."
       ],
       "limits": "Không tự thực hiện đánh giá ICOPE thay nhân viên y tế, không chẩn đoán hoặc điều trị. Quyết định chăm sóc cần phù hợp quyền tự quyết, năng lực và hoàn cảnh của từng người.",
       "sourceIds": [
         "icope",
-        "ageing"
+        "ageing",
+        "q04j_palliative"
       ],
       "status": "draft"
     },
@@ -5437,18 +5522,49 @@
           "body": "Ghi thời điểm ăn kém, khó uống, sụt cân không chủ ý hoặc mệt, mang tới buổi khám. Tuân thủ hướng dẫn về lượng dịch nếu có bệnh nền. Khi hóc gây không thở được hoặc tình huống nghiêm trọng, gọi trợ giúp khẩn cấp và làm theo hướng dẫn chuyên môn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sụt cân không chủ ý cần được chú ý",
+          "body": "NHS nêu sụt cân không mong muốn, giảm hứng thú ăn uống, mệt và yếu là các dấu hiệu có thể gặp khi thiếu dinh dưỡng. Hỏi về khẩu vị, đau răng, khó mua thực phẩm và cảm giác khi ăn; ghi diễn biến theo thời gian nếu người ăn đồng ý. Không chỉ dựa vào dáng người hoặc cân nặng một ngày để kết luận. Nếu giảm cân kéo dài hoặc khả năng ăn uống giảm, hẹn đánh giá y tế và dinh dưỡng để tìm nguyên nhân.",
+          "sourceIds": [
+            "malnutrition"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhận ra khó nuốt và nguy cơ khi ăn uống",
+          "body": "NHS mô tả những biểu hiện khó nuốt như ho hoặc sặc khi ăn uống, giọng nghe ướt, cảm giác thức ăn mắc lại. Tình trạng này có thể dẫn đến thiếu nước, giảm cân và nhiễm trùng hô hấp. Ghi món hoặc đồ uống gây khó khăn, thời điểm xuất hiện và triệu chứng kèm theo để báo nhân viên y tế sớm. Không cố cho uống nước để đẩy thức ăn mắc, không tự thử chế độ xay hoặc làm đặc theo quảng cáo; nếu không thở được, gọi cấp cứu ngay.",
+          "sourceIds": [
+            "q04j_swallow"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bữa cơm hỗ trợ đúng khả năng",
+          "body": "Ví dụ người ăn vẫn tự dùng thìa nhưng khó mở hộp hoặc cắt thức ăn. Hỏi họ muốn giúp phần chuẩn bị nào, sắp xếp dụng cụ và chỗ ngồi theo hướng dẫn đã được chuyên gia cung cấp. Nếu có kế hoạch kết cấu thức ăn, tư thế hoặc mức dịch cá nhân, thống nhất cách thực hiện giữa các ca. Dành thời gian ăn không vội; khi người đó mệt hoặc khó chịu, báo nhân viên y tế nếu tình trạng bất thường, không ép ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bàn giao về nước uống và chăm sóc miệng",
+          "body": "Ghi món và lượng ăn uống quan sát được khi cần, không biến việc ghi chép thành chỉ tiêu bắt buộc. Hỏi điều dưỡng hoặc bác sĩ về vệ sinh miệng, dụng cụ và cách theo dõi khi có bệnh nền. Với người được chỉ định hạn chế dịch, không áp một lượng nước chung. Nếu môi khô, ăn kém hoặc khó nuốt tăng lên, trao đổi sớm; khi có dấu hiệu cấp tính nghiêm trọng, tìm cấp cứu. Không tự nghiền thuốc vào thức ăn nếu dược sĩ chưa xác nhận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi người ăn về món, dụng cụ và giờ họ thích.",
         "Kiểm tra những rào cản khi mua, nấu hoặc ăn.",
-        "Liên hệ chuyên gia nếu có khó nuốt hoặc ăn kém kéo dài."
+        "Liên hệ chuyên gia nếu có khó nuốt hoặc ăn kém kéo dài.",
+        "Ghi thay đổi khẩu vị, cân nặng và biểu hiện khó nuốt để báo chuyên môn.",
+        "Đối chiếu kế hoạch ăn uống, thuốc và chăm sóc miệng giữa người hỗ trợ."
       ],
       "limits": "Không chỉ định kết cấu, lượng dịch, khẩu phần hay bổ sung dinh dưỡng; cần đánh giá nhai nuốt và sức khỏe riêng.",
       "sourceIds": [
         "icope",
         "malnutrition",
-        "eatingSupport"
+        "eatingSupport",
+        "q04j_swallow"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -5487,18 +5603,49 @@
           "body": "Nếu buồn bã, lo âu hoặc thay đổi hành vi kéo dài và ảnh hưởng cuộc sống, trao đổi nhân viên y tế. Lú lẫn đột ngột, không thể giữ an toàn hoặc nguy cơ tự gây hại cần trợ giúp khẩn cấp. Không tự kết luận sa sút trí tuệ hay trầm cảm dựa vào tuổi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đau buồn và thay đổi đời sống không giống nhau",
+          "body": "WHO đặt sức khỏe tinh thần tuổi cao trong bối cảnh môi trường hỗ trợ, khả năng tham gia và kết nối. Khi mất bạn đời hoặc chuyển nơi sống, người này muốn có người bên cạnh, người khác muốn yên tĩnh. Hỏi họ cần gì vào một thời điểm cụ thể, chẳng hạn có muốn cùng ăn trưa hay đi thăm mộ. Không bắt buộc kể lại mất mát hoặc hứa rằng một hoạt động sẽ chữa được đau buồn. Tôn trọng lựa chọn thay đổi theo từng ngày.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lắng nghe mà không vội sửa cảm xúc",
+          "body": "Khi người thân nói nhớ một người đã mất, có thể hỏi họ muốn kể thêm hay muốn ngồi cùng một lúc. Tránh yêu cầu phải vui lên hoặc so sánh với người có hoàn cảnh khó hơn. Nếu họ thích lưu ảnh hoặc thực hiện nghi thức riêng, hỏi cách hỗ trợ và ai được tham gia. Người nhà có thể nhận phần việc cụ thể như chuẩn bị bữa ăn hoặc đi cùng khám, nhưng không tự quyết rằng phải bán nhà hoặc chuyển nơi sống vì người đó đang buồn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có bệnh nghiêm trọng trong gia đình",
+          "body": "Chăm sóc giảm nhẹ theo WHO bao gồm cả hỗ trợ tâm lý, xã hội và tâm linh cho người bệnh và gia đình. Khi một người đang điều trị bệnh nặng, hỏi đội ngũ chuyên môn về nguồn hỗ trợ cho người bệnh và người chăm. Có thể trao đổi về mong muốn gặp ai, điều làm họ lo lắng hoặc việc muốn sắp xếp; không ép nói về cái chết nếu họ chưa muốn. Hỏi trước khi mời người hỗ trợ tinh thần hay tôn giáo.",
+          "sourceIds": [
+            "q04j_palliative"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Theo dõi chức năng thay vì tự gắn nhãn",
+          "body": "Nếu buồn bã, lo âu hoặc mất hứng thú kéo dài, ghi xem việc ăn, ngủ, giao tiếp và sinh hoạt thay đổi ra sao rồi khuyến khích gặp chuyên gia. Lú lẫn xuất hiện đột ngột cần đánh giá khẩn cấp, không giải thích bằng đau buồn đơn thuần. Nếu có nguy cơ tự làm hại hoặc không thể giữ an toàn, tìm cấp cứu và người tin cậy ở cùng. Người chăm cũng có quyền xin hỗ trợ, nghỉ ngơi và trao đổi với chuyên gia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi một hoạt động hoặc người họ muốn liên hệ.",
         "Sắp xếp hỗ trợ theo sự đồng ý và mong muốn.",
-        "Lưu đầu mối trợ giúp chuyên môn khi cần."
+        "Lưu đầu mối trợ giúp chuyên môn khi cần.",
+        "Hỏi người cao tuổi muốn được lắng nghe, ở cùng hay có thời gian riêng.",
+        "Ghi thay đổi sinh hoạt đáng lo và đầu mối hỗ trợ tâm lý phù hợp."
       ],
       "limits": "Không dùng bài để chẩn đoán đau buồn, sa sút trí tuệ hoặc bệnh tâm thần; triệu chứng đột ngột cần đánh giá kịp thời.",
       "sourceIds": [
         "mentalOlder",
         "social",
-        "ageFriendly"
+        "ageFriendly",
+        "q04j_palliative"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -5538,19 +5685,51 @@
           "body": "Nếu đột nhiên khó đi, yếu liệt, lú lẫn, giảm thị lực hoặc có triệu chứng nghiêm trọng, tìm chăm sóc ngay. Với thay đổi từ từ, ghi hoạt động bị ảnh hưởng và hẹn đánh giá. Không tự cho rằng mọi hạn chế đều không thể cải thiện vì tuổi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Mục tiêu phục hồi chức năng do người bệnh lựa chọn",
+          "body": "WHO mô tả phục hồi chức năng là hỗ trợ con người duy trì hoặc đạt mức độc lập phù hợp trong các hoạt động đời sống. Nếu sau một đợt bệnh việc mặc áo, di chuyển hoặc giao tiếp trở nên khó, hỏi người đó muốn ưu tiên việc nào và trao đổi với chuyên gia phục hồi chức năng. Không tự sao chép bài tập của người khác, kéo tay để đứng dậy hoặc tăng cường độ vì nghĩ phải phục hồi nhanh. Ghi mục tiêu và phương pháp được hướng dẫn.",
+          "sourceIds": [
+            "q04j_rehab"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo điều kiện để người cao tuổi tự trả lời",
+          "body": "Trong buổi khám, đặt câu hỏi trực tiếp, để họ có đủ thời gian nghe và phản hồi. Nếu kính hoặc thiết bị trợ thính đã được chỉ định, kiểm tra có sẵn và hoạt động theo hướng dẫn. Có thể dùng chữ lớn, lựa chọn nơi yên và nhờ nhân viên y tế giải thích lại bằng ngôn ngữ dễ hiểu. Không đồng nhất nghe kém, nói chậm hoặc khó viết với mất khả năng quyết định; nếu cần đánh giá, nhờ người có chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Riêng tư và quyền được giải thích",
+          "body": "Điều 9–11 của văn bản hợp nhất Luật Khám bệnh, chữa bệnh 26/VBHN-VPQH đề cập quyền nhận giải thích, giữ bí mật đời tư và lựa chọn phương pháp theo điều kiện luật định. Khi người thân giúp đi khám, hãy hỏi người bệnh muốn ai nghe thông tin và có muốn trò chuyện riêng với bác sĩ không. Không tự công bố bệnh án hay trả lời thay họ nếu họ có thể tự trao đổi. Ngoại lệ và phạm vi đại diện cần xác minh theo quy định áp dụng.",
+          "sourceIds": [
+            "q04j_medicalPDF"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Hỗ trợ thân thể theo từng bước",
+          "body": "Trước khi giúp tắm, vệ sinh hoặc thay quần áo, hỏi người được chăm muốn tự làm phần nào, giải thích bước tiếp theo và che chắn. Nếu cần thay đổi vị trí từ giường sang ghế, chỉ dùng phương pháp đã được chuyên gia hướng dẫn phù hợp. Khi đau, khó chịu hoặc người được chăm từ chối, dừng thao tác không khẩn cấp để tìm nguyên nhân. Nếu xuất hiện yếu liệt mới, giảm thị lực đột ngột hoặc khó thở nặng, tìm trợ giúp khẩn cấp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi về cách hỗ trợ họ muốn và không muốn.",
         "Rà soát nơi để kính, dụng cụ và thông tin liên hệ.",
-        "Ghi một thay đổi chức năng cần trao đổi với chuyên gia."
+        "Ghi một thay đổi chức năng cần trao đổi với chuyên gia.",
+        "Chọn một mục tiêu chức năng để hỏi chuyên gia phục hồi.",
+        "Thống nhất cách trao đổi và giữ riêng tư trong buổi khám hoặc lúc hỗ trợ vệ sinh."
       ],
       "limits": "Không tự đánh giá năng lực quyết định, chẩn đoán hoặc chỉ định thiết bị; tôn trọng quyền tự quyết và tư vấn phù hợp.",
       "sourceIds": [
         "icope",
         "ageFriendly",
         "hearing",
-        "eye"
+        "eye",
+        "q04j_rehab",
+        "q04j_medicalPDF"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -5589,18 +5768,53 @@
           "body": "Ghi lại nếu đột nhiên không làm được việc vốn làm, ngủ bất thường hoặc ăn uống giảm; báo người có chuyên môn khi cần. Phân công người hỗ trợ, tránh để một người chăm quá sức. Với triệu chứng nghiêm trọng, ưu tiên trợ giúp y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xây lịch theo những việc người đó còn muốn tự làm",
+          "body": "Khả năng chức năng theo WHO phụ thuộc tương tác giữa năng lực và môi trường. Có thể chọn một việc như tự rửa mặt, chải tóc hay ngồi đọc sách rồi tìm cách giảm rào cản, chẳng hạn sắp xếp dụng cụ trong tầm tay hoặc đủ thời gian. Hỏi khi nào họ cần người hỗ trợ đứng cạnh; không biến mọi hoạt động thành bài kiểm tra. Nếu khả năng thay đổi, trao đổi chuyên gia trước khi thiết kế lại cách chăm.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhận ra nguy cơ tổn thương do tì đè",
+          "body": "NHS lưu ý người khó tự di chuyển dễ gặp tổn thương da và mô do tì đè. Khi hỗ trợ vệ sinh có sự đồng ý, chú ý vùng gót chân, hông và xương cùng; dấu hiệu đổi màu da kéo dài, đau, vùng nóng hoặc thay đổi độ cứng cần báo nhân viên y tế. Không chờ đến khi có vết loét sâu. Không tự xoa bóp vùng tổn thương hoặc áp một lịch xoay trở chung; hỏi điều dưỡng về đánh giá da, thiết bị và kế hoạch riêng.",
+          "sourceIds": [
+            "q04j_pressure"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bàn giao chăm sóc theo một lịch dễ đọc",
+          "body": "Ghi khung sinh hoạt, người phụ trách, việc đã được hướng dẫn và điều cần gọi hỗ trợ. Nếu một người phụ trách cả đêm, bàn trước người thay và khoảng nghỉ, thay vì chờ đến lúc kiệt sức. Không tự cho thêm thuốc ngủ để thuận tiện chăm sóc. Hỏi người được chăm có muốn đổi giờ nghỉ, cách vệ sinh hay hoạt động nào không. Nếu ngủ nhiều khác thường, khó đánh thức hoặc giảm chức năng mới, cần đánh giá y tế phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Duy trì hoạt động với hướng dẫn chuyên môn",
+          "body": "Phục hồi chức năng có thể gồm tập luyện phù hợp, điều chỉnh dụng cụ và môi trường. Khi có hướng dẫn cho từng người, ghi cách hỗ trợ, người đã được hướng dẫn và tình huống phải dừng. Ví dụ nếu người bệnh muốn ngồi bên cửa sổ, trao đổi chuyên gia về cách di chuyển an toàn, không tự nâng bằng sức của một người. Nếu đau mới, khó thở, chóng mặt hoặc mệt bất thường, dừng và tìm trợ giúp; không đặt mục tiêu số lần bất chấp triệu chứng.",
+          "sourceIds": [
+            "q04j_rehab"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Cùng thống nhất ba mốc sinh hoạt mong muốn.",
         "Rà soát phần việc cần hỗ trợ và người phụ trách.",
-        "Xem lại lịch khi có thay đổi sức khỏe hoặc sở thích."
+        "Xem lại lịch khi có thay đổi sức khỏe hoặc sở thích.",
+        "Lập lịch tự phục vụ, ca hỗ trợ và khoảng nghỉ có người thay.",
+        "Hỏi điều dưỡng về đánh giá da và phòng tì đè theo kế hoạch cá nhân."
       ],
       "limits": "Không thay kế hoạch điều dưỡng, phục hồi chức năng hoặc điều trị giấc ngủ; cần điều chỉnh theo từng người.",
       "sourceIds": [
         "icope",
         "activityGuide",
-        "sleep"
+        "sleep",
+        "ageFriendly",
+        "q04j_pressure",
+        "q04j_rehab"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -5639,12 +5853,42 @@
           "body": "Hỏi muốn tiếp tục chủ đề nào, thích học một mình hay cùng nhóm. Ghi lại bước đã làm được nếu họ muốn, không so sánh với người khác. Nếu nghe nhìn hoặc nhận thức thay đổi đáng lo, tìm đánh giá chuyên môn thay vì dùng bài tập để tự chẩn đoán.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Học từ câu hỏi do chính người học đặt ra",
+          "body": "Trang giới thiệu nghiên cứu UNESCO năm 2026 nêu học suốt đời giúp người cao tuổi tiếp tục tham gia đời sống xã hội và hoạt động có ý nghĩa. Chọn một câu hỏi mà người học quan tâm, như tên một giống cây, lịch sử nơi mình sống hoặc cách nghe lại chương trình phát thanh. Đặt kết quả là được tìm hiểu hoặc tận hưởng câu chuyện, không đặt chỉ tiêu nhớ bao nhiêu từ. Chưa có căn cứ để hứa rằng một bài học cụ thể ngăn được sa sút trí tuệ.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tạo tài liệu đọc được theo sở thích",
+          "body": "Ví dụ với một bài viết về món ăn địa phương, có thể chuẩn bị bản chữ lớn, bản in tương phản rõ hoặc đọc thành tiếng nếu người học muốn. Hỏi họ muốn dừng ở đoạn nào để trao đổi, giữ đủ khoảng lặng để trả lời. Nếu nghe không rõ, thay đổi chỗ ngồi hoặc tốc độ đọc, không nói như với trẻ nhỏ. Nếu mỏi mắt hoặc mệt, dừng buổi học thay vì ép đọc hết một trang.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dùng công nghệ hỗ trợ mà không giao quyền kiểm soát",
+          "body": "Người muốn nghe sách có thể học một thao tác mở, dừng và điều chỉnh âm lượng trên ứng dụng đáng tin. Làm mẫu trên thiết bị rồi để người học tự thử theo nhịp của mình; ghi biểu tượng bằng chữ hoặc hình dễ nhận ra. Không ghi mật khẩu trong tờ hướng dẫn. Nếu dùng AI để giải thích một câu chuyện, kiểm tra với sách hoặc nguồn gốc; không nhập thông tin riêng tư hay dùng kết quả AI để đánh giá trí nhớ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá trải nghiệm bằng phản hồi tự nguyện",
+          "body": "WHO đưa khả năng học hỏi và ra quyết định vào khái niệm lão hóa khỏe mạnh. Sau buổi học, hỏi phần nào thấy thích, muốn nghe thêm hay muốn đổi hình thức; có thể chỉ trò chuyện một lúc mà không cần sản phẩm. Nếu một người trước đây đọc được nhưng gần đây gặp khó khăn đáng kể, ghi tình huống để hỏi nhân viên y tế. Không dùng tốc độ đọc hoặc số câu trả lời đúng để tự kết luận năng lực.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một chủ đề theo sở thích của người học.",
         "Chuẩn bị tài liệu chữ lớn hoặc âm thanh phù hợp.",
-        "Hỏi ý kiến về tốc độ, thời gian và bước tiếp theo."
+        "Hỏi ý kiến về tốc độ, thời gian và bước tiếp theo.",
+        "Chuẩn bị một tài liệu theo hình thức người học chọn.",
+        "Thử một buổi học tự nguyện, để người học quyết định tiếp tục hay nghỉ."
       ],
       "limits": "Không cam kết ngăn sa sút trí tuệ hoặc chữa bệnh bằng học tập; giữ hoạt động tự nguyện.",
       "sourceIds": [
@@ -5689,12 +5933,42 @@
           "body": "Nếu có thể, thử một buổi và hỏi ý kiến sau đó, không ép tham gia tiếp. Xác minh chi phí và điều kiện dừng; chỉ cung cấp thông tin cần thiết. Ghi rõ những dữ liệu chưa xác minh, không gọi một lớp là uy tín chỉ từ đánh giá quảng cáo.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm hoạt động hiện có từ đầu mối địa phương",
+          "body": "UNESCO ghi nhận mô hình trung tâm học tập cộng đồng Việt Nam có nội dung đọc viết, khoa học, kỹ năng và phát triển cộng đồng. Đây là mô tả chương trình, không phải lịch mở lớp năm nay. Hỏi trực tiếp thư viện, cơ sở học tập cộng đồng hoặc đơn vị tổ chức chính thức về địa chỉ, giờ, người phụ trách và hình thức tham gia. Ghi thời điểm xác minh và điều chưa rõ; không chuyển tiền qua tài khoản môi giới chỉ vì được hứa có chỗ.",
+          "sourceIds": [
+            "communityLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khảo sát tuyến đi từ cửa đến chỗ ngồi",
+          "body": "Nếu người tham gia muốn tới lớp, hỏi về bậc thềm, nhà vệ sinh, khoảng cách từ nơi đón trả, chỗ nghỉ và độ ồn. Không thử tuyến đường vượt khả năng chỉ để chứng minh có thể tham gia. Có thể nhờ một người đi cùng nếu hai bên đồng ý hoặc hỏi lớp có tài liệu tại nhà. Nếu cần dụng cụ di chuyển, dùng theo hướng dẫn chuyên môn; người tổ chức cần biết cách liên hệ khi có sự cố trong phạm vi được phép.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử trước khi cam kết dài hạn",
+          "body": "UNESCO giới thiệu học tập tuổi cao như cơ hội đa dạng, không giới hạn ở một nhóm hoạt động. Hỏi có thể nghe một buổi hoặc mượn tài liệu dùng thử không. Người tham gia có thể muốn lớp ít người, giờ sáng hoặc chỉ nghe mà không phát biểu. Đừng tự chia sẻ chẩn đoán sức khỏe với cả nhóm; chỉ nói thông tin hỗ trợ cần thiết khi được đồng ý. Sau buổi đầu, hỏi mức thoải mái và điều muốn thay đổi.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xác minh chi phí, quyền riêng tư và cách dừng",
+          "body": "Ví dụ giả định phí sinh hoạt 150 nghìn đồng và chi phí đi lại 200 nghìn đồng mỗi tháng, tổng 350 nghìn trước khoản khác. Hỏi chứng từ, dụng cụ cần mua và điều kiện hoàn phí; đây không phải giá thực tế. Không đăng ký tài khoản bằng hồ sơ ngân hàng hoặc cho người lạ điều khiển điện thoại. Hỏi quy định chụp ảnh trong lớp và có thể từ chối không; nếu người học muốn dừng, hỗ trợ họ thông báo thay vì tạo áp lực.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi người học muốn tham gia hình thức nào.",
         "Xác minh địa chỉ, lịch và phí từ đơn vị tổ chức.",
-        "Kiểm tra đường đi, hỗ trợ nghe nhìn và phương án nghỉ."
+        "Kiểm tra đường đi, hỗ trợ nghe nhìn và phương án nghỉ.",
+        "Xác minh một hoạt động, đường đi, nhà vệ sinh và chỗ nghỉ.",
+        "Hỏi rõ phí, quyền chụp ảnh và cách dừng trước khi cam kết."
       ],
       "limits": "Không đề cử cơ sở cụ thể khi chưa có hồ sơ; kiểm tra trực tiếp tính phù hợp và tình trạng hoạt động.",
       "sourceIds": [
@@ -5739,18 +6013,49 @@
           "body": "Nếu ngã gây đau nhiều, chấn thương, mất ý thức hoặc triệu chứng nghiêm trọng, gọi trợ giúp khẩn cấp; không tự di chuyển người nghi chấn thương nặng trừ khi cần tránh nguy hiểm tức thời. Sau lần ngã, trao đổi nhân viên y tế về nguyên nhân và kế hoạch phòng ngừa.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đánh giá rủi ro theo hoạt động thay vì tuổi",
+          "body": "WHO ghi nhận nguy cơ ngã liên quan cả khả năng di chuyển, nhận thức, thị giác và môi trường thiếu an toàn. Hỏi lần gần nhất người cao tuổi thấy không vững xảy ra ở đâu, lúc đi vệ sinh, đổi tư thế hay bước qua cửa. Ghi cả lần suýt ngã nếu có. Đưa thông tin cho nhân viên y tế để xem nguyên nhân và kế hoạch phòng ngừa. Không quy mọi lần ngã cho sàn nhà hoặc tự cắt thuốc để giảm nguy cơ.",
+          "sourceIds": [
+            "falls"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kiểm tra khu vực tắm và lối đi khi tối",
+          "body": "Quan sát từ chỗ ngủ tới nhà vệ sinh theo tuyến quen thuộc mà không bắt người sử dụng đi thử nơi nguy hiểm. Đánh dấu nền trơn, đèn khó bật, vật cản hoặc đồ phải với cao. Hỏi họ muốn thay đổi gì, không chuyển đồ làm mất định hướng. Thiết bị chống trượt, tay vịn và chỗ ngồi cần phù hợp và được lắp đúng; tránh tự gắn thiết bị chịu lực lên bề mặt chưa được kiểm tra.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Di chuyển và chuyển tư thế an toàn",
+          "body": "WHO nêu điều chỉnh nhà ở là một ví dụ phục hồi chức năng giúp tăng an toàn và độc lập. Khi cần hỗ trợ từ giường sang ghế hoặc đi vệ sinh, đề nghị chuyên gia hướng dẫn cụ thể dựa trên sức khỏe và thiết bị đang có. Thống nhất người nào đã được hướng dẫn và khi nào cần người thứ hai. Không kéo tay hoặc thử nâng bằng sức mình; nếu có ngã và nghi chấn thương nặng, không cố di chuyển, tìm cấp cứu.",
+          "sourceIds": [
+            "q04j_rehab"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch gọi trợ giúp khi nhà vắng người",
+          "body": "Chuẩn bị điện thoại hoặc chuông gọi dễ tiếp cận nếu người sống đồng ý, ghi số liên hệ tin cậy và địa chỉ rõ ràng. Hỏi phương án nếu mất điện hoặc thiết bị hỏng; kiểm tra bằng một cuộc gọi bình thường, không diễn tập ngã. Nếu có khó thở nặng, mất ý thức, đau nhiều hoặc yếu liệt mới, gọi cấp cứu 115 hay dịch vụ cấp cứu phù hợp. Không coi camera là thay thế việc hỗ trợ trực tiếp; bảo vệ thông tin và quyền riêng tư.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Rà soát lối đi ban đêm cùng người sử dụng.",
         "Chuẩn bị kênh gọi trợ giúp dễ sử dụng.",
-        "Hỏi chuyên gia sau lần ngã hoặc khi di chuyển khó."
+        "Hỏi chuyên gia sau lần ngã hoặc khi di chuyển khó.",
+        "Rà tuyến đi ban đêm, khu vực tắm và thiết bị gọi trợ giúp.",
+        "Hỏi chuyên gia phương án chuyển tư thế an toàn; ghi người được hướng dẫn."
       ],
       "limits": "Không thay đánh giá nguy cơ, hướng dẫn di chuyển hoặc sơ cứu chuyên nghiệp; mọi cải tạo cần phù hợp và có sự đồng ý.",
       "sourceIds": [
         "falls",
         "ageFriendly",
-        "icope"
+        "icope",
+        "q04j_rehab"
       ],
       "status": "draft",
       "batch": "S04-AZ-02D"
@@ -10287,17 +10592,48 @@
           "body": "Không suy luận bệnh từ kết quả một trò chơi hay một lần quên. Nếu xuất hiện thay đổi nhận thức đột ngột, hành vi bất thường hoặc khó sinh hoạt mới, tìm đánh giá y tế phù hợp. Hoạt động học tập không thay kiểm tra chuyên môn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trí nhớ thay đổi ảnh hưởng sinh hoạt cần được đánh giá",
+          "body": "WHO mô tả sa sút trí tuệ có thể ảnh hưởng việc tìm đường ở nơi quen, thực hiện nhiệm vụ, giao tiếp và ra quyết định; không chỉ là quên tên. Nếu một người gần đây không thực hiện được việc vốn quen thuộc, ghi tình huống, thời điểm và sự thay đổi để hẹn đánh giá. Không kết luận từ một câu trả lời sai, không dùng trò chơi trí nhớ làm chẩn đoán. Lú lẫn xuất hiện đột ngột hoặc thay đổi ý thức cần được chăm sóc y tế khẩn cấp.",
+          "sourceIds": [
+            "q04i_dementia"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Trò chuyện bằng câu hỏi mở và không bắt nhớ",
+          "body": "Chọn một chủ đề họ muốn như khu phố cũ, âm nhạc hoặc công việc từng làm. Thay vì hỏi năm nào, tên ai rồi sửa đáp án, hãy hỏi điều gì họ thích ở câu chuyện hoặc muốn nghe thêm không. Nếu họ kể khác lần trước, không tranh cãi chỉ để chứng minh ai đúng; khi thông tin cần dùng cho quyết định quan trọng, kiểm tra độc lập. Không chụp ảnh hoặc ghi âm câu chuyện riêng nếu chưa được đồng ý.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hỗ trợ định hướng sinh hoạt với sự đồng ý",
+          "body": "Đặt lịch, tên người liên hệ và đồ thường dùng ở vị trí quen thuộc theo mong muốn. Nếu họ muốn dùng bảng nhắc, viết một thông tin tại một thời điểm và giữ cách trình bày nhất quán. Hỏi nhân viên y tế cách hỗ trợ khi có khó khăn nhận thức, nhất là liên quan đi lại, dùng thuốc và bếp. Không thay đổi môi trường đột ngột để kiểm tra trí nhớ; không khóa cửa hoặc hạn chế liên lạc như giải pháp mặc định.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo hoạt động có ý nghĩa thay vì hứa điều trị",
+          "body": "Trang giới thiệu nghiên cứu UNESCO 2026 ghi nhận vai trò của học tập trong tham gia xã hội và phát triển bản thân. Có thể đọc một đoạn ngắn, xem bản đồ hoặc nghe câu chuyện theo sở thích rồi cùng trao đổi. Cho phép nghỉ, đổi chủ đề và không trả lời. Nếu người tham gia gặp khó nghe nhìn, điều chỉnh tài liệu trước khi đánh giá trải nghiệm. Không hứa trò chơi, thực phẩm bổ sung hoặc khóa học có thể chữa sa sút trí tuệ.",
+          "sourceIds": [
+            "olderLearning"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Hỏi chủ đề người tham gia muốn trò chuyện.",
         "Chuẩn bị tài liệu dễ tiếp cận.",
-        "Kết thúc khi người đó muốn và ghi điều muốn tìm hiểu tiếp."
+        "Kết thúc khi người đó muốn và ghi điều muốn tìm hiểu tiếp.",
+        "Ghi thay đổi chức năng hoặc trí nhớ theo tình huống để mang khi khám.",
+        "Chọn một chủ đề tự nguyện và một công cụ nhắc sinh hoạt được đồng ý."
       ],
       "limits": "Không cam kết phòng hoặc điều trị sa sút trí tuệ; không dùng hoạt động làm công cụ chẩn đoán.",
       "sourceIds": [
         "olderLearning",
-        "ageFriendly"
+        "ageFriendly",
+        "q04i_dementia"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -10336,18 +10672,52 @@
           "body": "Nếu thiết bị bị mất hoặc nghi bị chiếm tài khoản, liên hệ nhà cung cấp và ngân hàng qua kênh chính thức, giữ thông tin cần thiết. Khi cần hỗ trợ lâu dài, thống nhất phạm vi, phương án khôi phục và quyền riêng tư. Không theo dõi bí mật hoặc buộc chia sẻ mọi thông tin.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thiết lập liên lạc theo chức năng cần nhất",
+          "body": "Khả năng duy trì quan hệ là một phần trong lão hóa khỏe mạnh theo WHO. Hỏi người sử dụng muốn gọi ai, xem ảnh hay nhắn tin bằng cách nào. Có thể đặt lối tắt cho một người liên hệ đã đồng ý, chọn chữ lớn và thử âm lượng dễ chịu. Giữ thiết bị có khóa phù hợp, không tắt bảo mật chỉ để thao tác nhanh. Tập một cuộc gọi trong điều kiện bình thường; hỏi có muốn giữ cách dùng này hoặc điều chỉnh không.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đọc tin và sử dụng AI có kiểm chứng",
+          "body": "Trang UNESCO về năng lực thông tin và truyền thông giới thiệu việc đối mặt với thách thức số và AI. Có thể thử công cụ đọc hoặc giải thích văn bản trên ví dụ không nhạy cảm, sau đó đối chiếu nguồn gốc. Không đưa ảnh giấy tờ, đơn thuốc, dữ liệu tài chính hay câu chuyện riêng tư vào công cụ chưa được phép. Nếu AI nói một loại thuốc tốt hoặc dự đoán bệnh, hỏi nhân viên y tế, không tự dùng; nếu giọng nói quen thuộc yêu cầu tiền, xác minh riêng.",
+          "sourceIds": [
+            "q04f_mil"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phòng lừa đảo nhắm vào người lớn tuổi",
+          "body": "Báo Chính phủ đăng khuyến cáo phòng bẫy giao dịch và lừa đảo trên mạng. Tập quy tắc dừng khi có tin nhắn yêu cầu đóng phí, mã OTP, cài ứng dụng hoặc chuyển tiền gấp. Gọi lại số người thân hoặc ngân hàng đã lưu từ trước; không bấm đường dẫn người gọi cung cấp. Nếu đã chuyển tiền, liên hệ ngân hàng chính thức nhanh chóng, lưu bằng chứng để trình báo. Không chuyển thêm tiền cho người tự xưng có thể thu hồi khoản đã mất.",
+          "sourceIds": [
+            "communitySafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giữ quyền quản lý thiết bị khi cần hỗ trợ",
+          "body": "Người thân có thể giúp đọc màn hình, mở ứng dụng hoặc sửa cài đặt khi được đồng ý; giải thích thay đổi trước khi thực hiện. Không mặc định lưu mật khẩu hoặc cài giám sát từ xa. Nếu cần hỗ trợ tài khoản lâu dài, hỏi nhà cung cấp dịch vụ về phương án hợp pháp và an toàn. Chuẩn bị tờ hướng dẫn có tên ứng dụng, biểu tượng, số liên hệ chính thức, không có mã bí mật. Khi thiết bị hỏng, tìm đầu mối đáng tin thay vì người lạ tự liên hệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một chức năng liên lạc dễ dùng.",
         "Chuẩn bị hướng dẫn chữ lớn và số hỗ trợ chính thức.",
-        "Diễn tập dừng và xác minh yêu cầu chuyển tiền."
+        "Diễn tập dừng và xác minh yêu cầu chuyển tiền.",
+        "Thử gọi người quen từ lối tắt đã chọn và xác minh số chính thức.",
+        "Diễn tập tình huống tin giả hoặc yêu cầu OTP trên dữ liệu giả định."
       ],
       "limits": "Không giao mật khẩu, mã xác thực hoặc quyền tài khoản tùy tiện; hỗ trợ theo sự đồng ý và pháp luật.",
       "sourceIds": [
         "olderICT",
         "privacyLaw",
-        "communitySafety"
+        "communitySafety",
+        "ageFriendly",
+        "q04f_mil"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -10386,18 +10756,49 @@
           "body": "Nếu có đe dọa, làm nhục, cô lập cưỡng ép hoặc lợi dụng, ưu tiên an toàn, lắng nghe và tìm hỗ trợ phù hợp. Không ép hòa giải với người có hành vi gây hại. Khi có lo ngại sức khỏe tinh thần hoặc nguy cơ cấp cứu, liên hệ nhân viên y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kết nối không chỉ để kiểm tra sức khỏe",
+          "body": "WHO nhấn mạnh môi trường xã hội hỗ trợ và trợ giúp cho cả người cao tuổi lẫn người chăm. Khi thăm hỏi, dành thời gian cho câu chuyện họ quan tâm, không chỉ hỏi thuốc, ăn và ngủ. Người cao tuổi có thể muốn gặp bạn, hàng xóm hoặc tham gia sinh hoạt tín ngưỡng, nhưng cũng có quyền nghỉ. Hỏi giờ thăm phù hợp và hình thức liên lạc mong muốn. Không đánh giá chất lượng quan hệ chỉ từ số người đến thăm.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phân công người chăm và giảm xung đột",
+          "body": "Lập bảng ai làm việc gì, khung thời gian, người dự phòng và điều cần báo cho chuyên môn. Nếu một người sống gần đang chăm nhiều nhất, hỏi họ cần hỗ trợ nào thay vì mặc định phải chịu hết. Người ở xa có thể đảm nhận một nhiệm vụ hậu cần có giới hạn nếu được đồng ý. Mời người được chăm tham gia trao đổi; không bàn chuyện chuyển nhà hoặc tài sản như thể họ không có mặt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện bỏ bê và xâm hại",
+          "body": "WHO phân biệt nhiều dạng xâm hại người cao tuổi, bao gồm thể chất, tâm lý, tài chính và bỏ bê. Nếu có đe dọa, ép ký, làm nhục, cô lập cưỡng ép hoặc không đáp ứng nhu cầu chăm sóc thiết yếu, lắng nghe người bị ảnh hưởng trong không gian an toàn. Không ép hòa giải hoặc đối chất một mình nếu có nguy cơ. Liên hệ cơ quan chức năng, cơ sở y tế hoặc người hỗ trợ độc lập phù hợp; tình huống nguy hiểm cần trợ giúp khẩn.",
+          "sourceIds": [
+            "q04j_abuse"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tìm hỗ trợ thay thế khi người chăm kiệt sức",
+          "body": "Nếu lịch chăm đêm khiến người chăm không còn đủ sức, bàn ca nghỉ và người thay đã được hướng dẫn; hỏi cơ sở y tế hoặc dịch vụ địa phương về hỗ trợ phù hợp. Khi thuê người chăm, xác minh danh tính, trách nhiệm, phạm vi, chi phí và kênh phản ánh. Hỏi người được chăm về trải nghiệm và quyền từ chối. Không để một người cần giám sát một mình để đạt chỉ tiêu nghỉ; cũng không coi việc xin hỗ trợ là thiếu hiếu thảo.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi người được chăm muốn kết nối với ai.",
         "Thống nhất quy tắc riêng tư và cách hỗ trợ.",
-        "Lưu một đầu mối trợ giúp độc lập nếu có nguy cơ."
+        "Lưu một đầu mối trợ giúp độc lập nếu có nguy cơ.",
+        "Thống nhất bảng phân công, ca nghỉ và người thay có sự đồng ý.",
+        "Lưu đầu mối hỗ trợ độc lập và phương án an toàn khi nghi bị xâm hại."
       ],
       "limits": "Không ép sống chung hoặc chia sẻ thông tin; không thay xử lý xâm hại và tư vấn chuyên môn.",
       "sourceIds": [
         "social",
         "mentalOlder",
-        "olderLaw"
+        "olderLaw",
+        "q04j_abuse"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -10436,12 +10837,42 @@
           "body": "Nếu muốn, mời người thân cùng nghe hoặc xem sản phẩm. Xin đồng ý trước khi quay video, đăng ảnh hoặc kể chuyện riêng. Sau hoạt động, hỏi muốn lặp lại, đổi hay nghỉ. Không coi sự tham gia là điều kiện để được quan tâm.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tạo trải nghiệm nghệ thuật theo điều người đó thích",
+          "body": "WHO đưa hoạt động xã hội và môi trường có ý nghĩa vào hướng hỗ trợ sức khỏe tâm thần người cao tuổi. Chọn một bài nhạc, bức ảnh, cây trồng hoặc món thủ công mà người tham gia thực sự quan tâm. Không chọn hoạt động vì tin rằng nó sẽ chữa bệnh hoặc buộc hoàn thành sản phẩm để chụp ảnh. Có thể chỉ nghe, quan sát hoặc trò chuyện; hỏi họ muốn làm cùng ai, có muốn yên tĩnh hoặc đổi hoạt động không.",
+          "sourceIds": [
+            "mentalOlder"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh đồ dùng và không gian vừa khả năng",
+          "body": "Với người muốn vẽ, chuẩn bị giấy, bút dễ cầm, bàn có ánh sáng phù hợp và ghế thoải mái. Nếu họ muốn nghe nhạc, hỏi âm lượng, thời lượng và chọn thiết bị đã quen. Không đặt dụng cụ sắc, nóng hoặc nặng ở nơi khó kiểm soát. Khi hoạt động đòi hỏi di chuyển hoặc hỗ trợ tay, hỏi chuyên gia cách phù hợp; nếu đau hoặc mệt thì dừng. Không sửa sản phẩm thay cho người tham gia chỉ để đẹp hơn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lưu câu chuyện gia đình có quyền chọn lọc",
+          "body": "Nếu người cao tuổi muốn kể chuyện về một thời kỳ, hỏi muốn ghi chép hay chỉ trò chuyện. Khi có chi tiết nhạy cảm, để họ quyết định có lưu và ai được xem; xin đồng ý của người liên quan trước khi công khai ảnh. Không biến dự án gia đình thành buổi thi nhớ tên người hoặc mốc thời gian. Nếu họ không muốn trả lời một câu hỏi, chuyển chủ đề. Có thể lưu một bản riêng tại nhà thay vì đưa lên mạng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hoạt động tự nguyện cả khi cần nhiều hỗ trợ",
+          "body": "WHO xem làm điều có giá trị với mỗi người là trọng tâm khả năng chức năng. Ví dụ người từng làm vườn có thể muốn nhìn cây ngoài cửa sổ, chọn loại hoa hoặc hướng dẫn người khác chăm cây, dù không trực tiếp làm mọi bước. Hỏi họ muốn tham gia phần nào, cần nghỉ lúc nào và có muốn làm lại không. Không đánh giá hiệu quả bằng độ dài buổi hoặc khả năng tạo sản phẩm, và không hứa thay thế phục hồi chức năng.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Hỏi một hoạt động người tham gia muốn thử.",
         "Chuẩn bị môi trường và dụng cụ dễ tiếp cận.",
-        "Cho họ quyết định thời điểm kết thúc và lần tiếp theo."
+        "Cho họ quyết định thời điểm kết thúc và lần tiếp theo.",
+        "Chuẩn bị một hoạt động với dụng cụ và thời gian do người tham gia chọn.",
+        "Hỏi đồng ý trước khi lưu hoặc chia sẻ ảnh, âm thanh và câu chuyện."
       ],
       "limits": "Không cam kết tác dụng điều trị, cải thiện trí nhớ hay phục hồi chức năng; hoạt động cần tự nguyện, an toàn.",
       "sourceIds": [
@@ -10487,12 +10918,42 @@
           "body": "Trao đổi người đáng tin và chuyên gia pháp lý về quyền hạn, cách ghi nhận giao dịch và cách thay đổi hoặc dừng hỗ trợ. Nếu nghi lừa đảo, ngừng giao dịch và liên hệ ngân hàng/cơ quan chức năng. Giữ quyền riêng tư và ưu tiên an toàn của người cao tuổi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập bảng chi phí chăm sóc bằng số liệu thực tế",
+          "body": "Ví dụ giả định có 5 triệu đồng thu nhập tháng, chi sinh hoạt 3 triệu và hỗ trợ chăm sóc 1,5 triệu, còn 500 nghìn trước khoản phát sinh. Đây là bài tập, không đại diện giá dịch vụ hoặc mức hưởng hưu trí. Ghi khoản chi định kỳ, chi chưa chắc, nguồn hỗ trợ tự nguyện và người xác nhận hóa đơn. Hỏi người sở hữu tiền muốn giữ khoản chi cá nhân nào; không trộn tiền của họ vào quỹ riêng của người chăm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị hỗ trợ tài chính trước khi sức khỏe đổi",
+          "body": "CFPB đề cập lập kế hoạch khi khả năng quản lý tài chính hoặc sức khỏe thay đổi. Có thể ghi danh sách giấy tờ, đầu mối ngân hàng và hóa đơn, lựa chọn người tin cậy nếu muốn. Chỉ áp dụng nguyên tắc tổ chức, không áp dụng thủ tục ủy quyền của Hoa Kỳ ở Việt Nam. Nếu cần người thực hiện giao dịch, hỏi ngân hàng và chuyên gia pháp lý về phạm vi, thời hạn và cách dừng. Không tự nhận quyền quyết định tài sản.",
+          "sourceIds": [
+            "financialSupport"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhận diện dấu hiệu lợi dụng tài chính",
+          "body": "Tài liệu CFPB giới thiệu việc chuẩn bị người liên hệ tin cậy và phòng lợi dụng tài chính. Hãy chú ý yêu cầu chuyển tiền gấp, giao mật khẩu, đổi người nhận hoặc ký hồ sơ chưa đọc. Không vội xác định ai phạm pháp từ một dấu hiệu; hỏi riêng người sở hữu tiền và xác minh giao dịch qua kênh chính thức. Nếu bị đe dọa, ưu tiên an toàn, liên hệ ngân hàng và cơ quan phù hợp. Không ép ký giấy tờ để giải quyết nhanh.",
+          "sourceIds": [
+            "olderFraud"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tài sản, di chúc và quyết định khó đảo ngược",
+          "body": "Với nhà đất, khoản tiết kiệm hoặc di chúc, hỏi người có tài sản muốn trao đổi riêng với ai và có cần tư vấn độc lập không. Chuẩn bị giấy tờ hợp pháp, danh sách câu hỏi về quyền sở hữu, đại diện và cách lưu giữ. Không dùng bài viết hoặc mẫu AI làm di chúc hay văn bản ủy quyền bảo đảm hợp pháp; không ký thay khi chưa có căn cứ. Nếu nghi tranh chấp, dừng giao dịch chưa cần thiết và hỏi người có chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi nhu cầu hỗ trợ tài chính và giới hạn.",
         "Lưu chứng từ, xác minh một giao dịch trước khi thực hiện.",
-        "Tìm tư vấn pháp lý khi cần đại diện hoặc ủy quyền."
+        "Tìm tư vấn pháp lý khi cần đại diện hoặc ủy quyền.",
+        "Lập bảng chi chăm sóc và khoản phát sinh, giữ chứng từ riêng.",
+        "Ghi phạm vi hỗ trợ, câu hỏi tài sản và đầu mối pháp lý độc lập."
       ],
       "limits": "Không tư vấn tài chính hoặc lập ủy quyền thay người dùng; không xác định năng lực pháp lý từ tuổi hoặc bài đọc.",
       "sourceIds": [
@@ -10538,18 +10999,49 @@
           "body": "Có thể thử một buổi và hỏi sau đó có muốn tiếp tục không. Người thân hỗ trợ phương tiện hoặc dụng cụ nếu được đồng ý, không đăng ảnh hay tuyên dương công khai khi chưa xin phép. Nếu mệt hoặc muốn nghỉ, tôn trọng quyết định, không gây áp lực.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Vai trò do người cao tuổi quyết định",
+          "body": "WHO coi đóng góp xã hội là một phần của khả năng chức năng, bên cạnh những nhu cầu và quan hệ khác. Người lớn tuổi có thể muốn dạy cháu nấu món gia đình, hướng dẫn nghề cũ hoặc chỉ quan sát sinh hoạt chung. Hỏi điều có ý nghĩa với họ, không mặc định ai cũng muốn làm việc có thu nhập. Nếu họ muốn nghỉ hoặc thay đổi quyết định, tôn trọng; không biến việc tham gia thành điều kiện để nhận sự hỗ trợ của gia đình.",
+          "sourceIds": [
+            "ageFriendly"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyền tham gia văn hóa, học tập và nghỉ ngơi",
+          "body": "Điều 3 văn bản hợp nhất Luật Người cao tuổi 23/VBHN-VPQH ghi nhận quyền được tạo điều kiện tham gia hoạt động văn hóa, giáo dục, thể thao, giải trí, nghỉ ngơi và công việc phù hợp. Khi có lời mời tham gia, hỏi điều kiện, chi phí, phương tiện đi lại và quyền dừng; đây không phải nghĩa vụ phải nhận lời. Trước khi cam kết việc làm có rủi ro, hỏi người có chuyên môn và cơ quan có thẩm quyền về điều kiện cụ thể.",
+          "sourceIds": [
+            "q04j_lawPDF"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chia sẻ kinh nghiệm không phải cung cấp dịch vụ",
+          "body": "Ví dụ người từng sửa máy muốn kể cách chọn dụng cụ, có thể hướng dẫn bằng lời hoặc dùng đồ mẫu nhẹ nếu phù hợp, không cần thao tác điện hay nâng vật nặng. Với nhóm cộng đồng, hỏi người phụ trách, nhiệm vụ, thời gian và cách xử lý khi mệt. Không chia sẻ hồ sơ nghề nghiệp có thông tin mật. Nếu ai đó quay video để đăng, xin đồng ý về nội dung và người xem; người tham gia được quyền từ chối.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Giữ hoạt động có thể thay đổi theo sức khỏe",
+          "body": "Thử tham gia một khoảng phù hợp theo mong muốn, có chỗ nghỉ và phương án về nhà. Nếu lịch điều trị hoặc sức khỏe thay đổi, điều chỉnh hoạt động, không yêu cầu hoàn thành để giữ thể diện. Hỏi điều họ thích sau buổi sinh hoạt và điều muốn bỏ bớt; nếu cần hỗ trợ chuyên môn về di chuyển hoặc mệt kéo dài, trao đổi nhân viên y tế. Không hứa việc tình nguyện hoặc lao động sẽ chữa bệnh hay bảo đảm tuổi thọ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi vai trò hoặc hoạt động có ý nghĩa với họ.",
         "Xác minh điều kiện và cách dừng nếu có tổ chức.",
-        "Đánh giá trải nghiệm theo ý kiến người tham gia."
+        "Đánh giá trải nghiệm theo ý kiến người tham gia.",
+        "Chọn vai trò tự nguyện và điều kiện được dừng bất cứ lúc nào.",
+        "Xác minh người tổ chức, công việc, quyền riêng tư và nhu cầu hỗ trợ."
       ],
       "limits": "Không đề cử việc làm, xác định khả năng lao động hoặc quyền lợi cụ thể; mọi hoạt động tự nguyện và an toàn.",
       "sourceIds": [
         "olderLaw",
         "ageFriendly",
-        "mentalOlder"
+        "mentalOlder",
+        "q04j_lawPDF"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -10590,12 +11082,46 @@
           "body": "Giữ giấy tờ, chứng từ, nội dung trao đổi ở nơi riêng tư. Nếu nghi bị lợi dụng, đe dọa hoặc xâm hại, tìm hỗ trợ độc lập phù hợp, ưu tiên an toàn. Không ép ký hoặc ép sống chung; cần trao đổi chuyên môn khi phát sinh tranh chấp hoặc vấn đề năng lực.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Trợ cấp hưu trí xã hội: điều kiện theo văn bản",
+          "body": "Điều 2 Nghị định 176/2025/NĐ-CP quy định công dân Việt Nam từ đủ 75 tuổi, không hưởng lương hưu hoặc trợ cấp BHXH hàng tháng, hoặc đang hưởng thấp hơn mức quy định, và có văn bản đề nghị, thuộc nhóm được xem xét theo các điều kiện đó. Điều 3 ghi mức 500.000 đồng mỗi tháng; địa phương có thể quyết định hỗ trợ thêm, trường hợp đồng thời thuộc diện trợ cấp xã hội hàng tháng hưởng chế độ cao hơn. Đây là nội dung bản ký năm 2025; cần rà sửa đổi và hồ sơ thực tế trước khi kết luận.",
+          "sourceIds": [
+            "q04j_pensionPDF"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nộp hồ sơ và theo dõi phản hồi",
+          "body": "Theo Điều 4 của nghị định, văn bản đề nghị theo Mẫu 01 được gửi tới Chủ tịch UBND cấp xã nơi cư trú, trực tiếp, qua bưu chính hoặc trên môi trường mạng. Văn bản quy định 10 ngày làm việc để xem xét, xác thực và quyết định; nếu không đủ điều kiện phải trả lời bằng văn bản nêu lý do. Hỏi đầu mối địa phương về cách nộp đang áp dụng, lưu ngày và kết quả; không tự hứa thời điểm nhận tiền khi chưa có quyết định.",
+          "sourceIds": [
+            "q04j_pensionPDF"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyền khám chữa bệnh và phạm vi đại diện",
+          "body": "VBHN 26/VBHN-VPQH ghi tại Điều 3 nguyên tắc ưu tiên khám chữa bệnh cho người từ đủ 75 tuổi phù hợp đặc thù cơ sở; Điều 9–11 đề cập quyền thông tin, riêng tư và lựa chọn. Điều 15 có quy định về nguyện vọng hợp pháp bằng văn bản và các trường hợp đại diện khi người bệnh không thể thực hiện quyền theo luật. Hỏi bệnh viện hoặc chuyên gia pháp lý về hồ sơ, ngoại lệ và phạm vi; không suy ra mọi người thân đều được ký thay.",
+          "sourceIds": [
+            "q04j_medicalPDF"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyền lựa chọn nơi ở và hỗ trợ pháp lý",
+          "body": "Điều 3 Luật Người cao tuổi trong bản hợp nhất 23/VBHN-VPQH ghi nhận quyền lựa chọn sống riêng hoặc chung với con cháu. Hỏi trực tiếp người cao tuổi về nơi muốn sống và sự hỗ trợ mong muốn. Với ủy quyền, di chúc, tài sản hoặc nguyện vọng chăm sóc, tìm tư vấn pháp lý và y tế để xác định hình thức phù hợp; bài không cung cấp mẫu giấy có hiệu lực. Không tự coi tuổi cao là mất năng lực pháp lý, không áp đặt nơi sống vì tiện chăm.",
+          "sourceIds": [
+            "q04j_lawPDF"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập danh sách quyền lợi và nguồn tra cứu chính thức.",
         "Hỏi về phạm vi hỗ trợ người cao tuổi mong muốn.",
-        "Tìm chuyên gia phù hợp khi cần đại diện hoặc quyết định pháp lý."
+        "Tìm chuyên gia phù hợp khi cần đại diện hoặc quyết định pháp lý.",
+        "Kiểm tra điều kiện, mẫu và nơi tiếp nhận trợ cấp với UBND cấp xã.",
+        "Hỏi cơ sở y tế và chuyên gia pháp lý về quyền người bệnh, đại diện và nguyện vọng hợp pháp."
       ],
       "limits": "Không tư vấn pháp lý cá nhân, không xác định năng lực, đại diện hoặc mức trợ cấp khi chưa xem hồ sơ và văn bản hiện hành.",
       "sourceIds": [
@@ -10603,7 +11129,10 @@
         "civil",
         "medicalLaw",
         "pensionSocial",
-        "healthInsurance"
+        "healthInsurance",
+        "q04j_pensionPDF",
+        "q04j_medicalPDF",
+        "q04j_lawPDF"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
@@ -10642,18 +11171,50 @@
           "body": "Lưu đầu mối hỗ trợ, thông tin cần thiết và người dự phòng ở nơi riêng tư. Hỏi lại sau lần khám, thay đổi sức khỏe hoặc mong muốn. Nếu xuất hiện triệu chứng cấp tính, tìm trợ giúp y tế khẩn cấp; với thay đổi lâu dài, phối hợp chuyên gia để điều chỉnh kế hoạch.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lựa chọn chăm sóc dài hạn có thể thay đổi",
+          "body": "So sánh các phương án tại nhà, có hỗ trợ ban ngày, chăm sóc chuyên môn tại nhà hoặc cơ sở phù hợp nếu có. Hỏi người được chăm về nơi ở, người hỗ trợ, sinh hoạt riêng, khả năng gặp bạn và chi phí. Khi xem dịch vụ, kiểm tra nhân sự, nhiệm vụ, phạm vi chuyên môn, cách xử lý cấp cứu, phản ánh và điều kiện chấm dứt. Không mặc định lựa chọn đắt tiền hơn tốt hơn; cùng người được chăm trao đổi với nhân viên y tế về nhu cầu thực tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chăm sóc giảm nhẹ trong bối cảnh Việt Nam",
+          "body": "Trang Sở Y tế Đồng Nai công bố công văn triển khai Quyết định 183/QĐ-BYT ngày 25/01/2022 ban hành hướng dẫn chăm sóc giảm nhẹ. Đây là đầu mối để hỏi cơ sở y tế về dịch vụ phù hợp, không xác nhận địa phương nào đang cung cấp hoặc chi trả dịch vụ. Khi bệnh nghiêm trọng, hỏi bác sĩ về mục tiêu chăm sóc, hỗ trợ triệu chứng, khả năng chăm tại nhà và đầu mối chuyên môn. Không tự dùng thuốc giảm đau mạnh hoặc tự quyết thay đổi điều trị.",
+          "sourceIds": [
+            "q04j_palliativeVN"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Trao đổi mong muốn cuối đời một cách tự nguyện",
+          "body": "WHO nhấn mạnh chăm sóc giảm nhẹ giúp người bệnh và gia đình đối diện vấn đề do bệnh đe dọa tính mạng. Nếu người bệnh muốn trao đổi, chọn không gian riêng, hỏi điều họ trân trọng, điều khiến lo lắng, người muốn gặp và nhu cầu tinh thần. Đề nghị đội ngũ chuyên môn giải thích các lựa chọn, lợi ích và rủi ro; ghi lại câu hỏi và mong muốn, xác minh thủ tục pháp lý phù hợp. Không ép đưa ra lựa chọn hoặc coi ghi chú gia đình là chỉ định ngừng điều trị.",
+          "sourceIds": [
+            "q04j_palliative"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bàn giao cuối ngày và khi cần trợ giúp",
+          "body": "Với kế hoạch chăm sóc đã thống nhất cùng cơ sở y tế, ghi đầu mối liên hệ, thuốc theo đơn, dấu hiệu cần gọi hỗ trợ, người thay và cách bảo vệ riêng tư. Nếu khó thở nặng, mất ý thức hoặc triệu chứng nghiêm trọng, gọi trợ giúp khẩn theo hướng dẫn chuyên môn và kế hoạch đã được xác nhận; không tự suy ra không cần cấp cứu vì tuổi hoặc bệnh nặng. Sau biến cố, hỏi lại nhu cầu của người bệnh và người chăm, kể cả hỗ trợ đau buồn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi ba điều người được chăm muốn duy trì.",
         "Phân công việc hỗ trợ có người dự phòng.",
-        "Xem lại kế hoạch theo ý kiến người được chăm và chuyên gia."
+        "Xem lại kế hoạch theo ý kiến người được chăm và chuyên gia.",
+        "So sánh phương án chăm sóc dài hạn bằng nhu cầu, an toàn, chi phí và mong muốn.",
+        "Chuẩn bị câu hỏi cho bác sĩ về chăm sóc giảm nhẹ, nguyện vọng và kế hoạch liên hệ."
       ],
       "limits": "Không thay kế hoạch điều dưỡng, quyết định pháp lý hoặc đánh giá năng lực; chăm sóc phải phù hợp từng người.",
       "sourceIds": [
         "icope",
         "ageFriendly",
-        "olderLaw"
+        "olderLaw",
+        "q04j_palliativeVN",
+        "q04j_palliative"
       ],
       "status": "draft",
       "batch": "S04-AZ-03D"
