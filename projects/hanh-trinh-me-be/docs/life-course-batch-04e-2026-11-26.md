@@ -58,3 +58,7 @@
 - [ ] CI/Node test, browser, xác minh từng claim, chuyên gia và publication gate.
 - [ ] 19 nội dung tuổi 18–22 (S04-AZ-04F).
 Không thay Auth/Database/Family/Mobile, không deploy Production.
+
+## Follow-up CI regression repair
+- 04D CI run 45738533628 failed in content validation, Web build and API container build with Unlinked infographic source: thai-may-va-theo-doi-thai-cuoi-ky.
+- Scanned all 72 legacy articles; two inline media source URL strings still used the old CDC slash-only URL. Updated both to the exact already-linked canonical /index.html URL. No image file, image position, caption, points, article text or source catalog changed. Added regression assertion for all 72 articles. Direct check: zero unlinked inline URLs. Full CI pending.
