@@ -157,6 +157,6 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 ## Sprint UX Redesign V2 — đề xuất (26/11/2026)
 
 - [x] Lập [UI/UX Audit V2](ux-redesign-v2/README.md), [sitemap V2](ux-redesign-v2/sitemap-v2.md), [10 wireframe Desktop/Mobile](ux-redesign-v2/wireframes.md) và [roadmap/checklist UX-01–UX-10](ux-redesign-v2/sprint-roadmap.md).
-- [ ] Chủ dự án review thiết kế và chốt phạm vi. Sprint đang PLANNED, chưa sửa app, 0/10 triển khai. Không thay đổi quyết định tạm dừng mở rộng gia đình/AI hoặc mở Production.
+- [ ] Chủ dự án review thiết kế và chốt phạm vi. Sprint IN PROGRESS, UX-01 đã nghiệm thu kỹ thuật DEV (1/10); review thiết kế tổng thể vẫn mở. Không thay đổi quyết định tạm dừng mở rộng gia đình/AI hoặc mở Production.
 
-- [ ] UX-01 Knowledge Hub V2: code candidate có index 219, 6 nhóm/12 chặng, alias kind:id và khôi phục hash; [báo cáo](ux-redesign-v2/ux-01-implementation.md). CI/DEV acceptance chưa xác nhận; UX-02 trở đi chưa triển khai.
+- [x] UX-01 Knowledge Hub V2: nghiệm thu kỹ thuật Combined DEV 26/11/2026, app `8b44343`, QA `af9390c`, CI 4/4, 219/219 nội dung và alias, 6 nhóm/12 chặng, 19 mẫu hash/reload, Production gate đóng. [Post-deploy QA](https://github.com/kios-saks/demo/actions/runs/45774886258) · [báo cáo](ux-redesign-v2/ux-01-implementation.md). Authenticated preview riêng SKIP (thiếu token); PR #1 Draft, chưa merge; UX-02 trở đi chưa triển khai.

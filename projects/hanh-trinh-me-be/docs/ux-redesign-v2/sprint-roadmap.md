@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: IN PROGRESS · UX-01 có code candidate, 0/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01 PASS kỹ thuật DEV, 1/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -14,12 +14,12 @@ Không gán ngày lịch/nhân sự khi chưa biết capacity. Owner đề xuấ
 
 ## Checklist nghiệm thu từng hạng mục
 ### UX-01 · P0 · Kiến trúc thông tin
-- [ ] AC01.1: 219 stable identity kind:id = 72 legacy + 21 lesson + 126 article, unique, giữ 12 chặng/16 chủ đề/192 ô và mapping stage legacy; không mất nguồn hoặc nhân bản. Evidence: inventory invariant tests.
-- [ ] AC01.2: một entry Khám phá, 6 nhóm tuổi dễ quét, không mặc định baby khi chưa chọn; route map owner duyệt, tất cả URL cũ và hash được kiểm thử (guest authorized DEV, unauthorized Production).
-- [ ] AC01.3: matrix nội bộ, CMS/demo không lộ trên menu; schema, draft gates và payload không sửa. Evidence: route tests và diff.
-Dependency: none; chặn UX-02–08.
+- [x] AC01.1: 219 stable identity kind:id = 72 legacy + 21 lesson + 126 article, unique, giữ 12 chặng/16 chủ đề/192 ô và mapping stage legacy; không mất nguồn hoặc nhân bản. Evidence: inventory invariant tests.
+- [x] AC01.2: một entry Khám phá, 6 nhóm tuổi dễ quét, không mặc định baby khi chưa chọn; route map owner duyệt, tất cả URL cũ và hash được kiểm thử (guest authorized DEV, unauthorized Production).
+- [x] AC01.3: matrix nội bộ, CMS/demo không lộ trên menu; schema, draft gates và payload không sửa. Evidence: route tests và diff.
+Dependency: none; gate kỹ thuật UX-01 đã đạt, mở dependency UX-02–08 theo thứ tự roadmap.
 
-**UX-01 candidate:** [báo cáo triển khai](ux-01-implementation.md). AC01.1/2/3 chưa đóng cho đến khi CI, kiểm thử alias/hash và nghiệm thu DEV hoàn tất.
+**UX-01 CLOSED — technical DEV acceptance (26/11/2026):** [báo cáo triển khai và nghiệm thu](ux-01-implementation.md). App `8b44343` LIVE, QA `af9390c` CI 4/4, [post-deploy run 45774886258](https://github.com/kios-saks/demo/actions/runs/45774886258): 219 refs/aliases, 6 groups, 12 stages, 19 hash samples. Kiểm thử authenticated preview riêng SKIP do thiếu token; không thay thế bằng PASS. Production gate đóng; PR #1 vẫn Draft. Phạm vi nghiệm thu kỹ thuật theo yêu cầu chủ dự án, không đồng nghĩa duyệt toàn bộ thiết kế hoặc chuyên môn nội dung.
 
 ### UX-02 · P0 · Unified search
 - [ ] AC02.1: index đủ 219 từ nguồn hợp lệ, title/summary/topics/stage + nội dung phù hợp; legacy lấy live, không fallback draft trái phép; mỗi ID đúng một kết quả.
