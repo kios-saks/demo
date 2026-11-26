@@ -50,3 +50,6 @@ jobs:
       - name: UX-02 Search Browser Smoke
         if: env.MEBE_UX02_LIVE == 'true'
         run: node scripts/knowledge-search-browser-smoke.mjs
+      - name: UX-02 synthetic privacy canary (DEV only)
+        if: env.MEBE_UX02_LIVE == 'true'
+        run: node scripts/knowledge-search-privacy-canary.mjs
