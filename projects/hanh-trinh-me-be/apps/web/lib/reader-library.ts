@@ -1,5 +1,6 @@
 import {openDevReader} from "./open-dev-reader";
 import {renderUnifiedSearch} from "./knowledge-search-render";
+import {renderHomepageV2} from "./homepage-v2";
 import {familyDemoEnabled} from "./family-demo-config";
 import {dynamicMediaEnabled,articleMediaUrl,catalogMediaUrl} from "./dynamic-media";
 import {escapeHtml as e,htmlResponse,connectionPending,listDevArticles,requirePreviewLogin,safeMediaPath} from "./dev-preview";
@@ -89,7 +90,7 @@ export async function renderReaderLibrary(request:Request,options:ReaderOptions=
   if(mode==="stage"&&!active)return htmlResponse("Không tìm thấy giai đoạn",'<p>Giai đoạn không tồn tại. <a href="/thu-vien">Về thư viện</a></p>',404);
   const {articles,source}=await listDevArticles();
   if(dynamicMediaEnabled()&&source!=="supabase")throw Error("Live article catalog required");
-  if(mode==="home")return htmlResponse("Trang chủ",home(articles));
+  if(mode==="home")return openDevReader()?renderHomepageV2(articles):htmlResponse("Trang chủ",home(articles));
   if(mode==="saved"||mode==="journey")return htmlResponse(mode==="saved"?"Đã lưu":"Hành trình của tôi",personal(articles,mode));
   const norm=normalizeSearch(q);
   const list=articles.filter(a=>(!active||a.stage===active)&&(!norm||norm.split(" ").every(word=>normalizeSearch([a.title,a.summary,stageName(a.stage),...a.tags].join(" ")).includes(word))));

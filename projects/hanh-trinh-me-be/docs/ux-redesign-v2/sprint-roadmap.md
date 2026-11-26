@@ -35,6 +35,8 @@ Dependency: UX-01.
 - [ ] AC03.3: 5 nhiệm vụ phổ biến (ăn dặm, dậy thì, AI, tài chính, tuổi già) có đường đến bài ≤3 thao tác chính từ home qua search/chọn nhóm; đo UX-10. Evidence: desktop/mobile browser flows.
 Dependency: UX-01/02/04.
 
+**UX-03 candidate (26/11/2026):** [audit / implementation / acceptance plan](ux-03-implementation.md). Search-first, 6 life-course groups, actual corpus recommendations, explicit local opt-in and legacy history, 5 task paths. AC03.1–3 OPEN pending CI and LIVE QA; UX-10 human study still required. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-04 · P0 · Shell & navigation
 - [ ] AC04.1: 4 đích Trang chủ/Khám phá/Hành trình/Cá nhân cùng tên, order, active state trên mọi reader route, desktop/mobile; nguồn footer, CMS/demo không quảng bá.
 - [ ] AC04.2: keyboard Tab/Shift-Tab, skip link, focus visible, aria-current, safe area, không che nội dung/focus, không tràn ngang ở 320/390/768/1024/1440.

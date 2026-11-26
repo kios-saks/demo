@@ -44,6 +44,20 @@ function refreshChecks(){
  });
 
 }
+function refreshHomepage(){
+ const root=document.querySelector("[data-home-v2]");if(!root)return;
+ const select=root.querySelector("[data-home-group-select]");
+ const selected=get("homeGroup","");
+ const valid=select&&Array.from(select.options).some(o=>o.value&&o.value===selected);
+ if(select)select.value=valid?selected:"";
+ const general=root.querySelector("[data-home-general]");if(general)general.hidden=!!valid;
+ all("[data-home-personal-group]").forEach(el=>{el.hidden=!valid||el.dataset.homePersonalGroup!==selected});
+ const reset=root.querySelector("[data-home-reset]");if(reset)reset.hidden=!valid;
+ let titles={};try{titles=JSON.parse(root.dataset.homeLegacy||"{}")}catch{}
+ const recent=get("historyEnabled",false)===true?slugs("history").find(slug=>Object.prototype.hasOwnProperty.call(titles,slug)):"";
+ const section=root.querySelector("[data-home-recent]"),link=section?.querySelector("a");
+ if(section&&link){section.hidden=!recent;if(recent){link.href="/bai-viet/"+recent;link.textContent=titles[recent]}}
+}
 function refreshHistory(){
  const enabled=get("historyEnabled",false)===true;
  all("[data-history-opt-in]").forEach(el=>{el.checked=enabled;el.disabled=false});
@@ -56,7 +70,19 @@ function refreshHistory(){
   const empty=container.querySelector("[data-history-empty]");if(empty)empty.hidden=items.some(el=>!el.hidden);
  });
  all("[data-recent-link]").forEach(el=>{el.hidden=!history.length;if(history.length)el.href="/bai-viet/"+history[0]});
+ refreshHomepage();
 }
+all("[data-home-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
+ const root=btn.closest("[data-home-v2]"),select=root?.querySelector("[data-home-group-select]");
+ if(!select)return;
+ const choice=select.value,valid=Array.from(select.options).some(o=>o.value===choice);
+ if(!valid)return;
+ const ok=choice?set("homeGroup",choice):remove("homeGroup");
+ refreshHomepage();const status=root.querySelector("[data-home-status]");if(status)status.textContent=ok?(choice?"Đã lưu nhóm quan tâm trên thiết bị này.":"Đã xóa nhóm quan tâm."):"Không thể lưu lựa chọn trên trình duyệt này.";
+})});
+all("[data-home-reset]").forEach(btn=>btn.addEventListener("click",()=>{
+ const ok=remove("homeGroup");refreshHomepage();const status=btn.closest("[data-home-v2]")?.querySelector("[data-home-status]");if(status)status.textContent=ok?"Đã xóa nhóm quan tâm.":"Không thể xóa lựa chọn trên trình duyệt này.";
+}));
 all("[data-save-slug]").forEach(btn=>btn.addEventListener("click",()=>{
  const slug=btn.dataset.saveSlug;if(!validSlug(slug))return;
  const saved=slugs("saved");const next=saved.includes(slug)?saved.filter(s=>s!==slug):[slug,...saved];
@@ -86,7 +112,7 @@ all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
 }));
 all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
 all("[data-clear-reader]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
- const results=["historyEnabled","saved","stage","checklist","history"].map(remove);
+ const results=["historyEnabled","saved","stage","checklist","history","homeGroup"].map(remove);
  refreshSaved();refreshJourney();refreshChecks();refreshHistory();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 })});
 all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",async()=>{
@@ -99,5 +125,6 @@ all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener(
 })});
 if(validSlug(current)&&get("historyEnabled",false)===true)set("history",[current,...slugs("history").filter(s=>s!==current)].slice(0,40));
 updateNav();refreshSaved();refreshJourney();refreshChecks();refreshHistory();
+window.addEventListener("pageshow",()=>{refreshHomepage();refreshHistory()});
 window.addEventListener("storage",event=>{if(event.key===null||event.key.startsWith(prefix)){refreshSaved();refreshJourney();refreshChecks();refreshHistory()}});
 })();
