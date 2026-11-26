@@ -499,6 +499,48 @@
       "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
       "scope": "Nằm ngửa khi đặt ngủ, bề mặt chắc phẳng, chỗ ngủ riêng cùng phòng, không vật mềm.",
       "checkedOn": "2026-11-26"
+    },
+    "q04c2_separation": {
+      "name": "UNICEF — Managing child separation anxiety",
+      "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+      "scope": "Chia tay rõ ràng, làm quen tách người chăm từng bước.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_school": {
+      "name": "Cổng TTĐT Chính phủ — Thông tư 09/2024/TT-BGDĐT",
+      "url": "https://chinhphu.vn/?docid=210411&pageid=27160",
+      "scope": "Xác định văn bản công khai giáo dục; chưa đọc toàn văn/hợp nhất, không kết luận hiệu lực hiện tại.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_m18": {
+      "name": "CDC — Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_m2": {
+      "name": "CDC — Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_dental": {
+      "name": "NHS — Looking after your baby's teeth",
+      "url": "https://www.nhs.uk/baby/babys-development/teething/looking-after-your-babys-teeth/",
+      "scope": "Chải hai lần mỗi ngày, lớp kem fluoride mỏng dưới 3 tuổi.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_sleep": {
+      "name": "CDC — About Sleep",
+      "url": "https://www.cdc.gov/sleep/about/",
+      "scope": "11–14 giờ tuổi 1–2 gồm ngủ trưa.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c2_play": {
+      "name": "UNICEF — Learning activities for babies and toddlers",
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+      "scope": "Chơi tương tác, khám phá phù hợp tuổi.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -535,17 +577,49 @@
           "body": "Thống nhất với trường về đồ vật quen thuộc, giờ đưa đón, thông tin dị ứng hoặc nhu cầu chăm sóc cần thiết. Có thể làm quen ngắn và tăng thời gian phù hợp theo kế hoạch của nhà trường. Khi chia tay, chào rõ ràng rồi trở lại đúng hẹn. Theo dõi sự thay đổi của trẻ qua nhiều ngày; trao đổi nếu tình trạng khó chịu kéo dài hoặc ảnh hưởng sinh hoạt.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tính chi phí và đường đưa đón",
+          "body": "Lập bảng giả định gồm học phí, ăn, trông ngoài giờ, đồng phục, phí phát sinh và phương tiện. Ví dụ nếu học phí giả định 3 triệu đồng và tiền ăn 800 nghìn mỗi tháng, đó mới là 3,8 triệu trước khoản khác, không phải giá thị trường. Hỏi bằng văn bản về hoàn phí, nghỉ ốm và thời gian báo trước. Thử đi tuyến đến trường vào giờ thực tế, kể cả khi mưa hoặc người đưa đón chính bận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử quy trình bàn giao",
+          "body": "Chuẩn bị danh sách người được đón, số liên hệ dự phòng, dị ứng đã xác nhận và cách trường xử lý việc trẻ cần chăm sóc đặc biệt. Hỏi nếu người lạ đến đón hoặc trẻ có dấu hiệu bất thường thì ai liên hệ. Không cung cấp ảnh giấy tờ và thông tin sức khỏe qua nhóm chung. Quan sát phản ứng khi trẻ khóc, cách người chăm hỗ trợ ăn và thay đồ, không chỉ xem cơ sở vật chất.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tuần đầu: theo dõi thay vì đặt hạn phải thích nghi",
+          "body": "Lo khi tách người chăm thường xảy ra ở trẻ nhỏ. Tập một lần chia tay ngắn với người quen, báo trước khi rời đi và giữ lời hẹn quay lại. Thống nhất thời lượng ở trường cùng giáo viên; đừng lén biến mất. Theo dõi cách trẻ được an ủi, ăn ngủ và chơi sau khi người nhà rời đi, không chỉ số phút khóc. Nếu trẻ liên tục sợ hãi, có dấu hiệu bị thương hoặc không được chăm sóc an toàn, trao đổi ngay và tìm phương án bảo vệ trẻ.",
+          "sourceIds": [
+            "q04c2_separation"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Giấy tờ và giới hạn của bài",
+          "body": "Cổng Chính phủ công bố Thông tư 09/2024/TT-BGDĐT về công khai hoạt động giáo dục. Đây là đầu mối tra cứu, không phải xác nhận một trường đã đủ điều kiện hoặc văn bản chưa thay đổi. Đối chiếu thông tin với cơ quan quản lý giáo dục hiện hành tại địa phương, yêu cầu nhà trường giải thích tài liệu chưa rõ trước khi đóng tiền.",
+          "sourceIds": [
+            "q04c2_school"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập bảng ba cơ sở: giấy tờ đã kiểm chứng, thời gian đi lại, tổng chi phí, an toàn, người chăm sóc và khả năng đáp ứng.",
         "Ghi lại 3 câu hỏi chưa được giải đáp; không đặt cọc khi còn băn khoăn về pháp lý hoặc an toàn.",
-        "Hẹn trao đổi cuối tuần đầu về ăn, ngủ, chơi và phản ứng của trẻ."
+        "Hẹn trao đổi cuối tuần đầu về ăn, ngủ, chơi và phản ứng của trẻ.",
+        "Thử tuyến đưa đón với người dự phòng.",
+        "Chốt cách trao đổi với giáo viên trong tuần đầu."
       ],
       "limits": "Không có trường được giới thiệu hoặc xếp hạng trong bài. Cần kiểm tra quy định và thông tin tuyển sinh của địa phương tại thời điểm quyết định.",
       "sourceIds": [
         "schools",
-        "schoolDetails"
+        "schoolDetails",
+        "q04c2_separation",
+        "q04c2_school"
       ],
       "status": "draft"
     },
@@ -1126,18 +1200,46 @@
           "body": "Thống nhất ai theo dõi lịch hẹn, ai đưa trẻ đi khám, thông tin dị ứng nào cần báo cho nơi chăm sóc. Đừng chia sẻ hồ sơ sức khỏe công khai. Khi có triệu chứng cấp tính đáng lo, không đợi đến lần khám định kỳ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ghi nhận ở 18 và 24 tháng",
+          "body": "Dùng các mốc theo đúng tuổi để tổ chức quan sát, không biến mốc 24 tháng thành yêu cầu cho trẻ vừa 12 tháng. Ghi ngày, hoàn cảnh, cách trẻ giao tiếp hoặc di chuyển và điều người chăm hỗ trợ. Nếu kỹ năng mất đi hoặc có lo ngại, trao đổi sớm với bác sĩ và hỏi về sàng lọc phát triển; không đợi đủ một danh sách dấu hiệu.",
+          "sourceIds": [
+            "q04c2_m18",
+            "q04c2_m2"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chăm răng dưới ba tuổi",
+          "body": "NHS hướng dẫn chải ngay từ khi răng mọc, dùng một lớp kem fluoride rất mỏng dưới ba tuổi và chải ít nhất hai lần mỗi ngày. Người lớn thực hiện hoặc hỗ trợ, dùng bàn chải nhỏ phù hợp. Nếu trẻ quay đầu, thử thời điểm bình tĩnh và chia thao tác ngắn; không ép theo cách gây đau. Hỏi nha sĩ về loại kem, lượng dùng và nguy cơ sâu răng cụ thể, nhất là khi trẻ thường nuốt kem.",
+          "sourceIds": [
+            "q04c2_dental"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảng chuẩn bị buổi khám",
+          "body": "Ví dụ: trong phòng yên trẻ thường không quay lại khi gọi nhưng phản ứng với âm nhạc; ghi tình huống quan sát thay vì kết luận nghe kém. Mang danh sách thuốc, sổ khám và câu hỏi về tăng trưởng, tiêm chủng theo lịch Việt Nam, răng, ăn ngủ. Sau buổi khám ghi việc cần làm, mốc tái khám và cách liên hệ nếu có dấu hiệu mới. Không tự dùng thuốc bổ hoặc điều trị dựa trên một mốc phát triển.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Ghi một ví dụ trẻ làm được và một điều còn lo.",
         "Kiểm tra bàn chải, sổ tiêm và thông tin liên hệ cơ sở khám.",
-        "Viết ba câu hỏi mang đến buổi hẹn."
+        "Viết ba câu hỏi mang đến buổi hẹn.",
+        "Hẹn hỏi nha sĩ về cách chải và kem phù hợp.",
+        "Ghi hướng dẫn tái khám và người phụ trách."
       ],
       "limits": "Không dùng danh sách này thay sàng lọc hoặc lịch tiêm chủng chính thức tại Việt Nam.",
       "sourceIds": [
         "well",
         "milestone",
-        "oral"
+        "oral",
+        "q04c2_m18",
+        "q04c2_m2",
+        "q04c2_dental"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -1175,17 +1277,42 @@
           "body": "Nếu trẻ ít phản ứng với âm thanh, mất kỹ năng, khó vận động hoặc có điều khiến người chăm lo lắng, ghi lại tình huống và hẹn khám. Không dùng video trên mạng để tự chẩn đoán hoặc mua khóa trị liệu khi chưa được đánh giá.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Vận động theo mức con đang làm được",
+          "body": "Dùng lối sàn sạch, không vật vướng, để trẻ đi đến người chăm hoặc đẩy món đồ ổn định phù hợp tuổi. Nếu trẻ muốn mang khăn, đặt gần trước rồi tăng khoảng cách theo khả năng. Không đặt bài tập leo bậc hoặc kéo tay để đạt mốc nhanh. Trong nhà chật, chia vài khoảng chơi ngắn có người quan sát thay vì mua thiết bị lớn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nói trong lúc làm thật",
+          "body": "CDC khuyến khích làm mẫu lời nói và chơi giả vờ. Khi trẻ đưa cốc, đáp bằng lời ngắn về điều trẻ muốn, chờ cử chỉ hay âm thanh tiếp theo; khi trẻ chỉ hình, nói tên đồ vật rồi tiếp tục câu chuyện. Dùng ngôn ngữ quen thuộc trong gia đình, không biến mỗi lần chơi thành bài kiểm tra phát âm. Nếu lo về nghe, hiểu hoặc mất kỹ năng, hỏi bác sĩ về đánh giá.",
+          "sourceIds": [
+            "q04c2_m18",
+            "q04c2_m2"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực hành vệ sinh và riêng tư",
+          "body": "Chuẩn bị khăn riêng, nước phù hợp, chỗ đứng ổn định có người lớn hỗ trợ. Báo trước khi thay đồ, mô tả thao tác và cho trẻ chọn một phần việc như đưa khăn. Người lớn làm phần khó, không dùng sự xấu hổ khi trẻ làm đổ nước hoặc chưa sẵn sàng dùng bô. Nếu trẻ khó chịu, kiểm tra đau, kích ứng hoặc cách thao tác, không quy kết không hợp tác.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một trò đưa–nhận đồ vật an toàn.",
         "Tập nói tên hành động khi rửa tay hoặc thay áo.",
-        "Ghi câu hỏi về phát triển cần trao đổi với bác sĩ."
+        "Ghi câu hỏi về phát triển cần trao đổi với bác sĩ.",
+        "Dọn một lối đi và kiểm tra vật vướng.",
+        "Thử một hoạt động giao tiếp khi thay đồ."
       ],
       "limits": "Mốc phát triển không phải tiêu chuẩn buộc mọi trẻ đạt cùng ngày; trẻ có khó khăn cần đánh giá cá nhân.",
       "sourceIds": [
         "milestone",
-        "ecd"
+        "ecd",
+        "q04c2_m18",
+        "q04c2_m2"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -1223,17 +1350,40 @@
           "body": "Hỏi giáo viên về giờ ăn ngủ, cách trẻ thích nghi, rồi điều chỉnh lịch ở nhà dần dần. Nếu trẻ ngáy kèm khó thở, mất ngủ kéo dài hoặc mệt bất thường, trao đổi bác sĩ thay vì chỉ tăng giờ nằm giường.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhìn tổng giấc ngủ trong 24 giờ",
+          "body": "CDC nêu khoảng 11–14 giờ ngủ mỗi ngày cho trẻ 1–2 tuổi, gồm ngủ ngày. Đây là khoảng tham khảo, không buộc trẻ ngủ đúng một số giờ. Ví dụ một trẻ ngủ đêm khoảng 10,5 giờ và trưa 2 giờ thì tổng 12,5 giờ. Ghi cả lần thức giấc và mức tỉnh táo ban ngày; nếu thường khó ngủ hoặc mệt, trao đổi bác sĩ thay vì cố kéo dài thời gian nằm.",
+          "sourceIds": [
+            "q04c2_sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thiết kế nhịp cho nhà có người làm ca",
+          "body": "Chọn mốc có thể giữ như bữa sáng và nghi thức trước ngủ. Mỗi người chăm dùng cùng một trình tự ngắn, chẳng hạn vệ sinh, sách, chào ngủ. Khi giờ đi học thay đổi, điều chỉnh dần giờ thức và thời gian ngủ trưa dựa trên phản ứng của trẻ. Ngày ốm cho phép linh hoạt; nếu trẻ khó thở hoặc có dấu hiệu nghiêm trọng, tìm trợ giúp ngay.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một tuần thử nghiệm",
+          "body": "Ngày đầu ghi giờ ngủ, ăn và thời điểm trẻ cáu. Chọn đúng một thay đổi nhỏ như giảm hoạt động ồn trước ngủ. Trong các ngày sau, ghi mức dễ chuyển hoạt động và tỉnh táo. Cuối tuần xem có phù hợp cả trẻ và người chăm không. Không thưởng vì ngủ đúng giờ hoặc phạt vì thức dậy; nếu lịch nhà trẻ khó phù hợp, trao đổi bằng các ví dụ thực tế.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn hai mốc sinh hoạt cố định tương đối.",
         "Thực hiện nghi thức ngủ ngắn trong một tuần.",
-        "Cho trẻ tự làm một bước rửa tay dưới giám sát."
+        "Cho trẻ tự làm một bước rửa tay dưới giám sát.",
+        "Tính tổng giờ ngủ ngày và đêm trong 3 ngày.",
+        "Thống nhất một nghi thức giữa những người chăm."
       ],
       "limits": "Nhu cầu ngủ thay đổi theo cá nhân; không áp dụng lịch cứng, không tự dùng thuốc ngủ.",
       "sourceIds": [
         "under5",
-        "sleep"
+        "sleep",
+        "q04c2_sleep"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -4100,17 +4250,40 @@
           "body": "Quan sát trẻ có thử một cách khác, nhìn người lớn hoặc quay lại trò chơi không. Không ghi điểm IQ, không đặt mục tiêu xếp được bao nhiêu khối. Một trò ngắn lặp lại theo sở thích có ích hơn mua liên tục đồ chơi mới.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một trò có ba mức thử thách",
+          "body": "Mức đầu: đưa khăn vào một giỏ, lấy ra và làm lại. Mức tiếp: hai giỏ, người lớn làm mẫu đưa khăn theo màu; trẻ có thể chọn quy tắc khác. Mức mở rộng: trẻ tự chọn món và giỏ rồi người lớn mô tả. Không cần trẻ gọi tên màu hoặc làm đúng hết; giảm mức nếu trẻ mất hứng. Dùng khăn sạch, giỏ không cạnh sắc và không vật nhỏ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chơi với nguyên nhân và kết quả",
+          "body": "Đặt hai khối lớn trên sàn, thử xếp rồi tháo. Chờ trẻ chọn thử lại hay đổi trò, không dựng tháp thay ngay. Các gợi ý chơi của UNICEF nhấn mạnh tương tác phù hợp khả năng; hoạt động ở đây là ví dụ tự biên tập chứ không phải bài đánh giá trí tuệ.",
+          "sourceIds": [
+            "q04c2_play"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ghi quan sát thay cho điểm",
+          "body": "Ví dụ trẻ bỏ giỏ để xếp khăn thành hàng: người lớn mô tả cách làm thay vì sửa sai. Lần khác có thể đặt thêm một khăn và xem trẻ muốn làm gì. Ghi điều trẻ chủ động, phần người chăm hỗ trợ và nguy cơ cần sửa trong không gian. Nếu lo về phát triển, trao đổi với chuyên gia thay vì mua bài kiểm tra IQ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn hai giỏ và đồ vật lớn an toàn.",
         "Thử phân loại một đặc điểm rồi đổi cách chơi.",
-        "Cho trẻ một lần thử lại trước khi hỗ trợ."
+        "Cho trẻ một lần thử lại trước khi hỗ trợ.",
+        "Thử hai mức, dừng trước khi trẻ mệt.",
+        "Ghi một cách chơi do trẻ tự nghĩ."
       ],
       "limits": "Không đánh giá năng lực trí tuệ qua trò chơi; mọi hoạt động cần phù hợp tuổi và có người lớn giám sát.",
       "sourceIds": [
         "playHarvard",
-        "playInfant"
+        "playInfant",
+        "q04c2_play"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"
@@ -4148,17 +4321,40 @@
           "body": "Hỏi người chăm về tình huống thường xảy ra, thống nhất lời nhắc đơn giản và cách xử lý an toàn. Nếu xung đột lặp lại, xem số trẻ, đồ chơi, giờ nghỉ và nhu cầu hỗ trợ. Không công khai video trẻ khóc hay tranh đồ để phán xét.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị lần chơi chung ngắn",
+          "body": "Hai trẻ có thể chơi cạnh nhau, chưa tự giải quyết được tranh chấp. CDC khuyến khích người lớn giám sát và làm mẫu chia lượt. Chuẩn bị hai bộ đồ tương tự, không gian thoát khỏi chỗ đông và một người chăm có thể đến gần ngay. Không yêu cầu trẻ chia mọi đồ riêng hay ôm bạn để chào.",
+          "sourceIds": [
+            "q04c2_m2"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi trẻ giật đồ hoặc đánh",
+          "body": "Chặn hành vi nguy hiểm, chăm trẻ bị đau trước. Mô tả tình huống không gắn nhãn: hai bạn cùng muốn xe. Cho lựa chọn chờ cùng người chăm hoặc chơi xe khác; nếu chưa thể chờ, đổi hoạt động. Khi cả hai bình tĩnh, tập lăn bóng lớn qua lại một lượt. Người lớn không đứng quay video hoặc buộc trẻ tự giải quyết nếu không an toàn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bàn giao với nhà trẻ",
+          "body": "Hỏi lúc nào xung đột hay xảy ra: thiếu món chơi, lúc chờ ăn, khi nhóm quá đông. Thống nhất lời nhắc ngắn và phương án tăng khoảng cách, bổ sung đồ hoặc giảm thời gian chờ. Nếu trẻ thường xuyên bị thương hoặc người chăm không thể bảo đảm an toàn, trao đổi để có phương án bảo vệ. Không dán nhãn trẻ hung hăng từ một sự cố.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Tập trò lăn bóng lần lượt trong vài phút.",
         "Chuẩn bị hai lựa chọn khi có tranh đồ.",
-        "Thống nhất một câu nhắc không bạo lực với người chăm."
+        "Thống nhất một câu nhắc không bạo lực với người chăm.",
+        "Chuẩn bị hai món chơi tương tự.",
+        "Tập một lượt đưa–nhận khi trẻ bình tĩnh."
       ],
       "limits": "Không chẩn đoán kỹ năng xã hội từ một tình huống; cần đánh giá nếu lo ngại kéo dài.",
       "sourceIds": [
         "positive",
-        "playInfant"
+        "playInfant",
+        "q04c2_m2"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"
@@ -4196,17 +4392,40 @@
           "body": "Trẻ có thể thích một bài hát hôm nay rồi bỏ qua ngày mai. Lưu sản phẩm nếu trẻ và gia đình muốn, không dùng làm hồ sơ đánh giá năng khiếu. Hạn chế mua khóa học dài khi chưa rõ điều kiện, an toàn và hứng thú của trẻ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một buổi sáng tạo không cần mua bộ học cụ",
+          "body": "Dọn vùng sàn thoáng, dùng giấy lớn, bút sáp nguyên vẹn phù hợp tuổi và người lớn ngồi cạnh. Cho trẻ lựa chọn giữa vẽ và vỗ tay theo nhạc. Khi trẻ tạo một vệt, mô tả màu hoặc chuyển động, không bắt vẽ giống mẫu. Không dùng hạt, kim tuyến rời, nút nhỏ, dây dài hoặc đồ dễ đưa vào miệng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chơi theo nhịp và bắt chước",
+          "body": "Hát câu ngắn rồi ngừng để trẻ đáp bằng tiếng, vỗ tay hay cử động. Để trẻ chọn lặp lại hoặc chuyển bài. UNICEF đưa các hoạt động tương tác qua chơi cho trẻ nhỏ; gợi ý ở đây được thiết kế cho gia đình Việt Nam, không phải chương trình phát hiện năng khiếu. Nếu trẻ tránh tiếng lớn, giảm âm lượng hoặc chuyển sang hoạt động yên tĩnh.",
+          "sourceIds": [
+            "q04c2_play"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quan sát sở thích thay vì xếp hạng",
+          "body": "Trong tuần, thử hát khi thay đồ và vẽ khi có người giám sát. Ghi trẻ chủ động chọn gì, phản ứng khi môi trường ồn và thời điểm dễ tham gia. Không đăng sản phẩm kèm thông tin cá nhân nếu không cần. Nếu tìm lớp học, xem mức giám sát, dụng cụ, thời gian nghỉ và quyền dừng; không dùng cam kết phát triển IQ làm lý do mua khóa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Thử một bài hát và một trò chuyển động nhẹ.",
         "Chuẩn bị giấy và dụng cụ phù hợp tuổi.",
-        "Để trẻ chọn hoạt động tiếp theo."
+        "Để trẻ chọn hoạt động tiếp theo.",
+        "Thử một trò nhịp và một trò vẽ ngắn.",
+        "Kiểm tra dụng cụ trước và sau khi chơi."
       ],
       "limits": "Không phải phương pháp phát hiện năng khiếu; lựa chọn và giám sát dụng cụ phù hợp.",
       "sourceIds": [
         "playVn",
-        "playHarvard"
+        "playHarvard",
+        "q04c2_play"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"

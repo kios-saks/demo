@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04C1",
+  "batch": "S04-AZ-04C2",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -659,24 +659,27 @@
       "stage": "toddler",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "lesson:tu-chu-tung-buoc",
       "stage": "toddler",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "lesson:ranh-gioi-co-the",
       "stage": "toddler",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "lesson:choi-tu-duy",
@@ -803,8 +806,9 @@
       "stage": "toddler",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:bua-an-mam-non-3-5",
@@ -900,24 +904,27 @@
       "stage": "toddler",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:van-dong-ngon-ngu-va-ve-sinh-1-2",
       "stage": "toddler",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:nhip-sinh-hoat-1-2",
       "stage": "toddler",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:rang-thi-luc-suc-khoe-3-5",
@@ -1350,24 +1357,27 @@
       "stage": "toddler",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:choi-canh-ban-va-xin-luot",
       "stage": "toddler",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:am-nhac-tao-hinh-1-2",
       "stage": "toddler",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C2"
     },
     {
       "key": "article:tinh-ban-va-lam-hoa-3-5",
@@ -1844,9 +1854,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 33,
-    "remaining": 98,
-    "additional": 16
+    "attempted": 35,
+    "remaining": 96,
+    "additional": 21
   },
   "targetedRevisions": [
     {
@@ -3212,5 +3222,192 @@
       "additional": 11
     },
     "note": "Union exact baseline identifiers in 04A/B/C ledgers; additional URLs deduplicated by trailing slash; not claim verification."
-  }
+  },
+  "revisions04c2": [
+    {
+      "key": "lesson:cam-xuc-va-gioi-han",
+      "stage": "toddler",
+      "title": "Con giận dữ: gọi tên cảm xúc và giữ giới hạn",
+      "before": 108,
+      "after": 224,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+          "status": "opened",
+          "scope": "Giới hạn không làm nhục, lắng nghe, khuyến khích lên tiếng."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+          "status": "opened",
+          "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tu-chu-tung-buoc",
+      "stage": "toddler",
+      "title": "Tự lập qua việc nhỏ hằng ngày",
+      "before": 89,
+      "after": 185,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+          "status": "opened",
+          "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:ranh-gioi-co-the",
+      "stage": "toddler",
+      "title": "Cơ thể của con và quyền nói không",
+      "before": 108,
+      "after": 236,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+          "status": "opened",
+          "scope": "Giới hạn không làm nhục, lắng nghe, khuyến khích lên tiếng."
+        },
+        {
+          "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
+          "status": "search-only",
+          "scope": "Nguyên tắc bảo vệ cơ thể; chỉ kết quả tìm kiếm, mở trang 403; điều chỉnh cho cha mẹ trẻ nhỏ, không áp dụng nguyên bộ bài."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chuan-bi-nha-tre-1-2",
+      "stage": "toddler",
+      "title": "Chọn nhà trẻ cho con 1–2 tuổi: từ khảo sát đến tuần đầu thích nghi",
+      "before": 307,
+      "after": 633,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+          "status": "opened",
+          "scope": "Chia tay rõ ràng, làm quen tách người chăm từng bước."
+        },
+        {
+          "url": "https://chinhphu.vn/?docid=210411&pageid=27160",
+          "status": "search-only",
+          "scope": "Xác định văn bản công khai giáo dục; chưa đọc toàn văn/hợp nhất, không kết luận hiệu lực hiện tại."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:kham-phat-trien-rang-1-2",
+      "stage": "toddler",
+      "title": "Khám sức khỏe 1–2 tuổi: theo dõi phát triển, răng và câu hỏi cần chuẩn bị",
+      "before": 205,
+      "after": 441,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+          "status": "opened",
+          "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên."
+        },
+        {
+          "url": "https://www.nhs.uk/baby/babys-development/teething/looking-after-your-babys-teeth/",
+          "status": "opened",
+          "scope": "Chải hai lần mỗi ngày, lớp kem fluoride mỏng dưới 3 tuổi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:van-dong-ngon-ngu-va-ve-sinh-1-2",
+      "stage": "toddler",
+      "title": "Cơ thể 1–2 tuổi: vận động, ngôn ngữ và tập chăm sóc bản thân",
+      "before": 203,
+      "after": 424,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+          "status": "opened",
+          "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:nhip-sinh-hoat-1-2",
+      "stage": "toddler",
+      "title": "Nhịp sinh hoạt 1–2 tuổi: ngủ, rửa tay và tự phục vụ",
+      "before": 188,
+      "after": 408,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "11–14 giờ tuổi 1–2 gồm ngủ trưa."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:phan-loai-va-thu-lai-1-2",
+      "stage": "toddler",
+      "title": "Trò chơi tư duy 1–2 tuổi: phân loại, xếp và thử lại",
+      "before": 206,
+      "after": 402,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Chơi tương tác, khám phá phù hợp tuổi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:choi-canh-ban-va-xin-luot",
+      "stage": "toddler",
+      "title": "Quan hệ 1–2 tuổi: chơi cạnh bạn, xin lượt và chia sẻ từng bước",
+      "before": 202,
+      "after": 402,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+          "status": "opened",
+          "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:am-nhac-tao-hinh-1-2",
+      "stage": "toddler",
+      "title": "Âm nhạc, vẽ và vận động tự do tuổi 1–2",
+      "before": 197,
+      "after": 401,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Chơi tương tác, khám phá phù hợp tuổi."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ]
 }

@@ -132,3 +132,5 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] S04-AZ-04B2: chỉnh sửa 18 nội dung năm đầu; [báo cáo](life-course-batch-04b2-2026-11-26.md). Tổng 51/219 có revision (3 expanded-draft, 48 revised-draft); 168 chờ, chưa thẩm định/kiểm chứng toàn bộ claim.
 
 - [x] S04-AZ-04C1: chỉnh sửa 6 bài legacy tuổi tập đi; [báo cáo](life-course-batch-04c1-2026-11-26.md). Tổng 57/219 có revision; 162 chờ, trong đó 43 thuộc 1–10 tuổi. Chưa thẩm định toàn bộ claim, chưa nghiệm thu DEV.
+
+- [x] S04-AZ-04C2: hoàn thành 10/10 revision còn lại tuổi 1–2, 67/219 toàn kho; [báo cáo](life-course-batch-04c2-2026-11-26.md). Chưa thẩm định và CI.

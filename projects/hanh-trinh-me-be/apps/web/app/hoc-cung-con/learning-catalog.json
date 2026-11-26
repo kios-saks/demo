@@ -149,6 +149,22 @@
     "quality04b_sleep": {
       "name": "CDC — Providing Care for Babies to Sleep Safely",
       "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+    },
+    "q04c2_positive": {
+      "name": "UNICEF Asia Pacific — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    },
+    "q04c2_m18": {
+      "name": "CDC — Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    },
+    "q04c2_m2": {
+      "name": "CDC — Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    "q04c2_pants": {
+      "name": "NSPCC — Talk PANTS",
+      "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
     }
   },
   "lessons": [
@@ -211,12 +227,14 @@
       "category": "psych",
       "title": "Con giận dữ: gọi tên cảm xúc và giữ giới hạn",
       "goal": "Hỗ trợ trẻ bình tĩnh mà không nhượng bộ mọi yêu cầu.",
-      "knowledge": "Trẻ nhỏ vẫn đang học cách chờ đợi và diễn đạt nhu cầu. Người lớn có thể công nhận cảm xúc, giữ giới hạn về hành vi gây hại và đưa ra lựa chọn đơn giản. Khi trẻ đang quá căng thẳng, nói ngắn và ưu tiên an toàn.",
-      "practice": "Khi trẻ muốn giành đồ chơi, nói: Con đang rất muốn chơi món này. Mình không đánh bạn. Con muốn đợi cùng mẹ hay chọn món khác? Khi bình tĩnh, tập lại cách xin lượt chơi.",
-      "reflection": "Con có thể chọn một cách diễn đạt nhu cầu thay vì đánh hoặc giật không? Không yêu cầu trẻ luôn làm được.",
+      "knowledge": "Trẻ nhỏ vẫn đang học cách chờ đợi và diễn đạt nhu cầu. Người lớn có thể công nhận cảm xúc, giữ giới hạn về hành vi gây hại và đưa ra lựa chọn đơn giản. Khi trẻ đang quá căng thẳng, nói ngắn và ưu tiên an toàn. Phân biệt điều trẻ cảm thấy với điều trẻ được phép làm: tức giận không phải lỗi, đánh người thì cần người lớn ngăn lại. Người chăm điều chỉnh giọng và khoảng cách trước khi mong trẻ tự bình tĩnh.",
+      "practice": "Khi trẻ muốn giành đồ chơi, nói: Con đang rất muốn chơi món này. Mình không đánh bạn. Con muốn đợi cùng mẹ hay chọn món khác? Khi bình tĩnh, tập lại cách xin lượt chơi. Trong một lần chuyển từ chơi sang ăn, báo trước bằng câu quen thuộc. Nếu trẻ ném đồ, dọn đồ nguy hiểm, ở gần và nói một câu ngắn. Sau khi dịu lại, diễn tập đưa đồ vào giỏ cùng người lớn. Nếu trẻ chưa muốn tham gia, thử lúc khác.",
+      "reflection": "Con có thể chọn một cách diễn đạt nhu cầu thay vì đánh hoặc giật không? Không yêu cầu trẻ luôn làm được. Người lớn đã giúp trẻ an toàn bằng cách nào? Có thể thay đổi thời điểm chuyển hoạt động không? Không ghi điểm cảm xúc.",
       "sourceIds": [
         "unicef",
-        "executive"
+        "executive",
+        "q04c2_positive",
+        "q04c2_m18"
       ],
       "status": "draft"
     },
@@ -226,12 +244,14 @@
       "category": "skills",
       "title": "Tự lập qua việc nhỏ hằng ngày",
       "goal": "Rèn lựa chọn, kiên trì và khả năng tự giúp mình.",
-      "knowledge": "Thói quen quen thuộc giúp trẻ dự đoán điều tiếp theo. Cho trẻ hai lựa chọn phù hợp và một phần việc vừa sức giúp thực hành tự chủ. Không dùng phần thưởng hoặc xấu hổ để buộc trẻ làm nhanh.",
-      "practice": "Đặt hai chiếc áo để trẻ chọn. Cùng trẻ cất một món đồ vào giỏ rồi giảm dần hỗ trợ. Người lớn làm mẫu, đợi trẻ thử và hỗ trợ nếu trẻ cần.",
-      "reflection": "Trẻ có chủ động thử một bước không? Điều gì khiến việc đó dễ hơn?",
+      "knowledge": "Thói quen quen thuộc giúp trẻ dự đoán điều tiếp theo. Cho trẻ hai lựa chọn phù hợp và một phần việc vừa sức giúp thực hành tự chủ. Không dùng phần thưởng hoặc xấu hổ để buộc trẻ làm nhanh. Tự chủ không có nghĩa tự làm hết. Chọn việc trẻ có thể hoàn thành một phần với hỗ trợ; người lớn quyết định phần liên quan đến an toàn.",
+      "practice": "Đặt hai chiếc áo để trẻ chọn. Cùng trẻ cất một món đồ vào giỏ rồi giảm dần hỗ trợ. Người lớn làm mẫu, đợi trẻ thử và hỗ trợ nếu trẻ cần. Đặt giỏ khăn thấp và chắc. Mời trẻ đưa một khăn trước bữa ăn; làm mẫu một lần, chờ trẻ thử, sau đó cùng làm nếu trẻ cần. Không giao đồ nóng, sắc, nặng hoặc dễ vỡ. Thực hành lúc không vội.",
+      "reflection": "Trẻ có chủ động thử một bước không? Điều gì khiến việc đó dễ hơn? Nếu trẻ bỏ đi, xem việc có quá khó hay trẻ đang mệt; điều chỉnh chứ không yêu cầu làm lại cho đạt chuẩn.",
       "sourceIds": [
         "play",
-        "executive"
+        "executive",
+        "q04c2_m18",
+        "q04c2_m2"
       ],
       "status": "draft"
     },
@@ -241,11 +261,13 @@
       "category": "body",
       "title": "Cơ thể của con và quyền nói không",
       "goal": "Dạy ranh giới cơ thể bằng ngôn ngữ bình thường, không gây sợ hãi.",
-      "knowledge": "Gọi tên bộ phận cơ thể phù hợp và tôn trọng khi trẻ không muốn ôm hôn. Giải thích việc chăm sóc cần thiết như vệ sinh hoặc khám bệnh bằng lời đơn giản. Trẻ có thể tìm người lớn tin cậy nếu thấy khó chịu hoặc bối rối.",
-      "practice": "Thực hành lựa chọn chào hỏi bằng vẫy tay hoặc chạm tay, không ép hôn. Khi chăm sóc cơ thể, nói trước việc sắp làm, giữ riêng tư và nghe phản hồi của con.",
-      "reflection": "Con biết tìm đến ai khi cần trợ giúp? Người lớn cần bảo vệ trẻ; không đặt trách nhiệm phòng tránh xâm hại lên trẻ.",
+      "knowledge": "Gọi tên bộ phận cơ thể phù hợp và tôn trọng khi trẻ không muốn ôm hôn. Giải thích việc chăm sóc cần thiết như vệ sinh hoặc khám bệnh bằng lời đơn giản. Trẻ có thể tìm người lớn tin cậy nếu thấy khó chịu hoặc bối rối. Với trẻ 1–2 tuổi, trọng tâm là hành vi người lớn: không ép tiếp xúc thân mật, thông báo trước khi thay tã và che chắn riêng tư. Không kỳ vọng trẻ nhận biết hoặc tự ngăn xâm hại.",
+      "practice": "Thực hành lựa chọn chào hỏi bằng vẫy tay hoặc chạm tay, không ép hôn. Khi chăm sóc cơ thể, nói trước việc sắp làm, giữ riêng tư và nghe phản hồi của con. Người thân muốn hôn trẻ nhưng trẻ quay mặt: người chăm có thể nói trẻ thích vẫy tay hơn. Khi vệ sinh bắt buộc, giải thích ngắn, nhẹ nhàng và cho trẻ chọn khăn nếu được. Khi trẻ tỏ ra sợ một người hoặc hoàn cảnh, lắng nghe và ưu tiên an toàn; không hỏi dồn hoặc gợi câu trả lời.",
+      "reflection": "Con biết tìm đến ai khi cần trợ giúp? Người lớn cần bảo vệ trẻ; không đặt trách nhiệm phòng tránh xâm hại lên trẻ. Ai là người chịu trách nhiệm bảo vệ trẻ lúc giao ca? Người lớn cần hành động nếu có nghi ngờ, kể cả khi trẻ chưa nói được.",
       "sourceIds": [
-        "unicef"
+        "unicef",
+        "q04c2_positive",
+        "q04c2_pants"
       ],
       "status": "draft"
     },

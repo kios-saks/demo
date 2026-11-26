@@ -1021,7 +1021,7 @@
       "stage": "toddler",
       "pillar": "psych",
       "originalStage": "toddler",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-cam-xuc-va-gioi-han"
@@ -1033,7 +1033,7 @@
       "stage": "toddler",
       "pillar": "life",
       "originalStage": "toddler",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-tu-chu-tung-buoc"
@@ -1045,7 +1045,7 @@
       "stage": "toddler",
       "pillar": "safety",
       "originalStage": "toddler",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-ranh-gioi-co-the"
@@ -1237,8 +1237,8 @@
       "stage": "toddler",
       "pillar": "schools",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 8,
       "status": "draft",
       "href": "/hoc-cung-con#az-chuan-bi-nha-tre-1-2"
     },
@@ -1381,8 +1381,8 @@
       "stage": "toddler",
       "pillar": "health",
       "originalStage": "toddler",
-      "sourceCount": 3,
-      "sectionCount": 4,
+      "sourceCount": 6,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-kham-phat-trien-rang-1-2"
     },
@@ -1393,8 +1393,8 @@
       "stage": "toddler",
       "pillar": "body",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-van-dong-ngon-ngu-va-ve-sinh-1-2"
     },
@@ -1405,8 +1405,8 @@
       "stage": "toddler",
       "pillar": "routine",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-nhip-sinh-hoat-1-2"
     },
@@ -2053,8 +2053,8 @@
       "stage": "toddler",
       "pillar": "thinking",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-phan-loai-va-thu-lai-1-2"
     },
@@ -2065,8 +2065,8 @@
       "stage": "toddler",
       "pillar": "relationships",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-choi-canh-ban-va-xin-luot"
     },
@@ -2077,8 +2077,8 @@
       "stage": "toddler",
       "pillar": "talents",
       "originalStage": "toddler",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-am-nhac-tao-hinh-1-2"
     },
