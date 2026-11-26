@@ -185,6 +185,14 @@
     "q04c3_digital": {
       "name": "UNICEF Việt Nam — Digital parenting",
       "url": "https://www.unicef.org/vietnam/digital-parenting"
+    },
+    "q04c4_eef": {
+      "name": "EEF — Metacognition and self-regulation",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/"
+    },
+    "q04c4_parent": {
+      "name": "UNICEF — Positive parenting tips for children aged 6–10",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
     }
   },
   "lessons": [
@@ -347,12 +355,14 @@
       "category": "psych",
       "title": "Điểm số, sai lầm và cảm giác thuộc về",
       "goal": "Giúp trẻ tìm cách học thay vì đánh giá bản thân bằng kết quả.",
-      "knowledge": "Tuổi đi học mở rộng quan hệ bạn bè và trách nhiệm. Hỏi về trải nghiệm, khó khăn và những điều con đã thử trước khi nói về điểm số. Nếu lo lắng kéo dài hoặc ảnh hưởng sinh hoạt, phối hợp giáo viên và chuyên gia phù hợp.",
-      "practice": "Sau bài tập, hỏi con: Phần nào dễ, phần nào cần thử cách khác? Chọn một lỗi để cùng phân tích, sau đó cho con giải thích cách sửa. Khen nỗ lực cụ thể thay vì khen thông minh chung chung.",
-      "reflection": "Con biết một chiến lược mới nào để dùng khi gặp bài tương tự?",
+      "knowledge": "Tuổi đi học mở rộng quan hệ bạn bè và trách nhiệm. Hỏi về trải nghiệm, khó khăn và những điều con đã thử trước khi nói về điểm số. Nếu lo lắng kéo dài hoặc ảnh hưởng sinh hoạt, phối hợp giáo viên và chuyên gia phù hợp. Một lỗi cho biết chiến lược nào chưa phù hợp, không nói lên giá trị của con. Người lớn có thể làm mẫu việc tự sửa một lỗi của mình; nếu trẻ lo sợ đến mức không dám làm, giảm độ khó hoặc tìm hỗ trợ.",
+      "practice": "Sau bài tập, hỏi con: Phần nào dễ, phần nào cần thử cách khác? Chọn một lỗi để cùng phân tích, sau đó cho con giải thích cách sửa. Khen nỗ lực cụ thể thay vì khen thông minh chung chung. Chọn một câu toán hoặc một từ viết sai. Con kể cách đã thử; cùng tìm đúng một bước cần đổi, làm lại một ví dụ tương tự, rồi dừng. Nếu con không muốn xem lại ngay, hẹn lúc bình tĩnh. Không so bài với bạn hoặc bắt xin lỗi vì điểm thấp.",
+      "reflection": "Con biết một chiến lược mới nào để dùng khi gặp bài tương tự? Con có thể nói 'con chưa biết cách này' và chọn một người để hỏi không? Cha mẹ ghi nhận một chiến lược cụ thể.",
       "sourceIds": [
         "school",
-        "executive"
+        "executive",
+        "q04c4_eef",
+        "q04c4_parent"
       ],
       "status": "draft"
     },
@@ -362,12 +372,14 @@
       "category": "modern",
       "title": "Thám tử thông tin: đọc và kiểm chứng",
       "goal": "Biết phân biệt quan sát, ý kiến và thông tin cần kiểm tra.",
-      "knowledge": "Một câu chuyện lan truyền hoặc hình ảnh đẹp không tự chứng minh điều đang được nói. Hướng dẫn trẻ hỏi ai tạo nội dung, vì sao nội dung tồn tại và liệu nguồn khác có xác nhận không. Với tài khoản và công cụ trực tuyến, tuân thủ tuổi sử dụng.",
-      "practice": "Chọn hai bài viết phù hợp về cùng một con vật từ nguồn giáo dục. Tìm tên tác giả, ngày, điểm giống và khác. Viết một câu chưa chắc chắn và tìm câu trả lời cùng người lớn.",
-      "reflection": "Con có thể nói điều gì là bằng chứng và điều gì chỉ là suy đoán?",
+      "knowledge": "Một câu chuyện lan truyền hoặc hình ảnh đẹp không tự chứng minh điều đang được nói. Hướng dẫn trẻ hỏi ai tạo nội dung, vì sao nội dung tồn tại và liệu nguồn khác có xác nhận không. Với tài khoản và công cụ trực tuyến, tuân thủ tuổi sử dụng. Dùng ba câu hỏi: ai nói, bằng chứng gì, nguồn độc lập nào xác nhận? AI có thể tạo lời giải thích nghe hợp lý mà sai; ảnh đẹp, giọng nói tự tin hay nhiều lượt thích không thay bằng chứng.",
+      "practice": "Chọn hai bài viết phù hợp về cùng một con vật từ nguồn giáo dục. Tìm tên tác giả, ngày, điểm giống và khác. Viết một câu chưa chắc chắn và tìm câu trả lời cùng người lớn. Người lớn viết một câu giả lập: 'cá heo là cá vì sống dưới nước'. Để trẻ đoán, tra sách khoa học hoặc nguồn giáo dục đáng tin và giải thích vì sao cá heo là động vật có vú. Không cần tài khoản AI. Với bài lan truyền về người thật, không tìm hay chia sẻ dữ liệu riêng tư; dùng ví dụ giả lập.",
+      "reflection": "Con có thể nói điều gì là bằng chứng và điều gì chỉ là suy đoán? Con phân biệt được câu chưa kiểm chứng với câu có bằng chứng không? Nếu chưa tìm ra, tập nói 'chưa biết' thay vì đoán.",
       "sourceIds": [
         "media",
-        "digital"
+        "digital",
+        "parentingAI",
+        "q04c4_eef"
       ],
       "status": "draft"
     },
@@ -377,11 +389,12 @@
       "category": "finance",
       "title": "Tiền tiêu vặt: nhu cầu, mong muốn và tiết kiệm",
       "goal": "Thực hành lập mục tiêu bằng số tiền giả định.",
-      "knowledge": "Trẻ có thể học cân nhắc lựa chọn tài chính qua tình huống nhỏ, không cần tài khoản ngân hàng thật. Việc trì hoãn mua đồ để đạt một mục tiêu là bài tập lập kế hoạch, không phải đánh giá hoàn cảnh kinh tế gia đình.",
-      "practice": "Dùng 10 thẻ giấy tượng trưng tiền. Chia vào nhu cầu, mong muốn và mục tiêu tiết kiệm; cùng thảo luận nếu chỉ còn 6 thẻ. Không bắt trẻ góp chi phí thiết yếu.",
-      "reflection": "Con chọn ưu tiên gì và lý do nào? Không có một đáp án ngân sách duy nhất.",
+      "knowledge": "Trẻ có thể học cân nhắc lựa chọn tài chính qua tình huống nhỏ, không cần tài khoản ngân hàng thật. Việc trì hoãn mua đồ để đạt một mục tiêu là bài tập lập kế hoạch, không phải đánh giá hoàn cảnh kinh tế gia đình. CFPB mô tả tuổi 6–12 là giai đoạn hình thành thói quen và khái niệm quản lý tiền. Dùng số tiền giả định, không yêu cầu trẻ có tiền tiêu vặt thật, tài khoản hay ứng dụng thanh toán.",
+      "practice": "Dùng 10 thẻ giấy tượng trưng tiền. Chia vào nhu cầu, mong muốn và mục tiêu tiết kiệm; cùng thảo luận nếu chỉ còn 6 thẻ. Không bắt trẻ góp chi phí thiết yếu. Giả định con có 30.000 đồng, muốn mua một quyển vở 12.000 đồng và tiết kiệm 10.000 đồng; còn 8.000 đồng cho lựa chọn khác. Nếu món muốn mua giá 15.000 đồng, cùng nghĩ phương án hoãn hoặc đổi mục tiêu. Dùng thẻ giấy; người lớn giải thích nút mua trong game, quảng cáo và không cho mã OTP.",
+      "reflection": "Con chọn ưu tiên gì và lý do nào? Không có một đáp án ngân sách duy nhất. Nếu phải thay đổi kế hoạch, con sẽ chọn điều gì? Không đánh giá trẻ từ số tiền gia đình có; nhu cầu thiết yếu do người lớn bảo đảm.",
       "sourceIds": [
-        "finance"
+        "finance",
+        "digital"
       ],
       "status": "draft"
     },

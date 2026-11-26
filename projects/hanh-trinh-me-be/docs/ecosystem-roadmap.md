@@ -136,3 +136,6 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [x] S04-AZ-04C2: hoàn thành 10/10 revision còn lại tuổi 1–2, 67/219 toàn kho; [báo cáo](life-course-batch-04c2-2026-11-26.md). Chưa thẩm định và CI.
 
 - [x] S04-AZ-04C3: 16/16 nội dung tuổi 3–5 có revision; tổng 83/219, 136 chờ, 17 thuộc 6–10; [báo cáo](life-course-batch-04c3-2026-11-26.md). Chưa thẩm định/CI.
+
+- [x] S04-AZ-04C4: 17/17 revision tuổi 6–10, hoàn thành 49/49 phạm vi 04C (1–10 tuổi), tổng 100/219; 119 chờ; [báo cáo](life-course-batch-04c4-2026-11-26.md). Draft, chưa chuyên gia/CI.
+- [ ] S04-AZ-04D: tiếp tục 18 nội dung tuổi 11–13; ưu tiên sức khỏe, an toàn và kỹ năng số.

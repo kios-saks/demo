@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04C3",
+  "batch": "S04-AZ-04C4",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -170,16 +170,18 @@
       "stage": "school",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:tinh-ban-dau-doi",
       "stage": "school",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:noi-chuyen-ve-day-thi",
@@ -542,32 +544,36 @@
       "stage": "school",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:giac-ngu-hoc-sinh-tieu-hoc",
       "stage": "school",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:van-dong-cho-tre-tieu-hoc",
       "stage": "school",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:phong-chong-bat-nat-o-truong",
       "stage": "school",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "legacy:suc-khoe-tinh-than-tuoi-thieu-nien",
@@ -719,24 +725,27 @@
       "stage": "school",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "lesson:kiem-chung-thong-tin",
       "stage": "school",
       "pillar": "thinking",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "lesson:tien-tieu-vat",
       "stage": "school",
       "pillar": "finance",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "lesson:day-thi-thay-doi",
@@ -833,16 +842,18 @@
       "stage": "school",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:chon-tieu-hoc-theo-nhu-cau",
       "stage": "school",
       "pillar": "schools",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:chuyen-cap-thcs",
@@ -968,16 +979,18 @@
       "stage": "school",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:co-the-thay-doi-6-10",
       "stage": "school",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:dinh-duong-day-thi-11-13",
@@ -1424,32 +1437,36 @@
       "stage": "school",
       "pillar": "digital",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:so-thich-va-cau-lac-bo-6-10",
       "stage": "school",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:quyen-hoc-tap-va-quy-tac-truong-6-10",
       "stage": "school",
       "pillar": "civic",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:quan-ly-thoi-gian-va-viec-nha-6-10",
       "stage": "school",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04C4"
     },
     {
       "key": "article:lap-luan-va-kiem-chung-11-13",
@@ -1870,9 +1887,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 42,
-    "remaining": 89,
-    "additional": 22
+    "attempted": 49,
+    "remaining": 82,
+    "additional": 31
   },
   "targetedRevisions": [
     {
@@ -3783,6 +3800,414 @@
           "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
           "status": "opened",
           "scope": "Dạy kỹ năng không làm nhục, khuyến khích lên tiếng."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ],
+  "revisions04c4": [
+    {
+      "key": "legacy:dong-hanh-viec-hoc",
+      "stage": "school",
+      "title": "Đồng hành việc học không chỉ nhìn điểm số",
+      "before": 942,
+      "after": 997,
+      "sourceChecks": [
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        },
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+          "status": "opened",
+          "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Giải thích AI phù hợp tuổi, cùng xem xét câu trả lời, rủi ro dữ liệu, nội dung và lệ thuộc."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 0,
+      "addedSection": "Cha mẹ làm người hướng dẫn, không làm bài thay"
+    },
+    {
+      "key": "legacy:tinh-ban-dau-doi",
+      "stage": "school",
+      "title": "Đồng hành cùng tình bạn đầu đời",
+      "before": 939,
+      "after": 953,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+          "status": "opened",
+          "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/bullying",
+          "status": "opened",
+          "scope": "Chủ ý gây hại, lặp lại, chênh lệch quyền lực; trò chuyện, can thiệp."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 0,
+      "addedSection": "Tình bạn là lựa chọn, không phải nghĩa vụ"
+    },
+    {
+      "key": "legacy:thoi-quen-hoc-tap-tieu-hoc",
+      "stage": "school",
+      "title": "Thói quen học tập 6–11 tuổi không chạy theo điểm số",
+      "before": 1133,
+      "after": 1046,
+      "sourceChecks": [
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "9–12 giờ/24h ở 6–12 tuổi, nhật ký ngủ, thói quen và trao đổi bác sĩ khi có khó khăn."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Giải thích AI phù hợp tuổi, cùng xem xét câu trả lời, rủi ro dữ liệu, nội dung và lệ thuộc."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 2,
+      "addedSection": "Vòng học ba bước: chuẩn bị, thử, tự kiểm tra"
+    },
+    {
+      "key": "legacy:giac-ngu-hoc-sinh-tieu-hoc",
+      "stage": "school",
+      "title": "Trẻ tiểu học ngủ bao nhiêu là đủ?",
+      "before": 1125,
+      "after": 1020,
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "9–12 giờ/24h ở 6–12 tuổi, nhật ký ngủ, thói quen và trao đổi bác sĩ khi có khó khăn."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 2,
+      "addedSection": "Tính ngược từ giờ đi học và theo dõi chất lượng ngủ"
+    },
+    {
+      "key": "legacy:van-dong-cho-tre-tieu-hoc",
+      "stage": "school",
+      "title": "Vận động mỗi ngày cho trẻ 6–11 tuổi",
+      "before": 1128,
+      "after": 1054,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+          "status": "opened",
+          "scope": "5–17 tuổi trung bình ít nhất 60 phút/ngày vận động vừa–mạnh trong tuần; hoạt động mạnh và tăng sức cơ/xương ít nhất 3 ngày/tuần."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 2,
+      "addedSection": "Một tuần vận động linh hoạt trong điều kiện Việt Nam"
+    },
+    {
+      "key": "legacy:phong-chong-bat-nat-o-truong",
+      "stage": "school",
+      "title": "Bắt nạt ở trường: cha mẹ và giáo viên cần phối hợp",
+      "before": 1169,
+      "after": 1096,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/bullying",
+          "status": "opened",
+          "scope": "Chủ ý gây hại, lặp lại, chênh lệch quyền lực; trò chuyện, can thiệp."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying",
+          "status": "opened",
+          "scope": "Phối hợp nhà trường, hỗ trợ và phòng ngừa."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Tiếp nhận thông tin bạo lực, xâm hại, hỗ trợ và chuyển tuyến; hoạt động 24/7 miễn phí."
+        }
+      ],
+      "expertReviewed": false,
+      "removedSharedSections": [
+        "Kết nối với chặng 6–11 tuổi: học tập, bạn bè và thói quen",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "removedSharedParagraphs": 2,
+      "addedSection": "Kế hoạch an toàn và theo dõi sau khi báo trường"
+    },
+    {
+      "key": "lesson:hoc-khong-so-sai",
+      "stage": "school",
+      "title": "Điểm số, sai lầm và cảm giác thuộc về",
+      "before": 104,
+      "after": 228,
+      "sourceChecks": [
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        },
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+          "status": "opened",
+          "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:kiem-chung-thong-tin",
+      "stage": "school",
+      "title": "Thám tử thông tin: đọc và kiểm chứng",
+      "before": 106,
+      "after": 238,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Giải thích AI phù hợp tuổi, cùng xem xét câu trả lời, rủi ro dữ liệu, nội dung và lệ thuộc."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:tien-tieu-vat",
+      "stage": "school",
+      "title": "Tiền tiêu vặt: nhu cầu, mong muốn và tiết kiệm",
+      "before": 99,
+      "after": 227,
+      "sourceChecks": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+          "status": "opened",
+          "scope": "6–12 tuổi hình thành thói quen tài chính, lập kế hoạch và khái niệm tiền; bài tập VN do dự án biên tập."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/digital-parenting",
+          "status": "opened-overview",
+          "scope": "Trang tổng hợp an toàn và quyền riêng tư trên môi trường số; không phải hướng dẫn từng nền tảng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:bua-an-di-hoc-6-10",
+      "stage": "school",
+      "title": "Ăn uống tuổi tiểu học: bữa sáng, bữa phụ và bữa ăn tại trường",
+      "before": 258,
+      "after": 602,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+          "status": "opened",
+          "scope": "Đa dạng thực phẩm, hạn chế đường tự do, muối; không áp khẩu phần điều trị."
+        },
+        {
+          "url": "https://www.who.int/news/item/27-01-2026-who-urges-schools-worldwide-to-promote-healthy-eating-for-children",
+          "status": "opened",
+          "scope": "Thông cáo về môi trường thực phẩm trường học, chưa đọc guideline PDF."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:chon-tieu-hoc-theo-nhu-cau",
+      "stage": "school",
+      "title": "Chọn trường tiểu học: so sánh sự phù hợp, không chạy theo danh tiếng",
+      "before": 257,
+      "after": 593,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=210411&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Trang công bố: ban hành 03/06/2024, hiệu lực ghi 19/07/2024; chưa đọc PDF hoặc kiểm tra sửa đổi."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:suc-khoe-hoc-duong-6-10",
+      "stage": "school",
+      "title": "Sức khỏe học đường 6–10 tuổi: răng, thị lực, thính lực và khám định kỳ",
+      "before": 205,
+      "after": 544,
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications/i/item/9789240105201",
+          "status": "opened-overview",
+          "scope": "Trang giới thiệu sổ tay sàng lọc mắt/tai tuổi học đường; chưa đọc PDF 96 trang."
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+          "status": "opened",
+          "scope": "Chải răng hai lần/ngày với kem fluoride, hạn chế đường tự do."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:co-the-thay-doi-6-10",
+      "stage": "school",
+      "title": "Cơ thể 6–10 tuổi: vệ sinh, quyền riêng tư và chuẩn bị trước dậy thì",
+      "before": 211,
+      "after": 577,
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "status": "opened",
+          "scope": "Thay đổi cơ thể khác nhau; lo dậy thì sớm/muộn nên trao đổi bác sĩ; không chẩn đoán từ bài."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Tiếp nhận thông tin bạo lực, xâm hại, hỗ trợ và chuyển tuyến; hoạt động 24/7 miễn phí."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/digital-parenting",
+          "status": "opened-overview",
+          "scope": "Trang tổng hợp an toàn và quyền riêng tư trên môi trường số; không phải hướng dẫn từng nền tảng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:an-toan-so-va-ai-6-10",
+      "stage": "school",
+      "title": "Kỹ năng số 6–10 tuổi: quảng cáo, quyền riêng tư và AI có người lớn đồng hành",
+      "before": 214,
+      "after": 579,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+          "status": "opened",
+          "scope": "Giải thích AI phù hợp tuổi, cùng xem xét câu trả lời, rủi ro dữ liệu, nội dung và lệ thuộc."
+        },
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        },
+        {
+          "url": "https://www.unicef.org/vietnam/digital-parenting",
+          "status": "opened-overview",
+          "scope": "Trang tổng hợp an toàn và quyền riêng tư trên môi trường số; không phải hướng dẫn từng nền tảng."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Tiếp nhận thông tin bạo lực, xâm hại, hỗ trợ và chuyển tuyến; hoạt động 24/7 miễn phí."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:so-thich-va-cau-lac-bo-6-10",
+      "stage": "school",
+      "title": "Khám phá sở thích 6–10 tuổi: câu lạc bộ, nghệ thuật và thể thao",
+      "before": 210,
+      "after": 541,
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+          "status": "opened",
+          "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình."
+        },
+        {
+          "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+          "status": "opened",
+          "scope": "5–17 tuổi trung bình ít nhất 60 phút/ngày vận động vừa–mạnh trong tuần; hoạt động mạnh và tăng sức cơ/xương ít nhất 3 ngày/tuần."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "9–12 giờ/24h ở 6–12 tuổi, nhật ký ngủ, thói quen và trao đổi bác sĩ khi có khó khăn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quyen-hoc-tap-va-quy-tac-truong-6-10",
+      "stage": "school",
+      "title": "Quyền học tập và trách nhiệm tuổi tiểu học: hiểu quy tắc, biết tìm hỗ trợ",
+      "before": 223,
+      "after": 573,
+      "sourceChecks": [
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=2629&docid=215227&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Trang công bố văn bản hợp nhất 27/08/2025; chưa đọc PDF, không kết luận điều khoản hiện hành."
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?classid=0&docid=217346&pageid=27160",
+          "status": "opened-overview",
+          "scope": "Trang công bố văn bản hợp nhất 25/03/2026; chưa đọc PDF, không kết luận điều khoản hiện hành."
+        },
+        {
+          "url": "https://tongdai111.vn/sites/gioi-thieu",
+          "status": "opened",
+          "scope": "Tiếp nhận thông tin bạo lực, xâm hại, hỗ trợ và chuyển tuyến; hoạt động 24/7 miễn phí."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:quan-ly-thoi-gian-va-viec-nha-6-10",
+      "stage": "school",
+      "title": "Kỹ năng sống 6–10 tuổi: chuẩn bị đồ, việc nhà và quản lý thời gian",
+      "before": 200,
+      "after": 533,
+      "sourceChecks": [
+        {
+          "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+          "status": "opened",
+          "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ."
+        },
+        {
+          "url": "https://www.cdc.gov/sleep/about/",
+          "status": "opened",
+          "scope": "9–12 giờ/24h ở 6–12 tuổi, nhật ký ngủ, thói quen và trao đổi bác sĩ khi có khó khăn."
+        },
+        {
+          "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+          "status": "opened",
+          "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình."
         }
       ],
       "expertReviewed": false
