@@ -805,6 +805,36 @@
       "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/bao-hiem-y-te-hocsinh-sinhvien.aspx?CateID=0&ItemID=25803&OtItem=date",
       "scope": "Quá trình tham gia, liên hệ nhân sự và BHXH.",
       "checkedOn": "2026-11-26"
+    },
+    "q04g_ncd": {
+      "name": "WHO — Noncommunicable diseases",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+      "scope": "Yếu tố nguy cơ bệnh không lây và dự phòng.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04g_burn": {
+      "name": "WHO — Burn-out an occupational phenomenon",
+      "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+      "scope": "ICD-11: hiện tượng nghề nghiệp, không phải bệnh; không áp dụng mọi lĩnh vực đời sống.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04g_preg": {
+      "name": "CDC — Planning for Pregnancy",
+      "url": "https://www.cdc.gov/pregnancy/about/index.html",
+      "scope": "Trang 14/07/2026; tư vấn tiền thai, thuốc, tiêm chủng, axit folic; không kê liều cá nhân.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04g_nist": {
+      "name": "NIST — AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "scope": "Khung tự nguyện, đang được sửa đổi; trang tổng quan, chưa đọc toàn văn PDF.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04g_civil": {
+      "name": "Chính phủ — Bộ luật Dân sự 91/2015/QH13",
+      "url": "https://vanban.chinhphu.vn/?classid=&docid=183188&pageid=27160",
+      "scope": "Metadata qua kết quả tìm kiếm; URL cũ trả lỗi 500; chưa đọc PDF.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1299,16 +1329,47 @@
           "body": "Trong một tuần, ghi các trở ngại như bỏ bữa vì họp, không có chỗ bảo quản hoặc quá mệt để nấu. Chọn một thay đổi nhỏ, chẳng hạn chuẩn bị hai bữa trưa. Nếu khó ăn kéo dài, đau bụng, thay đổi cân nặng bất thường hoặc có lo lắng về ăn uống, tìm đánh giá y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn bữa ăn theo nhịp công việc",
+          "body": "WHO khuyến khích ăn đa dạng, ưu tiên thực phẩm giàu dinh dưỡng và hạn chế nhiều muối, đường tự do. Ví dụ người làm văn phòng có thể chọn cơm, cá hoặc đậu phụ, thêm rau và nước uống không đường; người làm ca cần tìm bữa ăn vào lúc có thể nghỉ thật sự. Không coi một món ăn đơn lẻ là tốt hay xấu tuyệt đối. Nếu có bệnh thận, dị ứng, đang mang thai hoặc đang cho con bú, hỏi chuyên gia về nhu cầu riêng, không áp thực đơn của đồng nghiệp.",
+          "sourceIds": [
+            "whoDiet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ngân sách và kế hoạch mua thực phẩm",
+          "body": "Ví dụ giả định dành 700 nghìn đồng cho bảy ngày, trung bình 100 nghìn/ngày. Nếu mua ngoài ba bữa trưa mỗi bữa 45 nghìn, còn 565 nghìn cho các bữa khác; chưa tính thực phẩm đã có. Không dùng con số này làm giá thị trường hoặc khẩu phần. Kiểm tra lịch họp và ca làm, chọn hai món có thể chuẩn bị, mua lượng vừa đủ và để một khoản dự phòng. Nếu chi phí thiếu, thay đổi món hoặc tìm hỗ trợ thay vì nhịn ăn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Mang cơm an toàn",
+          "body": "WHO nêu năm nguyên tắc: giữ sạch, tách sống chín, nấu kỹ, giữ nhiệt độ an toàn và chọn nước/nguyên liệu an toàn. Khi mang cơm, kiểm tra có nơi giữ lạnh hoặc giữ nóng phù hợp, tránh để thức ăn dễ hỏng ngoài môi trường trong nhiều giờ. Không dựa vào mùi để kết luận còn an toàn. Nếu nơi làm không có điều kiện bảo quản, chọn phương án ăn ngoài đáng tin. Hộp, dao, thớt cần sạch và tách khỏi nguyên liệu sống.",
+          "sourceIds": [
+            "foodSafe"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh khi gia đình có con nhỏ",
+          "body": "Thống nhất người mua thực phẩm, nấu, rửa và chuẩn bị phần ngày hôm sau; không mặc định một người phải lo mọi bữa. Đặt mục tiêu giảm một lần bỏ bữa vì công việc trong tuần, ghi trở ngại thực tế. Nếu con cần chế độ riêng hoặc người lớn mắc bệnh, hỏi cơ sở y tế thay vì chia chung khẩu phần điều trị. Khi đau bụng dữ dội, nôn kéo dài, mất nước nghiêm trọng hoặc ngất, tìm chăm sóc kịp thời. Bữa ăn là nhu cầu, không phải phần thưởng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập danh sách ba bữa ăn dưới ngân sách tự chọn.",
         "Dành một buổi chuẩn bị nguyên liệu và xác định món dự phòng.",
-        "Sau bảy ngày, giữ lại thói quen dễ duy trì và điều chỉnh phần còn khó."
+        "Sau bảy ngày, giữ lại thói quen dễ duy trì và điều chỉnh phần còn khó.",
+        "Lập ngân sách tuần và phương án bữa trưa không có tủ lạnh.",
+        "Thử phân công chuẩn bị hai bữa rồi xem lại mức thuận tiện."
       ],
       "limits": "Không đưa thực đơn giảm cân, lượng calo hoặc khuyến cáo điều trị cá nhân. Các ví dụ là kế hoạch sinh hoạt, không phải đơn dinh dưỡng.",
       "sourceIds": [
-        "whoDiet"
+        "whoDiet",
+        "foodSafe"
       ],
       "status": "draft"
     },
@@ -3562,17 +3623,48 @@
           "body": "Sau buổi khám, ghi rõ việc cần làm, mốc hẹn lại và người liên hệ khi có câu hỏi. Chọn thay đổi khả thi như bớt thuốc lá, thêm vận động hoặc ổn định bữa ăn. Nếu xuất hiện dấu hiệu cấp cứu, tìm trợ giúp ngay, không chờ lịch khám.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phòng ngừa theo hồ sơ nguy cơ",
+          "body": "WHO mô tả bệnh không lây liên quan cả yếu tố hành vi, môi trường và sinh học. Người trẻ không nên mặc định mình miễn nhiễm, cũng không cần mua gói xét nghiệm toàn thân định kỳ vì quảng cáo. Ghi tiền sử gia đình, thuốc, dị ứng, hút thuốc, công việc ca kíp và các triệu chứng nếu có. Hỏi bác sĩ kiểm tra nào có lợi theo tuổi, nguy cơ và hướng dẫn hiện hành. Nếu đang mang thai hoặc có bệnh nền, kế hoạch có thể khác đáng kể.",
+          "sourceIds": [
+            "q04g_ncd"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Huyết áp không chỉ là cảm giác",
+          "body": "WHO Việt Nam lưu ý nhiều người tăng huyết áp không nhận thấy triệu chứng. Đo bằng thiết bị phù hợp và theo hướng dẫn của nhân viên y tế; ghi kết quả cùng thời điểm và bối cảnh. Một lần đo bất thường không đủ để tự xác định bệnh hoặc tự tăng giảm thuốc. Hỏi bác sĩ có cần theo dõi thêm và cách đo đúng; không lấy kết quả ứng dụng hoặc đồng hồ thay đánh giá lâm sàng. Đau ngực, khó thở nghiêm trọng hoặc dấu hiệu thần kinh đột ngột cần trợ giúp khẩn.",
+          "sourceIds": [
+            "bp"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ba câu hỏi cho mỗi xét nghiệm",
+          "body": "Trước khi đồng ý, hỏi mục đích kiểm tra, điều gì sẽ thay đổi nếu kết quả bất thường, và có nguy cơ hoặc chi phí nào. Mang kết quả cũ để bác sĩ xem xét khả năng cần lặp lại. Ví dụ nếu công ty có gói khám, phân biệt phần khám nghề nghiệp với nhu cầu riêng; không cho rằng gói đó phát hiện được mọi bệnh. Ghi khoản bảo hiểm chi trả đã xác nhận, phần tự trả và nơi nhận kết quả. Không trì hoãn chăm sóc cần thiết chỉ để so giá.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi sau khám và riêng tư",
+          "body": "Lưu chỉ dẫn, mốc tái khám, thuốc đã kê và câu hỏi chưa được giải đáp. Chọn một thói quen có thể duy trì như đi bộ cùng người thân hoặc chuẩn bị bữa trưa. Nếu có khó khăn bỏ thuốc lá, tìm hỗ trợ phù hợp. Không đưa phiếu xét nghiệm, CCCD hay ảnh cơ thể vào công cụ AI công cộng; nếu cần giải thích, hỏi người chuyên môn. Chỉ chia sẻ thông tin sức khỏe cần thiết với nơi làm theo quy định và hoàn cảnh; khi cấp cứu không chờ lịch đã hẹn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Tập hợp thông tin thuốc, tiền sử và kết quả cũ.",
         "Đặt ba câu hỏi về nguy cơ cá nhân cho buổi khám.",
-        "Ghi kế hoạch theo dõi do bác sĩ thống nhất."
+        "Ghi kế hoạch theo dõi do bác sĩ thống nhất.",
+        "Viết hồ sơ sức khỏe một trang để mang khi khám.",
+        "Hỏi mục đích, lợi ích và giới hạn của một kiểm tra được đề nghị."
       ],
       "limits": "Không khuyến nghị một gói xét nghiệm hay lịch sàng lọc chung; kế hoạch dự phòng cần dựa trên nguy cơ và chuyên môn.",
       "sourceIds": [
         "ncd",
-        "bp"
+        "bp",
+        "q04g_ncd"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3609,16 +3701,47 @@
           "body": "Buồn bã, lo âu, mất ngủ hoặc khó sinh hoạt kéo dài là lý do nên trao đổi chuyên môn. Không tự chẩn đoán kiệt sức hay bệnh tâm thần qua quiz. Khi có nguy cơ tự gây hại hoặc không thể giữ an toàn, hãy tìm trợ giúp khẩn cấp và ở cạnh người tin cậy nếu có thể.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hiểu đúng khái niệm burn-out",
+          "body": "WHO mô tả burn-out trong ICD-11 là hiện tượng liên quan nghề nghiệp, không được phân loại là bệnh. Nó gắn với căng thẳng công việc kéo dài chưa được quản lý thành công, có thể biểu hiện qua cạn năng lượng, xa cách hoặc tiêu cực với công việc và giảm cảm nhận hiệu quả nghề nghiệp. Không dùng khái niệm này để tự chẩn đoán mọi mệt mỏi, trầm cảm hay khó khăn chăm con. Nếu triệu chứng kéo dài hoặc ảnh hưởng đời sống, tìm đánh giá chuyên môn.",
+          "sourceIds": [
+            "q04g_burn"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Điều chỉnh nguyên nhân thay vì chỉ rèn chịu đựng",
+          "body": "WHO khuyến khích tổ chức giảm nguy cơ tâm lý xã hội trong môi trường làm việc. Ví dụ thường xuyên nhận việc sát cuối ca, ghi số nhiệm vụ phát sinh, thời hạn và ảnh hưởng đến việc đã cam kết. Trao đổi quản lý về thứ tự ưu tiên, người dự phòng và thời gian phản hồi; không nhất thiết chia sẻ chẩn đoán riêng. Nếu có quấy rối hoặc môi trường không an toàn, dùng kênh hỗ trợ phù hợp và cân nhắc tư vấn, không tự đối đầu khi nguy hiểm.",
+          "sourceIds": [
+            "workMental"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Gia đình cùng bảo vệ khoảng nghỉ",
+          "body": "Nếu vừa đi làm vừa chăm trẻ hoặc người thân, lập bảng việc cần làm và người chịu trách nhiệm toàn bộ từng việc. Hỏi người khác nhận việc cụ thể như đưa trẻ đi khám hoặc chuẩn bị bữa tối, thay vì yêu cầu chung chung hãy giúp. Giữ một khoảng nghỉ thật, không dùng thời gian đó để tiếp tục trả lời công việc. Ví dụ chia hai buổi tối trong tuần cho mỗi người nghỉ, có người dự phòng khi trẻ ốm. Đây là cách tổ chức, không phải điều trị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ba mức hỗ trợ",
+          "body": "Khi căng thẳng nhất thời, xem điều kiện có thể điều chỉnh và kết nối người tin cậy. Nếu buồn, lo, khó ngủ, mất hứng thú hoặc khó sinh hoạt kéo dài, đặt lịch khám hoặc tư vấn với người đủ chuyên môn. Không tự dùng thuốc ngủ, rượu hoặc chatbot để xử lý thay chăm sóc. Nếu có nguy cơ tự hại tức thời, đến nơi an toàn, ở cùng người tin cậy nếu có thể và gọi 115 hoặc đến cấp cứu. Không đợi hoàn thành deadline mới tìm trợ giúp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Ghi một vấn đề có thể thay đổi và một vấn đề cần hỗ trợ.",
         "Đặt một ranh giới công việc khả thi trong tuần.",
-        "Xác định người và dịch vụ hỗ trợ đáng tin."
+        "Xác định người và dịch vụ hỗ trợ đáng tin.",
+        "Ghi một nguyên nhân công việc có thể trao đổi và một yêu cầu cụ thể.",
+        "Lưu người hỗ trợ, cơ sở y tế và phương án khẩn cấp."
       ],
       "limits": "Không phải công cụ chẩn đoán, không thay tư vấn tâm lý hoặc điều trị; ưu tiên trợ giúp khẩn cấp nếu có nguy cơ.",
       "sourceIds": [
-        "workMental"
+        "workMental",
+        "q04g_burn"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3656,17 +3779,49 @@
           "body": "Đau, ra máu bất thường, triệu chứng nhiễm trùng hoặc khó khăn sinh sản cần được đánh giá theo hoàn cảnh. Chuẩn bị câu hỏi, thông tin thuốc và triệu chứng; không gửi hình ảnh riêng cho tài khoản bán thuốc. Giữ quyền riêng tư trong cả trao đổi gia đình lẫn khám bệnh.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quyết định có con không phải thời hạn bắt buộc",
+          "body": "Thảo luận mong muốn của từng người, thời điểm, sức khỏe, công việc, nguồn hỗ trợ và sự đồng thuận. Có thể chưa có kết luận trong một cuộc nói chuyện. Không ép mang thai, tránh thai hay điều trị hiếm muộn để giữ quan hệ. Tách quyết định về cơ thể khỏi việc phân chia tài chính chung. Nếu hai người có mong muốn khác nhau, tìm cách đối thoại an toàn hoặc tư vấn phù hợp; nếu có đe dọa hay kiểm soát, ưu tiên an toàn cá nhân hơn hòa giải.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị tiền thai có căn cứ",
+          "body": "CDC hướng dẫn trao đổi nhân viên y tế về bệnh nền, thuốc kê đơn và không kê đơn, vitamin, tiêm chủng, tiền sử và thói quen trước khi mang thai. Hỏi về axit folic và thời điểm bổ sung phù hợp, không tự tăng liều hoặc ngừng thuốc đang dùng. Người cùng có kế hoạch sinh con cũng có thể hỏi về sức khỏe và phơi nhiễm nghề nghiệp. Khi có khó khăn thụ thai hoặc tiền sử đặc biệt, hỏi chuyên khoa khi nào cần đánh giá; không mua gói điều trị từ quảng cáo.",
+          "sourceIds": [
+            "q04g_preg"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tránh thai và phòng ngừa STI",
+          "body": "WHO trình bày nhiều phương pháp tránh thai; lựa chọn tùy sức khỏe, mong muốn và khả năng tiếp cận. Hỏi về hiệu quả, tác dụng phụ, thời gian hồi phục khả năng sinh sản và cách xử lý nếu biện pháp thất bại. Bao cao su giúp giảm nguy cơ nhiều STI và mang thai ngoài ý muốn khi dùng đúng và nhất quán; phương pháp khác không mặc nhiên phòng STI. Nếu nghi phơi nhiễm hoặc lo mang thai ngoài ý muốn, liên hệ y tế sớm vì có biện pháp phụ thuộc thời gian.",
+          "sourceIds": [
+            "q04f_contra"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tính nguồn lực chăm sóc mà không áp lực",
+          "body": "Ví dụ gia đình ghi chi phí khám, nghỉ việc, nơi ở, chăm trẻ, khoản dự phòng và người hỗ trợ; khoản chưa biết ghi chưa xác minh. Thống nhất ai phụ trách lịch khám, việc nhà và hỗ trợ sau sinh; xem chính sách lao động, bảo hiểm theo hồ sơ thật, không mặc định đủ điều kiện. Nếu chưa muốn có con, vẫn có thể chuẩn bị sức khỏe và kế hoạch riêng. Đau dữ dội, chảy máu nghiêm trọng hoặc ngất cần trợ giúp khẩn. Không gửi ảnh hoặc hồ sơ sinh sản vào AI.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Viết những mong muốn và câu hỏi của bản thân.",
         "Chọn một cuộc tư vấn phù hợp nếu cần.",
-        "Thảo luận trách nhiệm và giới hạn một cách tự nguyện."
+        "Thảo luận trách nhiệm và giới hạn một cách tự nguyện.",
+        "Lập danh sách câu hỏi tư vấn tiền thai hoặc tránh thai.",
+        "Thảo luận trách nhiệm chăm sóc và khoản chi còn chưa xác minh."
       ],
       "limits": "Không chỉ định phương pháp tránh thai, thời điểm sinh con hoặc điều trị hiếm muộn; cần tư vấn cá nhân.",
       "sourceIds": [
         "contraception",
-        "sti"
+        "sti",
+        "q04g_preg",
+        "q04f_contra"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3704,17 +3859,48 @@
           "body": "Sau một tuần, ghi những lần bỏ bữa, thiếu nghỉ hoặc lịch không khả thi; thay đổi một yếu tố trước. Mất ngủ kéo dài, buồn ngủ ban ngày hoặc triệu chứng khi vận động cần đánh giá chuyên môn; không tự dùng thuốc ngủ hay chất kích thích.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tính thời gian ngủ theo ca",
+          "body": "CDC khuyến nghị nhóm 18–60 tuổi ngủ ít nhất 7 giờ mỗi ngày; chất lượng cũng quan trọng. Nếu cần thức lúc 5 giờ 30 và muốn ngủ 8 giờ, cần thực sự ngủ khoảng 21 giờ 30 hôm trước, cộng thêm thời gian vào giấc. Khi làm ca đêm, tính thời gian về nhà, ăn nhẹ và điều kiện ngủ ban ngày; thống nhất ánh sáng, tiếng ồn với người cùng sống. Không lái xe khi buồn ngủ nghiêm trọng. Ví dụ không phải lịch bắt buộc.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Vận động phù hợp với sức khỏe",
+          "body": "WHO nhấn mạnh vận động thường xuyên và giảm thời gian ít vận động. Có thể bắt đầu từ đi bộ nhanh, đi cầu thang khi an toàn hoặc hoạt động thích hợp; mục tiêu chung người trưởng thành là ít nhất 150 phút vận động vừa mỗi tuần, điều chỉnh khả năng. Chia thành những khoảng thực sự khả thi, không ép tập qua đau hoặc khi kiệt sức. Người mang thai, hậu sản, có bệnh nền hoặc chấn thương cần hỏi chuyên môn về cách điều chỉnh. Vận động không thay ngủ.",
+          "sourceIds": [
+            "activity"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chuyển tiếp từ công việc sang gia đình",
+          "body": "Trước khi kết thúc ca, ghi việc còn dở và người tiếp nhận. Thống nhất trường hợp nào thực sự cần phản hồi ngoài giờ và cách báo khi nghỉ. Nếu có con nhỏ, bố trí người phụ trách từng khoảng chăm sóc và người thay thế khi ốm, không trông đợi một người thức cả đêm rồi làm cả ngày. Ví dụ giảm một việc không gấp vào ngày đổi ca và chuẩn bị đồ dùng trước. Thảo luận với quản lý khi lịch làm không cho đủ cơ hội nghỉ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhật ký ngủ không dùng để chấm điểm",
+          "body": "Trong bảy ngày ghi giờ ngủ, thức giấc, thời gian ca, mức tỉnh táo và caffeine; xem yếu tố nào có thể đổi. Nếu thường xuyên mất ngủ dù có cơ hội, ngáy kèm khó thở hoặc mệt đến mức không thể làm việc an toàn, hỏi bác sĩ. Không tự dùng melatonin, thuốc ngủ hay chất kích thích để ép lịch. Đau ngực, mất ý thức hoặc khó thở nghiêm trọng cần cấp cứu. Chọn thay đổi nhỏ, xem lại hiệu quả thay vì dùng chỉ số đồng hồ làm chẩn đoán.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập lịch một tuần gồm giờ đi lại, làm và nghỉ.",
         "Chọn một hoạt động thể chất vừa sức.",
-        "Đặt một khoảng nghỉ không thông báo mỗi ngày nếu khả thi."
+        "Đặt một khoảng nghỉ không thông báo mỗi ngày nếu khả thi.",
+        "Tính lịch ngủ cho một ngày làm ca và một ngày nghỉ.",
+        "Thử thỏa thuận bàn giao công việc và khoảng nghỉ tại nhà."
       ],
       "limits": "Không thay đánh giá rối loạn giấc ngủ hay chỉ định vận động; ca kíp và bệnh nền cần điều chỉnh riêng.",
       "sourceIds": [
         "sleep",
-        "activityGuide"
+        "activityGuide",
+        "activity"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3752,17 +3938,52 @@
           "body": "Cuối tháng, đối chiếu sản phẩm với tiêu chí ban đầu, xin góp ý và chọn bước tiếp theo. Nếu khóa học không đáp ứng nhu cầu, xem chính sách dừng hoặc hoàn phí. Không gắn giá trị bản thân với số chứng chỉ hay lời hứa tăng lương.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuyển mục tiêu học thành khả năng làm được",
+          "body": "UNESCO xem học suốt đời là cách thích ứng với thay đổi. Chọn một kỹ năng từ nhiệm vụ cụ thể, ví dụ làm báo cáo doanh thu bằng dữ liệu hư cấu. Định nghĩa sản phẩm đạt khi công thức đúng, nguồn rõ, người khác hiểu và tự kiểm tra được. Tự làm thử trước khi mua khóa để thấy điểm thiếu: kiến thức nền, thao tác hay cách giải thích. Không đồng nhất số giờ xem video với năng lực, không chọn vì công cụ đang nổi.",
+          "sourceIds": [
+            "q04f_life"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lộ trình bốn tuần có bằng chứng",
+          "body": "Tuần một ghi tiêu chí và thử bài nền; tuần hai làm sản phẩm nhỏ; tuần ba nhờ người có kinh nghiệm góp ý; tuần bốn sửa, trình bày và tự làm lại phần khó. Ví dụ mỗi tuần hai buổi 45 phút là lựa chọn minh họa, không phải thời lượng chuẩn. Nếu có ca làm hoặc chăm con, giảm phạm vi chứ không cắt ngủ. Lưu bản nháp, lỗi và bản sửa để đánh giá tiến bộ; nếu không có người hướng dẫn, đối chiếu tài liệu chính thức và bài kiểm tra.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI trong quá trình học",
+          "body": "Trước khi hỏi AI, tự nêu vấn đề và điều đã thử. Dùng dữ liệu giả, kiểm tra nguồn, phiên bản tài liệu và phép tính; không đưa mã nguồn nội bộ, hồ sơ khách hàng hoặc đề thi vào công cụ chưa được phép. UNESCO nhấn mạnh vai trò con người trong hướng dẫn AI giáo dục; đây là trang giới thiệu, không phải quy chế cơ sở học. Nếu dùng gợi ý, ghi phần hỗ trợ và tự giải thích. Thử nhiệm vụ tương tự không dùng AI để thấy phần còn yếu.",
+          "sourceIds": [
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyết định đầu tư học tiếp",
+          "body": "So chi phí, thời gian, đầu ra, người dạy, thực hành và phản hồi trước khi đăng ký. OECD nghiên cứu hướng nghiệp người lớn để thích ứng với thị trường thay đổi, không bảo đảm lương sau khóa. Nếu mục tiêu là chuyển nghề, so mô tả nhiệm vụ đã xác minh và trao đổi người làm nghề; thử dự án trước khi cam kết lớn. Cuối tháng hỏi kỹ năng nào đã dùng được, điều nào còn thiếu và có cần dừng khóa. Không lấy chứng chỉ làm thước đo giá trị bản thân.",
+          "sourceIds": [
+            "adultCareer"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn một kỹ năng và nhiệm vụ kiểm tra ban đầu.",
         "Lập lộ trình bốn tuần có sản phẩm đầu ra.",
-        "Tìm một người phản hồi và đo tiến bộ bằng sản phẩm."
+        "Tìm một người phản hồi và đo tiến bộ bằng sản phẩm.",
+        "Viết tiêu chí đầu ra và lịch học bốn tuần khả thi.",
+        "Lưu bản trước/sau và một phản hồi có thể hành động."
       ],
       "limits": "Kế hoạch chỉ là gợi ý; không bảo đảm thăng chức, thu nhập hoặc chứng chỉ được công nhận.",
       "sourceIds": [
         "lifelong",
-        "ai"
+        "ai",
+        "q04f_life",
+        "q04f_ai",
+        "adultCareer"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3801,18 +4022,52 @@
           "body": "Tham dự buổi tư vấn chính thức hoặc bài mẫu, hỏi người đã học về nội dung thực tế và xem phản hồi có bằng chứng. Chọn khóa phù hợp mục tiêu thay vì đắt nhất; nếu không thể xác minh pháp lý hoặc chi phí, hoãn quyết định.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xác định giá trị văn bằng đối với mục tiêu",
+          "body": "Phân biệt bằng cấp chính quy, chứng chỉ nghề theo quy định, chứng nhận hoàn thành khóa và giấy tham gia. Hỏi bên tuyển dụng hoặc cơ quan có thẩm quyền xem loại giấy tờ nào thực sự cần, không dựa vào biểu tượng chứng nhận trên trang quảng cáo. Ví dụ muốn chuyển sang lĩnh vực có điều kiện hành nghề, cần xác minh yêu cầu pháp lý riêng trước khi học. Với mục tiêu kỹ năng nội bộ, một dự án và phản hồi có thể hữu ích hơn chứng chỉ không liên quan.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm định đúng phạm vi",
+          "body": "Trang danh mục của Cục Quản lý chất lượng được mở, nhưng không xác nhận tình trạng từng cơ sở hoặc bản danh sách mới nhất. Ghi tên chính xác chương trình, cơ sở, đơn vị kiểm định, phạm vi, ngày và thời hạn; đối chiếu thông báo mới hơn nếu có. Kiểm định trường không tự chứng minh mọi chương trình đã được công nhận. Với đào tạo nghề và khóa ngắn, tra cơ quan phù hợp theo loại hình. Không khẳng định thủ tục hoặc giá trị bằng khi chưa đọc văn bản hiện hành.",
+          "sourceIds": [
+            "q04f_accredit"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tính cả chi phí cơ hội",
+          "body": "Ví dụ giả định khóa A học phí 12 triệu, phí thi 2 triệu, đi lại 1 triệu, tổng 15 triệu chưa tính tài liệu; khóa B 9 triệu, phí thi chưa biết. Không điền khoản chưa rõ bằng 0. Nếu phải nghỉ làm hai ngày mỗi tháng, ghi thu nhập có thể mất và phương án chăm con. Hỏi lịch thay đổi, chính sách hoàn phí, học lại, chứng chỉ và người hỗ trợ. Không vay chỉ vì ưu đãi hết hạn hoặc lời hứa chắc chắn có việc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thử và đánh giá bằng sản phẩm",
+          "body": "UNESCO khuyến khích học suốt đời, OECD nghiên cứu hướng nghiệp người trưởng thành; không phải bảng xếp hạng cơ sở Việt Nam. Xin đề cương, bài mẫu và tiêu chí đánh giá, hỏi người đã học về chất lượng phản hồi. Tự thử một bài tương tự, xem khó khăn có đúng nhu cầu không. Nếu chưa thể xác minh người tổ chức hoặc chi phí, hoãn thanh toán. Lưu ngày đọc, URL, câu trả lời bằng văn bản và phương án dự phòng. Đánh giá sau một tháng theo đầu ra thật.",
+          "sourceIds": [
+            "q04f_life",
+            "adultCareer"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập bảng so sánh ba khóa theo cùng tiêu chí.",
         "Kiểm tra nơi cấp và giá trị của giấy chứng nhận.",
-        "Đọc điều khoản trước khi thanh toán."
+        "Đọc điều khoản trước khi thanh toán.",
+        "So hai chương trình có cột khoản chưa xác minh.",
+        "Thử một bài mẫu và xác định tiêu chí dừng trước khi trả tiền."
       ],
       "limits": "Không phải danh sách đề cử cơ sở; cần kiểm chứng công nhận, điều khoản và dữ liệu đúng thời điểm.",
       "sourceIds": [
         "schools",
         "accredit",
-        "lifelong"
+        "lifelong",
+        "q04f_accredit",
+        "q04f_life",
+        "adultCareer"
       ],
       "status": "draft",
       "batch": "S04-AZ-02C"
@@ -3851,12 +4106,42 @@
           "body": "Ưu tiên rời nguy hiểm nếu an toàn, gọi trợ giúp và làm theo hướng dẫn của người có chuyên môn. Tham gia đào tạo sơ cứu thực hành nếu có cơ hội; không thử kỹ thuật cấp cứu chưa được hướng dẫn. Báo sự cố tại nơi làm theo quy trình, lưu thông tin cần thiết.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhận diện nguy cơ theo nhiệm vụ",
+          "body": "WHO xem sức khỏe nghề nghiệp bao gồm phòng ngừa nguy cơ và bảo vệ người lao động. Trước nhiệm vụ mới, hỏi nguy cơ vật lý, hóa chất, tư thế, tiếng ồn, mệt mỏi và người hướng dẫn phù hợp. Kiểm tra quy trình báo sự cố, trang bị và giới hạn quyền vận hành. Không thử thiết bị nguy hiểm theo video hoặc lời AI. Với công việc văn phòng, xem bố trí chỗ ngồi, khoảng đổi tư thế và thời gian nghỉ. Khi thiếu đào tạo hoặc bảo hộ, hỏi người phụ trách trước khi làm.",
+          "sourceIds": [
+            "workSafety"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xác minh lời mời việc và giao dịch",
+          "body": "Kết quả tìm kiếm cảnh báo 2026 của Bộ Công an nêu giả danh, việc nhẹ lương cao, OTP và ứng dụng lạ; toàn văn chưa mở được. Nếu tài khoản mời cộng tác viên yêu cầu chuyển phí hoặc cho mượn tài khoản ngân hàng, dừng. Xác minh công ty qua kênh độc lập, đọc nhiệm vụ và hợp đồng, không gửi OTP hoặc cài ứng dụng do người lạ hướng dẫn. Nếu đã giao dịch, liên hệ ngân hàng qua kênh chính thức và trình báo Công an; không trả phí lấy lại tiền.",
+          "sourceIds": [
+            "scam"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch an toàn khi đi làm xa",
+          "body": "Trước ca muộn, chọn tuyến về, phương án đi lại nếu mệt, người liên hệ và điểm chờ an toàn. Không điều khiển phương tiện khi buồn ngủ hoặc đã uống rượu. Kiểm tra lối thoát ở phòng trọ và nơi làm, không để đồ chặn cửa; hỏi quy trình báo cháy và sơ tán của cơ sở. Với gia đình có trẻ nhỏ, thống nhất người đón trẻ thay thế khi làm thêm. Không công khai lịch di chuyển hoặc địa chỉ trên mạng để xin lời khuyên.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi có sự cố",
+          "body": "Ưu tiên rời nguy hiểm nếu an toàn, gọi hỗ trợ khẩn và làm theo người có chuyên môn. Không tự xử lý điện, hóa chất hoặc máy móc khi chưa được đào tạo; báo người phụ trách và ghi thời điểm, nhiệm vụ, thông tin cần thiết. Nếu bị thương, khám phù hợp và giữ hồ sơ. Không đổ lỗi cho người báo nguy cơ hoặc che sự cố để giữ thành tích. Nếu có tranh chấp an toàn lao động, tìm tư vấn theo hồ sơ và quy định hiện hành thay vì đưa tài liệu nội bộ vào AI.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Hỏi người phụ trách về quy trình an toàn ở nơi làm.",
         "Kiểm tra kênh ngân hàng và tài khoản nhận tiền trước giao dịch.",
-        "Lưu người liên hệ, lối thoát và phương án đi lại an toàn."
+        "Lưu người liên hệ, lối thoát và phương án đi lại an toàn.",
+        "Ghi ba nguy cơ của một nhiệm vụ và người phụ trách an toàn.",
+        "Diễn tập xác minh một tin tuyển dụng giả lập, không giao dịch thật."
       ],
       "limits": "Không thay đào tạo an toàn lao động hoặc hướng dẫn cấp cứu chuyên nghiệp; tuân thủ quy định và quy trình tại chỗ.",
       "sourceIds": [
@@ -7442,17 +7727,48 @@
           "body": "Ghi lý do chọn, phương án dự phòng nếu thu nhập hoặc lịch thay đổi. Hỏi người có trải nghiệm để tìm điểm mù, không giao quyết định cho họ. Với cam kết lớn về sức khỏe, pháp luật hoặc tài chính, nhờ chuyên gia kiểm tra trước khi ký.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tiêu chí bắt buộc trước điểm số",
+          "body": "Ví dụ cân nhắc chuyển việc: trước hết ghi các điều kiện không thể đánh đổi như nơi làm an toàn, thu nhập tối thiểu để trả nghĩa vụ và thời gian chăm người thân. Nếu một lựa chọn chưa xác minh điều kiện bắt buộc, không cộng điểm lương để bù. Sau đó so tiêu chí ưu tiên như cơ hội học, quản lý, đi lại và tính linh hoạt. Tách điều đã có văn bản, lời nói chưa xác minh và dự báo. Không xem điểm tổng là kết luận tự động.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "So sánh dòng tiền và thời gian cùng đơn vị",
+          "body": "Giả định việc A thực nhận 18 triệu, đi lại 1 triệu, còn 17 triệu trước sinh hoạt; việc B thực nhận 20 triệu, đi lại 2,5 triệu, còn 17,5 triệu. Nếu B thêm 10 giờ đi lại mỗi tuần, xem ảnh hưởng chăm con và nghỉ. Các số chỉ minh họa, chưa tính thưởng, thuế hoặc chi phí phát sinh. Hỏi mức lương đã gồm gì, thử việc và phúc lợi; không tự điền khoản chưa biết bằng 0. Thử kịch bản thu nhập giảm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm chứng thông tin và AI",
+          "body": "UNESCO xem năng lực thông tin là khả năng tiếp cận, đánh giá và sử dụng có phê phán. Khi đọc nhận xét công ty, tìm ngày, vị trí, phạm vi và nguồn độc lập; một trải nghiệm không đại diện toàn bộ. AI có thể giúp đặt câu hỏi hoặc dựng bảng giả định, không xác nhận thông tin nội bộ. Kiểm tra số liệu, nguồn và giả định, không đưa hợp đồng hay dữ liệu người khác vào công cụ chưa được phép. Nếu chưa biết, ghi chưa xác minh.",
+          "sourceIds": [
+            "q04f_mil",
+            "q04f_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử nhỏ và đặt điều kiện đổi hướng",
+          "body": "Nếu muốn chuyển nghề, thử dự án mẫu được phép, nói chuyện người làm nghề và xác định tiêu chí sau bốn tuần trước khi quyết định nghỉ. Với quyết định nhà ở hoặc khoản vay, đọc hồ sơ và hỏi chuyên gia khi rủi ro lớn. Ghi lý do lựa chọn, phương án dự phòng, người cần trao đổi và mốc xem lại. Nếu xuất hiện thông tin mới, sửa quyết định không xem đó là thất bại. Không biến ví dụ minh họa thành tư vấn đầu tư, pháp lý hay dự báo chắc chắn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Viết một mục tiêu và ba điều kiện bắt buộc.",
         "So sánh hai phương án và điểm chưa rõ.",
-        "Đặt ngày xem lại và tín hiệu cần đổi hướng."
+        "Đặt ngày xem lại và tín hiệu cần đổi hướng.",
+        "Lập bảng tiêu chí bắt buộc và chưa xác minh cho hai lựa chọn.",
+        "Viết một tín hiệu sẽ khiến bạn đổi quyết định."
       ],
       "limits": "Không thay tư vấn tài chính, nghề nghiệp hoặc pháp lý cá nhân; không bảo đảm kết quả.",
       "sourceIds": [
         "mil",
-        "aiDecide"
+        "aiDecide",
+        "q04f_mil",
+        "q04f_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
@@ -7491,18 +7807,52 @@
           "body": "Định kỳ làm lại một nhiệm vụ không dùng AI, xem kỹ năng nào cần học. Tài liệu đầu ra phải có người chịu trách nhiệm, nguồn và phiên bản; khai báo khi quy định yêu cầu. Nếu phát hiện dữ liệu bị gửi nhầm, báo bộ phận bảo mật theo quy trình.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn công việc theo rủi ro và quyền hạn",
+          "body": "NIST giới thiệu AI RMF là khung quản trị rủi ro tự nguyện; bản 1.0 đang được sửa đổi, đây không phải chứng nhận tuân thủ. Trước khi dùng AI, xác định nhiệm vụ, tác động nếu sai, người chịu trách nhiệm và dữ liệu được phép. Ví dụ gợi ý bố cục tài liệu công khai khác với quyết định tuyển dụng, sức khỏe hoặc xử lý tiền. Không tự động cho AI quyền gửi email, sửa dữ liệu hoặc triển khai khi chưa có phê duyệt, giới hạn và phương án khôi phục.",
+          "sourceIds": [
+            "q04g_nist"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tối thiểu hóa dữ liệu",
+          "body": "Không nhập khóa API, mật khẩu, CCCD, hồ sơ y tế, dữ liệu trẻ em, hợp đồng hoặc mã nguồn mật vào công cụ chưa được phép. Xóa tên chưa chắc làm dữ liệu vô danh nếu có thể nhận dạng từ ngữ cảnh. Dùng dữ liệu hư cấu để thử, chỉ cung cấp phần cần thiết qua công cụ tổ chức phê duyệt. Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 là đầu mối tra cứu; mới mở metadata, chưa đọc toàn văn hoặc hướng dẫn nên không kết luận căn cứ xử lý hay nghĩa vụ cụ thể.",
+          "sourceIds": [
+            "privacyLaw"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đo hiệu quả bằng kiểm thử và chi phí sửa",
+          "body": "Ví dụ báo cáo AI tạo mất 10 phút, kiểm tra 25 phút, sửa 15 phút: tổng 50 phút, so với 60 phút làm tay trong tình huống giả định. Không chỉ đo thời gian tạo nháp. Đặt mẫu kiểm tra trước: số liệu khớp nguồn, đơn vị đúng, nội dung không lộ dữ liệu và người phụ trách duyệt. Với mã, kiểm thử lỗi, phân quyền, phụ thuộc, giấy phép và tác động; không chạy lệnh chưa hiểu trên hệ thống thật. Nếu sai có hậu quả lớn, dừng và chuyển người chuyên môn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bàn giao và xử lý sự cố",
+          "body": "Ghi nguồn, công cụ, phiên bản, phần tự làm, phép kiểm, người duyệt và giới hạn. Nếu nghi gửi nhầm dữ liệu, báo bộ phận bảo mật theo quy trình, không tự xóa dấu vết hay tiếp tục phát tán. UNESCO nhấn mạnh quyền chủ động con người và bảo vệ dữ liệu trong giáo dục; vận dụng tại nơi làm phải theo chính sách riêng. Thử làm thủ công một nhiệm vụ để giữ kỹ năng nền, định kỳ đánh giá công cụ. Không dùng AI làm bằng chứng duy nhất cho quyết định quan trọng.",
+          "sourceIds": [
+            "q04f_ai"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn nhiệm vụ ít rủi ro và dữ liệu mẫu.",
         "Đặt tiêu chí đầu ra, kiểm tra độc lập.",
-        "Viết quy tắc dữ liệu được phép và cách báo sự cố."
+        "Viết quy tắc dữ liệu được phép và cách báo sự cố.",
+        "Lập bảng nhiệm vụ AI, dữ liệu được phép và người duyệt.",
+        "Thử benchmark có cả thời gian kiểm chứng và sửa lỗi."
       ],
       "limits": "Không phải đánh giá tuân thủ pháp lý hoặc kiểm toán bảo mật; tuân thủ chính sách tổ chức và luật hiện hành.",
       "sourceIds": [
         "aiEdu",
         "mil",
-        "privacyLaw"
+        "privacyLaw",
+        "q04g_nist",
+        "q04f_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
@@ -7540,17 +7890,50 @@
           "body": "Khi có ý định kết hôn, mua tài sản chung hoặc ký thỏa thuận, đọc quy định Việt Nam và hỏi chuyên gia nếu cần. Thỏa thuận đời sống không tự thay mọi thủ tục pháp lý. Tôn trọng quyền quyết định riêng, giữ hồ sơ và không ký khi chưa hiểu.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Cam kết không phải cột mốc tuổi tác",
+          "body": "WHO nêu kết nối xã hội có ý nghĩa với sức khỏe; kết nối có thể đến từ bạn bè, gia đình và cộng đồng, không chỉ hôn nhân. Thảo luận mong muốn sống riêng hay cùng nhau, có con hay không, công việc, chăm sóc người thân và thời gian riêng. Không ép người khác cam kết vì tuổi hoặc kỳ vọng họ hàng. Ví dụ hai người có lịch làm khác nhau có thể thử thỏa thuận sinh hoạt trước khi quyết định dài hạn. Không cần đánh đổi quyền riêng tư để chứng minh tình yêu.",
+          "sourceIds": [
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Cuộc trao đổi về tiền và việc nhà",
+          "body": "Ghi chi phí chung, khoản cá nhân, nghĩa vụ có sẵn và cách thống nhất khoản lớn. Ví dụ giả định tiền nhà và sinh hoạt chung 10 triệu, hai người có thể bàn cách đóng góp phù hợp thu nhập và việc chăm sóc, không bắt buộc chia đôi. Ghi người chịu trách nhiệm từng việc từ đầu đến cuối, thời gian nghỉ và phương án khi người kia ốm. Không giữ tiền hoặc giấy tờ để kiểm soát. Khi mua tài sản hoặc vay chung, hỏi chuyên gia về hồ sơ thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ranh giới khi xung đột",
+          "body": "Chọn lúc bình tĩnh, nêu hành vi cụ thể, điều cần và đề nghị; cho phép dừng cuộc nói chuyện. Đồng thuận trong tình dục phải tự nguyện và có thể rút lại. WHO mô tả bạo lực bạn tình, trong đó có kiểm soát và ép buộc, gây hậu quả sức khỏe; nguồn tập trung phụ nữ nhưng hỗ trợ an toàn cần tôn trọng mọi giới. Nếu bị đe dọa, không ép hòa giải hoặc đối chất, tìm nơi an toàn, người tin cậy và dịch vụ phù hợp; nguy hiểm tức thời cần trợ giúp khẩn.",
+          "sourceIds": [
+            "q04f_violence"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phân biệt thỏa thuận sống và pháp lý",
+          "body": "Trang tìm kiếm Cổng Chính phủ xác định Luật Hôn nhân và gia đình 52/2014/QH13, nhưng trang mở lỗi và chưa đọc PDF hoặc sửa đổi. Bài không kết luận điều kiện kết hôn, tài sản chung riêng, quyền nuôi con hay thủ tục. Khi cam kết pháp lý, xác minh văn bản hiện hành và hỏi người đủ chuyên môn; giữ chứng từ riêng, không ký nếu chưa hiểu. Không đưa tranh chấp, ảnh riêng hoặc giấy tờ bạn đời lên AI hay nhóm công khai. Thỏa thuận có thể xem lại khi hoàn cảnh đổi.",
+          "sourceIds": [
+            "marriage"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Liệt kê ba nhu cầu và giới hạn cá nhân.",
         "Thảo luận một việc chung có thể phân chia rõ ràng.",
-        "Xác định nguồn hỗ trợ nếu có xung đột hoặc nguy cơ."
+        "Xác định nguồn hỗ trợ nếu có xung đột hoặc nguy cơ.",
+        "Thảo luận một khoản chi chung và một ranh giới riêng tư.",
+        "Ghi câu hỏi pháp lý cần xác minh trước cam kết lớn."
       ],
       "limits": "Không đánh giá quan hệ cụ thể hay tư vấn pháp lý hôn nhân; bạo lực và đe dọa cần ưu tiên hỗ trợ an toàn.",
       "sourceIds": [
         "social",
-        "marriage"
+        "marriage",
+        "q04f_violence"
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
@@ -7588,17 +7971,48 @@
           "body": "Sau vài tuần, hỏi hoạt động có làm mình dễ chịu và phù hợp thời gian không. Nếu lịch quá tải, giảm tần suất hoặc nghỉ. Với vận động, tuân thủ hướng dẫn an toàn và dừng khi có triệu chứng bất thường. Không dùng thành tích để đánh giá giá trị bản thân.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nghỉ ngơi không cần tạo ra thu nhập",
+          "body": "Sở thích có thể giúp duy trì sự tò mò, hoạt động và kết nối. UNESCO xem học suốt đời là rộng hơn đào tạo nghề; không nhất thiết phải có chứng chỉ hoặc kiếm tiền. Chọn một việc vì thích, ví dụ vẽ, trồng cây, đọc, chơi nhạc hoặc đi bộ. Không so sản phẩm với người khác trên mạng; thử phiên bản nhỏ trước khi mua dụng cụ. Nếu công việc đã dùng máy tính cả ngày, có thể chọn hoạt động ngoại tuyến phù hợp sức khỏe và không gian.",
+          "sourceIds": [
+            "q04f_life"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lập ngân sách thời gian và tiền",
+          "body": "Ví dụ giả định có hai khoảng 30 phút trong tuần, chọn hoạt động không cần đi xa. Nếu lớp học phí 500 nghìn/tháng và đi lại 200 nghìn, tổng 700 nghìn chưa có dụng cụ; hỏi buổi thử và điều kiện dừng. Cân nhắc nghĩa vụ thiết yếu, không vay vì sợ bỏ lỡ. Với gia đình có con, thống nhất người phụ trách chăm con trong mỗi khoảng nghỉ của nhau, không biến thời gian riêng của một người thành việc nhà bổ sung cho người kia.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kết nối tự nguyện",
+          "body": "WHO lưu ý thay đổi nơi ở, công việc hoặc quan hệ có thể ảnh hưởng kết nối xã hội. Chọn nhóm có mục tiêu rõ, người tổ chức đáng tin, quy tắc an toàn và chi phí minh bạch. Không cần tham gia mọi sự kiện, chia sẻ ảnh hoặc thông tin cá nhân để được chấp nhận. Nếu mới chuyển thành phố, bắt đầu bằng hoạt động công cộng an toàn hoặc nhóm bạn đã biết. Tôn trọng việc người khác không muốn tham gia hoặc công khai sản phẩm.",
+          "sourceIds": [
+            "social"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xem lại sau bốn tuần",
+          "body": "Hỏi hoạt động có khiến mình muốn tiếp tục, có phù hợp thời gian, chi phí và khả năng không. Nếu lịch quá tải, giảm tần suất hoặc tạm nghỉ; không ép biến sở thích thành nghề thứ hai. Nếu muốn chia sẻ sản phẩm AI hoặc dự án nhóm, kiểm tra quyền sử dụng và sự đồng ý, không bịa thành tích. Nếu buồn hoặc mất hứng thú kéo dài ảnh hưởng đời sống, tìm hỗ trợ chuyên môn thay vì coi việc tìm sở thích là phương pháp điều trị.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn hai hoạt động muốn thử với chi phí giới hạn.",
         "Dành một khoảng tự nguyện trong tuần.",
-        "Sau một tháng, quyết định duy trì hoặc đổi."
+        "Sau một tháng, quyết định duy trì hoặc đổi.",
+        "Chọn hoạt động thử có giới hạn chi phí và thời gian.",
+        "Thống nhất khoảng nghỉ riêng công bằng với người cùng sống."
       ],
       "limits": "Không cam kết lợi ích điều trị hoặc thành tích; chọn hoạt động phù hợp sức khỏe và hoàn cảnh.",
       "sourceIds": [
         "lifelong",
-        "social"
+        "social",
+        "q04f_life"
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
@@ -7637,12 +8051,44 @@
           "body": "Thử kịch bản thu nhập giảm hoặc chi phí tăng trước khi thuê nhà, vay hay mua tài sản lớn. Không cung cấp OTP hoặc chuyển tiền khi bị thúc ép. Nếu nợ khó quản lý, trao đổi bên cho vay và chuyên gia phù hợp; tránh vay mới chỉ để che khoản quá hạn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Dòng tiền và nghĩa vụ theo ngày",
+          "body": "CFPB cung cấp công cụ theo dõi thu nhập, hóa đơn và nợ; áp dụng nguyên tắc lập bảng, không áp quy định tín dụng Mỹ. Ví dụ giả định thực nhận 15 triệu, thiết yếu 9 triệu, trả nợ 2 triệu, còn 4 triệu trước chi khác. Nếu thu giảm 3 triệu thì còn 1 triệu; thêm khoản sửa xe 1,5 triệu sẽ thiếu 500 nghìn. Ghi ngày lương về và hạn từng hóa đơn, không dùng tiền thưởng chưa chắc chắn để cam kết khoản vay.",
+          "sourceIds": [
+            "adultFinance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quỹ dự phòng theo rủi ro thật",
+          "body": "CFPB nhấn mạnh số tiền dự phòng tùy hoàn cảnh và chi phí bất ngờ. Ghi tiền thuê, ăn, đi lại, thuốc cần thiết và chi chăm con nếu có; ví dụ chi thiết yếu 9 triệu/tháng, ba tháng tương đương 27 triệu, chỉ là kịch bản chứ không phải mục tiêu bắt buộc. Có thể bắt đầu nhỏ tùy khả năng; giữ phần dự phòng an toàn và dễ tiếp cận. Không đặt toàn bộ vào tài sản biến động hoặc sản phẩm khó rút. Xem lại sau khi thay đổi thu nhập.",
+          "sourceIds": [
+            "emergencyFund"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Đọc tổng chi phí khoản nợ",
+          "body": "Ví dụ giả định mua trả góp món 12 triệu, trả trước 2 triệu, sau đó 12 kỳ mỗi kỳ 950 nghìn: tổng 13,4 triệu trước phí khác, cao hơn giá tiền mặt 1,4 triệu. Hỏi lãi, phí, phạt trả chậm, trả trước và điều kiện hủy; không coi số minh họa là lãi suất thực tế. Lập danh sách dư nợ và hạn, ưu tiên nhu cầu thiết yếu, trao đổi bên cho vay nếu khó trả. Không chuyển phí cho người hứa xóa nợ hoặc lợi nhuận chắc chắn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo hiểm và kế hoạch gia đình",
+          "body": "Luật BHXH 41/2024/QH15 là đầu mối tra cứu; mới đọc metadata, chưa đối chiếu toàn văn và sửa đổi. Không mặc định đủ điều kiện thai sản hay mức hưởng. Kiểm tra quá trình tham gia qua kênh chính thức, hỏi nhân sự hoặc BHXH. Với bảo hiểm thương mại, đọc quyền lợi, loại trừ, thời hạn, phí và điều kiện hủy. Nếu cùng quản lý tiền, thống nhất khoản chung và quyền riêng; không chia sẻ OTP. Khi quyết định lớn, hỏi chuyên gia theo hồ sơ thật.",
+          "sourceIds": [
+            "bhxh"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Ghi dòng tiền một tháng.",
         "Liệt kê nợ, hạn, lãi và phí thực tế.",
-        "Đặt mục tiêu dự phòng và kiểm tra một hợp đồng bảo hiểm."
+        "Đặt mục tiêu dự phòng và kiểm tra một hợp đồng bảo hiểm.",
+        "Lập bảng dòng tiền và thử kịch bản giảm thu nhập.",
+        "Tính tổng chi phí một khoản trả góp giả định trước khi so sánh."
       ],
       "limits": "Ví dụ giáo dục, không đề xuất khoản vay, sản phẩm bảo hiểm hoặc đầu tư cá nhân; kiểm tra điều khoản và pháp luật Việt Nam.",
       "sourceIds": [
@@ -7687,12 +8133,42 @@
           "body": "Trước khi quyết định, xem hợp đồng hiện tại, thời gian bàn giao, dòng tiền và phương án nếu kế hoạch chậm. Xác minh nhà tuyển dụng, không trả phí bất thường. Đặt mục tiêu kỹ năng theo tháng và xem lại sau khi có phản hồi thực tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Định hướng dựa trên nhiệm vụ và điều kiện sống",
+          "body": "OECD nghiên cứu hướng nghiệp người trưởng thành để thích ứng với thị trường lao động thay đổi. Báo cáo 2021 không dự báo lương Việt Nam năm 2026. Chọn hai vai trò muốn thử, đọc mô tả việc từ nhiều nguồn có ngày và ghi nhiệm vụ, kỹ năng, môi trường, trách nhiệm gia đình và nhu cầu tài chính. Hỏi người làm nghề về công việc thật, không chỉ chức danh. Với AI, xem nhiệm vụ nào được hỗ trợ và phần nào cần con người chịu trách nhiệm, tránh dự đoán nghề chắc chắn biến mất.",
+          "sourceIds": [
+            "adultCareer"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Hồ sơ đóng góp có thể kiểm tra",
+          "body": "Chọn ba việc đã thực hiện, ghi bối cảnh, hành động, kết quả có bằng chứng và giới hạn. Ví dụ cải thiện quy trình từ 40 xuống 30 phút trong mẫu đo được phép, nêu số lần đo và điều kiện; không suy ra hiệu quả toàn công ty. Nếu dữ liệu mật, dùng mô phỏng ghi rõ thay vì công khai. Luyện trình bày một quyết định và lỗi đã sửa, không thêm kinh nghiệm AI bịa. Chọn một kỹ năng cần phát triển bốn tuần và xin phản hồi người hướng dẫn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thương lượng cả gói điều kiện",
+          "body": "Ghi lương trước và sau khấu trừ dự kiến, thử việc, phụ cấp, thưởng, bảo hiểm, thời giờ, địa điểm, làm thêm và đánh giá. Hỏi tiêu chí tăng lương, cơ hội học, phạm vi trực ngoài giờ và xác nhận bằng văn bản. Ví dụ đề nghị cao hơn 2 triệu nhưng đi lại và chăm con thêm 1,5 triệu có thể thay đổi lợi ích thực tế. Không lấy con số giả định làm giá thị trường. Trình bày đóng góp và nhu cầu rõ, không tiết lộ bí mật công ty cũ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bàn giao và phương án khi chuyển việc",
+          "body": "Cổng Chính phủ công bố VBHN 18/VBHN-VPQH Bộ luật Lao động; mới đọc metadata, chưa kết luận thời hạn báo trước, thử việc hay điều kiện chấm dứt. Xem hợp đồng thật, hỏi nhân sự hoặc tư vấn pháp lý trước khi ký hoặc nghỉ. Kiểm tra nhà tuyển dụng, dòng tiền nếu ngày bắt đầu chậm và cách bàn giao tài sản, tài liệu. Không trả phí bất thường. Khi còn bất định, thử học hoặc dự án được phép ngoài giờ thay vì nghỉ ngay. Không bảo đảm việc làm hay mức lương.",
+          "sourceIds": [
+            "labour"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Đối chiếu ba mô tả việc với kỹ năng hiện có.",
         "Chuẩn bị một sản phẩm và ví dụ đóng góp.",
-        "Viết câu hỏi thương lượng, kế hoạch dự phòng."
+        "Viết câu hỏi thương lượng, kế hoạch dự phòng.",
+        "Chuẩn bị ba bằng chứng đóng góp không chứa dữ liệu mật.",
+        "Lập bảng gói đãi ngộ và phương án nếu ngày bắt đầu chậm."
       ],
       "limits": "Không cam kết thăng chức, thu nhập hoặc việc làm; quyền lợi hợp đồng cần xem hồ sơ cụ thể.",
       "sourceIds": [
@@ -7738,19 +8214,51 @@
           "body": "Ghi thời điểm, thông tin thỏa thuận, biên nhận và nội dung trao đổi. Hỏi cơ quan có thẩm quyền hoặc luật sư khi có tranh chấp đáng kể. Không đăng công khai giấy tờ chứa số định danh, không gửi tiền cho người tự xưng giải quyết nhanh.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nguồn luật và giới hạn tra cứu",
+          "body": "Cổng Chính phủ có metadata VBHN 132/VBHN-VPQH Luật Nhà ở, Luật Cư trú 68/2020/QH14 và Luật BHXH 41/2024/QH15; Bộ luật Dân sự 91/2015/QH13 xác định qua kết quả tìm kiếm, đường dẫn cũ lỗi. Chưa đọc toàn văn PDF hoặc rà sửa đổi và hướng dẫn, nên không kết luận thời hạn đăng ký, tiền cọc phải trả, mức hưởng bảo hiểm hay điều kiện pháp lý cụ thể. Khi có hồ sơ thật, tra văn bản hiện hành và hỏi cơ quan hoặc luật sư phù hợp.",
+          "sourceIds": [
+            "q04g_civil",
+            "housing",
+            "residence",
+            "bhxh"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Biên bản thuê và bàn giao nhà",
+          "body": "Trước khi trả tiền, xác minh người cho thuê và căn cứ cho thuê, địa chỉ, giá, cọc, phí, điều kiện hoàn cọc và chấm dứt. Ghi hiện trạng tài sản, chỉ số điện nước và chìa khóa khi bàn giao; lưu ảnh nếu được phép và biên nhận. Ví dụ giả định thuê 4 triệu/tháng, cọc 4 triệu, phí đầu kỳ 500 nghìn, tổng 8,5 triệu trước khoản chưa rõ. Không xem con số là mức pháp lý. Hỏi lối thoát, sửa chữa, quyền sử dụng chung và kênh liên hệ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Thủ tục cư trú và bảo hiểm",
+          "body": "Sau chuyển chỗ ở, xác định thủ tục áp dụng theo hoàn cảnh với cơ quan có thẩm quyền, không dựa vào mẫu trên mạng hoặc lời môi giới. Chỉ cung cấp giấy tờ cần thiết qua kênh chính thức; không giao OTP hay bản gốc cho người lạ. Khi thay đổi việc làm, đối chiếu thông tin bảo hiểm và lưu hợp đồng, bảng lương, mốc đóng; hỏi BHXH khi có thiếu sót. Phân biệt bảo hiểm bắt buộc theo đối tượng với hợp đồng thương mại. Không kết luận quyền lợi từ một ảnh chụp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tranh chấp dựa trên chứng cứ",
+          "body": "Ghi thời điểm, thỏa thuận, nội dung đã thực hiện, khoản tiền, chứng từ và đề nghị xử lý. Trao đổi qua kênh chính thức, giữ bản sao riêng; nếu khoản lớn hoặc quyền lợi bị ảnh hưởng, tìm tư vấn pháp lý trước hành động. Không tự khóa cửa, giữ tài sản người khác hoặc công khai CCCD để gây áp lực. Nếu có nguy cơ bị đe dọa, ưu tiên an toàn và cơ quan phù hợp. Không gửi hợp đồng thật vào AI công cộng để thay phân tích luật; chỉ dùng mẫu hư cấu khi học.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Kiểm tra danh tính và quyền của bên ký.",
         "Lưu hợp đồng, chứng từ và đầu mối chính thức.",
-        "Tra cứu một thủ tục theo đúng địa phương và thời điểm."
+        "Tra cứu một thủ tục theo đúng địa phương và thời điểm.",
+        "Lập checklist bàn giao và tổng tiền ban đầu của phòng giả định.",
+        "Ghi thủ tục hoặc quyền lợi cần xác minh với cơ quan có thẩm quyền."
       ],
       "limits": "Không kết luận hợp đồng hoặc thủ tục hợp pháp trong trường hợp cụ thể; cần kiểm tra văn bản hiện hành.",
       "sourceIds": [
         "civil",
         "housing",
         "residence",
-        "bhxh"
+        "bhxh",
+        "q04g_civil"
       ],
       "status": "draft",
       "batch": "S04-AZ-03C"
@@ -7788,12 +8296,42 @@
           "body": "Cuối tuần xem việc nào trễ vì thiếu thời gian, thiếu hỗ trợ hay yêu cầu thay đổi. Chọn giảm một việc hoặc xin trợ giúp cụ thể. Nếu căng thẳng hoặc mất ngủ kéo dài, tìm hỗ trợ chuyên môn, không coi chăm sóc bản thân là phần thưởng phải kiếm được.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bản đồ tuần có cả việc vô hình",
+          "body": "Ghi giờ làm, đi lại, ngủ, ăn, việc nhà, chăm con hoặc người thân và việc lên kế hoạch như nhớ lịch khám, mua đồ. Ví dụ một người phụ trách đưa trẻ đi khám không chỉ đi cùng mà còn đặt lịch, chuẩn bị giấy tờ và theo dõi hướng dẫn. Phân công từ đầu đến cuối, có người dự phòng; không mặc định theo giới. Tính cả thời gian nghỉ và tình huống trẻ ốm, không xếp mọi khoảng trống thành giờ làm thêm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chia sẻ trách nhiệm và hỗ trợ chuyên môn",
+          "body": "Chọn một cuộc họp gia đình ngắn để xem việc nào bắt buộc, có thể giảm, giao hoặc thuê hỗ trợ phù hợp ngân sách. Với chăm người bệnh, ghi hướng dẫn của nhân viên y tế, người phụ trách và dấu hiệu cần liên hệ; không tự giao nhiệm vụ chuyên môn vượt khả năng. Nếu một người quá tải, giảm nhiệm vụ thay vì yêu cầu cố gắng hơn. WHO nhấn mạnh điều kiện công việc có ảnh hưởng tâm lý, nên nếu lịch ca là nguyên nhân, trao đổi nơi làm về phương án khả thi.",
+          "sourceIds": [
+            "workMental"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Công cụ tối giản và bảo vệ thông tin",
+          "body": "Bảng tuần có cột việc, người phụ trách, hạn và người dự phòng. Ví dụ mua thực phẩm vào thứ tư, người A chủ trì, B thay nếu A làm ca. Chỉ lưu thông tin cần thiết; không đưa ảnh hồ sơ sức khỏe, lịch riêng của trẻ hoặc địa chỉ vào AI công cộng để lập lịch. Nếu dùng ứng dụng chia sẻ, kiểm tra quyền truy cập, bỏ người không còn tham gia. Không dùng số việc hoàn thành để đánh giá giá trị một người; thay đổi khi hoàn cảnh thay đổi.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bảo vệ kết nối và thời gian riêng",
+          "body": "WHO nêu kết nối xã hội quan trọng đối với sức khỏe. Giữ khoảng trò chuyện hoặc hoạt động tự nguyện cùng bạn bè, người thân, và thời gian riêng cho mỗi người. Cuối tuần xem việc trễ vì thiếu thời gian, thông tin hay người hỗ trợ; chọn một điểm sửa. Nếu căng thẳng, khó ngủ hoặc buồn kéo dài ảnh hưởng sinh hoạt, tìm hỗ trợ chuyên môn. Nếu có nguy hiểm hoặc nguy cơ tự hại tức thời, tìm trợ giúp khẩn. Chăm sóc bản thân không phải phần thưởng sau khi hoàn thành mọi việc.",
+          "sourceIds": [
+            "social"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Vẽ một tuần và đánh dấu khoảng nghỉ.",
         "Thống nhất người phụ trách và dự phòng cho hai việc.",
-        "Chọn một việc có thể giảm hoặc chuyển giao."
+        "Chọn một việc có thể giảm hoặc chuyển giao.",
+        "Lập bảng việc nhà gồm cả việc lên kế hoạch và người dự phòng.",
+        "Chọn một việc có thể giảm và một khoảng nghỉ cho mỗi người."
       ],
       "limits": "Không thay tư vấn sức khỏe hoặc dịch vụ chăm sóc; phân công cần tự nguyện và phù hợp khả năng.",
       "sourceIds": [
