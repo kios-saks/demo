@@ -1,0 +1,139 @@
+[
+  {
+    "id": "q04c3_m4",
+    "name": "CDC — Milestones by 4 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+    "scope": "Mốc 4 tuổi, giao tiếp, vận động và dấu hiệu cần đánh giá.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/4-years.html"
+    ]
+  },
+  {
+    "id": "q04c3_m5",
+    "name": "CDC — Milestones by 5 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+    "scope": "Mốc 5 tuổi, kể chuyện, chú ý, vận động; không thay sàng lọc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/5-years.html"
+    ]
+  },
+  {
+    "id": "q04c3_play",
+    "name": "UNICEF — The science of play",
+    "url": "https://www.unicef.org/parenting/child-care/science-of-play",
+    "scope": "Vai trò chơi trong phát triển và kết nối; ví dụ áp dụng tự biên tập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/science-of-play"
+    ]
+  },
+  {
+    "id": "q04c3_harvard",
+    "name": "Harvard — Brain-Building Through Play",
+    "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+    "scope": "Trang tổng quan hoạt động theo tuổi; chưa đọc handout PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+    ]
+  },
+  {
+    "id": "q04c3_positive",
+    "name": "UNICEF Asia Pacific — Positive parenting",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+    "scope": "Dạy kỹ năng không làm nhục, khuyến khích lên tiếng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    ]
+  },
+  {
+    "id": "q04c3_sep",
+    "name": "UNICEF — Managing child separation anxiety",
+    "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+    "scope": "Chia tay rõ ràng, làm quen người chăm; thường gặp ở 6 tháng–3 tuổi, áp dụng linh hoạt cho trẻ lớn hơn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c3_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "Trẻ 3–5 tuổi 10–13 giờ/24 giờ gồm giấc ngày.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04c3_diet",
+    "name": "WHO — Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm, rau quả, hạn chế đường tự do; không suy ra khẩu phần điều trị.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    ]
+  },
+  {
+    "id": "q04c3_dental",
+    "name": "NHS — Looking after your baby's teeth",
+    "url": "https://www.nhs.uk/baby/babys-development/teething/looking-after-your-babys-teeth/",
+    "scope": "Kem fluoride lượng hạt đậu 3–6 tuổi, chải ít nhất hai lần/ngày.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c3_water",
+    "name": "WHO — Drowning",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+    "scope": "Nguy cơ đuối nước, rào chắn và giám sát; không thay khóa sơ cứu.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/drowning"
+    ]
+  },
+  {
+    "id": "q04c3_child111",
+    "name": "Tổng đài bảo vệ trẻ em 111",
+    "url": "https://tongdai111.vn/",
+    "scope": "Đầu mối bảo vệ trẻ em Việt Nam; không thay cấp cứu y tế.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c3_digital",
+    "name": "UNICEF Việt Nam — Digital parenting",
+    "url": "https://www.unicef.org/vietnam/digital-parenting",
+    "scope": "Trang tổng hợp quyền riêng tư và an toàn trực tuyến; bài tập cụ thể là đề xuất biên tập.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/digital-parenting"
+    ]
+  },
+  {
+    "id": "q04c3_violence",
+    "name": "WHO — Corporal punishment of children and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+    "scope": "Tác hại của trừng phạt thân thể, cần phương pháp không bạo lực.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health"
+    ]
+  }
+]

@@ -541,6 +541,66 @@
       "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
       "scope": "Chơi tương tác, khám phá phù hợp tuổi.",
       "checkedOn": "2026-11-26"
+    },
+    "q04c3_diet": {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "scope": "Đa dạng thực phẩm, rau quả, hạn chế đường tự do; không suy ra khẩu phần điều trị.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_dental": {
+      "name": "NHS — Looking after your baby's teeth",
+      "url": "https://www.nhs.uk/baby/babys-development/teething/looking-after-your-babys-teeth/",
+      "scope": "Kem fluoride lượng hạt đậu 3–6 tuổi, chải ít nhất hai lần/ngày.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_m4": {
+      "name": "CDC — Milestones by 4 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "scope": "Mốc 4 tuổi, giao tiếp, vận động và dấu hiệu cần đánh giá.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_m5": {
+      "name": "CDC — Milestones by 5 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+      "scope": "Mốc 5 tuổi, kể chuyện, chú ý, vận động; không thay sàng lọc.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_sleep": {
+      "name": "CDC — About Sleep",
+      "url": "https://www.cdc.gov/sleep/about/",
+      "scope": "Trẻ 3–5 tuổi 10–13 giờ/24 giờ gồm giấc ngày.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_water": {
+      "name": "WHO — Drowning",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "scope": "Nguy cơ đuối nước, rào chắn và giám sát; không thay khóa sơ cứu.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_child111": {
+      "name": "Tổng đài bảo vệ trẻ em 111",
+      "url": "https://tongdai111.vn/",
+      "scope": "Đầu mối bảo vệ trẻ em Việt Nam; không thay cấp cứu y tế.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_positive": {
+      "name": "UNICEF Asia Pacific — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+      "scope": "Dạy kỹ năng không làm nhục, khuyến khích lên tiếng.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_play": {
+      "name": "UNICEF — The science of play",
+      "url": "https://www.unicef.org/parenting/child-care/science-of-play",
+      "scope": "Vai trò chơi trong phát triển và kết nối; ví dụ áp dụng tự biên tập.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04c3_harvard": {
+      "name": "Harvard — Brain-Building Through Play",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+      "scope": "Trang tổng quan hoạt động theo tuổi; chưa đọc handout PDF.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -655,16 +715,39 @@
           "body": "Xin thực đơn của trường, xem món nào trùng, món nào cần bổ sung ở nhà; hỏi cách trường quản lý dị ứng, nguồn thực phẩm và ăn khi trẻ không khỏe. Với trẻ ăn hạn chế kéo dài, khó nhai nuốt, sụt cân hoặc lo ngại tăng trưởng, trao đổi với bác sĩ hoặc chuyên gia dinh dưỡng thay vì tự cắt nhóm thực phẩm.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn món theo nhóm thay vì ép đủ một thực đơn",
+          "body": "WHO khuyến khích thực phẩm đa dạng, gồm rau, quả, ngũ cốc và đậu, hạn chế đường tự do. Với gia đình Việt Nam, chọn món theo điều kiện và mùa; không cần mua sản phẩm đặc biệt chỉ vì quảng cáo phát triển trí não. Cho trẻ thử một ít món mới cạnh món quen, không buộc ăn hết. Nước trái cây không thay thế hoàn toàn trái cây nguyên dạng.",
+          "sourceIds": [
+            "q04c3_diet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảng phối hợp nhà và trường",
+          "body": "Nếu trường đã có bữa trưa và bữa phụ, xin thực đơn theo tuần để chọn món tối bổ sung hợp lý. Ví dụ trường có thịt vào buổi trưa, nhà có thể dùng đậu phụ hoặc cá đã gỡ xương nếu phù hợp. Không cộng khẩu phần theo công thức chung khi trẻ có dị ứng hoặc bệnh cần chế độ riêng. Hỏi nhà trường cách xác nhận thực phẩm dị ứng, người nhận thông tin và quy trình liên hệ khi có phản ứng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nếp ăn và tín hiệu cần hỗ trợ",
+          "body": "Cho trẻ ngồi ổn định, quan sát khi ăn, chuẩn bị thức ăn theo khả năng nhai nuốt. Cho trẻ hỗ trợ việc không nguy hiểm như đưa khăn. Nếu trẻ ít ăn một bữa nhưng sinh hoạt bình thường, ghi nhận theo nhiều ngày thay vì ép ngay. Nếu thường xuyên ho sặc, khó nuốt, sụt cân, hoặc gia đình lo về tăng trưởng, hỏi bác sĩ. Khó thở khi ăn cần trợ giúp khẩn.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập thực đơn ba ngày với ít nhất hai lựa chọn khác nhau cho nguồn đạm và rau.",
         "Để con chọn một loại rau hoặc trái cây ở chợ cùng người lớn.",
-        "Trao đổi với giáo viên về bữa ăn, không yêu cầu trẻ luôn ăn hết phần."
+        "Trao đổi với giáo viên về bữa ăn, không yêu cầu trẻ luôn ăn hết phần.",
+        "Đối chiếu thực đơn trường với ba bữa tối.",
+        "Ghi dấu hiệu khó nhai hoặc phản ứng với món nếu có."
       ],
       "limits": "Không dùng thực đơn mẫu để ấn định năng lượng, cân nặng hay điều trị dị ứng. Trẻ có bệnh, khó ăn hoặc rối loạn tăng trưởng cần kế hoạch cá nhân.",
       "sourceIds": [
-        "whoDiet"
+        "whoDiet",
+        "q04c3_diet"
       ],
       "status": "draft"
     },
@@ -1422,18 +1505,46 @@
           "body": "Giữ sổ khám, tiêm, dị ứng đã xác nhận và số liên hệ cần thiết ở nơi an toàn. Chỉ cung cấp cho giáo viên thông tin thực sự cần chăm sóc trẻ. Khi có triệu chứng đột ngột hoặc nghiêm trọng, tìm trợ giúp kịp thời.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lượng kem và vai trò người lớn",
+          "body": "NHS hướng dẫn trẻ 3–6 tuổi dùng lượng kem đánh răng fluoride cỡ hạt đậu, chải tối thiểu hai lần mỗi ngày. Người lớn hỗ trợ để chải đủ các mặt răng và hướng dẫn nhổ kem. Trẻ có thể chọn bàn chải hoặc bài hát; người lớn làm phần cần độ chính xác. Nếu đau, sưng hoặc khó ăn, hỏi nha sĩ; không tự chọc vùng sưng.",
+          "sourceIds": [
+            "q04c3_dental"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quan sát nghe và nhìn trong nhiều bối cảnh",
+          "body": "Ghi ví dụ ở lớp, ở nhà và lúc chơi: trẻ có thường bỏ sót hướng dẫn khi phòng ồn, nhìn sát đồ vật hay gặp khó khăn khi tìm món ở xa không? Không kết luận nguyên nhân từ một biểu hiện; hỏi giáo viên và nhân viên y tế về đánh giá phù hợp. Khi triệu chứng thay đổi đột ngột hoặc nghiêm trọng, tìm trợ giúp kịp thời.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phát triển và chuẩn bị khám",
+          "body": "CDC nhấn mạnh mốc 4 và 5 tuổi không thay sàng lọc. Nếu trẻ mất kỹ năng hoặc gia đình có lo ngại, trao đổi sớm với bác sĩ. Mang sổ khám, thông tin dị ứng, ghi nhận của người chăm, và ba câu hỏi: cần đánh giá gì, theo dõi ra sao, khi nào tái khám. Chỉ chia sẻ hồ sơ với người có trách nhiệm chăm sóc.",
+          "sourceIds": [
+            "q04c3_m4",
+            "q04c3_m5"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Thống nhất người hỗ trợ đánh răng buổi tối.",
         "Hỏi giáo viên một nhận xét cụ thể về nghe nhìn.",
-        "Chuẩn bị hồ sơ và câu hỏi cho lần khám tới."
+        "Chuẩn bị hồ sơ và câu hỏi cho lần khám tới.",
+        "Thử rà lại cách đánh răng buổi tối.",
+        "Ghi nhận một ví dụ nghe nhìn ở nhà và trường."
       ],
       "limits": "Không thay thế khám nhi, nha khoa hoặc sàng lọc thị lực/thính lực; không áp đặt lịch xét nghiệm.",
       "sourceIds": [
         "well",
         "oral",
-        "vision"
+        "vision",
+        "q04c3_dental",
+        "q04c3_m4",
+        "q04c3_m5"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -1471,17 +1582,45 @@
           "body": "Một lịch minh họa gồm thức dậy, ăn sáng, đến trường, chơi ngoài trời, ăn tối, trò chuyện và nghỉ. Ngày nghỉ vẫn dành thời gian vận động và ngủ, không cần giống ngày học. Nếu giấc ngủ hoặc sức khỏe ảnh hưởng sinh hoạt kéo dài, hỏi chuyên gia.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tổng thời gian ngủ và điều chỉnh theo ngày học",
+          "body": "CDC đưa khoảng ngủ 10–13 giờ trong 24 giờ cho tuổi 3–5, tính cả ngủ trưa. Ví dụ 10 giờ ban đêm và 1 giờ ban ngày là 11 giờ; đây là ví dụ, không phải giờ bắt buộc. Theo dõi mức tỉnh táo và thời điểm khó ngủ; trao đổi với giáo viên khi ngủ trưa ảnh hưởng giấc tối. Nếu ngáy kèm khó thở hoặc khó ngủ kéo dài, hỏi bác sĩ.",
+          "sourceIds": [
+            "q04c3_sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bốn mốc trong ngày thay vì lịch từng phút",
+          "body": "Vẽ bốn hình: thức dậy, đến trường, về nhà, ngủ. Để trẻ chỉ hoạt động tiếp theo, chuẩn bị dép và áo ở nơi an toàn. Ngày nghỉ chọn một khoảng chơi ngoài trời hoặc vận động tại nhà theo thời tiết. Tránh lịch ngoại khóa kín đến mức không còn thời gian ăn, nghỉ và chơi tự do.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tự phục vụ với hỗ trợ giảm dần",
+          "body": "CDC mô tả một số kỹ năng ở tuổi bốn và năm như thao tác với cúc áo và tham gia việc đơn giản. Tập lúc gia đình không vội: người lớn làm mẫu, cho trẻ thử, giúp phần khó; không dùng mốc làm tiêu chuẩn bắt buộc. Cho trẻ quyền nhờ giúp nếu mệt hoặc đồ khó mở. Tránh việc liên quan bếp, nước nóng và ổ điện.",
+          "sourceIds": [
+            "q04c3_m4",
+            "q04c3_m5"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Cùng trẻ vẽ lịch bốn mốc trong ngày.",
         "Chọn một việc tự phục vụ vừa sức.",
-        "Dành một khoảng chơi chủ động, không dùng màn hình để thay mọi hoạt động."
+        "Dành một khoảng chơi chủ động, không dùng màn hình để thay mọi hoạt động.",
+        "Ghi giờ ngủ thực tế trong ba ngày.",
+        "Vẽ lịch bốn mốc cùng trẻ."
       ],
       "limits": "Lịch chỉ là ví dụ; điều chỉnh theo nhu cầu ngủ, sức khỏe và điều kiện gia đình.",
       "sourceIds": [
         "under5",
-        "sleep"
+        "sleep",
+        "q04c3_sleep",
+        "q04c3_m4",
+        "q04c3_m5"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -1520,18 +1659,46 @@
           "body": "Hỏi trường về bàn giao trẻ, giám sát ngoài trời, xử lý thương tích và đầu mối phản ánh. Thống nhất ai được phép đón trẻ. Khi xảy ra sự cố nghiêm trọng, ưu tiên đưa trẻ tới nơi an toàn và trợ giúp chuyên môn, không đăng thông tin riêng lên mạng.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bản đồ nguy cơ nước quanh nhà",
+          "body": "Không chỉ hồ bơi: rà thùng nước, bể, giếng, ao, mương và nhà tắm. Dùng rào hoặc nắp phù hợp để ngăn tiếp cận, chỉ định rõ người lớn giám sát khi gần nước; không giao cho trẻ lớn hoặc mặc định người bên cạnh đang trông. WHO coi ngăn tiếp cận và chăm sóc có giám sát là biện pháp quan trọng; học bơi không thay việc bảo vệ.",
+          "sourceIds": [
+            "q04c3_water"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tập đường đến trường với người lớn",
+          "body": "Trước cổng và trong hẻm, dừng ở vị trí an toàn, nắm tay, quan sát xe đang ra vào; người lớn quyết định khi nào đi. Dạy qua mô hình trong nhà, không cho trẻ tự sang đường để kiểm tra. Khi đổi người đón, báo trước qua kênh đã thống nhất, xác nhận trực tiếp với trường nếu có thay đổi bất thường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khi trẻ kể chuyện đáng lo",
+          "body": "Bình tĩnh nghe lời trẻ, cảm ơn vì đã kể, không hỏi dồn hay bắt diễn lại. Đưa trẻ tới nơi an toàn và tìm trợ giúp phù hợp. Tổng đài 111 là đầu mối quốc gia bảo vệ trẻ em; nếu có nguy hiểm tức thời hoặc cần cấp cứu, liên hệ dịch vụ khẩn cấp thích hợp. Không công khai tên, ảnh hoặc chi tiết có thể nhận dạng trẻ.",
+          "sourceIds": [
+            "q04c3_child111",
+            "q04c3_positive"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Rà soát thùng nước, ao hồ và lối xe quanh nhà.",
         "Tập dừng–quan sát–nắm tay ở khu vực an toàn.",
-        "Chọn hai người lớn tin cậy và lưu số 111."
+        "Chọn hai người lớn tin cậy và lưu số 111.",
+        "Chỉ định người giám sát khi gần nước.",
+        "Lưu thông tin hỗ trợ và quy tắc đón trẻ."
       ],
       "limits": "Kỹ năng của trẻ không thay trách nhiệm giám sát, bảo vệ và cấp cứu của người lớn.",
       "sourceIds": [
         "water",
         "road",
-        "child111"
+        "child111",
+        "q04c3_water",
+        "q04c3_child111",
+        "q04c3_positive"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -4463,17 +4630,43 @@
           "body": "Hỏi giáo viên về bối cảnh, thời điểm và cách hỗ trợ. Nếu trẻ thường bị làm đau, sợ đến lớp hoặc bị cô lập, phối hợp nhà trường để bảo đảm an toàn. Đừng yêu cầu trẻ tự chịu đựng vì muốn con mạnh mẽ; tìm hỗ trợ chuyên môn khi cần.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt tranh chấp thường gặp với nguy cơ kéo dài",
+          "body": "Một lần tranh đồ không đủ để kết luận trẻ ích kỷ hay bắt nạt. Ghi tình huống, điều xảy ra trước đó, mức độ bị đau và sự hỗ trợ của người lớn. Nếu một trẻ liên tục bị làm đau hoặc sợ đến lớp, cần kế hoạch bảo vệ và phối hợp trường, không yêu cầu trẻ tự hòa giải.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ba bước sửa tình huống",
+          "body": "Dừng hành động gây hại; nghe từng trẻ khi đã bình tĩnh; đề nghị cách sửa có thể thực hiện. Ví dụ trẻ làm đổ mô hình của bạn, có thể giúp dựng lại nếu bạn đồng ý hoặc chọn chơi ở chỗ khác. Không ép chạm cơ thể để làm hòa. Người lớn làm mẫu cách nói nhận trách nhiệm thay vì gắn nhãn.",
+          "sourceIds": [
+            "q04c3_positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Một trò hợp tác có lựa chọn",
+          "body": "Dùng khối lớn làm một con đường: một trẻ xây, một trẻ chọn biển báo bằng giấy; đổi vai khi cả hai muốn. CDC mô tả việc chơi giả vờ và quan tâm bạn trong các mốc tuổi bốn; không dùng trò này để chấm kỹ năng. Nếu một trẻ muốn chơi riêng, cho lựa chọn khác và vẫn giữ an toàn.",
+          "sourceIds": [
+            "q04c3_m4"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Tập câu xin lượt và câu từ chối lịch sự.",
         "Chơi một hoạt động hợp tác thay vì đối kháng.",
-        "Trao đổi với giáo viên về một tình huống cụ thể."
+        "Trao đổi với giáo viên về một tình huống cụ thể.",
+        "Tập câu từ chối và nhờ người lớn.",
+        "Thống nhất với giáo viên cách ghi nhận xung đột."
       ],
       "limits": "Không buộc trẻ thân thiết hoặc hòa giải khi chưa an toàn; người lớn chịu trách nhiệm bảo vệ.",
       "sourceIds": [
         "positive",
-        "playHarvard"
+        "playHarvard",
+        "q04c3_positive",
+        "q04c3_m4"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"
@@ -4511,17 +4704,42 @@
           "body": "Sau vài buổi, hỏi trẻ thích phần nào và có muốn thử tiếp không. Xem lịch còn thời gian ngủ, chơi tự do và sinh hoạt gia đình không; điều chỉnh nếu trẻ mệt. Không dự đoán thành công nghề nghiệp hoặc đánh giá IQ từ kết quả lớp năng khiếu.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Một tuần khám phá có chủ đích",
+          "body": "Chọn hai hoạt động khác nhau: vẽ câu chuyện và nhảy theo nhịp. Chuẩn bị khoảng trống, giấy sạch và dụng cụ phù hợp tuổi, cho trẻ quyết định bắt đầu và kết thúc. Nếu trẻ không muốn trình diễn trước người khác, không dùng đó làm bằng chứng thiếu năng khiếu. Chơi là cơ hội biểu đạt, kết nối và giải quyết vấn đề, không phải thi tuyển.",
+          "sourceIds": [
+            "q04c3_play",
+            "q04c3_harvard"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Chọn lớp ngoại khóa dựa vào trải nghiệm",
+          "body": "Trước khi mua gói học, hỏi thời lượng, mức giám sát, cách xử lý chấn thương, dụng cụ và chính sách nghỉ. Thử một buổi nếu có; quan sát trẻ có được lựa chọn và nghỉ khi cần không. Tính thời gian đi lại và chi phí cả tháng, ưu tiên lịch còn chỗ cho chơi tự do. Không tin lời bảo đảm phát hiện IQ hoặc nghề nghiệp tương lai.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lưu sản phẩm với quyền riêng tư",
+          "body": "Trẻ có thể chọn giữ một bức tranh hoặc không. Viết ngày và câu chuyện trẻ kể nếu trẻ muốn; không sửa để đăng mạng hoặc so sánh với sản phẩm bạn khác. Khi quan sát sở thích, ghi trẻ có tự quay lại hoạt động không, phần nào thích và phần nào cần hỗ trợ. Điều chỉnh môi trường nếu tiếng ồn hoặc dụng cụ khiến trẻ khó chịu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chuẩn bị một góc sáng tạo bằng đồ an toàn.",
         "Thử hai hoạt động khác nhau trong tuần.",
-        "Hỏi trẻ muốn tiếp tục hay thay đổi."
+        "Hỏi trẻ muốn tiếp tục hay thay đổi.",
+        "Chọn hai hoạt động không cần mua học cụ mới.",
+        "Hỏi trẻ muốn giữ sản phẩm nào."
       ],
       "limits": "Không bảo đảm phát hiện năng khiếu hoặc thành tích; tôn trọng sự lựa chọn và an toàn.",
       "sourceIds": [
         "playVn",
-        "playHarvard"
+        "playHarvard",
+        "q04c3_play",
+        "q04c3_harvard"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"
@@ -4559,17 +4777,43 @@
           "body": "Hỏi giáo viên trẻ cần tự chuẩn bị những gì, tập ở nhà theo cách nhẹ nhàng. Giữ đồ dùng có nhãn phù hợp, tránh ghi thông tin cá nhân quá nhiều bên ngoài. Khi trẻ gặp khó khăn, điều chỉnh môi trường và tìm hỗ trợ thay vì phạt.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tách việc thành bước và thiết kế môi trường",
+          "body": "Với việc cất giày, đặt vị trí thấp và dễ thấy, làm mẫu đặt đôi giày cạnh nhau, để trẻ thử rồi hỗ trợ phần khó. Khi việc đã quen, nhắc bằng hình thay vì nhiều mệnh lệnh. Mốc CDC tuổi bốn có các hoạt động tự phục vụ dưới giám sát, nhưng không bắt buộc mọi trẻ tự làm ngay.",
+          "sourceIds": [
+            "q04c3_m4"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Việc nhà không biến thành trách nhiệm người lớn",
+          "body": "Mời trẻ đưa khăn giấy, cất đồ chơi hoặc phân loại quần áo sạch cùng người chăm. Người lớn chịu trách nhiệm các vật nóng, hóa chất, dao, đồ nặng và trông em. Không giao nhiệm vụ kéo dài vì người lớn bận, không lấy quyền ăn hoặc nghỉ để ép trẻ hoàn thành. Nếu trẻ làm đổ hoặc sai, hướng dẫn sửa an toàn không làm nhục.",
+          "sourceIds": [
+            "q04c3_positive"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tập kỹ năng ở hai môi trường",
+          "body": "Hỏi giáo viên việc trẻ được hỗ trợ ở lớp, ví dụ cất ba lô hay rửa tay. Tập ở nhà bằng cùng một trình tự đơn giản, điều chỉnh chiều cao, độ khó và thời gian. Khi trẻ cần giúp nhiều hơn, tìm nguyên nhân từ môi trường, sức khỏe hoặc khả năng hiện tại; không so với anh chị. Ghi phần trẻ tự chọn và phần cần người lớn giúp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một việc tự phục vụ và chia thành ba bước.",
         "Đặt đồ ở nơi trẻ có thể lấy an toàn.",
-        "Hỏi trẻ muốn giúp việc nào, hỗ trợ khi cần."
+        "Hỏi trẻ muốn giúp việc nào, hỗ trợ khi cần.",
+        "Chọn một việc an toàn có ba bước.",
+        "Trao đổi một kỹ năng với giáo viên."
       ],
       "limits": "Không giao việc nguy hiểm, không dùng lao động hoặc trách nhiệm người lớn để rèn trẻ.",
       "sourceIds": [
         "playInfant",
-        "positive"
+        "positive",
+        "q04c3_m4",
+        "q04c3_positive"
       ],
       "status": "draft",
       "batch": "S04-AZ-03A"

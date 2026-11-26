@@ -165,6 +165,26 @@
     "q04c2_pants": {
       "name": "NSPCC — Talk PANTS",
       "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
+    },
+    "q04c3_harvard": {
+      "name": "Harvard — Brain-Building Through Play",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/"
+    },
+    "q04c3_m5": {
+      "name": "CDC — Milestones by 5 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    "q04c3_positive": {
+      "name": "UNICEF Asia Pacific — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    },
+    "q04c3_m4": {
+      "name": "CDC — Milestones by 4 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    "q04c3_digital": {
+      "name": "UNICEF Việt Nam — Digital parenting",
+      "url": "https://www.unicef.org/vietnam/digital-parenting"
     }
   },
   "lessons": [
@@ -277,12 +297,14 @@
       "category": "skills",
       "title": "Chơi để luyện chú ý và giải quyết vấn đề",
       "goal": "Tập đổi quy tắc, ghi nhớ và thử lại qua trò chơi.",
-      "knowledge": "Các trò chơi luân phiên và có luật đơn giản tạo cơ hội thực hành chú ý và kiểm soát hành động. Mức thử thách cần thay đổi theo hứng thú, không bắt buộc trẻ thắng hoặc hoàn thành.",
-      "practice": "Chơi đèn xanh đèn đỏ; sau vài lượt đổi luật với trẻ. Hỏi con muốn tự tạo một luật mới không. Chia nhỏ khi khó và kết thúc trước lúc trẻ quá mệt.",
-      "reflection": "Con đã thử đổi chiến lược khi luật thay đổi như thế nào?",
+      "knowledge": "Các trò chơi luân phiên và có luật đơn giản tạo cơ hội thực hành chú ý và kiểm soát hành động. Mức thử thách cần thay đổi theo hứng thú, không bắt buộc trẻ thắng hoặc hoàn thành. Mức thử thách cần vừa sức: trẻ có thể làm theo một tín hiệu trước khi đổi quy tắc. Không coi lỗi là thiếu thông minh.",
+      "practice": "Chơi đèn xanh đèn đỏ; sau vài lượt đổi luật với trẻ. Hỏi con muốn tự tạo một luật mới không. Chia nhỏ khi khó và kết thúc trước lúc trẻ quá mệt. Trong phòng trống an toàn, vỗ tay một lần để đi chậm, hai lần để đứng lại. Chơi vài lượt; nếu trẻ thích, cho trẻ làm người ra hiệu. Khi trẻ nhầm, giảm một quy tắc hoặc làm mẫu lại. Không yêu cầu đứng yên lâu.",
+      "reflection": "Con đã thử đổi chiến lược khi luật thay đổi như thế nào? Con muốn giữ luật nào? Người lớn đã giảm khó thế nào khi con mệt? Đây là chơi, không phải đo chức năng điều hành.",
       "sourceIds": [
         "play",
-        "executive"
+        "executive",
+        "q04c3_harvard",
+        "q04c3_m5"
       ],
       "status": "draft"
     },
@@ -292,12 +314,14 @@
       "category": "psych",
       "title": "Nhận biết cảm xúc và làm hòa với bạn",
       "goal": "Tập gọi tên cảm xúc, lắng nghe, hợp tác.",
-      "knowledge": "Trẻ có thể tập nhận diện cảm xúc qua câu chuyện và tình huống cụ thể. Không gắn nhãn trẻ là hư hay ích kỷ vì một hành động. Giúp trẻ phân biệt cảm xúc được chấp nhận với hành vi cần giới hạn.",
-      "practice": "Dùng hình vẽ ba khuôn mặt vui, buồn, giận. Kể một tình huống tranh đồ chơi, cho con chọn cảm xúc và thử câu xin lượt. Người lớn làm mẫu lời xin lỗi khi chính mình mắc lỗi.",
-      "reflection": "Con nghĩ bạn cảm thấy thế nào? Có cách nào sửa lại tình huống?",
+      "knowledge": "Trẻ có thể tập nhận diện cảm xúc qua câu chuyện và tình huống cụ thể. Không gắn nhãn trẻ là hư hay ích kỷ vì một hành động. Giúp trẻ phân biệt cảm xúc được chấp nhận với hành vi cần giới hạn. Làm hòa không đồng nghĩa phải chơi chung ngay; trước tiên cần bảo đảm không ai bị đau hay bị ép.",
+      "practice": "Dùng hình vẽ ba khuôn mặt vui, buồn, giận. Kể một tình huống tranh đồ chơi, cho con chọn cảm xúc và thử câu xin lượt. Người lớn làm mẫu lời xin lỗi khi chính mình mắc lỗi. Vẽ hai bạn muốn cùng một cây bút, cho trẻ chọn cách: chờ lượt, dùng bút khác hoặc nhờ cô. Diễn lại bằng búp bê; nếu trẻ nói cần nghỉ, tôn trọng. Khi có xung đột thật, người lớn dừng hành vi gây đau và hỗ trợ từng trẻ.",
+      "reflection": "Con nghĩ bạn cảm thấy thế nào? Có cách nào sửa lại tình huống? Cách nào khiến cả hai được an toàn? Không bắt trẻ ôm hoặc tha thứ khi chưa sẵn sàng.",
       "sourceIds": [
         "unicef",
-        "play"
+        "play",
+        "q04c3_positive",
+        "q04c3_m4"
       ],
       "status": "draft"
     },
@@ -307,12 +331,13 @@
       "category": "modern",
       "title": "Làm quen công nghệ có người lớn đồng hành",
       "goal": "Tập thói quen hỏi trước khi bấm và ưu tiên chơi thực tế.",
-      "knowledge": "Ở tuổi này không cần tạo tài khoản AI hoặc học qua màn hình để theo kịp bạn bè. Khi dùng thiết bị, người lớn chọn nội dung phù hợp, cùng xem, chuyển câu chuyện thành hoạt động ngoài màn hình và duy trì sinh hoạt cân bằng.",
-      "practice": "Cùng xem một hình về cây, sau đó quan sát một chiếc lá thật. Tập quy tắc: nếu thấy quảng cáo hoặc yêu cầu thông tin, dừng lại và hỏi người lớn. Không cung cấp dữ liệu nhận dạng của trẻ.",
-      "reflection": "Con có kể lại bằng lời riêng hoặc chỉ vào vật thật được không?",
+      "knowledge": "Ở tuổi này không cần tạo tài khoản AI hoặc học qua màn hình để theo kịp bạn bè. Khi dùng thiết bị, người lớn chọn nội dung phù hợp, cùng xem, chuyển câu chuyện thành hoạt động ngoài màn hình và duy trì sinh hoạt cân bằng. Người lớn chịu trách nhiệm thiết lập thiết bị, quyền riêng tư và nội dung; không giao trẻ tự phân biệt quảng cáo hay câu trả lời AI.",
+      "practice": "Cùng xem một hình về cây, sau đó quan sát một chiếc lá thật. Tập quy tắc: nếu thấy quảng cáo hoặc yêu cầu thông tin, dừng lại và hỏi người lớn. Không cung cấp dữ liệu nhận dạng của trẻ. Cùng xem một ảnh hoặc đoạn ngắn về con vật, sau đó cất máy để tìm đặc điểm bằng sách hoặc trò giả vờ. Tập câu dừng lại và hỏi người lớn khi có nút mua, camera hoặc yêu cầu tên. Người lớn không đưa ảnh nhận dạng, trường học hoặc địa chỉ của trẻ vào dịch vụ không cần thiết.",
+      "reflection": "Con có kể lại bằng lời riêng hoặc chỉ vào vật thật được không? Con có thể chọn một trò không màn hình sau khi xem không? Người lớn có làm mẫu cất thiết bị đúng lúc không?",
       "sourceIds": [
         "digital",
-        "parentingAI"
+        "parentingAI",
+        "q04c3_digital"
       ],
       "status": "draft"
     },
