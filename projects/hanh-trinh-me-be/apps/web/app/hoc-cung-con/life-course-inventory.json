@@ -482,7 +482,7 @@
       "pillar": "routine",
       "originalStage": "so-sinh",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh"
     },
@@ -493,8 +493,8 @@
       "stage": "baby",
       "pillar": "health",
       "originalStage": "so-sinh",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/nhung-cau-hoi-khi-cham-be"
     },
@@ -506,7 +506,7 @@
       "pillar": "routine",
       "originalStage": "so-sinh",
       "sourceCount": 2,
-      "sectionCount": 10,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/ngu-an-toan-cho-tre-so-sinh"
     },
@@ -517,8 +517,8 @@
       "stage": "baby",
       "pillar": "safety",
       "originalStage": "so-sinh",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/dau-hieu-nguy-hiem-o-tre-so-sinh"
     },
@@ -530,7 +530,7 @@
       "pillar": "nutrition",
       "originalStage": "so-sinh",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/bu-me-hoan-toan-sau-sinh"
     },
@@ -541,8 +541,8 @@
       "stage": "baby",
       "pillar": "body",
       "originalStage": "so-sinh",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/theo-doi-phat-trien-hai-thang-dau"
     },
@@ -553,8 +553,8 @@
       "stage": "baby",
       "pillar": "education",
       "originalStage": "nhu-nhi",
-      "sourceCount": 3,
-      "sectionCount": 10,
+      "sourceCount": 5,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/choi-va-tuong-tac-voi-be"
     },
@@ -565,8 +565,8 @@
       "stage": "baby",
       "pillar": "body",
       "originalStage": "nhu-nhi",
-      "sourceCount": 3,
-      "sectionCount": 12,
+      "sourceCount": 5,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/moc-phat-trien-khong-phai-cuoc-dua"
     },
@@ -577,8 +577,8 @@
       "stage": "baby",
       "pillar": "nutrition",
       "originalStage": "nhu-nhi",
-      "sourceCount": 3,
-      "sectionCount": 10,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/an-dam-khi-nao-bat-dau"
     },
@@ -589,8 +589,8 @@
       "stage": "baby",
       "pillar": "safety",
       "originalStage": "nhu-nhi",
-      "sourceCount": 3,
-      "sectionCount": 10,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/an-toan-chong-sac-khi-an-dam"
     },
@@ -602,7 +602,7 @@
       "pillar": "body",
       "originalStage": "nhu-nhi",
       "sourceCount": 3,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/moc-phat-trien-sau-thang-thu-sau"
     },
@@ -614,7 +614,7 @@
       "pillar": "routine",
       "originalStage": "nhu-nhi",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang"
     },
@@ -985,7 +985,7 @@
       "stage": "baby",
       "pillar": "relationships",
       "originalStage": "baby",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-dap-lai-tin-hieu"
@@ -997,7 +997,7 @@
       "stage": "baby",
       "pillar": "body",
       "originalStage": "baby",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-kham-pha-giac-quan"
@@ -1009,7 +1009,7 @@
       "stage": "baby",
       "pillar": "education",
       "originalStage": "baby",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sectionCount": 3,
       "status": "draft",
       "href": "/hoc-cung-con#lesson-thoi-quen-doc-cung-be"
@@ -1369,8 +1369,8 @@
       "stage": "baby",
       "pillar": "psych",
       "originalStage": "baby",
-      "sourceCount": 1,
-      "sectionCount": 4,
+      "sourceCount": 3,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-gan-bo-va-dap-ung-nam-dau"
     },
@@ -2029,8 +2029,8 @@
       "stage": "baby",
       "pillar": "talents",
       "originalStage": "baby",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-am-thanh-va-chuyen-dong-nam-dau"
     },
@@ -2041,8 +2041,8 @@
       "stage": "baby",
       "pillar": "life",
       "originalStage": "baby",
-      "sourceCount": 2,
-      "sectionCount": 4,
+      "sourceCount": 4,
+      "sectionCount": 7,
       "status": "draft",
       "href": "/hoc-cung-con#az-cham-soc-dap-ung-va-chuyen-tiep"
     },

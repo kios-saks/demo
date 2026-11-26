@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04B1",
+  "batch": "S04-AZ-04B2",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
@@ -98,32 +98,36 @@
       "stage": "baby",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:nhung-cau-hoi-khi-cham-be",
       "stage": "baby",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:choi-va-tuong-tac-voi-be",
       "stage": "baby",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:moc-phat-trien-khong-phai-cuoc-dua",
       "stage": "baby",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:khi-con-noi-khong",
@@ -390,64 +394,72 @@
       "stage": "baby",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
       "stage": "baby",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:bu-me-hoan-toan-sau-sinh",
       "stage": "baby",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:theo-doi-phat-trien-hai-thang-dau",
       "stage": "baby",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:an-dam-khi-nao-bat-dau",
       "stage": "baby",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:an-toan-chong-sac-khi-an-dam",
       "stage": "baby",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:moc-phat-trien-sau-thang-thu-sau",
       "stage": "baby",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
       "stage": "baby",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "legacy:giao-tiep-voi-tre-tu-mot-den-ba-tuoi",
@@ -614,24 +626,27 @@
       "stage": "baby",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "lesson:kham-pha-giac-quan",
       "stage": "baby",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "lesson:thoi-quen-doc-cung-be",
       "stage": "baby",
       "pillar": "education",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "lesson:cam-xuc-va-gioi-han",
@@ -870,8 +885,9 @@
       "stage": "baby",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "article:kham-phat-trien-rang-1-2",
@@ -1310,16 +1326,18 @@
       "stage": "baby",
       "pillar": "talents",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "article:cham-soc-dap-ung-va-chuyen-tiep",
       "stage": "baby",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B2"
     },
     {
       "key": "article:phan-loai-va-thu-lai-1-2",
@@ -1820,9 +1838,9 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 23,
-    "remaining": 108,
-    "additional": 9
+    "attempted": 32,
+    "remaining": 99,
+    "additional": 11
   },
   "targetedRevisions": [
     {
@@ -2534,6 +2552,486 @@
           "url": "https://www.who.int/publications-detail-redirect/9789240045989",
           "status": "opened-overview",
           "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+      "stage": "baby",
+      "title": "Làm quen nhịp sinh hoạt của trẻ sơ sinh",
+      "before": 994,
+      "after": 838,
+      "removedSharedSections": [
+        "Kết nối với chặng Ba tháng đầu đời: an toàn và kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Bàn giao một ngày theo tín hiệu của bé",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nhung-cau-hoi-khi-cham-be",
+      "stage": "baby",
+      "title": "10 câu hỏi nên hỏi bác sĩ khi chăm bé sơ sinh",
+      "before": 976,
+      "after": 818,
+      "removedSharedSections": [
+        "Kết nối với chặng Ba tháng đầu đời: an toàn và kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Mười câu hỏi để mang tới lần khám",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        },
+        {
+          "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+          "status": "opened",
+          "scope": "Trẻ dưới 3 tháng sốt từ 38°C cần đánh giá khẩn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ngu-an-toan-cho-tre-so-sinh",
+      "stage": "baby",
+      "title": "Giấc ngủ an toàn: nằm ngửa và mặt phẳng chắc",
+      "before": 1183,
+      "after": 1301,
+      "removedSharedSections": [],
+      "addedSection": "Kiểm tra nơi ngủ khi nhà có nhiều người chăm",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-nguy-hiem-o-tre-so-sinh",
+      "stage": "baby",
+      "title": "Dấu hiệu nguy hiểm ở trẻ sơ sinh cần đưa đi khám",
+      "before": 1171,
+      "after": 1015,
+      "removedSharedSections": [
+        "Kết nối với chặng Ba tháng đầu đời: an toàn và kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Thẻ nhận diện và hành động khẩn cấp",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        },
+        {
+          "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+          "status": "opened",
+          "scope": "Trẻ dưới 3 tháng sốt từ 38°C cần đánh giá khẩn."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:bu-me-hoan-toan-sau-sinh",
+      "stage": "baby",
+      "title": "Bú mẹ hoàn toàn 6 tháng đầu: nguyên tắc nền tảng",
+      "before": 1173,
+      "after": 1032,
+      "removedSharedSections": [
+        "Kết nối với chặng Ba tháng đầu đời: an toàn và kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Đánh giá nuôi dưỡng bằng tình trạng bé, không bằng lượng sữa nhìn thấy",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+          "status": "opened",
+          "scope": "Bú mẹ, ăn bổ sung từ 6 tháng và ăn đáp ứng."
+        },
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:theo-doi-phat-trien-hai-thang-dau",
+      "stage": "baby",
+      "title": "Quan sát mốc phát triển trong 2 tháng đầu",
+      "before": 1147,
+      "after": 996,
+      "removedSharedSections": [
+        "Kết nối với chặng Ba tháng đầu đời: an toàn và kết nối",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Quan sát hai tháng trong sinh hoạt thật",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+          "status": "opened",
+          "scope": "Mốc đa số trẻ, không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:choi-va-tuong-tac-voi-be",
+      "stage": "baby",
+      "title": "Chơi và tương tác cùng bé 4–12 tháng",
+      "before": 976,
+      "after": 1097,
+      "removedSharedSections": [],
+      "addedSection": "Ba trạm chơi theo khả năng 4–12 tháng",
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+          "status": "opened",
+          "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+          "status": "opened",
+          "scope": "Mốc một tuổi, không chẩn đoán."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+      "stage": "baby",
+      "title": "Mốc phát triển không phải cuộc đua",
+      "before": 990,
+      "after": 853,
+      "removedSharedSections": [
+        "Kết nối với chặng 4–12 tháng: tương tác, dinh dưỡng, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Cách sử dụng checklist mà không tự chẩn đoán",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+          "status": "opened",
+          "scope": "Mốc đa số trẻ, không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+          "status": "opened",
+          "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+          "status": "opened",
+          "scope": "Mốc một tuổi, không chẩn đoán."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-dam-khi-nao-bat-dau",
+      "stage": "baby",
+      "title": "Ăn dặm từ khoảng 6 tháng: bắt đầu thế nào?",
+      "before": 1243,
+      "after": 1381,
+      "removedSharedSections": [],
+      "addedSection": "Ví dụ bữa ăn bổ sung theo thực phẩm Việt Nam",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+          "status": "opened",
+          "scope": "Bú mẹ, ăn bổ sung từ 6 tháng và ăn đáp ứng."
+        },
+        {
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/",
+          "status": "opened",
+          "scope": "Dấu hiệu sẵn sàng, bắt đầu khoảng 6 tháng, sữa vẫn quan trọng."
+        },
+        {
+          "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid/",
+          "status": "opened",
+          "scope": "Mật ong trước 12 tháng và thực phẩm không phù hợp."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:an-toan-chong-sac-khi-an-dam",
+      "stage": "baby",
+      "title": "Phòng hóc sặc khi bé bắt đầu ăn dặm",
+      "before": 1204,
+      "after": 1340,
+      "removedSharedSections": [],
+      "addedSection": "Bảng kiểm an toàn trước và trong bữa",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+          "status": "opened",
+          "scope": "Kích thước, độ mềm, hình dạng thức ăn."
+        },
+        {
+          "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/",
+          "status": "opened",
+          "scope": "Ho hiệu quả, tắc đường thở, sơ cứu theo tuổi; không móc mù."
+        },
+        {
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/",
+          "status": "opened",
+          "scope": "Dấu hiệu sẵn sàng, bắt đầu khoảng 6 tháng, sữa vẫn quan trọng."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:moc-phat-trien-sau-thang-thu-sau",
+      "stage": "baby",
+      "title": "Theo dõi phát triển 6–12 tháng không áp lực",
+      "before": 1180,
+      "after": 1049,
+      "removedSharedSections": [
+        "Kết nối với chặng 4–12 tháng: tương tác, dinh dưỡng, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Phiếu quan sát 6–12 tháng theo bốn lĩnh vực",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+          "status": "opened",
+          "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+          "status": "opened",
+          "scope": "Mốc một tuổi, không chẩn đoán."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cham-soc-giac-ngu-tu-bon-den-muoi-hai-thang",
+      "stage": "baby",
+      "title": "Giấc ngủ 4–12 tháng: thói quen và an toàn",
+      "before": 1159,
+      "after": 1026,
+      "removedSharedSections": [
+        "Kết nối với chặng 4–12 tháng: tương tác, dinh dưỡng, an toàn",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Thói quen ngủ khi bé bắt đầu lăn và khám phá",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+          "status": "opened",
+          "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:dap-lai-tin-hieu",
+      "stage": "baby",
+      "title": "Khi bé nhìn, ê a hoặc khóc: đáp lại thế nào?",
+      "before": 124,
+      "after": 130,
+      "removedSharedSections": [],
+      "addedSection": "Bài học ngắn: thực hành, giới hạn, liên kết bài nền",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications/i/item/97892400020986",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan chăm sóc đáp ứng, học sớm; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:kham-pha-giac-quan",
+      "stage": "baby",
+      "title": "Khám phá giác quan một cách an toàn",
+      "before": 112,
+      "after": 129,
+      "removedSharedSections": [],
+      "addedSection": "Bài học ngắn: thực hành, giới hạn, liên kết bài nền",
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+          "status": "opened",
+          "scope": "Mốc đa số trẻ, không thay sàng lọc."
+        },
+        {
+          "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+          "status": "opened",
+          "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "lesson:thoi-quen-doc-cung-be",
+      "stage": "baby",
+      "title": "Đọc sách từ năm đầu đời",
+      "before": 96,
+      "after": 119,
+      "removedSharedSections": [],
+      "addedSection": "Bài học ngắn: thực hành, giới hạn, liên kết bài nền",
+      "sourceChecks": [
+        {
+          "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+          "status": "opened",
+          "scope": "Trò chơi phù hợp tuổi và tương tác."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:gan-bo-va-dap-ung-nam-dau",
+      "stage": "baby",
+      "title": "Gắn bó năm đầu đời: đáp lại tín hiệu, dỗ dành và chăm sóc người chăm bé",
+      "before": 219,
+      "after": 496,
+      "removedSharedSections": [],
+      "addedSection": "Bổ sung ba phần chuyên biệt và checklist",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications/i/item/97892400020986",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan chăm sóc đáp ứng, học sớm; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:am-thanh-va-chuyen-dong-nam-dau",
+      "stage": "baby",
+      "title": "Âm thanh, nhịp điệu và chuyển động trong năm đầu đời",
+      "before": 201,
+      "after": 468,
+      "removedSharedSections": [],
+      "addedSection": "Bổ sung ba phần chuyên biệt và checklist",
+      "sourceChecks": [
+        {
+          "url": "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+          "status": "opened",
+          "scope": "Gợi ý chơi trong nhà."
+        },
+        {
+          "url": "https://www.who.int/publications/i/item/97892400020986",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan chăm sóc đáp ứng, học sớm; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+          "status": "opened",
+          "scope": "Trò chơi phù hợp tuổi và tương tác."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "article:cham-soc-dap-ung-va-chuyen-tiep",
+      "stage": "baby",
+      "title": "Thói quen chăm sóc năm đầu và chuẩn bị chuyển tiếp người chăm",
+      "before": 222,
+      "after": 505,
+      "removedSharedSections": [],
+      "addedSection": "Bổ sung ba phần chuyên biệt và checklist",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications/i/item/97892400020986",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan chăm sóc đáp ứng, học sớm; chưa đọc PDF."
+        },
+        {
+          "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+          "status": "opened",
+          "scope": "Trò chơi tương tác theo khả năng."
+        },
+        {
+          "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+          "status": "opened",
+          "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm."
+        },
+        {
+          "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+          "status": "opened",
+          "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám."
         }
       ],
       "expertReviewed": false

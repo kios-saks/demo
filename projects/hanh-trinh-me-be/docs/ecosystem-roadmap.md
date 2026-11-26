@@ -128,4 +128,5 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [Đánh giá UX và roadmap trước](ux-evaluation-and-ecosystem-roadmap-2026-11-24.md)
 - [Báo cáo nội dung](longform-72-completion-2026-11-24.md)
 
-- [x] S04-AZ-04B1: rà soát/chỉnh sửa 30 bài tiền thai–hậu sản (thay khối lặp bằng thực hành riêng, kiểm tra nguồn theo trọng tâm); [báo cáo](life-course-batch-04b1-2026-11-26.md). Chưa expert reviewed; còn 18 bài năm đầu đời trong scope 04B.
+- [x] S04-AZ-04B1: chỉnh sửa 30 bài tiền thai–hậu sản; [báo cáo](life-course-batch-04b1-2026-11-26.md).
+- [x] S04-AZ-04B2: chỉnh sửa 18 nội dung năm đầu; [báo cáo](life-course-batch-04b2-2026-11-26.md). Tổng 51/219 có revision (3 expanded-draft, 48 revised-draft); 168 chờ, chưa thẩm định/kiểm chứng toàn bộ claim.

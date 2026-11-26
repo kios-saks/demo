@@ -487,6 +487,12 @@
       "url": "https://vanban.chinhphu.vn/?classid=0&docid=219270&pageid=27160",
       "scope": "Tra cứu văn bản hợp nhất về thủ tục liên thông; kết quả tìm kiếm chính thức, cần đọc toàn văn khi áp dụng.",
       "checkedOn": "2026-11-25"
+    },
+    "newborn": {
+      "name": "WHO — Caring for a newborn",
+      "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+      "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1034,19 +1040,51 @@
           "body": "Chọn một thời điểm ít bận để trao đổi về điều bé thích, cách bàn giao và khoảng nghỉ của mỗi người. Đừng so sánh bé với con hàng xóm. Khi một người chăm mất ngủ hoặc buồn bã kéo dài, hỗ trợ họ tiếp cận nhân viên y tế thay vì chỉ yêu cầu cố gắng.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt đáp lại tín hiệu và đáp ứng theo lịch",
+          "body": "Một bé có thể nhìn người chăm khi muốn tương tác, quay đi khi cần giảm kích thích, hoặc khóc vì nhiều nguyên nhân. Người lớn nên quan sát bối cảnh trước, kiểm tra nhu cầu ăn, ngủ, vệ sinh, thân nhiệt và sự thoải mái; không suy diễn trẻ cố điều khiển người lớn. Trong những tuần đầu, nếu bé đang theo kế hoạch bú riêng do sinh non hoặc tăng trưởng, ưu tiên hướng dẫn chuyên môn. Việc phản hồi không đồng nghĩa phải biết chính xác nguyên nhân của mọi tiếng khóc.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ví dụ ba tình huống trong gia đình",
+          "body": "Khi bé tỉnh và nhìn mẹ, mẹ nói một câu, chờ và đáp lại âm thanh. Khi bé quay mặt, giảm tiếng nói và cho nghỉ. Khi bé khóc lâu khiến người chăm mệt, người đó có thể đặt bé nằm ngửa trong cũi an toàn, nhờ người khác thay và bình tĩnh lại trước khi tiếp tục. Không lắc hoặc quát bé. Nếu bé khó thở, bú kém rõ hoặc khó đánh thức, không tiếp tục thử trò chơi dỗ dành mà tìm đánh giá y tế.",
+          "sourceIds": [
+            "newborn",
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Bảo đảm người chăm cũng được chăm sóc",
+          "body": "Chọn hai người có thể hỗ trợ theo lịch tự nguyện; thống nhất cách bàn giao cữ bú, chỗ ngủ và số liên hệ. Nếu chỉ có một người chăm tại nhà, lập phương án liên hệ người tin cậy khi kiệt sức; không đặt mục tiêu làm việc nhà hoàn hảo. WHO đề cập hỗ trợ chăm sóc đáp ứng và sức khỏe tinh thần người chăm trong phát triển trẻ nhỏ. Nếu người chăm có khó khăn tâm trạng kéo dài, khuyến khích tìm dịch vụ chuyên môn, không tự chẩn đoán.",
+          "sourceIds": [
+            "ecd"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
-        "Ghi ba tín hiệu thường gặp và phản ứng phù hợp của người lớn.",
-        "Chọn một khoảng tương tác ngắn mỗi ngày khi bé tỉnh.",
-        "Thống nhất người hỗ trợ khi người chăm quá mệt."
+        "Thử ghi một lần bé muốn tương tác và một lần muốn nghỉ.",
+        "Thống nhất chỗ ngủ an toàn và người thay ca.",
+        "Lưu số cơ sở khám và người tin cậy khi cần.",
+        "Không ép tương tác hoặc lắc bé; dừng và xin hỗ trợ khi quá mệt."
       ],
-      "limits": "Không chẩn đoán gắn bó hay bệnh qua tiếng khóc; nếu bé có biểu hiện bất thường, cần khám trực tiếp.",
+      "limits": "Không chẩn đoán gắn bó, bệnh hay sự phát triển qua tiếng khóc; dấu hiệu bất thường cần đánh giá y tế. Cẩm nang tập trung đáp ứng và người chăm, không thay bài học tương tác ngắn.",
       "sourceIds": [
-        "ecd"
+        "ecd",
+        "newborn",
+        "sleep"
       ],
       "status": "draft",
-      "batch": "S04-AZ-02A"
+      "batch": "S04-AZ-02A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04B2",
+        "revisedOn": "2026-11-26",
+        "status": "revised-draft",
+        "expertReviewed": false
+      }
     },
     {
       "stage": "toddler",
@@ -3899,20 +3937,50 @@
           "body": "Bố mẹ và ông bà có thể luân phiên hát một bài quen thuộc, mô tả đồ vật hoặc lắc lư nhẹ khi bế đúng cách. Nếu bé quay đi, khóc hoặc mệt, kết thúc. Giữ không gian nghỉ yên tĩnh; tránh biến thiết bị phát âm thanh thành điều kiện để bé phải chơi.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chọn hoạt động từ khả năng hiện tại",
+          "body": "Trong giai đoạn bé chủ yếu nhìn và nghe, người chăm có thể hát bằng giọng bình thường, chờ bé chú ý rồi ngừng. Khi bé có khả năng cầm, chọn đồ chơi nguyên khối phù hợp tuổi để khám phá âm thanh nhẹ. Khi bé chủ động di chuyển, dọn khoảng sàn an toàn để bé tự thử theo khả năng. Không ép ngồi, bò, đứng hoặc tập theo nhịp chỉ vì người lớn muốn đạt một mốc. Những gợi ý này là hoạt động biên tập, không phải bài trị liệu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Bốn cách chơi không cần mua thêm đồ",
+          "body": "Thử hát một câu quen thuộc rồi nghỉ để bé ê a; vỗ tay nhẹ khi bé muốn nhìn; dùng sách hình để kể chuyện; hoặc lăn bóng mềm lớn trên sàn khi kỹ năng phù hợp. UNICEF và Harvard mô tả nhiều hoạt động chơi tương tác theo độ tuổi. Không dùng vật có pin lỏng, hạt nhỏ, dây hoặc âm lượng lớn. Chọn một hoạt động ngắn khi bé tỉnh, không đưa đồ chơi vào nơi ngủ, không yêu cầu bé diễn lại để quay video.",
+          "sourceIds": [
+            "playInfant",
+            "playHarvard"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quan sát sở thích thay vì đánh giá năng khiếu",
+          "body": "Ghi điều bé chú ý, ví dụ quay sang một giọng nói hoặc nhìn bàn tay vỗ nhịp, nhưng không coi đó là dấu hiệu tài năng âm nhạc. Nếu bé không phản ứng, có thể bé mệt hoặc chưa chú ý; không thử bằng tiếng lớn hơn. Khi có lo lắng về nghe, nhìn hoặc mất kỹ năng, trao đổi chuyên gia. Người chăm có thể hát bằng tiếng mẹ đẻ, dùng bài hát quen thuộc của gia đình, tôn trọng tín hiệu muốn nghỉ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
-        "Chọn một bài hát ngắn gia đình yêu thích.",
-        "Thử phản hồi âm thanh của bé rồi chờ.",
-        "Kiểm tra đồ chơi và độ ồn trước khi chơi."
+        "Chọn một bài hát và một đồ chơi an toàn.",
+        "Giữ âm lượng dễ chịu, quan sát tín hiệu của bé.",
+        "Đổi cách chơi khi bé không hứng thú.",
+        "Ghi câu hỏi về nghe nhìn nếu có lo ngại."
       ],
-      "limits": "Không dự đoán năng khiếu hoặc tăng IQ; không thay đánh giá nghe và phát triển của chuyên gia.",
+      "limits": "Không đánh giá năng khiếu, tăng IQ hoặc thay sàng lọc nghe nhìn; hoạt động khi tỉnh, giám sát, đồ dùng phù hợp.",
       "sourceIds": [
         "playVn",
-        "ecd"
+        "ecd",
+        "playInfant",
+        "playHarvard"
       ],
       "status": "draft",
-      "batch": "S04-AZ-03A"
+      "batch": "S04-AZ-03A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04B2",
+        "revisedOn": "2026-11-26",
+        "status": "revised-draft",
+        "expertReviewed": false
+      }
     },
     {
       "stage": "baby",
@@ -3947,20 +4015,51 @@
           "body": "Sắp xếp người thay thế khi một người quá mệt, để họ nghỉ và ăn uống. Nếu người chăm mới có điều chưa rõ, khuyến khích hỏi trước khi thay đổi cách chăm. Khi bé có biểu hiện bất thường, báo người phụ trách và tìm trợ giúp y tế phù hợp.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Chuẩn bị thông tin tối thiểu trước khi đổi người chăm",
+          "body": "Một bản bàn giao có thể gồm tên người có quyền đón, lần bú hoặc ăn gần nhất, dị ứng đã xác nhận, tình trạng cần theo dõi, chỗ ngủ an toàn và cách liên hệ. Không ghi thêm số định danh hoặc hình ảnh hồ sơ y tế vào bảng dùng chung nếu không cần. Nếu có thuốc hoặc kế hoạch nuôi dưỡng riêng, chuyển nguyên hướng dẫn chuyên môn cho người có trách nhiệm; không thay đổi liều, tỷ lệ pha hoặc thời điểm dựa trên trí nhớ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Làm quen dần và thử bàn giao",
+          "body": "Nếu sắp quay lại làm việc, hẹn người chăm mới gặp gia đình khi có thể, làm quen cách bé được an ủi và thống nhất quy tắc an toàn. Tổ chức một lần bàn giao ngắn thử nghiệm, hỏi điều chưa rõ trước khi tăng thời gian. Khi người chăm mới đề nghị thay đổi cách cho bú hoặc ngủ, trao đổi với gia đình và chuyên gia nếu liên quan sức khỏe. CDC khuyến nghị mọi người chăm đều áp dụng nơi ngủ phẳng, chắc, không vật mềm và đặt bé nằm ngửa lúc ngủ.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tình huống khi lịch làm việc thay đổi",
+          "body": "Giả sử người đón chính đột xuất tăng ca. Dùng người dự phòng đã thống nhất, báo nơi chăm qua kênh chính thức, xác nhận bàn giao. Không chuyển bé cho người lạ chỉ vì họ biết thông tin gia đình. Sau buổi chăm, hỏi về bú, tã, ngủ, tín hiệu và sự kiện cần chú ý. Nếu bé bú kém rõ hoặc thở khó, ưu tiên liên hệ cơ sở y tế. Cuối tuần xem lại lịch, phân việc và thời gian nghỉ để người chăm không phải duy trì một lịch không khả thi.",
+          "sourceIds": [
+            "newborn"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
-        "Tạo bảng bàn giao một trang không có dữ liệu dư thừa.",
-        "Thống nhất cách liên hệ khi có sự cố.",
-        "Hẹn trao đổi sau vài lần chuyển tiếp."
+        "Viết bản bàn giao một trang, giữ dữ liệu tối thiểu.",
+        "Thống nhất người đón chính và dự phòng.",
+        "Diễn tập đổi ca và kiểm tra chỗ ngủ an toàn.",
+        "Trao đổi sau mỗi lần làm quen; cập nhật khi có chỉ dẫn mới."
       ],
-      "limits": "Không thay thế quy trình chăm sóc y tế hoặc đánh giá nhà trẻ; nhịp sinh hoạt cần phù hợp từng bé.",
+      "limits": "Không thay đánh giá nhà trẻ hoặc kế hoạch y tế; chia sẻ thông tin cần thiết theo sự đồng ý, không giám sát bí mật.",
       "sourceIds": [
         "ecd",
-        "playInfant"
+        "playInfant",
+        "sleep",
+        "newborn"
       ],
       "status": "draft",
-      "batch": "S04-AZ-03A"
+      "batch": "S04-AZ-03A",
+      "editorialRevision": {
+        "batch": "S04-AZ-04B2",
+        "revisedOn": "2026-11-26",
+        "status": "revised-draft",
+        "expertReviewed": false
+      }
     },
     {
       "stage": "toddler",

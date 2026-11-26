@@ -125,6 +125,30 @@
     "parentingAI": {
       "name": "UNICEF Việt Nam — Parenting in the AI age",
       "url": "https://www.unicef.org/vietnam/parenting-ai-age"
+    },
+    "quality04b_ecd": {
+      "name": "WHO — Improving early childhood development",
+      "url": "https://www.who.int/publications/i/item/97892400020986"
+    },
+    "quality04b_play": {
+      "name": "UNICEF — Learning activities for babies and toddlers",
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+    },
+    "quality04b_newborn": {
+      "name": "WHO — Caring for a newborn",
+      "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+    },
+    "quality04b_m2": {
+      "name": "CDC — Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html"
+    },
+    "quality04b_m6": {
+      "name": "CDC — Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
+    },
+    "quality04b_sleep": {
+      "name": "CDC — Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
     }
   },
   "lessons": [
@@ -134,12 +158,15 @@
       "category": "psych",
       "title": "Khi bé nhìn, ê a hoặc khóc: đáp lại thế nào?",
       "goal": "Hiểu giao tiếp qua tín hiệu và nhịp tương tác giữa bé và người chăm sóc.",
-      "knowledge": "Khi bé hướng mắt, phát âm hay đưa tay, người lớn có thể chú ý, trả lời bằng lời hoặc nét mặt rồi chờ bé phản hồi. Sự luân phiên này tạo cơ hội kết nối; không cần mua đồ chơi đặc biệt hay cố kích thích liên tục.",
-      "practice": "Chọn lúc bé tỉnh và thoải mái. Nói một câu ngắn về vật bé đang nhìn, dừng lại để quan sát. Nếu bé quay mặt đi hoặc mệt, kết thúc trò chơi. Với tiếng khóc, kiểm tra nhu cầu và tìm trợ giúp y tế nếu có dấu hiệu bất thường.",
-      "reflection": "Bé đã gửi tín hiệu nào và người lớn đã đáp lại ra sao? Không chấm điểm hay so sánh bé với trẻ khác.",
+      "knowledge": "Bé giao tiếp bằng ánh mắt, âm thanh, cử động và khóc. Tương tác đáp ứng là chú ý, trả lời nhẹ rồi chờ; không cần kích thích liên tục. Khi bé khóc, nhu cầu chăm sóc và an toàn đi trước trò chơi.",
+      "practice": "Chọn lúc bé tỉnh. Nói về vật bé nhìn, chờ phản hồi, rồi đáp lại. Nếu quay mặt, căng người hoặc mệt, dừng. Khi người chăm quá mệt, đặt bé trong nơi ngủ an toàn và nhờ người thay; tuyệt đối không lắc bé.",
+      "reflection": "Ghi một tín hiệu và cách đã đáp lại. Không chấm điểm gắn bó; bé bú kém rõ, khó thở hoặc khó đánh thức cần đánh giá y tế ngay. Đọc thêm cẩm nang 'Gắn bó năm đầu đời' trong cùng chặng.",
       "sourceIds": [
         "harvard",
-        "unicef"
+        "unicef",
+        "quality04b_ecd",
+        "quality04b_play",
+        "quality04b_newborn"
       ],
       "status": "draft"
     },
@@ -149,12 +176,15 @@
       "category": "body",
       "title": "Khám phá giác quan một cách an toàn",
       "goal": "Tạo trải nghiệm phù hợp khả năng, không ép đạt mốc.",
-      "knowledge": "Cho bé trải nghiệm vật có màu và kết cấu an toàn dưới sự giám sát, kể tên đồ vật và thay đổi tư thế phù hợp. Chất lượng tương tác quan trọng hơn số hoạt động. Các mốc phát triển không phải bài kiểm tra để đạt điểm.",
-      "practice": "Dùng một khăn mềm hoặc sách vải phù hợp độ tuổi, mô tả màu và cảm giác. Dừng khi bé khó chịu, không dùng vật nhỏ có nguy cơ hóc. Nếu lo về mất kỹ năng hoặc đáp ứng của bé, trao đổi với bác sĩ nhi.",
-      "reflection": "Bé thích tín hiệu nào? Ghi nhớ điều quan sát được, không suy diễn chẩn đoán.",
+      "knowledge": "Khám phá giác quan bằng đồ dùng an toàn, theo khả năng. Người lớn không cần làm bé phản ứng với mọi âm thanh, hình ảnh hoặc chất liệu. Mốc phát triển hỗ trợ quan sát chứ không phải phép kiểm tra.",
+      "practice": "Chọn một sách vải hoặc đồ chơi nguyên khối phù hợp tuổi, mô tả một đặc điểm, chờ bé nhìn hoặc cầm. Dùng nơi chơi an toàn khi bé tỉnh, giám sát trực tiếp. Không dùng hạt, pin, nam châm rời, dây hoặc vật nhỏ.",
+      "reflection": "Bé chú ý điều gì? Dừng nếu không thích. Nếu lo ngại nghe nhìn, mất kỹ năng hoặc thay đổi đáp ứng, hỏi bác sĩ; không tự kết luận qua bài tập. Đọc thêm cẩm nang khám phá nguyên nhân–kết quả.",
       "sourceIds": [
         "play",
-        "unicef"
+        "unicef",
+        "quality04b_play",
+        "quality04b_m2",
+        "quality04b_m6"
       ],
       "status": "draft"
     },
@@ -164,12 +194,14 @@
       "category": "skills",
       "title": "Đọc sách từ năm đầu đời",
       "goal": "Biến giọng nói, hình ảnh và thời gian gần gũi thành một thói quen.",
-      "knowledge": "Đọc cùng bé không phải dạy chữ sớm. Người lớn có thể gọi tên hình, thay đổi ngữ điệu nhẹ nhàng và để bé tự hướng sự chú ý. Một khoảng thời gian ngắn nhưng vui vẻ tốt hơn việc ép bé ngồi yên.",
-      "practice": "Chọn sách bìa cứng hoặc vải, chỉ một hình, nói một câu rồi chờ. Lặp lại nếu bé còn hứng thú. Có thể đọc bằng tiếng mẹ đẻ hoặc ngôn ngữ gia đình sử dụng tự nhiên.",
-      "reflection": "Trong lần đọc sau, thử để bé chọn hình bằng ánh mắt hay cử chỉ.",
+      "knowledge": "Đọc cùng bé là chia sẻ giọng nói, nét mặt, hình ảnh và chú ý; không phải dạy đọc sớm. Chọn ngôn ngữ gia đình sử dụng tự nhiên và để bé dẫn hướng bằng tín hiệu.",
+      "practice": "Chọn sách bìa cứng hoặc vải phù hợp tuổi, không có phần nhỏ dễ rời. Chỉ một hình, nói một câu, đợi bé phản hồi; đổi hình nếu bé muốn. Có thể đọc cùng người chăm quen thuộc. Cất sách khỏi nơi ngủ trước khi đặt bé xuống.",
+      "reflection": "Trong lần đọc tới, thử chờ bé hướng mắt hoặc cử chỉ rồi đáp lại. Không đặt số trang hay thời gian bắt buộc; nếu lo về nghe hoặc nhìn, trao đổi chuyên gia.",
       "sourceIds": [
         "harvard",
-        "play"
+        "play",
+        "quality04b_play",
+        "quality04b_sleep"
       ],
       "status": "draft"
     },
