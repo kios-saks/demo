@@ -1,11 +1,20 @@
 name: Mother & Baby - DEV Post-deploy Content QA
 on:
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
 permissions:
   contents: read
 jobs:
   live-life-course:
-    if: github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem'
+    if: >-
+      github.repository == 'kios-saks/demo' &&
+      ((github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem') ||
+       (github.event_name == 'pull_request' && github.event.pull_request.number == 1 &&
+        github.event.pull_request.head.repo.full_name == github.repository &&
+        github.event.pull_request.head.ref == 'feat/hanh-trinh-me-be-ecosystem' &&
+        github.event.pull_request.base.ref == 'main'))
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     defaults:
@@ -15,6 +24,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
