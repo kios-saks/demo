@@ -193,6 +193,26 @@
     "q04c4_parent": {
       "name": "UNICEF — Positive parenting tips for children aged 6–10",
       "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+    },
+    "q04d_puberty": {
+      "name": "NHS — Early or delayed puberty",
+      "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+    },
+    "q04d_period": {
+      "name": "NHS — Period problems",
+      "url": "https://www.nhs.uk/conditions/periods/period-problems/"
+    },
+    "q04d_cse": {
+      "name": "WHO — Comprehensive sexuality education",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education"
+    },
+    "q04d_cyber": {
+      "name": "UNICEF Việt Nam — Cyberbullying",
+      "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it"
+    },
+    "q04d_unesco": {
+      "name": "UNESCO — AI competency framework for students",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
     }
   },
   "lessons": [
@@ -404,12 +424,15 @@
       "category": "body",
       "title": "Dậy thì: hiểu thay đổi cơ thể và chăm sóc bản thân",
       "goal": "Trao đổi về sinh lý, vệ sinh và quyền riêng tư một cách tôn trọng.",
-      "knowledge": "Dậy thì có thể đi cùng thay đổi chiều cao, da, mùi cơ thể, kinh nguyệt, giọng nói và cảm xúc. Thời điểm khác nhau giữa các cá nhân. Dùng từ chính xác, không trêu chọc; giúp con có vật dụng vệ sinh và nơi riêng tư khi cần.",
-      "practice": "Chọn thời điểm riêng để hỏi con muốn biết điều gì; chuẩn bị túi vệ sinh phù hợp và xác định người lớn hoặc nhân viên y tế có thể hỏi. Không ép chia sẻ thông tin cơ thể trước người khác. Khi có đau, bất thường hoặc lo ngại, trao đổi chuyên gia.",
-      "reflection": "Con biết các nguồn hỏi đáng tin và có thể yêu cầu sự riêng tư không?",
+      "knowledge": "Dậy thì có thể đi cùng thay đổi chiều cao, da, mùi cơ thể, kinh nguyệt, giọng nói và cảm xúc. Thời điểm khác nhau giữa các cá nhân. Dùng từ chính xác, không trêu chọc; giúp con có vật dụng vệ sinh và nơi riêng tư khi cần. Dậy thì liên quan thay đổi hormone; mụn, mùi cơ thể, kinh nguyệt, giọng nói hoặc xuất tinh khi ngủ có thể là hiện tượng sinh lý. Thời điểm thay đổi khác nhau; nghi sớm/muộn cần hỏi bác sĩ, không so sánh.",
+      "practice": "Chọn thời điểm riêng để hỏi con muốn biết điều gì; chuẩn bị túi vệ sinh phù hợp và xác định người lớn hoặc nhân viên y tế có thể hỏi. Không ép chia sẻ thông tin cơ thể trước người khác. Khi có đau, bất thường hoặc lo ngại, trao đổi chuyên gia. Dùng giấy ghi ba cột: điều con đã hiểu, câu hỏi còn lại, người có thể hỏi. Người lớn giải thích kinh nguyệt và vệ sinh bằng đồ dùng sạch, tôn trọng riêng tư, không yêu cầu ảnh cơ thể. Đau hoặc ra máu ảnh hưởng sinh hoạt cần khám. Tập câu từ chối khi người khác yêu cầu chạm hoặc gửi ảnh riêng.",
+      "reflection": "Con biết các nguồn hỏi đáng tin và có thể yêu cầu sự riêng tư không? Con có biết một nguồn y khoa và một người tin cậy? Không đánh giá mức trưởng thành qua câu trả lời.",
       "sourceIds": [
         "puberty",
-        "who"
+        "who",
+        "q04d_puberty",
+        "q04d_period",
+        "q04d_cse"
       ],
       "status": "draft"
     },
@@ -419,12 +442,13 @@
       "category": "psych",
       "title": "Bạn bè, bản sắc và áp lực đồng trang lứa",
       "goal": "Tập nhận diện áp lực, giao tiếp và tìm hỗ trợ.",
-      "knowledge": "Quan hệ bạn bè có thể quan trọng hơn khi con lớn. Cha mẹ có thể lắng nghe mà không vội giải quyết thay; cùng con đánh giá lựa chọn và tìm cách từ chối phù hợp. Thay đổi tâm trạng dai dẳng, mất hứng thú hoặc ảnh hưởng học tập cần được quan tâm.",
-      "practice": "Đặt tình huống giả định bạn rủ làm điều con không muốn. Thử ba cách từ chối: nói không, đề xuất việc khác, tìm người lớn hỗ trợ. Hỏi con muốn bố mẹ giúp thế nào.",
-      "reflection": "Con có ít nhất một người lớn tin cậy để tìm đến không?",
+      "knowledge": "Quan hệ bạn bè có thể quan trọng hơn khi con lớn. Cha mẹ có thể lắng nghe mà không vội giải quyết thay; cùng con đánh giá lựa chọn và tìm cách từ chối phù hợp. Thay đổi tâm trạng dai dẳng, mất hứng thú hoặc ảnh hưởng học tập cần được quan tâm. Nhu cầu được chấp nhận có thể khiến trẻ đồng ý điều không muốn. Cảm xúc mạnh không phải lỗi; nếu buồn, lo hoặc thu mình dai dẳng ảnh hưởng sinh hoạt, cần người lớn hỗ trợ.",
+      "practice": "Đặt tình huống giả định bạn rủ làm điều con không muốn. Thử ba cách từ chối: nói không, đề xuất việc khác, tìm người lớn hỗ trợ. Hỏi con muốn bố mẹ giúp thế nào. Giả định nhóm bạn yêu cầu gửi ảnh riêng để được tham gia. Tập nói không, rời tình huống, tìm người đáng tin; không thử với tài khoản thật. Người lớn hỏi con muốn được lắng nghe hay cùng tìm cách giải quyết. Nếu con nói không an toàn hoặc muốn tự làm hại mình, người lớn ở bên và tìm trợ giúp chuyên môn khẩn.",
+      "reflection": "Con có ít nhất một người lớn tin cậy để tìm đến không? Con có lựa chọn nào an toàn ngay cả khi nhóm bạn không đồng ý? Người lớn không trách con vì kể chuyện.",
       "sourceIds": [
         "puberty",
-        "mental"
+        "mental",
+        "q04d_cyber"
       ],
       "status": "draft"
     },
@@ -434,13 +458,14 @@
       "category": "modern",
       "title": "AI có thể sai: hỏi thông minh và giữ riêng tư",
       "goal": "Hiểu AI là công cụ hỗ trợ, không phải người biết mọi thứ.",
-      "knowledge": "AI có thể tạo văn bản rất thuyết phục nhưng sai hoặc thiên lệch. Trẻ nên học kiểm tra lại, không đưa tên thật, ảnh riêng, địa chỉ hay hồ sơ sức khỏe vào công cụ. Chỉ sử dụng dịch vụ phù hợp tuổi và điều kiện giám sát.",
-      "practice": "Người lớn chuẩn bị một câu trả lời AI mẫu về chủ đề khoa học, có một lỗi dễ kiểm tra. Cùng con đối chiếu sách giáo khoa hoặc nguồn giáo dục, sửa câu sai và giải thích vì sao.",
-      "reflection": "Con có nêu một trường hợp không nên tin ngay câu trả lời AI không?",
+      "knowledge": "AI có thể tạo văn bản rất thuyết phục nhưng sai hoặc thiên lệch. Trẻ nên học kiểm tra lại, không đưa tên thật, ảnh riêng, địa chỉ hay hồ sơ sức khỏe vào công cụ. Chỉ sử dụng dịch vụ phù hợp tuổi và điều kiện giám sát. UNESCO giới thiệu năng lực AI theo hướng con người làm chủ, đạo đức, kỹ thuật và thiết kế. Ở tuổi này cần hiểu kết quả có thể bịa nguồn hoặc thiên lệch; không coi chatbot là chuyên gia sức khỏe hay người có trách nhiệm bảo vệ con.",
+      "practice": "Người lớn chuẩn bị một câu trả lời AI mẫu về chủ đề khoa học, có một lỗi dễ kiểm tra. Cùng con đối chiếu sách giáo khoa hoặc nguồn giáo dục, sửa câu sai và giải thích vì sao. Dùng ví dụ giả lập AI nêu một ngày lịch sử sai. Tìm sách và một nguồn độc lập, kiểm tra ngày, ghi điều đã sửa. Nếu chưa đủ nguồn, ghi chưa xác minh. Chỉ dùng dịch vụ đúng tuổi và yêu cầu giám sát; không gửi dữ liệu nhận dạng hay đề thi riêng. Có thể làm hoàn toàn trên giấy.",
+      "reflection": "Con có nêu một trường hợp không nên tin ngay câu trả lời AI không? Con giải thích được khác nhau giữa câu trả lời nghe hay và bằng chứng thật không? Ai chịu trách nhiệm về bài nộp?",
       "sourceIds": [
         "ai",
         "parentingAI",
-        "media"
+        "media",
+        "q04d_unesco"
       ],
       "status": "draft"
     },

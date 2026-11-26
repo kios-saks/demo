@@ -1,0 +1,229 @@
+[
+  {
+    "id": "q04d_puberty",
+    "name": "NHS — Early or delayed puberty",
+    "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+    "scope": "Thay đổi sinh lý, thời điểm khác nhau, khám khi nghi dậy thì sớm/muộn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_period",
+    "name": "NHS — Period problems",
+    "url": "https://www.nhs.uk/conditions/periods/period-problems/",
+    "scope": "Kinh nguyệt có thể chưa đều tuổi dậy thì; đau/ra máu ảnh hưởng sinh hoạt cần khám; nhật ký triệu chứng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_cse",
+    "name": "WHO — Comprehensive sexuality education",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+    "scope": "Giáo dục khoa học, phù hợp tuổi, tăng dần về cơ thể, sức khỏe, đồng thuận, an toàn và quyền.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_mental",
+    "name": "WHO — Mental health of adolescents",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "scope": "Yếu tố bảo vệ/nguy cơ, phát hiện và hỗ trợ sớm, không kỳ thị.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+    ]
+  },
+  {
+    "id": "q04d_talk",
+    "name": "UNICEF Việt Nam — Mental health conversation starters 11–13 years",
+    "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+    "scope": "Lắng nghe, thay đổi tuổi 11–13, dấu hiệu cần quan tâm.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years"
+    ]
+  },
+  {
+    "id": "q04d_teen",
+    "name": "UNICEF — 11 tips for communicating with your teen",
+    "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+    "scope": "Giao tiếp đồng cảm, câu hỏi mở, xác nhận cảm xúc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen"
+    ]
+  },
+  {
+    "id": "q04d_health",
+    "name": "WHO — Adolescent and young adult health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+    "scope": "Nguy cơ sức khỏe vị thành niên, phòng ngừa, HPV; không suy ra lịch tiêm Việt Nam.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_nutrition",
+    "name": "UNICEF — Nutrition in middle childhood and adolescence",
+    "url": "https://www.unicef.org/nutrition/middle-childhood-and-adolescence",
+    "scope": "Dinh dưỡng giai đoạn tăng trưởng và môi trường ăn uống.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/nutrition/middle-childhood-and-adolescence"
+    ]
+  },
+  {
+    "id": "q04d_diet",
+    "name": "WHO Việt Nam — Healthy diet",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm; không dùng để kê khẩu phần.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_body",
+    "name": "UNICEF — Teens and body image",
+    "url": "https://www.unicef.org/parenting/mental-health/teens-body-image",
+    "scope": "Dấu hiệu lo lắng hình ảnh cơ thể, tránh nhận xét ngoại hình, tìm hỗ trợ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "6–12 tuổi 9–12 giờ, 13–17 tuổi 8–10 giờ/24h; khó ngủ cần hỏi bác sĩ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04d_move",
+    "name": "WHO Europe — Physical activity",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "scope": "5–17 tuổi trung bình ít nhất 60 phút/ngày mức vừa–mạnh trong tuần, điều chỉnh khả năng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_ai",
+    "name": "UNICEF Việt Nam — Parenting in the AI age",
+    "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+    "scope": "AI có giới hạn, quyền riêng tư, đồng hành và tránh lệ thuộc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/parenting-ai-age"
+    ]
+  },
+  {
+    "id": "q04d_unesco",
+    "name": "UNESCO — AI competency framework for students",
+    "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+    "scope": "Trang giới thiệu bốn chiều năng lực AI; chưa đọc toàn văn PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_cyber",
+    "name": "UNICEF Việt Nam — Cyberbullying",
+    "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+    "scope": "Nhận biết, báo cáo, chặn, giữ bằng chứng phù hợp, tìm người tin cậy.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it"
+    ]
+  },
+  {
+    "id": "q04d_eef",
+    "name": "EEF — Metacognition and self-regulation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+    "scope": "Lập kế hoạch, theo dõi, đánh giá; làm mẫu trong nhiệm vụ thật.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_finance",
+    "name": "CFPB — Building blocks of financial capability",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+    "scope": "Năng lực tài chính, thói quen và quyết định theo tuổi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn"
+    ]
+  },
+  {
+    "id": "q04d_career",
+    "name": "OECD — Teenage career readiness",
+    "url": "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html",
+    "scope": "Dashboard PISA và hướng nghiệp; không suy ra dự báo cá nhân hoặc số liệu riêng tuổi 11–13.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.oecd.org/en/data/dashboards/teenage-career-readiness.html"
+    ]
+  },
+  {
+    "id": "q04d_school",
+    "name": "Chính phủ — Giới thiệu Thông tư 30/2024/TT-BGDĐT",
+    "url": "https://xaydungchinhsach.chinhphu.vn/thong-tu-30-tt-bgddt-quy-che-tuyen-sinh-thcs-va-tuyen-sinh-thpt-11925010810085927.htm",
+    "scope": "Bài giải thích quy chế gốc, ngày hiệu lực ghi 14/02/2025; đã có dấu hiệu sửa đổi, không xác nhận quy trình hiện hành.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_childlaw",
+    "name": "Chính phủ — VBHN 108/VBHN-VPQH Luật Trẻ em",
+    "url": "https://vanban.chinhphu.vn/?docid=215227&pageid=27160",
+    "scope": "Metadata văn bản 27/08/2025; chưa đọc PDF hoặc rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_privacy",
+    "name": "Chính phủ — Luật 91/2025/QH15 Bảo vệ dữ liệu cá nhân",
+    "url": "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+    "scope": "Metadata ban hành 26/06/2025, hiệu lực ghi 01/01/2026; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_decree",
+    "name": "Chính phủ — Nghị định 356/2025/NĐ-CP",
+    "url": "https://vanban.chinhphu.vn/?docid=216387&pageid=27160",
+    "scope": "Metadata nghị định hướng dẫn bảo vệ dữ liệu, hiệu lực ghi 01/01/2026; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04d_child111",
+    "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+    "url": "https://tongdai111.vn/sites/gioi-thieu",
+    "scope": "Tiếp nhận và hỗ trợ bảo vệ trẻ, không thay cấp cứu y tế.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://tongdai111.vn/sites/gioi-thieu"
+    ]
+  }
+]

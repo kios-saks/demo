@@ -661,6 +661,66 @@
       "url": "https://vanban.chinhphu.vn/?classid=2629&docid=215227&pageid=27160",
       "scope": "Trang công bố văn bản hợp nhất 27/08/2025; chưa đọc PDF, không kết luận điều khoản hiện hành.",
       "checkedOn": "2026-11-26"
+    },
+    "q04d_school": {
+      "name": "Chính phủ — Giới thiệu Thông tư 30/2024/TT-BGDĐT",
+      "url": "https://xaydungchinhsach.chinhphu.vn/thong-tu-30-tt-bgddt-quy-che-tuyen-sinh-thcs-va-tuyen-sinh-thpt-11925010810085927.htm",
+      "scope": "Bài giải thích quy chế gốc, ngày hiệu lực ghi 14/02/2025; đã có dấu hiệu sửa đổi, không xác nhận quy trình hiện hành.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_talk": {
+      "name": "UNICEF Việt Nam — Mental health conversation starters 11–13 years",
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+      "scope": "Lắng nghe, thay đổi tuổi 11–13, dấu hiệu cần quan tâm.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_body": {
+      "name": "UNICEF — Teens and body image",
+      "url": "https://www.unicef.org/parenting/mental-health/teens-body-image",
+      "scope": "Dấu hiệu lo lắng hình ảnh cơ thể, tránh nhận xét ngoại hình, tìm hỗ trợ.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_health": {
+      "name": "WHO — Adolescent and young adult health",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+      "scope": "Nguy cơ sức khỏe vị thành niên, phòng ngừa, HPV; không suy ra lịch tiêm Việt Nam.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_mental": {
+      "name": "WHO — Mental health of adolescents",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+      "scope": "Yếu tố bảo vệ/nguy cơ, phát hiện và hỗ trợ sớm, không kỳ thị.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_unesco": {
+      "name": "UNESCO — AI competency framework for students",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "scope": "Trang giới thiệu bốn chiều năng lực AI; chưa đọc toàn văn PDF.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_teen": {
+      "name": "UNICEF — 11 tips for communicating with your teen",
+      "url": "https://www.unicef.org/parenting/child-care/11-tips-communicating-your-teen",
+      "scope": "Giao tiếp đồng cảm, câu hỏi mở, xác nhận cảm xúc.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_cse": {
+      "name": "WHO — Comprehensive sexuality education",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+      "scope": "Giáo dục khoa học, phù hợp tuổi, tăng dần về cơ thể, sức khỏe, đồng thuận, an toàn và quyền.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_childlaw": {
+      "name": "Chính phủ — VBHN 108/VBHN-VPQH Luật Trẻ em",
+      "url": "https://vanban.chinhphu.vn/?docid=215227&pageid=27160",
+      "scope": "Metadata văn bản 27/08/2025; chưa đọc PDF hoặc rà sửa đổi.",
+      "checkedOn": "2026-11-26"
+    },
+    "q04d_decree": {
+      "name": "Chính phủ — Nghị định 356/2025/NĐ-CP",
+      "url": "https://vanban.chinhphu.vn/?docid=216387&pageid=27160",
+      "scope": "Metadata nghị định hướng dẫn bảo vệ dữ liệu, hiệu lực ghi 01/01/2026; chưa đọc PDF.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -997,17 +1057,49 @@
           "body": "Mỗi tuần hỏi con về một điều mới học, một người có thể nói chuyện và một khó khăn cần hỗ trợ. Thống nhất cách liên lạc với giáo viên, cách phản ánh bắt nạt hoặc khó khăn học tập. Khi lo âu kéo dài hoặc con không thể sinh hoạt bình thường, tìm hỗ trợ chuyên môn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tuyển sinh: phân biệt quy chế gốc với thông báo hiện hành",
+          "body": "Bài giới thiệu của Cổng Chính phủ về Thông tư 30/2024/TT-BGDĐT, hiệu lực ghi từ 14/02/2025, nêu tuyển sinh THCS theo xét tuyển trong quy chế gốc. Có dấu hiệu quy chế đã được sửa đổi sau đó, vì vậy không dùng bài này để quyết định tiêu chí, thẩm quyền hoặc hồ sơ hiện hành. Tìm kế hoạch năm học cụ thể tại cổng địa phương và trường, kiểm tra ngày, người ban hành, phạm vi áp dụng, thời hạn và nơi hỗ trợ. Không nộp hồ sơ hoặc chuyển tiền qua đường dẫn từ nhóm chat chưa xác minh.",
+          "sourceIds": [
+            "q04d_school"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "So sánh trường theo nhu cầu thật",
+          "body": "Tạo bảng gồm chương trình, đường đi, giờ học, hỗ trợ học sinh, bán trú nếu có, chi phí bắt buộc và tùy chọn. Ghi nguồn và trạng thái chưa rõ. Ví dụ giả định đi 25 phút mỗi chiều, 5 ngày/tuần, tương đương 250 phút đi lại trong tuần; hãy xem tác động tới giấc ngủ và thời gian gia đình. Không đánh giá trường chỉ theo giải thưởng hoặc tin truyền miệng. Hỏi con về nơi an toàn, cách được hỗ trợ khi chưa hiểu bài hoặc gặp xung đột.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kế hoạch thích nghi tháng đầu",
+          "body": "Tuần đầu thử một nơi ghi thời khóa biểu, một chỗ cất đồ, người để hỏi ở trường. Tuần hai xem con có hay quên môn, không hiểu cách ghi bài hoặc khó hòa nhập; chọn đúng một điểm hỗ trợ. Tuần ba và bốn giảm nhắc việc khi con đã quen, thống nhất cách liên hệ giáo viên. Không tự động đăng ký nhiều lớp học thêm. Lịch minh họa do dự án biên tập, không phải quy định nhà trường.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Theo dõi cảm xúc và quyền riêng tư",
+          "body": "UNICEF Việt Nam hướng dẫn trò chuyện với trẻ 11–13 bằng lắng nghe và câu hỏi phù hợp. Hỏi con muốn nói về chuyện học hay bạn bè trước, không ép kể mọi tin nhắn. Nếu thường sợ đến lớp, buồn dai dẳng hoặc có nguy cơ bị làm đau, ưu tiên tìm nguyên nhân và phối hợp hỗ trợ. Hồ sơ tuyển sinh, ảnh giấy tờ và dữ liệu sức khỏe chỉ gửi qua kênh được xác nhận, không đăng nhóm công khai.",
+          "sourceIds": [
+            "q04d_talk"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Lập bảng lựa chọn trường với điều kiện bắt buộc và mục chưa xác minh.",
         "Cùng con thử đi tuyến đường tới trường, chuẩn bị thời khóa biểu và túi đồ.",
-        "Đặt một cuộc trao đổi ngắn vào cuối tuần thứ nhất và thứ hai."
+        "Đặt một cuộc trao đổi ngắn vào cuối tuần thứ nhất và thứ hai.",
+        "Lưu thông báo tuyển sinh có ngày và đầu mối chính thức.",
+        "Đánh giá lại thời gian đi lại và mức thích nghi sau tuần thứ hai."
       ],
       "limits": "Không phải tư vấn tuyển sinh cho một địa phương. Không xếp hạng trường; kiểm tra thông báo chính thức và nhu cầu hỗ trợ riêng của trẻ.",
       "sourceIds": [
         "schools",
-        "schoolDetails"
+        "schoolDetails",
+        "q04d_school",
+        "q04d_talk"
       ],
       "status": "draft"
     },
@@ -2021,17 +2113,50 @@
           "body": "Khi trẻ thường bỏ bữa, ăn uống gây căng thẳng, mệt kéo dài hoặc thay đổi cân nặng đáng kể, trao đổi chuyên gia. Hỏi trường về bữa ăn và nơi uống nước; với dị ứng, bệnh nền hoặc nhu cầu đặc biệt cần hướng dẫn cá nhân.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tăng trưởng và nguồn thực phẩm",
+          "body": "Ở giai đoạn tăng trưởng, trẻ cần ăn đa dạng và đủ năng lượng theo nhu cầu; không thể dùng một thực đơn hoặc cân nặng chung cho mọi em. UNICEF nhấn mạnh dinh dưỡng tuổi học đường và vị thành niên. Luân phiên thực phẩm Việt Nam như cơm, khoai, cá, thịt, trứng, đậu, rau, trái cây; nguồn canxi như sữa hoặc sản phẩm phù hợp nếu dung nạp. Thực phẩm giàu sắt đáng được quan tâm, nhất là khi có kinh nguyệt; nếu mệt hoặc nghi thiếu máu, hỏi bác sĩ thay vì tự uống sắt. Ví dụ chỉ mang tính tổ chức bữa, không định lượng điều trị.",
+          "sourceIds": [
+            "nutritionYouth",
+            "q04c4_diet"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ăn trong ngày học có nhiều tiết",
+          "body": "Hỏi con có đủ thời gian ăn sáng, uống nước và nghỉ giữa tiết không. Nếu sáng vội, chuẩn bị món có thể ăn tại nhà trước khi đi; không dùng nước tăng lực để bù ngủ hoặc thay bữa. Với bữa phụ, cân nhắc giá, vệ sinh, dị ứng, khả năng bảo quản; tránh mang món dễ hỏng không có cách giữ phù hợp. Cùng đọc thực đơn bán trú nếu có, không yêu cầu con báo cáo từng miếng. Đặt mục tiêu bữa ăn ổn định chứ không kiểm soát cân nặng.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hình ảnh cơ thể và nội dung mạng",
+          "body": "UNICEF lưu ý các bình luận ngoại hình, nội dung ăn kiêng và quảng cáo sản phẩm có thể làm trẻ lo lắng về cơ thể. Khi con muốn bỏ bữa vì thấy video biến đổi hình thể, hỏi con đang lo điều gì, không chê bai hoặc đưa số cân mục tiêu. Giải thích ảnh có thể chọn góc, chỉnh sửa hoặc do AI tạo. Tránh thuốc giảm cân, sản phẩm tăng cơ hoặc bổ sung vi chất không có chỉ định. Nếu việc ăn, tập hoặc lo ngoại hình chiếm nhiều thời gian và ảnh hưởng cuộc sống, tìm hỗ trợ chuyên môn sớm.",
+          "sourceIds": [
+            "q04d_body"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Khi gia đình nên hỏi chuyên gia",
+          "body": "Ghi dấu hiệu như mệt kéo dài, đau bụng, khó nuốt, bỏ bữa thường xuyên, thay đổi tăng trưởng khiến gia đình lo hoặc hành vi ăn uống gây căng thẳng. Trao đổi riêng với trẻ và bác sĩ, không dùng ứng dụng tính BMI dành cho người lớn để dán nhãn. Nếu trẻ ngất, mất nước nghiêm trọng hoặc có triệu chứng cấp tính, tìm trợ giúp khẩn. Giữ thông tin sức khỏe riêng; không gửi ảnh cơ thể vào AI để xin đánh giá.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Cùng trẻ chọn ba bữa phụ vừa túi tiền.",
         "Thảo luận một quảng cáo về ngoại hình và kiểm tra nguồn.",
-        "Chuẩn bị câu hỏi dinh dưỡng cho lần khám nếu có lo ngại."
+        "Chuẩn bị câu hỏi dinh dưỡng cho lần khám nếu có lo ngại.",
+        "Chọn món ăn sáng và bữa phụ cùng con trong ba ngày.",
+        "Thảo luận một quảng cáo ngoại hình bằng ví dụ không có ảnh trẻ thật."
       ],
       "limits": "Không cung cấp chế độ giảm cân, liều bổ sung hoặc đánh giá tăng trưởng cá nhân.",
       "sourceIds": [
         "nutritionYouth",
-        "whoDiet"
+        "whoDiet",
+        "q04c4_diet",
+        "q04d_body"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -2069,17 +2194,53 @@
           "body": "Khó chịu kéo dài, giảm tham gia hoạt động, rối loạn giấc ngủ nghiêm trọng hoặc lo lắng sức khỏe cần đánh giá phù hợp. Tình huống cấp cứu, nguy cơ tự gây hại hay bị xâm hại cần trợ giúp ngay; không chờ lịch định kỳ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhìn sức khỏe theo nhiều mặt",
+          "body": "WHO xem tuổi vị thành niên là giai đoạn cần hỗ trợ thể chất, tâm lý, phòng ngừa và tiếp cận dịch vụ phù hợp. Trong cuộc khám, ngoài triệu chứng hiện tại, có thể hỏi về tăng trưởng, dậy thì, kinh nguyệt nếu phù hợp, răng, mắt, giấc ngủ, dinh dưỡng và cảm xúc. Không yêu cầu mọi trẻ xét nghiệm nội tiết hoặc làm gói tầm soát giống nhau. WHO nêu vai trò tiêm HPV ở đầu tuổi vị thành niên; gia đình cần hỏi cơ sở tiêm chủng tại Việt Nam về lịch, đối tượng và tình trạng đã tiêm, không suy ra phác đồ cá nhân từ nguồn quốc tế.",
+          "sourceIds": [
+            "q04d_health",
+            "q04c4_puberty"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Cho trẻ tham gia buổi khám",
+          "body": "Trước khi đi, cho con chọn một câu hỏi muốn tự nói hoặc ghi ra giấy. Người lớn có thể giúp mô tả thời gian đau, mức ảnh hưởng học và ngủ, thuốc đã sử dụng, dị ứng. Hỏi nhân viên y tế cách trao đổi riêng với trẻ và giới hạn bảo mật theo quy định, không hứa bí mật tuyệt đối khi có nguy cơ gây hại. Trong lúc khám, giải thích thủ thuật phù hợp, tôn trọng riêng tư và cho trẻ cơ hội nêu khó chịu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tâm lý là một phần của sức khỏe",
+          "body": "WHO nhấn mạnh phát hiện và hỗ trợ sớm khó khăn tâm lý ở tuổi vị thành niên. Quan sát thay đổi kéo dài như mất hứng thú, lo âu, thu mình, khó ngủ, khó ăn hoặc học bị ảnh hưởng; những biểu hiện này không tự xác định một bệnh. Lắng nghe không phán xét, hỏi trẻ muốn ai hỗ trợ. Nếu có ý định tự hại hoặc nguy cơ tức thời, người lớn ở bên, bảo đảm an toàn và tìm hỗ trợ khẩn. Không giao cho AI nhiệm vụ chẩn đoán hoặc quyết định có cần cấp cứu.",
+          "sourceIds": [
+            "q04d_mental",
+            "q04d_talk"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Sau buổi khám: ghi điều phải làm",
+          "body": "Ghi hướng dẫn bác sĩ, người phụ trách, thời điểm tái khám và dấu hiệu cần liên hệ sớm. Nếu nhận phiếu sàng lọc ở trường, hỏi nơi khám tiếp và mức ưu tiên, không coi sàng lọc là chẩn đoán. Dữ liệu sức khỏe lưu ở nơi gia đình kiểm soát, chỉ chia sẻ phần cần thiết với trường. Khi có đau dữ dội, khó thở, ngất, chảy máu nghiêm trọng hoặc đe dọa an toàn, tìm trợ giúp ngay thay vì đợi lịch khám.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Cho trẻ viết một câu hỏi riêng muốn hỏi bác sĩ.",
         "Kiểm tra đầu mối y tế học đường.",
-        "Thống nhất kế hoạch theo dõi sau buổi khám."
+        "Thống nhất kế hoạch theo dõi sau buổi khám.",
+        "Cho con chọn một câu hỏi muốn trao đổi riêng với bác sĩ.",
+        "Ghi kế hoạch theo dõi và dấu hiệu cần liên hệ sau cuộc khám."
       ],
       "limits": "Bài không quy định xét nghiệm hoặc lịch tiêm cho từng trẻ; không thay tư vấn chuyên môn.",
       "sourceIds": [
         "well",
-        "adolescent"
+        "adolescent",
+        "q04d_health",
+        "q04c4_puberty",
+        "q04d_mental",
+        "q04d_talk"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -2118,18 +2279,52 @@
           "body": "Cùng trẻ xem lại mức tỉnh táo, hứng thú, nhiệm vụ còn vướng và thời gian chơi. Điều chỉnh từng thay đổi nhỏ. Nếu ngủ kéo dài khó khăn, ngáy bất thường hoặc buồn ngủ ảnh hưởng sinh hoạt, tìm tư vấn y tế.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Nhu cầu ngủ thay đổi trong cùng chặng tuổi",
+          "body": "CDC khuyến nghị nhóm 6–12 tuổi ngủ 9–12 giờ, nhóm 13–17 tuổi 8–10 giờ mỗi ngày. Vì chặng này có cả hai nhóm, không dùng một mức cho mọi em. Ví dụ con 12 tuổi dậy lúc 6 giờ và cần khoảng 10 giờ ngủ thì cần ngủ khoảng 20 giờ hôm trước; giờ vào giường có thể sớm hơn tùy thời gian đi vào giấc. Đây là ví dụ tính lịch, không phải giờ bắt buộc. Quan sát mức tỉnh táo và khó ngủ; hỏi bác sĩ nếu vấn đề kéo dài.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Vận động vừa sức và không thi đua ngoại hình",
+          "body": "WHO khuyến nghị 5–17 tuổi vận động mức vừa đến mạnh trung bình ít nhất 60 phút/ngày trong tuần, kết hợp hoạt động tăng sức cơ và xương phù hợp. Có thể đi bộ nhanh ở nơi an toàn, đạp xe có bảo hộ, đá cầu hoặc nhảy. Chọn thời tiết, nơi chơi và cường độ theo sức khỏe; trẻ có bệnh hoặc khuyết tật cần điều chỉnh phù hợp. Không ép tập để giảm cân, không vận động qua đau hoặc chóng mặt; đau ngực, ngất hay khó thở nghiêm trọng cần trợ giúp khẩn.",
+          "sourceIds": [
+            "q04c4_move"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quản lý thiết bị theo mục đích",
+          "body": "Tách thời gian làm bài, giải trí, liên lạc và dùng AI. Chọn một thời điểm cất thiết bị trước ngủ; nếu bài học cần mạng, chuẩn bị sớm và tắt thông báo không cần thiết. Người lớn làm mẫu, không kiểm tra lén chỉ để kiểm soát. UNICEF lưu ý cần nói chuyện khi AI hoặc thiết bị làm giảm tương tác thật, thay vì chỉ mắng trẻ. Nếu dịch vụ không phù hợp tuổi, không tạo tài khoản thay trẻ để lách quy định.",
+          "sourceIds": [
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thử lịch bảy ngày",
+          "body": "Ghi giờ ngủ thực tế, hoạt động vận động, việc học và mức tỉnh táo bằng ký hiệu đơn giản. Chọn một thay đổi như để thiết bị ở nơi chung lúc ngủ hoặc bớt một hoạt động học muộn. Cuối tuần hỏi con điều gì dễ hơn, điều gì bất tiện; giữ khoảng nghỉ và thời gian riêng. Nếu vẫn mệt, ngáy kèm khó thở hoặc không thể ngủ dù có cơ hội, trao đổi bác sĩ, không tự dùng melatonin hoặc thuốc ngủ.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Vẽ lịch một ngày thực tế với giờ ngủ và đi lại.",
         "Chọn khung không thông báo khi học.",
-        "Thống nhất một hoạt động vận động hoặc giải trí offline."
+        "Thống nhất một hoạt động vận động hoặc giải trí offline.",
+        "Tính tổng giấc ngủ theo đúng tuổi trong ba ngày.",
+        "Thử một thay đổi thiết bị hoặc vận động trong một tuần."
       ],
       "limits": "Không dùng lịch để ép ngủ hay tước quyền nghỉ ngơi; vấn đề ngủ dai dẳng cần đánh giá.",
       "sourceIds": [
         "sleep",
         "activityGuide",
-        "digital"
+        "digital",
+        "q04c4_move",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -2167,17 +2362,51 @@
           "body": "Hỏi con đã hiểu gì, mắc ở đâu và cần hỗ trợ gì. Có thể dành thời gian xem lại cùng con, rồi giảm hỗ trợ khi con tự quản lý được. Nếu khó khăn kéo dài ở nhiều môn hoặc gây căng thẳng, phối hợp giáo viên để tìm hỗ trợ.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Lập mục tiêu nhỏ trước giờ học",
+          "body": "EEF tổng hợp bằng chứng về việc dạy chiến lược tự điều chỉnh gắn với nhiệm vụ học cụ thể: lập kế hoạch, theo dõi và đánh giá. Ví dụ học bài lực trong khoa học: trước khi đọc, viết một câu hỏi mình cần trả lời; trong lúc học, ghi một điểm chưa hiểu; sau khi học, tự giải thích bằng lời. Cha mẹ hoặc giáo viên có thể làm mẫu cách nghĩ rồi giảm trợ giúp. Không biến hệ thống thành sổ chấm điểm, không yêu cầu mọi môn ghi chú giống nhau.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ghi chú có câu hỏi và ví dụ",
+          "body": "Chia trang giấy thành câu hỏi, ý chính và ví dụ tự tạo. Với lịch sử, ghi mốc thời gian và nguyên nhân đã được nguồn bài học hỗ trợ; với toán, ghi phép biến đổi và lý do; với ngữ văn, tách ý kiến khỏi dẫn chứng. Sau khi đóng vở, thử giải thích hoặc làm bài tương tự rồi mở lại kiểm tra. Nếu nhớ thiếu, bổ sung đúng chỗ thay vì chép toàn bộ. Đây là mẫu thực hành, không phải quy định chương trình.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI hỗ trợ, bài làm vẫn thuộc về người học",
+          "body": "Nếu công cụ phù hợp tuổi và quy định trường, người lớn đồng hành để yêu cầu gợi ý hoặc ví dụ khác, không giao toàn bộ bài cho AI. Thử trước, kiểm chứng gợi ý bằng sách, tự trình bày và ghi lại chỗ đã dùng trợ giúp khi nhà trường yêu cầu. AI có thể bịa nguồn hoặc đưa cách giải không phù hợp; không gửi ảnh đề có tên lớp, thông tin bạn học hoặc nội dung riêng. Nếu không đủ điều kiện sử dụng, người lớn chuẩn bị câu trả lời mẫu trên giấy.",
+          "sourceIds": [
+            "q04c4_ai",
+            "q04d_unesco"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xem lại tuần và tìm hỗ trợ",
+          "body": "Cuối tuần chọn một nội dung còn vướng, một chiến lược có ích và một câu hỏi cho giáo viên. Không tự tăng thời lượng học vì thấy bạn khác đạt điểm cao; bảo vệ ngủ, ăn và vận động. Nếu con vẫn khó đọc, ghi bài hoặc hiểu hướng dẫn ở nhiều môn, trao đổi giáo viên bằng ví dụ thật; có thể cần hỗ trợ học tập hoặc đánh giá nghe nhìn. Không tự chẩn đoán từ một ứng dụng hoặc kết quả bài kiểm tra.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Thử mẫu ghi chú câu hỏi–ý chính–ví dụ trong ba buổi.",
         "Chọn một bài cũ để tự giải thích không nhìn vở.",
-        "Cuối tuần xem lại lịch học và điều chỉnh một việc."
+        "Cuối tuần xem lại lịch học và điều chỉnh một việc.",
+        "Thử mẫu ghi chú khác nhau cho hai môn.",
+        "Tự giải thích một bài trước khi xem gợi ý từ người lớn hoặc AI."
       ],
       "limits": "Phương pháp là gợi ý biên tập, không phải chuẩn bắt buộc hoặc chương trình UNESCO chính thức.",
       "sourceIds": [
         "ai",
-        "digital"
+        "digital",
+        "q04c4_eef",
+        "q04c4_ai",
+        "q04d_unesco"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -2216,18 +2445,56 @@
           "body": "Chọn một người ở nhà, một người ở trường và một kênh hỗ trợ ngoài gia đình. Tập câu: Con gặp việc này và cần giúp. Khi có đe dọa tức thời, ưu tiên nơi an toàn, không gặp người lạ hoặc tự thương lượng.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Phân biệt mâu thuẫn và tình huống cần bảo vệ",
+          "body": "Một tranh cãi giữa hai bạn có thể giải quyết bằng đối thoại an toàn; hành vi đe dọa, phát tán ảnh riêng hoặc cố ý làm nhục cần người lớn xem xét ngay. Bắt nạt trực tuyến có thể tiếp tục ngoài giờ học và khiến trẻ sợ đến lớp. UNICEF khuyến nghị tìm người tin cậy, báo cáo và bảo vệ trẻ. Không đợi đủ nhiều lần nếu có nguy cơ nghiêm trọng; không bắt trẻ đối đầu hoặc trả đũa. Hỏi con điều gì xảy ra và cần gì để an toàn.",
+          "sourceIds": [
+            "cyber",
+            "q04d_talk"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Tin nhắn lạ, mã xác thực và mua bán",
+          "body": "Diễn tập bằng ví dụ giả lập: tài khoản tự nhận hỗ trợ game yêu cầu OTP hoặc chuyển phí để nhận thưởng. Con không gửi mã, mật khẩu, ảnh giấy tờ, thông tin trường hoặc tiền; dừng liên lạc và hỏi người lớn. Xác nhận thông báo qua kênh chính thức độc lập, không bấm liên kết người lạ gửi. Nếu đã mất quyền truy cập, người lớn dùng quy trình phục hồi chính thức và bảo vệ tài khoản liên quan; không trả tiền cho người tự nhận có thể lấy lại. Không thử với lừa đảo thật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hình ảnh giả và tống ép trên mạng",
+          "body": "AI có thể tạo hình ảnh hoặc giọng nói có vẻ thật. Nếu ai đó dọa phát tán hình ảnh riêng hoặc đòi trẻ gửi thêm, không đổ lỗi, không yêu cầu trẻ tự thương lượng. Người lớn ưu tiên an toàn, lưu thông tin cần thiết một cách riêng tư nếu an toàn, không tải hoặc chuyển tiếp nội dung nhạy cảm của trẻ. Dùng chức năng báo cáo, phối hợp nhà trường hoặc cơ quan phù hợp. Nếu bị đe dọa gặp mặt, tránh tiếp xúc và tìm hỗ trợ khẩn.",
+          "sourceIds": [
+            "q04c4_ai",
+            "cyber"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Kế hoạch báo cáo ở Việt Nam",
+          "body": "Lưu một người ở nhà, một người ở trường và số 111. Tổng đài bảo vệ trẻ tiếp nhận thông tin về nguy cơ bạo lực và xâm hại; không thay dịch vụ cấp cứu. Sau khi báo nhà trường, hỏi người phụ trách, biện pháp bảo vệ, mốc phản hồi và cách báo tái diễn. Nếu trẻ bị thương, nguy hiểm tức thời hoặc nói muốn tự hại, người lớn ở bên và tìm trợ giúp khẩn. Không đưa tên, ảnh, trường của trẻ lên mạng để gây áp lực.",
+          "sourceIds": [
+            "child111",
+            "q04d_mental"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Chọn ba người hoặc kênh trợ giúp.",
         "Diễn tập từ chối yêu cầu mã OTP hoặc thông tin riêng.",
-        "Kiểm tra cách chặn và báo cáo trên nền tảng đang dùng."
+        "Kiểm tra cách chặn và báo cáo trên nền tảng đang dùng.",
+        "Diễn tập dừng liên lạc khi bị hỏi OTP bằng tin nhắn hư cấu.",
+        "Ghi người phụ trách ở trường và cách báo khi sự việc tái diễn."
       ],
       "limits": "Không đổ trách nhiệm bảo vệ lên trẻ; nguy cơ xâm hại hoặc đe dọa cần người lớn và cơ quan hỗ trợ.",
       "sourceIds": [
         "bullying",
         "cyber",
-        "child111"
+        "child111",
+        "q04d_talk",
+        "q04c4_ai",
+        "q04d_mental"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A"
@@ -5370,17 +5637,48 @@
           "body": "Tập nói: em nghĩ thế này vì có bằng chứng này, nhưng còn thiếu điều kia. Mời bạn góp ý và sửa nhận định nếu có thông tin mới. Người lớn đánh giá cách lý giải và sự trung thực, không đánh giá trẻ bằng việc tranh luận thắng.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tách nhận định, bằng chứng và lý giải",
+          "body": "Chọn câu dễ kiểm tra như sân trường có nhiều rác nhựa hơn rác giấy. Trước tiên xác định đang nói khu vực, khoảng thời gian và đơn vị nào; sau đó ghi dữ kiện quan sát được, nguồn và phần chưa biết. Một buổi quan sát không đại diện mọi ngày. Viết lý giải vì sao dữ liệu hỗ trợ hoặc chưa hỗ trợ nhận định. Không thu thập tên, hình ảnh hoặc hành vi riêng của bạn học. Đây là bài tập tư duy, không phải nghiên cứu đại diện.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Đọc nguồn theo chiều ngang",
+          "body": "Khi gặp bài đăng, kiểm tra tổ chức công bố, ngày, nguồn tài liệu và mục đích. Tìm nguồn độc lập thay vì hai trang sao chép cùng một bài. Nếu một kết quả trích dẫn nghiên cứu, thử tìm tên nghiên cứu và đọc phần liên quan; không có nguồn thì ghi chưa xác minh. Phân biệt dữ kiện, suy luận, ý kiến và dự đoán. Với tin sức khỏe, ưu tiên cơ quan chuyên môn và hỏi người lớn, không áp dụng mẹo chỉ vì video được chia sẻ nhiều.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Kiểm chứng AI qua ví dụ có thể sửa",
+          "body": "UNESCO giới thiệu khung năng lực AI hướng tới người học có trách nhiệm; UNICEF nhắc người lớn cùng trẻ kiểm tra kết quả. Dùng câu trả lời giả lập về khoa học hoặc lịch sử, tìm một lỗi bằng sách và một nguồn độc lập. Hỏi AI khác không tự tạo thành nguồn độc lập. Không đưa dữ liệu riêng hoặc ảnh người thật vào công cụ để xác minh danh tính. Với dịch vụ không phù hợp tuổi, dùng giấy hoặc ví dụ người lớn chuẩn bị. Ghi lý do sửa kết luận.",
+          "sourceIds": [
+            "q04d_unesco",
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Trình bày lập luận mà không cần thắng",
+          "body": "Mẫu trình bày: nhận định của em là gì, bằng chứng nào hỗ trợ, hạn chế ở đâu và điều gì có thể khiến em đổi ý. Cho bạn hỏi lại dữ liệu, không công kích người nói. Nếu thông tin mới làm kết luận thay đổi, ghi rõ đã sửa thay vì che lỗi. Người lớn đánh giá cách tìm nguồn và sự trung thực, không gán IQ hoặc ép con đồng ý. Nếu gặp nội dung kích động, lừa đảo hoặc gây hại, dừng và tìm người lớn thay vì tranh luận.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một nhận định dễ kiểm tra.",
         "Lập bảng nguồn–bằng chứng–điều chưa biết.",
-        "Trình bày kết luận ngắn và một câu hỏi tiếp theo."
+        "Trình bày kết luận ngắn và một câu hỏi tiếp theo.",
+        "So sánh một nhận định với hai nguồn thực sự độc lập.",
+        "Viết kết luận kèm giới hạn và điều có thể làm thay đổi ý kiến."
       ],
       "limits": "Không dùng bài tập để đánh giá IQ hoặc thu thập dữ liệu cá nhân của học sinh.",
       "sourceIds": [
         "mil",
-        "aiDecide"
+        "aiDecide",
+        "q04d_unesco",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5418,17 +5716,56 @@
           "body": "Thống nhất một người ở nhà và một người ở trường mà trẻ có thể tìm đến. Cha mẹ phản hồi bằng lắng nghe, không làm nhục hoặc công khai câu chuyện. Hỏi trẻ muốn được hỗ trợ thế nào, đồng thời can thiệp khi có nguy cơ gây hại.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tình bạn là tự nguyện, kể cả khi muốn được công nhận",
+          "body": "UNICEF Việt Nam mô tả nhóm tuổi này có thay đổi về cảm xúc và quan hệ; người lớn nên lắng nghe. Một người bạn có thể thích khác môn, khác nhóm hoặc muốn có thời gian riêng. Không cần chứng minh tình bạn bằng mật khẩu, tiền, ảnh riêng hoặc việc làm khiến mình khó chịu. Cảm giác thích ai đó hay không cũng không phải điều phải khai báo. Tôn trọng sự khác biệt và quyền từ chối của nhau.",
+          "sourceIds": [
+            "q04d_talk",
+            "q04d_teen"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Ranh giới và đồng thuận phù hợp tuổi",
+          "body": "WHO xem hiểu cơ thể, tôn trọng, đồng thuận và an toàn là phần của giáo dục giới tính theo độ tuổi. Tập hỏi trước khi ôm, mượn đồ, chụp ảnh hoặc chia sẻ câu chuyện riêng; người khác có thể đổi ý. Im lặng hoặc sợ hãi không phải đồng ý. Không ai có quyền ép trẻ tiếp xúc tình dục hay gửi ảnh riêng. Nếu bị ép hoặc đe dọa, trẻ không có lỗi; người lớn có trách nhiệm bảo vệ, tìm hỗ trợ và không yêu cầu trẻ tự xử lý.",
+          "sourceIds": [
+            "q04d_cse",
+            "child111"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Thực hành từ chối không cần giải thích dài",
+          "body": "Giả định bạn rủ nghỉ học hoặc gửi ảnh để được vào nhóm. Tập nói mình không muốn, đề xuất hoạt động khác, rời khỏi tình huống và tìm người tin cậy nếu còn áp lực. Nếu ở nơi không an toàn, ưu tiên rời đi hoặc nhờ hỗ trợ thay vì cố tỏ ra cứng rắn. Với mâu thuẫn bình thường, nói hành vi cụ thể và điều mình mong muốn; không ép hòa giải khi còn đe dọa.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Cùng người lớn theo dõi cảm xúc",
+          "body": "Cha mẹ hỏi con muốn được lắng nghe hay cùng tìm cách giải quyết, không vội chọn bạn thay con. Nếu bị cô lập, mất ngủ hoặc buồn dai dẳng, trao đổi nhà trường và chuyên gia khi cần. Khi có nguy cơ tự hại hay xâm hại, ưu tiên an toàn và trợ giúp khẩn. Không công khai tin nhắn riêng của con để xin ý kiến nhóm phụ huynh. Mục tiêu là con biết kết nối và tìm hỗ trợ, không phải luôn được mọi người thích.",
+          "sourceIds": [
+            "q04d_mental"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Tập một câu từ chối và một câu xin hỗ trợ.",
         "Chọn hai người đáng tin ở nhà và trường.",
-        "Thảo luận tình huống ranh giới trong nhóm bạn."
+        "Thảo luận tình huống ranh giới trong nhóm bạn.",
+        "Tập một câu từ chối và cách tìm nơi an toàn.",
+        "Trao đổi riêng về một ranh giới khi chụp ảnh hoặc chia sẻ tin nhắn."
       ],
       "limits": "Không ép hòa giải với người bắt nạt hoặc giữ bí mật về nguy cơ xâm hại; cần người lớn bảo vệ.",
       "sourceIds": [
         "positive",
-        "bullying"
+        "bullying",
+        "q04d_talk",
+        "q04d_teen",
+        "q04d_cse",
+        "child111",
+        "q04d_mental"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5466,17 +5803,49 @@
           "body": "Nếu trẻ muốn, lưu một sản phẩm và một nhận xét về điều đã học. Không công khai hình ảnh hoặc xếp hạng sở thích để cạnh tranh. Cuối tháng hỏi trẻ muốn giữ, đổi hay giảm hoạt động; bảo đảm vẫn còn thời gian tự do.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Sở thích là trải nghiệm, không phải nhãn cố định",
+          "body": "Khi lên THCS, trẻ có thể muốn tiếp tục môn cũ, đổi nhóm hoặc nghỉ. Hỏi điều con thích trong hoạt động: thao tác, sáng tạo, phối hợp hay thử thách. Đừng đánh giá năng khiếu từ một giải thưởng hoặc thất bại. UNICEF khuyến khích trò chuyện đồng cảm; cho con quyền chọn điều muốn thử, không coi việc ngừng một lớp là mất công cha mẹ. Giữ cơ hội cho trẻ có hoàn cảnh, giới hoặc khả năng khác nhau.",
+          "sourceIds": [
+            "q04d_teen"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Dự án nhỏ thay cho cam kết dài",
+          "body": "Ví dụ con thích vẽ có thể chọn một chủ đề về khu phố và làm ba bản phác bằng giấy trong tháng; con thích công nghệ có thể tạo sơ đồ trò chơi bằng dữ liệu hư cấu, không cần tài khoản AI. Chọn mục tiêu cụ thể và vừa sức, hỏi người hướng dẫn khi vướng. Không dùng AI tạo toàn bộ sản phẩm rồi gắn thành tích cho con. Với thể thao, dùng thiết bị bảo hộ, nghỉ khi đau hoặc mệt, chọn nơi giám sát phù hợp.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Khảo sát câu lạc bộ và chi phí",
+          "body": "Hỏi trường hoặc đơn vị tổ chức về người hướng dẫn, lịch, phí, dụng cụ, an toàn, phương án nghỉ và chính sách ảnh. Ví dụ giả định phí 350 nghìn/tháng, dụng cụ 150 nghìn lần đầu, tổng tháng đầu 500 nghìn chưa tính đi lại. Không đặt tiền dài hạn khi chưa hiểu điều kiện. Nếu ngân sách hạn chế, thử thư viện, câu lạc bộ trường hoặc dự án tại nhà. Bảo vệ giờ ngủ phù hợp tuổi; không lấp đầy lịch vì quảng cáo thi đua.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Nhật ký trải nghiệm và quyết định",
+          "body": "Sau một tháng, ghi điều mới học, điều khó và điều muốn thử. Hỏi con có muốn tiếp tục, giảm lịch hay đổi hoạt động. Chỉ lưu sản phẩm hoặc ảnh khi có sự đồng ý phù hợp, không đăng thông tin nhận dạng để cạnh tranh. Nếu trẻ sợ người hướng dẫn, bị trêu hoặc không an toàn, tìm hiểu và bảo vệ trước. Không dùng công cụ AI dự đoán nghề hoặc năng khiếu bẩm sinh từ dữ liệu cá nhân; mục tiêu là hiểu mình dần.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn một sở thích và mục tiêu nhỏ trong tháng.",
         "Khảo sát một hoạt động ở trường hoặc địa phương.",
-        "Tự nhận xét một tiến bộ, một điều muốn thử khác."
+        "Tự nhận xét một tiến bộ, một điều muốn thử khác.",
+        "Chọn một dự án nhỏ và thời gian thử trong tháng.",
+        "Kiểm tra điều kiện nghỉ, phí và an toàn trước khi đăng ký."
       ],
       "limits": "Không dự đoán năng khiếu bẩm sinh, kết quả thi hoặc nghề tương lai; hoạt động cần an toàn và tự nguyện.",
       "sourceIds": [
         "playHarvard",
-        "careerYouth"
+        "careerYouth",
+        "q04d_teen",
+        "sleep"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5514,17 +5883,48 @@
           "body": "Ghi quyết định, lý do và điều muốn làm khác. Khen cách suy nghĩ thay vì số tiền tích lũy. Nếu trẻ lỡ mua hoặc mất tiền, giúp xử lý an toàn, không làm nhục. Với lừa đảo, xin hỗ trợ và không chuyển thêm tiền.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Ngân sách có mục tiêu và phần chưa dùng",
+          "body": "CFPB mô tả năng lực tài chính qua tự quản, thói quen và kỹ năng quyết định. Dùng ví dụ 100.000 đồng giả định: dành 30.000 cho việc đã thống nhất, 40.000 cho mục tiêu tiết kiệm, còn 30.000 cho lựa chọn tùy ý. Nếu muốn món 60.000, cân nhắc đợi thêm hoặc thay đổi ưu tiên; không dùng tiền dành cho nhu cầu thiết yếu để ép trẻ học tiết kiệm. Gia đình không bắt buộc cấp tiền thật; không so sánh mức chi với bạn.",
+          "sourceIds": [
+            "youthFinance"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "So giá theo tổng số tiền",
+          "body": "Ví dụ cửa hàng A có món giả định 85.000 đồng cộng 20.000 phí giao, tổng 105.000. Cửa hàng B 95.000 đồng cộng 5.000 phí giao, tổng 100.000. Hỏi điều kiện ưu đãi, chất lượng, hoàn trả và có cần món đó không. Không mua chỉ vì nhãn giảm phần trăm hoặc đếm ngược. Tập bằng phiếu giả lập, không dùng đường dẫn hoặc thông tin thanh toán thật. Nếu đã có khoản phí chưa rõ, ghi chưa biết chứ không coi bằng 0.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Quảng cáo cá nhân hóa và AI",
+          "body": "Nội dung tài trợ có thể trông như bài chia sẻ; AI có thể tạo lời chứng thực hoặc ảnh sản phẩm thuyết phục. Hỏi ai được lợi khi con mua và có nguồn độc lập nào xác nhận. Không gửi thông tin gia đình để nhận mã giảm giá, không cho mã OTP, không tham gia đầu tư hoặc trò may rủi vì lời hứa lãi nhanh. Người lớn quản lý mua hàng và thanh toán; trẻ kể nếu bấm nhầm mà không sợ bị mắng.",
+          "sourceIds": [
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Xem lại quyết định mà không làm nhục",
+          "body": "Cuối tuần hỏi khoản nào đáp ứng mục tiêu, khoản nào mua vội và lần sau muốn đổi gì. Nếu lỡ mất tiền, người lớn giúp dừng thanh toán, kiểm tra kênh hỗ trợ chính thức và bảo vệ tài khoản; không trả thêm phí cho lời hứa lấy lại tiền. Đây là luyện quyết định, không phải hướng dẫn mở tài khoản, tín dụng, giao dịch đầu tư hay kiếm tiền thật. Tôn trọng hoàn cảnh gia đình và quyền không chia sẻ số tiền với bạn bè.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Lập ngân sách giả định 100.000 đồng.",
         "So sánh hai ưu đãi với tổng chi phí.",
-        "Đặt mục tiêu tiết kiệm nhỏ và xem lại sau một tuần."
+        "Đặt mục tiêu tiết kiệm nhỏ và xem lại sau một tuần.",
+        "Tính tổng chi phí hai ưu đãi giả định gồm phí giao.",
+        "Viết lý do mua hoặc hoãn một món mà không dùng tiền thật."
       ],
       "limits": "Giáo dục tài chính, không khuyến nghị đầu tư, mở tín dụng hoặc giao dịch thực tế cho trẻ.",
       "sourceIds": [
         "youthFinance",
-        "mil"
+        "mil",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5562,17 +5962,50 @@
           "body": "Sau mỗi trải nghiệm, hỏi mình thích nhiệm vụ nào, cần kỹ năng gì, có điều gì bất ngờ và muốn hỏi ai tiếp theo. Cha mẹ có thể chia sẻ các lựa chọn học khác nhau, không dựa vào dự báo AI thay cho trải nghiệm và sở thích của con.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Tìm hiểu thế giới nghề trước khi chọn",
+          "body": "Dashboard OECD về mức sẵn sàng nghề nghiệp của thanh thiếu niên tổng hợp dữ liệu PISA và chỉ số liên quan. Không suy từ dữ liệu đó ra điểm phù hợp nghề của trẻ 11–13. Ở giai đoạn này, mục tiêu là mở rộng hiểu biết về công việc và kỹ năng, tránh chốt ngành hoặc áp đặt nghề của gia đình. Chọn các nghề đa dạng như chăm sóc sức khỏe, sản xuất, giáo dục, kỹ thuật, nghệ thuật và dịch vụ; không phân nghề theo giới hoặc thu nhập tưởng tượng.",
+          "sourceIds": [
+            "careerYouth"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Phỏng vấn người đáng tin bằng câu hỏi cụ thể",
+          "body": "Hỏi một người lớn đồng ý tham gia: một ngày làm việc gồm gì, điều gì khó, họ cần học thêm kỹ năng nào và điều gì đã thay đổi vì công nghệ. Không cần hỏi lương, hồ sơ khách hàng hoặc thông tin công ty riêng. Nếu tham quan nơi làm việc, cần sự cho phép, giám sát và khu vực an toàn; không yêu cầu trẻ làm việc thay người lớn. Ghi ba điều bất ngờ và một điều muốn tìm hiểu tiếp, không chấm nghề tốt xấu.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI thay đổi nhiệm vụ, không quyết định tương lai",
+          "body": "Cùng người lớn quan sát nghề có thể dùng công cụ AI để tìm ý, soạn nháp hoặc phân tích, nhưng vẫn cần kiểm chứng, trách nhiệm và kỹ năng giao tiếp. Không dự đoán nghề chắc chắn biến mất hay mức lương dựa vào một chatbot. Thử dự án hư cấu như lên bảng chi phí hội chợ hoặc phác sơ đồ thư viện; nếu dùng AI phù hợp tuổi, kiểm tra kết quả và không nhập dữ liệu thật. UNESCO nhấn mạnh năng lực AI có trách nhiệm ở người học.",
+          "sourceIds": [
+            "q04d_unesco",
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Hồ sơ tò mò qua mỗi tháng",
+          "body": "Ghi nhiệm vụ con thích, cách con học, điều khó và người có thể hỏi. Tháng sau thử nghề khác qua sách, thư viện hoặc hoạt động trường. Không dùng bài trắc nghiệm tính cách để quyết định ngành, không mua khóa học chỉ vì dự báo AI. Người lớn có thể giải thích các con đường học phổ thông, nghề và đại học ở mức khái quát, nhưng quy định tuyển sinh cần kiểm tra khi đến thời điểm. Tôn trọng quyền đổi ý và không tổ chức lao động nguy hiểm.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
         }
       ],
       "practice": [
         "Chọn hai nghề khác nhau để tìm hiểu.",
         "Viết ba câu hỏi phỏng vấn người đáng tin.",
-        "Thử một dự án giả lập an toàn."
+        "Thử một dự án giả lập an toàn.",
+        "Phỏng vấn một người đáng tin với sự đồng ý.",
+        "Thử một dự án mô phỏng và ghi kỹ năng cần học."
       ],
       "limits": "Không xếp loại năng lực nghề nghiệp hoặc bảo đảm việc làm; không tổ chức lao động không phù hợp tuổi.",
       "sourceIds": [
         "careerGuide",
-        "careerYouth"
+        "careerYouth",
+        "q04d_unesco",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5612,19 +6045,57 @@
           "body": "Người lớn có thể đọc văn bản hiện hành, quy tắc nhà trường và điều khoản dịch vụ rồi giải thích bằng ví dụ. Không yêu cầu trẻ tự xử lý tranh chấp pháp lý. Giữ thông tin sự việc riêng tư, liên hệ cơ quan có thẩm quyền khi cần.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Căn cứ pháp lý và giới hạn kiểm chứng",
+          "body": "Cổng Chính phủ công bố VBHN 108/VBHN-VPQH về Luật Trẻ em ngày 27/08/2025; Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 và Nghị định 356/2025/NĐ-CP có ngày hiệu lực ghi trên trang công bố là 01/01/2026. Đây là metadata đã mở, chưa đọc PDF hoặc rà soát sửa đổi tiếp theo, nên bài không khẳng định điều khoản, độ tuổi đồng ý hay trách nhiệm pháp lý cụ thể. Khi cần giải quyết một vụ việc, người lớn tra văn bản hiện hành và hỏi cơ quan có thẩm quyền.",
+          "sourceIds": [
+            "q04d_childlaw",
+            "privacyLaw",
+            "q04d_decree"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Quyền riêng tư trong hoạt động hằng ngày",
+          "body": "Trước khi chia sẻ ảnh lớp, video hoặc câu chuyện của người khác, xem nội dung có thể nhận dạng ai và việc chia sẻ có cần thiết không. Hỏi sự đồng ý phù hợp và tuân thủ quy định trường, dịch vụ; người khác có thể không muốn bị đăng. Không chụp bạn lúc thay đồ, không ghép ảnh để trêu. Trẻ có quyền báo người lớn khi bị xâm phạm, không bị quy lỗi vì đã tin người quen. Người lớn chịu trách nhiệm bảo vệ và giải thích giới hạn của bảo mật.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "AI và trách nhiệm với dữ liệu",
+          "body": "UNICEF Việt Nam lưu ý câu chuyện sức khỏe, tâm trạng, bạn bè cũng có thể là dữ liệu nhạy cảm. Khi học bằng AI, dùng dữ liệu hư cấu, tránh tên thật, lớp, vị trí, ảnh riêng hoặc tài liệu của bạn. Không tạo hình ảnh giả của người thật để bêu xấu. Dùng dịch vụ đúng tuổi và có giám sát phù hợp, không khai gian tuổi. Nếu chưa biết nền tảng lưu hoặc sử dụng dữ liệu ra sao, dừng nhập và hỏi người lớn.",
+          "sourceIds": [
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Báo cáo hành vi gây hại",
+          "body": "Nếu bị đe dọa, ép cung cấp ảnh hay phát tán nội dung riêng, không tự đối chất hoặc chuyển tiếp nội dung nhạy cảm. Báo người tin cậy, dùng chức năng báo cáo và tìm kênh bảo vệ phù hợp. Tổng đài 111 là đầu mối bảo vệ trẻ em tại Việt Nam; tình huống nguy hiểm tức thời cần dịch vụ khẩn cấp. Nhà trường có thể phối hợp bảo vệ trẻ; ghi thông tin tối thiểu và mốc phản hồi, không đăng tên hoặc ảnh lên mạng. Trách nhiệm số không đồng nghĩa trẻ phải tự xử lý xâm hại.",
+          "sourceIds": [
+            "cyber",
+            "child111"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Tập kiểm tra thông tin riêng trong một bài đăng giả lập.",
         "Chọn kênh báo cáo và người hỗ trợ.",
-        "Thảo luận một quy tắc ứng xử số của lớp."
+        "Thảo luận một quy tắc ứng xử số của lớp.",
+        "Rà một bài đăng hư cấu để tìm dữ liệu có thể nhận dạng.",
+        "Lưu kênh báo cáo của trường và Tổng đài 111."
       ],
       "limits": "Không phải ý kiến pháp lý; cần đối chiếu quy định hiện hành, bảo vệ trẻ và tìm hỗ trợ chính thức.",
       "sourceIds": [
         "childLaw",
         "privacyLaw",
         "cyber",
-        "child111"
+        "child111",
+        "q04d_childlaw",
+        "q04d_decree",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
@@ -5662,17 +6133,54 @@
           "body": "Tập nói cụ thể với giáo viên: em chưa hiểu phần này, em đã thử cách kia. Hỏi trẻ muốn bố mẹ hỗ trợ điều gì, không kiểm tra bí mật thiết bị hoặc làm bài thay. Nếu khó khăn kéo dài ở nhiều môi trường, tìm hỗ trợ giáo dục hoặc chuyên môn.",
           "sourceIds": [],
           "kind": "editorial-practice"
+        },
+        {
+          "heading": "Hệ thống quản lý nhiều môn học",
+          "body": "EEF nêu lập kế hoạch, theo dõi và đánh giá như chiến lược tự điều chỉnh. Áp dụng vào đời sống: dùng một sổ duy nhất ghi môn, hạn bài, đồ dùng và điều chưa rõ. Cuối ngày chọn ba việc cần làm hôm sau; đánh dấu việc đã xong và hỏi nếu chưa hiểu yêu cầu. Người lớn làm mẫu cách chia việc, giảm hỗ trợ dần, không kiểm tra bí mật. Mẫu này phục vụ tổ chức, không thay nội dung phương pháp học trong cẩm nang tự học.",
+          "sourceIds": [
+            "q04c4_eef"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Lịch có chỗ cho thay đổi",
+          "body": "Tính thời gian đi lại, ăn, nghỉ, vận động và ngủ trước khi nhận thêm hoạt động. Ví dụ ngày có lớp kết thúc muộn thì chuẩn bị cặp sớm và chọn bài cần ưu tiên, không lấy giờ ngủ bù mọi việc. CDC có khoảng ngủ khác nhau cho 11–12 và 13 tuổi; không đặt lịch cứng cho cả nhóm. Khi lịch thay đổi, báo người đón, giáo viên hoặc người chăm đúng kênh; không tự đi nơi lạ khi chưa có phương án an toàn.",
+          "sourceIds": [
+            "sleep"
+          ],
+          "kind": "source-based"
+        },
+        {
+          "heading": "Việc nhà và quyền tự chủ",
+          "body": "Cùng gia đình chọn việc phù hợp như gấp quần áo, xếp bàn, chuẩn bị đồ cá nhân, không phân theo giới hoặc giao chăm em thay người lớn. Hỏi con muốn tự thực hiện phần nào và khi nào cần giúp. Không giao việc nguy hiểm liên quan điện, hóa chất hoặc nguồn nhiệt khi không có điều kiện an toàn. Khi việc bị quên, xem lại vị trí đồ, độ dài danh sách và khối lượng học; không dùng nhịn ăn, mất ngủ hoặc làm nhục để trừng phạt.",
+          "sourceIds": [],
+          "kind": "editorial-practice"
+        },
+        {
+          "heading": "Xem lại hệ thống và tìm trợ giúp",
+          "body": "Cuối tuần hỏi con điều gì vẫn khó: nhớ hạn, hiểu yêu cầu, giao tiếp với giáo viên hay bị áp lực bạn bè. Chọn một điều chỉnh nhỏ; dùng bảng giấy hoặc công cụ do người lớn kiểm soát nếu cần, không đưa lịch di chuyển và hồ sơ riêng vào AI. UNICEF khuyến khích đối thoại với trẻ 11–13. Nếu khó khăn ảnh hưởng kéo dài nhiều môi trường, phối hợp hỗ trợ giáo dục hoặc y tế phù hợp; không kết luận trẻ lười, thiếu trách nhiệm hoặc có rối loạn.",
+          "sourceIds": [
+            "q04d_talk",
+            "q04c4_ai"
+          ],
+          "kind": "source-based"
         }
       ],
       "practice": [
         "Tạo một bảng hạn bài và đồ dùng.",
         "Tập chuẩn bị ngày mai trong một khoảng ngắn.",
-        "Chọn người hỗ trợ khi thay đổi lịch hoặc gặp khó khăn."
+        "Chọn người hỗ trợ khi thay đổi lịch hoặc gặp khó khăn.",
+        "Tạo một danh sách hạn bài có vị trí cố định.",
+        "Thử bàn giao kế hoạch khi giờ học thay đổi, rồi xem lại cuối tuần."
       ],
       "limits": "Không áp đặt lịch giống nhau hoặc biến công cụ quản lý thành giám sát quá mức.",
       "sourceIds": [
         "executive",
-        "positive"
+        "positive",
+        "q04c4_eef",
+        "sleep",
+        "q04d_talk",
+        "q04c4_ai"
       ],
       "status": "draft",
       "batch": "S04-AZ-03B"
