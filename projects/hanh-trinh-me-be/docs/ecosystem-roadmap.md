@@ -127,3 +127,5 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 - [CI baseline](https://github.com/kios-saks/demo/actions/runs/45418309299)
 - [Đánh giá UX và roadmap trước](ux-evaluation-and-ecosystem-roadmap-2026-11-24.md)
 - [Báo cáo nội dung](longform-72-completion-2026-11-24.md)
+
+- [x] S04-AZ-04B1: rà soát/chỉnh sửa 30 bài tiền thai–hậu sản (thay khối lặp bằng thực hành riêng, kiểm tra nguồn theo trọng tâm); [báo cáo](life-course-batch-04b1-2026-11-26.md). Chưa expert reviewed; còn 18 bài năm đầu đời trong scope 04B.

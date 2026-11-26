@@ -1,0 +1,146 @@
+[
+  {
+    "id": "folic",
+    "name": "CDC — Folic Acid: Facts for Clinicians (15/7/2026)",
+    "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+    "status": "opened",
+    "scope": "400 mcg/ngày khuyến nghị chung; không tự dùng liều cao.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html"
+    ]
+  },
+  {
+    "id": "med",
+    "name": "NHS — Medicines in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+    "status": "opened",
+    "scope": "Không tự ngừng thuốc kê đơn; hỏi trước khi dùng thuốc/thảo dược.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/pregnancy/keeping-well/medicines"
+    ]
+  },
+  {
+    "id": "pre",
+    "name": "NHS — Trying to get pregnant",
+    "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+    "status": "opened",
+    "scope": "Khám và chuẩn bị trước mang thai, rà soát nguy cơ.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant"
+    ]
+  },
+  {
+    "id": "antenatal",
+    "name": "NHS — Antenatal care and appointments",
+    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+    "status": "opened",
+    "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments"
+    ]
+  },
+  {
+    "id": "warning",
+    "name": "CDC — Urgent Maternal Warning Signs and Symptoms",
+    "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+    "status": "opened",
+    "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/hearher/maternal-warning-signs"
+    ]
+  },
+  {
+    "id": "nausea",
+    "name": "NHS — Vomiting and morning sickness",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+    "status": "opened",
+    "scope": "Dấu mất nước, nôn nặng, bữa nhỏ.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness"
+    ]
+  },
+  {
+    "id": "movement",
+    "name": "NHS — Your baby's movements",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+    "status": "opened",
+    "scope": "Giảm/mất/thay đổi thai máy cần liên hệ ngay; không chờ hoặc dùng Doppler nhà.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "post",
+    "name": "WHO — Maternal and newborn care for a positive postnatal experience",
+    "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+    "status": "opened-overview",
+    "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/publications-detail-redirect/9789240045989"
+    ]
+  },
+  {
+    "id": "recovery",
+    "name": "NHS — Recovery after caesarean section",
+    "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+    "status": "opened",
+    "scope": "Hồi phục, vận động và chăm sóc sau mổ theo hướng dẫn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery"
+    ]
+  },
+  {
+    "id": "mood",
+    "name": "NHS — Postnatal depression",
+    "url": "https://www.nhs.uk/mental-health/conditions/postnatal-depression/",
+    "status": "opened",
+    "scope": "Triệu chứng, tìm trợ giúp; nguy cơ khẩn cấp.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "feed",
+    "name": "WHO Việt Nam — Infant and young child feeding",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+    "status": "opened",
+    "scope": "Khuyến nghị nuôi dưỡng; không thay kế hoạch cá nhân.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+    ]
+  },
+  {
+    "id": "vax",
+    "name": "CDC — Pregnancy and vaccines",
+    "url": "https://www.cdc.gov/vaccine-safety/about/pregnancy.html",
+    "status": "search-only",
+    "scope": "Thông tin về thời điểm MMR; đối chiếu hướng dẫn Việt Nam.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "exercise",
+    "name": "NHS — Exercise in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+    "status": "search-only",
+    "scope": "Vận động phù hợp thai kỳ; cần đọc toàn văn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "sleep",
+    "name": "NHS — Tiredness and sleep problems in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/",
+    "status": "search-only",
+    "scope": "Từ 28 tuần bắt đầu ngủ nghiêng; cần đọc toàn văn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  }
+]

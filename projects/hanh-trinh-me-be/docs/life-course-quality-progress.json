@@ -1,87 +1,97 @@
 {
   "version": 1,
   "baselineCommit": "1d313880e5f49be698d6f614202018043ce24504",
-  "batch": "S04-AZ-04A",
+  "batch": "S04-AZ-04B1",
   "items": [
     {
       "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
       "stage": "prenatal",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:hen-tu-van-tien-thai",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:lan-kham-thai-dau-tien",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:cam-xuc-dau-thai-ky",
       "stage": "prenatal",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:nhat-ky-thai-ky",
       "stage": "prenatal",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:dong-hanh-khi-mang-thai",
       "stage": "prenatal",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:tui-do-di-sinh",
       "stage": "prenatal",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:ke-hoach-ho-tro-sau-sinh",
       "stage": "prenatal",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:nguoi-me-cung-can-duoc-cham-soc",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:chia-viec-trong-gia-dinh",
       "stage": "prenatal",
       "pillar": "relationships",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
@@ -200,160 +210,180 @@
       "stage": "prenatal",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:kham-suc-khoe-tien-thai",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:ke-hoach-ho-tro-tien-thai",
       "stage": "prenatal",
       "pillar": "life",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:lich-kham-thai-ba-thang-dau",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:om-nghen-va-an-uong-dau-thai-ky",
       "stage": "prenatal",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:suc-khoe-tinh-than-ba-thang-dau",
       "stage": "prenatal",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
       "stage": "prenatal",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:kham-thai-ba-thang-giua",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:sang-loc-tieu-duong-thai-ky",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:van-dong-an-toan-khi-mang-thai",
       "stage": "prenatal",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:chat-luong-giac-ngu-ba-thang-giua",
       "stage": "prenatal",
       "pillar": "routine",
       "priority": "P1",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:ke-hoach-sinh-an-toan",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:dau-hieu-can-di-vien-cuoi-thai-ky",
       "stage": "prenatal",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:thai-may-va-theo-doi-thai-cuoi-ky",
       "stage": "prenatal",
       "pillar": "health",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
       "stage": "prenatal",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:dau-hieu-canh-bao-sau-sinh",
       "stage": "prenatal",
       "pillar": "safety",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong",
       "stage": "prenatal",
       "pillar": "body",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:tam-trang-sau-sinh-va-tram-cam",
       "stage": "prenatal",
       "pillar": "psych",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:ho-tro-bu-me-va-khi-kho-khan",
       "stage": "prenatal",
       "pillar": "nutrition",
       "priority": "P0",
-      "status": "queued",
-      "expertReviewed": false
+      "status": "revised-draft",
+      "expertReviewed": false,
+      "batch": "S04-AZ-04B1"
     },
     {
       "key": "legacy:ngu-an-toan-cho-tre-so-sinh",
@@ -1790,8 +1820,723 @@
   ],
   "sourceReview": {
     "baseline": 131,
-    "attempted": 17,
-    "remaining": 114,
-    "additional": 4
-  }
+    "attempted": 23,
+    "remaining": 108,
+    "additional": 9
+  },
+  "targetedRevisions": [
+    {
+      "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+      "stage": "prenatal",
+      "title": "5 cuộc trò chuyện trước khi có em bé",
+      "before": 1018,
+      "after": 887,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị trước khi có em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Năm cuộc trò chuyện và quyết định cần ghi lại",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+          "status": "opened",
+          "scope": "Khám và chuẩn bị trước mang thai, rà soát nguy cơ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hen-tu-van-tien-thai",
+      "stage": "prenatal",
+      "title": "Một cuộc hẹn tiền thai nên chuẩn bị gì?",
+      "before": 1089,
+      "after": 1230,
+      "removedSharedSections": [],
+      "addedSection": "Chuẩn bị cuộc hẹn theo thứ tự ưu tiên",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+          "status": "opened",
+          "scope": "Khám và chuẩn bị trước mang thai, rà soát nguy cơ."
+        },
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+          "status": "opened",
+          "scope": "Không tự ngừng thuốc kê đơn; hỏi trước khi dùng thuốc/thảo dược."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:axit-folic-truoc-khi-mang-thai",
+      "stage": "prenatal",
+      "title": "Axit folic trước mang thai: những điều nên biết",
+      "before": 1178,
+      "after": 1318,
+      "removedSharedSections": [],
+      "addedSection": "Đọc nhãn B9 và tránh nhầm đơn vị",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html",
+          "status": "opened",
+          "scope": "400 mcg/ngày khuyến nghị chung; không tự dùng liều cao."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:kham-suc-khoe-tien-thai",
+      "stage": "prenatal",
+      "title": "Khám sức khỏe tiền thai: checklist chuẩn bị",
+      "before": 1211,
+      "after": 1054,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị trước khi có em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Checklist hồ sơ: điều đã biết và điều cần xác minh",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+          "status": "opened",
+          "scope": "Khám và chuẩn bị trước mang thai, rà soát nguy cơ."
+        },
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+          "status": "opened",
+          "scope": "Không tự ngừng thuốc kê đơn; hỏi trước khi dùng thuốc/thảo dược."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thuoc-tiem-chung-va-ke-hoach-thai-ky",
+      "stage": "prenatal",
+      "title": "Rà soát thuốc và tiêm chủng trước khi có thai",
+      "before": 1181,
+      "after": 1037,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị trước khi có em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Bảng rà soát thuốc và vắc xin trước thai kỳ",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+          "status": "opened",
+          "scope": "Không tự ngừng thuốc kê đơn; hỏi trước khi dùng thuốc/thảo dược."
+        },
+        {
+          "url": "https://www.cdc.gov/vaccine-safety/about/pregnancy.html",
+          "status": "search-only",
+          "scope": "Thông tin về thời điểm MMR; đối chiếu hướng dẫn Việt Nam."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-ho-tro-tien-thai",
+      "stage": "prenatal",
+      "title": "Kế hoạch hỗ trợ gia đình trước khi có con",
+      "before": 1174,
+      "after": 1022,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị trước khi có em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Diễn tập một tuần thiếu người hỗ trợ",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/",
+          "status": "opened",
+          "scope": "Khám và chuẩn bị trước mang thai, rà soát nguy cơ."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lan-kham-thai-dau-tien",
+      "stage": "prenatal",
+      "title": "Lần khám thai đầu tiên: chuẩn bị như thế nào?",
+      "before": 1041,
+      "after": 882,
+      "removedSharedSections": [
+        "Kết nối với chặng Định hướng trong 13 tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Từ lúc biết có thai đến lần khám đầu",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:cam-xuc-dau-thai-ky",
+      "stage": "prenatal",
+      "title": "Khi cảm xúc thay đổi trong đầu thai kỳ",
+      "before": 1039,
+      "after": 878,
+      "removedSharedSections": [
+        "Kết nối với chặng Định hướng trong 13 tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Cách nói về cảm xúc mà không tạo áp lực",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:lich-kham-thai-ba-thang-dau",
+      "stage": "prenatal",
+      "title": "Khám thai 3 tháng đầu: theo dõi những gì?",
+      "before": 1175,
+      "after": 993,
+      "removedSharedSections": [
+        "Kết nối với chặng Định hướng trong 13 tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Mẫu theo dõi hẹn và xét nghiệm",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:om-nghen-va-an-uong-dau-thai-ky",
+      "stage": "prenatal",
+      "title": "Ốm nghén và ăn uống 3 tháng đầu",
+      "before": 1171,
+      "after": 1291,
+      "removedSharedSections": [],
+      "addedSection": "Nhật ký dung nạp và dấu hiệu mất nước",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+          "status": "opened",
+          "scope": "Dấu mất nước, nôn nặng, bữa nhỏ."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:suc-khoe-tinh-than-ba-thang-dau",
+      "stage": "prenatal",
+      "title": "Lo âu đầu thai kỳ: khi nào tìm hỗ trợ?",
+      "before": 1200,
+      "after": 1034,
+      "removedSharedSections": [
+        "Kết nối với chặng Định hướng trong 13 tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Từ nỗi lo đến yêu cầu hỗ trợ cụ thể",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-nguy-hiem-dau-thai-ky",
+      "stage": "prenatal",
+      "title": "Dấu hiệu cảnh báo không nên bỏ qua khi mới mang thai",
+      "before": 1188,
+      "after": 1027,
+      "removedSharedSections": [
+        "Kết nối với chặng Định hướng trong 13 tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Thẻ hành động khẩn cấp dành cho người đồng hành",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nhat-ky-thai-ky",
+      "stage": "prenatal",
+      "title": "Tạo nhật ký thai kỳ không áp lực",
+      "before": 1000,
+      "after": 844,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Nhật ký ba dòng thay vì theo dõi mọi thứ",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dong-hanh-khi-mang-thai",
+      "stage": "prenatal",
+      "title": "Người đồng hành có thể giúp gì?",
+      "before": 986,
+      "after": 834,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Hỗ trợ theo yêu cầu, không quyết định thay",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:kham-thai-ba-thang-giua",
+      "stage": "prenatal",
+      "title": "Theo dõi 3 tháng giữa: lịch hẹn và câu hỏi",
+      "before": 1129,
+      "after": 967,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Đọc lại kết quả và chuẩn bị lần khám tiếp",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:sang-loc-tieu-duong-thai-ky",
+      "stage": "prenatal",
+      "title": "Sàng lọc đái tháo đường thai kỳ: hỏi gì khi khám?",
+      "before": 1157,
+      "after": 1022,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Chuẩn bị xét nghiệm theo đúng chỉ dẫn của cơ sở",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:van-dong-an-toan-khi-mang-thai",
+      "stage": "prenatal",
+      "title": "Vận động trong thai kỳ: lắng nghe cơ thể",
+      "before": 1138,
+      "after": 994,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Chọn vận động từ khả năng hiện tại",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+          "status": "search-only",
+          "scope": "Vận động phù hợp thai kỳ; cần đọc toàn văn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chat-luong-giac-ngu-ba-thang-giua",
+      "stage": "prenatal",
+      "title": "Giấc ngủ và sự thoải mái ở 3 tháng giữa",
+      "before": 1130,
+      "after": 981,
+      "removedSharedSections": [
+        "Kết nối với chặng Theo dõi và kết nối trong 3 tháng giữa",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Điều chỉnh giấc ngủ và chuẩn bị chuyển sang quý cuối",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/",
+          "status": "search-only",
+          "scope": "Từ 28 tuần bắt đầu ngủ nghiêng; cần đọc toàn văn."
+        },
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/medicines/",
+          "status": "opened",
+          "scope": "Không tự ngừng thuốc kê đơn; hỏi trước khi dùng thuốc/thảo dược."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:tui-do-di-sinh",
+      "stage": "prenatal",
+      "title": "Danh sách túi đồ đi sinh linh hoạt",
+      "before": 995,
+      "after": 848,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Chia túi theo lúc cần dùng",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-ho-tro-sau-sinh",
+      "stage": "prenatal",
+      "title": "Lập kế hoạch hỗ trợ 2 tuần đầu sau sinh",
+      "before": 968,
+      "after": 817,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Kế hoạch hỗ trợ hai tuần: việc và người dự phòng",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ke-hoach-sinh-an-toan",
+      "stage": "prenatal",
+      "title": "Lập kế hoạch sinh linh hoạt cho gia đình",
+      "before": 1157,
+      "after": 1020,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Kế hoạch sinh gồm mong muốn và phương án thay đổi",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+          "status": "opened",
+          "scope": "Mục tiêu và nội dung cuộc hẹn; lịch NHS không phải lịch Việt Nam."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-can-di-vien-cuoi-thai-ky",
+      "stage": "prenatal",
+      "title": "Cuối thai kỳ: khi nào cần liên hệ bệnh viện?",
+      "before": 1143,
+      "after": 996,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Phân biệt liên hệ sản khoa ngay với chờ cơn co",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        },
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+          "status": "opened",
+          "scope": "Giảm/mất/thay đổi thai máy cần liên hệ ngay; không chờ hoặc dùng Doppler nhà."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:thai-may-va-theo-doi-thai-cuoi-ky",
+      "stage": "prenatal",
+      "title": "Quan sát thai máy và thay đổi đáng chú ý",
+      "before": 1144,
+      "after": 1011,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Thay đổi so với thường ngày là tín hiệu quan trọng",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+          "status": "opened",
+          "scope": "Giảm/mất/thay đổi thai máy cần liên hệ ngay; không chờ hoặc dùng Doppler nhà."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chuan-bi-sau-sinh-dinh-duong-cham-soc",
+      "stage": "prenatal",
+      "title": "Chuẩn bị 48 giờ và 6 tuần đầu sau sinh",
+      "before": 1146,
+      "after": 998,
+      "removedSharedSections": [
+        "Kết nối với chặng Chuẩn bị cho sinh và những tuần đầu",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Bảng bàn giao từ xuất viện tới sáu tuần",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:nguoi-me-cung-can-duoc-cham-soc",
+      "stage": "prenatal",
+      "title": "Sau sinh, người mẹ cũng cần được chăm sóc",
+      "before": 995,
+      "after": 840,
+      "removedSharedSections": [
+        "Kết nối với chặng Chăm sóc cả người mẹ và em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Hỏi mẹ mỗi ngày về nhu cầu chăm sóc của chính mình",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:chia-viec-trong-gia-dinh",
+      "stage": "prenatal",
+      "title": "Phân chia công việc để không ai kiệt sức",
+      "before": 961,
+      "after": 813,
+      "removedSharedSections": [
+        "Kết nối với chặng Chăm sóc cả người mẹ và em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Bảng phân việc có thời gian nghỉ và người thay ca",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:dau-hieu-canh-bao-sau-sinh",
+      "stage": "prenatal",
+      "title": "Dấu hiệu cảnh báo ở mẹ sau sinh",
+      "before": 1148,
+      "after": 1007,
+      "removedSharedSections": [
+        "Kết nối với chặng Chăm sóc cả người mẹ và em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Nhận diện biến chứng không chỉ trong sáu tuần",
+      "sourceChecks": [
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+      "stage": "prenatal",
+      "title": "Hồi phục sau sinh thường và sinh mổ: nguyên tắc chung",
+      "before": 1212,
+      "after": 1340,
+      "removedSharedSections": [],
+      "addedSection": "Kế hoạch hồi phục dựa trên giấy ra viện",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+          "status": "opened",
+          "scope": "Hồi phục, vận động và chăm sóc sau mổ theo hướng dẫn."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:tam-trang-sau-sinh-va-tram-cam",
+      "stage": "prenatal",
+      "title": "Tâm trạng sau sinh: khi nào nên nhờ người giúp?",
+      "before": 1153,
+      "after": 1005,
+      "removedSharedSections": [
+        "Kết nối với chặng Chăm sóc cả người mẹ và em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Phân biệt thay đổi ngắn hạn và dấu hiệu cần chăm sóc",
+      "sourceChecks": [
+        {
+          "url": "https://www.nhs.uk/mental-health/conditions/postnatal-depression/",
+          "status": "opened",
+          "scope": "Triệu chứng, tìm trợ giúp; nguy cơ khẩn cấp."
+        },
+        {
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "status": "opened",
+          "scope": "Dấu hiệu cần trợ giúp ngay trong thai kỳ và năm sau sinh."
+        }
+      ],
+      "expertReviewed": false
+    },
+    {
+      "key": "legacy:ho-tro-bu-me-va-khi-kho-khan",
+      "stage": "prenatal",
+      "title": "Hỗ trợ nuôi con bằng sữa mẹ sau sinh",
+      "before": 1181,
+      "after": 1030,
+      "removedSharedSections": [
+        "Kết nối với chặng Chăm sóc cả người mẹ và em bé",
+        "Gợi ý bổ sung để tìm hiểu và trao đổi"
+      ],
+      "addedSection": "Khi việc cho bú gặp khó: hỏi người có chuyên môn quan sát",
+      "sourceChecks": [
+        {
+          "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+          "status": "opened",
+          "scope": "Khuyến nghị nuôi dưỡng; không thay kế hoạch cá nhân."
+        },
+        {
+          "url": "https://www.who.int/publications-detail-redirect/9789240045989",
+          "status": "opened-overview",
+          "scope": "Trang tổng quan, chưa đọc toàn văn hướng dẫn."
+        }
+      ],
+      "expertReviewed": false
+    }
+  ]
 }

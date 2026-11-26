@@ -121,8 +121,8 @@
       "stage": "prenatal",
       "pillar": "relationships",
       "originalStage": "chuan-bi-mang-thai",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con"
     },
@@ -134,7 +134,7 @@
       "pillar": "health",
       "originalStage": "chuan-bi-mang-thai",
       "sourceCount": 4,
-      "sectionCount": 10,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/hen-tu-van-tien-thai"
     },
@@ -146,7 +146,7 @@
       "pillar": "nutrition",
       "originalStage": "chuan-bi-mang-thai",
       "sourceCount": 2,
-      "sectionCount": 10,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/axit-folic-truoc-khi-mang-thai"
     },
@@ -157,8 +157,8 @@
       "stage": "prenatal",
       "pillar": "health",
       "originalStage": "chuan-bi-mang-thai",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/kham-suc-khoe-tien-thai"
     },
@@ -169,8 +169,8 @@
       "stage": "prenatal",
       "pillar": "health",
       "originalStage": "chuan-bi-mang-thai",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/thuoc-tiem-chung-va-ke-hoach-thai-ky"
     },
@@ -181,8 +181,8 @@
       "stage": "prenatal",
       "pillar": "life",
       "originalStage": "chuan-bi-mang-thai",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/ke-hoach-ho-tro-tien-thai"
     },
@@ -194,7 +194,7 @@
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-dau",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/lan-kham-thai-dau-tien"
     },
@@ -206,7 +206,7 @@
       "pillar": "psych",
       "originalStage": "thai-ky-3-thang-dau",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/cam-xuc-dau-thai-ky"
     },
@@ -218,7 +218,7 @@
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-dau",
       "sourceCount": 3,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/lich-kham-thai-ba-thang-dau"
     },
@@ -230,7 +230,7 @@
       "pillar": "nutrition",
       "originalStage": "thai-ky-3-thang-dau",
       "sourceCount": 3,
-      "sectionCount": 10,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/om-nghen-va-an-uong-dau-thai-ky"
     },
@@ -241,8 +241,8 @@
       "stage": "prenatal",
       "pillar": "psych",
       "originalStage": "thai-ky-3-thang-dau",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/suc-khoe-tinh-than-ba-thang-dau"
     },
@@ -254,7 +254,7 @@
       "pillar": "safety",
       "originalStage": "thai-ky-3-thang-dau",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/dau-hieu-nguy-hiem-dau-thai-ky"
     },
@@ -265,8 +265,8 @@
       "stage": "prenatal",
       "pillar": "psych",
       "originalStage": "thai-ky-3-thang-giua",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/nhat-ky-thai-ky"
     },
@@ -277,8 +277,8 @@
       "stage": "prenatal",
       "pillar": "relationships",
       "originalStage": "thai-ky-3-thang-giua",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/dong-hanh-khi-mang-thai"
     },
@@ -290,7 +290,7 @@
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-giua",
       "sourceCount": 3,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/kham-thai-ba-thang-giua"
     },
@@ -302,7 +302,7 @@
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-giua",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/sang-loc-tieu-duong-thai-ky"
     },
@@ -313,8 +313,8 @@
       "stage": "prenatal",
       "pillar": "routine",
       "originalStage": "thai-ky-3-thang-giua",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/van-dong-an-toan-khi-mang-thai"
     },
@@ -325,8 +325,8 @@
       "stage": "prenatal",
       "pillar": "routine",
       "originalStage": "thai-ky-3-thang-giua",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 5,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/chat-luong-giac-ngu-ba-thang-giua"
     },
@@ -337,8 +337,8 @@
       "stage": "prenatal",
       "pillar": "life",
       "originalStage": "thai-ky-3-thang-cuoi",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/tui-do-di-sinh"
     },
@@ -349,8 +349,8 @@
       "stage": "prenatal",
       "pillar": "relationships",
       "originalStage": "thai-ky-3-thang-cuoi",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/ke-hoach-ho-tro-sau-sinh"
     },
@@ -361,8 +361,8 @@
       "stage": "prenatal",
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-cuoi",
-      "sourceCount": 3,
-      "sectionCount": 12,
+      "sourceCount": 4,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/ke-hoach-sinh-an-toan"
     },
@@ -373,8 +373,8 @@
       "stage": "prenatal",
       "pillar": "safety",
       "originalStage": "thai-ky-3-thang-cuoi",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/dau-hieu-can-di-vien-cuoi-thai-ky"
     },
@@ -385,8 +385,8 @@
       "stage": "prenatal",
       "pillar": "health",
       "originalStage": "thai-ky-3-thang-cuoi",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/thai-may-va-theo-doi-thai-cuoi-ky"
     },
@@ -398,7 +398,7 @@
       "pillar": "nutrition",
       "originalStage": "thai-ky-3-thang-cuoi",
       "sourceCount": 3,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/chuan-bi-sau-sinh-dinh-duong-cham-soc"
     },
@@ -410,7 +410,7 @@
       "pillar": "health",
       "originalStage": "hau-san",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/nguoi-me-cung-can-duoc-cham-soc"
     },
@@ -422,7 +422,7 @@
       "pillar": "relationships",
       "originalStage": "hau-san",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/chia-viec-trong-gia-dinh"
     },
@@ -434,7 +434,7 @@
       "pillar": "safety",
       "originalStage": "hau-san",
       "sourceCount": 2,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/dau-hieu-canh-bao-sau-sinh"
     },
@@ -446,7 +446,7 @@
       "pillar": "body",
       "originalStage": "hau-san",
       "sourceCount": 3,
-      "sectionCount": 10,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/hoi-phuc-sau-sinh-mo-va-sinh-thuong"
     },
@@ -457,8 +457,8 @@
       "stage": "prenatal",
       "pillar": "psych",
       "originalStage": "hau-san",
-      "sourceCount": 2,
-      "sectionCount": 12,
+      "sourceCount": 3,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/tam-trang-sau-sinh-va-tram-cam"
     },
@@ -470,7 +470,7 @@
       "pillar": "nutrition",
       "originalStage": "hau-san",
       "sourceCount": 3,
-      "sectionCount": 12,
+      "sectionCount": 11,
       "status": "draft",
       "href": "/bai-viet/ho-tro-bu-me-va-khi-kho-khan"
     },
