@@ -158,3 +158,5 @@ Giữ prototype hiện có, không ưu tiên phát triển Mobile trong các spr
 
 - [x] Lập [UI/UX Audit V2](ux-redesign-v2/README.md), [sitemap V2](ux-redesign-v2/sitemap-v2.md), [10 wireframe Desktop/Mobile](ux-redesign-v2/wireframes.md) và [roadmap/checklist UX-01–UX-10](ux-redesign-v2/sprint-roadmap.md).
 - [ ] Chủ dự án review thiết kế và chốt phạm vi. Sprint đang PLANNED, chưa sửa app, 0/10 triển khai. Không thay đổi quyết định tạm dừng mở rộng gia đình/AI hoặc mở Production.
+
+- [ ] UX-01 Knowledge Hub V2: code candidate có index 219, 6 nhóm/12 chặng, alias kind:id và khôi phục hash; [báo cáo](ux-redesign-v2/ux-01-implementation.md). CI/DEV acceptance chưa xác nhận; UX-02 trở đi chưa triển khai.

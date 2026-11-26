@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: PLANNED · 0/10 đã triển khai.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01 có code candidate, 0/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -18,6 +18,8 @@ Không gán ngày lịch/nhân sự khi chưa biết capacity. Owner đề xuấ
 - [ ] AC01.2: một entry Khám phá, 6 nhóm tuổi dễ quét, không mặc định baby khi chưa chọn; route map owner duyệt, tất cả URL cũ và hash được kiểm thử (guest authorized DEV, unauthorized Production).
 - [ ] AC01.3: matrix nội bộ, CMS/demo không lộ trên menu; schema, draft gates và payload không sửa. Evidence: route tests và diff.
 Dependency: none; chặn UX-02–08.
+
+**UX-01 candidate:** [báo cáo triển khai](ux-01-implementation.md). AC01.1/2/3 chưa đóng cho đến khi CI, kiểm thử alias/hash và nghiệm thu DEV hoàn tất.
 
 ### UX-02 · P0 · Unified search
 - [ ] AC02.1: index đủ 219 từ nguồn hợp lệ, title/summary/topics/stage + nội dung phù hợp; legacy lấy live, không fallback draft trái phép; mỗi ID đúng một kết quả.

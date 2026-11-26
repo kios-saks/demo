@@ -12,7 +12,8 @@ const announce=(text)=>all("[data-local-status]").forEach(el=>{el.textContent=te
 const current=document.querySelector("[data-current-article]")?.dataset.currentArticle;
 const updateNav=()=>{
  const path=location.pathname;
- const destination=path==="/"?"/":path==="/da-luu"?"/da-luu":path==="/hanh-trinh"?"/hanh-trinh":"/thu-vien";
+ const explore=document.querySelector('.reader-nav-links a[href="/kham-pha"],.mobile-reader-nav a[href="/kham-pha"]')?"/kham-pha":"/thu-vien";
+ const destination=path==="/"?"/":path==="/da-luu"?"/da-luu":path==="/hanh-trinh"?"/hanh-trinh":explore;
  all(".reader-nav-links a,.mobile-reader-nav a").forEach(a=>{if(a.getAttribute("href")===destination)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
 };
 function refreshSaved(){

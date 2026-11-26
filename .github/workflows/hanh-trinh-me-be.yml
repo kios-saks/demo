@@ -44,7 +44,7 @@ jobs:
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/media-admin-proxy.test.ts
       - name: Age learning catalog validation
         run: |
-          node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs scripts/life-course-inventory.test.mjs scripts/life-course-quality.test.mjs
+          node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs scripts/life-course-inventory.test.mjs scripts/life-course-quality.test.mjs scripts/knowledge-index.test.mjs
           node scripts/audit-life-course-quality.mjs
       - name: Family demo protocol tests
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/family-demo.test.ts
@@ -215,7 +215,7 @@ jobs:
           set -euo pipefail
           PORT=3000 npm run start -w @mebe/web > /tmp/mebe-demo-ordinary.log 2>&1 &
           ordinary_pid=$!
-          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
+          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
           demo_pid=$!
           trap 'kill "$ordinary_pid" "$demo_pid" 2>/dev/null || true' EXIT
           for i in $(seq 1 60); do
@@ -223,6 +223,7 @@ jobs:
             sleep 1
           done
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/family-demo-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX01_ORIGIN=http://localhost:3001 node scripts/knowledge-hub-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest

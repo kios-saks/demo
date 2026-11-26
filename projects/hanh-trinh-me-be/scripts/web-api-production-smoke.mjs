@@ -36,6 +36,7 @@ const stage=await fetch(web+"/so-sinh");
 assert.equal(stage.status,200);
 const detail=await fetch(web+"/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh");
 assert.equal(detail.status,404,"Web blocks draft details");
+for(const path of ["/kham-pha","/kien-thuc/legacy/ngu-an-toan-cho-tre-so-sinh","/kien-thuc/article/no-such-item","/hoc-cung-con"]){const blocked=await fetch(web+path,{redirect:"manual"});assert.equal(blocked.status,404,"New knowledge routes retain closed Production gate: "+path);}
 const editorial=await fetch(web+"/bien-tap");
 assert.equal(editorial.status,404,"Editorial overview must not be public");
 const source=await fetch(web+"/nguon-tham-khao");

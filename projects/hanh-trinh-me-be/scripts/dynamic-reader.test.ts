@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import {renderKnowledgeHub,resolveKnowledgeLink} from "../apps/web/lib/knowledge-hub";
 import {openDevReader} from "../apps/web/lib/open-dev-reader";
 import {requirePreviewLogin} from "../apps/web/lib/dev-preview";
 import {mediaAdminProxy} from "../apps/web/lib/media-admin-proxy";
@@ -67,6 +68,10 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.equal(openDevReader(),true);
    assert.equal(requirePreviewLogin(request("/dev-review",false)),null);
    assert.equal(requirePreviewLogin(new Request("http://localhost/dev-review",{method:"POST"}))?.status,404);
+   const hub=await renderKnowledgeHub(request("/kham-pha",false));assert.equal(hub.status,200);assert.match(hub.headers.get("x-robots-tag")||"",/noindex/);const hubHtml=await hub.text();assert.equal((hubHtml.match(/data-knowledge-entry=/g)||[]).length,219);assert.equal((hubHtml.match(/data-knowledge-group=/g)||[]).length,6);assert.ok(hubHtml.includes('href="/kham-pha"'));assert.ok(!hubHtml.includes('href="/gia-dinh-demo"'));
+   const filtered=await renderKnowledgeHub(request("/kham-pha?stage=baby",false));assert.equal((await filtered.text()).match(/data-knowledge-entry=/g)?.length,19);
+   assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).headers.get("location"),"/bai-viet/"+slug);
+   assert.equal(resolveKnowledgeLink(request("/kien-thuc/article/no-such-item",false),"article","no-such-item").status,404);
    const openList=await renderReaderLibrary(request("/dev-review",false));
    assert.equal(openList.status,200);assert.match(openList.headers.get("x-robots-tag")||"",/noindex/);
    const openArticle=await article(request("/dev-review/"+slug,false),{params:Promise.resolve({slug})});
@@ -74,6 +79,7 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.equal((await proxyMedia(request(articleMediaUrl(slug,"cover"),false),slug,"cover")).status,200);
    assert.equal((await mediaAdminProxy(request("/api/media-admin/session",false),["session"])).status,404);
    process.env.MEBE_COMBINED_DEV="false";assert.equal(openDevReader(),false);
+   assert.equal((await renderKnowledgeHub(request("/kham-pha",false))).status,404);assert.equal((await renderKnowledgeHub(request("/kham-pha",true))).status,404);assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).status,404);
    assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);
    process.env.MEBE_COMBINED_DEV="true";process.env.RENDER="false";assert.equal(openDevReader(),false);
    assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);

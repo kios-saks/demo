@@ -30,10 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        <span>Hành Trình <b>Mẹ & Bé</b></span>
       </Link>
       <nav className="site-nav" aria-label="Điều hướng chính">
-       <Link href="/#hanh-trinh">Các giai đoạn</Link>
+       {familyDemoEnabled()?<Link href="/kham-pha">Khám phá</Link>:<Link href="/#hanh-trinh">Các giai đoạn</Link>}
        <Link href="/tim-kiem">Tìm kiếm</Link>
        <Link href="/nguon-tham-khao">Nguồn tham khảo</Link>
-       {familyDemoEnabled()&&<Link href="/hoc-cung-con">Học cùng con</Link>}{familyWebConfig()&&<Link href="/gia-dinh">Gia đình</Link>}
+       {familyWebConfig()&&<Link href="/gia-dinh">Gia đình</Link>}
        {process.env.WEB_CONTENT_PROVIDER==="api"&&process.env.NODE_ENV==="production"?null:<Link href="/bien-tap">Góc biên tập</Link>}
        
       </nav>

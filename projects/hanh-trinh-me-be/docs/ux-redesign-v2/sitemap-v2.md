@@ -37,6 +37,8 @@ flowchart TD
 
 Mỗi link #az-ID và #lesson-ID cũ cần chuyển đến đúng chi tiết kể cả refresh, browser back và deep link; fragment không gửi server nên cần xử lý tương thích client tại route cũ hoặc giữ fallback. Không tự động redirect route protected thành public. Quyết định URL canonical cuối cùng ở UX-01 trước khi code. **URL sơ đồ rút gọn**, hợp đồng chi tiết dùng kind/id.
 
+UX-01 candidate: /kham-pha là entry chung trên Combined DEV; /kien-thuc/:kind/:id trả 307 đến trình đọc hiện tại (legacy hoặc /hoc-cung-con?stage=…#…). URL cũ còn hoạt động; không redirect Production. Trang chi tiết thực sự, search/ranking và /ca-nhan được triển khai ở UX-02/06/07/08, không coi là hoàn tất UX-01.
+
 ## Nhóm tuổi hiển thị
 | Nhóm gọn trên trang chủ | Chặng atlas |
 |---|---|
