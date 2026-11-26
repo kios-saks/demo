@@ -21,13 +21,13 @@
 | Tự chủ, ranh giới và kết nối với gia đình | 115/199 |
 | Bữa ăn tự lập 18–22 tuổi: đi học, ở trọ và làm việc với ngân sách giới hạn | 209/504 |
 | Sức khỏe sinh sản 18–22 tuổi: lựa chọn cá nhân, đồng thuận và chăm sóc phòng ngừa | 219/544 |
-| Nhịp sống 18–22 tuổi: ngủ đủ, vận động và cân bằng học–làm | 205/490 |
+| Nhịp sống 18–22 tuổi: ngủ đủ, vận động và cân bằng học–làm | 205/537 |
 | Học ở tuổi 18–22: từ kiến thức nền đến năng lực tự học suốt đời | 213/503 |
 | Chọn đại học, cao đẳng hoặc học nghề: kiểm định, chương trình và tổng chi phí | 221/503 |
 | An toàn khi sống tự lập 18–22 tuổi: đi lại, ở trọ và tránh lừa đảo | 220/513 |
-| Tư duy 18–22 tuổi: nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề | 198/486 |
-| AI tuổi 18–22: học tập, thực tập và bảo mật dữ liệu | 214/492 |
-| Năng khiếu và portfolio 18–22 tuổi: dự án thật, sở thích và kết nối cộng đồng | 206/477 |
+| Tư duy 18–22 tuổi: nghiên cứu, đánh giá bằng chứng và giải quyết vấn đề | 198/534 |
+| AI tuổi 18–22: học tập, thực tập và bảo mật dữ liệu | 214/543 |
+| Năng khiếu và portfolio 18–22 tuổi: dự án thật, sở thích và kết nối cộng đồng | 206/533 |
 | Bước đầu đi làm 18–22 tuổi: hợp đồng, bảo hiểm và hồ sơ cá nhân | 216/504 |
 
 ## Nguồn và phạm vi
@@ -62,3 +62,7 @@
 - [ ] CI, browser, claim verification, chuyên gia, publication gate.
 - [ ] 16 nội dung tuổi 23–34 (04G).
 Không thay Auth/Database/Family/Mobile/Production.
+
+## Follow-up editorial QA
+- Bổ sung 4 ví dụ thực hành riêng về lịch ca, mẫu số dữ liệu, kiểm tra thư viện AI và portfolio mô phỏng. 10/10 cẩm nang đạt ngưỡng tham khảo 500 đơn vị tách khoảng trắng. Độ dài không đồng nghĩa đã thẩm định.
+- 12/12 callback hồi quy đã PASS trên commit cd48d71 bằng JS adapter (không phải Node runtime). CI run 45741519559 đang chạy lúc kiểm tra.
