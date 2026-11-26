@@ -493,6 +493,12 @@
       "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
       "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám.",
       "checkedOn": "2026-11-26"
+    },
+    "infantSafeSleep04b": {
+      "name": "CDC — Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "scope": "Nằm ngửa khi đặt ngủ, bề mặt chắc phẳng, chỗ ngủ riêng cùng phòng, không vật mềm.",
+      "checkedOn": "2026-11-26"
     }
   },
   "articles": [
@@ -1052,7 +1058,7 @@
           "body": "Khi bé tỉnh và nhìn mẹ, mẹ nói một câu, chờ và đáp lại âm thanh. Khi bé quay mặt, giảm tiếng nói và cho nghỉ. Khi bé khóc lâu khiến người chăm mệt, người đó có thể đặt bé nằm ngửa trong cũi an toàn, nhờ người khác thay và bình tĩnh lại trước khi tiếp tục. Không lắc hoặc quát bé. Nếu bé khó thở, bú kém rõ hoặc khó đánh thức, không tiếp tục thử trò chơi dỗ dành mà tìm đánh giá y tế.",
           "sourceIds": [
             "newborn",
-            "sleep"
+            "infantSafeSleep04b"
           ],
           "kind": "source-based"
         },
@@ -1075,7 +1081,7 @@
       "sourceIds": [
         "ecd",
         "newborn",
-        "sleep"
+        "infantSafeSleep04b"
       ],
       "status": "draft",
       "batch": "S04-AZ-02A",
@@ -4026,7 +4032,7 @@
           "heading": "Làm quen dần và thử bàn giao",
           "body": "Nếu sắp quay lại làm việc, hẹn người chăm mới gặp gia đình khi có thể, làm quen cách bé được an ủi và thống nhất quy tắc an toàn. Tổ chức một lần bàn giao ngắn thử nghiệm, hỏi điều chưa rõ trước khi tăng thời gian. Khi người chăm mới đề nghị thay đổi cách cho bú hoặc ngủ, trao đổi với gia đình và chuyên gia nếu liên quan sức khỏe. CDC khuyến nghị mọi người chăm đều áp dụng nơi ngủ phẳng, chắc, không vật mềm và đặt bé nằm ngửa lúc ngủ.",
           "sourceIds": [
-            "sleep"
+            "infantSafeSleep04b"
           ],
           "kind": "source-based"
         },
@@ -4049,7 +4055,7 @@
       "sourceIds": [
         "ecd",
         "playInfant",
-        "sleep",
+        "infantSafeSleep04b",
         "newborn"
       ],
       "status": "draft",

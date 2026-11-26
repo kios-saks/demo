@@ -17,3 +17,8 @@ test("quality baseline and editorial batch preserve inventory and draft gates",(
  for(const e of rows){const [kind,id]=e.key.split(":");const x=kind==="legacy"?legacy.articles.find(y=>y.slug===id):kind==="lesson"?lessons.lessons.find(y=>y.id===id):b.articles.find(y=>y.id===id);assert(x);assert.equal(x.status,"draft");assert.equal(e.expertReviewed,false);assert(e.sourceChecks.length>0);if(kind==="legacy")assert(x.sections.some(y=>y.heading===e.addedSection));if(kind==="article")assert(x.sections.length>=7);assert(p.items.some(y=>y.key===e.key&&y.status==="revised-draft"));}
  assert.equal(p.items.filter(x=>x.status==="queued").length,168);console.log("LIFE_COURSE_04B_REVISION_PASS: 48 revised drafts, 51 first-stage items edited");
  });
+
+test("infant safe sleep references are distinct from general sleep advice",()=>{
+ assert.equal(b.sources.infantSafeSleep04b.url,"https://www.cdc.gov/sudden-infant-death/sleep-safely/");assert.equal(b.sources.sleep.url,"https://www.cdc.gov/sleep/about/");
+ for(const id of ["gan-bo-va-dap-ung-nam-dau","cham-soc-dap-ung-va-chuyen-tiep"]){const x=b.articles.find(a=>a.id===id);assert(x.sourceIds.includes("infantSafeSleep04b"));assert(!x.sourceIds.includes("sleep"));assert(x.sections.some(s=>s.sourceIds.includes("infantSafeSleep04b")));}
+});
