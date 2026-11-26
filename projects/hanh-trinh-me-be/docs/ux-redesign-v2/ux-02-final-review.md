@@ -1,6 +1,6 @@
 # UX-02 final review — 26/11/2026
 
-Status: technical LIVE PASS; AC02.1 and AC02.2 CLOSED, AC02.3 OPEN. Owner approved all 40 fixtures as Regression Benchmark V1 on 26/11/2026 (ICT). Production gate CLOSED; PR #1 Draft. App 3b4c52f LIVE; post-deploy and privacy QA 45788595455 success.
+Status: UX-02 CLOSED — Combined DEV-only scope accepted by project owner on 26/11/2026 ICT. AC02.1/2/3 CLOSED (AC02.3 scoped, not strict infrastructure privacy PASS). Regression Benchmark V1 approved 40/40. PRB-UX02-PRIVACY OPEN/BLOCKING. App 3b4c52f LIVE, QA 45788595455 PASS. Production gate CLOSED; PR #1 Draft.
 
 ## AC02.2 — fixed regression benchmark V1, owner approved
 
@@ -77,3 +77,15 @@ Both probes passed empty-state and no-store/noindex/no-referrer assertions. Rend
 AC02.3 remains OPEN under the original no-personal-query-logging criterion. Technical safeguards PASS: POST excludes q from HTTP URL, no query forwarded to corpus/DB, no application query telemetry, no-store/no-referrer, fail-closed and filters/history. Existing arbitrary GET q remains a residual risk even if redirected to a fragment; a redirect cannot erase initial ingress. No new redirect or compatibility change in this checkpoint. Recommended next decision: (A) explicitly accept limited DEV-only privacy scope and document residual legacy/platform risk as a Production release blocker, or (B) retain original strict gate and obtain verifiable edge/request log redaction, including initial legacy GET and POST body handling. No scope waiver implied by benchmark approval. Do not upgrade plans, delete logs, or change infrastructure automatically. No production authorization.
 
 Current status: UX-02 technical LIVE PASS, 2/3 AC CLOSED; 1/10 sprint fully CLOSED. PR #1 remains Draft/unmerged, Production gate remains CLOSED. Evidence-only docs update; no application or schema changes, no redeployment requested.
+
+## Final owner scope acceptance — 26/11/2026 ICT
+
+Decision: “Tôi chấp thuận nghiệm thu AC02.3 trong phạm vi Combined DEV, giữ tương thích URL cũ và đưa việc xác minh privacy logging hạ tầng thành Production Release Blocker.” This explicitly supersedes the earlier OPEN acceptance status for Combined DEV only. AC02.3 CLOSED / DEV-SCOPE ACCEPTED, not a strict infrastructure privacy PASS. Legacy GET q remains supported without redirect changes. Existing Private POST, filters, history, fail-closed, no-store/noindex/no-referrer, synthetic canary evidence remain intact. No application, data, schema or infrastructure change. No authority to release Production.
+
+- [x] AC02.1 Unified Index: 219/219 unique, 72 legacy full-text.
+- [x] AC02.2 Relevance: owner-approved fixed 40 fixtures, Top 3 40/40, exact title 219/219.
+- [x] AC02.3 Combined DEV scoped acceptance: functional/privacy safeguards PASS; residual platform and legacy logging risk deferred to release blocker, not verified away.
+
+- [ ] PRB-UX02-PRIVACY — OPEN / BLOCKING: trước khi mở Production, xác minh và ghi bằng chứng về ingress/edge, proxy, application, APM/error tracing, log export và retention; bảo đảm query cá nhân không được ghi nguyên văn, kể cả legacy GET q tại ingress và POST body. Kiểm thử GET/POST synthetic trên môi trường release-equivalent được cấp phép, có positive control chứng minh request log quan sát được, kiểm tra marker/redaction và không dùng dữ liệu cá nhân thật. Nếu không thể xác minh hoặc redaction không khả thi, giữ Production gate CLOSED và trình chủ dự án phương án tương thích/giảm rủi ro. Không tự nâng gói, đổi cấu hình, xóa log hay mở Production.
+
+UX-02 CLOSED in Combined DEV, 3/3 AC accepted in scope; sprint 2/10 CLOSED. UX-03 Homepage next, not implemented in this checkpoint. Application SHA 3b4c52f remains LIVE (dep-dc3uu8qjnfac73b01idg); QA 1c2d968 5/5 PASS and run 45788595455 PASS. Authenticated preview SKIP because token unavailable; not represented as PASS. PR #1 remains Draft/unmerged and Production gate CLOSED. Documentation-only decision; new CI may be triggered but no redeployment requested.

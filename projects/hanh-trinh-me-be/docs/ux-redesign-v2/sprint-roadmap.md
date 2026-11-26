@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: IN PROGRESS · UX-01 PASS kỹ thuật DEV, 1/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01 và UX-02 CLOSED trong phạm vi DEV, 2/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -24,10 +24,10 @@ Dependency: none; gate kỹ thuật UX-01 đã đạt, mở dependency UX-02–0
 ### UX-02 · P0 · Unified search
 - [x] AC02.1: index đủ 219 từ nguồn hợp lệ, title/summary/topics/stage + nội dung phù hợp; legacy lấy live, không fallback draft trái phép; mỗi ID đúng một kết quả. Evidence: app `3b4c52f`, batch legacy 72 (full-text), 219 unique refs, [LIVE QA 45785858483](https://github.com/kios-saks/demo/actions/runs/45785858483), unit and PostgreSQL integration PASS.
 - [x] AC02.2: normalize dấu/đ, exact title > title tokens > tags/summary > body, synonym curated (ăn dặm, dậy thì, AI, tài chính, tuổi già), typo có ngưỡng; không sinh câu trả lời y tế. Cố định ≥30 query fixtures (≥10 mỗi kind, có dấu/không dấu, synonym, typo, zero result) cùng expected top 3 do UX/content duyệt; ≥90% truy vấn có đáp án đúng trong top 3 và 100% exact title unique tìm đúng.
-- [ ] AC02.3: filter age/topic/kind hợp lệ, clear, URL + browser history, empty/error khác nhau, không lộ raw data/token/nhạy cảm, không log query cá nhân. Evidence: unit/integration + live test.
+- [x] AC02.3: filter age/topic/kind hợp lệ, clear, URL + browser history, empty/error khác nhau, không lộ raw data/token/nhạy cảm, không log query cá nhân. Evidence: unit/integration + live test. CLOSED (Combined DEV-only, owner scope acceptance 26/11/2026): technical safeguards and synthetic canary PASS; legacy GET compatibility retained; strict infrastructure logging/redaction/retention not verified, transferred to mandatory Production Release Blocker PRB-UX02-PRIVACY (OPEN). Không coi ngoại lệ phạm vi DEV là strict privacy PASS.
 Dependency: UX-01.
 
-**UX-02 Full-text LIVE — technical QA PASS, owner benchmark approved (26/11/2026):** App `3b4c52f` LIVE, CI `1c2d968` 5/5 PASS; [QA 45788595455](https://github.com/kios-saks/demo/actions/runs/45788595455) PASS: 219 refs, 72 legacy full-text, privatePost:true. AC02.1 CLOSED. AC02.2 CLOSED: chủ dự án phê duyệt toàn bộ 40 fixtures làm Regression Benchmark V1 ngày 26/11/2026; 40/40 Top 3 và 219/219 exact title, giữ nguyên fixture và ngưỡng. AC02.3 technical PASS, synthetic GET/POST HTTP 200, không phát hiện marker trong log quan sát được; không có request-log positive control nên chưa xác minh hạ tầng và legacy GET. [Final review](ux-02-final-review.md). Giữ UX-02 OPEN (2/3 AC CLOSED), 1/10 sprint. Authenticated preview SKIP thiếu token, Production gate đóng, PR #1 Draft.
+**UX-02 CLOSED — Combined DEV-only acceptance (26/11/2026):** App `3b4c52f` LIVE; CI `1c2d968` 5/5 PASS; [QA 45788595455](https://github.com/kios-saks/demo/actions/runs/45788595455) PASS 219 refs, 72 legacy full-text, privatePost:true, synthetic GET/POST HTTP 200. AC02.1 CLOSED; AC02.2 CLOSED (40 approved fixtures V1, Top 3 40/40, exact title 219/219); AC02.3 CLOSED trong phạm vi Combined DEV theo quyết định chủ dự án, giữ URL cũ. Strict privacy hạ tầng chưa xác minh: PRB-UX02-PRIVACY OPEN/BLOCKING trước Production. Authenticated preview SKIP thiếu token, không đổi thành PASS. [Final review](ux-02-final-review.md). Sprint 2/10 CLOSED, UX-03 tiếp theo. Production gate CLOSED; PR #1 Draft.
 
 ### UX-03 · P0 · Homepage
 - [ ] AC03.1: ở 390×844, search và lối chọn nhóm tuổi nhận biết không cần cuộn quá một viewport; không hero quá cao, không pop-up/ép đăng nhập; có đường đến A–Z và tìm kiếm chính.
@@ -96,3 +96,8 @@ Dependency: bắt đầu đợt 0, final sau UX-03–09.
 | Cá nhân hóa thành thu thập nhạy cảm | Local opt-in, clear, không analytics query |
 | Ẩn giới hạn chuyên môn vì polish | Giữ disclaimer, nguồn/AI labels; expert approval ngoài scope |
 | Mẫu test nhỏ / không có field metric | Báo định tính, counts, N/A; không suy diễn conversion |
+
+
+### Production release gate — privacy
+
+- [ ] PRB-UX02-PRIVACY — OPEN / BLOCKING: trước khi mở Production, xác minh và ghi bằng chứng về ingress/edge, proxy, application, APM/error tracing, log export và retention; bảo đảm query cá nhân không được ghi nguyên văn, kể cả legacy GET q tại ingress và POST body. Kiểm thử GET/POST synthetic trên môi trường release-equivalent được cấp phép, có positive control chứng minh request log quan sát được, kiểm tra marker/redaction và không dùng dữ liệu cá nhân thật. Nếu không thể xác minh hoặc redaction không khả thi, giữ Production gate CLOSED và trình chủ dự án phương án tương thích/giảm rủi ro. Không tự nâng gói, đổi cấu hình, xóa log hay mở Production.

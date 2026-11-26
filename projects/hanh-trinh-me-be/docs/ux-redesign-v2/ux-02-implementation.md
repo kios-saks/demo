@@ -59,3 +59,15 @@ Audit: existing /tim-kiem in designated Combined DEV rewrites to reader-library 
 ## Owner approval / privacy audit completed
 - Owner approved all 40 benchmark fixtures as Regression Benchmark V1 on 26/11/2026; AC02.2 CLOSED. See [approved benchmark and synthetic audit](ux-02-final-review.md).
 - QA commit 1c2d968 CI 5/5 PASS; LIVE run 45788595455 (job 139801597243) confirms full-text search and UX02_PRIVACY_CANARY_HTTP_PASS. Synthetic GET and POST both 200, request IDs recorded. Render exact-window application and request log filters returned zero; no positive request-log visibility, so absence of platform logging remains unverified. AC02.3 OPEN; 2/3 AC CLOSED. No scope waiver, no app/infrastructure changes, no Production authorization.
+
+## Final owner scope acceptance — 26/11/2026 ICT
+
+Decision: “Tôi chấp thuận nghiệm thu AC02.3 trong phạm vi Combined DEV, giữ tương thích URL cũ và đưa việc xác minh privacy logging hạ tầng thành Production Release Blocker.” This explicitly supersedes the earlier OPEN acceptance status for Combined DEV only. AC02.3 CLOSED / DEV-SCOPE ACCEPTED, not a strict infrastructure privacy PASS. Legacy GET q remains supported without redirect changes. Existing Private POST, filters, history, fail-closed, no-store/noindex/no-referrer, synthetic canary evidence remain intact. No application, data, schema or infrastructure change. No authority to release Production.
+
+- [x] AC02.1 Unified Index: 219/219 unique, 72 legacy full-text.
+- [x] AC02.2 Relevance: owner-approved fixed 40 fixtures, Top 3 40/40, exact title 219/219.
+- [x] AC02.3 Combined DEV scoped acceptance: functional/privacy safeguards PASS; residual platform and legacy logging risk deferred to release blocker, not verified away.
+
+- [ ] PRB-UX02-PRIVACY — OPEN / BLOCKING: trước khi mở Production, xác minh và ghi bằng chứng về ingress/edge, proxy, application, APM/error tracing, log export và retention; bảo đảm query cá nhân không được ghi nguyên văn, kể cả legacy GET q tại ingress và POST body. Kiểm thử GET/POST synthetic trên môi trường release-equivalent được cấp phép, có positive control chứng minh request log quan sát được, kiểm tra marker/redaction và không dùng dữ liệu cá nhân thật. Nếu không thể xác minh hoặc redaction không khả thi, giữ Production gate CLOSED và trình chủ dự án phương án tương thích/giảm rủi ro. Không tự nâng gói, đổi cấu hình, xóa log hay mở Production.
+
+UX-02 CLOSED in Combined DEV, 3/3 AC accepted in scope; sprint 2/10 CLOSED. UX-03 Homepage next, not implemented in this checkpoint. Application SHA 3b4c52f remains LIVE (dep-dc3uu8qjnfac73b01idg); QA 1c2d968 5/5 PASS and run 45788595455 PASS. Authenticated preview SKIP because token unavailable; not represented as PASS. PR #1 remains Draft/unmerged and Production gate CLOSED. Documentation-only decision; new CI may be triggered but no redeployment requested.
