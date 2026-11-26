@@ -52,3 +52,22 @@ test("infant safe sleep references are distinct from general sleep advice",()=>{
 
  test("04J later life coverage, depth, draft and source integrity",()=>{const rows=p.revisions04j;assert.equal(rows.length,16);assert.equal(new Set(rows.map(x=>x.key)).size,16);const norm=u=>u.replace(/\/$/,"");const bodies=[];for(const e of rows){const id=e.key.split(":")[1],x=b.articles.find(y=>y.id===id),ref=i.refs.find(y=>y.kind==="article"&&y.id===id);assert(x&&ref);assert.equal(x.status,"draft");assert.equal(e.expertReviewed,false);assert.equal(e.after,x.sections.map(s=>s.body).join(" ").trim().split(/\s+/).length);assert(e.after>=500);assert(x.sections.length>=8&&x.practice.length>=5);assert.equal(new Set(x.sections.map(s=>s.heading)).size,x.sections.length);assert.equal(ref.sectionCount,x.sections.length);assert.equal(ref.sourceCount,x.sourceIds.length);assert(x.sourceIds.every(k=>b.sources[k]));assert(x.sections.every(s=>s.sourceIds.every(k=>x.sourceIds.includes(k))));assert(e.sourceChecks.length&&e.sourceChecks.every(s=>x.sourceIds.some(k=>norm(b.sources[k].url)===norm(s.url))));assert(p.items.some(y=>y.key===e.key&&y.batch==="S04-AZ-04J"&&y.status==="revised-draft"));bodies.push(...x.sections.slice(4).map(s=>s.body.trim().replace(/\s+/g," ")));}assert.equal(new Set(bodies).size,64);console.log("LIFE_COURSE_04J_REVISION_PASS");});
  test("S04-AZ-04 editorial completion keeps all 219 inventory entries as drafts",()=>{assert.equal(p.items.length,219);assert.equal(p.items.filter(x=>x.status==="revised-draft").length,216);assert.equal(p.items.filter(x=>x.status==="expanded-draft").length,3);assert.equal(p.items.filter(x=>x.status==="queued").length,0);assert.equal(new Set(p.items.map(x=>x.key)).size,219);assert.equal(i.refs.length,219);assert(i.refs.every(x=>p.items.some(y=>y.key===x.kind+":"+x.id)));assert(p.items.every(x=>x.expertReviewed===false));assert(i.refs.every(x=>x.status==="draft"));assert.equal(i.stats.partial,173);assert.equal(i.stats.gaps,0);console.log("LIFE_COURSE_04_EDITORIAL_COMPLETE_PASS");});
+
+test("Content Pipeline Recovery preserves 72 legacy depth and central source registry",()=>{
+ const g=read("../packages/content/articles.json"),registry=read("../packages/content/mock/sources.json"),manifest=read("../packages/content/mock/manifest.json");
+ const norm=u=>u.replace(/\/+$/,"").toLowerCase(),urls=new Set(registry.map(x=>norm(x.url)));
+ assert.equal(g.articles.length,72);
+ assert.equal(manifest.publicationAllowed,false);assert.equal(manifest.clinicalClaimsVerified,false);
+ for(const x of g.articles){
+  assert.equal(x.status,"draft");assert(!x.lastReviewed);
+  assert(x.sections.length>=10&&x.sections.flatMap(s=>s.paragraphs).join(" ").trim().split(/\s+/).length>=900,"Legacy depth "+x.slug);
+  assert(x.sources.length>=2&&x.sources.every(s=>urls.has(norm(s.url))),"Registry coverage "+x.slug);
+  const ref=i.refs.find(r=>r.kind==="legacy"&&r.id===x.slug);assert(ref);assert.equal(ref.sectionCount,x.sections.length);assert.equal(ref.sourceCount,x.sources.length);
+ }
+ for(const r of registry)assert.equal(r.clinicalApproval,false);
+ const recovery=p.contentPipelineRecovery;assert.equal(recovery.depthRepairs.length,14);assert.equal(recovery.sourceRegistryAdditions.length,42);
+ for(const e of recovery.depthRepairs){const x=g.articles.find(y=>"legacy:"+y.slug===e.key);assert(x);assert.equal(e.after,x.sections.flatMap(s=>s.paragraphs).join(" ").trim().split(/\s+/).length);assert(e.after>=900&&e.after>e.before);assert.equal(e.expertReviewed,false);}
+ for(const e of recovery.sourceRegistryAdditions){assert(registry.some(r=>r.id===e.id&&norm(r.url)===norm(e.url)&&!r.clinicalApproval));assert(e.articles.every(slug=>g.articles.find(x=>x.slug===slug)?.sources.some(s=>norm(s.url)===norm(e.url))));}
+ assert.equal(new Set(recovery.sourceRegistryAdditions.flatMap(e=>e.articles)).size,53);
+ console.log("CONTENT_PIPELINE_RECOVERY_DATA_PASS");
+});

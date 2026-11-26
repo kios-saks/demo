@@ -14,7 +14,7 @@
 .article-card:has(.article-card-visual){overflow:hidden;padding-top:0}
 .article-card-visual{display:block;width:calc(100% + 46px);height:auto;aspect-ratio:16/9;object-fit:contain;margin:0 -23px 20px}
 .article-cover{margin:30px 0 36px}.article-cover img,.article-infographic img{display:block;width:100%;height:auto;border-radius:18px;background:#fdf4f5}
-.article-cover img{aspect-ratio:auto;object-fit:contain}
+.article-cover img,.article-infographic img{aspect-ratio:auto;object-fit:contain}
 .article-cover figcaption,.article-infographic figcaption{font-size:11px;color:#847382;margin-top:10px}
 .quick-takeaway{border:1px solid #efd7dc;border-radius:19px;background:linear-gradient(115deg,#fff1ed,#fce8f0);padding:24px 28px;margin:30px 0}
 .quick-takeaway h2{font-size:20px;margin:0 0 12px}.quick-takeaway ul{margin:0;padding-left:21px}.quick-takeaway li{font-size:14px;padding:5px 0}

@@ -6,7 +6,9 @@
  *   node scripts/expand-depth-content.mjs --check
  *
  * This script is editorial DRAFT ONLY and never changes publication status.
- * Existing 8 pilot long-form articles are preserved as-is.
+ * Historical briefs are retained for reproducibility of the initial expansion.
+ * After S04-AZ-04 revisions, committed edited articles and revision ledger are canonical;
+ * never regenerate removed shared sections or overwrite later editorial changes.
  */
 import assert from "node:assert/strict";
 import {readFileSync,writeFileSync} from "node:fs";
@@ -39,6 +41,38 @@ const headings={
 const originalPilot=new Set(deepPilot.articles.map(a=>a.slug));
 assert.equal(originalPilot.size,8,"Keep the eight previously authored longform drafts");
 const terms=Object.keys(headings);
+const revisionProgress=read("docs/life-course-quality-progress.json");
+const inventory=read("apps/web/app/hoc-cung-con/life-course-inventory.json");
+const revised=new Map();
+for(const rows of Object.values(revisionProgress)){
+ if(!Array.isArray(rows))continue;
+ for(const e of rows){
+  if(!e.key?.startsWith("legacy:")||!Array.isArray(e.sourceChecks))continue;
+  assert(!revised.has(e.key.slice(7)),"Duplicate legacy revision "+e.key);
+  revised.set(e.key.slice(7),e);
+ }
+}
+const canonical=url=>url.replace(/\/+$/,"").toLowerCase();
+function checkRevision(article,e){
+ const ref=inventory.refs.find(x=>x.kind==="legacy"&&x.id===article.slug);
+ const progress=revisionProgress.items.find(x=>x.key===e.key);
+ assert.equal(article.status,"draft");
+ assert(!article.lastReviewed,"No implied clinical approval");
+ assert.equal(e.expertReviewed,false);
+ assert.equal(progress?.status,"revised-draft");
+ assert.equal(progress?.expertReviewed,false);
+ assert(ref&&ref.status==="draft","Missing draft inventory "+article.slug);
+ assert.equal(ref.sectionCount,article.sections.length,"Inventory section count "+article.slug);
+ assert.equal(ref.sourceCount,article.sources.length,"Inventory source count "+article.slug);
+ assert(article.sections.some(s=>s.heading===e.addedSection),"Missing edited section "+article.slug);
+ for(const h of e.removedSharedSections||[])assert(!article.sections.some(s=>s.heading===h),"Removed shared section restored "+article.slug);
+ assert(e.sourceChecks.length>0&&e.sourceChecks.every(s=>article.sources.some(x=>canonical(x.url)===canonical(s.url))),"Revision source missing "+article.slug);
+ assert(article.sections.length>=10&&wordCount(article)>=minWords,"Revised draft below longform threshold "+article.slug);
+ assert.equal(new Set(article.sections.map(s=>s.heading)).size,article.sections.length,"Duplicate heading "+article.slug);
+ assert(article.sections.every(s=>s.paragraphs.length&&s.paragraphs.every(p=>p.trim())),"Empty section "+article.slug);
+ assert(article.sources.length>=2&&article.readMinutes>=5,"Incomplete longform metadata "+article.slug);
+}
+
 const wordCount=article=>article.sections.flatMap(s=>s.paragraphs).join(" ").trim().split(/\s+/).length;
 const minWords=900;
 function additions(article){
@@ -65,6 +99,8 @@ function additions(article){
 }
 let changed=0;
 for(const article of data.articles){
+ const revision=revised.get(article.slug);
+ if(revision){checkRevision(article,revision);continue;}
  if(originalPilot.has(article.slug))continue;
  assert.equal(article.status,"draft","Refuse to edit a published article");
  const added=additions(article);
@@ -86,11 +122,11 @@ for(const article of data.articles){
 assert.equal(data.articles.length,72);
 assert(data.articles.every(a=>a.status==="draft"),"Draft visibility must be unchanged");
 assert(data.articles.every(a=>wordCount(a)>=minWords && a.sections.length>=10),"Not all 72 articles are long-form");
-data.version="2026-11-24-longform-72-v1";
+if(changed)data.version="2026-11-24-longform-72-v1";
 if(process.argv.includes("--check")){
  assert.equal(changed,0,"Long-form source briefs have not yet been generated and committed");
- console.log("PASS 72/72 long-form drafts; 64 reproducible source briefs, each >=900 words; 8 pilot articles preserved");
+ console.log("PASS 72/72 long-form drafts; 64 historical briefs retained, "+revised.size+" editorial revisions validated, all >=900 words and draft");
 }else{
- writeFileSync(articleFile,JSON.stringify(data,null,2)+"\n");
+ if(changed)writeFileSync(articleFile,JSON.stringify(data,null,2)+"\n");
  console.log("Generated "+changed+" long-form expansions. Total 72/72 authored drafts.");
 }

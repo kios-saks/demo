@@ -7150,5 +7150,585 @@
       "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
     ],
     "note": "Ledger 04J ghi nguồn truy cập và trích đoạn PDF riêng; chưa tính union cộng dồn với toàn bộ ledger lịch sử, giữ số 04I. Không đồng nghĩa thẩm định claim."
+  },
+  "contentPipelineRecovery": {
+    "date": "2026-11-26",
+    "baseCommit": "de9126fd2a562c6c845717c924493f2c26ac7e0b",
+    "depthRepairs": [
+      {
+        "key": "legacy:cuoc-tro-chuyen-truoc-khi-co-con",
+        "before": 890,
+        "after": 1011,
+        "section": "Năm cuộc trò chuyện và quyết định cần ghi lại",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:lan-kham-thai-dau-tien",
+        "before": 881,
+        "after": 993,
+        "section": "Từ lúc biết có thai đến lần khám đầu",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:cam-xuc-dau-thai-ky",
+        "before": 878,
+        "after": 991,
+        "section": "Cách nói về cảm xúc mà không tạo áp lực",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:nhat-ky-thai-ky",
+        "before": 843,
+        "after": 967,
+        "section": "Nhật ký ba dòng thay vì theo dõi mọi thứ",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:dong-hanh-khi-mang-thai",
+        "before": 834,
+        "after": 954,
+        "section": "Hỗ trợ theo yêu cầu, không quyết định thay",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:tui-do-di-sinh",
+        "before": 848,
+        "after": 962,
+        "section": "Chia túi theo lúc cần dùng",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:ke-hoach-ho-tro-sau-sinh",
+        "before": 817,
+        "after": 942,
+        "section": "Kế hoạch hỗ trợ hai tuần: việc và người dự phòng",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:nguoi-me-cung-can-duoc-cham-soc",
+        "before": 840,
+        "after": 963,
+        "section": "Hỏi mẹ mỗi ngày về nhu cầu chăm sóc của chính mình",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:chia-viec-trong-gia-dinh",
+        "before": 813,
+        "after": 938,
+        "section": "Bảng phân việc có thời gian nghỉ và người thay ca",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:lam-quen-nhip-sinh-hoat-so-sinh",
+        "before": 837,
+        "after": 963,
+        "section": "Bàn giao một ngày theo tín hiệu của bé",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:nhung-cau-hoi-khi-cham-be",
+        "before": 817,
+        "after": 942,
+        "section": "Mười câu hỏi để mang tới lần khám",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:moc-phat-trien-khong-phai-cuoc-dua",
+        "before": 853,
+        "after": 973,
+        "section": "Cách sử dụng checklist mà không tự chẩn đoán",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:hoc-thong-qua-choi",
+        "before": 898,
+        "after": 1009,
+        "section": "Chơi do trẻ dẫn dắt: một buổi ở nhà",
+        "expertReviewed": false
+      },
+      {
+        "key": "legacy:chuan-bi-ngay-dau-di-hoc",
+        "before": 881,
+        "after": 996,
+        "section": "Kịch bản ngày đầu: từ tối hôm trước đến lúc đón",
+        "expertReviewed": false
+      }
+    ],
+    "sourceRegistryAdditions": [
+      {
+        "id": "az04-recovery-01",
+        "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+        "sourceReview": [
+          "opened-overview"
+        ],
+        "articles": [
+          "hoc-thong-qua-choi"
+        ]
+      },
+      {
+        "id": "az04-recovery-02",
+        "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dong-hanh-viec-hoc",
+          "thoi-quen-hoc-tap-tieu-hoc"
+        ]
+      },
+      {
+        "id": "az04-recovery-03",
+        "url": "https://tongdai111.vn/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "giao-tiep-gioi-han-khong-don-roi"
+        ]
+      },
+      {
+        "id": "az04-recovery-04",
+        "url": "https://tongdai111.vn/sites/gioi-thieu",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-ve-day-thi",
+          "an-toan-so-cung-con",
+          "phong-chong-bat-nat-o-truong",
+          "suc-khoe-tinh-than-tuoi-thieu-nien",
+          "noi-chuyen-day-thi-tinh-duc-an-toan",
+          "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen"
+        ]
+      },
+      {
+        "id": "az04-recovery-05",
+        "url": "https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-1-2-years.html",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "con-an-va-tu-lap-khi-tap-di"
+        ]
+      },
+      {
+        "id": "az04-recovery-06",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "lan-kham-thai-dau-tien",
+          "cam-xuc-dau-thai-ky",
+          "nhat-ky-thai-ky",
+          "dong-hanh-khi-mang-thai",
+          "tui-do-di-sinh",
+          "ke-hoach-ho-tro-sau-sinh",
+          "nguoi-me-cung-can-duoc-cham-soc",
+          "chia-viec-trong-gia-dinh",
+          "lich-kham-thai-ba-thang-dau",
+          "om-nghen-va-an-uong-dau-thai-ky",
+          "suc-khoe-tinh-than-ba-thang-dau",
+          "dau-hieu-nguy-hiem-dau-thai-ky",
+          "kham-thai-ba-thang-giua",
+          "van-dong-an-toan-khi-mang-thai",
+          "chat-luong-giac-ngu-ba-thang-giua",
+          "ke-hoach-sinh-an-toan",
+          "dau-hieu-can-di-vien-cuoi-thai-ky",
+          "thai-may-va-theo-doi-thai-cuoi-ky",
+          "chuan-bi-sau-sinh-dinh-duong-cham-soc",
+          "dau-hieu-canh-bao-sau-sinh",
+          "hoi-phuc-sau-sinh-mo-va-sinh-thuong",
+          "tam-trang-sau-sinh-va-tram-cam"
+        ]
+      },
+      {
+        "id": "az04-recovery-07",
+        "url": "https://www.cdc.gov/parenting-toddlers/noticing-and-naming/emotion-coaching.html",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "khi-con-noi-khong",
+          "cam-xuc-an-va-khung-hoang-tuoi-len-hai"
+        ]
+      },
+      {
+        "id": "az04-recovery-08",
+        "url": "https://www.cdc.gov/sleep/about/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "thoi-quen-hoc-tap-tieu-hoc",
+          "giac-ngu-hoc-sinh-tieu-hoc",
+          "thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+        ]
+      },
+      {
+        "id": "az04-recovery-09",
+        "url": "https://www.cdc.gov/vaccine-safety/about/pregnancy.html",
+        "sourceReview": [
+          "search-only"
+        ],
+        "articles": [
+          "thuoc-tiem-chung-va-ke-hoach-thai-ky"
+        ]
+      },
+      {
+        "id": "az04-recovery-10",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dong-hanh-khi-con-tu-lap",
+          "ke-hoach-tu-lap-sau-muoi-tam-tuoi",
+          "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh"
+        ]
+      },
+      {
+        "id": "az04-recovery-11",
+        "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "goc-choi-kham-pha-an-toan",
+          "con-an-va-tu-lap-khi-tap-di",
+          "an-toan-trong-nha-khi-tre-tap-di"
+        ]
+      },
+      {
+        "id": "az04-recovery-12",
+        "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/home-safety-heres-how.aspx",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "goc-choi-kham-pha-an-toan",
+          "an-toan-trong-nha-khi-tre-tap-di"
+        ]
+      },
+      {
+        "id": "az04-recovery-13",
+        "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "an-toan-chong-sac-khi-an-dam"
+        ]
+      },
+      {
+        "id": "az04-recovery-14",
+        "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-ve-day-thi"
+        ]
+      },
+      {
+        "id": "az04-recovery-15",
+        "url": "https://www.nhs.uk/conditions/periods/period-problems/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-ve-day-thi"
+        ]
+      },
+      {
+        "id": "az04-recovery-16",
+        "url": "https://www.nhs.uk/mental-health/conditions/postnatal-depression/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "tam-trang-sau-sinh-va-tram-cam"
+        ]
+      },
+      {
+        "id": "az04-recovery-17",
+        "url": "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/",
+        "sourceReview": [
+          "search-only"
+        ],
+        "articles": [
+          "chat-luong-giac-ngu-ba-thang-giua"
+        ]
+      },
+      {
+        "id": "az04-recovery-18",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+        "sourceReview": [
+          "search-only"
+        ],
+        "articles": [
+          "van-dong-an-toan-khi-mang-thai"
+        ]
+      },
+      {
+        "id": "az04-recovery-19",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dau-hieu-can-di-vien-cuoi-thai-ky",
+          "thai-may-va-theo-doi-thai-cuoi-ky"
+        ]
+      },
+      {
+        "id": "az04-recovery-20",
+        "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "nhung-cau-hoi-khi-cham-be",
+          "dau-hieu-nguy-hiem-o-tre-so-sinh"
+        ]
+      },
+      {
+        "id": "az04-recovery-21",
+        "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+        "sourceReview": [
+          "opened-overview"
+        ],
+        "articles": [
+          "ke-hoach-tu-lap-sau-muoi-tam-tuoi"
+        ]
+      },
+      {
+        "id": "az04-recovery-22",
+        "url": "https://www.unesco.org/en/lifelong-learning",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dong-hanh-khi-con-tu-lap"
+        ]
+      },
+      {
+        "id": "az04-recovery-23",
+        "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "lam-quen-truong-mam-non",
+          "giao-tiep-gioi-han-khong-don-roi"
+        ]
+      },
+      {
+        "id": "az04-recovery-24",
+        "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "choi-va-tuong-tac-voi-be"
+        ]
+      },
+      {
+        "id": "az04-recovery-25",
+        "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "chuan-bi-ngay-dau-di-hoc",
+          "lam-quen-truong-mam-non"
+        ]
+      },
+      {
+        "id": "az04-recovery-26",
+        "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "an-toan-so-cung-con",
+          "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen"
+        ]
+      },
+      {
+        "id": "az04-recovery-27",
+        "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-ve-day-thi"
+        ]
+      },
+      {
+        "id": "az04-recovery-28",
+        "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "suc-khoe-tinh-than-tuoi-thieu-nien",
+          "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen",
+          "giao-tiep-voi-con-tuoi-teen"
+        ]
+      },
+      {
+        "id": "az04-recovery-29",
+        "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dong-hanh-viec-hoc",
+          "an-toan-so-cung-con",
+          "thoi-quen-hoc-tap-tieu-hoc",
+          "an-toan-mang-xa-hoi-va-bat-nat-truc-tuyen"
+        ]
+      },
+      {
+        "id": "az04-recovery-30",
+        "url": "https://www.unicef.org/vietnam/vi/nh%E1%BB%AFng-c%C3%A2u-chuy%E1%BB%87n/%C3%A1p-d%E1%BB%A5ng-k%E1%BB%B7-lu%E1%BA%ADt-t%C3%ADch-c%E1%BB%B1c-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-tr%E1%BA%BB-em",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "khi-con-noi-khong",
+          "cam-xuc-an-va-khung-hoang-tuoi-len-hai"
+        ]
+      },
+      {
+        "id": "az04-recovery-31",
+        "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "van-dong-cho-tre-tieu-hoc"
+        ]
+      },
+      {
+        "id": "az04-recovery-32",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "suc-khoe-tinh-than-tuoi-thieu-nien",
+          "giao-tiep-voi-con-tuoi-teen"
+        ]
+      },
+      {
+        "id": "az04-recovery-33",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-ve-day-thi",
+          "noi-chuyen-day-thi-tinh-duc-an-toan"
+        ]
+      },
+      {
+        "id": "az04-recovery-34",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-day-thi-tinh-duc-an-toan"
+        ]
+      },
+      {
+        "id": "az04-recovery-35",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "giu-ket-noi-gia-dinh",
+          "thoi-quen-suc-khoe-o-tuoi-truong-thanh",
+          "quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+        ]
+      },
+      {
+        "id": "az04-recovery-36",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-day-thi-tinh-duc-an-toan"
+        ]
+      },
+      {
+        "id": "az04-recovery-37",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "dong-hanh-khi-con-tu-lap",
+          "giu-ket-noi-gia-dinh",
+          "quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+        ]
+      },
+      {
+        "id": "az04-recovery-38",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+        ]
+      },
+      {
+        "id": "az04-recovery-39",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "ke-hoach-tu-lap-sau-muoi-tam-tuoi"
+        ]
+      },
+      {
+        "id": "az04-recovery-40",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "noi-chuyen-day-thi-tinh-duc-an-toan"
+        ]
+      },
+      {
+        "id": "az04-recovery-41",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "quyen-rieng-tu-va-ranh-gioi-voi-gia-dinh",
+          "quan-he-tinh-than-va-ho-tro-khi-truong-thanh"
+        ]
+      },
+      {
+        "id": "az04-recovery-42",
+        "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+        "sourceReview": [
+          "opened"
+        ],
+        "articles": [
+          "thoi-quen-suc-khoe-o-tuoi-truong-thanh"
+        ]
+      }
+    ],
+    "note": "Historical revision counts retained; recovery adds separate after counts. No clinical approval or publication."
   }
 }

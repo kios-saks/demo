@@ -19,12 +19,12 @@ async function layout(page,width){
    viewport:innerWidth,width:document.documentElement.scrollWidth,
    nav:getComputedStyle(document.querySelector(".mobile-reader-nav")).display,
    groups:document.querySelector(".home-stage-groups")?getComputedStyle(document.querySelector(".home-stage-groups")).gridTemplateColumns.split(" ").length:null,
-   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img,.editorial-stage-image,.infographic-figure img,.contextual-photo img")].map(img=>getComputedStyle(img).objectFit)
+   images:[...document.querySelectorAll(".home-hero-image,.group-image,.item .thumb,.article-cover img,.editorial-stage-image,.infographic-figure img,.contextual-photo img")].map(img=>({src:img.getAttribute("src"),fit:getComputedStyle(img).objectFit}))
  }));
  assert(metrics.width<=metrics.viewport+1,"Horizontal overflow at "+width+": "+JSON.stringify(metrics));
  assert.equal(metrics.nav==="none",width>768,"Responsive navigation "+width);
  if(metrics.groups!==null)assert.equal(metrics.groups,width<=768?2:3,"Responsive stage columns "+width);
- assert(metrics.images.every(fit=>fit==="contain"),"Cover image cropped at "+width);
+ assert(metrics.images.every(image=>image.fit==="contain"),"Non-contained reader image at "+width+": "+JSON.stringify(metrics.images.filter(image=>image.fit!=="contain")));
 }
 try{
  const context=await browser.newContext({viewport:{width:390,height:844}});

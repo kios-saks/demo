@@ -964,5 +964,767 @@
     "usage": "url-and-curated-metadata-only",
     "clinicalApproval": false,
     "notice": "Nguồn đọc thêm do dự án tổng hợp. Không phải tổ chức NHS đã duyệt bản thảo."
+  },
+  {
+    "id": "az04-recovery-01",
+    "publisher": "Harvard",
+    "title": "Harvard — Brain-Building Through Play",
+    "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened-overview. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-02",
+    "publisher": "EEF",
+    "title": "EEF — Metacognition and self-regulation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-03",
+    "publisher": "Tổng đài bảo vệ trẻ em 111",
+    "title": "Tổng đài bảo vệ trẻ em 111",
+    "url": "https://tongdai111.vn/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "vi",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-04",
+    "publisher": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+    "title": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+    "url": "https://tongdai111.vn/sites/gioi-thieu",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien",
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "vi",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-05",
+    "publisher": "CDC",
+    "title": "CDC — Positive Parenting Tips: Toddlers (1–2 years old)",
+    "url": "https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-1-2-years.html",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-06",
+    "publisher": "CDC",
+    "title": "CDC – Urgent Maternal Warning Signs and Symptoms",
+    "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "hau-san",
+      "thai-ky-3-thang-cuoi",
+      "thai-ky-3-thang-dau",
+      "thai-ky-3-thang-giua"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-07",
+    "publisher": "CDC",
+    "title": "CDC — Tips for Noticing and Naming Emotions",
+    "url": "https://www.cdc.gov/parenting-toddlers/noticing-and-naming/emotion-coaching.html",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-08",
+    "publisher": "CDC",
+    "title": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tieu-hoc",
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-09",
+    "publisher": "CDC",
+    "title": "CDC — Pregnancy and vaccines",
+    "url": "https://www.cdc.gov/vaccine-safety/about/pregnancy.html",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "chuan-bi-mang-thai"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: search-only. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-10",
+    "publisher": "CFPB",
+    "title": "CFPB — Your Money, Your Goals toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-11",
+    "publisher": "AAP",
+    "title": "AAP — Choking Prevention for Babies & Children",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-12",
+    "publisher": "AAP",
+    "title": "AAP — Home Safety: Tips for Families With Young Children",
+    "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/home-safety-heres-how.aspx",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-13",
+    "publisher": "NHS",
+    "title": "NHS — How to stop a child from choking",
+    "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "nhu-nhi"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-14",
+    "publisher": "NHS",
+    "title": "NHS — Early or delayed puberty",
+    "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-15",
+    "publisher": "NHS",
+    "title": "NHS — Period problems",
+    "url": "https://www.nhs.uk/conditions/periods/period-problems/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-16",
+    "publisher": "NHS",
+    "title": "NHS — Postnatal depression",
+    "url": "https://www.nhs.uk/mental-health/conditions/postnatal-depression/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "hau-san"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-17",
+    "publisher": "NHS",
+    "title": "NHS — Tiredness and sleep problems in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thai-ky-3-thang-giua"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: search-only. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-18",
+    "publisher": "NHS",
+    "title": "NHS — Exercise in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thai-ky-3-thang-giua"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: search-only. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-19",
+    "publisher": "NHS",
+    "title": "NHS — Your baby's movements",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thai-ky-3-thang-cuoi"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-20",
+    "publisher": "NHS",
+    "title": "NHS — High temperature in children",
+    "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "so-sinh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-21",
+    "publisher": "UNESCO",
+    "title": "UNESCO — Guidance for generative AI in education and research",
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened-overview. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-22",
+    "publisher": "UNESCO",
+    "title": "UNESCO — Lifelong learning",
+    "url": "https://www.unesco.org/en/lifelong-learning",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-23",
+    "publisher": "UNICEF Asia Pacific",
+    "title": "UNICEF Asia Pacific — Positive parenting",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-24",
+    "publisher": "UNICEF",
+    "title": "UNICEF — Learning activities for babies and toddlers",
+    "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "nhu-nhi"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-25",
+    "publisher": "UNICEF",
+    "title": "UNICEF — Managing child separation anxiety",
+    "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "mam-non"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-26",
+    "publisher": "UNICEF Việt Nam",
+    "title": "UNICEF Việt Nam — Cyberbullying",
+    "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-27",
+    "publisher": "UNICEF Việt Nam",
+    "title": "UNICEF Việt Nam — Mental health conversation starters 11–13 years",
+    "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-28",
+    "publisher": "UNICEF Việt Nam",
+    "title": "UNICEF Việt Nam — Mental health conversation starters 14–18 years",
+    "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1418-years",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-29",
+    "publisher": "UNICEF Việt Nam",
+    "title": "UNICEF Việt Nam — Parenting in the AI age",
+    "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien",
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-30",
+    "publisher": "UNICEF Việt Nam",
+    "title": "UNICEF Việt Nam — Áp dụng kỷ luật tích cực đối với sự phát triển của trẻ em",
+    "url": "https://www.unicef.org/vietnam/vi/nh%E1%BB%AFng-c%C3%A2u-chuy%E1%BB%87n/%C3%A1p-d%E1%BB%A5ng-k%E1%BB%B7-lu%E1%BA%ADt-t%C3%ADch-c%E1%BB%B1c-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-tr%E1%BA%BB-em",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tap-di"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "vi",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-31",
+    "publisher": "WHO Europe",
+    "title": "WHO Europe — Physical activity",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "tieu-hoc"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-32",
+    "publisher": "WHO",
+    "title": "WHO — Mental health of adolescents",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-33",
+    "publisher": "WHO",
+    "title": "WHO — Comprehensive sexuality education",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-34",
+    "publisher": "WHO",
+    "title": "WHO — Condoms",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-35",
+    "publisher": "WHO",
+    "title": "WHO — Depressive disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-36",
+    "publisher": "WHO",
+    "title": "WHO — Emergency contraception",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-37",
+    "publisher": "WHO",
+    "title": "WHO — Mental disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-38",
+    "publisher": "WHO",
+    "title": "WHO — Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-39",
+    "publisher": "WHO",
+    "title": "WHO — Road traffic injuries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-40",
+    "publisher": "WHO",
+    "title": "WHO — Sexually transmitted infections",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "thieu-nien"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-41",
+    "publisher": "WHO",
+    "title": "WHO — Violence against women",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
+  },
+  {
+    "id": "az04-recovery-42",
+    "publisher": "WHO Việt Nam",
+    "title": "WHO Việt Nam — Healthy diet",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+    "publicationYear": "",
+    "topic": "life-course-editorial-revision",
+    "stageSlugs": [
+      "truong-thanh"
+    ],
+    "accessedAt": "2026-11-26",
+    "referenceType": "official-web-resource",
+    "language": "en",
+    "status": "reference-collected",
+    "usage": "url-and-curated-metadata-only",
+    "clinicalApproval": false,
+    "notice": "Đồng bộ từ ledger biên tập 04B–04F ngày 26/11/2026; mức tra cứu: opened. Không tái xác minh trong recovery; chưa duyệt chuyên môn hoặc từng luận điểm."
   }
 ]
