@@ -9,6 +9,7 @@ import {GET as article} from "../apps/web/app/dev-review/[slug]/route";
 import {proxyMedia,articleMediaUrl} from "../apps/web/lib/dynamic-media";
 import {renderReaderLibrary} from "../apps/web/lib/reader-library";
 import dataset from "../packages/content/articles.json";
+import inventory from "../apps/web/app/hoc-cung-con/life-course-inventory.json";
 import photos from "../packages/content/mock/lifestyle-media.json";
 import vectors from "../packages/content/mock/contextual-inline-illustrations.json";
 const hash=(b:Buffer)=>createHash("sha256").update(b).digest("hex");
@@ -68,7 +69,17 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.equal(openDevReader(),true);
    assert.equal(requirePreviewLogin(request("/dev-review",false)),null);
    assert.equal(requirePreviewLogin(new Request("http://localhost/dev-review",{method:"POST"}))?.status,404);
-   const hub=await renderKnowledgeHub(request("/kham-pha",false));assert.equal(hub.status,200);assert.match(hub.headers.get("x-robots-tag")||"",/noindex/);const hubHtml=await hub.text();assert.equal((hubHtml.match(/data-knowledge-entry=/g)||[]).length,219);assert.equal((hubHtml.match(/data-knowledge-group=/g)||[]).length,6);assert.ok(hubHtml.includes('href="/kham-pha"'));assert.ok(!hubHtml.includes('href="/gia-dinh-demo"'));
+   const hub=await renderKnowledgeHub(request("/kham-pha",false));assert.equal(hub.status,200);assert.match(hub.headers.get("x-robots-tag")||"",/noindex/);const hubHtml=await hub.text();assert.match(hubHtml,/data-knowledge-count="219"/);assert.match(hubHtml,/data-discovery-pages="10"/);assert.equal((hubHtml.match(/data-knowledge-entry=/g)||[]).length,24);assert.equal((hubHtml.match(/data-knowledge-group=/g)||[]).length,6);
+   const ids=(html:string)=>Array.from(html.matchAll(/data-knowledge-entry="([^"]+)"/g),m=>m[1]);
+   const seen=ids(hubHtml);
+   for(let n=2;n<=10;n++){
+    const response=await renderKnowledgeHub(request("/kham-pha?page="+n,false));
+    assert.equal(response.status,200);assert.match(response.headers.get("cache-control")||"",/no-store/);assert.match(response.headers.get("x-robots-tag")||"",/noindex/);
+    const page=await response.text();assert.ok(page.includes('data-discovery-current-page="'+n+'"'));assert.match(page,/data-knowledge-count="219"/);assert.equal(ids(page).length,n===10?3:24);
+    assert.ok(!page.includes('href="/gia-dinh-demo"'));seen.push(...ids(page));
+   }
+   assert.equal(seen.length,219);assert.equal(new Set(seen).size,219);assert.deepEqual(seen.sort(),inventory.refs.map(r=>r.kind+":"+r.id).sort());
+   console.log("UX05_DYNAMIC_READER_PAGINATION_PASS",JSON.stringify({refs:219,pages:10,limit:24}));assert.ok(hubHtml.includes('href="/kham-pha"'));assert.ok(!hubHtml.includes('href="/gia-dinh-demo"'));
    const filtered=await renderKnowledgeHub(request("/kham-pha?stage=baby",false));assert.equal((await filtered.text()).match(/data-knowledge-entry=/g)?.length,19);
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).headers.get("location"),"/bai-viet/"+slug);
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/article/no-such-item",false),"article","no-such-item").status,404);
