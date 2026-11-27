@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: IN PROGRESS · UX-01–UX-04 CLOSED trong phạm vi DEV, 4/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01–UX-05 CLOSED trong phạm vi DEV, 5/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -46,12 +46,12 @@ Dependency: UX-01.
 **UX-04 CLOSED — Combined DEV technical acceptance (27/11/2026):** [audit / implementation / final acceptance](ux-04-implementation.md). App `52cc86e` LIVE; CI `4391764` 5/5 PASS. [LIVE QA 45924315181](https://github.com/kios-saks/demo/actions/runs/45924315181), job 140262010783 PASS, shell probe true and browser step executed. AC04.1 four destinations/labels/order/active/breadcrumb/footer on 24 tested routes; AC04.2 five widths (320/390/768/1024/1440), keyboard/skip/focus/bottom padding PASS; AC04.3 route/security headers, missing alias 404, CI Production draft isolation, UX01/02/03 regressions and 219 refs/aliases PASS. Physical iOS notch and assistive-technology validation remain UX-09/10; authenticated preview SKIP missing token. Sprint 4/10 CLOSED; UX-05 next. Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
 ### UX-05 · P0 · Khám phá và filter
-- [ ] AC05.1: kết quả hữu ích trước bộ lọc dài; desktop sidebar; mobile sheet, label/selection/count thật; 16 lĩnh vực không chiếm 16 hàng trước kết quả, không mặc định loại nội dung sai.
-- [ ] AC05.2: multi-select chặng OR, nhóm filter AND, áp dụng/xóa, back/forward, reload, deep link giữ đúng state; pagination/limit, không duplicate.
-- [ ] AC05.3: empty, error, loading, retry, accessibility focus management; 219 IDs xuất hiện qua tập hợp kết quả, không mất 19 ô không ưu tiên. Evidence: test matrix 12 chặng × 16 chủ đề + mobile flow.
+- [x] AC05.1: kết quả hữu ích trước bộ lọc dài; desktop sidebar; mobile sheet, label/selection/count thật; 16 lĩnh vực không chiếm 16 hàng trước kết quả, không mặc định loại nội dung sai.
+- [x] AC05.2: multi-select chặng OR, nhóm filter AND, áp dụng/xóa, back/forward, reload, deep link giữ đúng state; pagination/limit, không duplicate.
+- [x] AC05.3: empty, error, loading, retry, accessibility focus management; 219 IDs xuất hiện qua tập hợp kết quả, không mất 19 ô không ưu tiên. Evidence: test matrix 12 chặng × 16 chủ đề + mobile flow.
 Dependency: UX-01/02/04.
 
-**UX-05 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-05-implementation.md). SSR multi-select, counts, URL compatibility, pagination 24, mobile dialog, desktop sidebar, empty/upstream distinction. AC05.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+**UX-05 CLOSED — Combined DEV technical acceptance (27/11/2026):** [audit / implementation / final acceptance](ux-05-implementation.md). App `9e1042b` LIVE; CI `e69ef0d` 5/5 PASS. [LIVE QA 45936329361 attempt 2](https://github.com/kios-saks/demo/actions/runs/45936329361/attempts/2), job 140302242925, probe true and actual Discovery Browser Smoke PASS. AC05.1 first results visible before mobile bottom navigation, mobile sheet/desktop sidebar, true facet counts; AC05.2 OR/AND, reload/back/forward, URL state, 219 unique IDs across 10 pages at 24/page limit; AC05.3 empty, CI upstream fail-closed/retry and 192 cells/19 nonpriority/576 kind cases, mobile Escape/focus return. UX01–04 regression PASS. Attempt 1 React hydration #418 did not recur; root cause unresolved, monitor/reopen on recurrence; no test suppression or runtime change. Physical devices/AT and user study remain UX09/10; authenticated preview SKIP missing token. Sprint 5/10 CLOSED; UX-06 next. Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
 ### UX-06 · P1 · Chi tiết chung
 - [ ] AC06.1: 219/219 stable deep links đúng kind/id, refresh/back/share works, legacy URL + old hash fallback; giữ nội dung, headings, source URLs, media/revisions và disclaimer.
