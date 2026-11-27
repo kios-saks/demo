@@ -24,8 +24,10 @@ export async function activeMedia(slug:string):Promise<DynamicMedia[]>{
  if(!slugOk(slug))throw Error("Invalid slug");
  const res=await upstream("media/"+slug);
  if(!res.ok)throw Error("MEDIA_METADATA_UNAVAILABLE");
- const data=(await res.json()).data as DynamicMedia[];
- if(!Array.isArray(data)||data.length!==2||new Set(data.map(x=>x.slot)).size!==2)throw Error("MEDIA_COVERAGE");
+ const payload:unknown=await res.json();
+ if(!payload||typeof payload!=="object"||!("data" in payload)||!Array.isArray(payload.data)||payload.data.length!==2||payload.data.some(x=>!x||typeof x!=="object"))throw Error("MEDIA_COVERAGE");
+ const data=payload.data as DynamicMedia[];
+ if(new Set(data.map(x=>x.slot)).size!==2)throw Error("MEDIA_COVERAGE");
  for(const x of data){
   if(!["cover","inline"].includes(x.slot)||!Number.isSafeInteger(x.revision)||x.revision<1||!/^([a-f0-9]{64})$/.test(x.assetId)||!Number.isInteger(x.width)||!Number.isInteger(x.height)||x.width<1||x.height<1||x.width>8192||x.height>8192||typeof x.alt!=="string"||typeof x.caption!=="string"||!["dev_approved","dev_context_only"].includes(x.reviewStatus))throw Error("MEDIA_METADATA_INVALID");
  }

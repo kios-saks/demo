@@ -6,7 +6,7 @@ import {requirePreviewLogin} from "../apps/web/lib/dev-preview";
 import {mediaAdminProxy} from "../apps/web/lib/media-admin-proxy";
 import {createHash} from "node:crypto";
 import {GET as article} from "../apps/web/app/dev-review/[slug]/route";
-import {proxyMedia,articleMediaUrl} from "../apps/web/lib/dynamic-media";
+import {proxyMedia,articleMediaUrl,activeMedia} from "../apps/web/lib/dynamic-media";
 import {renderReaderLibrary} from "../apps/web/lib/reader-library";
 import dataset from "../packages/content/articles.json";
 import inventory from "../apps/web/app/hoc-cung-con/life-course-inventory.json";
@@ -22,6 +22,7 @@ test("dynamic rendering of every article, access control, current revision and n
  const request=(path:string,authorized=true)=>new Request("http://localhost:3000"+path,{headers:authorized?auth:{}});
  let revision=1;const fixture=Buffer.from("controlled integration image bytes");
  let image=fixture;
+ let invalidMediaEnvelope=false;
  const json=(data:unknown)=>Response.json(data);
  globalThis.fetch=(async(input:any,init:any)=>{
   assert.equal(init.headers["x-preview-token"],token);assert.equal(init.cache,"no-store");
@@ -31,6 +32,7 @@ test("dynamic rendering of every article, access control, current revision and n
   const a=dataset.articles.find(x=>x.slug===slug);
   if(kind==="articles"&&a)return json({data:a,disclaimer:"DEV"});
   if(kind==="media"&&a&&!slot){
+   if(invalidMediaEnvelope)return json({data:null});
    const p=(photos.assets as Record<string,any>)["inline-"+slug],v=(vectors.assets as Record<string,any>)[slug],entry=p?.reviewStatus==="approved"?p:v;
    assert.ok(entry);const i=entry.afterSection;
    return json({data:[{slot:"cover",revision,assetId:hash(image),width:1200,height:675,alt:"cover",caption:"cover",afterSection:null,anchorHeading:null,reviewStatus:"dev_approved",url:"https://secret.invalid/sign?token=secret"},{slot:"inline",revision:1,assetId:hash(fixture),width:1200,height:675,alt:entry.alt,caption:entry.caption,afterSection:i,anchorHeading:a.sections[i].heading,reviewStatus:"dev_context_only",url:"https://secret.invalid/sign?token=secret"}]});
@@ -43,6 +45,10 @@ test("dynamic rendering of every article, access control, current revision and n
  try{
   assert.equal(dataset.articles.length,72);
   const slug=dataset.articles[0].slug;
+  invalidMediaEnvelope=true;
+  await assert.rejects(activeMedia(slug),/MEDIA_COVERAGE/);
+  invalidMediaEnvelope=false;
+  console.log("UX05_MEDIA_ENVELOPE_FAIL_CLOSED_PASS");
   assert.equal((await proxyMedia(request("/api/dev-media/"+slug+"/cover",false),slug,"cover")).status,404);
   for(const a of dataset.articles){
    const response=await article(request("/dev-review/"+a.slug),{params:Promise.resolve({slug:a.slug})});
