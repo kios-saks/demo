@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "baselineApp": "61f58accf2d9506a43c93abf6ef40cda3c73ce03",
+  "mode": "baseline",
+  "lab": {
+    "runs": 3,
+    "percentile": 75,
+    "lcpMs": 2500,
+    "cls": 0.1,
+    "tbtMs": 200,
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2,
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "cpuSlowdownMultiplier": 4
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "cpuSlowdownMultiplier": 1
+    }
+  },
+  "resources": {
+    "provisional": true,
+    "scriptTransferBytes": 250000,
+    "styleTransferBytes": 100000,
+    "htmlDecodedBytes": 350000,
+    "imageTransferBytes": 1000000,
+    "inlineCatalogBytes": 100000
+  },
+  "accessibility": {
+    "critical": 0,
+    "serious": 0,
+    "reflowWidth": 320,
+    "primaryTargetPx": 44
+  },
+  "field": {
+    "status": "N/A until sufficient valid field data",
+    "lcpMs": 2500,
+    "inpMs": 200,
+    "cls": 0.1
+  },
+  "notes": "Provisional internal resource budgets; baseline is report-only, no evidence suppression. Review route-specific limits from measured baseline; gate only after fixes or explicit owner exception. TBT lab proxy, not INP."
+}

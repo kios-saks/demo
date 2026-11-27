@@ -83,6 +83,8 @@ Dependency: UX-01/07.
 - [ ] AC09.3: no horizontal overflow, ảnh giữ tỷ lệ; JS/CSS budget và kích thước index ghi baseline, không ship toàn bộ bài dài vào first render; nếu p75 lab warm vượt target thì ghi nguyên nhân và fix/owner exception. Evidence: audit JSON/screenshots/manual notes.
 Dependency: baseline từ đợt 0, final sau UX-03–08. Chuẩn: [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/), [Web Vitals](https://web.dev/articles/vitals).
 
+**UX-09 baseline IN PROGRESS (27/11/2026):** [audit / measurement plan](ux-09-implementation.md) and [provisional budgets](ux-09-budgets.json). Separate read-only DEV audit workflow, 46 axe scans and 72 Lighthouse lab samples; baseline report-only, no runtime changes before results. Manual real device/AT and field data not claimed. AC09.1–3 OPEN. Sprint 8/10 CLOSED (80%); Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
+
 ### UX-10 · P1 · Kiểm thử hành vi
 - [ ] AC10.1: baseline và prototype/task test với ít nhất 12 người trưởng thành tự nguyện, ≥3 mỗi nhóm (người chăm bé, cha/mẹ chuẩn bị, người trẻ, người lớn tuổi/người chăm); không tuyển trẻ cho vòng đầu; consent, không thu thông tin sức khỏe riêng tư.
 - [ ] AC10.2: kịch bản tìm ăn dặm 6 tháng, dấu hiệu cần tìm trợ giúp (không nhập triệu chứng cá nhân), AI/hướng nghiệp, tài chính, tuổi già, lưu/đọc tiếp, nhiều chặng, xóa dữ liệu. 4–5 task phù hợp/người, ít nhất 48 lượt hợp lệ, mỗi task có đáp án/điểm đích định trước; không hướng dẫn menu. Ghi pass unassisted, time, số click/tap/submit (không đếm ký tự), error, SEQ 1–7.
