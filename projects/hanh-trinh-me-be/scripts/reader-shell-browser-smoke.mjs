@@ -37,6 +37,26 @@ try{
   }
   console.log("UX04_ROUTE_PASS",JSON.stringify({path,active,widths:5}));
  }
+ // Dedicated DEV source directory: no React hydration and native filter retains URL.
+ phase="source-directory";
+ await page.setViewportSize({width:390,height:844});
+ await page.goto(web+"/nguon-tham-khao",{waitUntil:"domcontentloaded",timeout:90000});
+ if(await page.locator('[data-source-catalog-v2="1"]').count()){
+  const count=page.locator("[data-source-count]");assert.equal(Number(await count.getAttribute("data-source-count")),await page.locator("[data-source-id]").count());
+  const allIds=await page.locator("[data-source-id]").evaluateAll(xs=>xs.map(x=>x.dataset.sourceId));assert.equal(new Set(allIds).size,allIds.length);
+  assert.equal(await page.locator('script[src*="/_next/"]').count(),0,"Source directory must not hydrate React");
+  const select=page.locator("#source-stage"),stage=await select.locator("option").nth(1).getAttribute("value");assert(stage);
+  await select.selectOption(stage);
+  await Promise.all([page.waitForURL(u=>u.pathname==="/nguon-tham-khao"&&u.searchParams.get("stage")===stage,{waitUntil:"domcontentloaded",timeout:90000}),page.locator('form[action="/nguon-tham-khao"] button').click()]);
+  assert.equal(await select.inputValue(),stage);assert.equal(Number(await count.getAttribute("data-source-count")),await page.locator("[data-source-id]").count());
+  assert((await page.locator("[data-source-id]").evaluateAll(xs=>xs.map(x=>x.dataset.sourceId))).every(id=>allIds.includes(id)));
+  for(const width of [390,1440])for(let i=0;i<3;i++){
+   await page.setViewportSize({width,height:844});const res=await page.goto(web+"/nguon-tham-khao",{waitUntil:"load",timeout:90000});assert.equal(res.status(),200);
+   assert(await page.locator("[data-source-catalog-v2]").isVisible());assert.equal(await page.locator('script[src*="/_next/"]').count(),0);
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  }
+  console.log("UX06_SOURCE_DIRECTORY_SSR_PASS",JSON.stringify({reloads:6,widths:2,filter:true,noReact:true}));
+ }
  // Keyboard and skip-link behavior on raw home and React reader.
  phase="keyboard";for(const path of ["/","/hoc-cung-con"]){
   for(const width of [390,1440]){

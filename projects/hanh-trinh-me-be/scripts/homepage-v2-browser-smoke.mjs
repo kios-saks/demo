@@ -52,8 +52,14 @@ try{
   for(const [id,selector] of tasks){
    await home();const before=requests.length;await page.locator('[data-home-topic="'+id+'"]').click();await page.locator("[data-private-search-ready]").waitFor();const row=page.locator(selector).first();await row.waitFor();
    const key=await row.getAttribute("data-search-entry");assert(catalog.has(key));const [kind,slug]=key.split(":");
-   await row.locator("a").first().click();
-   if(kind==="legacy"){await page.waitForURL(u=>u.pathname==="/bai-viet/"+slug);await page.locator("[data-current-article]").waitFor();}
+   const link=row.locator("a").first(),alias="/kien-thuc/"+kind+"/"+slug,href=await link.getAttribute("href");
+   assert([alias,alias+"/doc"].includes(href),"Unexpected knowledge URL "+key);
+   await link.click();
+   if(href===alias+"/doc"){
+    await page.waitForURL(u=>u.pathname===(kind==="legacy"?"/bai-viet/"+slug:href),{waitUntil:"domcontentloaded",timeout:90000});
+    const detail=page.locator('[data-detail-v2="1"][data-detail-kind="'+kind+'"][data-detail-id="'+slug+'"]');
+    await detail.waitFor();assert.equal(await detail.locator("[data-detail-link]").getAttribute("href"),href);
+   }else if(kind==="legacy"){await page.waitForURL(u=>u.pathname==="/bai-viet/"+slug);await page.locator('[data-current-article="'+slug+'"]').waitFor();}
    else{const target=(kind==="article"?"az-":"lesson-")+slug;await page.waitForURL(u=>u.pathname==="/hoc-cung-con"&&u.hash==="#"+target);await page.locator("#"+target+" details[open]").waitFor();}
    assert(!requests.slice(before).some(x=>new URL(x.url).searchParams.has("q")),"query in network URL");
    assert(requests.slice(before).some(x=>x.method==="POST"&&new URL(x.url).pathname==="/api/dev-search"));
