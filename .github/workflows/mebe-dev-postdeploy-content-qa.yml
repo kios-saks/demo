@@ -128,3 +128,18 @@ jobs:
       - name: UX-07 Bookmark Browser Smoke
         if: env.MEBE_UX07_LIVE == 'true'
         run: node scripts/bookmark-browser-smoke.mjs
+      - name: UX-08 live journey acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const res=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/hanh-trinh',{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV journey probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-journey-panel="1"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX08_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX08_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-08 Journey Browser Smoke
+        if: env.MEBE_UX08_LIVE == 'true'
+        run: node scripts/journey-browser-smoke.mjs

@@ -3,6 +3,7 @@
 "use strict";
 const prefix="mebe.reader.v1.";
 const unifiedBookmarks=document.body?.dataset?.bookmarkV2==="1";
+const journeyV3=document.body?.dataset?.journeyV3==="1";
 const all=(s)=>Array.from(document.querySelectorAll(s));
 const get=(key,fallback)=>{try{const value=localStorage.getItem(prefix+key);return value===null?fallback:JSON.parse(value)}catch{return fallback}};
 const set=(key,value)=>{try{localStorage.setItem(prefix+key,JSON.stringify(value));return true}catch{return false}};
@@ -26,6 +27,7 @@ function refreshSaved(){
  all("[data-saved-empty]").forEach(el=>{el.hidden=all("[data-saved-item]").some(item=>!item.hidden)});
 }
 function refreshJourney(){
+ if(journeyV3)return;
  const stage=get("stage","");
  all("[data-journey-select]").forEach(el=>{el.value=Array.from(el.options).some(o=>o.value===stage)?stage:""});
  const select=document.querySelector("[data-journey-select]");
@@ -38,6 +40,7 @@ function refreshJourney(){
  all("[data-journey-link]").forEach(el=>{el.href=chosen&&validSlug(chosen.value)?"/"+chosen.value:"/hanh-trinh";el.textContent=chosen&&chosen.value?"Khám phá chặng này →":"Xem hành trình →"});
 }
 function refreshChecks(){
+ if(journeyV3)return;
  const data=get("checklist",{});
  all("[data-checklist-key]").forEach(el=>{el.disabled=false;el.checked=Boolean(data&&data[el.dataset.checklistKey]===true)});
  all("[data-journey-plan]").forEach(plan=>{
@@ -56,12 +59,14 @@ function refreshHomepage(){
  const general=root.querySelector("[data-home-general]");if(general)general.hidden=!!valid;
  all("[data-home-personal-group]").forEach(el=>{el.hidden=!valid||el.dataset.homePersonalGroup!==selected});
  const reset=root.querySelector("[data-home-reset]");if(reset)reset.hidden=!valid;
+ if(journeyV3)return;
  let titles={};try{titles=JSON.parse(root.dataset.homeLegacy||"{}")}catch{}
  const recent=get("historyEnabled",false)===true?slugs("history").find(slug=>Object.prototype.hasOwnProperty.call(titles,slug)):"";
  const section=root.querySelector("[data-home-recent]"),link=section?.querySelector("a");
  if(section&&link){section.hidden=!recent;if(recent){link.href="/bai-viet/"+recent;link.textContent=titles[recent]}}
 }
 function refreshHistory(){
+ if(journeyV3)return;
  const enabled=get("historyEnabled",false)===true;
  all("[data-history-opt-in]").forEach(el=>{el.checked=enabled;el.disabled=false});
  const history=enabled?slugs("history"):[];
@@ -81,31 +86,31 @@ all("[data-home-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("cli
  const choice=select.value,valid=Array.from(select.options).some(o=>o.value===choice);
  if(!valid)return;
  const ok=choice?set("homeGroup",choice):remove("homeGroup");
- refreshHomepage();const status=root.querySelector("[data-home-status]");if(status)status.textContent=ok?(choice?"Đã lưu nhóm quan tâm trên thiết bị này.":"Đã xóa nhóm quan tâm."):"Không thể lưu lựa chọn trên trình duyệt này.";
+ refreshHomepage();const status=root.querySelector("[data-home-status]");window.MebeJourney?.refresh();if(status)status.textContent=ok?(choice?"Đã lưu nhóm quan tâm trên thiết bị này.":"Đã xóa nhóm quan tâm."):"Không thể lưu lựa chọn trên trình duyệt này.";
 })});
 all("[data-home-reset]").forEach(btn=>btn.addEventListener("click",()=>{
- const ok=remove("homeGroup");refreshHomepage();const status=btn.closest("[data-home-v2]")?.querySelector("[data-home-status]");if(status)status.textContent=ok?"Đã xóa nhóm quan tâm.":"Không thể xóa lựa chọn trên trình duyệt này.";
+ const ok=remove("homeGroup");refreshHomepage();window.MebeJourney?.refresh();const status=btn.closest("[data-home-v2]")?.querySelector("[data-home-status]");if(status)status.textContent=ok?"Đã xóa nhóm quan tâm.":"Không thể xóa lựa chọn trên trình duyệt này.";
 }));
 if(!unifiedBookmarks)all("[data-save-slug]").forEach(btn=>btn.addEventListener("click",()=>{
  const slug=btn.dataset.saveSlug;if(!validSlug(slug))return;
  const saved=slugs("saved");const next=saved.includes(slug)?saved.filter(s=>s!==slug):[slug,...saved];
  if(!set("saved",next)){announce("Trình duyệt không cho phép lưu dữ liệu.");return}refreshSaved();
 }));
-all("[data-journey-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
+if(!journeyV3)all("[data-journey-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
  const section=btn.closest(".journey-picker");const select=section?.querySelector("select");if(!select)return;
  const stage=select.value;const ok=stage?set("stage",stage):remove("stage");
  refreshJourney();const status=section.querySelector("[data-journey-status]");if(status)status.textContent=ok?(stage?"Đã lưu lựa chọn.":"Đã xóa lựa chọn."):"Không thể lưu trên trình duyệt này.";
 })});
-all("[data-checklist-key]").forEach(el=>el.addEventListener("change",()=>{
+if(!journeyV3)all("[data-checklist-key]").forEach(el=>el.addEventListener("change",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
  if(el.checked)data[el.dataset.checklistKey]=true;else delete data[el.dataset.checklistKey];
  const ok=set("checklist",data);refreshChecks();if(!ok)announce("Không thể lưu checklist trên trình duyệt này.");
 }));
-all("[data-checklist-reset]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
+if(!journeyV3)all("[data-checklist-reset]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
  const stored=get("checklist",{});const data=stored&&typeof stored==="object"&&!Array.isArray(stored)?stored:{};
  Object.keys(data).filter(key=>key.startsWith(btn.dataset.checklistReset+"-")).forEach(key=>delete data[key]);const ok=set("checklist",data);refreshChecks();if(!ok)announce("Không thể đặt lại checklist trên trình duyệt này.");
 })});
-all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
+if(!journeyV3)all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
  const wasEnabled=get("historyEnabled",false)===true;
  if(el.checked&&!wasEnabled&&!remove("history")){refreshHistory();announce("Không thể xóa lịch sử cũ; chưa bật lưu lịch sử đọc.");return;}
  const saved=set("historyEnabled",el.checked);
@@ -113,11 +118,11 @@ all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
  const cleared=el.checked||remove("history");refreshHistory();
  if(!cleared)announce("Đã tắt lưu lịch sử đọc nhưng chưa xóa được dữ liệu cũ. Hãy thử xóa lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 }));
-all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{if(unifiedBookmarks&&!window.confirm("Xóa lịch sử đọc trên thiết bị này?"))return;const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
+if(!journeyV3)all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{if(unifiedBookmarks&&!window.confirm("Xóa lịch sử đọc trên thiết bị này?"))return;const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
 all("[data-clear-reader]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
  if(unifiedBookmarks&&!window.confirm("Xóa toàn bộ bài đã lưu, lịch sử đọc và lựa chọn cá nhân trên thiết bị này?"))return;
- const results=["historyEnabled","saved","stage","checklist","history","homeGroup",...(unifiedBookmarks?["savedV2"]:[])].map(remove);
- refreshSaved();refreshJourney();refreshChecks();refreshHistory();if(unifiedBookmarks)window.MebeBookmarks?.refresh();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
+ const results=["historyEnabled","saved","stage","checklist","history","homeGroup",...(unifiedBookmarks?["savedV2"]:[]),...(journeyV3?["interestsV3","historyV3","historyAll"]:[])].map(remove);
+ refreshSaved();refreshJourney();refreshChecks();refreshHistory();if(unifiedBookmarks)window.MebeBookmarks?.refresh();if(journeyV3)window.MebeJourney?.refresh();refreshHomepage();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 })});
 all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",async()=>{
  if(!validSlug(current))return;
@@ -127,8 +132,8 @@ all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener(
  else if(navigator.clipboard){await navigator.clipboard.writeText(url);if(status)status.textContent="Đã sao chép liên kết."}
  else if(status)status.textContent=url;}catch(error){if(error?.name!=="AbortError"&&status)status.textContent=url;}
 })});
-if(validSlug(current)&&get("historyEnabled",false)===true)set("history",[current,...slugs("history").filter(s=>s!==current)].slice(0,40));
-updateNav();refreshSaved();refreshJourney();refreshChecks();refreshHistory();
+if(!journeyV3&&validSlug(current)&&get("historyEnabled",false)===true)set("history",[current,...slugs("history").filter(s=>s!==current)].slice(0,40));
+updateNav();refreshSaved();refreshJourney();refreshChecks();refreshHistory();if(journeyV3)refreshHomepage();
 window.addEventListener("pageshow",()=>{refreshHomepage();refreshHistory()});
-window.addEventListener("storage",event=>{if(event.key===null||event.key.startsWith(prefix)){refreshSaved();refreshJourney();refreshChecks();refreshHistory()}});
+window.addEventListener("storage",event=>{if(event.key===null||event.key.startsWith(prefix)){refreshSaved();refreshJourney();refreshChecks();refreshHistory();if(journeyV3)refreshHomepage()}});
 })();

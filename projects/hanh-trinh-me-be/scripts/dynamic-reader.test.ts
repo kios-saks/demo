@@ -135,6 +135,14 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.deepEqual([...personalHtml.matchAll(/data-bookmark-item="([^"]+)"/g)].map(m=>m[1]).sort(),inventory.refs.map(x=>x.kind+":"+x.id).sort());
    assert.equal((personalHtml.match(/data-bookmark-key=/g)||[]).length,219);
    console.log("UX07_BOOKMARK_MARKUP_PASS",JSON.stringify({refs:219,personal:219,detail:219}));
+   const journey=await renderReaderLibrary(request("/hanh-trinh",false),{mode:"journey"});assert.equal(journey.status,200);const journeyHtml=await journey.text();
+   assert.match(journeyHtml,/data-journey-panel="1"/);assert.equal((journeyHtml.match(/data-interest-stage=/g)||[]).length,12);
+   assert.equal((journeyHtml.match(/data-interest-plan=/g)||[]).length,12);
+   assert.deepEqual([...journeyHtml.matchAll(/data-history-key="([^"]+)"/g)].map(m=>m[1]).sort(),inventory.refs.map(x=>x.kind+":"+x.id).sort());
+   assert.deepEqual([...journeyHtml.matchAll(/data-journey-recommend="([^"]+)"/g)].map(m=>m[1]).sort(),inventory.refs.map(x=>x.kind+":"+x.id).sort());
+   assert.equal(new Set([...journeyHtml.matchAll(/data-checklist-key="([^"]+)"/g)].map(m=>m[1])).size,48);
+   assert.equal((journeyHtml.match(/data-no-checklist/g)||[]).length,4);
+   console.log("UX08_JOURNEY_MARKUP_PASS",JSON.stringify({stages:12,refs:219,checkKeys:48,noChecklist:4}));
    const openList=await renderReaderLibrary(request("/dev-review",false));
    assert.equal(openList.status,200);assert.match(openList.headers.get("x-robots-tag")||"",/noindex/);
    const openArticle=await article(request("/dev-review/"+slug,false),{params:Promise.resolve({slug})});

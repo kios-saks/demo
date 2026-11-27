@@ -75,6 +75,8 @@ Dependency: UX-06.
 - [ ] AC08.3: history opt-in mặc định tắt, clear all/clear history, không lưu họ tên/tuổi chính xác/bệnh hoặc gửi sở thích ra server, thử private browser/storage error. Evidence: local storage regression + network assertions.
 Dependency: UX-01/07.
 
+**UX-08 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-08-implementation.md). 0–12 interests, legacy stage/group adapter, original checklist progress, deterministic stage/topic recommendations, 219-ID history opt-in with explicit expanded consent. AC08.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-09 · P1 · Accessibility & performance
 - [ ] AC09.1: WCAG 2.2 AA target; automated axe không critical/serious trên 5 route chính + detail kinds, manual keyboard, VoiceOver/NVDA hoặc tương đương, zoom 200%, reflow 320px, contrast text 4.5:1/large 3:1, focus visible/unobscured; target chính 44px internal.
 - [ ] AC09.2: warm lab mobile/desktop đo LCP/CLS/TBT (TBT chỉ proxy), 3 lượt/route thiết bị/network ghi rõ; mục tiêu field p75 LCP ≤2.5s, INP ≤200ms, CLS ≤0.1 nếu đủ mẫu hợp lệ. Không có field data → N/A, không tuyên bố CWV PASS. Đo cold start riêng không trộn warm, không tăng ping để che vấn đề; readiness/retry như cũ.

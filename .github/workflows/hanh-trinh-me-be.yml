@@ -44,7 +44,7 @@ jobs:
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/media-admin-proxy.test.ts
       - name: Age learning catalog validation
         run: |
-          node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs scripts/life-course-inventory.test.mjs scripts/life-course-quality.test.mjs scripts/knowledge-index.test.mjs scripts/knowledge-search.test.mjs scripts/knowledge-discovery.test.mjs scripts/bookmark-v2.test.mjs
+          node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs scripts/life-course-inventory.test.mjs scripts/life-course-quality.test.mjs scripts/knowledge-index.test.mjs scripts/knowledge-search.test.mjs scripts/knowledge-discovery.test.mjs scripts/bookmark-v2.test.mjs scripts/journey-v3.test.mjs
           node scripts/audit-life-course-quality.mjs
       - name: Family demo protocol tests
         run: npm exec -w @mebe/api -- tsx --test ../../scripts/family-demo.test.ts
@@ -232,6 +232,7 @@ jobs:
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX05_ORIGIN=http://localhost:3001 node scripts/discovery-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX06_ORIGIN=http://localhost:3001 node scripts/detail-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX07_ORIGIN=http://localhost:3001 node scripts/bookmark-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX08_ORIGIN=http://localhost:3001 node scripts/journey-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest
