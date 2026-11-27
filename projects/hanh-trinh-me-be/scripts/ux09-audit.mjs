@@ -15,7 +15,14 @@ const output=resolve(process.env.MEBE_UX09_OUTPUT||"/tmp/mebe-ux09-evidence");mk
 const dep=requireFrom(process.env.MEBE_UX09_DEPS||"/tmp/mebe-ux09");
 function requireFrom(path){return createRequire(resolve(path,"package.json"));}
 const load=async name=>import(pathToFileURL(dep.resolve(name)).href);
-const {chromium}=await load("playwright");
+// require.resolve() selects Playwright's CJS entry; its dynamic import namespace
+// does not expose chromium as a guaranteed named export. Use its CJS API.
+const {chromium}=dep("playwright");
+assert(chromium&&typeof chromium.launch==="function"&&typeof chromium.executablePath==="function","Playwright Chromium API unavailable");
+const probe=await chromium.launch({headless:true});
+const browserVersion=probe.version();
+await probe.close();
+console.log("UX09_CHROMIUM_PREFLIGHT_PASS",JSON.stringify({version:browserVersion,executablePath:chromium.executablePath()}));
 const axePath=dep.resolve("axe-core/axe.min.js");
 const stages=[...new Set(refs.filter(r=>r.kind==="legacy").map(r=>r.originalStage))];
 assert.equal(stages.length,12);assert.equal(refs.length,219);
@@ -80,8 +87,11 @@ if(phase!=="lab"){
  }finally{await browser.close();save();}
 }
 if(phase!=="axe"){
- const lighthouse=(await load("lighthouse")).default;
- const {launch}=await load("chrome-launcher");
+ const lighthouseModule=await load("lighthouse"),launcherModule=await load("chrome-launcher");
+ const lighthouse=lighthouseModule.default;
+ const launch=launcherModule.launch||launcherModule.default?.launch;
+ assert.equal(typeof lighthouse,"function","Lighthouse API unavailable");
+ assert.equal(typeof launch,"function","Chrome launcher API unavailable");
  for(const [id,path] of routes)for(const formFactor of ["mobile","desktop"]){
   const device=config.lab[formFactor],values=[];
   for(let run=1;run<=config.lab.runs;run++){
