@@ -24,6 +24,7 @@ const browserVersion=probe.version();
 await probe.close();
 console.log("UX09_CHROMIUM_PREFLIGHT_PASS",JSON.stringify({version:browserVersion,executablePath:chromium.executablePath()}));
 const axePath=dep.resolve("axe-core/axe.min.js");
+const axeSource=readFileSync(axePath,"utf8");
 const stages=[...new Set(refs.filter(r=>r.kind==="legacy").map(r=>r.originalStage))];
 assert.equal(stages.length,12);assert.equal(refs.length,219);
 const detail=kind=>{const ref=refs.find(r=>r.kind===kind);assert(ref);return "/kien-thuc/"+kind+"/"+ref.id+"/doc";};
@@ -51,7 +52,11 @@ if(phase!=="lab"){
    try{
     const response=await page.goto(url.origin+path,{waitUntil:"load",timeout:90000});assert.equal(response.status(),200);assert.equal(new URL(response.url()).origin,url.origin);assert.match(response.headers()["x-robots-tag"]||"",/noindex/);
     await page.locator('[data-reader-shell="v2"]').waitFor({timeout:15000});assert.equal(await page.locator("main").count(),1);
-    await page.addScriptTag({path:axePath});
+    // Test-only execution via Playwright's DevTools evaluation, not an inline
+    // DOM script tag. Leave the app's CSP, headers and browser bypassCSP unchanged.
+    // Verify the pinned axe API initialized before scanning.
+    await page.evaluate(axeSource+"\n;void 0");
+    assert.equal(await page.evaluate(()=>typeof window.axe?.run),"function","axe injection failed");
     const result=await page.evaluate(options=>window.axe.run(document,options),axeOptions);
     const geometry=await page.evaluate(()=>{
      const visible=el=>el.getClientRects().length&&getComputedStyle(el).visibility!=="hidden";
@@ -64,7 +69,10 @@ if(phase!=="lab"){
     const html=await response.text(),catalogBytes=utf8(geometry.catalog);delete geometry.catalog;
     // Keyboard skip/focus: browser automation only, not manual or screen-reader certification.
     await page.keyboard.press("Tab");const first=await page.evaluate(()=>({href:document.activeElement?.getAttribute("href"),text:document.activeElement?.textContent?.trim()}));
-    let skip=false;if(first.href==="#dev-main"){await page.keyboard.press("Enter");skip=await page.evaluate(()=>document.activeElement?.id==="dev-main");}
+    let skip=false;
+    const skipId=["#dev-main","#noi-dung-chinh"].includes(first.href)?first.href.slice(1):null;
+    if(skipId){await page.keyboard.press("Enter");skip=await page.evaluate(id=>document.activeElement?.id===id,skipId);}
+    // Compatibility page has a different skip target; do not misreport it as absent.
     const focus=await page.evaluate(()=>{const el=document.activeElement;if(!el)return null;const css=getComputedStyle(el),r=el.getBoundingClientRect(),nav=document.querySelector('[data-shell-nav="mobile"]');const n=nav?.getBoundingClientRect();return {outline:css.outlineStyle,outlineWidth:css.outlineWidth,boxShadow:css.boxShadow,visible:el.matches(":focus-visible"),fullyObscured:!!n&&n.height>0&&r.top>=n.top&&r.bottom<=n.bottom};});
     const issues=result.violations.map(v=>({id:v.id,impact:v.impact,count:v.nodes.length,nodes:v.nodes.map(n=>({target:n.target,failureSummary:n.failureSummary,impact:n.impact}))}));
     const severe=issues.filter(x=>["critical","serious"].includes(x.impact)).reduce((n,x)=>n+x.count,0);
