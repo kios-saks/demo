@@ -233,6 +233,7 @@ jobs:
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX06_ORIGIN=http://localhost:3001 node scripts/detail-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX07_ORIGIN=http://localhost:3001 node scripts/bookmark-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
           PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX08_ORIGIN=http://localhost:3001 node scripts/journey-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX09_ORIGIN=http://localhost:3001 node scripts/course-compat-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
 
   backend-container-smoke:
     runs-on: ubuntu-latest

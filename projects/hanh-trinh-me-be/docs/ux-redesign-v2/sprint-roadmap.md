@@ -85,6 +85,8 @@ Dependency: baseline từ đợt 0, final sau UX-03–08. Chuẩn: [W3C WCAG 2.2
 
 **UX-09 baseline IN PROGRESS (27/11/2026):** [audit / measurement plan](ux-09-implementation.md) and [provisional budgets](ux-09-budgets.json). Separate read-only DEV audit workflow, 46 axe scans and 72 Lighthouse lab samples; baseline report-only, no runtime changes before results. Manual real device/AT and field data not claimed. AC09.1–3 OPEN. Sprint 8/10 CLOSED (80%); Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
+**UX-09 Sprint A candidate (28/11/2026):** complete baseline 46/46 axe, 72/72 lab; SSR course compatibility, target sizes, inline link styling, regression readiness. [Implementation](ux-09-implementation.md). CI and exact LIVE Before/After pending; AC09.1–3 OPEN; Sprint 8/10 CLOSED (80%).
+
 ### UX-10 · P1 · Kiểm thử hành vi
 - [ ] AC10.1: baseline và prototype/task test với ít nhất 12 người trưởng thành tự nguyện, ≥3 mỗi nhóm (người chăm bé, cha/mẹ chuẩn bị, người trẻ, người lớn tuổi/người chăm); không tuyển trẻ cho vòng đầu; consent, không thu thông tin sức khỏe riêng tư.
 - [ ] AC10.2: kịch bản tìm ăn dặm 6 tháng, dấu hiệu cần tìm trợ giúp (không nhập triệu chứng cá nhân), AI/hướng nghiệp, tài chính, tuổi già, lưu/đọc tiếp, nhiều chặng, xóa dữ liệu. 4–5 task phù hợp/người, ít nhất 48 lượt hợp lệ, mỗi task có đáp án/điểm đích định trước; không hướng dẫn menu. Ghi pass unassisted, time, số click/tap/submit (không đếm ký tự), error, SEQ 1–7.

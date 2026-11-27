@@ -34,3 +34,6 @@ html:has([data-reader-shell="v2"]){scroll-padding-top:90px;scroll-padding-bottom
  [data-reader-shell="v2"] .shell-v2-crumbs{padding-top:8px}
 }
 @media(prefers-reduced-motion:reduce){html:has([data-reader-shell="v2"]){scroll-behavior:auto}}
+
+/* UX09: in-text links must be identifiable without color alone. */
+[data-reader-shell="v2"] main p a:not(.primary-action):not(.secondary-action),[data-reader-shell="v2"] main small a{text-decoration:underline;text-underline-offset:2px}

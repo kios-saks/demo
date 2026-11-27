@@ -143,3 +143,17 @@ jobs:
       - name: UX-08 Journey Browser Smoke
         if: env.MEBE_UX08_LIVE == 'true'
         run: node scripts/journey-browser-smoke.mjs
+
+      - name: UX-09 compatibility route probe
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const r=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/hoc-cung-con',{signal:AbortSignal.timeout(90000)});
+          if(!r.ok)throw Error('DEV compatibility probe '+r.status);
+          const live=(await r.text()).includes('data-course-compat-v3="1"');
+          const {appendFileSync}=await import('node:fs');appendFileSync(process.env.GITHUB_ENV,'MEBE_UX09_LIVE='+String(live)+'\n');
+          if(!live)console.log('UX09_POSTDEPLOY_SKIP_NOT_LIVE: not acceptance');
+          NODE
+      - name: UX-09 Compatibility Browser Smoke
+        if: env.MEBE_UX09_LIVE == 'true'
+        run: node scripts/course-compat-browser-smoke.mjs

@@ -48,7 +48,13 @@ try{
  const second=await context.newPage();await personal(second);assert.equal(await count(second),3);
  const lesson=samples[2],item=page.locator('[data-bookmark-item="'+key(lesson)+'"]');
  await item.locator("button").click();await second.locator('[data-bookmark-item="'+key(lesson)+'"]').waitFor({state:"hidden"});assert.equal(await count(),2);
- await page.locator('[data-bookmark-item="'+key(samples[1])+'"] a').click();await page.locator("[data-detail-v2]").waitFor();await page.goBack({waitUntil:"load"});assert.equal(await count(),2);
+ await page.locator('[data-bookmark-item="'+key(samples[1])+'"] a').click();await page.locator("[data-detail-v2]").waitFor();await page.goBack({waitUntil:"load"});assert.equal(new URL(page.url()).pathname,"/da-luu");
+ // A history traversal can resolve before deferred scripts/pageshow finish.
+ // Wait for the actual restored visible IDs, not a sleep or reduced assertion.
+ const expectedBack=samples.slice(0,2).map(key).sort();
+ try{await page.waitForFunction(expected=>JSON.stringify([...document.querySelectorAll("[data-bookmark-item]")].filter(el=>!el.hidden&&el.getClientRects().length).map(el=>el.dataset.bookmarkItem).sort())===JSON.stringify(expected),expectedBack);}
+ catch(e){console.error("UX07_BACK_RESTORE_ERROR",JSON.stringify({path:new URL(page.url()).pathname,visible:await count(),filter:await page.locator("[data-bookmark-filter]").inputValue(),storage:await snapshot()}));throw e;}
+ assert.equal(await count(),2);assert.deepEqual((await page.locator("[data-bookmark-item]:visible").evaluateAll(xs=>xs.map(x=>x.dataset.bookmarkItem))).sort(),expectedBack);
  await second.close();
  await go("/kham-pha?stage="+samples[1].stage+"&kind=article");
  const discover=page.locator('[data-knowledge-entry="'+key(samples[1])+'"] [data-bookmark-key]');assert.equal(await discover.getAttribute("aria-pressed"),"true");await discover.click();assert.equal(await discover.getAttribute("aria-pressed"),"false");

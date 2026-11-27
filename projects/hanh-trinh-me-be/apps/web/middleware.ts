@@ -12,6 +12,7 @@ export function middleware(request:NextRequest){
  else if(path==="/da-luu")target.pathname="/dev-review/nhom/saved";
  else if(path==="/hanh-trinh")target.pathname="/dev-review/nhom/journey";
  else if(stages.has(path.slice(1)))target.pathname="/dev-review/nhom/"+path.slice(1);
+ else if(path==="/hoc-cung-con"&&openDevReader())target.pathname="/dev-review/hoc-cung-con";
  else if(path==="/nguon-tham-khao"&&openDevReader())target.pathname="/dev-review/nguon";
  else if(path.startsWith("/bai-viet/"))target.pathname="/dev-review/"+path.slice("/bai-viet/".length);
  else {
