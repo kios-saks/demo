@@ -67,6 +67,8 @@ Dependency: UX-01/04/05.
 - [ ] AC07.3: storage blocked/quota/JSON lỗi → thông báo, không báo lưu thành công sai; xóa dữ liệu có xác nhận. Evidence: unit + browser fixture.
 Dependency: UX-06.
 
+**UX-07 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-07-implementation.md). Unified kind:id logical model with legacy authoritative storage and separate 147 new IDs, local-only save/share, personal type filter, storage error and confirmed clear. AC07.1–3 OPEN pending CI and LIVE QA; history expansion stays UX-08. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-08 · P1 · Multi-interest journey
 - [ ] AC08.1: chọn 0,1,nhiều trong 12 chặng, đổi/xóa dễ; migrate lựa chọn legacy theo mapping, không suy đoán tuổi thật; local only.
 - [ ] AC08.2: recommendation deterministic từ stage/topic; checklist theo chặng hiện có; giữ tiến độ cũ, không tạo lịch y tế/công việc giả; trạng thái không có checklist rõ ràng.

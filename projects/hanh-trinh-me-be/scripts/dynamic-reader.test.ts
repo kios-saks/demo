@@ -114,6 +114,9 @@ test("dynamic rendering of every article, access control, current revision and n
      parts=[l.title,l.goal,l.knowledge,l.practice,l.reflection];const map=detailLessons.sources as Record<string,{url:string}>;urls=l.sourceIds.map(id=>map[id].url);
     }
     assert.ok(markup.includes('data-detail-kind="'+ref.kind+'"')&&markup.includes('data-detail-id="'+ref.id+'"'),ref.id);
+    assert.ok(markup.includes('data-bookmark-v2="1"'),ref.id);
+    assert.ok(markup.includes(ref.kind==="legacy"?'data-save-slug="'+ref.id+'"':'data-bookmark-key="'+ref.kind+":"+ref.id+'"'),ref.id);
+    assert.ok(markup.includes('data-detail-share')&&markup.includes('data-detail-copy'),ref.id);
     assert.ok(markup.includes('data-detail-limitation')&&markup.includes('data-detail-related')&&markup.includes('href="#article-sources"'),ref.id);
     assert.ok(markup.includes('href="'+path+'"'),ref.id);
     for(const text of parts)assert.ok(markup.includes(esc(text)),ref.id+" missing exact content");
@@ -126,6 +129,12 @@ test("dynamic rendering of every article, access control, current revision and n
    console.log("UX06_DETAIL_INTEGRITY_PASS",JSON.stringify({refs:219,legacy:72,articles:126,lessons:21,mediaSlots:144}));
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).headers.get("location"),"/bai-viet/"+slug);
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/article/no-such-item",false),"article","no-such-item").status,404);
+   const personalResponse=await renderReaderLibrary(request("/da-luu",false),{mode:"saved"});assert.equal(personalResponse.status,200);
+   const personalHtml=await personalResponse.text();
+   assert.match(personalHtml,/data-bookmark-library="1"/);
+   assert.deepEqual([...personalHtml.matchAll(/data-bookmark-item="([^"]+)"/g)].map(m=>m[1]).sort(),inventory.refs.map(x=>x.kind+":"+x.id).sort());
+   assert.equal((personalHtml.match(/data-bookmark-key=/g)||[]).length,219);
+   console.log("UX07_BOOKMARK_MARKUP_PASS",JSON.stringify({refs:219,personal:219,detail:219}));
    const openList=await renderReaderLibrary(request("/dev-review",false));
    assert.equal(openList.status,200);assert.match(openList.headers.get("x-robots-tag")||"",/noindex/);
    const openArticle=await article(request("/dev-review/"+slug,false),{params:Promise.resolve({slug})});

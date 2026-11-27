@@ -45,7 +45,7 @@ try{
  await page.goto(web+"/bai-viet/"+legacy,{waitUntil:"domcontentloaded",timeout:90000});await page.locator("[data-current-article]").waitFor();await home();
  const recent=page.locator("[data-home-recent] a");await recent.waitFor();assert.equal(await recent.getAttribute("href"),"/bai-viet/"+legacy);assert.equal(await recent.textContent(),inv.refs.find(x=>x.kind==="legacy"&&x.id===legacy).title);
  await page.locator("[data-history-opt-in]").uncheck();assert.equal(await page.locator("[data-home-recent]:visible").count(),0);assert.equal(await page.evaluate(k=>localStorage.getItem(k+"history"),prefix),null);
- await page.locator("[data-home-group-select]").selectOption("child");await page.locator("[data-home-save]").click();await page.goto(web+"/da-luu");await page.locator("[data-clear-reader]").click();await home();assert.equal(await general().count(),6);
+ await page.locator("[data-home-group-select]").selectOption("child");await page.locator("[data-home-save]").click();await page.goto(web+"/da-luu");if(await page.locator("[data-bookmark-v2]").count())page.once("dialog",d=>d.accept());await page.locator("[data-clear-reader]").click();await home();assert.equal(await general().count(),6);
  const tasks=[["feeding",'[data-search-entry="legacy:an-dam-khi-nao-bat-dau"]'],["puberty",'[data-search-entry="lesson:day-thi-thay-doi"]'],["ai",'[data-search-entry="lesson:ai-co-the-sai"]'],["finance",'[data-search-entry="lesson:tai-chinh-tu-lap"]'],["aging",'[data-search-entry][data-search-stage="older"],[data-search-entry][data-search-stage="later-life"]']];
  for(const width of [390,1440]){
   await page.setViewportSize({width,height:844});

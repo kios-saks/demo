@@ -1,3 +1,4 @@
+import {bookmarkLibrary} from "./bookmark-ui";
 import {openDevReader} from "./open-dev-reader";
 import {renderUnifiedSearch} from "./knowledge-search-render";
 import {renderHomepageV2} from "./homepage-v2";
@@ -74,7 +75,7 @@ function journeyDashboard(articles:ArticleSummary[]){
 function personal(articles:ArticleSummary[],mode:string){
  const isSaved=mode==="saved";
  return '<section class="personal-head"><span class="eyebrow">KHÔNG GIAN CỦA GIA ĐÌNH</span><h1>'+(isSaved?"Kho kiến thức của tôi":"Hành trình của tôi")+'</h1><p class="muted">Các lựa chọn chỉ lưu trên trình duyệt này. Không cần hồ sơ trẻ hoặc tài khoản. Bạn có thể xóa khi dùng thiết bị chung.</p></section>'+
- (isSaved?(openDevReader()?'<p><a href="/hanh-trinh">Hành trình và lịch sử đọc →</a></p>':"")+'<section class="stage-guide"><h2>Bài đã lưu</h2>'+savedList(articles,"saved")+'<a class="primary-action" href="'+(openDevReader()?"/kham-pha":"/thu-vien")+'">Khám phá bài viết →</a></section>':journeyPicker()+journeyDashboard(articles)+'<section class="stage-guide"><h2>Checklist theo giai đoạn</h2><p>Chọn một chặng để xem hướng dẫn và đánh dấu các việc đã chuẩn bị.</p>'+stageGroupsHtml()+'</section><section class="stage-guide"><h2>Đọc tiếp</h2><label class="local-option"><input type="checkbox" data-history-opt-in disabled> Lưu lịch sử đọc trên thiết bị này</label>'+savedList(articles,"history")+'<button class="secondary-action" type="button" data-clear-history hidden>Xóa lịch sử đọc</button></section>')+
+ (isSaved?(openDevReader()?'<p><a href="/hanh-trinh">Hành trình và lịch sử đọc →</a></p>':"")+(openDevReader()?bookmarkLibrary(articles):'<section class="stage-guide"><h2>Bài đã lưu</h2>'+savedList(articles,"saved")+'<a class="primary-action" href="/thu-vien">Khám phá bài viết →</a></section>'):journeyPicker()+journeyDashboard(articles)+'<section class="stage-guide"><h2>Checklist theo giai đoạn</h2><p>Chọn một chặng để xem hướng dẫn và đánh dấu các việc đã chuẩn bị.</p>'+stageGroupsHtml()+'</section><section class="stage-guide"><h2>Đọc tiếp</h2><label class="local-option"><input type="checkbox" data-history-opt-in disabled> Lưu lịch sử đọc trên thiết bị này</label>'+savedList(articles,"history")+'<button class="secondary-action" type="button" data-clear-history hidden>Xóa lịch sử đọc</button></section>')+
  '<section class="privacy-controls"><button type="button" class="secondary-action" data-clear-reader hidden>Xóa toàn bộ dữ liệu cá nhân hóa trên thiết bị</button><p role="status" data-local-status></p></section>';
 }
 type ReaderOptions={mode?:"home"|"library"|"search"|"saved"|"journey"|"stage";stage?:string};

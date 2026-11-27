@@ -16,7 +16,7 @@
    if(res.status!==200&&res.status!==503)throw Error("Search unavailable");
    const doc=new DOMParser().parseFromString(await res.text(),"text/html"),next=doc.getElementById("dev-main");
    if(!next||!next.querySelector("[data-unified-search],[data-search-error]"))throw Error("Invalid response");
-   if(id===generation){main.replaceWith(next);next.setAttribute("data-private-search-ready","true");}
+   if(id===generation){main.replaceWith(next);next.setAttribute("data-private-search-ready","true");window.MebeBookmarks?.refresh();}
   }catch(e){if(id===generation&&e.name!=="AbortError"){pending.textContent="Không thể kết nối tìm kiếm. Hãy thử tải lại trang.";pending.setAttribute("data-search-error","");}}
   finally{if(id===generation)main.removeAttribute("aria-busy");}
  }

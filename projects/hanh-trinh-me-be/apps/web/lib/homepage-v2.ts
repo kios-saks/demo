@@ -1,3 +1,5 @@
+import {detailHref} from "./knowledge-detail-ui";
+import {bookmarkButton} from "./bookmark-ui";
 import atlas from "../app/hoc-cung-con/life-course-atlas.json";
 import inventory from "../app/hoc-cung-con/life-course-inventory.json";
 import bundle from "../app/hoc-cung-con/life-course-articles.json";
@@ -12,7 +14,7 @@ const labels:Record<string,string>={legacy:"Bài viết",article:"Cẩm nang",le
 const tasks=[["feeding","Ăn dặm"],["puberty","Dậy thì"],["ai","AI"],["finance","Tài chính"],["aging","Tuổi già"]];
 const curated=["legacy:cuoc-tro-chuyen-truoc-khi-co-con","legacy:an-dam-khi-nao-bat-dau","lesson:ai-co-the-sai","lesson:tai-chinh-tu-lap","article:an-uong-khi-di-lam","article:phong-te-nga-tuoi-60-74"];
 function card(row:Entry){
- return '<article class="home-v2-card" data-home-entry="'+e(row.key)+'" data-home-entry-stage="'+e(row.stage)+'"><span class="home-v2-kicker">'+e(labels[row.kind]||"Kiến thức")+' · '+e(atlas.stages.find(s=>s.id===row.stage)?.age||"")+'</span><h3><a href="'+e(row.href)+'">'+e(row.title)+'</a></h3><p>'+e(row.summary)+'</p></article>';
+ return '<article class="home-v2-card" data-home-entry="'+e(row.key)+'" data-home-entry-stage="'+e(row.stage)+'"><span class="home-v2-kicker">'+e(labels[row.kind]||"Kiến thức")+' · '+e(atlas.stages.find(s=>s.id===row.stage)?.age||"")+'</span><h3><a href="'+e(detailHref(row.kind,row.id))+'">'+e(row.title)+'</a></h3><p>'+e(row.summary)+'</p>'+bookmarkButton(row.kind,row.id)+'</article>';
 }
 export function renderHomepageV2(legacy:ArticleSummary[]):Response{
  // Caller enforces exact Combined DEV and canonical live catalog when dynamic media is enabled.

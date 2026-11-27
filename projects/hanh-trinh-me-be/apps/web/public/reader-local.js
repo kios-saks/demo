@@ -2,6 +2,7 @@
 (()=>{
 "use strict";
 const prefix="mebe.reader.v1.";
+const unifiedBookmarks=document.body?.dataset?.bookmarkV2==="1";
 const all=(s)=>Array.from(document.querySelectorAll(s));
 const get=(key,fallback)=>{try{const value=localStorage.getItem(prefix+key);return value===null?fallback:JSON.parse(value)}catch{return fallback}};
 const set=(key,value)=>{try{localStorage.setItem(prefix+key,JSON.stringify(value));return true}catch{return false}};
@@ -18,6 +19,7 @@ const updateNav=()=>{
  all(".reader-nav-links a,.mobile-reader-nav a").forEach(a=>{if(a.getAttribute("href")===destination)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
 };
 function refreshSaved(){
+ if(unifiedBookmarks)return;
  const list=slugs("saved");
  all("[data-save-slug]").forEach(btn=>{const saved=list.includes(btn.dataset.saveSlug);btn.hidden=false;btn.setAttribute("aria-pressed",String(saved));btn.textContent=saved?"Đã lưu ✓":"Lưu bài";btn.setAttribute("aria-label",saved?"Bỏ lưu bài viết":"Lưu bài viết")});
  all("[data-saved-item]").forEach(el=>{el.hidden=!list.includes(el.dataset.savedItem)});
@@ -84,7 +86,7 @@ all("[data-home-save]").forEach(btn=>{btn.hidden=false;btn.addEventListener("cli
 all("[data-home-reset]").forEach(btn=>btn.addEventListener("click",()=>{
  const ok=remove("homeGroup");refreshHomepage();const status=btn.closest("[data-home-v2]")?.querySelector("[data-home-status]");if(status)status.textContent=ok?"Đã xóa nhóm quan tâm.":"Không thể xóa lựa chọn trên trình duyệt này.";
 }));
-all("[data-save-slug]").forEach(btn=>btn.addEventListener("click",()=>{
+if(!unifiedBookmarks)all("[data-save-slug]").forEach(btn=>btn.addEventListener("click",()=>{
  const slug=btn.dataset.saveSlug;if(!validSlug(slug))return;
  const saved=slugs("saved");const next=saved.includes(slug)?saved.filter(s=>s!==slug):[slug,...saved];
  if(!set("saved",next)){announce("Trình duyệt không cho phép lưu dữ liệu.");return}refreshSaved();
@@ -111,10 +113,11 @@ all("[data-history-opt-in]").forEach(el=>el.addEventListener("change",()=>{
  const cleared=el.checked||remove("history");refreshHistory();
  if(!cleared)announce("Đã tắt lưu lịch sử đọc nhưng chưa xóa được dữ liệu cũ. Hãy thử xóa lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 }));
-all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
+all("[data-clear-history]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{if(unifiedBookmarks&&!window.confirm("Xóa lịch sử đọc trên thiết bị này?"))return;const ok=remove("history");refreshHistory();announce(ok?"Đã xóa lịch sử đọc.":"Không thể xóa lịch sử đọc. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.")})});
 all("[data-clear-reader]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",()=>{
- const results=["historyEnabled","saved","stage","checklist","history","homeGroup"].map(remove);
- refreshSaved();refreshJourney();refreshChecks();refreshHistory();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
+ if(unifiedBookmarks&&!window.confirm("Xóa toàn bộ bài đã lưu, lịch sử đọc và lựa chọn cá nhân trên thiết bị này?"))return;
+ const results=["historyEnabled","saved","stage","checklist","history","homeGroup",...(unifiedBookmarks?["savedV2"]:[])].map(remove);
+ refreshSaved();refreshJourney();refreshChecks();refreshHistory();if(unifiedBookmarks)window.MebeBookmarks?.refresh();announce(results.every(Boolean)?"Đã xóa dữ liệu cá nhân hóa trên thiết bị này.":"Không thể xóa hết dữ liệu cá nhân hóa. Hãy thử lại hoặc xóa dữ liệu trang web trong trình duyệt.");
 })});
 all("[data-share-article]").forEach(btn=>{btn.hidden=false;btn.addEventListener("click",async()=>{
  if(!validSlug(current))return;

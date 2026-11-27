@@ -113,3 +113,18 @@ jobs:
       - name: UX-06 Detail Browser Smoke
         if: env.MEBE_UX06_LIVE == 'true'
         run: node scripts/detail-browser-smoke.mjs
+      - name: UX-07 live bookmark acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const res=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/da-luu',{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV bookmark probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-bookmark-library="1"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX07_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX07_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-07 Bookmark Browser Smoke
+        if: env.MEBE_UX07_LIVE == 'true'
+        run: node scripts/bookmark-browser-smoke.mjs
