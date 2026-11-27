@@ -1,0 +1,38 @@
+name: Family Demo Live QA
+on:
+  pull_request:
+    branches: ["feat/hanh-trinh-me-be-ecosystem"]
+    paths:
+      - ".github/workflows/mebe-family-live-qa.yml"
+      - ".github/scripts/mebe-family-live-qa.mjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-family-demo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install isolated Chromium
+        run: |
+          npm install --prefix /tmp/mebe-family-playwright --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
+          /tmp/mebe-family-playwright/node_modules/.bin/playwright install --with-deps chromium
+      - name: Wait for deployed family sandbox (bounded readiness)
+        run: |
+          for i in $(seq 1 30); do
+            if curl -fsS --max-time 15 https://hanh-trinh-me-be-web-jn5v.onrender.com/gia-dinh-demo -o /tmp/family-demo.html && grep -q 'Gia đình nhỏ' /tmp/family-demo.html; then
+              echo "Family sandbox available"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Family sandbox unavailable within QA deadline"
+          exit 1
+      - name: Browser acceptance on live Combined DEV (synthetic only)
+        env:
+          PLAYWRIGHT_MODULE: /tmp/mebe-family-playwright/node_modules/playwright/index.mjs
+        run: node .github/scripts/mebe-family-live-qa.mjs
