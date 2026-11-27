@@ -98,3 +98,18 @@ jobs:
       - name: UX-05 Discovery Browser Smoke
         if: env.MEBE_UX05_LIVE == 'true'
         run: node scripts/discovery-browser-smoke.mjs
+      - name: UX-06 live detail acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const res=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con',{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV detail probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-detail-v2="1"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX06_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX06_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-06 Detail Browser Smoke
+        if: env.MEBE_UX06_LIVE == 'true'
+        run: node scripts/detail-browser-smoke.mjs

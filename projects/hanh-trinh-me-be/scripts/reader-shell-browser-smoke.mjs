@@ -11,7 +11,7 @@ const routes=[["/","/"],["/kham-pha","/kham-pha"],["/kham-pha?group=senior","/kh
 const browser=await chromium.launch({headless:true});
 try{
  const page=await browser.newPage({viewport:{width:390,height:844}}),errors=[];
- page.on("pageerror",e=>errors.push(e.message));
+ let phase="routes";page.on("pageerror",e=>{const u=new URL(page.url());const diagnostic={path:u.pathname,width:page.viewportSize()?.width,phase,error:e.message};errors.push(diagnostic);console.error("UX04_PAGE_ERROR",JSON.stringify(diagnostic));});
  for(const [path,active] of routes){
   await page.setViewportSize({width:390,height:844});
   const res=await page.goto(web+path,{waitUntil:"domcontentloaded",timeout:90000});assert.equal(res.status(),200,path);
@@ -38,7 +38,7 @@ try{
   console.log("UX04_ROUTE_PASS",JSON.stringify({path,active,widths:5}));
  }
  // Keyboard and skip-link behavior on raw home and React reader.
- for(const path of ["/","/hoc-cung-con"]){
+ phase="keyboard";for(const path of ["/","/hoc-cung-con"]){
   for(const width of [390,1440]){
    await page.setViewportSize({width,height:844});await page.goto(web+path,{waitUntil:"domcontentloaded",timeout:90000});
    await page.locator('[data-reader-shell="v2"]').waitFor();await page.keyboard.press("Tab");
@@ -54,13 +54,14 @@ try{
   }
  }
  // Browser back/forward and private search DOM replacement preserve current shell.
+ phase="history";
  await page.setViewportSize({width:390,height:844});await page.goto(web+"/");
  await page.locator('[data-shell-nav="mobile"] a[href="/kham-pha"]').click();await page.waitForURL(web+"/kham-pha");
  await page.locator('[data-shell-nav="mobile"] a[href="/hanh-trinh"]').click();await page.waitForURL(web+"/hanh-trinh");
  await page.locator('[data-shell-nav="mobile"] a[href="/da-luu"]').click();await page.waitForURL(web+"/da-luu");
  await page.goBack();assert.equal(await page.locator('[data-shell-nav="mobile"] [aria-current="page"]').getAttribute("href"),"/hanh-trinh");
  await page.goForward();assert.equal(await page.locator('[data-shell-nav="mobile"] [aria-current="page"]').getAttribute("href"),"/da-luu");
- await page.goto(web+"/tim-kiem#q=AI");await page.locator("[data-private-search-ready]").waitFor();assert.equal(await page.locator('[data-shell-nav="mobile"] [aria-current="page"]').getAttribute("href"),"/kham-pha");assert.equal(await page.locator("[data-shell-breadcrumb]").count(),1);
+ phase="private-search";await page.goto(web+"/tim-kiem#q=AI");await page.locator("[data-private-search-ready]").waitFor();assert.equal(await page.locator('[data-shell-nav="mobile"] [aria-current="page"]').getAttribute("href"),"/kham-pha");assert.equal(await page.locator("[data-shell-breadcrumb]").count(),1);
  const missing=await page.request.get(web+"/kien-thuc/article/no-such-item",{maxRedirects:0});assert.equal(missing.status(),404);
  assert.deepEqual(errors,[]);
  console.log("UX04_SHELL_BROWSER_PASS",JSON.stringify({destinations:4,routes:routes.length,widths:5,keyboard:true,skip:true,active:true,breadcrumbs:true,focusVisible:true,bottomPadding:true,history:true,privateSearch:true}));

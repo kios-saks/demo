@@ -1,3 +1,4 @@
+import {detailMeta,detailRelated,detailToc,detailWrap,detailShare} from "../../../lib/knowledge-detail-ui";
 import {openDevReader} from "../../../lib/open-dev-reader";
 import {dynamicMediaEnabled,activeMedia,articleMediaUrl,catalogMediaUrl} from "../../../lib/dynamic-media";
 import {readingVisual} from "../../../lib/reading-visual";
@@ -27,7 +28,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<section class="stage-context"><span class="reading-note">NỀN TẢNG CỦA GIAI ĐOẠN</span><h2>Đọc tiếp: '+escapeHtml(stageGuide.headline)+'</h2>'+
      '<p>'+escapeHtml(stageGuide.overview)+'</p><h3>Bạn có thể bắt đầu với</h3><ol class="checklist">'+stageGuide.steps.map(step=>'<li>'+escapeHtml(step)+'</li>').join("")+'</ol>'+
      '<p><a href="/'+encodeURIComponent(a.stage)+'">Xem hướng dẫn giai đoạn, FAQ và nguồn đọc thêm →</a></p></section>':"";
-   const related=recommendations.length?
+   const related=openDevReader()?detailRelated("legacy",slug):recommendations.length?
      '<section class="related-articles"><h2>Bài khác cùng giai đoạn</h2><ul>'+recommendations.map(r=>
        '<li><a href="/bai-viet/'+encodeURIComponent(r.slug)+'">'+escapeHtml(r.title)+'</a></li>').join("")+'</ul></section>':"";
    const sections=a.sections.map((s,i)=>{
@@ -61,15 +62,16 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
      '<h1>'+escapeHtml(a.title)+'</h1>'+
      '<p class="reading-lead">'+escapeHtml(a.summary)+'</p>'+
      '<div class="reader-meta"><span>Khoảng '+Number(a.readMinutes||0)+' phút đọc</span><span> · '+a.sections.length+' phần nội dung</span><span> · '+a.sources.length+' nguồn tham khảo</span></div><div class="reader-actions"><button type="button" class="save-button" data-save-slug="'+escapeHtml(a.slug)+'" aria-pressed="false" hidden>Lưu bài</button><button type="button" class="secondary-action" data-share-article hidden>Chia sẻ</button><span data-share-status role="status"></span></div></div>';
-   const warning='<div class="warn"><b>Chưa được thẩm định y khoa.</b> Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc tư vấn từ nhân viên y tế. Khi có dấu hiệu cấp cứu, hãy liên hệ cơ sở y tế ngay.</div>';
-   const body=readerHeader+warning+
-     '<div class="reading-layout"><aside class="reading-sidebar"><div class="desktop-toc">'+toc+'</div><details class="mobile-toc"><summary>Trong bài viết này · '+a.sections.length+' phần</summary>'+toc+'</details>'+
+   const warning='<div class="warn"'+(openDevReader()?' data-detail-limitation':'')+'><b>Chưa được thẩm định y khoa.</b> Nội dung chỉ để tham khảo, không thay thế chẩn đoán, điều trị hoặc tư vấn từ nhân viên y tế. Khi có dấu hiệu cấp cứu, hãy liên hệ cơ sở y tế ngay.</div>';
+   const sharedToc=openDevReader()?detailToc([...a.sections.map((s,i)=>({id:"part-"+i,heading:s.heading})),{id:"article-sources",heading:"Nguồn tham khảo cụ thể"}]):'<div class="desktop-toc">'+toc+'</div><details class="mobile-toc"><summary>Trong bài viết này · '+a.sections.length+' phần</summary>'+toc+'</details>';
+   const body=readerHeader+(openDevReader()?'<div class="detail-legacy-meta reader-meta">'+detailMeta("legacy",slug)+'</div>'+detailShare("legacy",slug):"")+warning+
+     '<div class="reading-layout"><aside class="reading-sidebar">'+sharedToc+
      '<p>Chọn mục để chuyển tới phần muốn đọc. Các mốc thời gian và hướng dẫn y tế cần đối chiếu với chuyên gia phù hợp.</p></aside>'+
      '<article class="content article-content" aria-label="Nội dung bài viết">'+quick+heroCover+sections+
      supplemental+related+
      '<section id="article-sources"><h2>Nguồn tham khảo cụ thể</h2><div class="sources"><ul>'+sources+'</ul>'+
      '<p class="muted">Tài liệu bên ngoài được dẫn để người đọc đối chiếu; bài viết này là bản tổng hợp độc lập, không phải bản dịch hoặc phát hành bởi đơn vị nguồn.</p></div></section>'+
      '<p><a href="/thu-vien">← Quay lại danh sách toàn bộ bài</a></p></article></div>';
-   return htmlResponse(a.title,body);
+   return htmlResponse(a.title,openDevReader()?detailWrap("legacy",slug,body):body,200,openDevReader()?"detail-v2":undefined);
  }catch{return connectionPending(request);}
 }

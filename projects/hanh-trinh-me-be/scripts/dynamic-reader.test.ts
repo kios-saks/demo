@@ -1,3 +1,7 @@
+import {renderKnowledgeDetail} from "../apps/web/lib/knowledge-detail";
+import {escapeHtml as esc} from "../apps/web/lib/dev-preview";
+import detailBundle from "../apps/web/app/hoc-cung-con/life-course-articles.json";
+import detailLessons from "../apps/web/app/hoc-cung-con/learning-catalog.json";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {renderKnowledgeHub,resolveKnowledgeLink} from "../apps/web/lib/knowledge-hub";
@@ -87,6 +91,39 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.equal(seen.length,219);assert.equal(new Set(seen).size,219);assert.deepEqual(seen.sort(),inventory.refs.map(r=>r.kind+":"+r.id).sort());
    console.log("UX05_DYNAMIC_READER_PAGINATION_PASS",JSON.stringify({refs:219,pages:10,limit:24}));assert.ok(hubHtml.includes('href="/kham-pha"'));assert.ok(!hubHtml.includes('href="/gia-dinh-demo"'));
    const filtered=await renderKnowledgeHub(request("/kham-pha?stage=baby",false));assert.equal((await filtered.text()).match(/data-knowledge-entry=/g)?.length,19);
+   // Test all canonical detail links, retaining exact existing content and sources.
+   const verified=new Set<string>();
+   for(const ref of inventory.refs){
+    const path="/kien-thuc/"+ref.kind+"/"+ref.id+"/doc";
+    const response=renderKnowledgeDetail(request(path,false),ref.kind,ref.id);
+    assert.match(response.headers.get("cache-control")||"",/no-store/);assert.match(response.headers.get("x-robots-tag")||"",/noindex/);
+    let markup:string,parts:string[],urls:string[];
+    if(ref.kind==="legacy"){
+     assert.equal(response.status,307,ref.id);assert.equal(response.headers.get("location"),"/bai-viet/"+ref.id);
+     const original=dataset.articles.find(a=>a.slug===ref.id)!;
+     const page=await article(request("/dev-review/"+ref.id,false),{params:Promise.resolve({slug:ref.id})});assert.equal(page.status,200,ref.id);
+     markup=await page.text();parts=[original.title,original.summary,...original.sections.flatMap(s=>[s.heading,...s.paragraphs])];urls=original.sources.filter(s=>s.url.startsWith("https:")).map(s=>s.url);
+     assert.equal((markup.match(/data-media-source="supabase"/g)||[]).length,2,ref.id);
+     assert.ok(markup.includes('data-media-revision="'));assert.ok(markup.includes('infographic-transcript'),ref.id);
+    }else if(ref.kind==="article"){
+     assert.equal(response.status,200,ref.id);markup=await response.text();const a=detailBundle.articles.find(x=>x.id===ref.id)!;
+     parts=[a.title,a.summary,...a.sections.flatMap(s=>[s.heading,s.body]),...a.practice,a.limits];
+     const map=detailBundle.sources as Record<string,{url:string}>;urls=[...a.sourceIds,...a.sections.flatMap(s=>s.sourceIds)].map(id=>map[id].url);
+    }else{
+     assert.equal(response.status,200,ref.id);markup=await response.text();const l=detailLessons.lessons.find(x=>x.id===ref.id)!;
+     parts=[l.title,l.goal,l.knowledge,l.practice,l.reflection];const map=detailLessons.sources as Record<string,{url:string}>;urls=l.sourceIds.map(id=>map[id].url);
+    }
+    assert.ok(markup.includes('data-detail-kind="'+ref.kind+'"')&&markup.includes('data-detail-id="'+ref.id+'"'),ref.id);
+    assert.ok(markup.includes('data-detail-limitation')&&markup.includes('data-detail-related')&&markup.includes('href="#article-sources"'),ref.id);
+    assert.ok(markup.includes('href="'+path+'"'),ref.id);
+    for(const text of parts)assert.ok(markup.includes(esc(text)),ref.id+" missing exact content");
+    for(const url of urls)assert.ok(markup.includes('href="'+esc(url)+'"'),ref.id+" missing source");
+    assert.ok(!markup.includes("secret.invalid"));verified.add(ref.kind+":"+ref.id);
+   }
+   assert.equal(verified.size,219);
+   assert.equal(renderKnowledgeDetail(request("/kien-thuc/article/not-found/doc",false),"article","not-found").status,404);
+   assert.equal(renderKnowledgeDetail(new Request("http://localhost/kien-thuc/article/not-found/doc",{method:"POST"}),"article","not-found").status,404);
+   console.log("UX06_DETAIL_INTEGRITY_PASS",JSON.stringify({refs:219,legacy:72,articles:126,lessons:21,mediaSlots:144}));
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).headers.get("location"),"/bai-viet/"+slug);
    assert.equal(resolveKnowledgeLink(request("/kien-thuc/article/no-such-item",false),"article","no-such-item").status,404);
    const openList=await renderReaderLibrary(request("/dev-review",false));
@@ -96,6 +133,7 @@ test("dynamic rendering of every article, access control, current revision and n
    assert.equal((await proxyMedia(request(articleMediaUrl(slug,"cover"),false),slug,"cover")).status,200);
    assert.equal((await mediaAdminProxy(request("/api/media-admin/session",false),["session"])).status,404);
    process.env.MEBE_COMBINED_DEV="false";assert.equal(openDevReader(),false);
+   for(const ref of inventory.refs){assert.equal(renderKnowledgeDetail(request("/kien-thuc/"+ref.kind+"/"+ref.id+"/doc",false),ref.kind,ref.id).status,404);assert.equal(renderKnowledgeDetail(request("/kien-thuc/"+ref.kind+"/"+ref.id+"/doc",true),ref.kind,ref.id).status,404);}console.log("UX06_DETAIL_GATE_PASS",JSON.stringify({refs:219,guest:true,authenticated:true}));
    assert.equal((await renderKnowledgeHub(request("/kham-pha",false))).status,404);assert.equal((await renderKnowledgeHub(request("/kham-pha",true))).status,404);assert.equal(resolveKnowledgeLink(request("/kien-thuc/legacy/"+slug,false),"legacy",slug).status,404);
    assert.equal(requirePreviewLogin(request("/dev-review",false))?.status,404);
    process.env.MEBE_COMBINED_DEV="true";process.env.RENDER="false";assert.equal(openDevReader(),false);

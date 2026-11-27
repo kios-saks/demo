@@ -1,3 +1,4 @@
+import {detailHref} from "./knowledge-detail-ui";
 import {parseDiscoveryParams,discoveryHref,discoveryFacets,paginateDiscovery,discoveryPageSize} from "./knowledge-discovery.mjs";
 import atlas from "../app/hoc-cung-con/life-course-atlas.json";
 import inventory from "../app/hoc-cung-con/life-course-inventory.json";
@@ -33,7 +34,7 @@ export async function renderKnowledgeHub(request:Request,load=listDevArticles):P
   const rows=knowledgeGroups.map(g=>{
    const matches=result.items.filter(x=>g.stages.includes(x.stage));if(!matches.length)return "";
    const stages=atlas.stages.filter(s=>g.stages.includes(s.id)&&matches.some(x=>x.stage===s.id));
-   return '<section class="discovery-group" data-knowledge-group="'+e(g.id)+'"><h3>'+e(g.label)+'</h3>'+stages.map(s=>'<section data-knowledge-stage="'+e(s.id)+'"><h4>'+e(s.age)+' · '+e(s.title)+'</h4><ul class="saved-list discovery-results">'+matches.filter(x=>x.stage===s.id).map(x=>'<li data-knowledge-entry="'+e(x.key)+'" data-discovery-stage="'+e(x.stage)+'" data-discovery-topic="'+e(x.pillar)+'" data-discovery-kind="'+e(x.kind)+'"><a href="'+e(x.href)+'">'+e(x.title)+'</a><small>'+e(labels[x.kind])+' · '+e(atlas.pillars.find(p=>p.id===x.pillar)?.title||"")+'</small><p>'+e(x.summary)+'</p></li>').join("")+'</ul></section>').join("")+'</section>';
+   return '<section class="discovery-group" data-knowledge-group="'+e(g.id)+'"><h3>'+e(g.label)+'</h3>'+stages.map(s=>'<section data-knowledge-stage="'+e(s.id)+'"><h4>'+e(s.age)+' · '+e(s.title)+'</h4><ul class="saved-list discovery-results">'+matches.filter(x=>x.stage===s.id).map(x=>'<li data-knowledge-entry="'+e(x.key)+'" data-discovery-stage="'+e(x.stage)+'" data-discovery-topic="'+e(x.pillar)+'" data-discovery-kind="'+e(x.kind)+'"><a href="'+e(detailHref(x.kind,x.id))+'">'+e(x.title)+'</a><small>'+e(labels[x.kind])+' · '+e(atlas.pillars.find(p=>p.id===x.pillar)?.title||"")+'</small><p>'+e(x.summary)+'</p></li>').join("")+'</ul></section>').join("")+'</section>';
   }).join("");
   const pageLink=(n:number,label:string)=>'<a data-discovery-page="'+n+'" href="'+e(discoveryHref(state,n))+'"'+(n===result.page?' aria-current="page"':'')+'>'+e(label)+'</a>';
   const pager=result.pages>1?'<nav class="discovery-pagination" aria-label="Phân trang kết quả">'+(result.page>1?pageLink(result.page-1,"Trước"):"")+Array.from({length:result.pages},(_,i)=>pageLink(i+1,String(i+1))).join("")+(result.page<result.pages?pageLink(result.page+1,"Tiếp"):"")+'</nav>':"";

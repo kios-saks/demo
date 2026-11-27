@@ -59,6 +59,8 @@ Dependency: UX-01/02/04.
 - [ ] AC06.3: source/medical limitation dễ thấy, ảnh contain và transcript; kiểm 219 nội dung tự động + 72×4 visual regression và mẫu A–Z mọi chặng/loại. Evidence: browser + source integrity.
 Dependency: UX-01/04/05.
 
+**UX-06 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-06-implementation.md). Common reading layout and new stable /doc links, preserve existing 219 aliases and hash, exact content/sources/media, scope Combined DEV. AC06.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-07 · P1 · Bookmark và chia sẻ
 - [ ] AC07.1: lưu/bỏ lưu cho đủ 219 stable IDs; idempotent, reload/back, kho cá nhân đúng, không duplicate; migrate bookmark legacy cũ không mất dữ liệu, rollback/fixture.
 - [ ] AC07.2: share URL canonical không chứa token/personal data; fallback copy; người nhận vẫn chịu đúng quyền/DEV gate; không hứa link công khai Production.
