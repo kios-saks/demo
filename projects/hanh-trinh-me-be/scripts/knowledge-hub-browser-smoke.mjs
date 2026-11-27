@@ -11,8 +11,17 @@ try{
  assert.equal(hub.status(),200);assert.match(hub.headers()["x-robots-tag"]||"",/noindex/);
  assert.equal(await page.locator("[data-knowledge-group]").count(),6);
  assert.equal(await page.locator("[data-knowledge-stage]").count(),12);
- assert.equal(await page.locator("[data-knowledge-entry]").count(),219);
- assert.deepEqual((await page.locator("[data-knowledge-entry]").evaluateAll(xs=>xs.map(x=>x.dataset.knowledgeEntry))).sort(),inv.refs.map(r=>r.kind+":"+r.id).sort());
+ const paginated=await page.locator('[data-discovery-v2="1"]').count()===1;
+ const seen=[];
+ const collect=async()=>seen.push(...await page.locator("[data-knowledge-entry]").evaluateAll(xs=>xs.map(x=>x.dataset.knowledgeEntry)));
+ await collect();
+ if(paginated){
+  const count=page.locator("[data-knowledge-count]");assert.equal(await count.getAttribute("data-knowledge-count"),"219");const pages=Number(await count.getAttribute("data-discovery-pages"));assert.equal(pages,10);
+  for(let n=2;n<=pages;n++){await page.goto(web+"/kham-pha?page="+n,{waitUntil:"domcontentloaded",timeout:90000});assert.equal(await page.locator("[data-discovery-current-page]").getAttribute("data-discovery-current-page"),String(n));await collect();}
+  await page.goto(web+"/kham-pha");
+ }
+ assert.equal(seen.length,219);assert.equal(new Set(seen).size,219);
+ assert.deepEqual(seen.sort(),inv.refs.map(r=>r.kind+":"+r.id).sort());
  assert.equal(await page.locator('nav a[href="/gia-dinh-demo"], nav a[href="/hoc-cung-con"]').count(),0);
  for(const width of [390,768,1440]){await page.setViewportSize({width,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),"hub overflow "+width);}
  await page.goto(web+"/kham-pha?stage=baby");assert.equal(await page.locator("[data-knowledge-entry]").count(),19);

@@ -28,7 +28,7 @@ try{
   if(width===390){assert(layout.searchBottom<=layout.visibleBottom,"search below fold");assert(layout.ageBottom<=layout.visibleBottom,"age group below fold: "+JSON.stringify(layout));console.log("UX03_MOBILE_FOLD",JSON.stringify(layout));}
  }
  await page.setViewportSize({width:390,height:844});
- await page.locator('[data-home-group="senior"]').click();await page.locator("[data-knowledge-entry]").first().waitFor();assert.equal(await page.locator("[data-knowledge-entry]").count(),32);
+ await page.locator('[data-home-group="senior"]').click();await page.locator("[data-knowledge-entry]").first().waitFor();if(await page.locator('[data-discovery-v2="1"]').count()){assert.equal(await page.locator("[data-knowledge-count]").getAttribute("data-knowledge-count"),"32");assert.equal(await page.locator("[data-knowledge-entry]").count(),24);await page.goto(web+"/kham-pha?group=senior&page=2");assert.equal(await page.locator("[data-knowledge-entry]").count(),8);}else assert.equal(await page.locator("[data-knowledge-entry]").count(),32);
  assert.equal(await page.evaluate(k=>localStorage.getItem(k+"homeGroup"),prefix),null);
  await home();
  await page.locator("[data-home-group-select]").selectOption("school");

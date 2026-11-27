@@ -83,3 +83,18 @@ jobs:
       - name: UX-04 Reader Shell Browser Smoke
         if: env.MEBE_UX04_LIVE == 'true'
         run: node scripts/reader-shell-browser-smoke.mjs
+      - name: UX-05 live discovery acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const res=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/kham-pha',{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV discovery probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-discovery-v2="1"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX05_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX05_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-05 Discovery Browser Smoke
+        if: env.MEBE_UX05_LIVE == 'true'
+        run: node scripts/discovery-browser-smoke.mjs

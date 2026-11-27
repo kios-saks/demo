@@ -51,6 +51,8 @@ Dependency: UX-01.
 - [ ] AC05.3: empty, error, loading, retry, accessibility focus management; 219 IDs xuất hiện qua tập hợp kết quả, không mất 19 ô không ưu tiên. Evidence: test matrix 12 chặng × 16 chủ đề + mobile flow.
 Dependency: UX-01/02/04.
 
+**UX-05 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-05-implementation.md). SSR multi-select, counts, URL compatibility, pagination 24, mobile dialog, desktop sidebar, empty/upstream distinction. AC05.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-06 · P1 · Chi tiết chung
 - [ ] AC06.1: 219/219 stable deep links đúng kind/id, refresh/back/share works, legacy URL + old hash fallback; giữ nội dung, headings, source URLs, media/revisions và disclaimer.
 - [ ] AC06.2: common template title, summary (chỉ trích từ nội dung có sẵn), meta, TOC, source, related; bài học có hoạt động/reflection, cẩm nang có giới hạn/checklist; không gắn nhãn clinical approved.

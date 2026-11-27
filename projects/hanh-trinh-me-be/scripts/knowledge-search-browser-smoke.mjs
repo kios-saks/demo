@@ -19,7 +19,14 @@ try{
  await page.goto(web+"/tim-kiem?q=day+thi");assert.deepEqual(await page.locator("[data-search-entry]").evaluateAll(xs=>xs.map(x=>x.dataset.searchEntry)),accented);
  await page.goto(web+"/tim-kiem?stage=preteen&kind=lesson&topic=body");const filtered=page.locator("[data-search-entry]");assert(await filtered.count()>0);assert.equal(await page.locator('[data-search-entry]:not([data-search-stage="preteen"][data-search-kind="lesson"][data-search-topic="body"])').count(),0);
  await page.reload();assert.equal(await page.locator("#unified-stage").inputValue(),"preteen");assert.equal(await page.locator("#unified-kind").inputValue(),"lesson");assert.equal(await page.locator("#unified-topic").inputValue(),"body");
- await page.locator('a.clear-filter').click();assert.equal(await page.locator("[data-search-entry]").count(),219);await page.goBack();assert.equal(await page.locator("#unified-stage").inputValue(),"preteen");
+ // Await the actual main-document transition, not the previous page's DOM.
+ const cleared=page.waitForResponse(res=>res.request().isNavigationRequest()&&res.url()===web+"/tim-kiem");
+ await Promise.all([page.waitForURL(web+"/tim-kiem",{waitUntil:"domcontentloaded",timeout:90000}),page.locator('a.clear-filter').click()]);
+ assert.equal((await cleared).status(),200);
+ await page.locator('[data-search-count="219"][data-search-total="219"]').waitFor({timeout:90000});
+ assert.equal(await page.locator("[data-search-entry]").count(),219);
+ await page.goBack({waitUntil:"domcontentloaded",timeout:90000});await page.waitForURL(u=>u.searchParams.get("stage")==="preteen");
+ assert.equal(await page.locator("#unified-stage").inputValue(),"preteen");
  await page.goto(web+"/tim-kiem?q=zzzxxyyqqq");assert.equal(await page.locator("[data-search-empty]").count(),1);
  await page.goto(web+"/tim-kiem?q=%3Cscript%3Ealert(1)%3C%2Fscript%3E");assert.equal(await page.locator("#unified-q").inputValue(),"<script>alert(1)</script>");
  await page.goto(web+"/tim-kiem?stage=so-sinh");assert(await page.locator("[data-search-entry]").count()>0);assert.equal(await page.locator('[data-search-entry]:not([data-search-kind="legacy"])').count(),0);
