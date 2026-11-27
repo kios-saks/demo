@@ -1,0 +1,36 @@
+/* UX-04: shared shell, scoped to designated DEV reader markup. */
+[data-reader-shell="v2"]{--shell-ink:#24362d;--shell-green:#285b46;--shell-line:#d8e0d7;--shell-paper:#faf9f5;--shell-active:#e2eee4;--shell-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
+html:has([data-reader-shell="v2"]){scroll-padding-top:90px;scroll-padding-bottom:16px}
+[data-reader-shell="v2"] .shell-v2-header{position:sticky;top:0;z-index:25;background:#faf9f5;border-bottom:1px solid var(--shell-line);padding:12px 0;color:var(--shell-ink)}
+[data-reader-shell="v2"] .shell-v2-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px}
+[data-reader-shell="v2"] .shell-v2-brand{display:inline-flex;align-items:center;gap:10px;color:var(--shell-green);font-size:16px;font-weight:750;min-height:44px;text-decoration:none}
+[data-reader-shell="v2"] .shell-v2-brand .brand-symbol{display:grid;place-items:center;background:var(--shell-active);width:35px;height:35px;border-radius:10px;flex:none}
+[data-reader-shell="v2"] .shell-v2-desktop{display:flex;align-items:center;gap:5px;flex-wrap:nowrap}
+[data-reader-shell="v2"] .shell-v2-desktop a,[data-reader-shell="v2"] .shell-v2-mobile a{min-height:44px;display:flex;align-items:center;justify-content:center;gap:6px;padding:9px 12px;border-radius:10px;color:var(--shell-green);font-size:14px;line-height:1.25;text-decoration:none;font-weight:600;border:1px solid transparent;white-space:nowrap}
+[data-reader-shell="v2"] .shell-v2-desktop a:first-child{background:transparent;color:var(--shell-green)}
+[data-reader-shell="v2"] [data-shell-nav] a[aria-current="page"]{background:var(--shell-active);border-color:var(--shell-green);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+[data-reader-shell="v2"] [data-shell-nav] a:hover{background:var(--shell-active)}
+[data-reader-shell="v2"] .shell-v2-mobile{display:none}
+[data-reader-shell="v2"] .shell-v2-crumbs{font-size:13px;line-height:1.5;padding:10px 0 6px;color:#536459;overflow-wrap:anywhere}
+[data-reader-shell="v2"] .shell-v2-crumbs ol{display:flex;flex-wrap:wrap;align-items:center;gap:5px 9px;list-style:none;margin:0;padding:0}
+[data-reader-shell="v2"] .shell-v2-crumbs li{min-width:0}
+[data-reader-shell="v2"] .shell-v2-crumbs li:not(:first-child)::before{content:"/";padding-right:9px;color:#68766b}
+[data-reader-shell="v2"] .shell-v2-crumbs a{text-decoration:underline;color:var(--shell-green)}
+[data-reader-shell="v2"] .shell-v2-footer{padding:24px 0;color:#536459;font-size:14px;line-height:1.6;display:block;background:transparent}
+[data-reader-shell="v2"] .shell-v2-footer a{color:var(--shell-green);text-decoration:underline;display:inline-block;min-height:44px;padding:10px 0}
+[data-reader-shell="v2"] .shell-v2-skip{position:fixed;left:12px;top:-100px;z-index:1000;background:var(--shell-green);color:white;padding:10px 16px;border-radius:9px;text-decoration:none}
+[data-reader-shell="v2"] .shell-v2-skip:focus{top:8px}
+[data-reader-shell="v2"] :focus-visible{outline:3px solid #285b46;outline-offset:3px}
+[data-reader-shell="v2"] main:focus-visible{outline-offset:-3px}
+[data-reader-shell="v2"] main{min-width:0;overflow-wrap:anywhere}
+@media(max-width:768px){
+ html:has([data-reader-shell="v2"]){scroll-padding-top:12px;scroll-padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+ [data-reader-shell="v2"]{padding-bottom:var(--shell-bottom);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+ [data-reader-shell="v2"] .shell-v2-header{position:relative;padding:calc(8px + env(safe-area-inset-top,0px)) 0 8px}
+ [data-reader-shell="v2"] .shell-v2-inner{gap:8px;min-height:44px}
+ [data-reader-shell="v2"] .shell-v2-desktop{display:none}
+ [data-reader-shell="v2"] .shell-v2-mobile{position:fixed;bottom:0;left:0;right:0;z-index:40;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;background:var(--shell-paper);border-top:1px solid var(--shell-line);padding:5px max(6px,env(safe-area-inset-right,0px)) calc(5px + env(safe-area-inset-bottom,0px)) max(6px,env(safe-area-inset-left,0px));box-shadow:0 -3px 15px #24362d12}
+ [data-reader-shell="v2"] .shell-v2-mobile a{min-height:48px;flex-direction:column;gap:3px;padding:4px 2px;font-size:11px}
+ [data-reader-shell="v2"] .shell-v2-crumbs{padding-top:8px}
+}
+@media(prefers-reduced-motion:reduce){html:has([data-reader-shell="v2"]){scroll-behavior:auto}}

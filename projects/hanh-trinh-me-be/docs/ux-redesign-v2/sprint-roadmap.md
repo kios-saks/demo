@@ -43,6 +43,8 @@ Dependency: UX-01/02/04.
 - [ ] AC04.3: giữ route aliases, noindex/nofollow/no-store phù hợp, raw API/CMS guest denials, Production draft gate. Evidence: visual + route/security tests.
 Dependency: UX-01.
 
+**UX-04 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-04-implementation.md). Shared 4-destination shell across raw and React reader, compatibility, keyboard/safe-area and security regression. AC04.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+
 ### UX-05 · P0 · Khám phá và filter
 - [ ] AC05.1: kết quả hữu ích trước bộ lọc dài; desktop sidebar; mobile sheet, label/selection/count thật; 16 lĩnh vực không chiếm 16 hàng trước kết quả, không mặc định loại nội dung sai.
 - [ ] AC05.2: multi-select chặng OR, nhóm filter AND, áp dụng/xóa, back/forward, reload, deep link giữ đúng state; pagination/limit, không duplicate.

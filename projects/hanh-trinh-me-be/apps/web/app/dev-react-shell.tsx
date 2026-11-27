@@ -1,0 +1,12 @@
+"use client";
+import {usePathname} from "next/navigation";
+import Script from "next/script";
+import {shellDestinations,shellBreadcrumb,shellSectionForPath,type ShellSection} from "../lib/reader-shell-model";
+function Icon({path}:{path:string}){return <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d={path}/></svg>}
+function Nav({section,mobile}:{section:ShellSection;mobile:boolean}){return <nav className={mobile?"mobile-reader-nav shell-v2-mobile":"reader-nav-links shell-v2-desktop"} data-shell-nav={mobile?"mobile":"desktop"} aria-label={mobile?"Điều hướng trên điện thoại":"Điều hướng chính"}>{shellDestinations.map(d=><a key={d.id} href={d.href} aria-current={d.id===section?"page":undefined}><Icon path={d.icon}/><span>{d.label}</span></a>)}</nav>}
+export default function DevReactShell({children,legacyHeader,legacyFooter}:{children:React.ReactNode;legacyHeader:React.ReactNode;legacyFooter:React.ReactNode}){
+ const path=usePathname(),section=shellSectionForPath(path),title=path==="/hoc-cung-con"?"Tri thức theo độ tuổi":path==="/nguon-tham-khao"?"Nguồn tham khảo":null;
+ if(!title)return <><a className="skip-to-content" href="#noi-dung-chinh">Đi thẳng đến nội dung chính</a>{legacyHeader}<main id="noi-dung-chinh">{children}</main>{legacyFooter}</>;
+ const crumbs=shellBreadcrumb(section,title);
+ return <div data-reader-shell="v2"><a className="shell-v2-skip" href="#noi-dung-chinh">Đi thẳng đến nội dung chính</a><header className="shell-v2-header"><div className="wrap shell-v2-inner"><a className="shell-v2-brand" href="/" aria-label="Hành Trình Mẹ & Bé — về trang chủ"><span className="brand-symbol" aria-hidden="true"><Icon path="M12 21 3 12a5 5 0 0 1 9-5 5 5 0 0 1 9 5z"/></span><span>Hành Trình Mẹ & Bé</span></a><Nav section={section} mobile={false}/></div></header><main id="noi-dung-chinh" tabIndex={-1}>{crumbs.length>0&&<nav className="shell-v2-crumbs wrap" data-shell-breadcrumb aria-label="Đường dẫn"><ol>{crumbs.map((c,i)=><li key={i}>{"href" in c&&c.href?<a href={c.href}>{c.label}</a>:<span aria-current="page">{c.label}</span>}</li>)}</ol></nav>}{children}</main><footer className="wrap footer shell-v2-footer">Hành Trình Mẹ & Bé · Đồng hành bằng kiến thức và sự thấu hiểu · <a href="/nguon-tham-khao">Nguồn tham khảo</a></footer><Nav section={section} mobile/><Script src="/reader-shell-focus.js" strategy="afterInteractive"/></div>;
+}

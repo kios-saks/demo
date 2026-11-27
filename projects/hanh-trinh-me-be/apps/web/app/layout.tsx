@@ -1,4 +1,7 @@
-import type { Metadata } from "next";
+import {openDevReader} from "../lib/open-dev-reader";
+import DevReactShell from "./dev-react-shell";
+import "../public/reader-shell-v2.css";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import {familyDemoEnabled} from "../lib/family-demo-config";
 import {familyWebConfig} from "../lib/family-web-config";
@@ -13,12 +16,9 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false } // No reviewed content yet. Never index drafts.
 };
 
+export function generateViewport(): Viewport {return openDevReader()?{width:"device-width",initialScale:1,viewportFit:"cover"}:{width:"device-width",initialScale:1};}
 export default function RootLayout({ children }: { children: React.ReactNode }) {
- return (
-  <html lang="vi">
-   <body>
-    <a className="skip-to-content" href="#noi-dung-chinh">Đi thẳng đến nội dung chính</a>
-    <header className="topbar">
+ const header=<header className="topbar">
      <div className="wrap nav">
       <Link href="/" className="brand" aria-label="Hành Trình Mẹ & Bé – về trang chủ">
        <span className="brand-mark" aria-hidden="true">
@@ -38,9 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        
       </nav>
      </div>
-    </header>
-    <main id="noi-dung-chinh">{children}</main>
-    <footer className="footer">
+    </header>;
+ const footer=<footer className="footer">
      <div className="wrap footer-inner">
       <div>
        <p><strong>Hành Trình Mẹ & Bé</strong> — Đồng hành bằng kiến thức và sự thấu hiểu.</p>
@@ -52,8 +51,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
        
       </nav>
      </div>
-    </footer>
-   </body>
-  </html>
- );
+    </footer>;
+ return <html lang="vi"><body>{openDevReader()?<DevReactShell legacyHeader={header} legacyFooter={footer}>{children}</DevReactShell>:<><a className="skip-to-content" href="#noi-dung-chinh">Đi thẳng đến nội dung chính</a>{header}<main id="noi-dung-chinh">{children}</main>{footer}</>}</body></html>;
 }

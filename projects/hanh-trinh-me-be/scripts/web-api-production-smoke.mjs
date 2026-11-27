@@ -28,6 +28,7 @@ assert(!homepage.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"
 assert(!homepage.includes("Thư viện DEV"),"Public homepage has no development labels");
 assert(!homepage.includes("Mở kho đọc DEV"),"Public homepage does not advertise the private reader");
 assert(!homepage.includes("data-home-v2"),"Production homepage never exposes Combined DEV A–Z redesign");
+assert(!homepage.includes('data-reader-shell="v2"'),"Production homepage must not expose Combined DEV shell");
 assert(!homepage.includes("data-home-legacy"),"Production homepage does not embed private corpus metadata");
 assert.equal((homepage.match(/class="public-stage-group"/g)||[]).length,6);
 assert(homepage.includes('class="hero-search"'),"Home search is discoverable above the fold");

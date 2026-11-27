@@ -1,3 +1,4 @@
+import {openDevReader} from "../../../lib/open-dev-reader";
 import {dynamicMediaEnabled,activeMedia,articleMediaUrl,catalogMediaUrl} from "../../../lib/dynamic-media";
 import {readingVisual} from "../../../lib/reading-visual";
 import {escapeHtml,htmlResponse,connectionPending,getDevArticle,requirePreviewLogin,safeMediaPath} from "../../../lib/dev-preview";
@@ -55,8 +56,7 @@ export async function GET(request:Request,{params}:{params:Promise<{slug:string}
    const sources=a.sources.filter(s=>{try{return new URL(s.url).protocol==="https:"}catch{return false}})
        .map((s,i)=>'<li><a href="'+escapeHtml(s.url)+'" target="_blank" rel="noopener noreferrer nofollow">'+
          (i+1)+'. '+escapeHtml(s.name)+' ↗</a></li>').join("");
-   const readerHeader='<div class="article-hero" data-current-article="'+escapeHtml(a.slug)+'"><nav class="reading-breadcrumbs" aria-label="Đường dẫn bài viết">'+
-     '<a href="/thu-vien">← Trở về thư viện</a></nav>'+
+   const readerHeader='<div class="article-hero" data-current-article="'+escapeHtml(a.slug)+'">'+(openDevReader()?"":'<nav class="reading-breadcrumbs" aria-label="Đường dẫn bài viết"><a href="/thu-vien">← Trở về thư viện</a></nav>')+
      '<span class="pill">KIẾN THỨC CHUYÊN SÂU · '+escapeHtml(stageGuide?.headline||a.stage)+'</span>'+
      '<h1>'+escapeHtml(a.title)+'</h1>'+
      '<p class="reading-lead">'+escapeHtml(a.summary)+'</p>'+

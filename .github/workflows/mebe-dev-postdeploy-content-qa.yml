@@ -68,3 +68,18 @@ jobs:
       - name: UX-03 Homepage Browser Smoke
         if: env.MEBE_UX03_LIVE == 'true'
         run: node scripts/homepage-v2-browser-smoke.mjs
+      - name: UX-04 live shell acceptance (only when candidate is LIVE)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const res=await fetch('https://hanh-trinh-me-be-web-jn5v.onrender.com/',{cache:'no-store',signal:AbortSignal.timeout(90000)});
+          if(!res.ok) throw Error('DEV shell probe HTTP '+res.status);
+          const html=await res.text();
+          const {appendFileSync}=await import('node:fs');
+          const live=html.includes('data-reader-shell="v2"');
+          appendFileSync(process.env.GITHUB_ENV,'MEBE_UX04_LIVE='+String(live)+'\n');
+          if(!live) console.log('UX04_POSTDEPLOY_SKIP_NOT_LIVE: re-run after candidate deployment; not acceptance');
+          NODE
+      - name: UX-04 Reader Shell Browser Smoke
+        if: env.MEBE_UX04_LIVE == 'true'
+        run: node scripts/reader-shell-browser-smoke.mjs
