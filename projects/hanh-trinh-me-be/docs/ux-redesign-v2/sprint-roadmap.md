@@ -1,5 +1,5 @@
 # Sprint UX Redesign V2 — roadmap và nghiệm thu
-**Trạng thái: IN PROGRESS · UX-01–UX-03 CLOSED trong phạm vi DEV, 3/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
+**Trạng thái: IN PROGRESS · UX-01–UX-04 CLOSED trong phạm vi DEV, 4/10 nghiệm thu.** Thiết kế ở mức low fidelity; không tự đóng ticket vì có tài liệu. App baseline 16b8762. Mỗi hạng mục sau phê duyệt cần PR nhỏ, kiểm thử, bằng chứng trước/ sau. P0 là kiến trúc và khả năng tìm, P1 là chiều sâu, chất lượng và nghiên cứu; UX-09/10 bắt đầu baseline từ đầu, không chờ cuối.
 
 ## Roadmap theo dependency
 | Đợt | Mục tiêu | Hạng mục | Gate trước chuyển tiếp |
@@ -38,12 +38,12 @@ Dependency: UX-01/02/04.
 **UX-03 CLOSED — Combined DEV technical acceptance (26/11/2026):** [audit / implementation / final acceptance](ux-03-implementation.md). App `68f3d01` LIVE; CI `edaf716` 5/5 PASS. [LIVE QA 45798534809](https://github.com/kios-saks/demo/actions/runs/45798534809): AC03.1 search bottom 307.16px, age bottom 706.59px ≤ visible 783px at 390×844, 4 widths, no overflow/modal; AC03.2 real general/personalized recommendations, explicit opt-in, legacy recent history, reset/clear PASS; AC03.3 10/10 browser task flows at 390/1440, 2 principal actions each. UX03_HOMEPAGE_BROWSER_PASS and UX01/02 regressions PASS. UX-10 human usability study remains required; A–Z history expansion remains UX-07/08. Authenticated preview SKIP missing token. Sprint 3/10 CLOSED; UX-04 next. Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
 ### UX-04 · P0 · Shell & navigation
-- [ ] AC04.1: 4 đích Trang chủ/Khám phá/Hành trình/Cá nhân cùng tên, order, active state trên mọi reader route, desktop/mobile; nguồn footer, CMS/demo không quảng bá.
-- [ ] AC04.2: keyboard Tab/Shift-Tab, skip link, focus visible, aria-current, safe area, không che nội dung/focus, không tràn ngang ở 320/390/768/1024/1440.
-- [ ] AC04.3: giữ route aliases, noindex/nofollow/no-store phù hợp, raw API/CMS guest denials, Production draft gate. Evidence: visual + route/security tests.
+- [x] AC04.1: 4 đích Trang chủ/Khám phá/Hành trình/Cá nhân cùng tên, order, active state trên mọi reader route, desktop/mobile; nguồn footer, CMS/demo không quảng bá.
+- [x] AC04.2: keyboard Tab/Shift-Tab, skip link, focus visible, aria-current, safe area, không che nội dung/focus, không tràn ngang ở 320/390/768/1024/1440.
+- [x] AC04.3: giữ route aliases, noindex/nofollow/no-store phù hợp, raw API/CMS guest denials, Production draft gate. Evidence: visual + route/security tests.
 Dependency: UX-01.
 
-**UX-04 candidate (27/11/2026):** [audit / implementation / acceptance plan](ux-04-implementation.md). Shared 4-destination shell across raw and React reader, compatibility, keyboard/safe-area and security regression. AC04.1–3 OPEN pending CI and LIVE QA. Production gate and PRB-UX02-PRIVACY unchanged.
+**UX-04 CLOSED — Combined DEV technical acceptance (27/11/2026):** [audit / implementation / final acceptance](ux-04-implementation.md). App `52cc86e` LIVE; CI `4391764` 5/5 PASS. [LIVE QA 45924315181](https://github.com/kios-saks/demo/actions/runs/45924315181), job 140262010783 PASS, shell probe true and browser step executed. AC04.1 four destinations/labels/order/active/breadcrumb/footer on 24 tested routes; AC04.2 five widths (320/390/768/1024/1440), keyboard/skip/focus/bottom padding PASS; AC04.3 route/security headers, missing alias 404, CI Production draft isolation, UX01/02/03 regressions and 219 refs/aliases PASS. Physical iOS notch and assistive-technology validation remain UX-09/10; authenticated preview SKIP missing token. Sprint 4/10 CLOSED; UX-05 next. Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
 
 ### UX-05 · P0 · Khám phá và filter
 - [ ] AC05.1: kết quả hữu ích trước bộ lọc dài; desktop sidebar; mobile sheet, label/selection/count thật; 16 lĩnh vực không chiếm 16 hàng trước kết quả, không mặc định loại nội dung sai.
