@@ -11,7 +11,7 @@ const slugs=(key)=>{const value=get(key,[]);return Array.isArray(value)?[...new 
 const announce=(text)=>all("[data-local-status]").forEach(el=>{el.textContent=text});
 const current=document.querySelector("[data-current-article]")?.dataset.currentArticle;
 const updateNav=()=>{
- if(document.body.dataset.readerShell==="v2")return;
+ if(document.body?.dataset?.readerShell==="v2")return;
  const path=location.pathname;
  const explore=document.querySelector('.reader-nav-links a[href="/kham-pha"],.mobile-reader-nav a[href="/kham-pha"]')?"/kham-pha":"/thu-vien";
  const destination=path==="/"?"/":path==="/da-luu"?"/da-luu":path==="/hanh-trinh"?"/hanh-trinh":explore;

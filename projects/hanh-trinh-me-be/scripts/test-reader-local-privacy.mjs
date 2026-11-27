@@ -49,3 +49,15 @@ cases(source,(src,context)=>runInNewContext(src,context,{timeout:1000}),(ok,name
  clear.events.click();assert.ok(!store.has(prefix+"stage")&&!store.has(prefix+"checklist"));assert.equal(progress[1].textContent,"0/1 việc đã đánh dấu");
  console.log("PASS personal journey: selection, progress, reset, cross-tab, invalid stage, clear");
 }
+
+// UX-04: preserve server-rendered active state in V2; retain legacy navigation fallback.
+{
+ const makeNav=()=>["/","/kham-pha","/hanh-trinh","/da-luu"].map(href=>({href,attrs:new Map(href==="/kham-pha"?[["aria-current","page"]]:[]),getAttribute(k){return k==="href"?href:this.attrs.get(k)},setAttribute(k,v){this.attrs.set(k,v)},removeAttribute(k){this.attrs.delete(k)}}));
+ for(const shell of [undefined,"v2"]){
+  const nav=makeNav(),document={querySelectorAll:s=>s===".reader-nav-links a,.mobile-reader-nav a"?nav:[],querySelector:s=>s.startsWith(".reader-nav-links a[href=")?nav[1]:null};
+  if(shell)document.body={dataset:{readerShell:shell}};
+  runInNewContext(source,{document,localStorage:{getItem:()=>null,setItem(){},removeItem(){}},location:{pathname:"/hanh-trinh"},window:{addEventListener(){}},navigator:{}},{timeout:1000});
+  assert.deepEqual(nav.filter(a=>a.attrs.get("aria-current")==="page").map(a=>a.href),[shell==="v2"?"/kham-pha":"/hanh-trinh"]);
+ }
+ console.log("UX04_NAV_STATE_REGRESSION_PASS");
+}
