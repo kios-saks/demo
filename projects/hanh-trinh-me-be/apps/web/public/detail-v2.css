@@ -23,3 +23,6 @@
 [data-detail-v2] .detail-related li a{display:block;min-height:44px;line-height:1.5}
 [data-detail-v2] .detail-related small{display:block;color:#536459;font-size:13px}
 @media(max-width:768px){[data-detail-v2] .reading-layout{display:flex;flex-direction:column;gap:12px}[data-detail-v2] .reading-sidebar{width:100%;padding:10px 12px}[data-detail-v2] .reading-sidebar .toc{display:flex;flex-direction:column;gap:3px}[data-detail-v2] .reading-sidebar .toc a{width:100%;flex:auto}[data-detail-v2] .article-content section p,[data-detail-v2] .article-content li{font-size:16px;line-height:1.85}[data-detail-v2] .article-content section{scroll-margin-top:90px}}
+
+/* UX09: source links within figure captions must not depend on color alone. */
+[data-detail-v2] .article-content figcaption a{text-decoration:underline;text-underline-offset:2px}
