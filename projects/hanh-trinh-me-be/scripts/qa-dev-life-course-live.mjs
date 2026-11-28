@@ -58,7 +58,9 @@ try{
  // Legacy server pages: verify the revised article body, source links, noindex and live media.
  const esc=s=>s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;");
  for(let i=0;i<legacy.length;i+=3)await Promise.all(legacy.slice(i,i+3).map(async a=>{
+  const started=Date.now();
   const r=await fetch(web+"/bai-viet/"+encodeURIComponent(a.slug),{signal:AbortSignal.timeout(90000),redirect:"manual",cache:"no-store"});
+  if(r.status!==200)console.error("UX09_LEGACY_HTTP_FAILURE",JSON.stringify({id:a.slug,status:r.status,elapsedMs:Date.now()-started}));
   assert.equal(r.status,200,a.slug);assert.match(r.headers.get("x-robots-tag")||"",/noindex/i);
   const html=await r.text();assert.ok(html.includes('data-current-article="'+a.slug+'"'),a.slug);
   assert.ok(html.includes('data-media-source="supabase"'),"Live media "+a.slug);
