@@ -44,7 +44,16 @@ export class MediaService{
   if(!/^[a-z0-9-]{1,180}\.(webp|svg)$/.test(file))throw new MediaError(404,"NOT_FOUND");
   const r=await this.pool.query<{object_path:string;id:string;mime_type:string}>("SELECT a.object_path,a.id,a.mime_type FROM media_import_catalog c JOIN media_assets a ON a.id=c.asset_id WHERE c.logical_path=$1 AND c.usage='legacy_source'",["apps/web/public/media/"+file]);
   if(!r.rowCount)throw new MediaError(404,"NOT_FOUND");
-  const row=r.rows[0];return this.storage.verifiedBytes(row.object_path,row.id,row.mime_type);
+  const row=r.rows[0];
+  // Exact owner-approved Combined DEV hero only; no change to other media,
+  // revision reads, admin access, catalog allowlist, or checksum validation.
+  if(file==="lifestyle-hero.webp"&&row.mime_type==="image/webp"&&process.env.MEBE_COMBINED_DEV==="true"&&process.env.RENDER==="true"&&process.env.RENDER_SERVICE_ID==="srv-dc19cibl550s73drji5g"){
+   const start=performance.now();
+   const image=await this.storage.verifiedBytes(row.object_path,row.id,row.mime_type,"authenticated");
+   console.info("UX09_HERO_DELIVERY",JSON.stringify({mode:"authenticated-private",bytes:image.bytes.length,elapsedMs:Math.round(performance.now()-start)}));
+   return image;
+  }
+  return this.storage.verifiedBytes(row.object_path,row.id,row.mime_type);
  }
  async adminCatalog(){
   const rows=await this.pool.query(`SELECT k.slug,k.payload->>'title' AS title,k.payload->>'stage' AS stage,
