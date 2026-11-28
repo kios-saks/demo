@@ -1,13 +1,14 @@
 import {MediaError} from "./media-storage.js";
-const allowed=new Set(["MEDIA_EDITOR_TOKEN_INVALID","MEDIA_REVIEWER_TOKEN_INVALID","MEDIA_PREVIEW_TOKEN_INVALID","MEDIA_TOKENS_NOT_DISTINCT","MEDIA_DB_TARGET_MISMATCH","MEDIA_PRIMARY_NOT_SUPABASE","MEDIA_STORAGE_CONFIG_MISSING","MEDIA_UPLOAD_FAILED","MEDIA_SIGN_FAILED","STORAGE_UPLOAD_FAILED","STORAGE_SIGN_FAILED","ANCHOR_MISMATCH","INVALID_WEBP","INVALID_IMAGE","INVALID_DIMENSIONS","INVALID_STORAGE_HASH","MEDIA_UNAVAILABLE","MEDIA_DISABLED","NOT_FOUND","INVALID_METADATA","ACTIVE_REVISION_CHANGED","NOT_APPROVED"]);
+const allowed=new Set(["MEDIA_EDITOR_TOKEN_INVALID","MEDIA_REVIEWER_TOKEN_INVALID","MEDIA_PREVIEW_TOKEN_INVALID","MEDIA_TOKENS_NOT_DISTINCT","MEDIA_DB_TARGET_MISMATCH","MEDIA_PRIMARY_NOT_SUPABASE","MEDIA_STORAGE_CONFIG_MISSING","MEDIA_UPLOAD_FAILED","MEDIA_SIGN_FAILED","STORAGE_UPLOAD_FAILED","STORAGE_SIGN_FAILED","STORAGE_READ_FAILED","MEDIA_INTEGRITY","INVALID_STORAGE_PATH","ANCHOR_MISMATCH","INVALID_WEBP","INVALID_IMAGE","INVALID_DIMENSIONS","INVALID_STORAGE_HASH","MEDIA_UNAVAILABLE","MEDIA_DISABLED","NOT_FOUND","INVALID_METADATA","ACTIVE_REVISION_CHANGED","NOT_APPROVED"]);
 export class BootstrapError extends Error{
  constructor(readonly code:string){super(code);}
 }
 export function safeMediaFailure(error:unknown):string{
  if(error instanceof BootstrapError||error instanceof MediaError)return allowed.has(error.code)?error.code:"MEDIA_ERROR";
  if(error instanceof Error&&error.name==="AssertionError")return "ASSERTION_FAILED";
- if(error instanceof Error&&error.name==="TimeoutError")return "TIMEOUT";
- const code=error&&typeof error==="object"&&"code" in error?String(error.code):"";
+ if(error instanceof Error&&["TimeoutError","AbortError"].includes(error.name))return "TIMEOUT";
+ const e=error as {code?:unknown;cause?:{code?:unknown}}|null;
+ const code=typeof e?.code==="string"?e.code:typeof e?.cause?.code==="string"?e.cause.code:"";
  if(["08000","08001","08003","08004","08006","08P01","28P01","42501","42P01","23503","23505","23514","57014","53300","57P01","ECONNREFUSED","ECONNRESET","ETIMEDOUT","ENOTFOUND","EAI_AGAIN","ENOENT","EACCES"].includes(code))return code;
  return "UNKNOWN";
 }
