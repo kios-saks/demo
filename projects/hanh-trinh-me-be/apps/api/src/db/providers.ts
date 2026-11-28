@@ -22,7 +22,7 @@ export class PgConnectionProvider implements DatabaseConnectionProvider {
    const remote=this.target==="supabase";
    // No insecure TLS bypass for Supabase. CA may be loaded from the cloud project's settings.
    const ssl=remote?{rejectUnauthorized:true,...(this.caPath?{ca:readFileSync(this.caPath,"utf8")}:{})}:undefined;
-   return new Pool({
+   const pool=new Pool({
      connectionString:remote?secureSupabaseUrl(this.uri):this.uri,
      ...(ssl?{ssl}:{}),
      ...(remote?{options:"-c search_path=mebe,public"}:{}),
@@ -30,6 +30,20 @@ export class PgConnectionProvider implements DatabaseConnectionProvider {
      idleTimeoutMillis:10000,connectionTimeoutMillis:5000,
      application_name:"mebe-"+this.target
    });
+   // Observe existing pool limits without increasing connections or logging SQL/URI.
+   if(remote&&process.env.MEBE_COMBINED_DEV==="true"&&process.env.RENDER==="true"&&process.env.RENDER_SERVICE_ID==="srv-dc19cibl550s73drji5g"){
+    let last=0;
+    pool.on("acquire",()=>{
+     if(pool.waitingCount>0&&Date.now()-last>=5000){
+      last=Date.now();
+      console.warn("UX09_DB_POOL_PRESSURE",JSON.stringify({total:pool.totalCount,idle:pool.idleCount,waiting:pool.waitingCount,max:5}));
+     }
+    });
+    pool.on("error",()=>{
+     console.warn("UX09_DB_POOL_IDLE_ERROR",JSON.stringify({total:pool.totalCount,idle:pool.idleCount,waiting:pool.waitingCount}));
+    });
+   }
+   return pool;
  }
 }
 export type ConnectionProviderFactory=(target:DatabaseTarget,uri:string)=>DatabaseConnectionProvider;
