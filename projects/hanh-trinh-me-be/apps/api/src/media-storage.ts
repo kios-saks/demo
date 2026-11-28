@@ -44,10 +44,13 @@ export class PrivateMediaStorage{
    console.warn("MEDIA_STORAGE_HTTP_FAILURE",JSON.stringify({operation:"upload",status:res.status}));
    throw new MediaError(503,"STORAGE_UPLOAD_FAILED");
  }
- async verifiedBytes(path:string,id:string,mime:string){
+ async verifiedBytes(path:string,id:string,mime:string,delivery:"signed"|"authenticated"="signed"){
    if(!/^[0-9a-f]{64}$/.test(id)||!["image/webp","image/svg+xml","image/png","image/jpeg"].includes(mime)||path.split(".")[0]!==id)throw new MediaError(503,"MEDIA_INTEGRITY");
-   const url=await this.signedUrl(path);
-   const response=await this.request(url,{signal:AbortSignal.timeout(15000),redirect:"error"});
+   // Only the internal caller may select authenticated delivery. The path
+   // remains content-addressed, in the same private bucket and fixed origin.
+   const direct=delivery==="authenticated";
+   const url=direct?this.origin+"/storage/v1/object/authenticated/"+this.path(path):await this.signedUrl(path);
+   const response=await this.request(url,{...(direct?{headers:this.headers(),cache:"no-store" as const}:{}),signal:AbortSignal.timeout(15000),redirect:"error"});
    if(!response.ok)throw new MediaError(503,"STORAGE_READ_FAILED");
    const declared=response.headers.get("content-length");
    if(declared&&Number(declared)>MAX_MEDIA_BYTES)throw new MediaError(503,"MEDIA_INTEGRITY");
