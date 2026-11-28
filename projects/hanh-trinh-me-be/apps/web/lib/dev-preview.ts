@@ -4,6 +4,7 @@ import {shellHeader,shellCrumbs,shellFooter} from "./reader-shell-html";
 import {shellSectionForPath,type ShellSection} from "./reader-shell-model";
 import {familyWebConfig} from "./family-web-config";
 import {readBackend} from "./backend-reader";
+import {readCatalogPages} from "./catalog-pages";
 import {timingSafeEqual} from "node:crypto";
 import {openDevReader} from "./open-dev-reader";
 import {hasReaderSession} from "./reader-invite";
@@ -80,8 +81,15 @@ export async function listDevSearchArticles():Promise<PreviewSearchArticle[]>{
  if(!Array.isArray(result.data)||result.data.length!==72)throw Error("Invalid search corpus");
  return result.data;
 }
-export async function listDevArticles():Promise<{articles:ArticleSummary[];source:PreviewSource}>{
+export async function listDevArticles(options:{catalogFastPath?:boolean}={}):Promise<{articles:ArticleSummary[];source:PreviewSource}>{
  try{
+   if(options.catalogFastPath&&openDevReader()&&process.env.WEB_DYNAMIC_MEDIA==="true"){
+     const start=performance.now();
+     const articles=await readCatalogPages(page=>fromApi<{data:ArticleSummary[];meta:{total:number;page:number;limit:number}}>("articles?page="+page+"&limit=50"));
+     const result=articles.map(a=>({...a,media:a.media||snapshotArticles.find(x=>x.slug===a.slug)?.media}));
+     console.info("UX09_CATALOG_READ",JSON.stringify({count:result.length,elapsedMs:Math.round(performance.now()-start),mode:"parallel-pages"}));
+     return {articles:result,source:"supabase"};
+   }
    const first=await fromApi<{data:ArticleSummary[];meta:{total:number}}>("articles?page=1&limit=50");
    if(first.meta.total>500)throw Error("Preview catalog exceeds reader limit");
    const articles=[...first.data];
