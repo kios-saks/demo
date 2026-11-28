@@ -42,11 +42,11 @@ test("reader binary routes deny unauthenticated access and only expose authorize
  const app=Fastify();let calls=0;
  const service={activeImage:async()=>{calls++;return {bytes:Buffer.from("test"),mime:"image/webp",id:"a".repeat(64)};},catalogImage:async()=>{calls++;return {bytes:Buffer.from("test"),mime:"image/svg+xml",id:"b".repeat(64)};}} as unknown as MediaService;
  registerMedia(app,service);
- try{for(const path of ["/v1/dev-preview/media/article/cover","/v1/dev-preview/media-catalog/editorial-hero.svg"]){
+ try{for(const path of ["/v1/dev-preview/media/article/cover","/v1/dev-preview/media-catalog/editorial-hero.svg","/v1/dev-preview/media-catalog/lifestyle-hero.webp"]){
   assert.equal((await app.inject(path)).statusCode,404);
   const r=await app.inject({url:path,headers:{"x-preview-token":token}});
   assert.equal(r.statusCode,200);assert.equal(r.payload,"test");assert.equal(r.headers["x-content-type-options"],"nosniff");assert.match(String(r.headers["cache-control"]),/no-store/);
- }assert.equal(calls,2);}finally{await app.close();if(before===undefined)delete process.env.DEV_CONTENT_PREVIEW_TOKEN;else process.env.DEV_CONTENT_PREVIEW_TOKEN=before;}
+ }assert.equal(calls,3);}finally{await app.close();if(before===undefined)delete process.env.DEV_CONTENT_PREVIEW_TOKEN;else process.env.DEV_CONTENT_PREVIEW_TOKEN=before;}
 });
 
 test("CMS session, catalog and historical bytes require media role",async()=>{
