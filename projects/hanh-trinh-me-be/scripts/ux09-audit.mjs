@@ -107,13 +107,23 @@ if(phase!=="axe"){
    try{
     chrome=await launch({chromePath:chromium.executablePath(),chromeFlags:["--headless=new","--no-sandbox","--disable-dev-shm-usage","--no-first-run"],logLevel:"silent"});
     const result=await lighthouse(url.origin+path,{port:chrome.port,output:"json",onlyCategories:["performance","accessibility"],logLevel:"error",formFactor,screenEmulation:{mobile:formFactor==="mobile",width:device.width,height:device.height,deviceScaleFactor:device.deviceScaleFactor,disabled:false},throttlingMethod:"simulate",throttling:{rttMs:device.rttMs,throughputKbps:device.throughputKbps,cpuSlowdownMultiplier:device.cpuSlowdownMultiplier},maxWaitForLoad:45000});
-    const lhr=result.lhr;if(lhr.runtimeError)throw Error(lhr.runtimeError.code);assert.equal(new URL(lhr.finalDisplayedUrl||lhr.finalUrl).origin,url.origin);
+    const lhr=result.lhr;
+    // Retain even rejected LHRs for diagnosis; never count an error document as a fast page.
+    writeFileSync(join(output,label+".lhr.json"),JSON.stringify(lhr));
+    if(lhr.runtimeError)throw Error(lhr.runtimeError.code);
+    const finalUrl=new URL(lhr.finalDisplayedUrl||lhr.finalUrl);assert.equal(finalUrl.origin,url.origin);
+    finalUrl.hash="";
+    const requests=lhr.audits["network-requests"]?.details?.items;
+    assert(Array.isArray(requests),"missing Lighthouse network requests");
+    const documents=requests.filter(x=>x.resourceType==="Document"&&x.url===finalUrl.href);
+    assert.equal(documents.length,1,"expected one final main document");
+    assert.equal(documents[0].statusCode,200,"Lighthouse main document HTTP status");
     const audit=id=>lhr.audits[id]?.numericValue;
     const resources=lhr.audits["resource-summary"]?.details?.items||[];
     const bytes=type=>resources.find(x=>x.resourceType===type)?.transferSize??0;
     const row={id,path,formFactor,run,lcpMs:audit("largest-contentful-paint"),cls:audit("cumulative-layout-shift"),tbtMs:audit("total-blocking-time"),fcpMs:audit("first-contentful-paint"),performance:lhr.categories.performance.score,accessibility:lhr.categories.accessibility.score,scriptTransferBytes:bytes("script"),styleTransferBytes:bytes("stylesheet"),imageTransferBytes:bytes("image"),documentTransferBytes:bytes("document"),lighthouseVersion:lhr.lighthouseVersion,fetchTime:lhr.fetchTime};
     for(const k of ["lcpMs","cls","tbtMs","performance","accessibility"])assert(Number.isFinite(row[k]),"missing "+k);
-    values.push(row);writeFileSync(join(output,label+".lhr.json"),JSON.stringify(lhr));log("UX09_LAB_SAMPLE",row);
+    values.push(row);log("UX09_LAB_SAMPLE",row);
    }catch(e){err(label,e);}finally{if(chrome)await chrome.kill();}
   }
   if(values.length!==config.lab.runs){err(id+"-"+formFactor,Error("Incomplete samples"));continue;}
