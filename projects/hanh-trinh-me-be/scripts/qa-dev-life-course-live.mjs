@@ -17,7 +17,7 @@ const browser=await chromium.launch({headless:true});
 try{
  const page=await browser.newPage({viewport:{width:390,height:844}});
  const errors=[];page.on("pageerror",e=>errors.push(e.message));
- const res=await page.goto(web+"/hoc-cung-con",{waitUntil:"domcontentloaded",timeout:90000});
+ const res=await page.goto(web+"/hoc-cung-con",{waitUntil:"load",timeout:90000});
  assert.equal(res.status(),200);
  assert.match((await page.locator('meta[name="robots"]').getAttribute("content"))||"",/noindex/i);
  await page.locator("[data-life-stage]").first().waitFor();
@@ -35,7 +35,28 @@ try{
  }
  const seenRefs=[],seenArticles=[];
  for(const stage of atlas.stages){
-  await page.locator('[data-life-stage="'+stage.id+'"]').click();
+  const button=page.locator('[data-life-stage="'+stage.id+'"]');
+  if(await page.locator('[data-course-compat-v3="1"]').count()){
+   // Native GET stage navigation: aria-pressed is parsed near the beginning
+   // of the streamed SSR document, before all A–Z article nodes are parsed.
+   // Arm the navigation wait before clicking; require the actual target URL
+   // and a completed document, independently of the expected article count.
+   const [navigation]=await Promise.all([
+    page.waitForNavigation({waitUntil:"load",timeout:90000}),
+    button.click()
+   ]);
+   assert(navigation,"SSR stage navigation response "+stage.id);
+   assert.equal(navigation.status(),200,"SSR stage HTTP "+stage.id);
+   const target=new URL(page.url());
+   assert.equal(target.origin,new URL(web).origin);
+   assert.equal(target.pathname,"/hoc-cung-con");
+   assert.equal(target.searchParams.get("stage"),stage.id);
+   await page.locator('[data-course-compat-v3="1"][data-course-stage="'+stage.id+'"][data-course-ready="1"]').waitFor();
+   assert.equal(await page.evaluate(()=>document.readyState),"complete");
+   console.log("UX09_STAGE_SSR_READY",JSON.stringify({stage:stage.id,status:navigation.status(),readyState:"complete"}));
+  }else{
+   await button.click();
+  }
   await page.waitForFunction(id=>document.querySelector('[data-life-stage="'+id+'"]')?.getAttribute("aria-pressed")==="true",stage.id);
   const expected=inv.refs.filter(x=>x.stage===stage.id);
   const href=x=>x.kind==="legacy"?x.href:x.kind==="article"?"#az-"+x.id:"#lesson-"+x.id;
