@@ -51,7 +51,7 @@ export class PrivateMediaStorage{
    const direct=delivery==="authenticated";
    const url=direct?this.origin+"/storage/v1/object/authenticated/"+this.path(path):await this.signedUrl(path);
    const response=await this.request(url,{...(direct?{headers:this.headers(),cache:"no-store" as const}:{}),signal:AbortSignal.timeout(15000),redirect:"error"});
-   if(!response.ok)throw new MediaError(503,"STORAGE_READ_FAILED");
+   if(!response.ok){console.warn("MEDIA_STORAGE_HTTP_FAILURE",JSON.stringify({operation:"read",status:response.status}));void response.body?.cancel().catch(()=>{});throw new MediaError(503,"STORAGE_READ_FAILED");}
    const declared=response.headers.get("content-length");
    if(declared&&Number(declared)>MAX_MEDIA_BYTES)throw new MediaError(503,"MEDIA_INTEGRITY");
    const reader=response.body?.getReader();if(!reader)throw new MediaError(503,"STORAGE_READ_FAILED");
