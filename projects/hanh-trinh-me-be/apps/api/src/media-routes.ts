@@ -2,6 +2,7 @@ import {createHash,timingSafeEqual} from "node:crypto";
 import type {FastifyInstance,FastifyReply} from "fastify";
 import {MediaError} from "./media-storage.js";
 import type {MediaService} from "./media-service.js";
+import {safeMediaFailure} from "./media-diagnostics.js";
 const eq=(input:unknown,secret:string|undefined)=>typeof input==="string"&&input.length<=4096&&typeof secret==="string"&&secret.length>=24&&timingSafeEqual(createHash("sha256").update(input).digest(),createHash("sha256").update(secret).digest());
 const no=(reply:FastifyReply)=>reply.code(404).send({error:"NOT_FOUND"});
 const privacy=(reply:FastifyReply)=>reply.header("Cache-Control","private, no-store").header("X-Robots-Tag","noindex, nofollow");
@@ -16,7 +17,11 @@ async function respond(reply:FastifyReply,task:()=>Promise<unknown>){
 }
 async function imageReply(reply:FastifyReply,task:()=>Promise<{bytes:Buffer;mime:string;id:string}>){
  try{const data=await task();return reply.header("Content-Type",data.mime).header("X-Content-Type-Options","nosniff").header("Content-Security-Policy","default-src 'none'; sandbox").header("X-Media-Asset",data.id).send(data.bytes);}
- catch(e){return reply.code(e instanceof MediaError?e.status:503).send({error:e instanceof MediaError?e.code:"MEDIA_UNAVAILABLE"});}
+ catch(e){
+  const status=e instanceof MediaError?e.status:503;
+  if(status>=500)console.warn("MEDIA_BINARY_FAILURE",JSON.stringify({status,kind:safeMediaFailure(e)}));
+  return reply.code(status).send({error:e instanceof MediaError?e.code:"MEDIA_UNAVAILABLE"});
+ }
 }
 export function registerMedia(app:FastifyInstance,service?:MediaService){
  app.get<{Params:{slug:string}}>("/v1/dev-preview/media/:slug",async(req,reply)=>{
