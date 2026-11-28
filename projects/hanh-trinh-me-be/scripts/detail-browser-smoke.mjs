@@ -24,6 +24,20 @@ try{
   ids.add(ref.kind+":"+ref.id);
  }));
  assert.equal(ids.size,219);console.log("UX06_HTTP_INTEGRITY_PASS",JSON.stringify({refs:219,legacy:72,articles:126,lessons:21}));
+ // UX09: the exact caption-source link from the two live axe failures must
+ // remain visibly distinguishable at rest, not only on hover/focus.
+ const captionRef=inv.refs.find(r=>r.kind==="legacy");
+ await page.goto(web+href(captionRef),{waitUntil:"load",timeout:90000});
+ for(const width of [320,1440]){
+  await page.setViewportSize({width,height:844});
+  const captions=page.locator('figcaption > a[href$="#article-sources"]');
+  assert(await captions.count()>0,"expected real legacy caption source link");
+  for(const link of await captions.all()){
+   assert(await link.isVisible());
+   assert((await link.evaluate(el=>getComputedStyle(el).textDecorationLine)).includes("underline"),"caption source link "+width);
+  }
+ }
+ console.log("UX09_CAPTION_LINK_PASS",JSON.stringify({widths:[320,1440],underline:true}));
  const samples=inv.refs.filter(r=>r.kind!=="legacy"&&inv.refs.find(x=>x.kind===r.kind&&x.stage===r.stage)?.id===r.id);
  const refs=[...inv.refs.filter(r=>r.kind==="legacy"),...samples];let legacyViews=0,sampleViews=0;
  for(const ref of refs){
