@@ -76,3 +76,59 @@ test("readiness diagnostics distinguish upstream 502 and DNS without logging req
  assert.ok(events.some(e=>e.data.kind==="HTTP_502"&&e.data.status===502));
  assert.ok(events.some(e=>e.data.kind==="DNS"));assert.ok(!JSON.stringify(events).includes("fixture secret"));
 });
+
+
+test("DEV media burst queues 72 unique reads, reserves content capacity and coalesces identical keys",async()=>{
+ let active=0,peak=0,calls=0,release!:()=>void;
+ const gate=new Promise<void>(r=>{release=r;});
+ const reader=createBackendReader({mediaLaneEnabled:()=>true,fetcher:async(input)=>{
+  const u=new URL(String(input));if(!u.pathname.includes("/media/"))return ok({content:true});
+  calls++;active++;peak=Math.max(peak,active);await gate;active--;return ok({path:u.pathname});
+ }});
+ const headers={"x-preview-token":"synthetic-test-token"};
+ const paths=Array.from({length:72},(_,i)=>origin+"/v1/dev-preview/media/article-"+i+"/cover");
+ const reads=paths.map(p=>reader(p,headers));
+ const duplicate=reader(paths[0],headers);
+ try{
+  assert.deepEqual(await (await reader(origin+"/v1/dev-preview/articles",headers)).json(),{content:true});
+  assert.equal(active,6);assert.equal(calls,6);
+ }finally{release();}
+ const results=await Promise.all([...reads,duplicate]);
+ assert.equal(calls,72);assert.equal(peak,6);
+ for(let i=0;i<72;i++)assert.deepEqual(await results[i].json(),{path:new URL(paths[i]).pathname});
+ assert.deepEqual(await results[72].json(),{path:new URL(paths[0]).pathname});
+ await reader(paths[0],headers);assert.equal(calls,73);
+ console.log("UX09_MEDIA_BURST_PASS",JSON.stringify({unique:72,peak:6,coalesced:true,contentReserved:true}));
+});
+test("DEV media queue rejects excess and deadline-expired waiters, then recovers",async()=>{
+ let release!:()=>void,started=0;
+ const gate=new Promise<void>(r=>{release=r;});
+ const events:{event:string;data:Record<string,string|number>}[]=[];
+ const reader=createBackendReader({mediaLaneEnabled:()=>true,diagnostic:(event,data)=>events.push({event,data}),fetcher:async()=>{started++;await gate;return ok({ok:true});}});
+ const h={"x-preview-token":"synthetic-secret"},url=(i:number)=>origin+"/v1/dev-preview/media/a-"+i+"/cover";
+ const active=Array.from({length:6},(_,i)=>reader(url(i),h));
+ const queued=Array.from({length:80},(_,i)=>reader(url(i+6),h));
+ try{
+  await assert.rejects(reader(url(86),h),/QUEUE_FULL/);
+  assert.equal(started,6);
+ }finally{release();}
+ await Promise.all([...active,...queued]);
+ assert.equal(started,86);
+ assert.ok(events.some(e=>e.data.kind==="QUEUE_FULL"));
+ assert.ok(!JSON.stringify(events).includes("synthetic-secret"));
+ assert.ok(!JSON.stringify(events).includes("/v1/"));
+ let unlock!:()=>void;const hold=new Promise<void>(r=>{unlock=r;});let n=0;
+ const limited=createBackendReader({mediaLaneEnabled:()=>true,fetcher:async()=>{n++;await hold;return ok({ok:true});}});
+ const occupied=Array.from({length:6},(_,i)=>limited(url(i),h));
+ try{await assert.rejects(limited(url(6),h,{budgetMs:20}),/QUEUE_TIMEOUT/);assert.equal(n,6);}
+ finally{unlock();}
+ await Promise.all(occupied);await limited(url(6),h);assert.equal(n,7);
+});
+test("media lane remains disabled outside designated DEV; original unique request limit holds",async()=>{
+ let release!:()=>void;const gate=new Promise<void>(r=>{release=r;});
+ const reader=createBackendReader({mediaLaneEnabled:()=>false,fetcher:async()=>{await gate;return ok({ok:true});}});
+ const requests=Array.from({length:32},(_,i)=>reader(origin+"/v1/dev-preview/media/a-"+i+"/cover",{"x-preview-token":"test"}));
+ try{await assert.rejects(reader(origin+"/v1/dev-preview/media/overflow/cover",{"x-preview-token":"test"}),/temporarily unavailable/);}
+ finally{release();}
+ await Promise.all(requests);
+});
