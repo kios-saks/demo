@@ -8,9 +8,17 @@ import { registerAdmin } from "./admin.js";
 import type { DemoTokens } from "./admin.js";
 import {registerMedia} from "./media-routes.js";
 import type {MediaService} from "./media-service.js";
+import {safeMediaFailure} from "./media-diagnostics.js";
 
 export function buildApp(repository:KnowledgeRepository=createKnowledgeRepository(),tokens?:DemoTokens,media?:MediaService,family?:FamilyDependencies) {
   const app=Fastify({logger:false});
+  // Only fixed DEV reader route classes; never log URL, headers, query, body or error message.
+  app.addHook("onError",async(req,_reply,error)=>{
+    if(process.env.MEBE_COMBINED_DEV!=="true"||process.env.RENDER!=="true"||process.env.RENDER_SERVICE_ID!=="srv-dc19cibl550s73drji5g")return;
+    const route=req.routeOptions.url;
+    const category=route==="/v1/dev-preview/articles"?"catalog":route==="/v1/dev-preview/articles/:slug"?"article":route==="/v1/dev-preview/search-corpus"?"search":null;
+    if(category)console.warn("UX09_API_READ_FAILURE",JSON.stringify({category,kind:safeMediaFailure(error)}));
+  });
   if("close" in repository && typeof repository.close==="function")
     app.addHook("onClose",async()=>{await (repository as KnowledgeRepository & {close:()=>Promise<void>}).close();});
   void app.register(cors,{origin:process.env.CORS_ORIGIN?.split(",")||["http://localhost:3000"]});
