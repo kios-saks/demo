@@ -10,7 +10,8 @@ const origin="https://example.supabase.co",key="synthetic-server-key";
 const signed=origin+"/storage/v1/object/sign/mebe-draft-media/"+path+"?token=synthetic";
 const authenticated=origin+"/storage/v1/object/authenticated/mebe-draft-media/"+path;
 test("private hero direct read uses one authenticated GET, same bytes and digest, no redirect or completed cache",async()=>{
- const calls:{url:string;init?:RequestInit}[]=[];
+ // Node fetch types omit the browser cache option; record it explicitly for this assertion.
+ const calls:{url:string;init?:RequestInit & {cache?:string}}[]=[];
  const storage=new PrivateMediaStorage(origin,key,async(input,init)=>{calls.push({url:String(input),init});return new Response(new Uint8Array(bytes));});
  for(let i=0;i<2;i++){
   const result=await storage.verifiedBytes(path,id,mime,"authenticated");
