@@ -87,6 +87,8 @@ Dependency: baseline từ đợt 0, final sau UX-03–08. Chuẩn: [W3C WCAG 2.2
 
 **UX-09 Sprint A candidate (28/11/2026):** complete baseline 46/46 axe, 72/72 lab; SSR course compatibility, target sizes, inline link styling, regression readiness. [Implementation](ux-09-implementation.md). CI and exact LIVE Before/After pending; AC09.1–3 OPEN; Sprint 8/10 CLOSED (80%).
 
+**UX-09 Sprint A LIVE / Sprint B isolated candidate (28/11/2026):** app `4ce5292` confirmed LIVE 08:10:47 ICT, deployment `dep-dc52jak9v7es738ueivg`; candidate app CI PASS. [Post-deploy QA](https://github.com/kios-saks/demo/actions/runs/46082526594/job/140814887714) and [axe/Lighthouse rerun](https://github.com/kios-saks/demo/actions/runs/46082526798/job/140814892525) RUNNING; prior 12 HTTP 503 overlapped startup/readiness, full causation unproven. Library priority fix and 5-width regression staged on `feat/mebe-ux09-library-sprint-b`; CI/Before-After evidence pending. [Evidence](ux-09-implementation.md). AC09.1–3 OPEN; sprint 8/10 CLOSED; Production gate CLOSED, PRB-UX02-PRIVACY OPEN/BLOCKING, PR #1 Draft.
+
 ### UX-10 · P1 · Kiểm thử hành vi
 - [ ] AC10.1: baseline và prototype/task test với ít nhất 12 người trưởng thành tự nguyện, ≥3 mỗi nhóm (người chăm bé, cha/mẹ chuẩn bị, người trẻ, người lớn tuổi/người chăm); không tuyển trẻ cho vòng đầu; consent, không thu thông tin sức khỏe riêng tư.
 - [ ] AC10.2: kịch bản tìm ăn dặm 6 tháng, dấu hiệu cần tìm trợ giúp (không nhập triệu chứng cá nhân), AI/hướng nghiệp, tài chính, tuổi già, lưu/đọc tiếp, nhiều chặng, xóa dữ liệu. 4–5 task phù hợp/người, ít nhất 48 lượt hợp lệ, mỗi task có đáp án/điểm đích định trước; không hướng dẫn menu. Ghi pass unassisted, time, số click/tap/submit (không đếm ký tự), error, SEQ 1–7.
