@@ -52,7 +52,11 @@ try{
   assert(await page.locator("#article-sources").isVisible());
   // Reset the mobile TOC and use computed geometry and actual media sizes.
   await toc.locator("summary").click();
-  const images=await page.locator(".article-content figure img").evaluateAll(async xs=>Promise.all(xs.map(async img=>{img.loading="eager";await img.decode();return {w:img.naturalWidth,h:img.naturalHeight};})));
+  const images=await page.locator(".article-content figure img").evaluateAll(async xs=>Promise.all(xs.map(async (img,index)=>{
+   img.loading="eager";
+   try{await img.decode();}catch(e){throw Error("MEDIA_DECODE_FAILED figure="+index+" complete="+img.complete+" width="+img.naturalWidth);}
+   return {w:img.naturalWidth,h:img.naturalHeight};
+  }))).catch(e=>{console.error("UX09_MEDIA_DECODE_FAILURE",JSON.stringify({kind:ref.kind,id:ref.id,width:390}));throw e;});
   if(ref.kind==="legacy")assert(images.length>=2,ref.id+" media");assert(images.every(x=>x.w>0&&x.h>0));
   for(const width of [390,768,1024,1440]){
    await page.setViewportSize({width,height:844});await page.evaluate(()=>document.fonts.ready);
