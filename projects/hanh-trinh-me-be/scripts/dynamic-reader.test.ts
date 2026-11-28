@@ -27,12 +27,13 @@ test("dynamic rendering of every article, access control, current revision and n
  let revision=1;const fixture=Buffer.from("controlled integration image bytes");
  let image=fixture;
  let invalidMediaEnvelope=false;
+ let invalidCatalogMeta=false;
  const json=(data:unknown)=>Response.json(data);
  globalThis.fetch=(async(input:any,init:any)=>{
   assert.equal(init.headers["x-preview-token"],token);assert.equal(init.cache,"no-store");
   const u=new URL(String(input));assert.equal(u.origin,"http://localhost:4000");
   const [, , ,kind,slug,slot]=u.pathname.split("/");
-  if(kind==="articles"&&!slug){const page=Number(u.searchParams.get("page"));return json({data:dataset.articles.slice((page-1)*50,page*50),meta:{total:72}});}
+  if(kind==="articles"&&!slug){const page=Number(u.searchParams.get("page")),limit=Number(u.searchParams.get("limit"));assert.equal(limit,50);return json({data:dataset.articles.slice((page-1)*limit,page*limit),meta:{total:72,page:invalidCatalogMeta&&page===2?1:page,limit}});}
   const a=dataset.articles.find(x=>x.slug===slug);
   if(kind==="articles"&&a)return json({data:a,disclaimer:"DEV"});
   if(kind==="media"&&a&&!slot){
@@ -145,6 +146,13 @@ test("dynamic rendering of every article, access control, current revision and n
    console.log("UX08_JOURNEY_MARKUP_PASS",JSON.stringify({stages:12,refs:219,checkKeys:48,noChecklist:4}));
    const openList=await renderReaderLibrary(request("/dev-review",false));
    assert.equal(openList.status,200);assert.match(openList.headers.get("x-robots-tag")||"",/noindex/);
+   assert.match(openList.headers.get("cache-control")||"",/no-store/);
+   const openHtml=await openList.text();
+   assert.deepEqual([...openHtml.matchAll(/data-article-card="([^"]+)"/g)].map(m=>m[1]).sort(),dataset.articles.map(a=>a.slug).sort());
+   invalidCatalogMeta=true;
+   try{assert.equal((await renderReaderLibrary(request("/dev-review",false))).status,503,"Malformed upstream page must fail closed");}
+   finally{invalidCatalogMeta=false;}
+   console.log("UX09_CATALOG_DYNAMIC_INTEGRATION_PASS",JSON.stringify({legacy:72,invalidMetaRejected:true,noStore:true}));
    const openArticle=await article(request("/dev-review/"+slug,false),{params:Promise.resolve({slug})});
    assert.equal(openArticle.status,200);assert.match(await openArticle.text(),/Chưa được thẩm định y khoa/);
    assert.equal((await proxyMedia(request(articleMediaUrl(slug,"cover"),false),slug,"cover")).status,200);
