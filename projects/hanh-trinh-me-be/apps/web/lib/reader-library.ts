@@ -90,14 +90,14 @@ export async function renderReaderLibrary(request:Request,options:ReaderOptions=
   const selected=options.stage||(params.get("stage")||"").trim();
   const active=guides.some(g=>g.slug===selected)?selected:"";
   if(mode==="stage"&&!active)return htmlResponse("Không tìm thấy giai đoạn",'<p>Giai đoạn không tồn tại. <a href="/thu-vien">Về thư viện</a></p>',404);
-  const {articles,source}=await listDevArticles();
+  const isCatalog=!active&&!q&&mode==="library";
+  const {articles,source}=await listDevArticles({catalogFastPath:isCatalog});
   if(dynamicMediaEnabled()&&source!=="supabase")throw Error("Live article catalog required");
   if(mode==="home")return openDevReader()?renderHomepageV2(articles):htmlResponse("Trang chủ",home(articles));
   if(mode==="saved"||mode==="journey")return htmlResponse(mode==="saved"?(openDevReader()?"Cá nhân":"Đã lưu"):(openDevReader()?"Hành trình":"Hành trình của tôi"),personal(articles,mode),200,undefined,mode==="saved"?"personal":"journey");
   const norm=normalizeSearch(q);
   const list=articles.filter(a=>(!active||a.stage===active)&&(!norm||norm.split(" ").every(word=>normalizeSearch([a.title,a.summary,stageName(a.stage),...a.tags].join(" ")).includes(word))));
   const guide=guides.find(g=>g.slug===active);
-  const isCatalog=!active&&!q&&mode==="library";
   // Only the approved Combined DEV catalog: preserve all cards and original media URLs.
   const prioritizeCatalogHero=isCatalog&&openDevReader();
   const hero=isCatalog?'<section class="hero-visual catalog-hero"><div class="hero"><span class="eyebrow">THƯ VIỆN KIẾN THỨC</span><h1>Khám phá theo hành trình của gia đình</h1><p>'+articles.length+' bài chuyên sâu · '+guides.length+' giai đoạn</p></div>'+image(editorialHero,editorialHeroAlt,"catalog-image",true,prioritizeCatalogHero)+'</section>':
