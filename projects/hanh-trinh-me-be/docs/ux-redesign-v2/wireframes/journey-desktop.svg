@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Hành trình — Desktop wireframe V2"><title>Hành trình</title><g font-family="Arial, sans-serif"><rect x="0" y="0" width="1200" height="820" rx="0" fill="#FAF9F5" stroke="#FAF9F5"/>
+<rect x="0" y="0" width="1200" height="68" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="40" y="42" font-size="23" fill="#285B46" font-weight="700" text-anchor="start">Hành Trình Mẹ &amp; Bé</text>
+<text x="580" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Trang chủ</text>
+<text x="725" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Khám phá</text>
+<text x="870" y="42" font-size="16" fill="#285B46" font-weight="700" text-anchor="start">Hành trình</text>
+<text x="1015" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Cá nhân</text>
+<text x="40" y="111" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Hành trình của tôi</text>
+<text x="40" y="143" font-size="17" fill="#536459" font-weight="400" text-anchor="start">Chọn các chặng quan tâm, không cần hồ sơ hoặc tài khoản.</text>
+<rect x="40" y="164" width="215" height="48" rx="8" fill="#285B46" stroke="#285B46"/>
+<text x="147.5" y="193" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">0–12 tháng</text>
+<rect x="270" y="164" width="215" height="48" rx="8" fill="#285B46" stroke="#285B46"/>
+<text x="377.5" y="193" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">60–74 tuổi</text>
+<rect x="500" y="164" width="235" height="48" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="617.5" y="193" font-size="15" fill="#285B46" font-weight="700" text-anchor="middle">+ Thêm / đổi chặng</text>
+<rect x="40" y="238" width="510" height="390" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="58" y="276" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Checklist theo chặng</text>
+<text x="58" y="316" font-size="17" fill="#536459" font-weight="400" text-anchor="start">□  Việc cần chuẩn bị từ hướng dẫn</text>
+<text x="58" y="364" font-size="17" fill="#536459" font-weight="400" text-anchor="start">□  Hoạt động thực hành</text>
+<text x="58" y="412" font-size="17" fill="#536459" font-weight="400" text-anchor="start">□  Đọc nguồn tham khảo</text>
+<text x="58" y="460" font-size="17" fill="#536459" font-weight="400" text-anchor="start">Tiến độ cục bộ · Đặt lại</text>
+<text x="580" y="276" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Kiến thức phù hợp</text>
+<rect x="580" y="294" width="580" height="90" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="592" y="306" width="60" height="66" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="664" y="321" font-size="17" fill="#24362D" font-weight="700" text-anchor="start">Gợi ý theo chặng 0–12 tháng</text>
+<text x="664" y="343" font-size="14" fill="#536459" font-weight="400" text-anchor="start">Cẩm nang · Bài viết</text>
+<rect x="580" y="396" width="580" height="90" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="592" y="408" width="60" height="66" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="664" y="423" font-size="17" fill="#24362D" font-weight="700" text-anchor="start">Gợi ý theo chặng 60–74 tuổi</text>
+<text x="664" y="445" font-size="14" fill="#536459" font-weight="400" text-anchor="start">Cẩm nang · Kỹ năng</text>
+<text x="580" y="530" font-size="16" fill="#536459" font-weight="400" text-anchor="start">Thay đổi lựa chọn bất cứ lúc nào.</text>
+<text x="40" y="794" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Nguồn tham khảo · Quyền riêng tư · Hành Trình Mẹ &amp; Bé</text>
+<text x="1160" y="794" font-size="13" fill="#536459" font-weight="400" text-anchor="end">Wireframe V2 · Đề xuất</text></g></svg>

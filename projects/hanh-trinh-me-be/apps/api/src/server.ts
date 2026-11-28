@@ -1,0 +1,55 @@
+import {loadLocalEnv} from "./db/connection.js";
+import {RoutedEditorialRepository} from "../../../packages/data/src/routed-repository.js";
+import {createKnowledgeRepository} from "./repository.js";
+import {buildApp} from "./app.js";
+import {createMediaService} from "./media-service.js";
+import {bootstrapMedia} from "./media-bootstrap.js";
+import {safeMediaFailure} from "./media-diagnostics.js";
+import {auditCmsWebProxy} from "./cms-web-auth-audit.js";
+import {prepareFamilyRuntime} from "./family-runtime.js";
+
+loadLocalEnv();
+const repo=createKnowledgeRepository();
+// Optional family failure must not interrupt the anonymous reader or CMS.
+let family:Awaited<ReturnType<typeof prepareFamilyRuntime>>=null;
+try{family=await prepareFamilyRuntime(process.env);}catch(e){
+ const c=e&&typeof e==="object"&&"code" in e?String(e.code):e instanceof Error&&/^FAMILY_[A-Z0-9_]{2,64}$/.test(e.message)?e.message:"UNKNOWN";
+ console.warn("FAMILY_RUNTIME_DISABLED",/^[A-Z0-9_]{2,80}$/.test(c)?c:"UNKNOWN");
+}
+const app=buildApp(repo,undefined,createMediaService(),family?.deps);
+if(family)app.addHook("onClose",()=>family!.close());
+try{
+ // Bind HTTP before probing external PostgreSQL. Render Free cold starts must
+ // not crash the process solely because the Shared Pooler is slow to respond.
+ // /health is liveness; /health/ready independently checks database readiness.
+ await app.listen({port:Number(process.env.PORT||4000),host:process.env.MEBE_COMBINED_DEV==="true"?"127.0.0.1":"0.0.0.0"});
+ console.log("API_HTTP_LISTENING");
+ if(process.env.MEDIA_IMPORT_ON_START==="true")void bootstrapMedia(app).catch(error=>console.error("MEDIA_IMPORT_BOOTSTRAP_FAILED",JSON.stringify({stage:"CLEANUP",code:safeMediaFailure(error)})));
+
+ if(repo instanceof RoutedEditorialRepository){
+   try{
+     await repo.assertReady();
+     const status=await repo.inspect();
+     // No database URLs, passwords or secrets in diagnostic logs.
+     console.log("Database route:",status.mode,"primary:",status.primary,"secondary:",status.secondary||"none");
+     void auditCmsWebProxy();
+     if(status.inSync===false)console.warn("Secondary database differs from primary; secondary is read-only");
+   }catch(error){
+     // Transient PostgreSQL warmup failures must not terminate a listening API.
+     // The Render readiness probe will retry independently until the DB recovers.
+     const candidate=error&&typeof error==="object"&&"code" in error?String(error.code):"UNKNOWN";
+     const code=/^[A-Z0-9_]{2,48}$/.test(candidate)?candidate:"UNKNOWN";
+     console.warn("ME_BE_DATABASE_INITIAL_CHECK_FAILED",code);
+   }
+ }
+}catch(error){
+ // Fastify's logger is disabled for this demo, so emit ONLY an allowlisted
+ // driver error code. Do not print exception messages: some include DB URI.
+ const candidate=error&&typeof error==="object"&&"code" in error?String(error.code):"UNKNOWN";
+ const code=/^[A-Z0-9_]{2,48}$/.test(candidate)?candidate:"UNKNOWN";
+ console.error("ME_BE_BACKEND_STARTUP_FAILED",code);
+ await app.close();
+ process.exitCode=1;
+}
+for(const signal of ["SIGINT","SIGTERM"] as const)
+ process.once(signal,()=>{void app.close().finally(()=>{process.exitCode=0;})});

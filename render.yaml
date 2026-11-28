@@ -1,0 +1,57 @@
+# Free-tier Render preview for Hành Trình Mẹ & Bé.
+# Connect Render + GitHub before deploying. No credentials are stored in this file.
+# Free services sleep when idle and the monthly 750 instance-hour pool is shared.
+services:
+  - type: web
+    name: hanh-trinh-me-be-api
+    runtime: docker
+    plan: free
+    repo: https://github.com/kios-saks/demo
+    branch: feat/hanh-trinh-me-be-ecosystem
+    dockerfilePath: ./projects/hanh-trinh-me-be/Dockerfile.api
+    dockerContext: ./projects/hanh-trinh-me-be
+    healthCheckPath: /health/ready
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "4000"
+      - key: DATABASE_MODE
+        value: supabase
+      # Enter the session-pooler database URI (port 5432) only in Render's secret prompt.
+      # Do NOT paste the database password into Git or into NEXT_PUBLIC_ variables.
+      - key: SUPABASE_DATABASE_URL
+        sync: false
+
+  - type: web
+    name: hanh-trinh-me-be-web
+    runtime: node
+    plan: free
+    repo: https://github.com/kios-saks/demo
+    branch: feat/hanh-trinh-me-be-ecosystem
+    rootDir: projects/hanh-trinh-me-be
+    buildCommand: npm install --no-audit --no-fund && npm run build:web
+    startCommand: npm run start -w @mebe/web
+    healthCheckPath: /api/health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: WEB_CONTENT_PROVIDER
+        value: api
+      # On Free compute, use the API's confirmed public HTTPS hostname.
+      # Avoid depending on an automatically inherited variable at runtime.
+      - key: CONTENT_API_INTERNAL_URL
+        value: https://hanh-trinh-me-be-api-jn5v.onrender.com
+      - key: NEXT_PUBLIC_SITE_URL
+        fromService:
+          type: web
+          name: hanh-trinh-me-be-web
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

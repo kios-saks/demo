@@ -1,0 +1,330 @@
+[
+  {
+    "id": "icope",
+    "key": "icope",
+    "name": "WHO — ICOPE 2nd edition",
+    "url": "https://www.who.int/southeastasia/publications/i/item/9789240103726",
+    "scope": "Trang giới thiệu: suy giảm năng lực nội tại, nhu cầu xã hội, kế hoạch cá nhân; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/southeastasia/publications/i/item/9789240103726"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "ageFriendly",
+    "key": "ability",
+    "name": "WHO — Healthy ageing and functional ability",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+    "scope": "Khả năng chức năng, môi trường và quyền lựa chọn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_palliative",
+    "key": "palliative",
+    "name": "WHO — Palliative care",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+    "scope": "Chất lượng sống, giảm đau khổ thể chất/tâm lý/xã hội/tâm linh và tiếp cận sớm.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_palliativeVN",
+    "key": "palliativeVN",
+    "name": "Sở Y tế Đồng Nai — Triển khai Quyết định 183/QĐ-BYT 25/01/2022",
+    "url": "https://syt.dongnai.gov.vn/vi/van-ban/detail/V-v-trien-khai-Quyet-dinh-so-183-QD-BYT-ngay-25-01-2022-cua-Bo-Y-te-ve-viec-ban-hanh-Huong-dan-cham-6942/",
+    "scope": "Trang công bố công văn 1064/SYT-NV; chưa đọc PDF hướng dẫn kèm theo hoặc rà thay thế.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04i_dementia",
+    "key": "dementia",
+    "name": "WHO — Dementia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "scope": "Dấu hiệu nhận thức và chức năng, đa dạng biểu hiện.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "falls",
+    "key": "falls",
+    "name": "WHO — Falls",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+    "scope": "Yếu tố nguy cơ môi trường, vận động, thị giác và nhận thức.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/falls"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "malnutrition",
+    "key": "nutrition",
+    "name": "NHS — Malnutrition",
+    "url": "https://www.nhs.uk/conditions/malnutrition/",
+    "scope": "Sụt cân không chủ ý, ăn kém, yếu và mệt; cần đánh giá.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/conditions/malnutrition"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_swallow",
+    "key": "swallow",
+    "name": "NHS — Dysphagia",
+    "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+    "scope": "Ho/sặc, giọng ướt, thức ăn mắc, sụt cân và nhiễm trùng hô hấp.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_pressure",
+    "key": "pressure",
+    "name": "NHS — Pressure ulcers",
+    "url": "https://www.nhs.uk/conditions/pressure-sores/",
+    "scope": "Nguy cơ khi ít di chuyển; dấu hiệu đổi màu da, đau, thay đổi nhiệt/độ cứng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_rehab",
+    "key": "rehab",
+    "name": "WHO — Rehabilitation",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+    "scope": "Mục tiêu chức năng và độc lập; điều chỉnh môi trường, hỗ trợ chuyên môn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_abuse",
+    "key": "abuse",
+    "name": "WHO — Abuse of older people",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+    "scope": "Bạo hành thể chất, tinh thần, tài chính, tình dục và bỏ bê.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "mentalOlder",
+    "key": "mental",
+    "name": "WHO — Mental health of older adults",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+    "scope": "Môi trường hỗ trợ, kết nối, hỗ trợ người chăm và sức khỏe tinh thần.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "olderLearning",
+    "key": "learn",
+    "name": "UNESCO UIL — Learning programmes for older adults",
+    "url": "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report",
+    "scope": "Giới thiệu báo cáo 2026, học tập và tham gia cộng đồng; chưa đọc toàn văn.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.uil.unesco.org/en/articles/implementing-effective-reskilling-and-upskilling-learning-programmes-older-adults-research-report"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "communityLearning",
+    "key": "clc",
+    "name": "UNESCO UIL — Community Learning Centres in Viet Nam",
+    "url": "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam",
+    "scope": "Mô hình học tập cộng đồng, không xác nhận lịch lớp hiện tại.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.uil.unesco.org/en/litbase/community-learning-centres-active-tool-national-literacy-and-post-literacy-viet-nam"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04f_mil",
+    "key": "mil",
+    "name": "UNESCO — Media and Information Literacy",
+    "url": "https://www.unesco.org/en/media-information-literacy",
+    "scope": "Tổng quan năng lực thông tin, truyền thông và AI.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "olderFraud",
+    "key": "fraud",
+    "name": "CFPB — Protecting Older Adults from Fraud and Financial Exploitation",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud/",
+    "scope": "Danh mục tài liệu phòng lợi dụng và người liên hệ tin cậy; không áp luật Hoa Kỳ.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/protecting-against-fraud"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "financialSupport",
+    "key": "finance",
+    "name": "CFPB — Planning for diminished capacity and illness",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness/",
+    "scope": "Lập kế hoạch hỗ trợ tài chính khi sức khỏe thay đổi; không áp luật Hoa Kỳ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/financial-security-as-you-age/planning-for-diminished-capacity-and-illness"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "communitySafety",
+    "key": "scam",
+    "name": "Báo Chính phủ — Khuyến cáo phòng lừa đảo trên mạng",
+    "url": "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm",
+    "scope": "Khuyến cáo xác minh giao dịch và phòng lừa đảo.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://xaydungchinhsach.chinhphu.vn/co-quan-cong-an-khuyen-cao-cac-bien-phap-phong-ngua-bay-du-lich-bao-ve-nguoi-gia-tre-em-truoc-nguy-co-lua-dao-tren-mang-119260622091912176.htm"
+    ],
+    "reusedSource": true,
+    "usedInNewSections": true
+  },
+  {
+    "id": "olderLaw",
+    "key": "law",
+    "name": "Chính phủ — VBHN 23/VBHN-VPQH Luật Người cao tuổi",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217080&pageid=27160",
+    "scope": "Đọc metadata và trích Điều 3 từ PDF đính kèm; chưa rà toàn bộ sửa đổi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": false
+  },
+  {
+    "id": "q04j_lawPDF",
+    "key": "lawPDF",
+    "name": "VBHN 23/VBHN-VPQH — bản PDF Luật Người cao tuổi",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/23-vbhn-vpqh.pdf",
+    "scope": "Đọc text Điều 3 trang 1–2: quyền sống riêng/chung, tham gia, nghỉ ngơi; không rà toàn văn.",
+    "status": "opened-excerpt",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "medicalLaw",
+    "key": "medical",
+    "name": "Chính phủ — VBHN 26/VBHN-VPQH Luật Khám bệnh, chữa bệnh",
+    "url": "https://vanban.chinhphu.vn/?docid=217083&pageid=27160",
+    "scope": "Metadata ngày 26/02/2026, PDF đính kèm đọc một số điều.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": false
+  },
+  {
+    "id": "q04j_medicalPDF",
+    "key": "medicalPDF",
+    "name": "VBHN 26/VBHN-VPQH — bản PDF Luật Khám bệnh, chữa bệnh",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf",
+    "scope": "Đọc text Điều 3, 9–15 trang 4, 10–11; screenshot trang 4 cache miss, chưa rà toàn văn.",
+    "status": "opened-excerpt",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "pensionSocial",
+    "key": "pension",
+    "name": "Chính phủ — Nghị định 176/2025/NĐ-CP",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=214435&pageid=27160&typegroupid=4",
+    "scope": "Metadata hiệu lực 01/07/2025, bản PDF chính thức.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": true,
+    "usedInNewSections": false
+  },
+  {
+    "id": "q04j_pensionPDF",
+    "key": "pensionPDF",
+    "name": "Nghị định 176/2025/NĐ-CP — PDF chính thức",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/176nd.signed.pdf",
+    "scope": "Đọc ảnh trang 1–2, Điều 2–4 về điều kiện, mức và trình tự; chưa rà toàn bộ sửa đổi.",
+    "status": "opened-excerpt",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "reusedSource": false,
+    "usedInNewSections": true
+  },
+  {
+    "id": "q04j_confusion_unavailable",
+    "name": "NHS — Sudden confusion",
+    "url": "https://www.nhs.uk/conditions/sudden-confusion/",
+    "scope": "Cache miss tại cả đường dẫn conditions và symptoms; không gắn nguồn này vào claim mới.",
+    "status": "unavailable",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "usedInNewSections": false
+  },
+  {
+    "id": "civil",
+    "name": "Chính phủ — Bộ luật Dân sự",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=183188&pageid=27160&profileServiceCode=1&typegroupid=3",
+    "scope": "HTTP 500; không trích điều khoản mới hoặc kết luận đại diện/tài sản.",
+    "status": "unavailable",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [],
+    "usedInNewSections": false
+  }
+]

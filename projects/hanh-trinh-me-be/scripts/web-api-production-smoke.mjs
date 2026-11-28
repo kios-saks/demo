@@ -1,0 +1,232 @@
+import {readFileSync} from "node:fs";
+const lifestyle=JSON.parse(readFileSync(new URL("../packages/content/mock/lifestyle-media.json",import.meta.url),"utf8")).assets;
+const contextIllustrations=JSON.parse(readFileSync(new URL("../packages/content/mock/contextual-inline-illustrations.json",import.meta.url),"utf8")).assets;
+const selected=(key,fallback)=>lifestyle[key]?.reviewStatus==="approved"?lifestyle[key].src:fallback;
+import assert from "node:assert/strict";
+const web="http://127.0.0.1:3000",api="http://127.0.0.1:4000";
+async function ready(url){
+ for(let n=0;n<100;n++){
+   try{const r=await fetch(url,{signal:AbortSignal.timeout(1000)});if(r.ok)return;}catch{}
+   await new Promise(r=>setTimeout(r,500));
+ }
+ throw new Error("Server failed to start: "+url);
+}
+await ready(api+"/health");
+await ready(web+"/");
+const health=await (await fetch(api+"/health")).json();
+assert.equal(health.provider,"mock");
+const stages=await (await fetch(api+"/v1/stages")).json();
+assert.equal(stages.data.length,12);
+const articleRequest=await fetch(api+"/v1/articles/lam-quen-nhip-sinh-hoat-so-sinh");
+assert.equal(articleRequest.status,404,"Production API blocks drafts");
+const disclaimer=await fetch(api+"/v1/disclaimer");
+assert.equal(disclaimer.status,200);
+const homepage=await (await fetch(web+"/")).text();
+assert(homepage.includes("Trẻ sơ sinh"),"Web reads stages from API");
+assert(!homepage.includes("Làm quen nhịp sinh hoạt của trẻ sơ sinh"),"Web must not render private draft");
+
+assert(!homepage.includes("Thư viện DEV"),"Public homepage has no development labels");
+assert(!homepage.includes("Mở kho đọc DEV"),"Public homepage does not advertise the private reader");
+assert(!homepage.includes("data-home-v2"),"Production homepage never exposes Combined DEV A–Z redesign");
+assert(!homepage.includes('data-reader-shell="v2"'),"Production homepage must not expose Combined DEV shell");
+assert(!homepage.includes("data-home-legacy"),"Production homepage does not embed private corpus metadata");
+assert.equal((homepage.match(/class="public-stage-group"/g)||[]).length,6);
+assert(homepage.includes('class="hero-search"'),"Home search is discoverable above the fold");
+assert((homepage.match(/class="journey-card"/g)||[]).length===12,"Journey has 12 image-rich selectable stages");
+assert(homepage.includes("Đi thẳng đến nội dung chính"),"Keyboard skip link must exist on public Web");
+
+const stage=await fetch(web+"/so-sinh");
+assert.equal(stage.status,200);
+const detail=await fetch(web+"/bai-viet/lam-quen-nhip-sinh-hoat-so-sinh");
+assert.equal(detail.status,404,"Web blocks draft details");
+for(const path of ["/kham-pha","/kien-thuc/legacy/ngu-an-toan-cho-tre-so-sinh","/kien-thuc/article/no-such-item","/kien-thuc/legacy/ngu-an-toan-cho-tre-so-sinh/doc","/kien-thuc/article/chuan-bi-nha-tre-1-2/doc","/kien-thuc/lesson/dap-lai-tin-hieu/doc","/hoc-cung-con"]){const blocked=await fetch(web+path,{redirect:"manual"});assert.equal(blocked.status,404,"New knowledge routes retain closed Production gate: "+path);}
+const editorial=await fetch(web+"/bien-tap");
+assert.equal(editorial.status,404,"Editorial overview must not be public");
+const devSource=await fetch(web+"/dev-review/nguon",{redirect:"manual"});assert.equal(devSource.status,404,"DEV source directory must stay gated");
+const source=await fetch(web+"/nguon-tham-khao");
+assert.equal(source.status,200);
+console.log("PASS: Web API mode SSR; production hides all draft content; never falls back to private JSON.");
+
+const ciToken=process.env.CI_DEV_PREVIEW_TOKEN;
+assert(ciToken&&ciToken.length>=24,"Only CI can set a development preview token");
+const guest=await fetch(web+"/dev-review");
+assert.equal(guest.status,404,"Guests cannot view draft library");
+assert.equal(guest.headers.get("www-authenticate"),null,"Guests must never receive a Basic auth popup");
+const bad=await fetch(web+"/dev-review",{headers:{authorization:"Basic "+Buffer.from("editor:bad").toString("base64")}});
+assert.equal(bad.status,404,"Wrong credentials cannot view library");
+assert.equal((await fetch(api+"/v1/dev-preview/search-corpus")).status,404);
+assert.equal((await fetch(web+"/api/dev-search",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded",origin:web},body:"q=synthetic-test"})).status,404);
+const publicDraftApi=await fetch(api+"/v1/dev-preview/articles");
+assert.equal(publicDraftApi.status,404,"Direct backend preview requires a secret");
+const apiDraft=await fetch(api+"/v1/dev-preview/articles?page=1&limit=50",{headers:{"x-preview-token":ciToken}});
+assert.equal(apiDraft.status,200);
+assert.equal((await apiDraft.json()).meta.total,72);
+const headers={authorization:"Basic "+Buffer.from("editor:"+ciToken).toString("base64")};
+const overview=await fetch(web+"/dev-review",{headers});
+assert.equal(overview.status,200,"Authenticated Web preview should load");
+assert.equal(overview.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
+const overviewHtml=await overview.text();
+assert(overviewHtml.includes(selected("hero","/media/editorial-hero.svg")),"Dev library hero has editorial illustration");
+assert(overviewHtml.includes('/dev-review-pro.css'),"Private reader loads responsive design stylesheet");
+assert(overviewHtml.includes('id="dev-main"'),"Private reader has skip-link target");
+assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-cover-[a-z0-9-]+\.svg|lifestyle-cover-[a-z0-9-]+\.webp)/g)||[]).size,72,"All 72 covers must be rendered");
+assert.equal(new Set(overviewHtml.match(/\/media\/(?:editorial-group-[a-z0-9-]+\.svg|lifestyle-group-[a-z0-9-]+\.webp)/g)||[]).size,6,"Six separate group illustrations");
+assert(overviewHtml.includes('class="thumb"'),"Article cover thumbnails must have responsive CSS hook");
+assert(overviewHtml.indexOf('class="search-zone"') < overviewHtml.indexOf('class="home-stage-groups stage-tile-grid"'),"Search must appear before 12 stage options");
+assert(!overviewHtml.includes("72 bài biên tập"),"Reader does not duplicate the editorial count");
+assert(!overviewHtml.includes("Gia đình mẫu"),"Synthetic family tools are not advertised to readers");
+assert(overviewHtml.includes("72 bài chuyên sâu"),"DEV highlights the full long-form knowledge base");
+assert(overviewHtml.includes("Bài chuyên sâu tiêu biểu"),"DEV contains a curated highlighted reading shelf");
+assert(overviewHtml.includes("CHUYÊN SÂU"),"Reader presents article category");
+assert.equal((overviewHtml.match(/data-article-card=/g)||[]).length,72,"Full catalog retains 72 unique cards");
+assert(!overviewHtml.includes("THƯ VIỆN KIẾN THỨC DEV"),"No development labels in the tester experience");
+assert(overviewHtml.includes("/bai-viet/ngu-an-toan-cho-tre-so-sinh"),"Indexed source-linked article must appear");
+const readerStyles=await fetch(web+"/dev-review-pro.css");
+assert.equal(readerStyles.status,200,"Private reader design stylesheet is served");
+const readerCss=await readerStyles.text();
+assert(readerCss.includes("prefers-reduced-motion"),"Private UI respects reduced-motion preferences");
+assert(readerCss.includes("min-height:44px"),"Reader navigation has touch-sized targets");
+const detailDev=await fetch(web+"/dev-review/ngu-an-toan-cho-tre-so-sinh",{headers});
+assert.equal(detailDev.status,200,"Authenticated dev preview article loads");
+const detailBody=await detailDev.text();
+assert(detailBody.includes("Giấc ngủ an toàn"));
+assert(detailBody.includes("cdc.gov"),"Specific cited source must be rendered");
+assert(detailBody.includes('class="reading-layout"'),"Long-form articles need readable grid layout");
+assert(detailBody.includes('class="reading-sidebar"'),"Long-form articles need section index");
+assert(detailBody.includes('aria-label="Mục lục bài viết"'),"Section navigation needs an accessible name");
+assert(detailBody.includes(selected("cover-ngu-an-toan-cho-tre-so-sinh","/media/editorial-cover-ngu-an-toan-cho-tre-so-sinh.svg")),"Article must include its own cover illustration");
+assert(detailBody.includes("/media/editorial-infographic-ngu-an-toan-cho-tre-so-sinh.svg"),"Inline cited educational infographic must be rendered");
+assert(detailBody.includes("Vì sao môi trường ngủ quan trọng?"),"Source-verified detailed sleep chapter must render");
+assert(detailBody.includes("Kiểm tra an toàn trong 30 giây"),"Practical sleep checklist chapter must render");
+assert((detailBody.match(/<section id="part-/g)||[]).length>=10,"Expanded article must expose at least 10 reading sections");
+assert.equal(detailDev.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
+assert(detailBody.includes("Chưa được thẩm định y khoa"));
+assert(!detailBody.includes("Nội dung dev"));
+assert(!/Minh họa DEV|Tranh minh họa ngữ cảnh DEV|đang biên tập, chưa thẩm định/.test(detailBody),"Reader captions must use public-facing copy");
+const newInfographic=await fetch(web+"/dev-review/hen-tu-van-tien-thai",{headers});
+assert.equal(newInfographic.status,200,"Source-linked infographic article must be visible to editor");
+const infographicHtml=await newInfographic.text();
+assert(infographicHtml.includes("/media/editorial-infographic-hen-tu-van-tien-thai.svg"),"New inline infographic is rendered");
+assert(infographicHtml.includes("Đọc 3 gợi ý trong hình dưới dạng văn bản"),"Mobile-accessible transcript is rendered");
+assert(infographicHtml.includes("Ghi lại thuốc và sản phẩm bổ sung"),"Transcript preserves the source-authored brief");
+const infographicAsset=await fetch(web+"/media/editorial-infographic-hen-tu-van-tien-thai.svg");
+assert.equal(infographicAsset.status,200,"Generated SVG must be served by Next.js public assets");
+const infographicSvg=await infographicAsset.text();
+assert(infographicSvg.startsWith("<svg"),"Infographic must be a valid SVG resource");
+assert(infographicSvg.includes("Nguồn:"),"Infographic should disclose source label");
+
+
+const guidePage=await fetch(web+"/dev-review?stage=so-sinh",{headers});
+assert.equal(guidePage.status,200,"Stage guide requires preview authentication");
+const guideHtml=await guidePage.text();
+assert(guideHtml.includes("Ba tháng đầu đời: an toàn và kết nối"),"Stage overview must be visible");
+assert(guideHtml.includes("Checklist để bắt đầu"),"Stage needs practical steps");
+assert(guideHtml.includes("Câu hỏi thường gặp"),"Stage needs grounded FAQs");
+assert(guideHtml.includes("CDC – Safe Sleep"),"Stage guide links official further reading");
+assert(guideHtml.includes("/bai-viet/ngu-an-toan-cho-tre-so-sinh"),"Stage filter lists local articles");
+assert(!guideHtml.includes("Bài khác cùng giai đoạn"),"Stage listing must remain distinct from article detail");
+const guideUnauthorized=await fetch(web+"/dev-review?stage=so-sinh");
+assert.equal(guideUnauthorized.status,404,"Stage guides must never be public");
+assert(detailBody.includes("Xem hướng dẫn giai đoạn, FAQ và nguồn đọc thêm"),"Article detail should link back to contextual stage guide");
+assert(detailBody.includes("Bài khác cùng giai đoạn"),"Article should suggest related reading");
+
+console.log("PASS: password-gated 72-article dev reading room; guest denied, draft API protected, real sources rendered.");
+
+const invite=process.env.CI_READER_INVITE_TOKEN;
+assert(invite,"CI reader invitation configured");
+const invalid=await fetch(web+"/tham-gia",{method:"POST",body:"invalid-invite"});
+assert.equal(invalid.status,404);
+assert.equal(invalid.headers.get("set-cookie"),null);
+const join=await fetch(web+"/tham-gia",{method:"POST",body:invite});
+assert.equal(join.status,204,"Invitation opens reader without login popup");
+const setCookie=join.headers.get("set-cookie");
+assert(setCookie&&/HttpOnly/i.test(setCookie)&&/SameSite=Lax/i.test(setCookie)&&/Secure/i.test(setCookie));
+const cookie=setCookie.split(";")[0];
+const readerHeaders={cookie};
+const readerHome=await fetch(web+"/",{headers:readerHeaders});
+assert.equal(readerHome.status,200);
+assert.equal(readerHome.headers.get("x-robots-tag"),"noindex, nofollow, noarchive");
+assert(/private.*no-store/.test(readerHome.headers.get("cache-control")));
+const readerHtml=await readerHome.text();
+assert(readerHtml.includes("Hành trình của gia đình bạn"));
+assert(readerHtml.includes('class="home-stage-groups stage-tile-grid"'));
+assert.equal((readerHtml.match(/data-stage-group=/g)||[]).length,6);
+assert.equal((readerHtml.match(/data-stage-link=/g)||[]).length,12);
+assert.equal((readerHtml.match(/data-article-card=/g)||[]).length,6,"Homepage must render six featured articles");
+const homeGroups=[...new Set(readerHtml.match(/\/media\/lifestyle-group-[a-z0-9-]+\.webp/g)||[])];
+const homeCovers=[...new Set(readerHtml.match(/\/media\/lifestyle-cover-[a-z0-9-]+\.webp/g)||[])];
+assert.equal(homeGroups.length,6,"All six home journey groups require distinct lifestyle artwork");
+assert.equal(homeCovers.length,6,"All six featured home articles require distinct lifestyle covers");
+assert(readerHtml.includes("/media/lifestyle-hero.webp"));
+for(const path of [...homeGroups,...homeCovers,"/media/lifestyle-hero.webp"]){
+ const image=await fetch(web+path);
+ assert.equal(image.status,200,path);
+ assert(image.headers.get("content-type")?.includes("image/webp"),path);
+}
+console.log("PASS homepage lifestyle: hero + 6 groups + 6 featured covers");
+assert(readerHtml.includes('class="mobile-reader-nav"'));
+assert(readerHtml.includes("/da-luu"));
+assert(readerHtml.includes("/hanh-trinh"));
+assert(readerHtml.includes("/reader-ecosystem.css"));
+assert(readerHtml.includes("/reader-local.js"));
+assert(readerHtml.indexOf('class="search-zone"') < readerHtml.indexOf('class="home-stage-groups stage-tile-grid"'));
+const library=await fetch(web+"/thu-vien",{headers:readerHeaders});
+assert.equal(library.status,200);
+assert((await library.text()).includes("Hiển thị 72/72 bài viết"));
+
+assert(!readerHtml.includes("THƯ VIỆN KIẾN THỨC DEV"));
+assert(!readerHtml.includes("Backend/Supabase"));
+const readerStage=await fetch(web+"/so-sinh",{headers:readerHeaders});
+assert.equal(readerStage.status,200);
+const stageHtml=await readerStage.text();
+assert(stageHtml.includes("Hiển thị 6/72 bài viết"),"Stage path must preserve selected stage through rewrite");
+assert.equal((stageHtml.match(/data-article-card=/g)||[]).length,6);
+assert(stageHtml.includes("Checklist để bắt đầu"));
+assert(stageHtml.includes("data-checklist-key"));
+for(const s of stages.data){
+ const stageResponse=await fetch(web+"/"+s.slug,{headers:readerHeaders});
+ assert.equal(stageResponse.status,200,s.slug);
+ const body=await stageResponse.text();
+ assert.equal((body.match(/data-article-card=/g)||[]).length,6,s.slug);
+ assert(body.includes(selected("stage-"+s.slug,"/media/editorial-stage-"+s.slug+".svg")),"Dedicated stage artwork "+s.slug);
+}
+
+const readerSearch=await fetch(web+"/tim-kiem?q=giấc%20ngủ",{headers:readerHeaders});
+assert.equal(readerSearch.status,200);
+const searchHtml=await readerSearch.text();
+assert(searchHtml.includes("Giấc ngủ"));
+const unaccented=await fetch(web+"/tim-kiem?q=giac%20ngu",{headers:readerHeaders});
+assert.equal(unaccented.status,200);
+assert((await unaccented.text()).includes("Giấc ngủ an toàn"),"Accent-insensitive Vietnamese search");
+const saved=await fetch(web+"/da-luu",{headers:readerHeaders});
+assert.equal(saved.status,200);
+assert((await saved.text()).includes("data-saved-list"));
+const journey=await fetch(web+"/hanh-trinh",{headers:readerHeaders});
+assert.equal(journey.status,200);
+assert((await journey.text()).includes("data-journey-select"));
+assert.equal((await fetch(web+"/da-luu")).status,404);
+
+const readerDetail=await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh",{headers:readerHeaders});
+assert.equal(readerDetail.status,200);
+const readerDetailHtml=await readerDetail.text();
+assert(readerDetailHtml.includes("Mục lục bài viết"));
+assert(readerDetailHtml.includes('class="mobile-toc"'));
+assert(readerDetailHtml.includes("data-save-slug"));
+const ecosystemCss=await fetch(web+"/reader-ecosystem.css");
+assert.equal(ecosystemCss.status,200);
+const localScript=await fetch(web+"/reader-local.js");
+assert.equal(localScript.status,200);
+assert((await localScript.text()).includes("localStorage"));
+
+const forged=await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh",{headers:{cookie:"mebe_reader=invalid"}});
+assert.equal(forged.status,404,"Forged cookies never reveal a draft");
+assert.equal((await fetch(web+"/bai-viet/ngu-an-toan-cho-tre-so-sinh")).status,404);
+console.log("PASS: invited tester uses normal URLs with no Basic auth popup; unauthenticated access remains denied.");
+
+// Every protected article must contain an inline reading visual, without making draft text a static asset.
+const content=JSON.parse(readFileSync(new URL("../packages/content/articles.json",import.meta.url),"utf8")).articles;
+let excerptCount=0, infographicCount=0, photoCount=0, vectorCount=0;
+for(const a of content){const response=await fetch(web+"/bai-viet/"+a.slug,{headers:readerHeaders});assert.equal(response.status,200,a.slug);const html=await response.text();if(a.media?.inline?.length){assert(html.includes('class="infographic-figure"'),"Missing source-linked infographic "+a.slug);infographicCount++}else{assert(html.includes('data-reading-visual="'+a.slug+'"'),"Missing reading visual "+a.slug);assert(html.includes('class="reading-visual-svg"'));assert(html.includes("Trích nguyên văn từ bài viết."));assert(html.includes("Chưa thẩm định y khoa."));excerptCount++}const photo=lifestyle["inline-"+a.slug];if(photo?.reviewStatus==="approved"){assert(html.includes(photo.src),"Missing section-anchored photo "+a.slug);assert(html.includes("Ảnh minh họa tạo bằng AI"));photoCount++}else{const entry=contextIllustrations[a.slug];assert(entry,"Missing context registry "+a.slug);assert(html.includes('data-contextual-illustration="'+a.slug+'"'));assert(html.includes(entry.src));const media=await fetch(web+entry.src);assert.equal(media.status,200);assert((await media.text()).includes('viewBox="0 0 1200 675"'));vectorCount++}}
+assert.equal(photoCount+vectorCount,72);assert.equal(excerptCount,45);assert.equal(infographicCount,27);assert.equal(photoCount,Object.keys(lifestyle).filter(k=>k.startsWith("inline-")&&lifestyle[k].reviewStatus==="approved").length);
+assert.equal((await fetch(web+"/bai-viet/cuoc-tro-chuyen-truoc-khi-co-con")).status,404,"Article excerpt must remain protected");
+console.log("PASS: 72/72 articles with inline visuals (45 exact excerpts, 27 existing infographics), "+photoCount+" section-anchored lifestyle photos.");

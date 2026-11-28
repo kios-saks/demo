@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="Khám phá — Mobile wireframe V2"><title>Khám phá</title><g font-family="Arial, sans-serif"><rect x="0" y="0" width="390" height="844" rx="0" fill="#FAF9F5" stroke="#FAF9F5"/>
+<rect x="0" y="0" width="390" height="52" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="16" y="32" font-size="16" fill="#285B46" font-weight="700" text-anchor="start">Hành Trình Mẹ &amp; Bé</text>
+<text x="372" y="32" font-size="22" fill="#285B46" font-weight="700" text-anchor="end">⌕</text>
+<text x="16" y="89" font-size="18" fill="#285B46" font-weight="700" text-anchor="start">Khám phá</text>
+<rect x="16" y="104" width="358" height="48" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="30" y="133" font-size="14" fill="#536459" font-weight="400" text-anchor="start">⌕  Tìm trong toàn bộ kiến thức</text>
+<rect x="16" y="162" width="106" height="44" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="69" y="189" font-size="12" fill="#285B46" font-weight="700" text-anchor="middle">Bộ lọc</text>
+<rect x="132" y="162" width="111" height="44" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="187.5" y="189" font-size="12" fill="#285B46" font-weight="700" text-anchor="middle">Mọi độ tuổi</text>
+<rect x="249" y="162" width="125" height="44" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="311.5" y="189" font-size="12" fill="#285B46" font-weight="700" text-anchor="middle">Tất cả chủ đề</text>
+<text x="16" y="233" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Kết quả phù hợp · Xóa bộ lọc</text>
+<rect x="16" y="248" width="358" height="78" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="28" y="260" width="44" height="54" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="84" y="275" font-size="13" fill="#24362D" font-weight="700" text-anchor="start">Cẩm nang theo nhu cầu</text>
+<text x="84" y="297" font-size="11" fill="#536459" font-weight="400" text-anchor="start">Chặng · Chủ đề</text>
+<rect x="16" y="336" width="358" height="78" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="28" y="348" width="44" height="54" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="84" y="363" font-size="13" fill="#24362D" font-weight="700" text-anchor="start">Bài viết chuyên sâu</text>
+<text x="84" y="385" font-size="11" fill="#536459" font-weight="400" text-anchor="start">Chặng · Thời lượng</text>
+<rect x="16" y="424" width="358" height="78" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="28" y="436" width="44" height="54" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="84" y="451" font-size="13" fill="#24362D" font-weight="700" text-anchor="start">Bài học và thực hành</text>
+<text x="84" y="473" font-size="11" fill="#536459" font-weight="400" text-anchor="start">Chặng · Chủ đề</text>
+<rect x="16" y="524" width="358" height="44" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="195" y="551" font-size="12" fill="#285B46" font-weight="700" text-anchor="middle">Xem thêm kết quả</text>
+<rect x="16" y="587" width="358" height="132" rx="10" fill="#F2E7D9" stroke="#D7DED5"/>
+<text x="28" y="612" font-size="14" fill="#285B46" font-weight="700" text-anchor="start">Sheet bộ lọc (khi mở)</text>
+<text x="28" y="635" font-size="12" fill="#536459" font-weight="400" text-anchor="start">Chặng tuổi · Chủ đề · Loại nội dung</text>
+<text x="28" y="657" font-size="12" fill="#536459" font-weight="400" text-anchor="start">Xóa lựa chọn / Áp dụng</text>
+<text x="28" y="701" font-size="12" fill="#536459" font-weight="400" text-anchor="start">Giữ bộ lọc khi quay lại</text>
+<rect x="0" y="778" width="390" height="66" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="48.75" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">⌂</text>
+<text x="48.75" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Trang chủ</text>
+<text x="146.25" y="803" font-size="22" fill="#285B46" font-weight="700" text-anchor="middle">⌕</text>
+<text x="146.25" y="827" font-size="11" fill="#285B46" font-weight="700" text-anchor="middle">Khám phá</text>
+<text x="243.75" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">◇</text>
+<text x="243.75" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Hành trình</text>
+<text x="341.25" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">○</text>
+<text x="341.25" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Cá nhân</text></g></svg>

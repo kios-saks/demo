@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="Hành trình — Mobile wireframe V2"><title>Hành trình</title><g font-family="Arial, sans-serif"><rect x="0" y="0" width="390" height="844" rx="0" fill="#FAF9F5" stroke="#FAF9F5"/>
+<rect x="0" y="0" width="390" height="52" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="16" y="32" font-size="16" fill="#285B46" font-weight="700" text-anchor="start">Hành Trình Mẹ &amp; Bé</text>
+<text x="372" y="32" font-size="22" fill="#285B46" font-weight="700" text-anchor="end">⌕</text>
+<text x="16" y="90" font-size="18" fill="#285B46" font-weight="700" text-anchor="start">Hành trình của tôi</text>
+<text x="16" y="113" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Chọn các chặng bạn quan tâm.</text>
+<text x="16" y="132" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Không cần hồ sơ hoặc tài khoản.</text>
+<rect x="16" y="152" width="173" height="44" rx="8" fill="#285B46" stroke="#285B46"/>
+<text x="102.5" y="179" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">0–12 tháng</text>
+<rect x="199" y="152" width="175" height="44" rx="8" fill="#285B46" stroke="#285B46"/>
+<text x="286.5" y="179" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">60–74 tuổi</text>
+<rect x="16" y="206" width="358" height="44" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="195" y="233" font-size="12" fill="#285B46" font-weight="700" text-anchor="middle">+ Thêm / đổi chặng</text>
+<text x="16" y="281" font-size="18" fill="#285B46" font-weight="700" text-anchor="start">Việc cần chuẩn bị</text>
+<rect x="16" y="298" width="358" height="142" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="28" y="325" font-size="14" fill="#285B46" font-weight="700" text-anchor="start">Checklist theo chặng</text>
+<text x="28" y="352" font-size="13" fill="#536459" font-weight="400" text-anchor="start">□  Việc từ hướng dẫn có sẵn</text>
+<text x="28" y="377" font-size="13" fill="#536459" font-weight="400" text-anchor="start">□  Xem nguồn và ghi nhớ</text>
+<text x="28" y="402" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Đặt lại checklist</text>
+<text x="16" y="473" font-size="18" fill="#285B46" font-weight="700" text-anchor="start">Đọc theo chặng</text>
+<rect x="16" y="488" width="358" height="80" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="28" y="500" width="44" height="56" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="84" y="515" font-size="13" fill="#24362D" font-weight="700" text-anchor="start">Gợi ý kiến thức</text>
+<text x="84" y="537" font-size="11" fill="#536459" font-weight="400" text-anchor="start">0–12 tháng</text>
+<rect x="16" y="578" width="358" height="80" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<rect x="28" y="590" width="44" height="56" rx="6" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="84" y="605" font-size="13" fill="#24362D" font-weight="700" text-anchor="start">Gợi ý kiến thức</text>
+<text x="84" y="627" font-size="11" fill="#536459" font-weight="400" text-anchor="start">60–74 tuổi</text>
+<text x="16" y="698" font-size="12" fill="#536459" font-weight="400" text-anchor="start">Tùy chọn chỉ lưu trên thiết bị</text>
+<rect x="0" y="778" width="390" height="66" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="48.75" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">⌂</text>
+<text x="48.75" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Trang chủ</text>
+<text x="146.25" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">⌕</text>
+<text x="146.25" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Khám phá</text>
+<text x="243.75" y="803" font-size="22" fill="#285B46" font-weight="700" text-anchor="middle">◇</text>
+<text x="243.75" y="827" font-size="11" fill="#285B46" font-weight="700" text-anchor="middle">Hành trình</text>
+<text x="341.25" y="803" font-size="22" fill="#536459" font-weight="700" text-anchor="middle">○</text>
+<text x="341.25" y="827" font-size="11" fill="#536459" font-weight="400" text-anchor="middle">Cá nhân</text></g></svg>

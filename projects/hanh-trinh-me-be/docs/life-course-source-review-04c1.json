@@ -1,0 +1,58 @@
+[
+  {
+    "id": "emotion",
+    "name": "CDC — Tips for Noticing and Naming Emotions",
+    "url": "https://www.cdc.gov/parenting-toddlers/noticing-and-naming/emotion-coaching.html",
+    "scope": "Đảm bảo an toàn khi trẻ quá tải, kết nối và gọi tên cảm xúc khi có thể tương tác; giữ giới hạn hành vi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "positive",
+    "name": "UNICEF Việt Nam — Áp dụng kỷ luật tích cực đối với sự phát triển của trẻ em",
+    "url": "https://www.unicef.org/vietnam/vi/nh%E1%BB%AFng-c%C3%A2u-chuy%E1%BB%87n/%C3%A1p-d%E1%BB%A5ng-k%E1%BB%B7-lu%E1%BA%ADt-t%C3%ADch-c%E1%BB%B1c-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-tr%E1%BA%BB-em",
+    "scope": "Kỷ luật tích cực không bạo lực; kỳ vọng rõ ràng và nhất quán.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "milestone",
+    "name": "CDC — Milestones by 2 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+    "scope": "Mốc 2 tuổi, mở rộng lời trẻ, ăn đáp ứng, hoạt động chơi; mất kỹ năng hoặc lo ngại cần trao đổi bác sĩ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/2-years.html"
+    ]
+  },
+  {
+    "id": "home",
+    "name": "AAP — Home Safety: Tips for Families With Young Children",
+    "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/home-safety-heres-how.aspx",
+    "scope": "Rà nguy cơ tầm trẻ, ổ điện, dây rèm, cầu thang, thuốc và hóa chất.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "choke",
+    "name": "AAP — Choking Prevention for Babies & Children",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+    "scope": "Nguy cơ vật nhỏ, pin cúc áo và thực phẩm; ăn ngồi, giám sát, dấu hiệu tắc đường thở.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "toddler",
+    "name": "CDC — Positive Parenting Tips: Toddlers (1–2 years old)",
+    "url": "https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-1-2-years.html",
+    "scope": "Đa dạng thức ăn, tránh ép ăn, vận động và nhịp sinh hoạt; lưu ý phạm vi 1–2 tuổi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  }
+]

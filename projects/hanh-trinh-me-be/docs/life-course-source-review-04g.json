@@ -1,0 +1,287 @@
+[
+  {
+    "id": "q04g_diet",
+    "name": "WHO — Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng và cân bằng thực phẩm; không kê khẩu phần cá nhân.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    ]
+  },
+  {
+    "id": "q04g_food",
+    "name": "WHO — Five keys to safer food",
+    "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+    "scope": "Năm nguyên tắc an toàn thực phẩm.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food"
+    ]
+  },
+  {
+    "id": "q04g_ncd",
+    "name": "WHO — Noncommunicable diseases",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+    "scope": "Yếu tố nguy cơ bệnh không lây và dự phòng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_bp",
+    "name": "WHO Việt Nam — Hypertension",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension",
+    "scope": "Tăng huyết áp có thể không có triệu chứng; đo và đánh giá chuyên môn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/vietnam/news/fact-sheets/detail/hypertension"
+    ]
+  },
+  {
+    "id": "q04g_work",
+    "name": "WHO — Mental health at work",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+    "scope": "Can thiệp điều kiện công việc và nguy cơ tâm lý xã hội.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work"
+    ]
+  },
+  {
+    "id": "q04g_burn",
+    "name": "WHO — Burn-out an occupational phenomenon",
+    "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases",
+    "scope": "ICD-11: hiện tượng nghề nghiệp, không phải bệnh; không áp dụng mọi lĩnh vực đời sống.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_contra",
+    "name": "WHO — Family planning/contraception methods",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+    "scope": "Quyền lựa chọn, các phương pháp và vai trò bao cao su.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_preg",
+    "name": "CDC — Planning for Pregnancy",
+    "url": "https://www.cdc.gov/pregnancy/about/index.html",
+    "scope": "Trang 14/07/2026; tư vấn tiền thai, thuốc, tiêm chủng, axit folic; không kê liều cá nhân.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "18–60 tuổi ít nhất 7 giờ/ngày, chất lượng ngủ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04g_move",
+    "name": "WHO — Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "scope": "Lợi ích và cơ hội vận động; không kê cường độ cá nhân.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    ]
+  },
+  {
+    "id": "q04g_life",
+    "name": "UNESCO — Lifelong learning",
+    "url": "https://www.unesco.org/en/lifelong-learning",
+    "scope": "Học suốt đời, nâng cao và chuyển đổi kỹ năng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_career",
+    "name": "OECD — Career guidance for adults in a changing world of work",
+    "url": "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html",
+    "scope": "Đã đọc tóm tắt điều hành HTML báo cáo 2021; không suy ra thị trường VN 2026.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.oecd.org/en/publications/career-guidance-for-adults-in-a-changing-world-of-work_9a94bfad-en.html"
+    ]
+  },
+  {
+    "id": "q04g_accredit",
+    "name": "Cục Quản lý chất lượng — Kiểm định chất lượng giáo dục",
+    "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/",
+    "scope": "Danh mục thông báo, không xác nhận từng chương trình hoặc tình trạng mới nhất.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_safety",
+    "name": "WHO — Occupational health",
+    "url": "https://www.who.int/health-topics/occupational-health",
+    "scope": "Phòng nguy cơ nghề nghiệp và môi trường làm việc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/health-topics/occupational-health"
+    ]
+  },
+  {
+    "id": "q04g_scam",
+    "name": "Bộ Công an — Cảnh giác 25 kịch bản lừa đảo 2026",
+    "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+    "scope": "Kết quả tìm kiếm: OTP, giả danh và việc nhẹ lương cao; mở trang cache miss.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+    ]
+  },
+  {
+    "id": "q04g_mil",
+    "name": "UNESCO — Media and Information Literacy",
+    "url": "https://www.unesco.org/en/media-information-literacy",
+    "scope": "Năng lực đánh giá thông tin có phê phán.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_ai",
+    "name": "UNESCO — Guidance for generative AI in education and research",
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "scope": "Trang giới thiệu hướng dẫn, vai trò con người và dữ liệu; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_nist",
+    "name": "NIST — AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "scope": "Khung tự nguyện, đang được sửa đổi; trang tổng quan, chưa đọc toàn văn PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_privacy",
+    "name": "Chính phủ — Luật 91/2025/QH15 Bảo vệ dữ liệu cá nhân",
+    "url": "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+    "scope": "Metadata, chưa đọc PDF hoặc rà văn bản hướng dẫn.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_social",
+    "name": "WHO — Social connection",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+    "scope": "Kết nối xã hội, cô đơn và thay đổi đời sống.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/questions-and-answers/item/social-connection"
+    ]
+  },
+  {
+    "id": "q04g_violence",
+    "name": "WHO — Violence against women",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "scope": "Bạo lực bạn tình và hậu quả sức khỏe; nguồn tập trung phụ nữ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_marriage",
+    "name": "Chính phủ — Luật Hôn nhân và gia đình 52/2014/QH13",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=175351&pageid=27160",
+    "scope": "Metadata qua kết quả tìm kiếm, mở trang cache miss; chưa đọc PDF.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_finance",
+    "name": "CFPB — Your Money, Your Goals toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "scope": "Thu chi, nghĩa vụ và quyết định nợ; không áp luật Mỹ cho Việt Nam.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit"
+    ]
+  },
+  {
+    "id": "q04g_fund",
+    "name": "CFPB — Emergency fund",
+    "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "scope": "Dự phòng tùy tình hình và chi phí bất ngờ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund"
+    ]
+  },
+  {
+    "id": "q04g_bhxh",
+    "name": "Chính phủ — Luật BHXH 41/2024/QH15",
+    "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+    "scope": "Metadata luật gốc, chưa đọc PDF/rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_labour",
+    "name": "Chính phủ — VBHN 18/VBHN-VPQH Bộ luật Lao động",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+    "scope": "Metadata văn bản hợp nhất, chưa đọc PDF/rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_civil",
+    "name": "Chính phủ — Bộ luật Dân sự 91/2015/QH13",
+    "url": "https://vanban.chinhphu.vn/?classid=&docid=183188&pageid=27160",
+    "scope": "Metadata qua kết quả tìm kiếm; URL cũ trả lỗi 500; chưa đọc PDF.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_housing",
+    "name": "Chính phủ — VBHN 132/VBHN-VPQH Luật Nhà ở",
+    "url": "https://vanban.chinhphu.vn/?docid=215257&pageid=27160",
+    "scope": "Metadata, chưa đọc PDF/rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04g_residence",
+    "name": "Chính phủ — Luật Cư trú 68/2020/QH14",
+    "url": "https://vanban.chinhphu.vn/?docid=202609&pageid=27160",
+    "scope": "Metadata luật gốc, chưa đọc PDF/rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Hành Trình Mẹ & Bé",
+    "slug": "hanh-trinh-me-be",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light"
+  }
+}

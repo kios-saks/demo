@@ -1,0 +1,52 @@
+import {readFileSync} from "node:fs";
+import {Pool} from "pg";
+import type {DatabaseTarget} from "./config.js";
+
+/**
+ * Adapter seam: replace an implementation without touching handlers,
+ * domain repository contracts, or the router.
+ */
+export interface DatabaseConnectionProvider {
+ readonly target:DatabaseTarget;
+ open():Pool;
+}
+function secureSupabaseUrl(uri:string):string {
+ const u=new URL(uri);
+ // Explicit pg SSL config must not be overridden by URI query parameters.
+ for(const key of ["sslmode","sslrootcert","sslcert","sslkey","ssl"])u.searchParams.delete(key);
+ return u.toString();
+}
+export class PgConnectionProvider implements DatabaseConnectionProvider {
+ constructor(readonly target:DatabaseTarget,private readonly uri:string,private readonly caPath?:string){}
+ open():Pool{
+   const remote=this.target==="supabase";
+   // No insecure TLS bypass for Supabase. CA may be loaded from the cloud project's settings.
+   const ssl=remote?{rejectUnauthorized:true,...(this.caPath?{ca:readFileSync(this.caPath,"utf8")}:{})}:undefined;
+   const pool=new Pool({
+     connectionString:remote?secureSupabaseUrl(this.uri):this.uri,
+     ...(ssl?{ssl}:{}),
+     ...(remote?{options:"-c search_path=mebe,public"}:{}),
+     max:remote?5:10,
+     idleTimeoutMillis:10000,connectionTimeoutMillis:5000,
+     application_name:"mebe-"+this.target
+   });
+   // Observe existing pool limits without increasing connections or logging SQL/URI.
+   if(remote&&process.env.MEBE_COMBINED_DEV==="true"&&process.env.RENDER==="true"&&process.env.RENDER_SERVICE_ID==="srv-dc19cibl550s73drji5g"){
+    let last=0;
+    pool.on("acquire",()=>{
+     if(pool.waitingCount>0&&Date.now()-last>=5000){
+      last=Date.now();
+      console.warn("UX09_DB_POOL_PRESSURE",JSON.stringify({total:pool.totalCount,idle:pool.idleCount,waiting:pool.waitingCount,max:5}));
+     }
+    });
+    pool.on("error",()=>{
+     console.warn("UX09_DB_POOL_IDLE_ERROR",JSON.stringify({total:pool.totalCount,idle:pool.idleCount,waiting:pool.waitingCount}));
+    });
+   }
+   return pool;
+ }
+}
+export type ConnectionProviderFactory=(target:DatabaseTarget,uri:string)=>DatabaseConnectionProvider;
+export function defaultConnectionProvider(target:DatabaseTarget,uri:string):DatabaseConnectionProvider {
+ return new PgConnectionProvider(target,uri,target==="supabase"?process.env.SUPABASE_CA_CERT_PATH:undefined);
+}

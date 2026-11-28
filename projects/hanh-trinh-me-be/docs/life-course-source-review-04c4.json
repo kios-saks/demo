@@ -1,0 +1,182 @@
+[
+  {
+    "id": "q04c4_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "9–12 giờ/24h ở 6–12 tuổi, nhật ký ngủ, thói quen và trao đổi bác sĩ khi có khó khăn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04c4_move",
+    "name": "WHO Europe — Physical activity",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "scope": "5–17 tuổi trung bình ít nhất 60 phút/ngày vận động vừa–mạnh trong tuần; hoạt động mạnh và tăng sức cơ/xương ít nhất 3 ngày/tuần.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_diet",
+    "name": "WHO Việt Nam — Healthy diet",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm, hạn chế đường tự do, muối; không áp khẩu phần điều trị.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_schoolfood",
+    "name": "WHO — WHO urges schools worldwide to promote healthy eating for children (27/01/2026)",
+    "url": "https://www.who.int/news/item/27-01-2026-who-urges-schools-worldwide-to-promote-healthy-eating-for-children",
+    "scope": "Thông cáo về môi trường thực phẩm trường học, chưa đọc guideline PDF.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_parent",
+    "name": "UNICEF — Positive parenting tips for children aged 6–10",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10",
+    "scope": "Khích lệ, không làm nhục, tôn trọng sở thích và tham gia việc gia đình.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+    ]
+  },
+  {
+    "id": "q04c4_bully",
+    "name": "UNICEF — Bullying: What is it and how to stop it",
+    "url": "https://www.unicef.org/parenting/child-care/bullying",
+    "scope": "Chủ ý gây hại, lặp lại, chênh lệch quyền lực; trò chuyện, can thiệp.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/bullying"
+    ]
+  },
+  {
+    "id": "q04c4_schoolbully",
+    "name": "UNICEF — How to talk to your child's school about bullying",
+    "url": "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying",
+    "scope": "Phối hợp nhà trường, hỗ trợ và phòng ngừa.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/how-talk-school-about-bullying"
+    ]
+  },
+  {
+    "id": "q04c4_eef",
+    "name": "EEF — Metacognition and self-regulation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+    "scope": "Lập kế hoạch, theo dõi, đánh giá trong nhiệm vụ học cụ thể; làm mẫu, giảm hỗ trợ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_ai",
+    "name": "UNICEF Việt Nam — Parenting in the AI age",
+    "url": "https://www.unicef.org/vietnam/parenting-ai-age",
+    "scope": "Giải thích AI phù hợp tuổi, cùng xem xét câu trả lời, rủi ro dữ liệu, nội dung và lệ thuộc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/parenting-ai-age"
+    ]
+  },
+  {
+    "id": "q04c4_digital",
+    "name": "UNICEF Việt Nam — Digital parenting",
+    "url": "https://www.unicef.org/vietnam/digital-parenting",
+    "scope": "Trang tổng hợp an toàn và quyền riêng tư trên môi trường số; không phải hướng dẫn từng nền tảng.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/digital-parenting"
+    ]
+  },
+  {
+    "id": "q04c4_finance",
+    "name": "CFPB — Building blocks of financial capability",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/",
+    "scope": "6–12 tuổi hình thành thói quen tài chính, lập kế hoạch và khái niệm tiền; bài tập VN do dự án biên tập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn"
+    ]
+  },
+  {
+    "id": "q04c4_vision",
+    "name": "WHO — Vision and hearing screening for school-age children (2025)",
+    "url": "https://www.who.int/publications/i/item/9789240105201",
+    "scope": "Trang giới thiệu sổ tay sàng lọc mắt/tai tuổi học đường; chưa đọc PDF 96 trang.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/publications/i/item/9789240105201"
+    ]
+  },
+  {
+    "id": "q04c4_oral",
+    "name": "WHO — Oral health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+    "scope": "Chải răng hai lần/ngày với kem fluoride, hạn chế đường tự do.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_puberty",
+    "name": "NHS — Early or delayed puberty",
+    "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+    "scope": "Thay đổi cơ thể khác nhau; lo dậy thì sớm/muộn nên trao đổi bác sĩ; không chẩn đoán từ bài.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_school",
+    "name": "Chính phủ — Thông tư 09/2024/TT-BGDĐT",
+    "url": "https://vanban.chinhphu.vn/?docid=210411&pageid=27160",
+    "scope": "Trang công bố: ban hành 03/06/2024, hiệu lực ghi 19/07/2024; chưa đọc PDF hoặc kiểm tra sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_childlaw",
+    "name": "Chính phủ — VBHN 108/VBHN-VPQH Luật Trẻ em",
+    "url": "https://vanban.chinhphu.vn/?classid=2629&docid=215227&pageid=27160",
+    "scope": "Trang công bố văn bản hợp nhất 27/08/2025; chưa đọc PDF, không kết luận điều khoản hiện hành.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_edlaw",
+    "name": "Chính phủ — VBHN 72/VBHN-VPQH Luật Giáo dục",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217346&pageid=27160",
+    "scope": "Trang công bố văn bản hợp nhất 25/03/2026; chưa đọc PDF, không kết luận điều khoản hiện hành.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c4_child111",
+    "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+    "url": "https://tongdai111.vn/sites/gioi-thieu",
+    "scope": "Tiếp nhận thông tin bạo lực, xâm hại, hỗ trợ và chuyển tuyến; hoạt động 24/7 miễn phí.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://tongdai111.vn/sites/gioi-thieu"
+    ]
+  }
+]

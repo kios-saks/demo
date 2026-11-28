@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Chi tiết nội dung — Desktop wireframe V2"><title>Chi tiết nội dung</title><g font-family="Arial, sans-serif"><rect x="0" y="0" width="1200" height="820" rx="0" fill="#FAF9F5" stroke="#FAF9F5"/>
+<rect x="0" y="0" width="1200" height="68" rx="0" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="40" y="42" font-size="23" fill="#285B46" font-weight="700" text-anchor="start">Hành Trình Mẹ &amp; Bé</text>
+<text x="580" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Trang chủ</text>
+<text x="725" y="42" font-size="16" fill="#285B46" font-weight="700" text-anchor="start">Khám phá</text>
+<text x="870" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Hành trình</text>
+<text x="1015" y="42" font-size="16" fill="#285B46" font-weight="400" text-anchor="start">Cá nhân</text>
+<text x="40" y="108" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Trang chủ / Khám phá / Chủ đề</text>
+<rect x="40" y="130" width="240" height="490" rx="10" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="56" y="164" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Mục lục</text>
+<text x="56" y="202" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Nắm nhanh</text>
+<text x="56" y="242" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Hiểu vấn đề</text>
+<text x="56" y="282" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Thực hành</text>
+<text x="56" y="322" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Giới hạn áp dụng</text>
+<text x="56" y="362" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Nguồn tham khảo</text>
+<text x="56" y="402" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Bài liên quan</text>
+<rect x="56" y="485" width="208" height="46" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="160" y="513" font-size="15" fill="#285B46" font-weight="700" text-anchor="middle">Lưu bài</text>
+<rect x="56" y="542" width="208" height="46" rx="8" fill="#FFFFFF" stroke="#D7DED5"/>
+<text x="160" y="570" font-size="15" fill="#285B46" font-weight="700" text-anchor="middle">Chia sẻ</text>
+<text x="310" y="154" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Tiêu đề kiến thức</text>
+<text x="310" y="182" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Chặng tuổi · Thời lượng · Tài liệu tham khảo</text>
+<rect x="310" y="200" width="850" height="70" rx="10" fill="#F2E7D9" stroke="#D7DED5"/>
+<text x="328" y="228" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Lưu ý chuyên môn và an toàn khi cần</text>
+<text x="328" y="250" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Không thay thế tư vấn chuyên môn.</text>
+<rect x="310" y="282" width="850" height="85" rx="10" fill="#E7EFE5" stroke="#D7DED5"/>
+<text x="328" y="312" font-size="20" fill="#285B46" font-weight="700" text-anchor="start">Nắm nhanh trong 30 giây</text>
+<text x="328" y="341" font-size="15" fill="#536459" font-weight="400" text-anchor="start">Tóm tắt từ nội dung đã có; giữ nguồn và giới hạn.</text>
+<rect x="310" y="379" width="850" height="122" rx="10" fill="#E9EFF4" stroke="#D7DED5"/>
+<text x="735" y="446" font-size="17" fill="#536459" font-weight="700" text-anchor="middle">Hình minh họa · giữ tỷ lệ · transcript</text>
+<text x="310" y="536" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Hiểu vấn đề và thực hành</text>
+<text x="310" y="563" font-size="16" fill="#536459" font-weight="400" text-anchor="start">Nội dung chuyên sâu theo phần; khoảng đọc thoải mái.</text>
+<text x="310" y="587" font-size="16" fill="#536459" font-weight="400" text-anchor="start">Checklist hoặc hoạt động tùy loại nội dung; không giả lập chức năng.</text>
+<text x="310" y="638" font-size="24" fill="#285B46" font-weight="700" text-anchor="start">Nguồn tham khảo</text>
+<text x="310" y="667" font-size="15" fill="#285B46" font-weight="400" text-anchor="start">Tài liệu gốc · Giới hạn · Bài đọc liên quan</text>
+<text x="40" y="794" font-size="13" fill="#536459" font-weight="400" text-anchor="start">Nguồn tham khảo · Quyền riêng tư · Hành Trình Mẹ &amp; Bé</text>
+<text x="1160" y="794" font-size="13" fill="#536459" font-weight="400" text-anchor="end">Wireframe V2 · Đề xuất</text></g></svg>

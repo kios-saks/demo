@@ -1,0 +1,258 @@
+name: Mother & Baby - Web API Mobile CI
+on:
+  push:
+    branches: ["feat/hanh-trinh-me-be-ecosystem"]
+    paths:
+      - ".github/workflows/hanh-trinh-me-be.yml"
+      - "projects/hanh-trinh-me-be/**"
+  pull_request:
+    paths:
+      - ".github/workflows/hanh-trinh-me-be.yml"
+      - "projects/hanh-trinh-me-be/**"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mebe-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install all workspaces
+        run: npm install --no-audit --no-fund
+      - name: Verify free hosting blueprint and absence of embedded DB secrets
+        run: node scripts/check-render-blueprint.mjs
+      - name: Verify pinned Supabase CA fingerprint
+        run: node scripts/check-supabase-ca.mjs
+      - name: Content validation
+        run: npm run check:content
+      - name: API tests
+        run: npm test
+      - name: Dynamic reader integration — 72 articles and revision changes
+        run: npm exec -w @mebe/api -- tsx --test ../../scripts/dynamic-reader.test.ts
+      - name: Media CMS proxy access and checksum regression
+        run: npm exec -w @mebe/api -- tsx --test ../../scripts/media-admin-proxy.test.ts
+      - name: Age learning catalog validation
+        run: |
+          node --test scripts/age-learning.test.mjs scripts/life-course-atlas.test.mjs scripts/life-course-inventory.test.mjs scripts/life-course-quality.test.mjs scripts/knowledge-index.test.mjs scripts/knowledge-search.test.mjs scripts/knowledge-discovery.test.mjs scripts/bookmark-v2.test.mjs scripts/journey-v3.test.mjs
+          node scripts/audit-life-course-quality.mjs
+      - name: Family demo protocol tests
+        run: npm exec -w @mebe/api -- tsx --test ../../scripts/family-demo.test.ts
+      - name: API TypeScript
+        run: npm exec -w @mebe/api -- tsc --noEmit
+      - name: Mobile TypeScript
+        run: npm exec -w @mebe/mobile -- tsc --noEmit
+      - name: Confirm Mobile release has no bundled draft knowledge JSON
+        run: node scripts/check-mobile-release.mjs
+      - name: React dependency diagnosis
+        run: npm ls react react-dom next --depth=0 || true
+      - name: Next.js production build
+        run: npm run build:web
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+      - name: Combined DEV environment isolation regression
+        run: npm run test:dev:combined
+      - name: Combined DEV HTTP and shutdown smoke (mock only)
+        run: node scripts/combined-dev-smoke.mjs
+      - name: HTTP integration smoke tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
+          api_pid=$!
+          npm run start -w @mebe/web > /tmp/mebe-web.log 2>&1 &
+          web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          node scripts/http-smoke.mjs || { cat /tmp/mebe-api.log; cat /tmp/mebe-web.log; exit 1; }
+
+  postgres-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: local-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    env:
+      DATABASE_URL: postgresql://mebe:local-test-only@127.0.0.1:5432/mebe
+      CONTENT_PROVIDER: postgres
+      NODE_ENV: development
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Apply PostgreSQL schema migration
+        run: npm run db:migrate
+      - name: Seed sample data
+        run: npm run db:seed
+      - name: PostgreSQL integration and editorial concurrency tests
+        run: npm run test:postgres
+      - name: Family PostgreSQL and RLS isolation (disposable fixture only)
+        env:
+          MEBE_FAMILY_DB_FIXTURE: "true"
+        run: npm exec -w @mebe/api -- tsx --test src/family-postgres.integration.ts
+      - name: PostgreSQL-backed API smoke
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-postgres-api.log 2>&1 &
+          api_pid=$!
+          trap 'kill "$api_pid" 2>/dev/null || true' EXIT
+          node scripts/postgres-http-smoke.mjs || { cat /tmp/mebe-postgres-api.log; exit 1; }
+
+  db-routing-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      docker-postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: docker-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+      supabase-target-simulator:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: mebe
+          POSTGRES_PASSWORD: secondary-test-only
+          POSTGRES_DB: mebe
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd "pg_isready -U mebe -d mebe"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    env:
+      DOCKER_DATABASE_URL: postgresql://mebe:docker-test-only@127.0.0.1:5432/mebe
+      SUPABASE_DATABASE_URL: postgresql://mebe:secondary-test-only@127.0.0.1:5433/mebe
+      NODE_ENV: development
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Dual PostgreSQL routing integration test
+        run: npm run test:db-routing
+
+  web-api-integration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build Web in API mode without a database secret
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+          WEB_CONTENT_PROVIDER: api
+          CONTENT_API_INTERNAL_URL: http://127.0.0.1:4000
+        run: npm run build:web
+      - name: Install isolated Chromium test runner
+        run: |
+          npm install --prefix /tmp/mebe-playwright --no-save --package-lock=false --no-audit --no-fund playwright@1.56.1
+          /tmp/mebe-playwright/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check production public content gate and reader interactions
+        shell: bash
+        run: |
+          set -euo pipefail
+          NODE_ENV=production DATABASE_MODE=mock DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api-prod.log 2>&1 &
+          api_pid=$!
+          WEB_CONTENT_PROVIDER=api CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production READER_INVITE_SHA256=b0abc0bf3fe6eff882364cfed77969652a8ab9e0796ad8cd9d42648bc833eab1 npm run start -w @mebe/web > /tmp/mebe-web-api.log 2>&1 &
+          web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          CI_DEV_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 node scripts/web-api-production-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+          CI_READER_INVITE_TOKEN=ci-only-reader-invite-token-not-production-1234 PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/reader-browser-smoke.mjs || { cat /tmp/mebe-api-prod.log; cat /tmp/mebe-web-api.log; exit 1; }
+      - name: Family sandbox browser acceptance (synthetic only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          PORT=3000 npm run start -w @mebe/web > /tmp/mebe-demo-ordinary.log 2>&1 &
+          ordinary_pid=$!
+          NODE_ENV=production DATABASE_MODE=mock npm exec -w @mebe/api -- tsx src/server.ts > /tmp/mebe-api.log 2>&1 &
+          demo_api_pid=$!
+          PORT=3001 MEBE_COMBINED_DEV=true RENDER=true RENDER_SERVICE_ID=srv-dc19cibl550s73drji5g CONTENT_API_INTERNAL_URL=http://127.0.0.1:4000 DEV_CONTENT_PREVIEW_TOKEN=ci-only-development-preview-secret-value-never-production npm run start -w @mebe/web > /tmp/mebe-demo-web.log 2>&1 &
+          demo_pid=$!
+          trap 'kill "$ordinary_pid" "$demo_pid" "$demo_api_pid" 2>/dev/null || true' EXIT
+          for i in $(seq 1 60); do
+            if curl -s -o /dev/null http://localhost:3000/gia-dinh-demo && curl -fsS -o /dev/null http://localhost:3001/gia-dinh-demo && curl -fsS -o /dev/null http://127.0.0.1:4000/health/ready; then break; fi
+            sleep 1
+          done
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/family-demo-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX01_ORIGIN=http://localhost:3001 node scripts/knowledge-hub-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX02_ORIGIN=http://localhost:3001 node scripts/knowledge-search-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX03_ORIGIN=http://localhost:3001 node scripts/homepage-v2-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX04_ORIGIN=http://localhost:3001 node scripts/reader-shell-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX05_ORIGIN=http://localhost:3001 node scripts/discovery-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX06_ORIGIN=http://localhost:3001 node scripts/detail-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX07_ORIGIN=http://localhost:3001 node scripts/bookmark-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX08_ORIGIN=http://localhost:3001 node scripts/journey-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          node --check scripts/qa-dev-life-course-live.mjs
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs node scripts/course-stage-navigation-browser-smoke.mjs
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX09_ORIGIN=http://localhost:3001 node scripts/course-compat-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+          PLAYWRIGHT_MODULE=/tmp/mebe-playwright/node_modules/playwright/index.mjs MEBE_UX09_ORIGIN=http://localhost:3001 node scripts/library-priority-browser-smoke.mjs || { cat /tmp/mebe-demo-web.log; exit 1; }
+
+  backend-container-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build release API container without credentials
+        run: docker build -f Dockerfile.api -t mebe-api:smoke .
+      - name: Verify container readiness, provider and draft access safety
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Retain the stopped fixture container until its diagnostic logs are collected.
+          trap 'docker logs mebe-api-ci || true; docker inspect --format "{{.State.Status}} exit={{.State.ExitCode}}" mebe-api-ci || true; docker rm -f mebe-api-ci || true' EXIT
+          docker run -d --name mebe-api-ci -p 127.0.0.1:4000:4000 -e DATABASE_MODE=mock mebe-api:smoke
+          node scripts/container-production-smoke.mjs

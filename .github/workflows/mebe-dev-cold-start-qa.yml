@@ -1,0 +1,43 @@
+name: Mother & Baby - DEV Cold Start QA
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '.github/workflows/mebe-dev-cold-start-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mebe-dev-live-qa
+  cancel-in-progress: false
+jobs:
+  web-first-cold-start:
+    if: >-
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == 'kios-saks/demo' &&
+       github.head_ref == 'feat/hanh-trinh-me-be-ecosystem') ||
+      (github.event_name == 'workflow_dispatch' &&
+       github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem')
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Web-first probe without API pre-warm
+        shell: bash
+        run: |
+          echo "WEB_FIRST_START $(date -u +%FT%TZ)"
+          curl --silent --show-error --connect-timeout 15 --max-time 90 --output /dev/null --write-out 'WEB_FIRST HTTP %{http_code}; total %{time_total}s; DNS %{time_namelookup}s\n' https://hanh-trinh-me-be-web-jn5v.onrender.com/api/health || true
+          echo "WEB_FIRST_END $(date -u +%FT%TZ)"
+          # Observe the complete startup retry window. Never call the API
+          # directly in this job: doing so would invalidate a Web-only wake.
+          sleep 180
+          echo "WEB_ONLY_OBSERVATION_END $(date -u +%FT%TZ)"
+          echo "Inspect fresh Render startup, BACKEND_WAKE_READY, DEV_AUTH_SMOKE_PASS and DEV_CMS_SMOKE_PASS. This job alone does not certify backend cold-start recovery."

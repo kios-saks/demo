@@ -1,0 +1,22 @@
+/* UX-05, isolated to Combined DEV discovery. */
+[data-discovery-v2]{color:#24362d}
+[data-discovery-v2] [hidden]{display:none!important}
+.discovery-head{margin:10px 0 14px}.discovery-head h1{margin:4px 0 6px;font-size:clamp(27px,4vw,42px)}.discovery-head p{margin:0 0 8px;color:#536459}
+.discovery-head .search{margin:10px 0 12px;display:flex;gap:8px}.discovery-head .search input{min-width:0;flex:1}.discovery-head .search button{min-height:44px;white-space:nowrap}
+.discovery-age-links{display:flex;gap:6px;flex-wrap:wrap}.discovery-age-links a,.discovery-chip,.discovery-chips>a,.discovery-pagination a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #d0dcd1;border-radius:10px;background:#fffefa;color:#285b46;padding:6px 10px;font-weight:650;font-size:13px}
+.discovery-age-links [aria-current=page],.discovery-pagination [aria-current=page]{background:#e2eee4;border-color:#285b46;text-decoration:underline}
+.discovery-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0}.discovery-toolbar h2{font-size:21px;margin:0}.discovery-toolbar p{margin:0;color:#536459;font-size:14px}.discovery-toolbar [data-discovery-open]{min-height:44px;color:#285b46;background:#fffefa;border:1px solid #285b46;border-radius:10px;padding:7px 12px;font-weight:700}
+.discovery-chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.discovery-layout{display:grid;grid-template-columns:minmax(235px,270px) minmax(0,1fr);gap:20px;align-items:start}
+.discovery-sidebar{min-width:0;border:1px solid #d8e0d7;border-radius:14px;background:#fffefa;padding:12px}.discovery-sidebar summary,.discovery-facet summary{cursor:pointer;min-height:44px;line-height:1.4;padding:10px 3px;font-weight:700}
+.discovery-help{font-size:13px;color:#536459;margin:0 0 8px}
+.discovery-facet{border-top:1px solid #d8e0d7}.discovery-facet summary small{font-weight:400;font-size:12px;white-space:nowrap}.discovery-facet fieldset{min-width:0;padding:0;margin:0;border:0}
+.discovery-option{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:8px;min-height:44px;padding:4px 2px;cursor:pointer;line-height:1.35;font-size:14px}.discovery-option input{width:19px;height:19px;accent-color:#285b46}.discovery-option small{color:#536459;font-variant-numeric:tabular-nums}
+.discovery-actions{display:flex;flex-wrap:wrap;gap:8px;padding-top:12px}.discovery-actions>*{min-height:44px}
+.discovery-content{min-width:0}.discovery-group{border:1px solid #d8e0d7;border-radius:15px;padding:12px 15px;background:#fffefa;margin-bottom:12px}.discovery-group h3{font-size:20px;margin:0 0 6px;color:#285b46}.discovery-group h4{font-size:14px;margin:8px 0 0;color:#536459}
+.discovery-results li{display:block;padding:7px 0 12px}.discovery-results li a{font-size:16px;line-height:1.35;min-height:44px}.discovery-results li small{display:block;color:#536459}.discovery-results li p{font-size:14px;margin:5px 0 0;color:#536459}
+.discovery-pagination{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:20px 0}
+#discovery-sheet{box-sizing:border-box;max-width:min(540px,100%);width:100%;max-height:85dvh;border:1px solid #d8e0d7;border-radius:20px 20px 0 0;padding:0 16px calc(16px + env(safe-area-inset-bottom,0px));margin:auto auto 0;background:#faf9f5;color:#24362d;overflow-y:auto;overscroll-behavior:contain}
+#discovery-sheet::backdrop{background:#24362d88}.discovery-sheet-head{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;gap:10px;background:#faf9f5;z-index:1;padding:12px 0}.discovery-sheet-head h2{margin:0;font-size:22px}.discovery-sheet-head button{min-height:44px;border:1px solid #285b46;background:white;color:#285b46;border-radius:9px;padding:8px 14px}
+@media(max-width:768px){.discovery-layout{grid-template-columns:minmax(0,1fr);gap:10px}.discovery-sidebar{padding:6px 12px}.discovery-head .search button{padding:8px 10px}.discovery-age-links{flex-wrap:nowrap;overflow-x:auto;padding:2px 2px 5px;max-width:100%;scrollbar-width:thin}.discovery-age-links a{white-space:nowrap;flex:none}.discovery-toolbar h2{font-size:19px}.discovery-toolbar p{flex-basis:100%}.discovery-group{padding:10px 12px}[data-discovery-enhanced="mobile"] .discovery-sidebar{display:none}}
+@media(min-width:769px){[data-discovery-v2] [data-discovery-open]{display:none!important}}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "q04f_mental",
+    "name": "WHO — Mental disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+    "scope": "Khó khăn tâm thần và chăm sóc chuyên môn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_depression",
+    "name": "WHO — Depressive disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+    "scope": "Dấu hiệu dai dẳng và tìm hỗ trợ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_violence",
+    "name": "WHO — Violence against women",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "scope": "Bạo lực bạn tình, hành vi kiểm soát, ảnh hưởng sức khỏe; nguồn tập trung phụ nữ.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "18–60 tuổi ngủ ít nhất 7 giờ/ngày.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04f_move",
+    "name": "WHO — Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "scope": "Mốc ít nhất 150 phút vận động vừa/tuần ở người trưởng thành.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    ]
+  },
+  {
+    "id": "q04f_diet",
+    "name": "WHO Việt Nam — Healthy diet",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/healthy-diet",
+    "scope": "Đa dạng thực phẩm, hạn chế đường và muối.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_food",
+    "name": "WHO — Promoting safe food-handling behaviours",
+    "url": "https://www.who.int/activities/promoting-safe-food-handling",
+    "scope": "Năm nguyên tắc an toàn thực phẩm trên trang HTML; chưa đọc PDF.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_contra",
+    "name": "WHO — Family planning/contraception methods",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+    "scope": "Lựa chọn tránh thai, khác biệt giữa các biện pháp.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_sti",
+    "name": "WHO — Sexually transmitted infections",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29",
+    "scope": "STI có thể không triệu chứng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+    ]
+  },
+  {
+    "id": "q04f_condom",
+    "name": "WHO — Condoms",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+    "scope": "Giảm nguy cơ STI và mang thai ngoài ý muốn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/news-room/fact-sheets/detail/condoms"
+    ]
+  },
+  {
+    "id": "q04f_ec",
+    "name": "WHO — Emergency contraception",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "scope": "Trong vòng 5 ngày tùy phương pháp, càng sớm càng tốt.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_finance",
+    "name": "CFPB — Your Money, Your Goals toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "scope": "Theo dõi thu chi, hóa đơn và quyết định nợ; ví dụ VN tự biên tập.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit"
+    ]
+  },
+  {
+    "id": "q04f_ai",
+    "name": "UNESCO — Guidance for generative AI in education and research",
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "scope": "Bảo vệ dữ liệu, vai trò con người, trang giới thiệu cập nhật 16/01/2026; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_life",
+    "name": "UNESCO — Lifelong learning",
+    "url": "https://www.unesco.org/en/lifelong-learning",
+    "scope": "Học suốt đời và cập nhật kỹ năng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_mil",
+    "name": "UNESCO — Media and Information Literacy",
+    "url": "https://www.unesco.org/en/media-information-literacy",
+    "scope": "Đánh giá thông tin có phê phán.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_career",
+    "name": "OECD — Career guidance",
+    "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html",
+    "scope": "Đầu mối chủ đề, không dự báo cá nhân.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.oecd.org/en/topics/sub-issues/career-guidance.html"
+    ]
+  },
+  {
+    "id": "q04f_eef",
+    "name": "EEF — Metacognition and self-regulation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/",
+    "scope": "Tự điều chỉnh trong phổ thông; áp dụng cho người lớn là đề xuất.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_road",
+    "name": "WHO — Road traffic injuries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+    "scope": "Phòng ngừa tai nạn.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_labour",
+    "name": "Chính phủ — VBHN 18/VBHN-VPQH Bộ luật Lao động",
+    "url": "https://vanban.chinhphu.vn/?classid=0&docid=217002&pageid=27160",
+    "scope": "Metadata, chưa đọc PDF/rà sửa đổi.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_bhxh",
+    "name": "Chính phủ — Luật BHXH 41/2024/QH15",
+    "url": "https://vanban.chinhphu.vn/?docid=211199&pageid=27160",
+    "scope": "Metadata ban hành 29/06/2024, hiệu lực 01/07/2025; chưa đọc PDF.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_vssid",
+    "name": "BHXH Việt Nam — Cách xử lý khi VssID hiển thị thiếu năm đóng BHXH",
+    "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/bao-hiem-y-te-hocsinh-sinhvien.aspx?CateID=0&ItemID=25803&OtItem=date",
+    "scope": "Quá trình tham gia, liên hệ nhân sự và BHXH.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_accredit",
+    "name": "Cục Quản lý chất lượng — Kiểm định chất lượng giáo dục",
+    "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/",
+    "scope": "Danh mục thông báo; không xác nhận chương trình cụ thể.",
+    "status": "opened-overview",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_accreditNew",
+    "name": "Cục Quản lý chất lượng — danh sách cập nhật 30/9/2026",
+    "url": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/thong-bao/danh-sach-cac-co-so-giao-duc-chuong-trinh-dao-tao-giao-duc-dai-hoc-va-cao-dang-su-pham-duoc-cong-nhan-dat-tieu-chuan-chat-luong-giao-duc-cap-nhat-den-ngay-30-9-2026-95.html",
+    "scope": "Tìm thấy thông báo; mở trang cache miss, chưa đọc danh sách.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04f_scam",
+    "name": "Bộ Công an — Nâng cao cảnh giác trước 25 kịch bản lừa đảo trên không gian mạng năm 2026",
+    "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614",
+    "scope": "Kết quả tìm kiếm cảnh báo giả mạo, tuyển dụng, OTP; mở trang lỗi.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+    ]
+  }
+]

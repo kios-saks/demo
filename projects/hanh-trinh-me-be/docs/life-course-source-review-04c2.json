@@ -1,0 +1,91 @@
+[
+  {
+    "id": "q04c2_m18",
+    "name": "CDC — Milestones by 18 Months",
+    "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+    "scope": "Lựa chọn đơn giản, chơi giả vờ, ăn và ngủ đều; mốc không thay sàng lọc.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c2_m2",
+    "name": "CDC — Milestones by 2 Years",
+    "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+    "scope": "Quan sát mốc, mất kỹ năng, hỗ trợ chơi cạnh bạn và luân phiên.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/2-years.html"
+    ]
+  },
+  {
+    "id": "q04c2_dental",
+    "name": "NHS — Looking after your baby's teeth",
+    "url": "https://www.nhs.uk/baby/babys-development/teething/looking-after-your-babys-teeth/",
+    "scope": "Chải hai lần mỗi ngày, lớp kem fluoride mỏng dưới 3 tuổi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c2_sleep",
+    "name": "CDC — About Sleep",
+    "url": "https://www.cdc.gov/sleep/about/",
+    "scope": "11–14 giờ tuổi 1–2 gồm ngủ trưa.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sleep/about"
+    ]
+  },
+  {
+    "id": "q04c2_play",
+    "name": "UNICEF — Learning activities for babies and toddlers",
+    "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+    "scope": "Chơi tương tác, khám phá phù hợp tuổi.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+    ]
+  },
+  {
+    "id": "q04c2_positive",
+    "name": "UNICEF Asia Pacific — Positive parenting",
+    "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting",
+    "scope": "Giới hạn không làm nhục, lắng nghe, khuyến khích lên tiếng.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    ]
+  },
+  {
+    "id": "q04c2_separation",
+    "name": "UNICEF — Managing child separation anxiety",
+    "url": "https://www.unicef.org/parenting/child-care/managing-child-separation-anxiety",
+    "scope": "Chia tay rõ ràng, làm quen tách người chăm từng bước.",
+    "status": "opened",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c2_pants",
+    "name": "NSPCC — Talk PANTS",
+    "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/",
+    "scope": "Nguyên tắc bảo vệ cơ thể; chỉ kết quả tìm kiếm, mở trang 403; điều chỉnh cho cha mẹ trẻ nhỏ, không áp dụng nguyên bộ bài.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "q04c2_school",
+    "name": "Cổng TTĐT Chính phủ — Thông tư 09/2024/TT-BGDĐT",
+    "url": "https://chinhphu.vn/?docid=210411&pageid=27160",
+    "scope": "Xác định văn bản công khai giáo dục; chưa đọc toàn văn/hợp nhất, không kết luận hiệu lực hiện tại.",
+    "status": "search-only",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  }
+]

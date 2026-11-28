@@ -1,0 +1,611 @@
+{
+  "version": 1,
+  "status": "draft",
+  "reviewedAt": null,
+  "sourceCheckedOn": "2026-11-25",
+  "groups": [
+    {
+      "id": "baby",
+      "age": "0–12 tháng",
+      "title": "Gắn kết và khám phá",
+      "stage": "so-sinh"
+    },
+    {
+      "id": "toddler",
+      "age": "1–2 tuổi",
+      "title": "Ngôn ngữ và tự chủ",
+      "stage": "tap-di"
+    },
+    {
+      "id": "preschool",
+      "age": "3–5 tuổi",
+      "title": "Chơi, cảm xúc và cơ thể",
+      "stage": "mam-non"
+    },
+    {
+      "id": "school",
+      "age": "6–10 tuổi",
+      "title": "Học cách học",
+      "stage": "tieu-hoc"
+    },
+    {
+      "id": "preteen",
+      "age": "11–13 tuổi",
+      "title": "Dậy thì và bản sắc",
+      "stage": "thieu-nien"
+    },
+    {
+      "id": "teen",
+      "age": "14–17 tuổi",
+      "title": "Tư duy độc lập và định hướng",
+      "stage": "thieu-nien"
+    },
+    {
+      "id": "adult",
+      "age": "18–22 tuổi",
+      "title": "Tự lập và học suốt đời",
+      "stage": "truong-thanh"
+    }
+  ],
+  "categories": [
+    {
+      "id": "psych",
+      "title": "Tâm lý & cảm xúc"
+    },
+    {
+      "id": "body",
+      "title": "Cơ thể & sinh lý"
+    },
+    {
+      "id": "skills",
+      "title": "Học tập & kỹ năng sống"
+    },
+    {
+      "id": "modern",
+      "title": "Công nghệ, AI & tư duy số"
+    },
+    {
+      "id": "finance",
+      "title": "Tài chính & tự lập"
+    }
+  ],
+  "sources": {
+    "harvard": {
+      "name": "Harvard Center on the Developing Child — Serve and Return",
+      "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+    },
+    "play": {
+      "name": "Harvard — Brain-Building Through Play",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/"
+    },
+    "executive": {
+      "name": "Harvard — Activities Guide: Executive Function",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/activities-guide-enhancing-and-practicing-executive-function-skills/"
+    },
+    "unicef": {
+      "name": "UNICEF Việt Nam — Kiến thức nuôi dạy con",
+      "url": "https://www.unicef.org/vietnam/parenting-hub"
+    },
+    "school": {
+      "name": "UNICEF Việt Nam — Trò chuyện về sức khỏe tinh thần 6–10 tuổi",
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-610-years"
+    },
+    "puberty": {
+      "name": "UNICEF Việt Nam — Trò chuyện về sức khỏe tinh thần 11–13 tuổi",
+      "url": "https://www.unicef.org/vietnam/mental-health-conversation-starters-1113-years"
+    },
+    "who": {
+      "name": "WHO — Adolescent health and development",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development"
+    },
+    "mental": {
+      "name": "WHO — Mental health of adolescents",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+    },
+    "digital": {
+      "name": "UNICEF Việt Nam — Digital parenting",
+      "url": "https://www.unicef.org/vietnam/digital-parenting"
+    },
+    "ai": {
+      "name": "UNESCO — AI competency framework for students",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66682"
+    },
+    "media": {
+      "name": "UNESCO — Media and Information Literacy",
+      "url": "https://www.unesco.org/en/communication-information/priorities/media-information-literacy"
+    },
+    "finance": {
+      "name": "CFPB — Building blocks of financial capability",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/learn/"
+    },
+    "life": {
+      "name": "Harvard — Building the Core Skills Youth Need for Life",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/building-core-skills-youth/"
+    },
+    "parentingAI": {
+      "name": "UNICEF Việt Nam — Parenting in the AI age",
+      "url": "https://www.unicef.org/vietnam/parenting-ai-age"
+    },
+    "quality04b_ecd": {
+      "name": "WHO — Improving early childhood development",
+      "url": "https://www.who.int/publications/i/item/97892400020986"
+    },
+    "quality04b_play": {
+      "name": "UNICEF — Learning activities for babies and toddlers",
+      "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+    },
+    "quality04b_newborn": {
+      "name": "WHO — Caring for a newborn",
+      "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+    },
+    "quality04b_m2": {
+      "name": "CDC — Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html"
+    },
+    "quality04b_m6": {
+      "name": "CDC — Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html"
+    },
+    "quality04b_sleep": {
+      "name": "CDC — Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+    },
+    "q04c2_positive": {
+      "name": "UNICEF Asia Pacific — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    },
+    "q04c2_m18": {
+      "name": "CDC — Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    },
+    "q04c2_m2": {
+      "name": "CDC — Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    "q04c2_pants": {
+      "name": "NSPCC — Talk PANTS",
+      "url": "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
+    },
+    "q04c3_harvard": {
+      "name": "Harvard — Brain-Building Through Play",
+      "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/"
+    },
+    "q04c3_m5": {
+      "name": "CDC — Milestones by 5 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    "q04c3_positive": {
+      "name": "UNICEF Asia Pacific — Positive parenting",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting"
+    },
+    "q04c3_m4": {
+      "name": "CDC — Milestones by 4 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    "q04c3_digital": {
+      "name": "UNICEF Việt Nam — Digital parenting",
+      "url": "https://www.unicef.org/vietnam/digital-parenting"
+    },
+    "q04c4_eef": {
+      "name": "EEF — Metacognition and self-regulation",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation/"
+    },
+    "q04c4_parent": {
+      "name": "UNICEF — Positive parenting tips for children aged 6–10",
+      "url": "https://www.unicef.org/asia-pacific/place-for-parents/positive-parenting-tips-6-10"
+    },
+    "q04d_puberty": {
+      "name": "NHS — Early or delayed puberty",
+      "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+    },
+    "q04d_period": {
+      "name": "NHS — Period problems",
+      "url": "https://www.nhs.uk/conditions/periods/period-problems/"
+    },
+    "q04d_cse": {
+      "name": "WHO — Comprehensive sexuality education",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education"
+    },
+    "q04d_cyber": {
+      "name": "UNICEF Việt Nam — Cyberbullying",
+      "url": "https://www.unicef.org/vietnam/endviolence/cyberbullying-what-it-and-how-stop-it"
+    },
+    "q04d_unesco": {
+      "name": "UNESCO — AI competency framework for students",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+    },
+    "q04e_sti": {
+      "name": "WHO — Sexually transmitted infections",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-%28stis%29"
+    },
+    "q04e_child111": {
+      "name": "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+      "url": "https://tongdai111.vn/sites/gioi-thieu"
+    },
+    "q04f_life": {
+      "name": "UNESCO — Lifelong learning",
+      "url": "https://www.unesco.org/en/lifelong-learning"
+    },
+    "q04f_career": {
+      "name": "OECD — Career guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/career-guidance.html"
+    },
+    "q04f_ai": {
+      "name": "UNESCO — Guidance for generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research"
+    },
+    "q04f_finance": {
+      "name": "CFPB — Your Money, Your Goals toolkit",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/"
+    },
+    "q04f_scam": {
+      "name": "Bộ Công an — Nâng cao cảnh giác trước 25 kịch bản lừa đảo trên không gian mạng năm 2026",
+      "url": "https://www.bocongan.gov.vn/bai-viet/nang-cao-canh-giac-truoc-25-kich-ban-lua-dao-tren-khong-gian-mang-nam-2026-1788865614"
+    },
+    "q04f_mental": {
+      "name": "WHO — Mental disorders",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders"
+    },
+    "q04f_violence": {
+      "name": "WHO — Violence against women",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women"
+    }
+  },
+  "lessons": [
+    {
+      "id": "dap-lai-tin-hieu",
+      "age": "baby",
+      "category": "psych",
+      "title": "Khi bé nhìn, ê a hoặc khóc: đáp lại thế nào?",
+      "goal": "Hiểu giao tiếp qua tín hiệu và nhịp tương tác giữa bé và người chăm sóc.",
+      "knowledge": "Bé giao tiếp bằng ánh mắt, âm thanh, cử động và khóc. Tương tác đáp ứng là chú ý, trả lời nhẹ rồi chờ; không cần kích thích liên tục. Khi bé khóc, nhu cầu chăm sóc và an toàn đi trước trò chơi.",
+      "practice": "Chọn lúc bé tỉnh. Nói về vật bé nhìn, chờ phản hồi, rồi đáp lại. Nếu quay mặt, căng người hoặc mệt, dừng. Khi người chăm quá mệt, đặt bé trong nơi ngủ an toàn và nhờ người thay; tuyệt đối không lắc bé.",
+      "reflection": "Ghi một tín hiệu và cách đã đáp lại. Không chấm điểm gắn bó; bé bú kém rõ, khó thở hoặc khó đánh thức cần đánh giá y tế ngay. Đọc thêm cẩm nang 'Gắn bó năm đầu đời' trong cùng chặng.",
+      "sourceIds": [
+        "harvard",
+        "unicef",
+        "quality04b_ecd",
+        "quality04b_play",
+        "quality04b_newborn"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "kham-pha-giac-quan",
+      "age": "baby",
+      "category": "body",
+      "title": "Khám phá giác quan một cách an toàn",
+      "goal": "Tạo trải nghiệm phù hợp khả năng, không ép đạt mốc.",
+      "knowledge": "Khám phá giác quan bằng đồ dùng an toàn, theo khả năng. Người lớn không cần làm bé phản ứng với mọi âm thanh, hình ảnh hoặc chất liệu. Mốc phát triển hỗ trợ quan sát chứ không phải phép kiểm tra.",
+      "practice": "Chọn một sách vải hoặc đồ chơi nguyên khối phù hợp tuổi, mô tả một đặc điểm, chờ bé nhìn hoặc cầm. Dùng nơi chơi an toàn khi bé tỉnh, giám sát trực tiếp. Không dùng hạt, pin, nam châm rời, dây hoặc vật nhỏ.",
+      "reflection": "Bé chú ý điều gì? Dừng nếu không thích. Nếu lo ngại nghe nhìn, mất kỹ năng hoặc thay đổi đáp ứng, hỏi bác sĩ; không tự kết luận qua bài tập. Đọc thêm cẩm nang khám phá nguyên nhân–kết quả.",
+      "sourceIds": [
+        "play",
+        "unicef",
+        "quality04b_play",
+        "quality04b_m2",
+        "quality04b_m6"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "thoi-quen-doc-cung-be",
+      "age": "baby",
+      "category": "skills",
+      "title": "Đọc sách từ năm đầu đời",
+      "goal": "Biến giọng nói, hình ảnh và thời gian gần gũi thành một thói quen.",
+      "knowledge": "Đọc cùng bé là chia sẻ giọng nói, nét mặt, hình ảnh và chú ý; không phải dạy đọc sớm. Chọn ngôn ngữ gia đình sử dụng tự nhiên và để bé dẫn hướng bằng tín hiệu.",
+      "practice": "Chọn sách bìa cứng hoặc vải phù hợp tuổi, không có phần nhỏ dễ rời. Chỉ một hình, nói một câu, đợi bé phản hồi; đổi hình nếu bé muốn. Có thể đọc cùng người chăm quen thuộc. Cất sách khỏi nơi ngủ trước khi đặt bé xuống.",
+      "reflection": "Trong lần đọc tới, thử chờ bé hướng mắt hoặc cử chỉ rồi đáp lại. Không đặt số trang hay thời gian bắt buộc; nếu lo về nghe hoặc nhìn, trao đổi chuyên gia.",
+      "sourceIds": [
+        "harvard",
+        "play",
+        "quality04b_play",
+        "quality04b_sleep"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "cam-xuc-va-gioi-han",
+      "age": "toddler",
+      "category": "psych",
+      "title": "Con giận dữ: gọi tên cảm xúc và giữ giới hạn",
+      "goal": "Hỗ trợ trẻ bình tĩnh mà không nhượng bộ mọi yêu cầu.",
+      "knowledge": "Trẻ nhỏ vẫn đang học cách chờ đợi và diễn đạt nhu cầu. Người lớn có thể công nhận cảm xúc, giữ giới hạn về hành vi gây hại và đưa ra lựa chọn đơn giản. Khi trẻ đang quá căng thẳng, nói ngắn và ưu tiên an toàn. Phân biệt điều trẻ cảm thấy với điều trẻ được phép làm: tức giận không phải lỗi, đánh người thì cần người lớn ngăn lại. Người chăm điều chỉnh giọng và khoảng cách trước khi mong trẻ tự bình tĩnh.",
+      "practice": "Khi trẻ muốn giành đồ chơi, nói: Con đang rất muốn chơi món này. Mình không đánh bạn. Con muốn đợi cùng mẹ hay chọn món khác? Khi bình tĩnh, tập lại cách xin lượt chơi. Trong một lần chuyển từ chơi sang ăn, báo trước bằng câu quen thuộc. Nếu trẻ ném đồ, dọn đồ nguy hiểm, ở gần và nói một câu ngắn. Sau khi dịu lại, diễn tập đưa đồ vào giỏ cùng người lớn. Nếu trẻ chưa muốn tham gia, thử lúc khác.",
+      "reflection": "Con có thể chọn một cách diễn đạt nhu cầu thay vì đánh hoặc giật không? Không yêu cầu trẻ luôn làm được. Người lớn đã giúp trẻ an toàn bằng cách nào? Có thể thay đổi thời điểm chuyển hoạt động không? Không ghi điểm cảm xúc.",
+      "sourceIds": [
+        "unicef",
+        "executive",
+        "q04c2_positive",
+        "q04c2_m18"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "tu-chu-tung-buoc",
+      "age": "toddler",
+      "category": "skills",
+      "title": "Tự lập qua việc nhỏ hằng ngày",
+      "goal": "Rèn lựa chọn, kiên trì và khả năng tự giúp mình.",
+      "knowledge": "Thói quen quen thuộc giúp trẻ dự đoán điều tiếp theo. Cho trẻ hai lựa chọn phù hợp và một phần việc vừa sức giúp thực hành tự chủ. Không dùng phần thưởng hoặc xấu hổ để buộc trẻ làm nhanh. Tự chủ không có nghĩa tự làm hết. Chọn việc trẻ có thể hoàn thành một phần với hỗ trợ; người lớn quyết định phần liên quan đến an toàn.",
+      "practice": "Đặt hai chiếc áo để trẻ chọn. Cùng trẻ cất một món đồ vào giỏ rồi giảm dần hỗ trợ. Người lớn làm mẫu, đợi trẻ thử và hỗ trợ nếu trẻ cần. Đặt giỏ khăn thấp và chắc. Mời trẻ đưa một khăn trước bữa ăn; làm mẫu một lần, chờ trẻ thử, sau đó cùng làm nếu trẻ cần. Không giao đồ nóng, sắc, nặng hoặc dễ vỡ. Thực hành lúc không vội.",
+      "reflection": "Trẻ có chủ động thử một bước không? Điều gì khiến việc đó dễ hơn? Nếu trẻ bỏ đi, xem việc có quá khó hay trẻ đang mệt; điều chỉnh chứ không yêu cầu làm lại cho đạt chuẩn.",
+      "sourceIds": [
+        "play",
+        "executive",
+        "q04c2_m18",
+        "q04c2_m2"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ranh-gioi-co-the",
+      "age": "toddler",
+      "category": "body",
+      "title": "Cơ thể của con và quyền nói không",
+      "goal": "Dạy ranh giới cơ thể bằng ngôn ngữ bình thường, không gây sợ hãi.",
+      "knowledge": "Gọi tên bộ phận cơ thể phù hợp và tôn trọng khi trẻ không muốn ôm hôn. Giải thích việc chăm sóc cần thiết như vệ sinh hoặc khám bệnh bằng lời đơn giản. Trẻ có thể tìm người lớn tin cậy nếu thấy khó chịu hoặc bối rối. Với trẻ 1–2 tuổi, trọng tâm là hành vi người lớn: không ép tiếp xúc thân mật, thông báo trước khi thay tã và che chắn riêng tư. Không kỳ vọng trẻ nhận biết hoặc tự ngăn xâm hại.",
+      "practice": "Thực hành lựa chọn chào hỏi bằng vẫy tay hoặc chạm tay, không ép hôn. Khi chăm sóc cơ thể, nói trước việc sắp làm, giữ riêng tư và nghe phản hồi của con. Người thân muốn hôn trẻ nhưng trẻ quay mặt: người chăm có thể nói trẻ thích vẫy tay hơn. Khi vệ sinh bắt buộc, giải thích ngắn, nhẹ nhàng và cho trẻ chọn khăn nếu được. Khi trẻ tỏ ra sợ một người hoặc hoàn cảnh, lắng nghe và ưu tiên an toàn; không hỏi dồn hoặc gợi câu trả lời.",
+      "reflection": "Con biết tìm đến ai khi cần trợ giúp? Người lớn cần bảo vệ trẻ; không đặt trách nhiệm phòng tránh xâm hại lên trẻ. Ai là người chịu trách nhiệm bảo vệ trẻ lúc giao ca? Người lớn cần hành động nếu có nghi ngờ, kể cả khi trẻ chưa nói được.",
+      "sourceIds": [
+        "unicef",
+        "q04c2_positive",
+        "q04c2_pants"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "choi-tu-duy",
+      "age": "preschool",
+      "category": "skills",
+      "title": "Chơi để luyện chú ý và giải quyết vấn đề",
+      "goal": "Tập đổi quy tắc, ghi nhớ và thử lại qua trò chơi.",
+      "knowledge": "Các trò chơi luân phiên và có luật đơn giản tạo cơ hội thực hành chú ý và kiểm soát hành động. Mức thử thách cần thay đổi theo hứng thú, không bắt buộc trẻ thắng hoặc hoàn thành. Mức thử thách cần vừa sức: trẻ có thể làm theo một tín hiệu trước khi đổi quy tắc. Không coi lỗi là thiếu thông minh.",
+      "practice": "Chơi đèn xanh đèn đỏ; sau vài lượt đổi luật với trẻ. Hỏi con muốn tự tạo một luật mới không. Chia nhỏ khi khó và kết thúc trước lúc trẻ quá mệt. Trong phòng trống an toàn, vỗ tay một lần để đi chậm, hai lần để đứng lại. Chơi vài lượt; nếu trẻ thích, cho trẻ làm người ra hiệu. Khi trẻ nhầm, giảm một quy tắc hoặc làm mẫu lại. Không yêu cầu đứng yên lâu.",
+      "reflection": "Con đã thử đổi chiến lược khi luật thay đổi như thế nào? Con muốn giữ luật nào? Người lớn đã giảm khó thế nào khi con mệt? Đây là chơi, không phải đo chức năng điều hành.",
+      "sourceIds": [
+        "play",
+        "executive",
+        "q04c3_harvard",
+        "q04c3_m5"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "cam-xuc-va-ban-be",
+      "age": "preschool",
+      "category": "psych",
+      "title": "Nhận biết cảm xúc và làm hòa với bạn",
+      "goal": "Tập gọi tên cảm xúc, lắng nghe, hợp tác.",
+      "knowledge": "Trẻ có thể tập nhận diện cảm xúc qua câu chuyện và tình huống cụ thể. Không gắn nhãn trẻ là hư hay ích kỷ vì một hành động. Giúp trẻ phân biệt cảm xúc được chấp nhận với hành vi cần giới hạn. Làm hòa không đồng nghĩa phải chơi chung ngay; trước tiên cần bảo đảm không ai bị đau hay bị ép.",
+      "practice": "Dùng hình vẽ ba khuôn mặt vui, buồn, giận. Kể một tình huống tranh đồ chơi, cho con chọn cảm xúc và thử câu xin lượt. Người lớn làm mẫu lời xin lỗi khi chính mình mắc lỗi. Vẽ hai bạn muốn cùng một cây bút, cho trẻ chọn cách: chờ lượt, dùng bút khác hoặc nhờ cô. Diễn lại bằng búp bê; nếu trẻ nói cần nghỉ, tôn trọng. Khi có xung đột thật, người lớn dừng hành vi gây đau và hỗ trợ từng trẻ.",
+      "reflection": "Con nghĩ bạn cảm thấy thế nào? Có cách nào sửa lại tình huống? Cách nào khiến cả hai được an toàn? Không bắt trẻ ôm hoặc tha thứ khi chưa sẵn sàng.",
+      "sourceIds": [
+        "unicef",
+        "play",
+        "q04c3_positive",
+        "q04c3_m4"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "con-va-cong-nghe",
+      "age": "preschool",
+      "category": "modern",
+      "title": "Làm quen công nghệ có người lớn đồng hành",
+      "goal": "Tập thói quen hỏi trước khi bấm và ưu tiên chơi thực tế.",
+      "knowledge": "Ở tuổi này không cần tạo tài khoản AI hoặc học qua màn hình để theo kịp bạn bè. Khi dùng thiết bị, người lớn chọn nội dung phù hợp, cùng xem, chuyển câu chuyện thành hoạt động ngoài màn hình và duy trì sinh hoạt cân bằng. Người lớn chịu trách nhiệm thiết lập thiết bị, quyền riêng tư và nội dung; không giao trẻ tự phân biệt quảng cáo hay câu trả lời AI.",
+      "practice": "Cùng xem một hình về cây, sau đó quan sát một chiếc lá thật. Tập quy tắc: nếu thấy quảng cáo hoặc yêu cầu thông tin, dừng lại và hỏi người lớn. Không cung cấp dữ liệu nhận dạng của trẻ. Cùng xem một ảnh hoặc đoạn ngắn về con vật, sau đó cất máy để tìm đặc điểm bằng sách hoặc trò giả vờ. Tập câu dừng lại và hỏi người lớn khi có nút mua, camera hoặc yêu cầu tên. Người lớn không đưa ảnh nhận dạng, trường học hoặc địa chỉ của trẻ vào dịch vụ không cần thiết.",
+      "reflection": "Con có kể lại bằng lời riêng hoặc chỉ vào vật thật được không? Con có thể chọn một trò không màn hình sau khi xem không? Người lớn có làm mẫu cất thiết bị đúng lúc không?",
+      "sourceIds": [
+        "digital",
+        "parentingAI",
+        "q04c3_digital"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "hoc-khong-so-sai",
+      "age": "school",
+      "category": "psych",
+      "title": "Điểm số, sai lầm và cảm giác thuộc về",
+      "goal": "Giúp trẻ tìm cách học thay vì đánh giá bản thân bằng kết quả.",
+      "knowledge": "Tuổi đi học mở rộng quan hệ bạn bè và trách nhiệm. Hỏi về trải nghiệm, khó khăn và những điều con đã thử trước khi nói về điểm số. Nếu lo lắng kéo dài hoặc ảnh hưởng sinh hoạt, phối hợp giáo viên và chuyên gia phù hợp. Một lỗi cho biết chiến lược nào chưa phù hợp, không nói lên giá trị của con. Người lớn có thể làm mẫu việc tự sửa một lỗi của mình; nếu trẻ lo sợ đến mức không dám làm, giảm độ khó hoặc tìm hỗ trợ.",
+      "practice": "Sau bài tập, hỏi con: Phần nào dễ, phần nào cần thử cách khác? Chọn một lỗi để cùng phân tích, sau đó cho con giải thích cách sửa. Khen nỗ lực cụ thể thay vì khen thông minh chung chung. Chọn một câu toán hoặc một từ viết sai. Con kể cách đã thử; cùng tìm đúng một bước cần đổi, làm lại một ví dụ tương tự, rồi dừng. Nếu con không muốn xem lại ngay, hẹn lúc bình tĩnh. Không so bài với bạn hoặc bắt xin lỗi vì điểm thấp.",
+      "reflection": "Con biết một chiến lược mới nào để dùng khi gặp bài tương tự? Con có thể nói 'con chưa biết cách này' và chọn một người để hỏi không? Cha mẹ ghi nhận một chiến lược cụ thể.",
+      "sourceIds": [
+        "school",
+        "executive",
+        "q04c4_eef",
+        "q04c4_parent"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "kiem-chung-thong-tin",
+      "age": "school",
+      "category": "modern",
+      "title": "Thám tử thông tin: đọc và kiểm chứng",
+      "goal": "Biết phân biệt quan sát, ý kiến và thông tin cần kiểm tra.",
+      "knowledge": "Một câu chuyện lan truyền hoặc hình ảnh đẹp không tự chứng minh điều đang được nói. Hướng dẫn trẻ hỏi ai tạo nội dung, vì sao nội dung tồn tại và liệu nguồn khác có xác nhận không. Với tài khoản và công cụ trực tuyến, tuân thủ tuổi sử dụng. Dùng ba câu hỏi: ai nói, bằng chứng gì, nguồn độc lập nào xác nhận? AI có thể tạo lời giải thích nghe hợp lý mà sai; ảnh đẹp, giọng nói tự tin hay nhiều lượt thích không thay bằng chứng.",
+      "practice": "Chọn hai bài viết phù hợp về cùng một con vật từ nguồn giáo dục. Tìm tên tác giả, ngày, điểm giống và khác. Viết một câu chưa chắc chắn và tìm câu trả lời cùng người lớn. Người lớn viết một câu giả lập: 'cá heo là cá vì sống dưới nước'. Để trẻ đoán, tra sách khoa học hoặc nguồn giáo dục đáng tin và giải thích vì sao cá heo là động vật có vú. Không cần tài khoản AI. Với bài lan truyền về người thật, không tìm hay chia sẻ dữ liệu riêng tư; dùng ví dụ giả lập.",
+      "reflection": "Con có thể nói điều gì là bằng chứng và điều gì chỉ là suy đoán? Con phân biệt được câu chưa kiểm chứng với câu có bằng chứng không? Nếu chưa tìm ra, tập nói 'chưa biết' thay vì đoán.",
+      "sourceIds": [
+        "media",
+        "digital",
+        "parentingAI",
+        "q04c4_eef"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "tien-tieu-vat",
+      "age": "school",
+      "category": "finance",
+      "title": "Tiền tiêu vặt: nhu cầu, mong muốn và tiết kiệm",
+      "goal": "Thực hành lập mục tiêu bằng số tiền giả định.",
+      "knowledge": "Trẻ có thể học cân nhắc lựa chọn tài chính qua tình huống nhỏ, không cần tài khoản ngân hàng thật. Việc trì hoãn mua đồ để đạt một mục tiêu là bài tập lập kế hoạch, không phải đánh giá hoàn cảnh kinh tế gia đình. CFPB mô tả tuổi 6–12 là giai đoạn hình thành thói quen và khái niệm quản lý tiền. Dùng số tiền giả định, không yêu cầu trẻ có tiền tiêu vặt thật, tài khoản hay ứng dụng thanh toán.",
+      "practice": "Dùng 10 thẻ giấy tượng trưng tiền. Chia vào nhu cầu, mong muốn và mục tiêu tiết kiệm; cùng thảo luận nếu chỉ còn 6 thẻ. Không bắt trẻ góp chi phí thiết yếu. Giả định con có 30.000 đồng, muốn mua một quyển vở 12.000 đồng và tiết kiệm 10.000 đồng; còn 8.000 đồng cho lựa chọn khác. Nếu món muốn mua giá 15.000 đồng, cùng nghĩ phương án hoãn hoặc đổi mục tiêu. Dùng thẻ giấy; người lớn giải thích nút mua trong game, quảng cáo và không cho mã OTP.",
+      "reflection": "Con chọn ưu tiên gì và lý do nào? Không có một đáp án ngân sách duy nhất. Nếu phải thay đổi kế hoạch, con sẽ chọn điều gì? Không đánh giá trẻ từ số tiền gia đình có; nhu cầu thiết yếu do người lớn bảo đảm.",
+      "sourceIds": [
+        "finance",
+        "digital"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "day-thi-thay-doi",
+      "age": "preteen",
+      "category": "body",
+      "title": "Dậy thì: hiểu thay đổi cơ thể và chăm sóc bản thân",
+      "goal": "Trao đổi về sinh lý, vệ sinh và quyền riêng tư một cách tôn trọng.",
+      "knowledge": "Dậy thì có thể đi cùng thay đổi chiều cao, da, mùi cơ thể, kinh nguyệt, giọng nói và cảm xúc. Thời điểm khác nhau giữa các cá nhân. Dùng từ chính xác, không trêu chọc; giúp con có vật dụng vệ sinh và nơi riêng tư khi cần. Dậy thì liên quan thay đổi hormone; mụn, mùi cơ thể, kinh nguyệt, giọng nói hoặc xuất tinh khi ngủ có thể là hiện tượng sinh lý. Thời điểm thay đổi khác nhau; nghi sớm/muộn cần hỏi bác sĩ, không so sánh.",
+      "practice": "Chọn thời điểm riêng để hỏi con muốn biết điều gì; chuẩn bị túi vệ sinh phù hợp và xác định người lớn hoặc nhân viên y tế có thể hỏi. Không ép chia sẻ thông tin cơ thể trước người khác. Khi có đau, bất thường hoặc lo ngại, trao đổi chuyên gia. Dùng giấy ghi ba cột: điều con đã hiểu, câu hỏi còn lại, người có thể hỏi. Người lớn giải thích kinh nguyệt và vệ sinh bằng đồ dùng sạch, tôn trọng riêng tư, không yêu cầu ảnh cơ thể. Đau hoặc ra máu ảnh hưởng sinh hoạt cần khám. Tập câu từ chối khi người khác yêu cầu chạm hoặc gửi ảnh riêng.",
+      "reflection": "Con biết các nguồn hỏi đáng tin và có thể yêu cầu sự riêng tư không? Con có biết một nguồn y khoa và một người tin cậy? Không đánh giá mức trưởng thành qua câu trả lời.",
+      "sourceIds": [
+        "puberty",
+        "who",
+        "q04d_puberty",
+        "q04d_period",
+        "q04d_cse"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ban-be-va-ap-luc",
+      "age": "preteen",
+      "category": "psych",
+      "title": "Bạn bè, bản sắc và áp lực đồng trang lứa",
+      "goal": "Tập nhận diện áp lực, giao tiếp và tìm hỗ trợ.",
+      "knowledge": "Quan hệ bạn bè có thể quan trọng hơn khi con lớn. Cha mẹ có thể lắng nghe mà không vội giải quyết thay; cùng con đánh giá lựa chọn và tìm cách từ chối phù hợp. Thay đổi tâm trạng dai dẳng, mất hứng thú hoặc ảnh hưởng học tập cần được quan tâm. Nhu cầu được chấp nhận có thể khiến trẻ đồng ý điều không muốn. Cảm xúc mạnh không phải lỗi; nếu buồn, lo hoặc thu mình dai dẳng ảnh hưởng sinh hoạt, cần người lớn hỗ trợ.",
+      "practice": "Đặt tình huống giả định bạn rủ làm điều con không muốn. Thử ba cách từ chối: nói không, đề xuất việc khác, tìm người lớn hỗ trợ. Hỏi con muốn bố mẹ giúp thế nào. Giả định nhóm bạn yêu cầu gửi ảnh riêng để được tham gia. Tập nói không, rời tình huống, tìm người đáng tin; không thử với tài khoản thật. Người lớn hỏi con muốn được lắng nghe hay cùng tìm cách giải quyết. Nếu con nói không an toàn hoặc muốn tự làm hại mình, người lớn ở bên và tìm trợ giúp chuyên môn khẩn.",
+      "reflection": "Con có ít nhất một người lớn tin cậy để tìm đến không? Con có lựa chọn nào an toàn ngay cả khi nhóm bạn không đồng ý? Người lớn không trách con vì kể chuyện.",
+      "sourceIds": [
+        "puberty",
+        "mental",
+        "q04d_cyber"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ai-co-the-sai",
+      "age": "preteen",
+      "category": "modern",
+      "title": "AI có thể sai: hỏi thông minh và giữ riêng tư",
+      "goal": "Hiểu AI là công cụ hỗ trợ, không phải người biết mọi thứ.",
+      "knowledge": "AI có thể tạo văn bản rất thuyết phục nhưng sai hoặc thiên lệch. Trẻ nên học kiểm tra lại, không đưa tên thật, ảnh riêng, địa chỉ hay hồ sơ sức khỏe vào công cụ. Chỉ sử dụng dịch vụ phù hợp tuổi và điều kiện giám sát. UNESCO giới thiệu năng lực AI theo hướng con người làm chủ, đạo đức, kỹ thuật và thiết kế. Ở tuổi này cần hiểu kết quả có thể bịa nguồn hoặc thiên lệch; không coi chatbot là chuyên gia sức khỏe hay người có trách nhiệm bảo vệ con.",
+      "practice": "Người lớn chuẩn bị một câu trả lời AI mẫu về chủ đề khoa học, có một lỗi dễ kiểm tra. Cùng con đối chiếu sách giáo khoa hoặc nguồn giáo dục, sửa câu sai và giải thích vì sao. Dùng ví dụ giả lập AI nêu một ngày lịch sử sai. Tìm sách và một nguồn độc lập, kiểm tra ngày, ghi điều đã sửa. Nếu chưa đủ nguồn, ghi chưa xác minh. Chỉ dùng dịch vụ đúng tuổi và yêu cầu giám sát; không gửi dữ liệu nhận dạng hay đề thi riêng. Có thể làm hoàn toàn trên giấy.",
+      "reflection": "Con có nêu một trường hợp không nên tin ngay câu trả lời AI không? Con giải thích được khác nhau giữa câu trả lời nghe hay và bằng chứng thật không? Ai chịu trách nhiệm về bài nộp?",
+      "sourceIds": [
+        "ai",
+        "parentingAI",
+        "media",
+        "q04d_unesco"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "quan-he-va-dong-thuan",
+      "age": "teen",
+      "category": "body",
+      "title": "Quan hệ lành mạnh, đồng thuận và ranh giới",
+      "goal": "Hiểu quyền quyết định cơ thể, tôn trọng sự lựa chọn và tìm hỗ trợ.",
+      "knowledge": "Giáo dục về quan hệ và sức khỏe sinh sản cần chính xác, phù hợp phát triển, không kỳ thị. Đồng thuận phải tự nguyện, có thể thay đổi và không đến từ ép buộc. Không gửi hình ảnh riêng tư của người khác; tìm người lớn đáng tin khi có đe dọa hoặc bị xâm phạm. Một mối quan hệ tôn trọng cho phép cả hai giữ bạn bè, thời gian riêng và nói không. Kiểm soát mật khẩu, đe dọa chia tay để ép buộc hoặc phát tán ảnh là dấu hiệu cần quan tâm. Đồng thuận không thay các điều kiện bảo vệ người chưa thành niên theo luật.",
+      "practice": "Thảo luận tình huống một người bị thúc ép chia sẻ ảnh riêng: quyền từ chối, rời tình huống, không tự đổ lỗi và tìm hỗ trợ. Câu hỏi về sức khỏe sinh sản nên được giải đáp từ dịch vụ y tế phù hợp. Dùng tình huống hư cấu một người yêu yêu cầu mật khẩu để chứng minh tình cảm. Thử câu từ chối, tìm người hỗ trợ và chọn phương án an toàn. Với câu hỏi mang thai hay STI, tìm dịch vụ y tế đáng tin, không dựa vào lời đồn. Nếu bị đe dọa, không tự gặp đối tượng.",
+      "reflection": "Con có phân biệt được tôn trọng với kiểm soát, và biết nơi tìm trợ giúp không? Em có thể nhận diện một hành vi kiểm soát và kể với người tin cậy? Không yêu cầu kể trải nghiệm riêng trước nhóm.",
+      "sourceIds": [
+        "who",
+        "digital",
+        "q04d_cse",
+        "q04e_sti",
+        "q04e_child111"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "du-an-ai-co-trach-nhiem",
+      "age": "teen",
+      "category": "modern",
+      "title": "Dự án học tập có AI và tư duy phản biện",
+      "goal": "Thực hành nghiên cứu, đánh giá nguồn và khai báo hỗ trợ AI.",
+      "knowledge": "AI có thể hỗ trợ tạo dàn ý hoặc gợi ý câu hỏi nhưng người học vẫn chịu trách nhiệm kiểm chứng và sản phẩm cuối. Không dùng AI để nộp bài thay mình; kiểm tra quy định giáo viên, bảo mật thông tin và ghi rõ phần hỗ trợ. Khung UNESCO phân biệt hiểu, áp dụng và sáng tạo, chú trọng vai trò con người và đạo đức. Không đánh giá năng lực bằng số lượng công cụ.",
+      "practice": "Chọn một đề tài môi trường địa phương. Đặt câu hỏi, đọc hai nguồn độc lập, so sánh với gợi ý AI phù hợp tuổi, viết kết luận riêng và ghi chú cách kiểm chứng. Nếu AI đưa nguồn không tồn tại, loại bỏ. Tạo nhật ký gồm câu hỏi, nguồn thật, gợi ý AI, lỗi phát hiện và phần tự sửa. Dùng số liệu giả lập khi thử bảng tính, kiểm tra phép tính bằng tay, không nhập thông tin lớp. Nếu trường không cho AI, thực hiện hoàn toàn ngoại tuyến. Trình bày bằng lời của mình và ghi rõ trợ giúp.",
+      "reflection": "Có thể giải thích kết luận mà không dựa vào AI không? Nguồn nào còn cần kiểm tra? Nếu công cụ biến mất, em còn giải thích phương pháp được không? Nêu một giới hạn của sản phẩm.",
+      "sourceIds": [
+        "ai",
+        "media",
+        "q04d_unesco",
+        "parentingAI"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ngan-sach-va-lua-chon",
+      "age": "teen",
+      "category": "finance",
+      "title": "Ngân sách, lừa đảo và quyết định mua sắm",
+      "goal": "Nhận biết áp lực mua hàng, chi phí và thông tin không đáng tin.",
+      "knowledge": "Học tài chính ở tuổi teen có thể bắt đầu từ kế hoạch chi tiêu và so sánh tổng chi phí. Tuyên bố lợi nhuận chắc chắn hoặc thúc ép chuyển tiền cần được xem xét thận trọng. Không khuyến khích đầu cơ hay vay tiền để học đầu tư. CFPB coi tuổi 13–21 là giai đoạn củng cố kiến thức và quyết định tài chính. Học phân biệt tiền có sẵn với thu nhập kỳ vọng; không dùng khoản vay hay giao dịch đầu cơ để luyện.",
+      "practice": "Với ngân sách giả định 500.000 đồng, phân bổ cho đi lại, học tập, sở thích và dự phòng. So sánh hai ưu đãi giả định, kiểm tra điều kiện, chi phí ẩn và dấu hiệu thúc ép. Giả định 500.000 đồng: đi lại 150.000, học 120.000, dự phòng 100.000, còn 130.000 cho lựa chọn khác. Nếu chi đi lại tăng 50.000, còn 80.000; xem mục nào có thể hoãn. Đọc tổng giá và điều kiện ưu đãi giả lập, không nhập OTP hay thanh toán thật.",
+      "reflection": "Nếu một khoản chi tăng lên, con sẽ điều chỉnh gì? Làm sao kiểm tra người gửi yêu cầu tiền? Em có thể giải thích lựa chọn và lý do không tin lời hứa lãi chắc chắn? Gia đình không phải công khai thu nhập.",
+      "sourceIds": [
+        "finance",
+        "media",
+        "parentingAI"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "tu-lap-va-nghe-nghiep",
+      "age": "adult",
+      "category": "skills",
+      "title": "Tự lập: thử nghề, học suốt đời và lập kế hoạch",
+      "goal": "Xây dựng lộ trình học và trải nghiệm thực tế thay vì chọn nghề theo trào lưu.",
+      "knowledge": "Năng lực lập kế hoạch, tự điều chỉnh và thích nghi tiếp tục được rèn luyện qua trải nghiệm. Định hướng nghề nên dựa trên giá trị, kỹ năng, cơ hội thực tế và phản hồi, không chỉ dự đoán nghề nào sẽ biến mất vì AI. Phân biệt tên nghề với nhiệm vụ và năng lực. Hướng nghiệp là quyết định có thể điều chỉnh, không phải dự báo chắc chắn.",
+      "practice": "Chọn hai nghề để tìm hiểu yêu cầu tuyển dụng, phỏng vấn người làm nghề và thử một dự án nhỏ. Đặt mục tiêu học trong bốn tuần, kiểm tra kết quả mỗi tuần; điều chỉnh khi có bằng chứng mới. Chọn hai mô tả công việc đã xác minh, ghi ba nhiệm vụ, hai kỹ năng chung, một điểm chưa rõ. Soạn CV một trang từ dự án thật, tập giải thích một quyết định và nhận phản hồi. Không thêm thành tích AI bịa, không gửi CCCD cho người tuyển lạ.",
+      "reflection": "Điều gì mình thích làm, điều gì cần học thêm, và có bằng chứng nào cho lựa chọn? Kỹ năng nào có bằng chứng? Kỹ năng nào cần luyện bốn tuần? Nêu phương án dự phòng.",
+      "sourceIds": [
+        "life",
+        "ai",
+        "q04f_life",
+        "q04f_career",
+        "q04f_ai"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "tai-chinh-tu-lap",
+      "age": "adult",
+      "category": "finance",
+      "title": "Tài chính tự lập: thu nhập, chi phí và dự phòng",
+      "goal": "Thực hành kế hoạch sống khi bắt đầu học hoặc làm xa nhà.",
+      "knowledge": "Tách chi phí thiết yếu, khoản linh hoạt và dự phòng; xem xét nghĩa vụ trước khi cam kết trả góp hoặc vay. Hiểu rằng rủi ro và khả năng chi trả khác nhau giữa mỗi người. Đây là bài tập giáo dục, không phải tư vấn đầu tư. Tách tiền đã nhận và khoản kỳ vọng, chi thường xuyên và chi một lần. CFPB có công cụ theo dõi thu nhập, hóa đơn; không áp luật tín dụng Mỹ cho Việt Nam.",
+      "practice": "Dùng bảng ngân sách giả lập tháng đầu đi làm: tiền nhà, ăn, đi lại, học, dự phòng. Thử kịch bản thu nhập giảm và phát sinh chi phí. Đọc điều khoản trước khi ký hợp đồng tài chính. Giả định thu 7 triệu, thuê 2,2 triệu, ăn 1,8 triệu, đi lại 600 nghìn, học 500 nghìn, dự phòng 900 nghìn, còn 1 triệu. Nếu phát sinh 800 nghìn, còn 200 nghìn; nếu thu giảm thêm 1 triệu, thiếu 800 nghìn. Xem chi nào hoãn, không vay vì bị thúc ép.",
+      "reflection": "Khoản nào có thể điều chỉnh, khoản nào bắt buộc? Ai có thể giúp kiểm tra điều khoản? Đã tính cọc và tổng phí trả góp chưa? Dùng kịch bản giấy, không giao dịch thật.",
+      "sourceIds": [
+        "finance",
+        "q04f_finance",
+        "q04f_scam"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "tu-chu-va-ket-noi",
+      "age": "adult",
+      "category": "psych",
+      "title": "Tự chủ, ranh giới và kết nối với gia đình",
+      "goal": "Duy trì quan hệ tôn trọng khi con bắt đầu tự quyết định.",
+      "knowledge": "Bước vào đời có thể đi kèm thay đổi học tập, công việc, quan hệ và nơi sống. Tự lập không nhất thiết cắt đứt kết nối; trao đổi về kỳ vọng, hỗ trợ và giới hạn giúp giảm hiểu lầm. Khi căng thẳng ảnh hưởng sinh hoạt, tìm hỗ trợ thích hợp. Quyền tự quyết đi cùng hỗ trợ tự nguyện; không cần chia sẻ mật khẩu hoặc vị trí để chứng minh lòng tin.",
+      "practice": "Thống nhất cách liên lạc và hỗ trợ tài chính hoặc tinh thần mà cả hai bên chấp nhận. Tập nói rõ nhu cầu bằng câu bắt đầu từ bản thân, lắng nghe khác biệt và xem lại thỏa thuận sau một tháng. Viết ba nhóm: việc tự quyết, việc cùng bàn vì dùng nguồn lực chung, việc muốn hỏi chuyên môn. Thử nói về lịch gọi và tiền hỗ trợ không đòi từ bỏ riêng tư. Nếu bị đe dọa, bỏ qua đối thoại và tìm hỗ trợ.",
+      "reflection": "Mình muốn tự quyết việc gì, cần hỗ trợ việc gì, và giới hạn nào cần được tôn trọng? Thỏa thuận có thể sửa không? Ai đáng tin ngoài gia đình nếu cần giúp?",
+      "sourceIds": [
+        "life",
+        "mental",
+        "q04f_mental",
+        "q04f_violence"
+      ],
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import Fastify from "fastify";
+import {registerMedia} from "./media-routes.js";
+import type {MediaService} from "./media-service.js";
+import {readWebp,PrivateMediaStorage} from "./media-storage.js";
+
+test("media read and write roles fail closed; preview cannot upload; reviewer cannot upload",async()=>{
+ const keys=["DEV_CONTENT_PREVIEW_TOKEN","MEDIA_DEV_EDITOR_TOKEN","MEDIA_DEV_REVIEWER_TOKEN"] as const;
+ const before=keys.map(k=>process.env[k]);
+ const [p,e,r]=["p".repeat(40),"e".repeat(40),"r".repeat(40)];
+ process.env[keys[0]]=p;process.env[keys[1]]=e;process.env[keys[2]]=r;
+ const app=Fastify();
+ let uploads=0,reviews=0;
+ const service={active:async()=>[],history:async()=>({}),preview:async()=>({}),upload:async()=>{uploads++;return {};},review:async()=>{reviews++;return {};}} as unknown as MediaService;
+ registerMedia(app,service);
+ const url="/v1/dev-media-admin/article";
+ try{
+  assert.equal((await app.inject({url:"/v1/dev-preview/media/article"})).statusCode,404);
+  assert.equal((await app.inject({url:"/v1/dev-preview/media/article",headers:{"x-preview-token":p}})).statusCode,200);
+  for(const token of [p,r])assert.equal((await app.inject({method:"POST",url:url+"/upload",headers:{authorization:"Bearer "+token},payload:{}})).statusCode,404);
+  assert.equal((await app.inject({method:"POST",url:url+"/review",headers:{authorization:"Bearer "+e},payload:{}})).statusCode,404);
+  assert.equal((await app.inject({method:"POST",url:url+"/upload",headers:{authorization:"Bearer "+e},payload:{}})).statusCode,200);
+  assert.equal((await app.inject({method:"POST",url:url+"/review",headers:{authorization:"Bearer "+r},payload:{}})).statusCode,200);
+  assert.equal(uploads,1);assert.equal(reviews,1);
+  process.env[keys[1]]=p;
+  assert.equal((await app.inject({method:"POST",url:url+"/upload",headers:{authorization:"Bearer "+p},payload:{}})).statusCode,404);
+ }finally{await app.close();keys.forEach((k,i)=>{if(before[i]===undefined)delete process.env[k];else process.env[k]=before[i];});}
+});
+test("image validation rejects arbitrary text, SVG and oversized payloads",()=>{
+ for(const v of ["bad",Buffer.from("<svg/>").toString("base64"),"A".repeat(3000000)])assert.throws(()=>readWebp(v));
+});
+test("signed URL refuses external destination",async()=>{
+ const fetcher=(async()=>new Response(JSON.stringify({signedURL:"https://evil.example/x?token=abc"}))) as typeof fetch;
+ const storage=new PrivateMediaStorage("https://example.supabase.co","test",fetcher);
+ await assert.rejects(()=>storage.signedUrl("a".repeat(64)+".webp"),/STORAGE_SIGN_FAILED/);
+});
+
+test("reader binary routes deny unauthenticated access and only expose authorized bytes",async()=>{
+ const before=process.env.DEV_CONTENT_PREVIEW_TOKEN;const token="p".repeat(40);
+ process.env.DEV_CONTENT_PREVIEW_TOKEN=token;
+ const app=Fastify();let calls=0;
+ const service={activeImage:async()=>{calls++;return {bytes:Buffer.from("test"),mime:"image/webp",id:"a".repeat(64)};},catalogImage:async()=>{calls++;return {bytes:Buffer.from("test"),mime:"image/svg+xml",id:"b".repeat(64)};}} as unknown as MediaService;
+ registerMedia(app,service);
+ try{for(const path of ["/v1/dev-preview/media/article/cover","/v1/dev-preview/media-catalog/editorial-hero.svg","/v1/dev-preview/media-catalog/lifestyle-hero.webp"]){
+  assert.equal((await app.inject(path)).statusCode,404);
+  const r=await app.inject({url:path,headers:{"x-preview-token":token}});
+  assert.equal(r.statusCode,200);assert.equal(r.payload,"test");assert.equal(r.headers["x-content-type-options"],"nosniff");assert.match(String(r.headers["cache-control"]),/no-store/);
+ }assert.equal(calls,3);}finally{await app.close();if(before===undefined)delete process.env.DEV_CONTENT_PREVIEW_TOKEN;else process.env.DEV_CONTENT_PREVIEW_TOKEN=before;}
+});
+
+test("CMS session, catalog and historical bytes require media role",async()=>{
+ const keys=["DEV_CONTENT_PREVIEW_TOKEN","MEDIA_DEV_EDITOR_TOKEN","MEDIA_DEV_REVIEWER_TOKEN"] as const;
+ const old=keys.map(k=>process.env[k]);const [p,e,r]=["p".repeat(40),"e".repeat(40),"r".repeat(40)];
+ keys.forEach((k,i)=>process.env[k]=[p,e,r][i]);
+ const app=Fastify();
+ let catalog=0,images=0;
+ const service={adminCatalog:async()=>{catalog++;return {items:[],progress:{target:65,upgraded:0}};},revisionImage:async()=>{images++;return {bytes:Buffer.from("test"),mime:"image/webp",id:"a".repeat(64)};}} as unknown as MediaService;
+ registerMedia(app,service);
+ try{
+  for(const path of ["session","catalog","article/image/cover/1"]){
+   const url="/v1/dev-media-admin/"+path;
+   for(const token of ["",p])assert.equal((await app.inject({url,headers:{authorization:"Bearer "+token}})).statusCode,404);
+   for(const [token,role] of [[e,"editor"],[r,"reviewer"]]){
+    const res=await app.inject({url,headers:{authorization:"Bearer "+token}});assert.equal(res.statusCode,200);assert.match(String(res.headers["cache-control"]),/no-store/);
+    if(path==="session")assert.equal(res.json().data.role,role);
+    if(path.includes("/image/"))assert.equal(res.headers["x-media-asset"],"a".repeat(64));
+   }
+  }
+  assert.equal(catalog,2);assert.equal(images,2);
+  assert.equal((await app.inject({url:"/v1/dev-media-admin/article/image/cover/0",headers:{authorization:"Bearer "+e}})).statusCode,404);
+ }finally{await app.close();keys.forEach((k,i)=>{if(old[i]===undefined)delete process.env[k];else process.env[k]=old[i];});}
+});

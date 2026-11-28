@@ -1,0 +1,57 @@
+name: Mother & Baby - UX09 Baseline Audit
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - '.github/workflows/mebe-ux09-audit.yml'
+      - 'projects/hanh-trinh-me-be/scripts/ux09-audit.mjs'
+      - 'projects/hanh-trinh-me-be/docs/ux-redesign-v2/ux-09-budgets.json'
+permissions:
+  contents: read
+jobs:
+  baseline:
+    if: >-
+      github.repository == 'kios-saks/demo' &&
+      ((github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/hanh-trinh-me-be-ecosystem') ||
+       (github.event_name == 'pull_request' && github.event.pull_request.number == 1 &&
+        github.event.pull_request.head.repo.full_name == github.repository &&
+        github.event.pull_request.head.ref == 'feat/hanh-trinh-me-be-ecosystem' &&
+        github.event.pull_request.base.ref == 'main'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: projects/hanh-trinh-me-be
+    env:
+      MEBE_UX09_ORIGIN: https://hanh-trinh-me-be-web-jn5v.onrender.com
+      MEBE_UX09_MODE: baseline
+      MEBE_UX09_DEPS: /tmp/mebe-ux09
+      MEBE_UX09_OUTPUT: /tmp/mebe-ux09-evidence
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated, pinned audit tools
+        run: |
+          npm install --prefix /tmp/mebe-ux09 --no-audit --no-fund --no-save --package-lock=false playwright@1.56.1 axe-core@4.10.3 lighthouse@12.8.2 chrome-launcher@1.2.0
+          /tmp/mebe-ux09/node_modules/.bin/playwright install --with-deps chromium
+          node --check scripts/ux09-audit.mjs
+      - name: Capture accessibility baseline, screenshots and slow network
+        run: MEBE_UX09_PHASE=axe node scripts/ux09-audit.mjs
+      - name: Capture warm lab baseline (3 runs per route/device)
+        if: always() && !cancelled()
+        run: MEBE_UX09_PHASE=lab node scripts/ux09-audit.mjs
+      - name: Retain audit JSON and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ux09-baseline-${{ github.run_id }}-${{ github.run_attempt }}
+          path: /tmp/mebe-ux09-evidence/
+          if-no-files-found: error
+          retention-days: 14

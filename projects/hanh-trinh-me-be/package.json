@@ -1,0 +1,33 @@
+{
+  "name": "hanh-trinh-me-be",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run generate:media && npm run dev -w @mebe/web",
+    "dev:api": "npm run dev -w @mebe/api",
+    "dev:mobile": "npm run start -w @mebe/mobile",
+    "build:web": "npm run generate:media && npm run build -w @mebe/web",
+    "test": "npm run test -w @mebe/api && npm run test:reader-local && npm run check:content",
+    "check:content": "npm run generate:media && npm run check:depth && node scripts/check-content.mjs && npm run check:media && npm run check:mock && npm run media:import -w @mebe/api",
+    "check:mock": "node scripts/check-mock-data.mjs",
+    "db:migrate": "npm run db:migrate -w @mebe/api",
+    "db:seed": "npm run db:seed -w @mebe/api",
+    "test:postgres": "npm run test:postgres -w @mebe/api",
+    "db:status": "npm run db:status -w @mebe/api",
+    "test:db-routing": "npm run test:db-routing -w @mebe/api",
+    "generate:media": "node scripts/generate-media.mjs && node scripts/check-lifestyle-media.mjs",
+    "check:media": "node scripts/check-media-ratio.mjs && node scripts/check-lifestyle-media.mjs",
+    "generate:depth": "node scripts/expand-depth-content.mjs",
+    "check:depth": "node scripts/expand-depth-content.mjs --check",
+    "test:reader-local": "node scripts/test-reader-local-privacy.mjs",
+    "build:dev:combined": "node scripts/combined-dev.mjs build",
+    "start:dev:combined": "node scripts/combined-dev.mjs start",
+    "test:dev:combined": "node --test scripts/combined-dev.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

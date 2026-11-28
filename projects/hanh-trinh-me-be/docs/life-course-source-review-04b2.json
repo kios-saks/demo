@@ -1,0 +1,163 @@
+[
+  {
+    "id": "newborn",
+    "name": "WHO — Caring for a newborn",
+    "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns",
+    "status": "opened",
+    "scope": "Chăm sóc, bú theo nhu cầu, giữ rốn khô và dấu hiệu cần khám.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/caring-for-newborns"
+    ]
+  },
+  {
+    "id": "sleep",
+    "name": "CDC — Providing Care for Babies to Sleep Safely",
+    "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+    "status": "opened",
+    "scope": "Nằm ngửa, bề mặt phẳng chắc, chỗ ngủ riêng cùng phòng, không vật mềm.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/sudden-infant-death/sleep-safely"
+    ]
+  },
+  {
+    "id": "feed",
+    "name": "WHO Việt Nam — Infant and young child feeding",
+    "url": "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding",
+    "status": "opened",
+    "scope": "Bú mẹ, ăn bổ sung từ 6 tháng và ăn đáp ứng.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/vietnam/news/fact-sheets/detail/infant-and-young-child-feeding"
+    ]
+  },
+  {
+    "id": "fever",
+    "name": "NHS — High temperature in children",
+    "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+    "status": "opened",
+    "scope": "Trẻ dưới 3 tháng sốt từ 38°C cần đánh giá khẩn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "solid",
+    "name": "NHS — Your baby's first solid foods",
+    "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/",
+    "status": "opened",
+    "scope": "Dấu hiệu sẵn sàng, bắt đầu khoảng 6 tháng, sữa vẫn quan trọng.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods"
+    ]
+  },
+  {
+    "id": "food",
+    "name": "NHS — Preparing food safely for babies",
+    "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/",
+    "status": "opened",
+    "scope": "Kích thước, độ mềm, hình dạng thức ăn.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely"
+    ]
+  },
+  {
+    "id": "avoid",
+    "name": "NHS — Foods and drinks to avoid",
+    "url": "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid/",
+    "status": "opened",
+    "scope": "Mật ong trước 12 tháng và thực phẩm không phù hợp.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-and-drinks-to-avoid"
+    ]
+  },
+  {
+    "id": "choke",
+    "name": "NHS — How to stop a child from choking",
+    "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/",
+    "status": "opened",
+    "scope": "Ho hiệu quả, tắc đường thở, sơ cứu theo tuổi; không móc mù.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": []
+  },
+  {
+    "id": "m2",
+    "name": "CDC — Milestones by 2 Months",
+    "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+    "status": "opened",
+    "scope": "Mốc đa số trẻ, không thay sàng lọc.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/2-months.html"
+    ]
+  },
+  {
+    "id": "m6",
+    "name": "CDC — Milestones by 6 Months",
+    "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+    "status": "opened",
+    "scope": "Quan sát, tương tác, vận động và câu hỏi bác sĩ.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/6-months.html"
+    ]
+  },
+  {
+    "id": "m12",
+    "name": "CDC — Milestones by 1 Year",
+    "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+    "status": "opened",
+    "scope": "Mốc một tuổi, không chẩn đoán.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.cdc.gov/act-early/milestones/1-year.html"
+    ]
+  },
+  {
+    "id": "ecd",
+    "name": "WHO — Improving early childhood development",
+    "url": "https://www.who.int/publications/i/item/97892400020986",
+    "status": "opened-overview",
+    "scope": "Trang tổng quan chăm sóc đáp ứng, học sớm; chưa đọc PDF.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.who.int/publications/i/item/97892400020986"
+    ]
+  },
+  {
+    "id": "play",
+    "name": "UNICEF — Learning activities for babies and toddlers",
+    "url": "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers",
+    "status": "opened",
+    "scope": "Trò chơi tương tác theo khả năng.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/parenting/child-care/21-learning-activities-babies-and-toddlers"
+    ]
+  },
+  {
+    "id": "playVn",
+    "name": "UNICEF Việt Nam — Indoor games",
+    "url": "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development",
+    "status": "opened",
+    "scope": "Gợi ý chơi trong nhà.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://www.unicef.org/vietnam/indoor-games-support-your-childs-development"
+    ]
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard — Brain-Building Through Play",
+    "url": "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay/",
+    "status": "opened",
+    "scope": "Trò chơi phù hợp tuổi và tương tác.",
+    "checkedOn": "2026-11-26",
+    "baselineMatches": [
+      "https://developingchild.harvard.edu/resources/handouts-tools/brainbuildingthroughplay"
+    ]
+  }
+]
