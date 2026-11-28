@@ -1,14 +1,18 @@
 import {createHash} from "node:crypto";
 import {request as httpsRequest} from "node:https";
+import {createReadLane,ReadLaneError} from "./read-lane";
+import {openDevReader} from "./open-dev-reader";
 
 type Buffered={status:number;headers:[string,string][];body:Uint8Array};
 type Options={budgetMs?:number;attemptMs?:number;maxBytes?:number;accept?:RegExp};
-type Dependencies={fetcher?:typeof fetch;readinessFetcher?:typeof fetch;now?:()=>number;sleep?:(ms:number)=>Promise<void>;diagnostic?:(event:string,data:Record<string,number|string>)=>void};
+type Dependencies={fetcher?:typeof fetch;readinessFetcher?:typeof fetch;now?:()=>number;sleep?:(ms:number)=>Promise<void>;diagnostic?:(event:string,data:Record<string,number|string>)=>void;mediaLaneEnabled?:()=>boolean};
 const transient=(s:number)=>[502,503,504].includes(s);
 const json=/^application\/json(?:;|$)/i;
 const retryable=(e:unknown)=>e instanceof BackendUnavailable||e instanceof TypeError||e instanceof DOMException&&(e.name==="TimeoutError"||e.name==="AbortError");
 export class BackendUnavailable extends Error{constructor(readonly reason="UNAVAILABLE",readonly status=0){super("Backend temporarily unavailable");this.name="BackendUnavailable";}}
-function transportKind(error:unknown){
+export function transportKind(error:unknown){
+ if(error instanceof ReadLaneError)return error.reason;
+ if(error instanceof InvalidBody)return "BODY_TOO_LARGE";
  if(error instanceof BackendUnavailable)return error.reason;
  if(error instanceof SyntaxError)return "INVALID_JSON";
  if(error instanceof DOMException&&["TimeoutError","AbortError"].includes(error.name))return "TIMEOUT";
@@ -50,6 +54,9 @@ class InvalidBody extends Error{constructor(){super("Backend response too large"
 export function createBackendReader(deps:Dependencies={}){
  const now=deps.now||Date.now,sleep=deps.sleep||((ms:number)=>new Promise<void>(r=>setTimeout(r,ms)));
  const inflight=new Map<string,Promise<Buffered>>();
+ const mediaFlights=new Map<string,Promise<Buffered>>();
+ const mediaLane=createReadLane(6,80);
+ const laneEnabled=deps.mediaLaneEnabled||openDevReader;
  const readiness=new Map<string,Promise<void>>();
  const fetcher=deps.fetcher||((input,init)=>fetch(input,init));
  const diagnostic=deps.diagnostic||((event,data)=>{if(process.env.RENDER==="true")console.info(event,JSON.stringify(data));});
@@ -108,8 +115,7 @@ export function createBackendReader(deps:Dependencies={}){
   await flight;
   remaining(deadline);
  }
- async function execute(url:URL,headers:Headers,o:Required<Options>):Promise<Buffered>{
-  const deadline=now()+o.budgetMs;
+ async function execute(url:URL,headers:Headers,o:Required<Options>,deadline=now()+o.budgetMs):Promise<Buffered>{
   let delay=500;
   for(;;){
    try{return await once(url.href,headers,deadline,o.attemptMs,o.maxBytes,o.accept);}
@@ -128,12 +134,25 @@ export function createBackendReader(deps:Dependencies={}){
   const headers=new Headers(headersInit);
   const o={budgetMs:options.budgetMs??65000,attemptMs:options.attemptMs??20000,maxBytes:options.maxBytes??3*1024*1024,accept:options.accept??json};
   const key=createHash("sha256").update(JSON.stringify([target.href,Array.from(headers.entries()),o.budgetMs,o.attemptMs,o.maxBytes,o.accept.source,o.accept.flags])).digest("hex");
-  let flight=inflight.get(key);
+  // Only authorized internal preview binary paths use the separate DEV lane.
+  // Metadata, CMS, search, public and family traffic keep the original reader.
+  const media=laneEnabled()&&headers.has("x-preview-token")&&
+    /^\/v1\/dev-preview\/(?:media-catalog\/[a-z0-9-]{1,180}\.(?:webp|svg)|media\/[a-z0-9-]{1,160}\/(?:cover|inline))$/.test(target.pathname);
+  const flights=media?mediaFlights:inflight;
+  let flight=flights.get(key);
   if(!flight){
-   // Bound memory/concurrency for unique requests, including attacker-supplied CMS credentials.
-   if(inflight.size>=32)throw new BackendUnavailable();
-   flight=execute(target,headers,o);inflight.set(key,flight);
-   void flight.finally(()=>{if(inflight.get(key)===flight)inflight.delete(key);}).catch(()=>{});
+   const start=now(),deadline=start+o.budgetMs;
+   if(!media&&inflight.size>=32){
+    diagnostic("BACKEND_READ_REJECTED",{lane:"content",kind:"INFLIGHT_LIMIT",active:inflight.size});
+    throw new BackendUnavailable("INFLIGHT_LIMIT");
+   }
+   const task=()=>execute(target,headers,o,deadline);
+   flight=media?mediaLane.run(task,Math.max(0,deadline-now())):task();
+   flights.set(key,flight);
+   void flight.then(()=>{},e=>{
+    diagnostic("BACKEND_READ_FAILED",{lane:media?"media":"content",kind:transportKind(e),status:e instanceof BackendUnavailable?e.status:0,elapsedMs:now()-start,active:media?mediaLane.stats().active:inflight.size,queued:media?mediaLane.stats().queued:0});
+   }).catch(()=>{});
+   void flight.finally(()=>{if(flights.get(key)===flight)flights.delete(key);}).catch(()=>{});
   }
   const result=await flight;
   return new Response([204,205,304].includes(result.status)?null:new Uint8Array(result.body),{status:result.status,headers:result.headers});
