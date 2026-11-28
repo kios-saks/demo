@@ -1,4 +1,4 @@
-import {readBackend} from "./backend-reader";
+import {readBackend,transportKind,BackendUnavailable} from "./backend-reader";
 import {createHash} from "node:crypto";
 import {requirePreviewLogin,safeMediaPath} from "./dev-preview";
 
@@ -47,9 +47,13 @@ export async function proxyMedia(request:Request,key:string,slot:string):Promise
   if(!slugOk(key)||!["cover","inline"].includes(slot)||revision!==null&&!/^[1-9][0-9]{0,8}$/.test(revision))return new Response("Not found",{status:404,headers});
   path="media/"+key+"/"+slot+(revision===null?"":"?revision="+revision);
  }
+ const started=Date.now(),category=key==="catalog"?"catalog":slot;
  try{
   const res=await upstream(path);
-  if(!res.ok)return new Response("Media unavailable",{status:[404,409].includes(res.status)?res.status:503,headers});
+  if(!res.ok){
+   if(![404,409].includes(res.status))console.warn("DEV_DYNAMIC_MEDIA_UNAVAILABLE",JSON.stringify({category,kind:"UPSTREAM_HTTP",status:res.status,elapsedMs:Date.now()-started}));
+   return new Response("Media unavailable",{status:[404,409].includes(res.status)?res.status:503,headers});
+  }
   const mime=res.headers.get("content-type")?.split(";")[0]||"",id=res.headers.get("x-media-asset")||"";
   if(!["image/webp","image/svg+xml","image/png","image/jpeg"].includes(mime)||!/^[a-f0-9]{64}$/.test(id))throw Error("MEDIA_RESPONSE");
   const length=Number(res.headers.get("content-length")||0);if(length>2097152)throw Error("MEDIA_SIZE");
@@ -58,5 +62,9 @@ export async function proxyMedia(request:Request,key:string,slot:string):Promise
   try{for(;;){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>2097152){await reader.cancel();throw Error("MEDIA_SIZE");}chunks.push(value);}}finally{reader.releaseLock();}
   const bytes=Buffer.concat(chunks);if(createHash("sha256").update(bytes).digest("hex")!==id)throw Error("MEDIA_CHECKSUM");
   return new Response(new Uint8Array(bytes),{headers:{...headers,"Content-Type":mime,"X-Media-Asset":id}});
- }catch{console.warn("DEV_DYNAMIC_MEDIA_UNAVAILABLE");return new Response("Media unavailable",{status:503,headers});}
+ }catch(error){
+  const kind=error instanceof Error&&["MEDIA_CONFIG","MEDIA_ORIGIN","MEDIA_RESPONSE","MEDIA_SIZE","MEDIA_BODY","MEDIA_CHECKSUM"].includes(error.message)?error.message:transportKind(error);
+  console.warn("DEV_DYNAMIC_MEDIA_UNAVAILABLE",JSON.stringify({category,kind,status:error instanceof BackendUnavailable?error.status:0,elapsedMs:Date.now()-started}));
+  return new Response("Media unavailable",{status:503,headers});
+ }
 }
