@@ -157,3 +157,6 @@ jobs:
       - name: UX-09 Compatibility Browser Smoke
         if: env.MEBE_UX09_LIVE == 'true'
         run: node scripts/course-compat-browser-smoke.mjs
+      - name: UX-09 Library Browser Smoke and hero integrity
+        if: env.MEBE_UX09_LIVE == 'true'
+        run: node scripts/library-priority-browser-smoke.mjs
